@@ -1,0 +1,6 @@
+{
+	"images" : [
+		{ "frame" : 0, "file" : "bookmarks/lightBookmark02.png" },
+		{ "frame" : 1, "file" : "bookmarks/lightBookmark01.png" }
+	]
+}

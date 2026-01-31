@@ -1,0 +1,96 @@
+{
+	"core:marketOfTime" : {
+		"types" : {
+			"marketOfTime" : {
+				"rewards" : {
+					"appendItems" : [ {
+						"limiter" : {
+							"secondary" : {
+								"lightMagic" : 1
+							},
+							"resources" : {
+								"gold" : 5000
+							}
+						},
+						"secondary" : {
+							"lightMagic" : -3
+						},
+						"resources" : {
+							"gold" : -5000
+						},
+						"message" : "{Market of Time}\n\nYou step into the Market of Time, where the keeper of time greets you solemnly.\n\n\"Only one memory remains... I can help you let go of this last skill—if you so choose.\"" 
+					},
+					{
+						"limiter" : {
+							"secondary" : {
+								"darkMagic" : 1
+							},
+							"resources" : {
+								"gold" : 5000
+							}
+						},
+						"secondary" : {
+							"darkMagic" : -3
+						},
+						"resources" : {
+							"gold" : -5000
+						},
+						"message" : "{Market of Time}\n\nYou step into the Market of Time, where the keeper of time greets you solemnly.\n\n\"Only one memory remains... I can help you let go of this last skill—if you so choose.\""
+					},
+					{
+						"limiter" : {
+							"secondary" : {
+								"gating" : 1
+							},
+							"resources" : {
+								"gold" : 5000
+							}
+						},
+						"secondary" : {
+							"gating" : -3
+						},
+						"resources" : {
+							"gold" : -5000
+						},
+						"message" : "{Market of Time}\n\nYou step into the Market of Time, where the keeper of time greets you solemnly.\n\n\"Only one memory remains... I can help you let go of this last skill—if you so choose.\""
+					},
+					{
+						"limiter" : {
+							"secondary" : {
+								"gatingDevilSpec" : 1
+							},
+							"resources" : {
+								"gold" : 5000
+							}
+						},
+						"secondary" : {
+							"gatingDevilSpec" : -3
+						},
+						"resources" : {
+							"gold" : -5000
+						},
+						"message" : "{Market of Time}\n\nYou step into the Market of Time, where the keeper of time greets you solemnly.\n\n\"Only one memory remains... I can help you let go of this last skill—if you so choose.\""
+					},
+					{
+						"limiter" : {
+							"secondary" : {
+								"gatingNightmareSpec" : 1
+							},
+							"resources" : {
+								"gold" : 5000
+							}
+						},
+						"secondary" : {
+							"gatingNightmareSpec" : -3
+						},
+						"resources" : {
+							"gold" : -5000
+						},
+						"message" : "{Market of Time}\n\nYou step into the Market of Time, where the keeper of time greets you solemnly.\n\n\"Only one memory remains... I can help you let go of this last skill—if you so choose.\""
+					}
+					]
+				}
+			}
+		}
+	}
+}

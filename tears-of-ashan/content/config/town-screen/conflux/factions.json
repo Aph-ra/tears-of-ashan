@@ -1,0 +1,126 @@
+{
+	"core:conflux" : {
+		"town" : {
+			"hallBackground": "TPTHBKTW",
+			"buildingsIcons": "town-screen/conflux/ALTHALLELEM.DEF",
+			
+			"creatures" : [
+				["pixie", "sprite", "faerieAU"],
+				["airElemental", "stormElemental", "hurricaneElementalAU"],
+				["waterElemental", "iceElemental", "frostElementalAU"],
+				["fireElemental", "energyElemental", "plasmaElementalAU"],
+				["earthElemental", "magmaElemental", "lavaElementalAU"],
+				["psychicElemental", "magicElemental", "astralElementalAU"],
+				["firebird", "phoenix", "sacredPhoenixAU"]
+			],
+		
+			"structures" : {
+				"horde1Upgr2": {  "animation" : "town-screen/cyan",    "x" : 689, "y" : 250, "z" : 9, "border" : "TOELHrd2.PCX", "area" : "town-screen/cyan", "hidden" : true, "builds" : "horde1Upgr" },
+				"dwellingUp2Lvl1": { "animation" : "town-screen/cyan", "x" : 689, "y" : 250, "z" : 9, "border" : "TOELUP_0.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl2": { "animation" : "town-screen/cyan", "x" : 630, "y" : 50,  "z" : 0, "border" : "TOELUP_1.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl3": { "animation" : "town-screen/cyan", "x" : 709, "y" : 210, "z" : 5, "border" : "TOELUP_2.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl4": { "animation" : "town-screen/cyan", "x" : 108, "y" : 131, "z" : 1, "border" : "TOELUP_3.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl5": { "animation" : "town-screen/cyan", "x" : 264, "y" : 168, "z" : 0, "border" : "TOELUP_4.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl6": { "animation" : "town-screen/cyan", "x" : 394, "y" : 283, "z" : 9, "border" : "TOELUP_5.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl7": { "animation" : "town-screen/cyan", "x" : 34,  "y" : 0,   "z" : 0, "border" : "TOELUP_6.PCX", "area" : "town-screen/cyan" },
+				"hordePhoenixUpgr2": { "animation" : "hota/TBELHrd4.def", "border" : "hota/phoenixHordeUpgradedBorder.png", "area" : "hota/phoenixHordeUpgradedArea.png", "x" : 685, "y" : 105, "z" : 1},
+				"dwellingUpLvl7": { "x" : 43,  "y" : 0,   "z" : 0 }
+			},
+			
+			"buildings" : {
+				"horde1" : {
+					"description" : "The Garden of Life increases Pixie production by 6 per week."
+				},
+				"horde1Upgr" : {
+					"description" : "The Garden of Life increases Sprite and Faerie production by 6 per week."
+				},
+				"horde1Upgr2" : {
+					"name" : "Garden of Life",
+					"description" : "The Garden of Life increases Sprite and Faerie production by 6 per week.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["horde1Upgr"] ]
+				},
+				"hordePhoenix" : {
+					"description" : "The Vault of Ashes increases Firebird production by 1 per week.",
+					"cost" : {"gold" : 5000, "mercury" : 10}
+				},
+				"hordePhoenixUpgr" : {
+					"description" : "The Vault of Ashes increases Phoenix and Sacred Phoenix production by 1 per week.",
+				},
+				"hordePhoenixUpgr2" : {
+					"name" : "Vault of Ashes",
+					"description" : "The Vault of Ashes increases Phoenix and Sacred Phoenix production by 1 per week.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["hordePhoenixUpgr"] ],
+					"id" : 110
+				},
+				"dwellingUpLvl1" : {
+					"description" : "The Magic Lantern allows you to recruit Sprites and Faeries."
+				},
+				"dwellingUp2Lvl1" : {
+					"name" : "Upg. Magic Lantern",
+					"description" : "The Magic Lantern allows you to recruit Sprites and Faeries.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl1"] ]
+				},
+				"dwellingUpLvl2" : {
+					"description" : "The Altar of Air allows you to recruit Storm Elementals and Hurricane Elementals."
+				},
+				"dwellingUp2Lvl2" : {
+					"name" : "Upg. Altar of Air",
+					"description" : "The Altar of Air allows you to recruit Storm Elementals and Hurricane Elementals.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl2"] ]
+				},
+				"dwellingUpLvl3" : {
+					"description" : "The Altar of Water allows you to recruit Ice Elementals and Frost Elementals."
+				},
+				"dwellingUp2Lvl3" : {
+					"name" : "Upg. Altar of Water",
+					"description" : "The Altar of Water allows you to recruit Ice Elementals and Frost Elementals.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl3"] ]
+				},
+				"dwellingUpLvl4" : {
+					"description" : "The Altar of Fire allows you to recruit Energy Elementals and Plasma Elementals."
+				},
+				"dwellingUp2Lvl4" : {
+					"name" : "Upg. Altar of Fire",
+					"description" : "The Altar of Fire allows you to recruit Energy Elementals and Plasma Elementals.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl4"] ]
+				},
+				"dwellingUpLvl5" : {
+					"description" : "The Altar of Earth allows you to recruit Magma Elementals and Lava Elementals."
+				},
+				"dwellingUp2Lvl5" : {
+					"name" : "Upg. Altar of Earth",
+					"description" : "The Altar of Earth allows you to recruit Magma Elementals and Lava Elementals.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl5"] ]
+				},
+				"dwellingUpLvl6" : {
+					"description" : "The Altar of Thought allows you to recruit Magic Elementals and Astral Elementals."
+				},
+				"dwellingUp2Lvl6" : {
+					"name" : "Upg. Altar of Thought",
+					"description" : "The Altar of Thought allows you to recruit Magic Elementals and Astral Elementals.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl6"] ]
+				},
+				"dwellingLvl7" : {
+					"description" : "The Pyre allows you to recruit Firebirds."
+				},
+				"dwellingUpLvl7" : {
+					"description" : "The Pyre allows you to recruit Phoenixes and Sacred Phoenixes."
+				},
+				"dwellingUp2Lvl7" : {
+				"name" : "Upg. Pyre",
+					"description" : "The Pyre allows you to recruit Phoenixes and Sacred Phoenixes.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl7"] ]
+				}
+			}
+		}
+	}	
+}

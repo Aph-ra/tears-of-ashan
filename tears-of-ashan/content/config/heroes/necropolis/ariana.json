@@ -1,0 +1,58 @@
+{
+	"ariana" : {
+		"class" : "plaguespreader",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [ "sorrow" ],
+		"texts" : {
+			"name" : "Ariana",
+			"biography" : "Once, Ariana was a Necromancer, but seduced by the power of the Void, she betrayed the cult of the Spider Queen and struck a deal with the Netherlord Sandro. She shares Sandro's goal of destroying all of creation, though she never truly understood his motivations and how dangerous the Void really is. Above all, she is attracted by the tremendous powers the Void offers to those who embrace it. She has met Vein before, though the magic of the Void has a tendency to distort memories. She is cold, calculating, and constantly drunk with her Void-fuelled powers.",
+			"specialty" : {
+				"name" : "Aging",
+				"tooltip" : "Creature Bonus: Aging",
+				"description" : "Allied undead units have a 10% chance to age enemies (Ghost Dragons gain +10% chance on top of their base 20% chance)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/necropolis/ariana/portraitSmall.png",
+			"large" : "heroes/necropolis/ariana/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Aging.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Aging.png"
+		},
+
+		"skills" : [
+			{ "skill" : "necromancy", "level": "basic" },
+			{ "skill" : "darkMagic", "level": "basic" }
+		],
+    
+		"specialty" : {
+			"bonuses" : {
+				"ageAttack" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "spell.age",
+					"val" : 10,
+					"limiters" : [
+						"allOf",
+						"IS_UNDEAD"
+					]
+				}
+			}
+		},
+	
+		"army" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "wight",
+				"min" : 4, "max" : 6
+			}
+		]
+	}
+}

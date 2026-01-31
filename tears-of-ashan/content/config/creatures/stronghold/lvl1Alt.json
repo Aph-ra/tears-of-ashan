@@ -1,0 +1,57 @@
+{
+	"goblinTrapperAU": {
+		"name" : {"singular" : "Goblin Trapper", "plural" : "Goblin Trappers"},
+		"faction" : "stronghold",
+		"level" : 1,
+		"attack" : 4,
+		"defense" : 4,
+		"damage" : {"min" : 1, "max" : 2},
+		"hitPoints" : 5,
+		"speed" : 7,
+		"growth" : 15,
+		"horde" : 8,
+		"aiValue" : 85,
+		"fightValue" : 85,
+		"cost" : {"gold" : 60},
+		"advMapAmount" : {"min" : 20, "max" : 30},
+		"upgrades" : ["core:hobgoblin"],
+		"doubleWide" : false,
+		"abilities": {
+			"castLandMine" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "landMine",
+				"val" : 1,
+				"description" : "{Spellcaster}\nCan cast Basic Land Mine (5% Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/landmine1.png"
+			},
+			"landMinePower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"subtype" : "landMine",
+				"val" : 5
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 1
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/stronghold/battle/lvl1Alt.def",
+			"map" : "creatures/stronghold/map/lvl1Alt.def",
+			"iconSmall" : "creatures/stronghold/iconsSmall/lvl1Alt.png",
+			"iconLarge" : "creatures/stronghold/iconsBig/lvl1Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1.24
+			}
+		},
+		"sound" : {
+			"attack" : "HGOBATTK.wav",
+			"defend" : "HGOBDFND.wav",
+			"killed" : "HGOBKILL.wav",
+			"move" : "HGOBMOVE.wav",
+			"wince" : "HGOBWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"gnollShamanAU": {
+		"name" : {"singular" : "Gnoll Shaman", "plural" : "Gnoll Shamans"},
+		"faction" : "fortress",
+		"level" : 1,
+		"attack" : 3,
+		"defense" : 7,
+		"damage" : {"min" : 2, "max" : 3},
+		"hitPoints" : 6,
+		"speed" : 5,
+		"growth" : 12,
+		"horde" : 6,
+		"aiValue" : 100,
+		"fightValue" : 100,
+		"cost" : {"gold" : 70},
+		"advMapAmount" : {"min" : 20, "max" : 30},
+		"upgrades" : ["core:gnollMarauder"],
+		"doubleWide" : false,
+		"abilities" : {
+			"casts" : {
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"spellPower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"castCurse" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.curse",
+				"val" : 2,
+				"addInfo" : 50,
+				"description" : "{Spellcaster}\n50% chance to cast Advanced Curse (6 Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/curse2.png"
+			},
+			"castWeakness" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.weakness",
+				"val" : 2,
+				"addInfo" : 50,
+				"description" : "{Spellcaster}\n50% chance to cast Advanced Weakness (6 Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/weakness2.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/fortress/battle/lvl1Alt.def",
+			"map" : "creatures/fortress/map/lvl1Alt.def",
+			"iconSmall" : "creatures/fortress/iconsSmall/lvl1Alt.png",
+			"iconLarge" : "creatures/fortress/iconsBig/lvl1Alt.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "GNLMATTK.wav",
+			"defend" : "GNLMDFND.wav",
+			"killed" : "GNLMKILL.wav",
+			"move" : "GNLMMOVE.wav",
+			"wince" : "GNLMWNCE.wav"
+		}
+	}
+}

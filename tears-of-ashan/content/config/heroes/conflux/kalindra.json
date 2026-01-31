@@ -1,0 +1,50 @@
+{
+	"kalindra" : {
+		"class" : "elementalist",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [ "fireball" ],
+		"texts" : {
+			"name" : "Kalindra",
+			"biography" : "Calling herself a princess, Kalindra boasts that she can trace her ancestry back to the lost Shantiri civilization. But then again, so too can most of the denizens of southern Ashan in one way or another. Her golden skin and ebony hair, not to mention her taste in luxurious clothes and jewels, have rendered her quite the attraction in the courts of the lords of the Free Cities. Against all odds, it was her extravagant way of life that brought her to the attention of a priestess of Shalassa, who instantly understood that this noble-blooded lady was in fact marked by the Dragon Goddess of Water. It tested the venerable snake-lady's untold patience to convince Kalindra to come to the temple and become a disciple, but she eventually succeeded. In truth, the young woman had finally grown tired of the vanity of her life and felt ready at last to start a new life of asceticism.",
+			"specialty" : {
+				"description" : "Increases the Speed of allied Firebirds, Phoenixes, and Sacred Phoenixes by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Firebirds",
+				"name" : "Firebirds"
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/conflux/kalindra/portraitSmall.png",
+			"large" : "heroes/conflux/kalindra/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Firebirds.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Firebirds.png"
+		},
+
+		"skills": [
+			{ "skill" : "fireMagic", "level": "basic" },
+			{ "skill" : "logistics", "level": "basic" }
+		],
+    
+		"specialty" : {
+			"creature" : "firebird",
+			"creatureLevel" : 7,
+			"stepSize" : 20
+		},
+	
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4, "max" : 6,
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3, "max" : 5
+			}
+		]
+	}
+}

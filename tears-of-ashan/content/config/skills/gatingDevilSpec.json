@@ -1,0 +1,126 @@
+{
+	"gatingDevilSpec" : {
+		"name" : "Gating",
+		"gainChance" : {
+			"might" : 0,
+			"magic" : 0,
+			"gatekeeperDevilSpec" : 10
+		},
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"gatingSchool" : {
+					"subtype" : "spellSchool.03gatingSchool",
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"gateImpGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate01Imp",
+					"val": 0
+				},
+				"gateGogGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate02Gog",
+					"val": 0
+				},
+				"gateHellHoundGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate03HellHound",
+					"val": 0
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Gating}\n\nGrants the ability to gate Imps, Gogs, and Hell Hounds.",
+			"effects" : {
+				"gatingSchool" : { "val" : 1 },
+				"gateImpGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate01Imp",
+					"val": 0
+				},
+				"gateGogGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate02Gog",
+					"val": 0
+				},
+				"gateHellHoundGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate03HellHound",
+					"val": 0
+				}
+			},
+			"images" : {
+				"small" : "skills/gatingSmall/1",
+				"medium" : "skills/gatingMedium/1",
+				"large" : "skills/gatingLarge/1",
+				"scenarioBonus" : "skills/gatingBonus/1"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Gating}\n\nGrants the ability to gate Demons, Succubi, and Pit Fiends.",
+			"effects" : {
+				"gatingSchool" : { "val" : 2 },
+				"gateDemonGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate04Demon",
+					"val": 0
+				},
+				"gatePitFiendGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate05PitFiend",
+					"val": 0
+				}
+			},				
+			"images" : {
+				"small" : "skills/gatingSmall/2",
+				"medium" : "skills/gatingMedium/2",
+				"large" : "skills/gatingLarge/2",
+				"scenarioBonus" : "skills/gatingBonus/2"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Gating}\n\nGrants the ability to gate Efreet, Hell Steeds, and Devils.",
+			"effects" : {
+				"gatingSchool" : { "val" : 3 },
+				"gateDemonGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate04Demon",
+					"val": 0
+				},
+				"gatePitFiendGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate05PitFiend",
+					"val": 0
+				},
+				"gateEfreetiGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate06Efreeti",
+					"val": 0
+				},
+				"gateHellSteedGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate07HellSteed",
+					"val": 0
+				},
+				"gateDevilSpecGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate09DevilSpec",
+					"val": 0
+				},
+				"gateArchDevilGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate10ArchDevil",
+					"val": 0
+				}
+			},
+			"images" : {
+				"small" : "skills/gatingSmall/3",
+				"medium" : "skills/gatingMedium/3",
+				"large" : "skills/gatingLarge/3",
+				"scenarioBonus" : "skills/gatingBonus/3"
+			}
+		}
+	}
+}

@@ -1,0 +1,135 @@
+{
+	"core:gnollMarauder": {
+		"attack" : 5,
+		"defense" : 5,
+		"hitPoints" : 8,
+		"aiValue" : 100,
+		"fightValue" : 100
+	},
+	"core:lizardman": {
+		"hitPoints" : 15,
+		"speed" : 5,
+		"aiValue" : 165,
+		"fightValue" : 145,
+		"cost" : {"gold" : 120}
+	},
+	"core:lizardWarrior": {
+		"damage" : {"min" : 3, "max" : 6},
+		"speed" : 6,
+		"aiValue" : 250,
+		"fightValue" : 210,
+		"cost" : {"gold" : 170},
+		"abilities" : {
+			"poison" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "poison",
+				"val" : 30,
+				"addInfo" : [1,0],
+				"icon" : "zvs/Lib1.res/poison.png"
+			}
+		}
+	},
+	"core:basilisk": {
+		"attack" : 10,
+		"defense" : 10,
+		"aiValue" : 520,
+		"fightValue" : 490,
+		"cost" : {"gold" : 300}
+	},
+	"core:greaterBasilisk": {
+		"hitPoints" : 45,
+		"aiValue" : 750,
+		"fightValue" : 580,
+		"abilities#override": {
+			"petrify" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "stoneGaze",
+				"val" : 40,
+				"addInfo" : [0, 1],
+				"icon" : "zvs/Lib1.res/basiliskpetrify2.png"
+			}
+		}
+	},
+	"core:mightyGorgon": {
+		"attack" : 12,
+		"aiValue" : 1040,
+		"fightValue" : 1040
+	},
+	"core:wyvern": {
+		"aiValue" : 1450,
+		"fightValue" : 1150,
+		"cost" : {"gold" : 850},
+		"abilities": {
+			"regenerates" : {
+				"type" : "HP_REGENERATION",
+				"val" : 35
+			}
+		}
+	},
+	"core:wyvernMonarch": {
+		"damage" : {"min" : 20, "max" : 24},
+		"hitPoints" : 100,
+		"aiValue" : 1950,
+		"fightValue" : 1950,
+		"cost" : {"gold" : 1300},
+		"abilities": {
+			"regenerates" : {
+				"type" : "HP_REGENERATION",
+				"val" : 50
+			}
+		}
+	},
+	"core:hydra": {
+		"attack" : 17,
+		"defense" : 17,
+		"hitPoints" : 180,
+		"speed" : 6,
+		"aiValue" : 4400,
+		"fightValue" : 4400,
+		"cost" : {"gold" : 2500, "sulfur" : 1},
+		"abilities#override": {
+			"threeHeads" : {
+				"type" : "THREE_HEADED_ATTACK",
+				"icon" : "zvs/Lib1.res/hydra0.png"
+			},
+			"dragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
+			},
+			"noRetaliation" : {
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"KING_1" : {
+				"type" : "KING",
+				"val" : 0
+			},
+			"regenerates" : {
+				"type" : "HP_REGENERATION",
+				"val" : 45
+			}
+		}
+	},
+	"core:chaosHydra": {
+		"attack" : 22,
+		"defense" : 20,
+		"hitPoints" : 300,
+		"speed" : 8,
+		"aiValue" : 6800,
+		"fightValue" : 6600,
+		"cost" : {"gold" : 4000, "sulfur" : 2},
+		"abilities": {
+			"attackAllAdjacent" : {
+				"icon" : "zvs/Lib1.res/hydra.png"
+			},
+			"regenerates" : {
+				"type" : "HP_REGENERATION",
+				"val" : 75
+			},
+			"additionalRetal" : {
+				"type" : "ADDITIONAL_RETALIATION",
+				"val" : 1,
+				"effectRange" : "ONLY_MELEE_FIGHT"
+			}
+		}
+	}
+}

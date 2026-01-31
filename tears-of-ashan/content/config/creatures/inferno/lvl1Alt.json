@@ -1,0 +1,52 @@
+{
+	"verminAU" : {
+		"name" : {"singular" : "Vermin", "plural" : "Vermin"},
+		"faction" : "inferno",
+		"level" : 1,
+		"attack" : 3,
+		"defense" : 3,
+		"damage" : {"min" : 1, "max" : 2},
+		"hitPoints" : 4,
+		"speed" : 7,
+		"growth" : 15,
+		"horde" : 8,
+		"fightValue" : 75,
+		"aiValue" : 75,
+		"cost" : {"gold" : 65},
+		"advMapAmount" :  {"min" : 20, "max" : 30},
+		"upgrades" : ["core:familiar"],
+		"doubleWide" : false,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"blockRetaliation" : {
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"strikeReturn" : {
+				"type" : "RETURN_AFTER_STRIKE"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/inferno/battle/lvl1Alt.json",
+			"map" : "creatures/inferno/map/lvl1Alt.def",
+			"mapMask" : ["VVV","VAV"],
+			"iconSmall" : "creatures/inferno/iconsSmall/lvl1Alt.png",
+			"iconLarge" : "creatures/inferno/iconsBig/lvl1Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "FMLRATTK.wav",
+			"defend": "FMLRDFND.wav",
+			"killed": "FMLRKILL.wav",
+			"move": "FMLRMOVE.wav",
+			"wince": "FMLRWNCE.wav"
+		}
+	}	
+}

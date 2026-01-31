@@ -1,0 +1,50 @@
+{
+	"euryale" : {
+		"class" : "overlord",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [ "precision" ],
+		"texts" : {
+			"name" : "Euryale",
+			"biography" : "Being a middle child does not usually grant one great memories of their youth. Thankfully, Euryale and her sisters never fought much, growing into strong and learned women as the centuries flew by. They have always been fiercely protective of each other and their kin, particularly since certain egotistical humans have historically attempted to hunt medusae for glory. None have succeeded where Euryale has stood guard.",
+			"specialty" : {
+				"name" : "Medusas",
+				"tooltip" : "Creature Bonus: Medusas",
+				"description" : "Increases the Speed of allied Medusas, Medusa Queens, and Medusa Warriors by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."				
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/dungeon/euryale/portraitSmall.png",
+			"large" : "heroes/dungeon/euryale/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Medusas.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Medusas.png"
+		},
+
+		"skills" : [
+			{"skill" : "offence", "level": "basic"},
+			{"skill" : "archery", "level": "basic"}
+		],
+    
+		"specialty" : {
+			"creature" : "medusa",
+			"creatureLevel" : 4,
+			"stepSize" : 20
+		},
+	
+		"army" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30,
+			},
+			{
+				"creature" : "medusa",
+				"min" : 2, "max" : 3,
+			},
+			{
+				"creature" : "medusa",
+				"min" : 2, "max" : 3,
+			}
+		]
+	}
+}

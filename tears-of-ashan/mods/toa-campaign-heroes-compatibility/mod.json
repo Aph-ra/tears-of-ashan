@@ -1,0 +1,22 @@
+{
+	"name" : "Campaign Heroes Compatibility",
+	"author" : "Aphra",
+	"contact" : "",
+	"description" : "Compatibility layer for Campaign Heroes mod. Changes armies and specialty descriptions.",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "",
+	"modType" : "Compatibility",
+	"version" : "1.0.0",
+	"changelog" :
+    {
+		"1.0.0"   : [ "Initial release" ]
+    },
+	
+	"depends" : [
+		"campaign-heroes"
+	],
+	
+	"heroes" : [
+		"config/heroChanges.json"
+	]
+}

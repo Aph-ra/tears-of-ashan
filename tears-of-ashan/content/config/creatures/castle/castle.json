@@ -1,0 +1,44 @@
+{
+	"core:pikeman" : {
+		"upgrades": ["core:halberdier", "glaivierAU"]
+	},
+	"core:halberdier" : {
+		"upgrades": ["glaivierAU"]
+	},
+	"core:archer" : {
+		"upgrades": ["core:marksman", "crossbowmanAU"]
+	},
+	"core:marksman" : {
+		"upgrades": ["crossbowmanAU"]
+	},
+	"core:griffin" : {
+		"upgrades": ["core:royalGriffin", "battleGriffinAU"]
+	},
+	"core:royalGriffin" : {
+		"upgrades": ["battleGriffinAU"]
+	},
+	"core:swordsman" : {
+		"upgrades": ["core:crusader", "guardsmanAU"]
+	},
+	"core:crusader" : {
+		"upgrades": ["guardsmanAU"]
+	},
+	"core:monk" : {
+		"upgrades": ["core:zealot", "priestAU"]
+	},
+	"core:zealot" : {
+		"upgrades": ["priestAU"]
+	},
+	"core:cavalier" : {	
+		"upgrades": ["core:champion", "justiciarAU"]		
+	},
+	"core:champion" : {	
+		"upgrades": ["justiciarAU"]		
+	},
+	"core:angel" : {
+		"upgrades": ["core:archangel", "seraphAU"]
+	},
+	"core:archangel" : {
+		"upgrades": ["seraphAU"]
+	}
+}

@@ -1,0 +1,670 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "camage56.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "camage57.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "camage58.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "camage59.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "camage60.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "camage61.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "camage62.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "camage63.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "camage46.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 1,
+            "file": "camage47.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 2,
+            "file": "camage48.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 3,
+            "file": "camage49.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 4,
+            "file": "camage49.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 5,
+            "file": "camage49.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 6,
+            "file": "camage49.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 7,
+            "file": "camage49.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 8,
+            "file": "camage48.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 9,
+            "file": "camage47.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 10,
+            "file": "camage46.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "camage74.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 1,
+            "file": "camage50.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 2,
+            "file": "camage51.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 3,
+            "file": "camage52.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 4,
+            "file": "camage53.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 5,
+            "file": "camage52.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 6,
+            "file": "camage51.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 7,
+            "file": "camage50.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "camage66.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 1,
+            "file": "camage67.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "camage68.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 3,
+            "file": "camage69.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 4,
+            "file": "camage70.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 5,
+            "file": "camage71.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "camage42.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 1,
+            "file": "camage43.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 2,
+            "file": "camage44.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 3,
+            "file": "camage45.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 4,
+            "file": "camage45.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 5,
+            "file": "camage45.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 6,
+            "file": "camage45.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 7,
+            "file": "camage45.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 8,
+            "file": "camage44.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 9,
+            "file": "camage43.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 10,
+            "file": "camage42.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 0,
+            "file": "camage34.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 1,
+            "file": "camage35.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 2,
+            "file": "camage36.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 3,
+            "file": "camage37.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 4,
+            "file": "camage38.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 5,
+            "file": "camage39.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 6,
+            "file": "camage40.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 7,
+            "file": "camage41.pcx.png"
+        },
+        {
+            "group": 7,
+            "frame": 0,
+            "file": "camage72.pcx.png"
+        },
+        {
+            "group": 7,
+            "frame": 1,
+            "file": "camage73.pcx.png"
+        },
+        {
+            "group": 8,
+            "frame": 0,
+            "file": "camage73.pcx.png"
+        },
+        {
+            "group": 8,
+            "frame": 1,
+            "file": "camage72.pcx.png"
+        },
+        {
+            "group": 9,
+            "frame": 0,
+            "file": "camage72.pcx.png"
+        },
+        {
+            "group": 9,
+            "frame": 1,
+            "file": "camage73.pcx.png"
+        },
+        {
+            "group": 10,
+            "frame": 0,
+            "file": "camage73.pcx.png"
+        },
+        {
+            "group": 10,
+            "frame": 1,
+            "file": "camage72.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 0,
+            "file": "camage16.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 1,
+            "file": "camage17.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 2,
+            "file": "camage18.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 3,
+            "file": "camage19.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 4,
+            "file": "camage26.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 5,
+            "file": "camage27.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 6,
+            "file": "camage28.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 7,
+            "file": "camage29.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 8,
+            "file": "camage24.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 9,
+            "file": "camage25.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 0,
+            "file": "camage16.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 1,
+            "file": "camage17.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 2,
+            "file": "camage18.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 3,
+            "file": "camage19.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 4,
+            "file": "camage20.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 5,
+            "file": "camage21.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 6,
+            "file": "camage22.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 7,
+            "file": "camage23.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 8,
+            "file": "camage24.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 9,
+            "file": "camage25.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 0,
+            "file": "camage16.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 1,
+            "file": "camage17.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 2,
+            "file": "camage18.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 3,
+            "file": "camage19.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 4,
+            "file": "camage30.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 5,
+            "file": "camage31.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 6,
+            "file": "camage32.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 7,
+            "file": "camage33.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 8,
+            "file": "camage24.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 9,
+            "file": "camage25.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 0,
+            "file": "camage06.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 1,
+            "file": "camage07.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 2,
+            "file": "camage08.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 3,
+            "file": "camage09.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 4,
+            "file": "camage10.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 5,
+            "file": "camage10.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 6,
+            "file": "camage10.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 7,
+            "file": "camage10.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 8,
+            "file": "camage10.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 9,
+            "file": "camage09.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 10,
+            "file": "camage08.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 11,
+            "file": "camage07.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 12,
+            "file": "camage06.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 0,
+            "file": "camage01.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 1,
+            "file": "camage02.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 2,
+            "file": "camage03.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 3,
+            "file": "camage04.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 4,
+            "file": "camage05.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 5,
+            "file": "camage05.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 6,
+            "file": "camage05.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 7,
+            "file": "camage05.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 8,
+            "file": "camage05.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 9,
+            "file": "camage04.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 10,
+            "file": "camage03.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 11,
+            "file": "camage02.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 12,
+            "file": "camage01.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 0,
+            "file": "camage11.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 1,
+            "file": "camage12.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 2,
+            "file": "camage13.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 3,
+            "file": "camage14.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 4,
+            "file": "camage15.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 5,
+            "file": "camage15.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 6,
+            "file": "camage15.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 7,
+            "file": "camage15.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 8,
+            "file": "camage15.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 9,
+            "file": "camage14.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 10,
+            "file": "camage13.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 11,
+            "file": "camage12.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 12,
+            "file": "camage11.pcx.png"
+        },
+        {
+            "group": 20,
+            "frame": 0,
+            "file": "camage54.pcx.png"
+        },
+        {
+            "group": 20,
+            "frame": 1,
+            "file": "camage55.pcx.png"
+        },
+        {
+            "group": 21,
+            "frame": 0,
+            "file": "camage64.pcx.png"
+        },
+        {
+            "group": 21,
+            "frame": 1,
+            "file": "camage65.pcx.png"
+        }
+    ],
+    "basepath": "creatures/tower/battle/lvl4Alt/"
+}

@@ -1,0 +1,76 @@
+{
+	"priestAU": {
+		"name" : {"singular" : "Priest", "plural" : "Priests"},
+		"faction" : "castle",
+		"level" : 5,
+		"attack" : 12,
+		"defense" : 12,
+		"shots" : 24,
+		"damage" : {"min" : 10, "max" : 12},
+		"hitPoints" : 40,
+		"speed" : 8,
+		"growth" : 3,
+		"aiValue" : 850,
+		"fightValue" : 600,
+		"cost" : {"gold" : 550},
+		"advMapAmount" : {"min" : 8, "max" : 12},
+		"upgrades" : ["core:zealot"],
+		"doubleWide" : false,
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"castBless" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "bless",
+				"val" : 2,
+				"description" : "{Spellcaster}\nCan cast Advanced Bless (6 Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/bless2.png"
+			},
+			"blessPower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 3
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/castle/battle/lvl5Alt.def",
+			"map" : "creatures/castle/map/lvl5Alt.def",
+			"iconSmall" : "creatures/castle/iconsSmall/lvl5Alt.png",
+			"iconLarge" : "creatures/castle/iconsBig/lvl5Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			},
+			"missile" : {
+				"projectile": "CPRZEAX.DEF",
+				"attackClimaxFrame" : 6,
+				"offset" : {
+					"upperX" : 37,
+					"upperY" : -98,
+					"middleX" : 62,
+					"middleY" : -53,
+					"lowerX" : 28,
+					"lowerY" : -3
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" : {
+			"attack": "ZELTATTK.wav",
+			"defend": "ZELTDFND.wav",
+			"killed": "ZELTKILL.wav",
+			"move": "ZELTMOVE.wav",
+			"shoot": "ZELTSHOT.wav",
+			"wince": "ZELTWNCE.wav"
+		}
+	}	
+}

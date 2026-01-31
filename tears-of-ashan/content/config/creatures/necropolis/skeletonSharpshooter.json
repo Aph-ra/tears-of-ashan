@@ -1,0 +1,66 @@
+{
+	"skeletonSharpshooterAU": {
+		"name" : {"singular" : "Skeleton Sharpshooter", "plural" : "Skeleton Sharpshooters"},
+		"faction" : "necropolis",
+		"level" : 4,
+		"attack" : 14,
+		"defense" : 8,
+		"shots" : 32,
+		"damage" : {"min" : 10, "max" : 12},
+		"hitPoints" : 15,
+		"speed" : 7,
+		"growth" : 4,
+		"aiValue" : 640,
+		"fightValue" : 450,
+		"cost" : {"gold" : 450},
+		"advMapAmount" : {"min" : 10, "max" : 16},
+		"doubleWide" : false,
+		"abilities" : {
+			"undead" : {
+				"type" : "UNDEAD"
+			},
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"noDistancePenalty" : {
+				"type" : "NO_DISTANCE_PENALTY"
+			},
+			"noWallPenalty" : {
+				"type" : "NO_WALL_PENALTY"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/necropolis/battle/skeletonSharpshooter.def",
+			"map" : "creatures/necropolis/map/skeletonSharpshooter.def",
+			"iconSmall" : "creatures/necropolis/iconsSmall/skeletonSharpshooter.png",
+			"iconLarge" : "creatures/necropolis/iconsBig/skeletonSharpshooter.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			},
+			"missile" : {
+				"projectile": "PELFX.DEF",
+				"attackClimaxFrame" : 8,
+				"offset" : {
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" : {
+			"attack": "SKLWATTK.wav",
+			"defend": "SKLWDFND.wav",
+			"killed": "SKLWKILL.wav",
+			"move": "SKLWMOVE.wav",
+			"shoot": "HCRSSHOT.wav",
+			"wince": "SKLWWNCE.wav"
+		}
+	}	
+}

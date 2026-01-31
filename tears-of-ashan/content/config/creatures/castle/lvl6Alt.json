@@ -1,0 +1,49 @@
+{
+	"justiciarAU": {
+		"name" : {"singular" : "Justiciar", "plural" : "Justiciars"},
+		"faction" : "castle",
+		"level" : 6,
+		"attack" : 15,
+		"defense" : 17,
+		"damage" : {"min" : 15, "max" : 25},
+		"hitPoints" : 110,
+		"speed" : 7,
+		"growth" : 2,
+		"aiValue" : 2100,
+		"fightValue" : 1800,
+		"cost" : {"gold" : 1200},
+		"advMapAmount" : {"min" : 5, "max" : 10},
+		"upgrades" : ["core:champion"],
+		"doubleWide" : true,
+		"abilities" : {
+			"jousting" : {
+				"type" : "JOUSTING",
+				"val" : 5
+			},
+			"attackReduction" : {
+				"type" : "ENEMY_ATTACK_REDUCTION",
+				"val" : 30
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/castle/battle/lvl6Alt.json",
+			"map" : "creatures/castle/map/lvl6Alt.json",
+			"mapMask" : ["VVV","VAV"],
+			"iconSmall" : "creatures/castle/iconsSmall/lvl6Alt.png",
+			"iconLarge" : "creatures/castle/iconsBig/lvl6Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "CHMPATTK.wav",
+			"defend": "CHMPDFND.wav",
+			"killed": "CHMPKILL.wav",
+			"move": "CHMPMOVE.wav",
+			"wince": "CHMPWNCE.wav"
+		}
+	}
+}

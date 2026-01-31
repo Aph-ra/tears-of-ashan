@@ -1,0 +1,50 @@
+{
+	"jormungandr" : {
+		"class" : "captain",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			//"name" : "Jörmungandr",
+			"name" : "Jormungandr",
+			"biography" : "Jormungandr hails from the heavens and was summoned by Regnan sorceresses in an effort to make peace with the local sea serpent population. Appeased by his followers' dedication and reverence, he descended to them in a slightly less earth-shaking form to command the vicious water-dwelling serpents in battle.",
+			"specialty" : {
+				"name" : "Sea Serpents",
+				"tooltip" : "Creature Bonus: Sea Serpents",
+				"description" : "Increases the Speed of allied Sea Serpents and Haspids by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/cove/jormungandr/portraitSmall.png",
+			"large" : "heroes/cove/jormungandr/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Sea Serpents.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Sea Serpents.png"
+		},
+
+		"skills": [
+			{ "skill" : "offence", "level": "basic" },
+			{ "skill" : "waterMagic", "level": "basic" }
+		],
+		
+		"specialty" : {
+			"creature" : "seaserpent",
+			"creatureLevel" : 7,
+			"stepSize" : 20
+		},
+		
+		"army" : [
+			{
+				"creature" : "nymph",
+				"min" : 15, "max" : 25,
+			},
+			{
+				"creature" : "crewmate",
+				"min" : 6, "max" : 9,
+			},
+			{
+				"creature" : "pirate",
+				"min" : 4, "max" : 7,
+			}
+		]
+	}
+}

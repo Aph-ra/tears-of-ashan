@@ -1,0 +1,445 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "capegs39.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "capegs40.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "capegs41.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "capegs42.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "capegs43.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "capegs44.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "capegs29.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 1,
+            "file": "capegs30.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 2,
+            "file": "capegs31.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 3,
+            "file": "capegs32.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 4,
+            "file": "capegs32.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 5,
+            "file": "capegs32.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 6,
+            "file": "capegs31.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 7,
+            "file": "capegs30.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 8,
+            "file": "capegs29.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "capegs56.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 1,
+            "file": "capegs33.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 2,
+            "file": "capegs34.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 3,
+            "file": "capegs35.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 4,
+            "file": "capegs36.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 5,
+            "file": "capegs35.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 6,
+            "file": "capegs34.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 7,
+            "file": "capegs33.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "capegs47.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 1,
+            "file": "capegs48.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "capegs49.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 3,
+            "file": "capegs50.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 4,
+            "file": "capegs51.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 5,
+            "file": "capegs52.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "capegs25.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 1,
+            "file": "capegs26.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 2,
+            "file": "capegs27.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 3,
+            "file": "capegs28.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 4,
+            "file": "capegs28.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 5,
+            "file": "capegs28.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 6,
+            "file": "capegs28.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 7,
+            "file": "capegs28.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 8,
+            "file": "capegs27.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 9,
+            "file": "capegs26.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 10,
+            "file": "capegs25.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 0,
+            "file": "capegs47.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 1,
+            "file": "capegs48.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 2,
+            "file": "capegs19.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 3,
+            "file": "capegs20.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 4,
+            "file": "capegs21.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 5,
+            "file": "capegs22.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 6,
+            "file": "capegs23.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 7,
+            "file": "capegs24.pcx.png"
+        },
+        {
+            "group": 7,
+            "frame": 0,
+            "file": "capegs53.pcx.png"
+        },
+        {
+            "group": 7,
+            "frame": 1,
+            "file": "capegs54.pcx.png"
+        },
+        {
+            "group": 7,
+            "frame": 2,
+            "file": "capegs55.pcx.png"
+        },
+        {
+            "group": 8,
+            "frame": 0,
+            "file": "capegs55.pcx.png"
+        },
+        {
+            "group": 8,
+            "frame": 1,
+            "file": "capegs54.pcx.png"
+        },
+        {
+            "group": 8,
+            "frame": 2,
+            "file": "capegs53.pcx.png"
+        },
+        {
+            "group": 9,
+            "frame": 0,
+            "file": "capegs53.pcx.png"
+        },
+        {
+            "group": 9,
+            "frame": 1,
+            "file": "capegs54.pcx.png"
+        },
+        {
+            "group": 9,
+            "frame": 2,
+            "file": "capegs55.pcx.png"
+        },
+        {
+            "group": 10,
+            "frame": 0,
+            "file": "capegs55.pcx.png"
+        },
+        {
+            "group": 10,
+            "frame": 1,
+            "file": "capegs54.pcx.png"
+        },
+        {
+            "group": 10,
+            "frame": 2,
+            "file": "capegs53.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 0,
+            "file": "capegs01.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 1,
+            "file": "capegs02.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 2,
+            "file": "capegs03.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 3,
+            "file": "capegs09.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 4,
+            "file": "capegs10.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 5,
+            "file": "capegs11.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 6,
+            "file": "capegs12.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 7,
+            "file": "capegs13.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 0,
+            "file": "capegs01.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 1,
+            "file": "capegs02.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 2,
+            "file": "capegs03.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 3,
+            "file": "capegs04.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 4,
+            "file": "capegs05.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 5,
+            "file": "capegs06.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 6,
+            "file": "capegs07.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 7,
+            "file": "capegs08.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 0,
+            "file": "capegs01.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 1,
+            "file": "capegs02.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 2,
+            "file": "capegs03.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 3,
+            "file": "capegs14.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 4,
+            "file": "capegs15.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 5,
+            "file": "capegs16.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 6,
+            "file": "capegs17.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 7,
+            "file": "capegs18.pcx.png"
+        },
+        {
+            "group": 20,
+            "frame": 0,
+            "file": "capegs37.pcx.png"
+        },
+        {
+            "group": 20,
+            "frame": 1,
+            "file": "capegs38.pcx.png"
+        },
+        {
+            "group": 21,
+            "frame": 0,
+            "file": "capegs45.pcx.png"
+        },
+        {
+            "group": 21,
+            "frame": 1,
+            "file": "capegs46.pcx.png"
+        }
+    ],
+    "basepath": "creatures/rampart/battle/lvl4Alt/"
+}

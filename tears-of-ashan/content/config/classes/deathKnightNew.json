@@ -1,0 +1,93 @@
+{
+	"deathKnightNew" : {
+		"name" : "Death Knight",
+		"faction" : "necropolis",
+		"affinity" : "might",
+		"defaultTavern" : 5,
+		"commander" : "dreadGuardAU",
+		"animation" : {
+			"battle" : {
+				"female" : "classes/deathKnightNew/MaleCombat.def",
+				"male"   : "classes/deathKnightNew/MaleCombat.def"
+			}
+		},
+		"mapObject" : {
+			"filters" : {
+				"male" : { "male" : true },
+				"female" : { "female" : true }
+			},
+			"templates" : {
+				"female" : {
+					"animation" : "classes/plaguespreader/FemaleMap.def",
+					"editorAnimation": "classes/plaguespreader/FemaleEditor.def"
+				},
+				"male" : {
+					"animation" : "classes/plaguespreader/MaleMap.def",
+					"editorAnimation": "classes/plaguespreader/MaleEditor.def"
+				}
+			}
+		},
+		"primarySkills" : {
+			"attack"     : 1,
+			"defence"    : 2,
+			"spellpower" : 2,
+			"knowledge"  : 1
+		},
+		"lowLevelChance" : {
+			"attack"     : 30,
+			"defence"    : 25,
+			"spellpower" : 20,
+			"knowledge"  : 25
+		},
+		"highLevelChance" : {
+			"attack"     : 25,
+			"defence"    : 25,
+			"spellpower" : 25,
+			"knowledge"  : 25
+		},
+		"secondarySkills" : {
+			"archery"      : 5,
+			"armorer"      : 5,
+			"artillery"    : 5,
+			"ballistics"   : 7,
+			"firstAid"     : 0,
+			"interference" : 5,
+			"leadership"   : 0,
+			"luck"         : 1,
+			"offence"      : 7,
+			"resistance"   : 5,
+			"tactics"      : 5,
+			
+			"airMagic"     : 2,
+			"earthMagic"   : 4,
+			"fireMagic"    : 1,
+			"waterMagic"   : 3,
+			"eagleEye"     : 4,
+			"intelligence" : 5,
+			"mysticism"    : 4,
+			"necromancy"   : 10,
+			"scholar"      : 2,
+			"sorcery"      : 4,
+			"wisdom"       : 6,
+			
+			"diplomacy"    : 2,
+			"estates"      : 0,
+			"learning"     : 4,
+			"logistics"    : 5,
+			"navigation"   : 8,	
+			"pathfinding"  : 4,
+			"scouting"     : 4,		
+		},
+		"tavern" : {
+			"castle"     : 3,
+			"rampart"    : 3,
+			"tower"      : 3,
+			"inferno"    : 7,
+			"necropolis" : 10,
+			"dungeon"    : 7,
+			"stronghold" : 3,
+			"fortress"   : 5,
+			"conflux"    : 3
+		}
+	}
+}

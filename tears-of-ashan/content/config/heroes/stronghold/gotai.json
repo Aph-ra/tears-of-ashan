@@ -1,0 +1,49 @@
+{
+	"gotai" : {
+		"class" : "barbarian",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Gotai",
+			"biography" : "A promising young war chief, Gotai's grim intensity separates him from other Orcs. While he shared their sense of clan loyalty, he was extremely - almost irrationally - loyal to Quroq, the warchief who adopted him when his own parents were killed by Yetis. With Quroq's passing, however, Gotai must find his own place in the world. Given his skills, that place is likely to be a lofty one.",
+			"specialty" : {
+				"name" : "Behemoths",
+				"tooltip" : "Creature Bonus: Behemoths",
+				"description" : "Increases the Speed of allied Behemoths, Ancient Behemoths, and Ghost Behemoths by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."				
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/stronghold/gotai/portraitSmall.png",
+			"large" : "heroes/stronghold/gotai/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Behemoths (Alternate).png",
+			"specialtyLarge" : "heroes/specialtyLarge/Behemoths (Alternate).png"
+		},
+
+		"skills" : [
+			{"skill" : "offence", "level": "basic"},
+			{"skill" : "logistics", "level": "basic"}
+		],
+    
+		"specialty" : {
+			"creature" : "behemoth",
+			"creatureLevel" : 7,
+			"stepSize" : 20
+		},
+	
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 4, "max" : 7
+			}
+		]
+	}
+}

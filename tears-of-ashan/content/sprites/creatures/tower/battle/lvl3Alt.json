@@ -1,0 +1,410 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "cigoleA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "cigoleA001.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "cigoleA002.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "cigoleA003.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "cigoleA004.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "cigoleA005.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "cigoleA006.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "cigoleA007.png"
+        },
+        {
+            "group": 0,
+            "frame": 8,
+            "file": "cigoleA008.png"
+        },
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "cigoleB000.png"
+        },
+        {
+            "group": 1,
+            "frame": 1,
+            "file": "cigoleB001.png"
+        },
+        {
+            "group": 1,
+            "frame": 2,
+            "file": "cigoleB002.png"
+        },
+        {
+            "group": 1,
+            "frame": 3,
+            "file": "cigoleB003.png"
+        },
+        {
+            "group": 1,
+            "frame": 4,
+            "file": "cigoleB004.png"
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "cigoleB000.png"
+        },
+        {
+            "group": 2,
+            "frame": 1,
+            "file": "cigoleC001.png"
+        },
+        {
+            "group": 2,
+            "frame": 2,
+            "file": "cigoleC002.png"
+        },
+        {
+            "group": 2,
+            "frame": 3,
+            "file": "cigoleC003.png"
+        },
+        {
+            "group": 2,
+            "frame": 4,
+            "file": "cigoleC003.png"
+        },
+        {
+            "group": 2,
+            "frame": 5,
+            "file": "cigoleC002.png"
+        },
+        {
+            "group": 2,
+            "frame": 6,
+            "file": "cigoleC001.png"
+        },
+        {
+            "group": 2,
+            "frame": 7,
+            "file": "cigoleB000.png"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "cigoleB000.png"
+        },
+        {
+            "group": 3,
+            "frame": 1,
+            "file": "cigoleD001.png"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "cigoleD002.png"
+        },
+        {
+            "group": 3,
+            "frame": 3,
+            "file": "cigoleD003.png"
+        },
+        {
+            "group": 3,
+            "frame": 4,
+            "file": "cigoleD004.png"
+        },
+        {
+            "group": 3,
+            "frame": 5,
+            "file": "cigoleD005.png"
+        },
+        {
+            "group": 3,
+            "frame": 6,
+            "file": "cigoleD006.png"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "cigoleB000.png"
+        },
+        {
+            "group": 4,
+            "frame": 1,
+            "file": "cigoleE001.png"
+        },
+        {
+            "group": 4,
+            "frame": 2,
+            "file": "cigoleE002.png"
+        },
+        {
+            "group": 4,
+            "frame": 3,
+            "file": "cigoleE003.png"
+        },
+        {
+            "group": 4,
+            "frame": 4,
+            "file": "cigoleE003.png"
+        },
+        {
+            "group": 4,
+            "frame": 5,
+            "file": "cigoleE005.png"
+        },
+        {
+            "group": 4,
+            "frame": 6,
+            "file": "cigoleE006.png"
+        },
+        {
+            "group": 4,
+            "frame": 7,
+            "file": "cigoleE007.png"
+        },
+        {
+            "group": 5,
+            "frame": 0,
+            "file": "cigoleB000.png"
+        },
+        {
+            "group": 5,
+            "frame": 1,
+            "file": "cigoleF001.png"
+        },
+        {
+            "group": 5,
+            "frame": 2,
+            "file": "cigoleF002.png"
+        },
+        {
+            "group": 5,
+            "frame": 3,
+            "file": "cigoleF003.png"
+        },
+        {
+            "group": 5,
+            "frame": 4,
+            "file": "cigoleF004.png"
+        },
+        {
+            "group": 5,
+            "frame": 5,
+            "file": "cigoleF005.png"
+        },
+        {
+            "group": 5,
+            "frame": 6,
+            "file": "cigoleF006.png"
+        },
+        {
+            "group": 5,
+            "frame": 7,
+            "file": "cigoleF007.png"
+        },
+        {
+            "group": 5,
+            "frame": 8,
+            "file": "cigoleF008.png"
+        },
+        {
+            "group": 7,
+            "frame": 0,
+            "file": "cigoleB000.png"
+        },
+        {
+            "group": 7,
+            "frame": 1,
+            "file": "cigoleG001.png"
+        },
+        {
+            "group": 7,
+            "frame": 2,
+            "file": "cigoleG002.png"
+        },
+        {
+            "group": 8,
+            "frame": 0,
+            "file": "cigoleG002.png"
+        },
+        {
+            "group": 8,
+            "frame": 1,
+            "file": "cigoleG001.png"
+        },
+        {
+            "group": 8,
+            "frame": 2,
+            "file": "cigoleB000.png"
+        },
+        {
+            "group": 9,
+            "frame": 0,
+            "file": "cigoleB000.png"
+        },
+        {
+            "group": 9,
+            "frame": 1,
+            "file": "cigoleG001.png"
+        },
+        {
+            "group": 9,
+            "frame": 2,
+            "file": "cigoleG002.png"
+        },
+        {
+            "group": 10,
+            "frame": 0,
+            "file": "cigoleG002.png"
+        },
+        {
+            "group": 10,
+            "frame": 1,
+            "file": "cigoleG001.png"
+        },
+        {
+            "group": 10,
+            "frame": 2,
+            "file": "cigoleB000.png"
+        },
+        {
+            "group": 11,
+            "frame": 0,
+            "file": "cigoleB000.png"
+        },
+        {
+            "group": 11,
+            "frame": 1,
+            "file": "cigoleK001.png"
+        },
+        {
+            "group": 11,
+            "frame": 2,
+            "file": "cigoleK002.png"
+        },
+        {
+            "group": 11,
+            "frame": 3,
+            "file": "cigoleK003.png"
+        },
+        {
+            "group": 11,
+            "frame": 4,
+            "file": "cigoleK004.png"
+        },
+        {
+            "group": 11,
+            "frame": 5,
+            "file": "cigoleK005.png"
+        },
+        {
+            "group": 11,
+            "frame": 6,
+            "file": "cigoleK006.png"
+        },
+        {
+            "group": 12,
+            "frame": 0,
+            "file": "cigoleB000.png"
+        },
+        {
+            "group": 12,
+            "frame": 1,
+            "file": "cigoleL001.png"
+        },
+        {
+            "group": 12,
+            "frame": 2,
+            "file": "cigoleL002.png"
+        },
+        {
+            "group": 12,
+            "frame": 3,
+            "file": "cigoleL003.png"
+        },
+        {
+            "group": 12,
+            "frame": 4,
+            "file": "cigoleL004.png"
+        },
+        {
+            "group": 12,
+            "frame": 5,
+            "file": "cigoleL005.png"
+        },
+        {
+            "group": 12,
+            "frame": 6,
+            "file": "cigoleL006.png"
+        },
+        {
+            "group": 13,
+            "frame": 0,
+            "file": "cigoleB000.png"
+        },
+        {
+            "group": 13,
+            "frame": 1,
+            "file": "cigoleM001.png"
+        },
+        {
+            "group": 13,
+            "frame": 2,
+            "file": "cigoleM002.png"
+        },
+        {
+            "group": 13,
+            "frame": 3,
+            "file": "cigoleM003.png"
+        },
+        {
+            "group": 13,
+            "frame": 4,
+            "file": "cigoleM004.png"
+        },
+        {
+            "group": 13,
+            "frame": 5,
+            "file": "cigoleM005.png"
+        },
+        {
+            "group": 13,
+            "frame": 6,
+            "file": "cigoleM006.png"
+        },
+        {
+            "group": 20,
+            "frame": 0,
+            "file": "cigoleN000.png"
+        },
+        {
+            "group": 21,
+            "frame": 0,
+            "file": "cigoleO000.png"
+        }
+    ],
+    "basepath": "creatures/tower/battle/lvl3Alt/"
+}

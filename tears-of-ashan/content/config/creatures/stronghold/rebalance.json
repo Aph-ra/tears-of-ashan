@@ -1,0 +1,82 @@
+{
+	"core:hobgoblin": {
+		"aiValue" : 85,
+		"fightValue" : 85,
+		"cost" : {"gold" : 60},
+		"abilities": {
+			"bloodlustAttack" : {
+				"type" : "SPELL_BEFORE_ATTACK",
+				"subtype" : "bloodlust",
+				"val" : 30,
+				"addInfo" : [2,0],
+				"description" : "{Cast Before Attack}\nHas a 30% chance to cast Advanced Bloodlust before attacking (1 Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/bloodlust2.png"
+			},
+			"spellPower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			}
+		}
+	},
+	"core:hobgoblinWolfRider": {
+		"defense" : 6,
+		"aiValue" : 210,
+		"fightValue" : 180
+	},
+	"core:orc": {
+		"speed" : 5,
+		"aiValue" : 200,
+		"fightValue" : 180
+	},
+	"core:orcChieftain": {
+		"speed" : 6,
+		"aiValue" : 300,
+		"fightValue" : 250,
+		"cost" : {"gold" : 180},
+		"abilities": {
+			"extraAttack" : {
+				"type": "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"effectRange": "ONLY_DISTANCE_FIGHT"
+			}
+		}
+	},
+	"core:ogre": {
+		"defense" : 8
+	},
+	"core:ogreMage": {
+		"defense" : 10,
+		"speed" : 6,
+		"aiValue" : 700,
+		"fightValue" : 700
+	},
+	"core:roc": {
+		"attack" : 14,
+		"defense" : 10,
+		"damage" : {"min" : 10, "max" : 15},
+		"hitPoints" : 50,
+		"speed" : 8,
+		"aiValue" : 920,
+		"fightValue" : 720,
+		"cost" : {"gold" : 500}
+	},
+	"core:thunderbird": {
+		"attack" : 14,
+		"defense" : 10,
+		"damage" : {"min" : 12, "max" : 16},
+		"aiValue" : 1150,
+		"fightValue" : 900
+	},
+	"core:cyclopKing": {
+		"attack" : 18,
+		"defense" : 12,
+		"cost" : {"gold" : 1000}
+	},
+	"core:ancientBehemoth": {
+		"attack" : 20,
+		"defense" : 20,
+		"aiValue" : 6250,
+		"fightValue" : 5450,
+		"cost" : {"gold" : 3000, "crystal" : 2}
+	}
+}

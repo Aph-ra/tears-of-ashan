@@ -1,0 +1,55 @@
+{
+	"faerieAU" : {
+		"name" : {"singular" : "Faerie", "plural" : "Faeries"},
+		"faction" : "conflux",
+		"level" : 1,
+		"attack" : 2,
+		"defense" : 3,
+		"damage" : {"min" : 1, "max" : 3},
+		"hitPoints" : 6,
+		"speed" : 8,
+		"growth" : 14,
+		"horde" : 6,
+		"aiValue" : 100,
+		"fightValue" : 100,
+		"cost" : {"gold" : 90},
+		"advMapAmount" : {"min" : 20, "max" : 30},
+		"upgrades" : ["core:sprite"],
+		"doubleWide" : false,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"noRetaliation" : {
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"attackAllAdjacent" : {
+				"type" : "THREE_HEADED_ATTACK"
+			},
+			"manaChannel" : {
+				"type" : "MANA_CHANNELING",
+				"val" : 20
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/conflux/battle/lvl1Alt.def",
+			"map" : "creatures/conflux/map/lvl1Alt.def",
+			"iconSmall" : "creatures/conflux/iconsSmall/lvl1Alt.png",
+			"iconLarge" : "creatures/conflux/iconsBig/lvl1Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "SPRTATTK.wav",
+			"defend": "SPRTDFND.wav",
+			"killed": "SPRTKILL.wav",
+			"move": "SPRTMOVE.wav",
+			"wince": "SPRTWNCE.wav"
+		}
+	}
+}	

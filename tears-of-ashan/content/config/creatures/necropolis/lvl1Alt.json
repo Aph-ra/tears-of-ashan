@@ -1,0 +1,63 @@
+{
+	"skeletonArcherAU": {
+		"name" : {"singular" : "Skeleton Archer", "plural" : "Skeleton Archers"},
+		"faction" : "necropolis",
+		"level" : 1,
+		"attack" : 5,
+		"defense" : 5,
+		"shots" : 8,
+		"cost" : {"gold" : 70},
+		"damage" : {"min" : 1, "max" : 3},
+		"hitPoints" : 6,
+		"speed" : 5,
+		"growth" : 12,
+		"horde" : 6,
+		"aiValue" : 85,
+		"fightValue" : 85,
+		"advMapAmount" : {"min" : 20, "max" : 30},
+		"upgrades" : ["core:skeletonWarrior"],
+		"doubleWide" : false,
+		"abilities" : {
+			"undead" : {
+				"type" : "UNDEAD"
+			},
+			"canShoot" : {
+				"type" : "SHOOTER"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/necropolis/battle/lvl1Alt",
+			"map" : 	  "creatures/necropolis/map/lvl1Alt",
+			"iconSmall" : "creatures/necropolis/iconsSmall/lvl1Alt",
+			"iconLarge" : "creatures/necropolis/iconsBig/lvl1Alt",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			},
+			"missile" : {
+				"projectile": "PELFX.DEF",
+				"attackClimaxFrame" : 11,
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"offset" : {
+					"upperX" : 32,
+					"upperY" : -77,
+					"middleX" : 40,
+					"middleY" : -61,
+					"lowerX" : 18,
+					"lowerY" : -55
+				}
+			}
+		},
+		"sound" :
+		{
+			"attack": "SKLWATTK.wav",
+			"defend": "SKLWDFND.wav",
+			"killed": "SKLWKILL.wav",
+			"move": "SKLWMOVE.wav",
+			"shoot": "WELFSHOT.wav",
+			"wince": "SKLWWNCE.wav"
+		}
+	}
+}

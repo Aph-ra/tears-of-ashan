@@ -1,0 +1,30 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "AvWDfirA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "AvWDfirA001.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "AvWDfirA002.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "AvWDfirA003.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "AvWDfirA004.png"
+        }
+    ],
+    "basepath": "creatures/fortress/map/lvl3Alt/"
+}

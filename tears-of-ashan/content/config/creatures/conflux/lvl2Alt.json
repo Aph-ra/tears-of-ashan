@@ -1,0 +1,71 @@
+{
+	"hurricaneElementalAU": {
+		"name" : {"singular" : "Hurricane Elemental", "plural" : "Hurricane Elementals"},
+		"faction" : "conflux",
+		"level" : 2,
+		"attack" : 7,
+		"defense" : 7,
+		"damage" : {"min" : 2, "max" : 8},
+		"hitPoints" : 15,
+		"speed" : 9,
+		"growth" : 8,
+		"aiValue" : 350,
+		"fightValue" : 240,
+		"cost" : {"gold" : 230},
+		"advMapAmount" : {"min" : 16, "max" : 25},
+		"upgrades" : ["core:stormElemental"],
+		"doubleWide" : false,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"nonLiving" : {
+				"type" : "NON_LIVING"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"immuneToAir" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.air"
+			},
+			"airBuff" : {
+				"type" : "RECEPTIVE"
+			},
+			"meteorShowerVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.meteorShower",
+				"val" : 50,
+				"hidden" : true
+			},
+			"implosionVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.implosion",
+				"val" : 50,
+				"description" : "{Vulnerable to Earth}\nTakes 50% more Damage from Earth Magic spells",
+				"icon" : "zvs/Lib1.res/vulnerabilityearth.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/conflux/battle/lvl2Alt.def",
+			"map" : "creatures/conflux/map/lvl2Alt.def",
+			"iconSmall" : "creatures/conflux/iconsSmall/lvl2Alt.png",
+			"iconLarge" : "creatures/conflux/iconsBig/lvl2Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "STORATTK.wav",
+			"defend": "STORDFND.wav",
+			"killed": "STORKILL.wav",
+			"move": "STORMOVE.wav",
+			"shoot": "STORSHOT.wav",
+			"wince": "STORWNCE.wav"
+		}
+	}
+}	

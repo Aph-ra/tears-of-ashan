@@ -1,0 +1,44 @@
+{
+	"core:troglodyte" : {
+		"upgrades": ["core:infernalTroglodyte", "chthonianAU"]
+	},
+	"core:infernalTroglodyte" : {
+		"upgrades": ["chthonianAU"]
+	},
+	"core:harpy" : {
+		"upgrades": ["core:harpyHag", "furyAU"]
+	},
+	"core:harpyHag" : {
+		"upgrades": ["furyAU"]
+	},
+	"core:beholder" : {
+		"upgrades": ["core:evilEye", "fargazerAU"]
+	},
+	"core:evilEye" : {
+		"upgrades": ["fargazerAU"]
+	},
+	"core:medusa" : {
+		"upgrades": ["core:medusaQueen", "medusaWarriorAU"]
+	},
+	"core:medusaQueen" : {
+		"upgrades": ["medusaWarriorAU"]
+	},
+	"core:minotaur" : {
+		"upgrades": ["core:minotaurKing", "minotaurTaskmasterAU"]
+	},
+	"core:minotaurKing" : {
+		"upgrades": ["minotaurTaskmasterAU"]
+	},
+	"core:manticore" : {
+		"upgrades": ["core:scorpicore", "chimeraAU"]
+	},
+	"core:scorpicore" : {
+		"upgrades": ["chimeraAU"]
+	},
+	"core:redDragon" : {
+		"upgrades": ["core:blackDragon", "shadowDragonAU"]
+	},
+	"core:blackDragon" : {
+		"upgrades": ["shadowDragonAU"]
+	}
+}

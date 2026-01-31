@@ -1,0 +1,66 @@
+{
+	"bansheeAU": {
+		"name" : {"singular" : "Banshee", "plural" : "Banshees"},
+		"level" : 3,
+		"faction" : "necropolis",
+		"attack" : 9,
+		"defense" : 7,
+		"damage" : {"min" : 3, "max" : 5},
+		"hitPoints" : 20,
+		"speed" : 7,
+		"growth" : 7,
+		"aiValue" : 400,
+		"fightValue" : 350,
+		"cost" : {"gold" : 300},
+		"advMapAmount" : {"min" : 12, "max" : 20},
+		"upgrades" : ["core:wraith"],
+		"doubleWide" : false,
+		"abilities" : {
+			"undead" : {
+				"type" : "UNDEAD"
+			},
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"regenerate" : {
+				"type" : "HP_REGENERATION",
+				"val" : 50
+			},
+			"drainsMana" : {
+				"type" : "MANA_DRAIN",
+				"val" : 2
+			},
+			"deathRipple" : {
+				"type" : "SPELL_BEFORE_ATTACK",
+				"subtype" : "deathRipple",
+				"val" : 100,
+				"addInfo" : [1,2],
+				"description" : "{Cast Before Attack}\nCasts Basic Death Ripple before attacking (20% Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/deathripple1.png"
+			},
+			"spellPower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 20
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/necropolis/battle/lvl3Alt",
+			"map" : "creatures/necropolis/map/lvl3Alt",
+			"iconSmall" : "creatures/necropolis/iconsSmall/lvl3Alt",
+			"iconLarge" : "creatures/necropolis/iconsBig/lvl3Alt",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "WRTHATTK.wav",
+			"defend": "WRTHDFND.wav",
+			"killed": "WRTHKILL.wav",
+			"move": "WRTHMOVE.wav",
+			"wince": "WRTHWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"guardsmanAU": {
+		"name" : {"singular" : "Guardsman", "plural" : "Guardsmen"},	
+		"faction" : "castle",
+		"level" : 4,
+		"attack" : 10,
+		"defense" : 14,
+		"damage" : {"min" : 9, "max" : 12},
+		"hitPoints" : 45,
+		"speed" : 6,
+		"growth" : 4,
+		"aiValue" : 588,
+		"fightValue" : 588,
+		"cost" : {"gold" : 400},
+		"advMapAmount" : {"min" : 10, "max" : 16},
+		"upgrades" : ["core:crusader"],
+		"doubleWide" : false,
+		"abilities" : {
+			"extraRetaliation" : {
+				"type" : "ADDITIONAL_RETALIATION",
+				"val" : 1
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/castle/battle/lvl4Alt.def",
+			"map" : "creatures/castle/map/lvl4Alt.json",
+			"mapMask" : ["VVV","VAV"],
+			"iconSmall" : "creatures/castle/iconsSmall/lvl4Alt.png",
+			"iconLarge" : "creatures/castle/iconsBig/lvl4Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "CRUSATTK.wav",
+			"defend": "CRUSDFND.wav",
+			"killed": "CRUSKILL.wav",
+			"move": "CRUSMOVE.wav",
+			"wince": "CRUSWNCE.wav"
+		}
+	}
+}

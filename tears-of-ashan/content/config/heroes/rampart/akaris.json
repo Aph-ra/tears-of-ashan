@@ -1,0 +1,49 @@
+{
+	"akaris" : {
+		"class" : "ranger",
+		"female" : true,
+		"special" : false,
+		"texts" : {
+			"name" : "Akaris",
+			"biography" : "",
+			"specialty" : {
+				"name" : "Centaurs",
+				"tooltip" : "Creature Bonus: Centaurs",
+				"description" : "Increases the Speed of allied Centaurs, Centaur Captains, and Centaur Rangers by 1 and their Attack and Defense skills by 20% for every level (rounded up)."				
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/rampart/akaris/portraitSmall.png",
+			"large" : "heroes/rampart/akaris/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Centaurs.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Centaurs.png"
+		},
+
+		"skills" : [
+			{"skill" : "archery", "level": "basic"},
+			{"skill" : "leadership", "level": "basic"}
+		],
+    
+		"specialty" : {
+			"creature" : "centaur",
+			"creatureLevel" : 1,
+			"stepSize" : 20
+		},
+	
+		"army" : [
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24,
+			},
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24,
+			},
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24,
+			}
+		]
+	}
+}

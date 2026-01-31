@@ -1,0 +1,51 @@
+{
+	"blackGuardAU": {
+		"name" : {"singular" : "Black Guard", "plural" : "Black Guards"},
+		"faction" : "necropolis",
+		"level" : 4,
+		"attack" : 10,
+		"defense" : 14,
+		"damage" : {"min" : 6, "max" : 10},
+		"hitPoints" : 50,
+		"speed" : 7,
+		"growth" : 4,
+		"aiValue" : 650,
+		"fightValue" : 550,
+		"cost" : {"gold" : 450},
+		"advMapAmount" : {"min" : 10, "max" : 16},
+		"upgrades" : ["dreadGuardAU"],
+		"doubleWide" : false,
+		"abilities" : {
+			"undead" : {
+				"type" : "UNDEAD"
+			},
+			"ignoreAttack" : {
+				"type" : "ENEMY_ATTACK_REDUCTION",
+				"val" : 30
+			},
+			"deathStrike" : {
+				"type" : "DOUBLE_DAMAGE_CHANCE",
+				"val" : 20
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/necropolis/battle/lvl4AltUpg1.def",
+			"map" : "creatures/necropolis/map/lvl4AltUpg1.def",
+			"iconSmall" : "creatures/necropolis/iconsSmall/lvl4AltUpg1.png",
+			"iconLarge" : "creatures/necropolis/iconsBig/lvl4AltUpg1.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "CRUSATTK.wav",
+			"defend": "CRUSDFND.wav",
+			"killed": "CRUSKILL.wav",
+			"move": "CRUSMOVE.wav",
+			"wince": "CRUSWNCE.wav"
+		}
+	}
+}

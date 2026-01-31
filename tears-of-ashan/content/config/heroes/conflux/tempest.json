@@ -1,0 +1,49 @@
+{
+	"tempest" : {
+		"class" : "planeswalker",
+		"female" : true,
+		"special" : false,
+		"texts" : {
+			"name" : "Tempest",
+			"biography" : "",
+			"specialty" : {
+				"description" : "Increases the Speed of allied Air Elementals, Storm Elementals, and Hurricane Elementals by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Air Elementals",
+				"name" : "Air Elem."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/conflux/tempest/portraitSmall.png",
+			"large" : "heroes/conflux/tempest/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Air Elementals.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Air Elementals.png"
+		},
+
+		"skills": [
+			{ "skill" : "airMagic", "level": "basic" },
+			{ "skill" : "pathfinding", "level": "basic" }
+		],
+    
+		"specialty" : {
+			"creature" : "airElemental",
+			"creatureLevel" : 2,
+			"stepSize" : 20
+		},
+	
+		"army" : [
+			{
+				"creature" : "airElemental",
+				"min" : 4, "max" : 6,
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4, "max" : 6,
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4, "max" : 6,
+			}
+		]
+	}
+}

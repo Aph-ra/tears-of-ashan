@@ -1,0 +1,54 @@
+{
+	"gwenneth" : {
+		"class" : "cleric",
+		"female" : true,
+		"special" : false,
+		"spellbook" : ["magicArrow"],
+		"texts" : {
+			"name" : "Gwenneth",
+			"biography" : "Gwenneth was once a handmaiden to Queen Catherine Ironfist herself, but as Catherine went to war, Gwenneth found herself wrapped up in clerical studies. She became incredibly learned and is keen on sharing her newfound knowledge.",
+			"specialty" : {
+				"description" : "Increases the maximum learning level of spells taught and learned by Scholar by 1 per level of Scholar.",
+				"tooltip" : "Secondary Skill Bonus: Scholar",
+				"name" : "Scholar"
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/castle/gwenneth/portraitSmall.png",
+			"large" : "heroes/castle/gwenneth/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Expert Scholar.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Expert Scholar.png"
+		},
+
+		"skills" : [
+			{ "skill" : "wisdom", "level" : "basic"},
+			{ "skill" : "scholar", "level" : "basic"}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"scholar" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "LEARN_MEETING_SPELL_LIMIT",
+					"val" : 1
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		]
+	}
+}

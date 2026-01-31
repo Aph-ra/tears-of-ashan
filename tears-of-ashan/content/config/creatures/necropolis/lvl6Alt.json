@@ -1,0 +1,53 @@
+{
+	"dreadtaurAU": {
+		"name" : {"singular" : "Dreadtaur", "plural" : "Dreadtaurs"},
+		"faction" : "necropolis",
+		"level" : 6,
+		"attack" : 20,
+		"defense" : 16,		
+		"damage" : {"min" : 15, "max" : 30},
+		"hitPoints" : 120,
+		"speed" : 9,
+		"growth" : 2,
+		"aiValue" : 2382,
+		"fightValue" : 2029,
+		"cost" : {"gold" : 1500},
+		"advMapAmount" : {"min" : 5, "max" : 10},
+		"doubleWide" : true,
+		"upgrades" : ["core:dreadKnight"],
+		"abilities" : {
+			"undead" : {
+				"type" : "UNDEAD"
+			},
+			"curses" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.curse",
+				"val" : 20,
+				"icon" : "zvs/Lib1.res/curseattack"
+			},
+			"ignoreDefense" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 30
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/necropolis/battle/lvl6Alt",
+			"map" : "creatures/necropolis/map/lvl6Alt",
+			"iconSmall" : "creatures/necropolis/iconsSmall/lvl6Alt",
+			"iconLarge" : "creatures/necropolis/iconsBig/lvl6Alt",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "BLRDATTK.wav",
+			"defend": "BLRDDFND.wav",
+			"killed": "BLRDKILL.wav",
+			"move": "BLRDMOVE.wav",
+			"wince": "BLRDWNCE.wav"
+		}
+	}
+}

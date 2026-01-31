@@ -1,0 +1,48 @@
+{
+	"stratus" : {
+		"class" : "planeswalker",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Stratus",
+			"biography" : "",
+			"specialty" : {
+				"description" : "Increases the Ballista's Attack and Defense skills by 30% for every 5 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Ballista",
+				"name" : "Ballista"
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/conflux/stratus/portraitSmall.png",
+			"large" : "heroes/conflux/stratus/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Ballista.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Ballista.png"
+		},
+
+		"skills": [
+			{ "skill" : "artillery", "level": "advanced" }
+		],
+    
+		"specialty" : {
+			"creature" : "ballista",
+			"creatureLevel" : 5,
+			"stepSize" : 30
+		},
+	
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "ballista",
+				"min" : 1, "max" : 1,
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3, "max" : 5,
+			}
+		]
+	}
+}

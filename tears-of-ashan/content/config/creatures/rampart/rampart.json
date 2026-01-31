@@ -1,0 +1,44 @@
+{
+	"core:centaur" : {
+		"upgrades": ["core:centaurCaptain", "centaurRangerAU"]
+	},
+	"core:centaurCaptain" : {
+		"upgrades": ["centaurRangerAU"]
+	},
+	"core:dwarf" : {
+		"upgrades": ["core:battleDwarf", "dwarfBattleragerAU"]
+	},
+	"core:battleDwarf" : {
+		"upgrades": ["dwarfBattleragerAU"]
+	},
+	"core:woodElf" : {
+		"upgrades": ["core:grandElf", "elfWardancerAU"]
+	},
+	"core:grandElf" : {
+		"upgrades": ["elfWardancerAU"]
+	},
+	"core:pegasus" : {
+		"upgrades": ["core:silverPegasus", "goldPegasusAU"]
+	},
+	"core:silverPegasus" : {
+		"upgrades": ["goldPegasusAU"]
+	},
+	"core:dendroidGuard" : {
+		"upgrades": ["core:dendroidSoldier", "dendroidShamanAU"]
+	},
+	"core:dendroidSoldier" : {
+		"upgrades": ["dendroidShamanAU"]
+	},
+	"core:unicorn" : {
+		"upgrades": ["core:warUnicorn", "pristineUnicornAU"]
+	},
+	"core:warUnicorn" : {
+		"upgrades": ["pristineUnicornAU"]
+	},
+	"core:greenDragon" : {
+		"upgrades": ["core:goldDragon", "diamondDragonAU"]
+	},
+	"core:goldDragon" : {
+		"upgrades": ["diamondDragonAU"]
+	}
+}

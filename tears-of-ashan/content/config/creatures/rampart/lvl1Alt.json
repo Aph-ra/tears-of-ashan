@@ -1,0 +1,58 @@
+{
+	"centaurRangerAU": {
+		"name" : {"singular" : "Centaur Ranger", "plural" : "Centaur Rangers"},
+		"faction" : "rampart",
+		"level" : 1,
+		"attack" : 5,
+		"defense" : 3,
+		"shots" : 12,
+		"damage" : {"min" : 2, "max" : 3},
+		"hitPoints" : 8,
+		"speed" : 7,
+		"growth" : 14,
+		"aiValue" : 138,
+		"fightValue" : 115,
+		"cost" : {"gold" : 90},
+		"advMapAmount" : {"min" : 20, "max" : 30},
+		"upgrades" : ["core:centaurCaptain"],
+		"doubleWide" : true,
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/rampart/battle/lvl1Alt.def",
+			"map" : "creatures/rampart/map/lvl1Alt.def",
+			"iconSmall" : "creatures/rampart/iconsSmall/lvl1Alt.png",
+			"iconLarge" : "creatures/rampart/iconsBig/lvl1Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			},
+			"missile" : {
+				"projectile" : "PELFX.DEF",
+				"attackClimaxFrame" : 5,
+				"offset" : {
+					"upperX" : 39,
+					"upperY" : -76,
+					"middleX" : 49,
+					"middleY" : -66,
+					"lowerX" : 25,
+					"lowerY" : -56
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" : {
+			"attack": "ECNTATTK.wav",
+			"defend": "ECNTDFND.wav",
+			"killed": "ECNTKILL.wav",
+			"move": "ECNTMOVE.wav",
+			"shoot": "GELFSHOT.wav",
+			"wince": "ECNTWNCE.wav"
+		}
+	}
+}

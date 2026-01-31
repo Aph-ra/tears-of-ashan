@@ -1,0 +1,50 @@
+{
+	"haggash" : {
+		"class" : "witch",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [ "resurrection" ],
+		"texts" : {
+			"name" : "Haggash",
+			"biography" : "Haggash, an orphan found wandering in the steppes near Qutugh during the Year of the Sea of Manes, was taken in by a tribe of Centaurs and raised as one of them. Once a leader of Centaur troops, she found Erathian Centaurs to be much less fearsome than she had hoped. She subsequently turned her interest to taming a much more ferocious 4-legged beast: the multi-headed Hydra.",
+			"specialty" : {
+				"name" : "Hydras",
+				"tooltip" : "Creature Bonus: Hydras",
+				"description" : "Increases the Speed of allied Hydras, Chaos Hydras, and Ruinous Hydras by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."				
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/fortress/haggash/portraitSmall.png",
+			"large" : "heroes/fortress/haggash/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Hydras.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Hydras.png"
+		},
+
+		"skills" : [
+			{"skill" : "wisdom", "level": "basic"},
+			{"skill" : "earthMagic", "level": "basic"}
+		],
+    
+		"specialty" : {
+			"creature" : "hydra",
+			"creatureLevel" : 7,
+			"stepSize" : 20
+		},
+	
+		"army" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3, "max" : 5
+			}
+		]
+	}
+}

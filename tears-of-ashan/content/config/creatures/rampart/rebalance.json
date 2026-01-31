@@ -1,0 +1,32 @@
+{
+	"core:silverPegasus": {
+		"attack" : 10,
+		"defense" : 10,
+		"hitPoints" : 40,
+		"aiValue" : 580,
+		"fightValue" : 460,
+		"cost" : {"gold" : 350}
+	},
+	"core:dendroidSoldier": {
+		"attack" : 12,
+		"defense" : 12,
+		"speed" : 5,
+		"aiValue" : 900,
+		"fightValue" : 820,
+		"cost" : {"gold" : 550}
+	},
+	"core:warUnicorn": {
+		"attack" : 18,
+		"defense" : 15,
+		"damage" : {"min" : 20, "max" : 24},
+		"hitPoints" : 100,
+		"aiValue" : 2250,
+		"fightValue" : 2250,
+		"cost" : {"gold" : 1050}
+	},
+	"core:goldDragon": {
+		"hitPoints" : 275,
+		"aiValue" : 8700,
+		"fightValue" : 6350
+	}
+}

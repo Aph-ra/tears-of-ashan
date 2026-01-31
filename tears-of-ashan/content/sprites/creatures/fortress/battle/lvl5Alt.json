@@ -1,0 +1,390 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "Cbgorg10.PCX.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "Cbgorg11.PCX.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "Cbgorg12.PCX.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "Cbgorg13.PCX.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "Cbgorg14.PCX.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "Cbgorg15.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "Cbgorg06.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 1,
+            "file": "Cbgorg07.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 2,
+            "file": "Cbgorg08.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 3,
+            "file": "Cbgorg09.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "Cbgorg01.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 1,
+            "file": "Cbgorg02.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 2,
+            "file": "Cbgorg03.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 3,
+            "file": "Cbgorg04.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 4,
+            "file": "Cbgorg05.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 5,
+            "file": "Cbgorg04.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 6,
+            "file": "Cbgorg03.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 7,
+            "file": "Cbgorg02.PCX.png"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "Cbgorg19.PCX.png"
+        },
+        {
+            "group": 3,
+            "frame": 1,
+            "file": "Cbgorg20.PCX.png"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "Cbgorg21.PCX.png"
+        },
+        {
+            "group": 3,
+            "frame": 3,
+            "file": "Cbgorg22.PCX.png"
+        },
+        {
+            "group": 3,
+            "frame": 4,
+            "file": "Cbgorg23.PCX.png"
+        },
+        {
+            "group": 3,
+            "frame": 5,
+            "file": "Cbgorg24.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "Cbgorg25.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 1,
+            "file": "Cbgorg26.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 2,
+            "file": "Cbgorg27.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 3,
+            "file": "Cbgorg28.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 4,
+            "file": "Cbgorg28.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 5,
+            "file": "Cbgorg28.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 6,
+            "file": "Cbgorg28.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 7,
+            "file": "Cbgorg28.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 8,
+            "file": "Cbgorg28.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 9,
+            "file": "Cbgorg27.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 10,
+            "file": "Cbgorg26.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 11,
+            "file": "Cbgorg25.PCX.png"
+        },
+        {
+            "group": 5,
+            "frame": 0,
+            "file": "Cbgorg50.PCX.png"
+        },
+        {
+            "group": 5,
+            "frame": 1,
+            "file": "Cbgorg51.PCX.png"
+        },
+        {
+            "group": 5,
+            "frame": 2,
+            "file": "Cbgorg52.PCX.png"
+        },
+        {
+            "group": 5,
+            "frame": 3,
+            "file": "Cbgorg53.PCX.png"
+        },
+        {
+            "group": 5,
+            "frame": 4,
+            "file": "Cbgorg54.PCX.png"
+        },
+        {
+            "group": 7,
+            "frame": 0,
+            "file": "Cbgorg16.PCX.png"
+        },
+        {
+            "group": 7,
+            "frame": 1,
+            "file": "Cbgorg17.PCX.png"
+        },
+        {
+            "group": 7,
+            "frame": 2,
+            "file": "Cbgorg18.PCX.png"
+        },
+        {
+            "group": 8,
+            "frame": 0,
+            "file": "Cbgorg18.PCX.png"
+        },
+        {
+            "group": 8,
+            "frame": 1,
+            "file": "Cbgorg17.PCX.png"
+        },
+        {
+            "group": 8,
+            "frame": 2,
+            "file": "Cbgorg16.PCX.png"
+        },
+        {
+            "group": 9,
+            "frame": 0,
+            "file": "Cbgorg16.PCX.png"
+        },
+        {
+            "group": 9,
+            "frame": 1,
+            "file": "Cbgorg17.PCX.png"
+        },
+        {
+            "group": 9,
+            "frame": 2,
+            "file": "Cbgorg18.PCX.png"
+        },
+        {
+            "group": 10,
+            "frame": 0,
+            "file": "Cbgorg18.PCX.png"
+        },
+        {
+            "group": 10,
+            "frame": 1,
+            "file": "Cbgorg17.PCX.png"
+        },
+        {
+            "group": 10,
+            "frame": 2,
+            "file": "Cbgorg16.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 0,
+            "file": "Cbgorg36.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 1,
+            "file": "Cbgorg37.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 2,
+            "file": "Cbgorg38.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 3,
+            "file": "Cbgorg39.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 4,
+            "file": "Cbgorg40.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 5,
+            "file": "Cbgorg41.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 6,
+            "file": "Cbgorg42.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 7,
+            "file": "Cbgorg43.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 0,
+            "file": "Cbgorg29.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 1,
+            "file": "Cbgorg30.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 2,
+            "file": "Cbgorg31.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 3,
+            "file": "Cbgorg32.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 4,
+            "file": "Cbgorg33.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 5,
+            "file": "Cbgorg34.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 6,
+            "file": "Cbgorg35.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 0,
+            "file": "Cbgorg44.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 1,
+            "file": "Cbgorg45.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 2,
+            "file": "Cbgorg46.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 3,
+            "file": "Cbgorg47.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 4,
+            "file": "Cbgorg48.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 5,
+            "file": "Cbgorg49.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 6,
+            "file": "Cbgorg46.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 7,
+            "file": "Cbgorg45.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 8,
+            "file": "Cbgorg44.PCX.png"
+        }
+    ],
+    "basepath": "creatures/fortress/battle/lvl5Alt/"
+}

@@ -1,0 +1,80 @@
+{
+	"colossusAU" : {
+		"name" : {"singular" : "Colossus", "plural" : "Colossi"},
+		"faction" : "tower",
+		"level" : 7,
+		"attack" : 26,
+		"defense" : 22,
+		"damage" : {"min" : 40, "max" : 60},
+		"hitPoints" : 330,
+		"speed" : 12,
+		"growth" : 1,
+		"aiValue" : 7500,
+		"fightValue" : 5000,
+		"cost" : {"gold" : 5000, "gems" : 2},
+		"advMapAmount" : {"min" : 3, "max" : 8},
+		"upgrades" : ["core:titan"],
+		"doubleWide" : false,
+		"abilities" : {
+			"king3" : {
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"thunderOnAttack" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "thunderbolt",
+				"val" : 40,
+				"description" : "{Cast After Attack}\nHas a 40% chance to cast Thunderbolt after attacking (25 Damage per Colossus)",
+				"icon" : "zvs/Lib1.res/thunderbird.png"	
+			},
+			"thunderStrength" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "thunderbolt",
+				"val" : 25
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"hateRedDragons" : {
+				"type" : "HATE",
+				"subtype" : "redDragon",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateBlackDragons" : {
+				"type" : "HATE",
+				"subtype" : "blackDragon",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateShadowDragons" : {
+				"type" : "HATE",
+				"subtype" : "shadowDragonAU",
+				"val" : 50,
+				"description" : "{Hates Dungeon Dragons}\nHates Red Dragons, Black Dragons, and Shadow Dragons",
+				"icon" : "zvs/Lib1.res/hatetitan2.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/tower/battle/lvl7Alt.def",
+			"map" : "creatures/tower/map/lvl7Alt.def",
+			"iconSmall" : "creatures/tower/iconsSmall/lvl7Alt.png",
+			"iconLarge" : "creatures/tower/iconsBig/lvl7Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.38,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" : {
+			"attack" : "GTITATTK.wav",
+			"defend" : "GTITDFND.wav",
+			"killed" : "GTITKILL.wav",
+			"move" : "GTITMOVE.wav",
+			"shoot" : "GTITSHOT.wav",
+			"wince" : "GTITWNCE.wav"
+		}
+	}
+}

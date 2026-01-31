@@ -1,0 +1,67 @@
+{
+	"sacredPhoenixAU" : {
+		"name" : {"singular" : "Sacred Phoenix", "plural" : "Sacred Phoenixes"},
+		"faction" : "conflux",
+		"level" : 7,
+		"attack" : 24,
+		"defense" : 18,
+		"damage" : {"min" : 30, "max" : 50},
+		"hitPoints" : 250,
+		"speed" : 16,
+		"growth" : 1,
+		"aiValue" : 7700,
+		"fightValue" : 5700,
+		"cost" : {"gold" : 4000, "mercury" : 2},
+		"advMapAmount" : {"min" : 3, "max" : 8},
+		"upgrades" : ["core:phoenix"],
+		"doubleWide" : true,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"twoHexAttackBreath" : {
+				"type" : "TWO_HEX_ATTACK_BREATH",
+				"icon" : "zvs/Lib1.res/e_breathphoenix.png"
+			},
+			"rebirthOnce" : {
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"rebirth" : {
+				"type" : "REBIRTH",
+				"val" : 25
+			},
+			"immuneToFire" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.fire"
+			},
+			"KING_1" : {
+				"type" : "KING",
+				"val" : 0
+			},
+			"fireShield" : {
+				"type" : "FIRE_SHIELD",
+				"val" : 30
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/conflux/battle/lvl7Alt.def",
+			"map" : "creatures/conflux/map/lvl7Alt.def",
+			"iconSmall" : "creatures/conflux/iconsSmall/lvl7Alt.png",
+			"iconLarge" : "creatures/conflux/iconsBig/lvl7Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" : {
+			"attack" : "PHOEATTK.wav",
+			"defend" : "PHOEDFND.wav",
+			"killed" : "PHOEKILL.wav",
+			"move" : "PHOEMOVE.wav",
+			"wince" : "PHOEWNCE.wav"
+		}
+	}
+}

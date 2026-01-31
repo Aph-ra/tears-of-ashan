@@ -1,0 +1,57 @@
+{
+	"gremlinMechanicAU": {
+		"name" : {"singular" : "Gremlin Mechanic", "plural" : "Gremlin Mechanics"},
+		"faction" : "tower",
+		"level" : 1,
+		"attack" : 3,
+		"defense" : 3,
+		"damage" : {"min" : 1, "max" : 2},
+		"hitPoints" : 6,
+		"speed" : 5,
+		"growth" : 16,
+		"aiValue" : 66,
+		"fightValue" : 55,
+		"cost" : {"gold" : 40},
+		"advMapAmount" : {"min" : 20, "max" : 30},
+		"upgrades" : ["core:masterGremlin"],
+		"doubleWide" : false,
+		"abilities": {
+			"castRepair" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "gremlinRepair",
+				"val" : 2,
+				"description" : "{Spellcaster}\nCan cast Advanced Repair (10% Power)"
+			},
+			"repairStrength" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "gremlinRepair",
+				"val" : 10
+			},
+			"spellPoints" : {
+				"type" : "CASTS",
+				"val" : 2
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/tower/battle/lvl1Alt.json",
+			"map" : "creatures/tower/map/lvl1Alt.json",
+			"mapMask" : [ "VVV", "VAV"],
+			"iconSmall" : "creatures/tower/iconsSmall/lvl1Alt.png",
+			"iconLarge" : "creatures/tower/iconsBig/lvl1Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "AAGLATTK.wav",
+			"defend": "AAGLDFND.wav",
+			"killed": "AAGLKILL.wav",
+			"move": "AAGLMOVE.wav",
+			"shoot": "AGRMSHOT.wav",
+			"wince": "AAGLWNCE.wav"
+		}
+	}
+}

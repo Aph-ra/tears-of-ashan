@@ -1,0 +1,47 @@
+{
+	"grimGuardAU": {
+		"name" : {"singular" : "Grim Guard", "plural" : "Grim Guards"},
+		"faction" : "necropolis",
+		"level" : 4,
+		"attack" : 10,
+		"defense" : 10,
+		"damage" : {"min" : 6, "max" : 10},
+		"hitPoints" : 40,
+		"speed" : 5,
+		"growth" : 4,
+		"aiValue" : 475,
+		"fightValue" : 450,
+		"cost" : {"gold" : 350},
+		"advMapAmount" : {"min" : 10, "max" : 16},
+		"upgrades" : ["blackGuardAU", "dreadGuardAU"],
+		"doubleWide" : false,
+		"abilities" : {
+			"undead" : {
+				"type" : "UNDEAD"
+			},
+			"deathStrike" : {
+				"type" : "DOUBLE_DAMAGE_CHANCE",
+				"val" : 20
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/necropolis/battle/lvl4AltBase.def",
+			"map" : "creatures/necropolis/map/lvl4AltBase.def",
+			"iconSmall" : "creatures/necropolis/iconsSmall/lvl4AltBase.png",
+			"iconLarge" : "creatures/necropolis/iconsBig/lvl4AltBase.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "CRUSATTK.wav",
+			"defend": "CRUSDFND.wav",
+			"killed": "CRUSKILL.wav",
+			"move": "CRUSMOVE.wav",
+			"wince": "CRUSWNCE.wav"
+		}
+	}
+}

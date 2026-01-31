@@ -1,0 +1,72 @@
+{
+	"salvatore" : {
+		"class" : "inquisitor",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [ "fireball" ],
+		"texts" : {
+			"name" : "Salvatore",
+			"biography" : "Salvatore, the Great Inquisitor, is a cold, pedantic man who has dedicated his life to Elrath, the Dragon of Light. Raised by a devout priest and priestess couple, he is a believer in absolute truths and has no time for anybody who follows the creed of any other Dragon – or superstition. His limited intelligence, allied with his very good memory, leaves Salvatore swift to judge and slow to forget those who don’t share in his unquestioning faith. Those found to be heretics in the eyes of this man, who has never known love, should not expect a short or merciful death.",
+			"specialty" : {
+				"description" : "Salvatore's Monks, Zealots, and Priests can cast Fireball instead of attacking.",
+				"tooltip" : "Creature Bonus: Monks",
+				"name" : "Holy Fire"
+			}
+		},
+		
+		"images" : {
+			"small" : "heroes/castle/salvatore/portraitSmall.png",
+			"large" : "heroes/castle/salvatore/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Holy Fire.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Holy Fire.png"
+		},
+		
+		"skills" : [
+			{ "skill" : "fireMagic", "level": "basic" },
+			{ "skill" : "wisdom", "level": "basic" }
+		],
+		
+		"specialty" : {
+			"base" : {
+				"limiters" : [ {
+					"type" : "CREATURE_TYPE_LIMITER",
+					"creature" : "monk",
+					"includeUpgrades" : true
+				} ]
+			},
+			"bonuses" : {
+				"castFireball" : {
+					"type" : "SPELLCASTER",
+					"subtype" : "fireball",
+					"val" : 1,
+				"description" : "{Spellcaster}\nCan cast Basic Fireball (100% Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/fireball2.png"
+				},
+				"fireballPower" : {
+					"type" : "CREATURE_SPELL_POWER",
+					"subtype" : "fireball",
+					"val" : 100
+				},
+				"spellpoints" : {
+					"type" : "CASTS",
+					"val" : 100
+				}
+			}
+		},
+		
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "monk",
+				"min" : 2, "max" : 3
+			}
+		]
+	}
+}

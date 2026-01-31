@@ -1,0 +1,69 @@
+{
+    "gate05PitFiend": {
+        "type": "combat",
+        "name": "Gate Pit Fiends",
+        "school": {
+            "03gatingSchool": true
+        },
+        "level": 3,
+        "power": 1,
+        "defaultGainChance": 0,
+        "gainChance": {
+            "inferno": 0
+        },
+        "flags": {
+            "indifferent": true,
+            "special": true
+        },
+        "graphics": {
+            "iconBook": "spells/gatingPitFiend/spellBook",
+            "iconScroll": "spells/gatingPitFiend/spellScroll",
+            "iconScenarioBonus": "spells/gatingPitFiend/spellBonus",
+            "iconEffect": "spells/gatingpitFiend/spellEffect"
+        },
+        "animation": {
+            "affect": [
+                "spells/C12SPF0.def"
+            ]
+        },
+        "sounds": {
+            "cast": "RESURECT"
+        },
+        "targetType": "NO_TARGET",
+        "levels": {
+            "base": {
+                "description": "{Gate Pit Fiends}\r\n\r\nAllows you to gate Pit Fiends.\r\n\r\nOnce cast, other creatures may also be gated.",
+                "range": "X",
+                "cost": 40,
+                "power": 1,
+                "battleEffects": {
+                    "summon": {
+                        "exclusive": false,
+                        "id": "pitFiend",
+                        "permanent": false,
+                        "type": "core:summon"
+                    }
+                }
+            },
+            "none": {
+                "cost": 36,
+                "power": 2
+            },
+            "basic": {
+				"description": "{Basic Gate Pit Fiends}\r\n\r\nGates (Power x 2) Pit Fiends.\r\n\r\nOnce cast, other creatures may also be gated.",
+                "cost": 36,
+                "power": 2
+            },
+            "advanced": {
+				"description": "{Advanced Gate Pit Fiends}\r\n\r\nGates (Power x 2) Pit Fiends.\r\n\r\nOnce cast, other creatures may also be gated.",
+                "cost": 32,
+                "power": 2
+            },
+            "expert": {
+				"description": "{Expert Gate Pit Fiends}\r\n\r\nGates (Power x 3) Pit Fiends.\r\n\r\nOnce cast, other creatures may also be gated.",
+                "cost": 28,
+                "power": 3
+            }
+        }
+    }
+}

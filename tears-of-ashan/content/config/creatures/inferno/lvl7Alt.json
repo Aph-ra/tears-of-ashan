@@ -1,0 +1,98 @@
+{
+	"archDemonAU" : {
+		"name" : {"singular" : "Arch Demon", "plural" : "Arch Demons"},
+		"faction" : "inferno",
+		"level" : 7,
+		"attack" : 20,
+		"defense" : 30,
+		"damage" : {"min" : 30, "max" : 50},
+		"hitPoints" : 250,
+		"speed" : 16,
+		"growth" : 1,
+		"aiValue" : 7600,
+		"fightValue" : 5500,
+		"cost" : {"gold" : 5000, "mercury" : 2},
+		"advMapAmount" : {"min" : 3, "max" : 8},
+		"upgrades" : ["core:archDevil"],
+		"doubleWide" : false,
+		"abilities" : {
+			"teleports" : {
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting",
+				"icon" : "zvs/Lib1.res/e_teleport"
+			},
+			"noRetaliation" : {
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"descreaseLuck" : {
+				"type" : "LUCK",
+				"val" : -1,
+				"stacking" : "Devils",
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"description" : "@creatures.core.devil.bonus.decreaseLuck",
+				"limiters" : [ "OPPOSITE_SIDE" ]
+			},
+			"KING_2" : {
+				"type" : "KING",
+				"val" : 2
+			},
+			"hateAngels" : {
+				"type" : "HATE",
+				"subtype" : "creature.angel",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateArchAngels" : {
+				"type" : "HATE",
+				"subtype" : "creature.archangel",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateSeraphim" : {
+				"type" : "HATE",
+				"subtype" : "seraphAU",
+				"val" : 50,
+				"description" : "{Hates Angels}\nDoes 50% more Damage to Angels, Archangels, and Seraphim",
+				"icon" : "zvs/Lib1.res/hatearchdevils.png"
+			},
+			"casts" : {
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"spellPower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 200
+			},
+			"gatingDemons" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "gate04Demon",
+				"val" : 2,
+				"description" : "{Spellcaster}\nCan cast Advanced Gate Demons (200% Power)",
+				"icon" : "zvs/Lib1.res/E_SUMMON.png"
+			},
+		},
+		"graphics" : {
+			"animation" : "creatures/inferno/battle/lvl7Alt.def",
+			"map" : "creatures/inferno/map/lvl7Alt.def",
+			//"mapMask" : ["VVV","VAV"],
+			"iconSmall" : "creatures/inferno/iconsSmall/lvl7Alt.png",
+			"iconLarge" : "creatures/inferno/iconsBig/lvl7Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" : {
+			"attack" : "ADVLATTK.wav",
+			"defend" : "ADVLDFND.wav",
+			"killed" : "ADVLKILL.wav",
+			"move" : "ADVLMOVE.wav",
+			"wince" : "ADVLWNCE.wav",
+			"startMoving" : "ADVLEXT1.wav",
+			"endMoving" : "ADVLEXT2.wav"
+		}
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"ludmilla" : {
+		"class" : "necromancer",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [ "deathRipple" ],
+		"texts" : {
+			"name" : "Ludmilla",
+			"biography" : "Born the daughter of the Duke of Bull, Ludmilla found from a young age that the politics of court were about as volatile and world-changing as a mouse's wind. Instinctively grasping for a surer, faster form of power, Ludmilla found herself living a secret life as she fell in with a den of Necromancers who had great plans for the future. When one of their number, a lascivious Vampire, became her lover, she took to wearing a studded collar as a coded symbol of her blossoming rebellion - that or to cover the bite marks. It was only a matter of time before she took the ritual, and became a Vampire herself. Immortality is such a boon when you're a power-hungry sybarite.",
+			"specialty" : {
+				"name" : "Bone Dragons",
+				"tooltip" : "Creature Bonus: Bone Dragons",
+				"description" : "Increases the Speed of allied Bone Dragons, Ghost Dragons, and Spectral Dragons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."				
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/necropolis/ludmilla/portraitSmall.png",
+			"large" : "heroes/necropolis/ludmilla/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Bone Dragons.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Bone Dragons.png"
+		},
+
+		"skills": [
+			{ "skill" : "necromancy", "level": "basic" },
+			{ "skill" : "darkMagic", "level": "basic" }
+		],
+    
+		"specialty" : {
+			"creature" : "boneDragon",
+			"creatureLevel" : 7,
+			"stepSize" : 20
+		},
+	
+		"army" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "wight",
+				"min" : 4, "max" : 6
+			}
+		]
+	}
+}

@@ -1,0 +1,100 @@
+{
+	"dracolichAU" : {
+		"name" : {"singular" : "Dracolich", "plural" : "Dracoliches"},
+		"faction" : "necropolis",
+		"level" : 10,
+		"attack" : 45,
+		"defense" : 45,
+		"shots" : 8,
+		"damage" : {"min" : 50, "max" : 75},
+		"hitPoints" : 800,
+		"speed" : 16,
+		"growth" : 1,
+		"aiValue" : 60000,
+		"fightValue" : 45000,
+		"cost" : {"gold" : 25000, "mercury" : 15},
+		"advMapAmount" : {"min" : 1, "max" : 3},
+		"doubleWide" : true,
+		"excludeFromRandomization" : true,
+		"abilities" : {
+			"king1" : {
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"undead" : {
+				"type" : "UNDEAD"
+			},
+			"dragon" : {
+				"type" : "DRAGON_NATURE"
+			},
+			"flying" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"decreaseMorale" : {
+				"type" : "MORALE",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : ["OPPOSITE_SIDE"],
+				"val" : -2,
+				"stacking" : "Undead Dragons",
+				"description" : "{Reduces enemy morale}\nDracoliches lower the morale of enemy units by two"
+			},
+			"deathStare" : {
+				"type" : "DEATH_STARE",
+				"subtype" : "deathStareGorgon",
+				"val" : 10
+			},
+			"dragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
+			},
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"deathCloud" : {
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "deathCloud"
+			},
+			"magicResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "any",
+				"val" : 20
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/necropolis/battle/dracolich",
+			"map" : "creatures/necropolis/map/dracolich",
+			"iconSmall" : "creatures/necropolis/iconsSmall/dracolich",
+			"iconLarge" : "creatures/necropolis/iconsBig/dracolich",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 0.75,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" : {
+				"projectile" : "creatures/necropolis/battle/dracolichShot",
+				"attackClimaxFrame" : 5,
+				"offset" : {
+					"upperX" : 41, "upperY" : -92,
+					"middleX" : 58, "middleY" : -79,
+					"lowerX" : 29, "lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" : {
+			"attack" : "GHDRATTK.wav",
+			"defend" : "GHDRDFND.wav",
+			"killed" : "GHDRKILL.wav",
+			"move" : "GHDRMOVE.wav",
+			"shoot" : "creatures/GHDRSHOT.wav",
+			"wince" : "GHDRWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"dwarfBattleragerAU" : {
+		"name" : {"singular" : "Dwarf Battlerager", "plural" : "Dwarf Battleragers"},
+		"faction" : "rampart",
+		"level" : 2,
+		"attack" : 6,
+		"defense" : 8,
+		"damage" : {"min" : 3, "max" : 5},
+		"hitPoints" : 20,
+		"speed" : 5,
+		"growth" : 8,
+		"horde" : 4,
+		"aiValue" : 209,
+		"fightValue" : 209,
+		"cost" : {"gold" : 150},
+		"advMapAmount" : {"min" : 16, "max" : 25},
+		"upgrades" : ["core:battleDwarf"],
+		"doubleWide" : false,
+		"abilities" : {
+			"castDwarfBloodlust" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "dwarfBloodlust",
+				"val" : 2,
+				"description" : "{Spellcaster}\nCan cast Advanced Bloodlust (3 Power) on self without skipping a turn",
+				"icon" : "zvs/Lib1.res/spellsSOD/bloodlust2.png"
+			},
+			"dwarfBloodlustPower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 3
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 2
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/rampart/battle/lvl2Alt.def",
+			"map" : "creatures/rampart/map/lvl2Alt.def",
+			"iconSmall" : "creatures/rampart/iconsSmall/lvl2Alt.png",
+			"iconLarge" : "creatures/rampart/iconsBig/lvl2Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "BDRFATTK.wav",
+			"defend": "BDRFDFND.wav",
+			"killed": "BDRFKILL.wav",
+			"move": "BDRFMOVE.wav",
+			"wince": "BDRFWNCE.wav"
+		}	
+	}
+}

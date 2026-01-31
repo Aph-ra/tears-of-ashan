@@ -1,0 +1,54 @@
+{
+	"minotaurTaskmasterAU": {
+		"name" : {"singular" : "Minotaur Taskmaster", "plural" : "Minotaur Taskmasters"},
+		"faction" : "dungeon",
+		"level" : 5,
+		"attack" : 15,
+		"defense" : 15,
+		"damage" : {"min" : 12, "max" : 20},
+		"hitPoints" : 65,
+		"speed" : 9,
+		"growth" : 3,
+		"aiValue" : 1200,
+		"fightValue" : 975,
+		"cost" : {"gold" : 650},
+		"advMapAmount" : {"min" : 8, "max" : 12},
+		"upgrades" : ["core:minotaurKing"],
+		"doubleWide" : false,
+		"abilities": {
+			"minimumMorale" : {
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+			"raisesMorale" : {
+				"type" : "MORALE",
+				"val" : 1,
+				"propagator" : "HERO",
+				"stacking" : "Minotaurs",
+				"description" : "{Raises Morale}\nMinotaur Taskmasters raise allied units' Morale by +1",
+				"icon" : "zvs/Lib1.res/bonusmoraleangel"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dungeon/battle/lvl5Alt",
+			"map" : "creatures/dungeon/map/lvl5Alt",
+			"iconSmall" : "creatures/dungeon/iconsSmall/lvl5Alt",
+			"iconLarge" : "creatures/dungeon/iconsBig/lvl5Alt",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "MINKATTK.wav",
+			"defend": "MINKDFND.wav",
+			"killed": "MINKKILL.wav",
+			"move": "MINKMOVE.wav",
+			"shoot": "MINKSHOT.wav",
+			"wince": "MINKWNCE.wav"
+		}
+	}
+}	

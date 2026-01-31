@@ -1,0 +1,53 @@
+{
+	"chimeraAU": {
+		"name" : {"singular" : "Chimera", "plural" : "Chimeras"},
+		"faction" : "dungeon",
+		"level" : 6,
+		"attack" : 20,
+		"defense" : 13,
+		"damage" : {"min" : 15, "max" : 20},
+		"hitPoints" : 90,
+		"speed" : 9,
+		"growth" : 2,
+		"aiValue" : 2000,
+		"fightValue" : 1750,
+		"cost" : {"gold" : 1250},
+		"advMapAmount" : {"min" : 5, "max" : 10},
+		"upgrades" : ["core:scorpicore"],
+		"doubleWide" : true,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"paralyze" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.paralyze",
+				"val" : 15,
+				"icon" : "zvs/Lib1.res/paralysisattack.png"
+			},
+			"threeHeads" : {
+				"type" : "THREE_HEADED_ATTACK"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dungeon/battle/lvl6Alt",
+			"map" : "creatures/dungeon/map/lvl6Alt",
+			"iconSmall" : "creatures/dungeon/iconsSmall/lvl6Alt",
+			"iconLarge" : "creatures/dungeon/iconsBig/lvl6Alt",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 0.80,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack" : "SCRPATTK.wav",
+			"defend" : "SCRPDFND.wav",
+			"killed" : "SCRPKILL.wav",
+			"move" : "SCRPMOVE.wav",
+			"wince" : "SCRPWNCE.wav"
+		}
+	}
+}	

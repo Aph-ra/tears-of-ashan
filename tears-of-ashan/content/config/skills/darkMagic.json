@@ -1,0 +1,94 @@
+{
+	"darkMagic" : {
+		"name" : "Dark Magic",
+		"gainChance" : {
+			"might"       : 3,
+            "magic"       : 7,
+			
+			"knight"      : 1,
+            "cleric"      : 3,
+			"inquisitor"  : 6,
+			
+			"ranger"      : 2,
+            "druid"       : 2,
+			
+			"alchemist"   : 2,
+			"wizard"      : 4,
+			
+            "demoniac"    : 4,
+			"heretic"     : 7,
+			"gatekeeper"  : 6,
+			"gatekeeperDevilSpec"  : 6,
+			"gatekeeperNightmareSpec"  : 6,
+			
+			"deathknight" : 8,
+            "necromancer" : 10,
+			"deathKnightNew" : 8,
+			"plaguespreader" : 9,
+			
+			"overlord"    : 4,
+            "warlock"     : 7,
+			
+			"barbarian"   : 1,
+            "battlemage"  : 4,
+			
+			"beastmaster" : 2,
+            "witch"       : 9,
+			
+			"planeswalker" : 3,
+            "elementalist" : 6,
+			
+			"captain"      : 3,
+            "navigator"    : 5,
+			
+			"mercenary"    : 2,
+            "artificer"    : 4
+		},
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"dark" : {
+					"subtype" : "spellSchool.02darkSchool",
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Dark Magic}\n\nBasic Dark Magic allows your hero to cast Dark spells at reduced cost.",
+			"effects" : {
+				"dark" : { "val" : 1 }
+			},
+			"images" : {
+				"small" : "skills/darkSmall/1",
+				"medium" : "skills/darkMedium/1",
+				"large" : "skills/darkLarge/1",
+				"scenarioBonus" : "skills/darkBonus/1"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Dark Magic}\n\nAdvanced Dark Magic allows your hero to cast Dark spells at reduced cost and increased effectiveness.",
+			"effects" : {
+				"dark" : { "val" : 2 }
+			},				
+			"images" : {
+				"small" : "skills/darkSmall/2",
+				"medium" : "skills/darkMedium/2",
+				"large" : "skills/darkLarge/2",
+				"scenarioBonus" : "skills/darkBonus/2"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Dark Magic}\n\nExpert Dark Magic allows your hero to cast Dark spells at reduced cost and maximum effectiveness.",
+			"effects" : {
+				"dark" : { "val" : 3 }
+			},
+			"images" : {
+				"small" : "skills/darkSmall/3",
+				"medium" : "skills/darkMedium/3",
+				"large" : "skills/darkLarge/3",
+				"scenarioBonus" : "skills/darkBonus/3"
+			}
+		}
+	}
+}

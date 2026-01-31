@@ -1,0 +1,49 @@
+{
+	"ellaine" : {
+		"class" : "knight",
+		"female" : true,
+		"special" : false,
+		"texts" : {
+			"name" : "Ellaine",
+			"biography" : "Ellaine served honorably in the Imperial army during the War of the Eclipse and then returned to manage her family's estates in a wise, compassionate, and just manner. Though it had been poorly kept her steady hand yielded fruit: the manor grew and prospered. Now that Ellaine is back at war, the peasants remember her good deeds and show miracles of bravery at the battlefields under her command.",
+			"specialty" : {
+				"name" : "Pikemen",
+				"tooltip" : "Creature Bonus: Pikemen",
+				"description" : "Increases the Speed of allied Pikeman, Halberdiers, and Glaviers by 1 and their Attack and Defense skills by 20% for every level (rounded up)."				
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/castle/ellaine/portraitSmall.png",
+			"large" : "heroes/castle/ellaine/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Pikemen (HotA).png",
+			"specialtyLarge" : "heroes/specialtyLarge/Pikemen (HotA).png"
+		},
+
+		"skills": [
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+    
+		"specialty" : {
+			"creature" : "pikeman",
+			"creatureLevel" : 1,
+			"stepSize" : 20
+		},
+	
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			}
+		]
+	}
+}

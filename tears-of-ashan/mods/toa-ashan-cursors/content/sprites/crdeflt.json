@@ -1,0 +1,20 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "CursrD00.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "CursrD01.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "CursrD02.png"
+        }
+    ],
+    "basepath": "crdeflt/"
+}

@@ -1,0 +1,176 @@
+{
+	"core:imp": {
+		"fightValue" : 55,
+		"aiValue" : 55,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			}
+		}
+	},
+	"core:familiar": {
+		"fightValue" : 75,
+		"aiValue" : 75,
+		"cost" : {"gold" : 65},
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"strikeReturn" : {
+				"type" : "RETURN_AFTER_STRIKE"
+			}
+		}
+	},
+	"core:gog": {
+		"hitPoints" : 15,
+		"fightValue" : 165,
+		"aiValue" : 150
+	},
+	"core:magog": {
+		"attack" : 8,
+		"damage" : {"min" : 3, "max" : 5},
+		"hitPoints" : 15,
+		"fightValue" : 300,
+		"aiValue" : 250
+	},
+	"core:cerberus": {
+		"attack" : 12,
+		"defense" : 6
+	},
+	"core:hornedDemon": {
+		"speed" : 7,
+		"aiValue" : 550,
+		"fightValue" : 550,
+		"cost" : {"gold" : 350},
+		"abilities" : {
+			"ignoreDefense" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 30
+			}
+		}
+	},
+	"core:pitFiend": {
+		"attack" : 12,
+		"defense" : 12,
+		"hitPoints" : 40,
+		"aiValue" : 730,
+		"fightValue" : 730,
+		"cost" : {"gold" : 450}
+	},
+	"core:pitLord": {
+		"hitPoints" : 50,
+		"aiValue" : 1240,
+		"fightValue" : 1080
+	},
+	"core:efreet": {
+		"aiValue" : 1750,
+		"fightValue" : 1475,
+		"cost" : {"gold" : 1000},
+		"abilities" : {
+			"fireShield" : {
+				"type" : "FIRE_SHIELD",
+				"val" : 20
+			},
+			"hateGenies" : {
+				"hidden" : true
+			},
+			"hateMasterGenies" : {
+				"hidden" : true
+			},
+			"hateGenieViziers" : {
+				"type" : "HATE",
+				"subtype" : "genieVizierAU",
+				"val" : 50,
+				"description" : "{Hates Genies}\nDoes 50% more Damage to Genies, Master Genies, and Genie Viziers",
+				"icon" : "zvs/Lib1.res/hatesultans1.png"
+			}
+		}
+	},
+	"core:efreetSultan": {
+		"hitPoints" : 100,
+		"aiValue" : 2500,
+		"fightValue" : 1850,
+		"cost" : {"gold" : 1250},
+		"abilities#override" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"icon" : "zvs/Lib1.res/e_fly3"
+			},
+			"fireShield" : {
+				"type" : "FIRE_SHIELD",
+				"val" : 25
+			},
+			"immuneToFire" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.fire"
+			},
+			"hateGenies" : {
+				"type" : "HATE",
+				"subtype" : "creature.genie",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateMasterGenies" : {
+				"type" : "HATE",
+				"subtype" : "creature.masterGenie",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateGenieViziers" : {
+				"type" : "HATE",
+				"subtype" : "genieVizierAU",
+				"val" : 50,
+				"description" : "{Hates Genies}\nDoes 50% more Damage to Genies, Master Genies, and Genie Viziers",
+				"icon" : "zvs/Lib1.res/hatesultans1.png"
+			}
+		}
+	},
+	"core:devil": {
+		"attack" : 20,
+		"defense" : 20,
+		"damage" : {"min" : 30, "max" : 50},
+		"aiValue" : 5450,
+		"fightValue" : 3875,
+		"cost" : {"gold" : 2750, "mercury" : 1},
+		"abilities" : {
+			"hateAngels" : {
+				"hidden" : true
+			},
+			"hateArchAngels" : {
+				"hidden" : true
+			},
+			"hateSeraphim" : {
+				"type" : "HATE",
+				"subtype" : "seraphAU",
+				"val" : 50,
+				"description" : "{Hates Angels}\nDoes 50% more Damage to Angels, Archangels, and Seraphim",
+				"icon" : "zvs/Lib1.res/hatearchdevils.png"
+			}
+		}
+	},
+	"core:archDevil": {
+		"attack" : 30,
+		"defense" : 25,
+		"damage" : {"min" : 30, "max" : 50},
+		"aiValue" : 7600,
+		"fightValue" : 5500,
+		"cost" : {"gold" : 5000, "mercury" : 2},
+		"abilities" : {
+			"hateAngels" : {
+				"hidden" : true
+			},
+			"hateArchAngels" : {
+				"hidden" : true
+			},
+			"hateSeraphim" : {
+				"type" : "HATE",
+				"subtype" : "seraphAU",
+				"val" : 50,
+				"description" : "{Hates Angels}\nDoes 50% more Damage to Angels, Archangels, and Seraphim",
+				"icon" : "zvs/Lib1.res/hatearchdevils.png"
+			}
+		}
+	}
+}

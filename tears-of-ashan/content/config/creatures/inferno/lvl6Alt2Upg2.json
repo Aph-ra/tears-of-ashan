@@ -1,0 +1,122 @@
+{
+	"hellStallionAU" : {
+		"name" : {"singular" : "Hell Stallion", "plural" : "Hell Stallions"},
+		"faction": "inferno",
+		"level": 6,
+		"attack" : 17,
+		"defense" : 17,
+		"damage" : {"min" : 20, "max" : 24},
+		"hitPoints" : 120,
+		"speed" : 9,
+		"growth" : 2,
+		"aiValue" : 2650,
+		"fightValue" : 2500,
+		"cost" : {"gold" : 1500},
+		"advMapAmount" : {"min" : 5, "max" : 12},
+		"upgrades": ["nightmareAU"],
+		"doubleWide" : true,
+		"abilities": {
+			"immuneToFire" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "fire"
+			},
+			"fireShield" : {
+				"type" : "FIRE_SHIELD",
+				"val" : 20
+			},
+			"fireBreath" : {
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"fireWallVulnerability" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "fireWall",
+				"val" : 25,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ 
+					"OPPOSITE_SIDE", {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "LIVING"
+					}
+				],
+				"hidden" : true
+			},
+			"fireballVulnerability" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "fireball",
+				"val" : 25,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ 
+					"OPPOSITE_SIDE", {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "LIVING"
+					}
+				],
+				"hidden" : true
+			},
+			"landMineVulnerability" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "landMine",
+				"val" : 25,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ 
+					"OPPOSITE_SIDE", {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "LIVING"
+					}
+				],
+				"hidden" : true
+			},
+			"armageddonVulnerability" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "armageddon",
+				"val" : 25,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ 
+					"OPPOSITE_SIDE", {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "LIVING"
+					}
+				],
+				"hidden" : true
+			},
+			"infernoVulnerability" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "inferno",
+				"val" : 25,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ 
+					"OPPOSITE_SIDE", {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "LIVING"
+					}
+				],
+				"description" : "{Aura of Fire Vulnerability}\nCauses all enemy units to suffer 25% more Damage from Fire Magic spells",
+				"icon" : "zvs/Lib1.res/vulnerabilityOffensiveSpells.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/inferno/battle/lvl6AltUpg2.def",
+			"map" : "creatures/inferno/map/lvl6AltUpg2.def",
+			"iconSmall" : "creatures/inferno/iconsSmall/lvl6AltUpg2.png",
+			"iconLarge" : "creatures/inferno/iconsBig/lvl6AltUpg2.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.20,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "BGORATTK.wav",
+			"defend": "BGORDFND.wav",
+			"killed": "BGORKILL.wav",
+			"move": "BGORMOVE.wav",
+			"wince": "BGORWNCE.wav"
+		}
+	}
+}

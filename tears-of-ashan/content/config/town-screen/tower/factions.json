@@ -1,0 +1,104 @@
+{
+	"core:tower" : {
+		"town" : {
+			"hallBackground": "TPTHBKTW",
+			"buildingsIcons": "town-screen/tower/ALTHALLTOWR.DEF",
+			
+			"creatures" : [
+				["gremlin", "masterGremlin", "gremlinMechanicAU"],
+				["stoneGargoyle", "obsidianGargoyle", "elementalGargoyleAU"],
+				["ironGolem", "stoneGolem", "magneticGolemAU"],
+				["mage", "archMage", "battleMageAU"],
+				["genie", "masterGenie", "genieVizierAU"],
+				["naga", "nagaQueen", "nagaRaniAU"],
+				["giant", "titan", "colossusAU"]
+			],
+
+			"structures" : {		
+				"horde1Upgr2":		{ "animation" : "town-screen/cyan", "x" : 0,   "y" : 28, "border" : "TOTGAR2H.PCX", "area" : "town-screen/cyan", "hidden" : true, "builds" : "horde1Upgr" },
+				"dwellingUp2Lvl1": 	{ "animation" : "town-screen/cyan", "x" : 453, "y" : 221, "z" : 1, "border" : "TOTGRM2A.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl2": 	{ "animation" : "town-screen/cyan", "x" : 4,   "y" : 46, "border" : "TOTGAR2.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl3": 	{ "animation" : "town-screen/cyan", "x" : 209, "y" : 177, "z" : 1, "border" : "TOTGOL2A.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl4": 	{ "animation" : "town-screen/cyan", "x" : 613, "y" : 95, "border" : "TOTMAG2.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl5": 	{ "animation" : "town-screen/cyan",  "x" : 511, "y" : 75, "z" : 1, "border" : "TOTGEN2.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl6": 	{ "animation" : "town-screen/cyan", "x" : 681, "y" : 208, "z" : 2, "border" : "TOTNAG2.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl7": 	{ "animation" : "town-screen/cyan", "x" : 75,  "y" : 144, "z" : -1, "border" : "TOTTIT2.PCX", "area" : "town-screen/cyan" }
+			},
+
+			"buildings" : {
+				"horde1Upgr" : {
+					"description" : "The Sculptor's Wings increases Obsidian Gargoyle and Elemental Gargoyle production by 4 per week."
+				},
+				"horde1Upgr2" : {
+					"name" : "Sculptor's Wings",
+					"description" : "The Sculptor's Wings increases Obsidian Gargoyle and Elemental Gargoyle production by 4 per week.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["horde1Upgr"] ]
+				},
+				"dwellingUpLvl1" : {
+					"description" : "The Workshop allows you to recruit Master Gremlins and Gremlin Mechanics."
+				},
+				"dwellingUp2Lvl1" : {
+					"name" : "Upg. Workshop",
+					"description" : "The Workshop allows you to recruit Master Gremlins and Gremlin Mechanics.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl1"] ]
+				},
+				"dwellingUpLvl2" : {
+					"description" : "The Parapet allows you to recruit Obsidian Gargoyles and Elemental Gargoyles."
+				},
+				"dwellingUp2Lvl2" : {
+					"name" : "Upg. Parapet",
+					"description" : "The Parapet allows you to recruit Obsidian Gargoyles and Elemental Gargoyles.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl2"] ]
+				},
+				"dwellingUpLvl3" : {
+					"description" : "The Golem Factory allows you to recruit Iron Golems and Magnetic Golems."
+				},
+				"dwellingUp2Lvl3" : {
+					"name" : "Upg. Golem Factory",
+					"description" : "The Golem Factory allows you to recruit Iron Golems and Magnetic Golems.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl3"] ]
+				},
+				"dwellingUpLvl4" : {
+					"description" : "The Mage Tower allows you to recruit Arch Magi and Battle Magi."
+				},
+				"dwellingUp2Lvl4" : {
+					"name" : "Upg. Mage Tower",
+					"description" : "The Mage Tower allows you to recruit Arch Magi and Battle Magi.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl4"] ]
+				},
+				"dwellingUpLvl5" : {
+					"description" : "The Altar of Wishes allows you to recruit Master Genies and Genie Viziers."
+				},
+				"dwellingUp2Lvl5" : {
+					"name" : "Upg. Altar of Wishes",
+					"description" : "The Altar of Wishes allows you to recruit Master Genies and Genie Viziers.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl5"] ]
+				},
+				"dwellingUpLvl6" : {
+					"description" : "The Golden Pavilion allows you to recruit Naga Queens and Naga Ranis."
+				},
+				"dwellingUp2Lvl6" : {
+					"name" : "Upg. Golden Pavilion",
+					"description" : "The Golden Pavilion allows you to recruit Naga Queens and Naga Ranis.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl6"] ]
+				},
+				"dwellingUpLvl7" : {
+					"description" : "The Cloud Temple allows you to recruit Titans and Colossi.",
+				},
+				"dwellingUp2Lvl7" : {
+					"name" : "Upg. Cloud Temple",
+					"description" : "The Cloud Temple allows you to recruit Titans and Colossi.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl7"] ]
+				}		
+			}
+		}
+	}
+}

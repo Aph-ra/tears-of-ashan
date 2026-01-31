@@ -1,0 +1,95 @@
+{
+	"fargazerAU": {
+		"name" : {"singular" : "Fargazer", "plural" : "Fargazers"},
+		"faction" : "dungeon",
+		"level" : 3,
+		"attack" : 9,
+		"defense" : 9,
+		"shots" : 24,
+		"damage" : {"min" : 4, "max" : 6},
+		"hitPoints" : 25,
+		"speed" : 8,
+		"growth" : 7,
+		"aiValue" : 400,
+		"fightValue" : 280,
+		"cost" : {"gold" : 300},
+		"advMapAmount" : {"min" : 12, "max" : 20},
+		"upgrades" : ["core:evilEye"],
+		"doubleWide" : false,
+		"abilities": {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"noWallPenalty" : {
+				"type" : "NO_WALL_PENALTY"
+			},
+			"visionsMonsters" : {
+				"type" : "VISIONS",
+				"subtype" : "visionsMonsters",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO",
+				"hidden" : true
+			},
+			"visionsHeroes" : {
+				"type" : "VISIONS",
+				"subtype" : "visionsHeroes",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO",
+				"hidden" : true
+			},
+			"visionsTowns" : {
+				"type" : "VISIONS",
+				"subtype" : "visionsTowns",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "HERO",
+				"description" : "{Visions}\nHero can see information about wandering monsters",
+				"icon" : "zvs/Lib1.res/visions2rogue.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dungeon/battle/lvl3Alt",
+			"map" : "creatures/dungeon/map/lvl3Alt",
+			"iconSmall" : "creatures/dungeon/iconsSmall/lvl3Alt",
+			"iconLarge" : "creatures/dungeon/iconsBig/lvl3Alt",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			},
+			"missile" : {
+				"attackClimaxFrame" : 9,
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"ray" : [
+					{ "start" : [ 160, 160, 160, 255 ], "end" : [ 160, 160, 160,  64 ] },
+					{ "start" : [ 192, 192, 192, 255 ], "end" : [ 192, 192, 192, 128 ] },
+					{ "start" : [ 224, 224, 224, 255 ], "end" : [ 224, 224, 224, 255 ] },
+					{ "start" : [ 192, 192, 192, 255 ], "end" : [ 192, 192, 192, 128 ] },
+					{ "start" : [ 160, 160, 160, 255 ], "end" : [ 160, 160, 160,  64 ] }
+				],
+				"offset" : {
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				}
+			}
+		},
+		"sound" : {
+			"attack": "EVLIATTK.wav",
+			"defend": "EVLIDFND.wav",
+			"killed": "EVLIKILL.wav",
+			"move": "EVLIMOVE.wav",
+			"shoot": "EVLISHOT.wav",
+			"wince": "EVLIWNCE.wav"
+		}
+	}
+}	

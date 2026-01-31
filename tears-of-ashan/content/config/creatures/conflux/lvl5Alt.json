@@ -1,0 +1,102 @@
+{
+	"lavaElementalAU": {
+		"name" : {"singular" : "Lava Elemental", "plural" : "Lava Elementals"},
+		"faction" : "conflux",
+		"level" : 5,
+		"attack" : 12,
+		"defense" : 15,
+		"damage" : {"min" : 10, "max" : 18},
+		"hitPoints" : 50,
+		"speed" : 6,
+		"growth" : 4,
+		"aiValue" : 1150,
+		"fightValue" : 780,
+		"cost" : {"gold" : 650},
+		"advMapAmount" : {"min" : 8, "max" : 12},
+		"upgrades" : ["core:magmaElemental"],
+		"doubleWide" : false,
+		"abilities": {
+			"nonLiving" : {
+				"type" : "NON_LIVING"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"earthReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "earth",
+				"val" : 75
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 75
+			},
+			"lightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : 50,
+				"hidden" : true
+			},
+			"chainLightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : 50,
+				"hidden" : true
+			},
+			"titanBoltVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.titanBolt",
+				"val" : 50,
+				"description" : "{Vulnerable to Air}\nTakes 50% more Damage from Air Magic spells",
+				"icon" : "zvs/Lib1.res/vulnerabilityair.png"
+			},
+			"iceBoltVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.iceBolt",
+				"val" : 50,
+				"hidden" : true
+			},
+			"frostRingVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.frostRing",
+				"val" : 50,
+				"hidden" : true
+			},
+			"deepFreezeVulnerability" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "deepFreeze",
+				"val" : 50,
+				"description" : "{Vulnerable to Water}\nTakes 50% more Damage from Water Magic spells",
+				"icon" : "zvs/Lib1.res/vulnerabilitywater.png"
+			},
+			"ignoreAttack" : {
+				"type" : "ENEMY_ATTACK_REDUCTION",
+				"val" : 20
+			},
+			"ignoreDefence" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/conflux/battle/lvl5Alt.def",
+			"map" : "creatures/conflux/map/lvl5Alt.def",
+			"iconSmall" : "creatures/conflux/iconsSmall/lvl5Alt.png",
+			"iconLarge" : "creatures/conflux/iconsBig/lvl5Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "MAGMATTK.wav",
+			"defend": "MAGMDFND.wav",
+			"killed": "MAGMKILL.wav",
+			"move": "MAGMMOVE.wav",
+			"wince": "MAGMWNCE.wav"
+		}	
+	}
+}	

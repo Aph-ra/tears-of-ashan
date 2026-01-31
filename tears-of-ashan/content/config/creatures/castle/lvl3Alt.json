@@ -1,0 +1,49 @@
+{
+	"battleGriffinAU": {
+		"name" : {"singular" : "Battle Griffin", "plural" : "Battle Griffins"},
+		"faction" : "castle",
+		"level" : 3,
+		"attack" : 10,
+		"defense" : 8,
+		"damage" : {"min" : 3, "max" : 6},
+		"hitPoints" : 25,
+		"speed" : 7,
+		"growth" : 7,
+		"horde" : 3,
+		"aiValue" : 448,
+		"fightValue" : 364,
+		"cost" : {"gold" : 240},
+		"advMapAmount" : {"min" : 12, "max" : 20},
+		"upgrades" : ["core:royalGriffin"],
+		"doubleWide" : true,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"doubleAttack" : {
+				"type" : "FEROCITY",
+				"val" : 1
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/castle/battle/lvl3Alt.json",
+			"map" : "creatures/castle/map/lvl3Alt.json",
+			"mapMask" : ["VVV","VAV"],
+			"iconSmall" : "creatures/castle/iconsSmall/lvl3Alt.png",
+			"iconLarge" : "creatures/castle/iconsBig/lvl3Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "RGRFATTK.wav",
+			"defend": "RGRFDFND.wav",
+			"killed": "RGRFKILL.wav",
+			"move":   "RGRFMOVE.wav",
+			"wince":  "RGRFWNCE.wav"
+		}
+	}
+}	

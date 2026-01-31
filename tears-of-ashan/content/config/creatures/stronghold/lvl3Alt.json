@@ -1,0 +1,51 @@
+{
+	"orcBerserkerAU" : {
+		"name" : {"singular" : "Orc Berserker", "plural" : "Orc Berserkers"},
+		"faction" : "stronghold",
+		"level" : 3,
+		"attack" : 8,
+		"defense" : 8,
+		"damage" : {"min" : 2, "max" : 5},
+		"hitPoints" : 20,
+		"speed" : 7,
+		"growth" : 7,
+		"aiValue" : 300,
+		"fightValue" : 250,
+		"cost" : {"gold" : 180},
+		"advMapAmount" : {"min" : 12, "max" : 20},
+		"upgrades" : ["core:orcChieftain"],
+		"doubleWide" : false,
+		"abilities": {
+			"berserkAttack" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "berserk",
+				"val" : 20,
+				"addInfo" : [1,0],
+				"description" : "{Cast After Attack}\nHas a 20% chance to cast Basic Berserk after attacking (3 Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/berserk1.png"
+			},
+			"strikeReturn" : {
+				"type" : "RETURN_AFTER_STRIKE"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/stronghold/battle/lvl3Alt.def",
+			"map" : "creatures/stronghold/map/lvl3Alt.def",
+			"iconSmall" : "creatures/stronghold/iconsSmall/lvl3Alt.png",
+			"iconLarge" : "creatures/stronghold/iconsBig/lvl3Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "ORCCATTK.wav",
+			"defend": "ORCCDFND.wav",
+			"killed": "ORCCKILL.wav",
+			"move": "ORCCMOVE.wav",
+			"wince": "ORCCWNCE.wav"
+		}
+	}
+}

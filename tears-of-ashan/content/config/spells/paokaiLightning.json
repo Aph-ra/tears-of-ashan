@@ -1,0 +1,79 @@
+{
+	"paokaiLightning" : {
+		"type" : "ability",
+		"targetType" : "CREATURE",
+		"name" : "Lightning Breath",
+		"school" : {
+			"air" : true,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+		"level" : 5,
+		"power" : 5,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"animation" : {
+			"affect": [{"defName":"C03SPA0", "verticalPosition":"bottom"}, "C11SPA1"]
+		},
+		"flags" : {
+			"damage": true,
+			"negative": true,
+			"nonMagical" : true,
+			"special": true
+		},
+		"targetCondition" : {},
+
+		"graphics" : {},
+
+		"sounds" : {
+			"cast" : "CHAINLTE"
+		},
+
+		"levels" : {
+			"base" : {
+				"cost" : 15,
+				"range" : "0",
+				"power" : 0,
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage",
+						"chainFactor" : 0.5,
+						"chainLength" : 3
+					}
+				},
+				"targetModifier":{"smart":true}
+			},
+			"none" : {
+				"description" : "Lightning bolt strikes target troop for (0 + (power x 10)) damage. Bolt strikes three troops."
+			},
+			"basic" : {
+				"description" : "Lightning bolt strikes target troop for (0 + (power x 10)) damage. Bolt strikes three troops.",
+				"power" : 0,
+				"battleEffects" : {
+					"directDamage" : {
+						"chainLength" : 3
+					}
+				}
+			},
+			"advanced" : {
+				"description" : "Lightning bolt strikes target troop for (50 + (power x 10)) damage. Bolt strikes three troops.",
+				"power" : 50,
+				"battleEffects" : {
+					"directDamage" : {
+						"chainLength" : 3
+					}
+				}
+			},
+			"expert" : {
+				"description" : "Lightning bolt strikes target troop for (70 + (power x 10)) damage. Bolt strikes three troops.",
+				"power" : 70,
+				"battleEffects" : {
+					"directDamage" : {
+						"chainLength" : 3
+					}
+				}
+			}
+		}
+	}
+}

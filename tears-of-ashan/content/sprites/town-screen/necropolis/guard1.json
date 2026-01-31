@@ -1,0 +1,20 @@
+{
+    "basepath" : "town-screen/necropolis/frames/",
+	"images" : [
+		{ "frame" :  0, "file" : "guard100"},
+		{ "frame" :  1, "file" : "guard101"},
+		{ "frame" :  2, "file" : "guard102"},
+		{ "frame" :  3, "file" : "guard103"},
+		{ "frame" :  4, "file" : "guard104"},
+		{ "frame" :  5, "file" : "guard105"},
+		{ "frame" :  6, "file" : "guard106"},
+		{ "frame" :  7, "file" : "guard107"},		
+		{ "frame" :  8, "file" : "guard108"},
+		{ "frame" :  9, "file" : "guard109"},
+		{ "frame" : 10, "file" : "guard110"},
+		{ "frame" : 11, "file" : "guard111"},
+		{ "frame" : 12, "file" : "guard112"},
+		{ "frame" : 13, "file" : "guard113"},
+		{ "frame" : 14, "file" : "guard114"}
+	]
+}

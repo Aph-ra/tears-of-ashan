@@ -1,0 +1,17 @@
+{
+	"name" : "Ashan Menu Theme",
+	"author" : "Aphra",
+	"contact" : "",
+	"description" : "",
+	"version" : "1.0.0",
+	"modType" : "Interface",
+	
+	"conflicts" : [
+		"h3-themes",
+		"hota.mainmenu",
+		"wake-of-gods.wogscreen",
+		"wake-of-gods.mainmenu",
+		"tides-of-war.tow-main-menu",
+		"hi-rez-menu"
+	]
+}

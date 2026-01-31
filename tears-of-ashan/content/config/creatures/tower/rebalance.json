@@ -1,0 +1,234 @@
+{
+	"core:stoneGargoyle": {
+		"abilities" : {
+			"petrifyImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "stoneGaze",
+				"addInfo" : 1
+			}
+		}
+	},
+	"core:obsidianGargoyle": {
+		"attack" : 8,
+		"defense" : 6,
+		"damage" : {"min" : 2, "max" : 4},
+		"aiValue" : 225,
+		"fightValue" : 165,
+		"abilities" : {
+			"petrifyImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "stoneGaze",
+				"addInfo" : 1
+			}
+		}
+	},
+	"core:stoneGolem": {
+		"abilities" : {
+			"petrifyImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "stoneGaze",
+				"addInfo" : 1
+			}
+		}
+	},
+	"core:ironGolem": {
+		"abilities" : {
+			"petrifyImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "stoneGaze",
+				"addInfo" : 1
+			}
+		}
+	},
+	"core:mage": {
+		"attack" : 10,
+		"damage" : {"min" : 8, "max" : 10},
+		"abilities#override" : {
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"noWallPenalty" :
+			{
+				"type" : "NO_WALL_PENALTY"
+			},
+			"reduceSpellCost" : {
+				"type" : "CHANGES_SPELL_COST_FOR_ALLY",
+				"val" :  2
+			}
+		}
+	},
+	"core:archMage": {
+		"defense" : 10,
+		"damage" : {"min" : 8, "max" : 10},
+		"aiValue" : 750,
+		"fightValue" : 500,
+		"cost" : {"gold" : 500},
+		"abilities#override" : {
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"noWallPenalty" :
+			{
+				"type" : "NO_WALL_PENALTY"
+			},
+			"reduceSpellCost" : {
+				"type" : "CHANGES_SPELL_COST_FOR_ALLY",
+				"val" :  3
+			},
+			"magicArrowAttack" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "magicArrow",
+				"val" : 40,
+				"addInfo" : [2,1],
+				"description" : "{Cast After Attack}\nHas a 40% chance to cast Advanced Magic Arrow after attacking (60% Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/magicarrow2.png"
+			},
+			"spellPower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 60
+			},
+		}
+	},
+	"core:genie": {
+		"aiValue" : 900,
+		"fightValue" : 690,
+		"abilities#override" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"icon" : "zvs/Lib1.res/e_fly3"
+			},
+			"hateEfreet" : {
+				"type" : "HATE",
+				"subtype" : "efreet",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateEfreetSultan" : {
+				"type" : "HATE",
+				"subtype" : "efreetSultan",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateEfreetSufi" : {
+				"type" : "HATE",
+				"subtype" : "efreetSufiAU",
+				"val" : 50,
+				"description" : "{Hates Efreet}\nHates Efreet, Efreet Sultans, and Efreet Sufis",
+				"icon" : "zvs/Lib1.res/hatemastergenies.png"
+			},
+			"airResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "air",
+				"val" : 50
+			}
+		}
+	},
+	"core:masterGenie": {
+		"attack" : 13,
+		"defense" : 13,
+		"aiValue" : 1100,
+		"fightValue" : 775,
+		"cost" : {"gold" : 650},
+		"abilities#override" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"icon" : "zvs/Lib1.res/e_fly3"
+			},
+			"casts" : {
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"spellsLength" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"randomSpellcaster" : {
+				"type" : "RANDOM_SPELLCASTER",
+				"val" : 2
+			},
+			"hateEfreet" : {
+				"type" : "HATE",
+				"subtype" : "efreet",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateEfreetSultan" : {
+				"type" : "HATE",
+				"subtype" : "efreetSultan",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateEfreetSufi" : {
+				"type" : "HATE",
+				"subtype" : "efreetSufiAU",
+				"val" : 50,
+				"description" : "{Hates Efreet}\nHates Efreet, Efreet Sultans, and Efreet Sufis",
+				"icon" : "zvs/Lib1.res/hatemastergenies.png"
+			},
+			"airResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "air",
+				"val" : 50
+			}
+		}
+	},
+	"core:naga": {
+		"defense" : 14,
+		"hitPoints" : 100,
+		"aiValue" : 1750,
+		"fightValue" : 1950,
+		"cost" : {"gold" : 1000}
+	},
+	"core:nagaQueen": {
+		"defense" : 14,
+		"hitPoints" : 120,
+		"aiValue" : 3000,
+		"fightValue" : 3000
+	},
+	"core:giant": {
+		"attack" : 20,
+		"aiValue" : 3750,
+		"fightValue" : 3160,
+		"abilities" : {
+			"hateRedDragons" : {
+				"type" : "HATE",
+				"subtype" : "redDragon",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateBlackDragons" : {
+				"type" : "HATE",
+				"subtype" : "blackDragon",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateShadowDragons" : {
+				"type" : "HATE",
+				"subtype" : "shadowDragonAU",
+				"val" : 50,
+				"description" : "{Hates Dungeon Dragons}\nHates Red Dragons, Black Dragons, and Shadow Dragons",
+				"icon" : "zvs/Lib1.res/hatetitan2.png"
+			}
+		}
+	},
+	"core:titan": {
+		"abilities" : {
+			"hateRedDragons" : {
+				"type" : "HATE",
+				"subtype" : "redDragon",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateBlackDragons" : {
+				"hidden" : true
+			},
+			"hateShadowDragons" : {
+				"type" : "HATE",
+				"subtype" : "shadowDragonAU",
+				"val" : 50,
+				"description" : "{Hates Dungeon Dragons}\nHates Red Dragons, Black Dragons, and Shadow Dragons",
+				"icon" : "zvs/Lib1.res/hatetitan2.png"
+			}
+		}
+	}
+}

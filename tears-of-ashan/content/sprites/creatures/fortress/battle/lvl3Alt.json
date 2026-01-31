@@ -1,0 +1,345 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "CDRFIR11.PCX.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "CDRFIR12.PCX.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "CDRFIR13.PCX.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "CDRFIR14.PCX.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "CDRFIR15.PCX.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "CDRFIR16.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "CDRFIR01.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 1,
+            "file": "CDRFIR06.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 2,
+            "file": "CDRFIR07.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 3,
+            "file": "CDRFIR08.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 4,
+            "file": "CDRFIR09.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "CDRFIR01.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 1,
+            "file": "CDRFIR02.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 2,
+            "file": "CDRFIR03.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 3,
+            "file": "CDRFIR03.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 4,
+            "file": "CDRFIR04.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 5,
+            "file": "CDRFIR05.PCX.png"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "CDRFIR01.PCX.png"
+        },
+        {
+            "group": 3,
+            "frame": 1,
+            "file": "CDRFIR44.PCX.png"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "CDRFIR45.PCX.png"
+        },
+        {
+            "group": 3,
+            "frame": 3,
+            "file": "CDRFIR46.PCX.png"
+        },
+        {
+            "group": 3,
+            "frame": 4,
+            "file": "CDRFIR47.PCX.png"
+        },
+        {
+            "group": 3,
+            "frame": 5,
+            "file": "CDRFIR48.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "CDRFIR01.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 1,
+            "file": "CDRFIR20.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 2,
+            "file": "CDRFIR21.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 3,
+            "file": "CDRFIR22.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 4,
+            "file": "CDRFIR23.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 5,
+            "file": "CDRFIR24.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 6,
+            "file": "CDRFIR25.PCX.png"
+        },
+        {
+            "group": 5,
+            "frame": 0,
+            "file": "CDRFIR01.PCX.png"
+        },
+        {
+            "group": 5,
+            "frame": 1,
+            "file": "CDRFIR49.PCX.png"
+        },
+        {
+            "group": 5,
+            "frame": 2,
+            "file": "CDRFIR50.PCX.png"
+        },
+        {
+            "group": 5,
+            "frame": 3,
+            "file": "CDRFIR51.PCX.png"
+        },
+        {
+            "group": 5,
+            "frame": 4,
+            "file": "CDRFIR52.PCX.png"
+        },
+        {
+            "group": 5,
+            "frame": 5,
+            "file": "CDRFIR53.PCX.png"
+        },
+        {
+            "group": 5,
+            "frame": 6,
+            "file": "CDRFIR54.PCX.png"
+        },
+        {
+            "group": 7,
+            "frame": 0,
+            "file": "CDRFIR18.PCX.png"
+        },
+        {
+            "group": 7,
+            "frame": 1,
+            "file": "CDRFIR19.PCX.png"
+        },
+        {
+            "group": 8,
+            "frame": 0,
+            "file": "CDRFIR19.PCX.png"
+        },
+        {
+            "group": 8,
+            "frame": 1,
+            "file": "CDRFIR18.PCX.png"
+        },
+        {
+            "group": 9,
+            "frame": 0,
+            "file": "CDRFIR18.PCX.png"
+        },
+        {
+            "group": 9,
+            "frame": 1,
+            "file": "CDRFIR19.PCX.png"
+        },
+        {
+            "group": 10,
+            "frame": 0,
+            "file": "CDRFIR19.PCX.png"
+        },
+        {
+            "group": 10,
+            "frame": 1,
+            "file": "CDRFIR18.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 0,
+            "file": "CDRFIR01.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 1,
+            "file": "CDRFIR26.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 2,
+            "file": "CDRFIR27.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 3,
+            "file": "CDRFIR28.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 4,
+            "file": "CDRFIR29.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 5,
+            "file": "CDRFIR30.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 6,
+            "file": "CDRFIR31.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 0,
+            "file": "CDRFIR01.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 1,
+            "file": "CDRFIR32.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 2,
+            "file": "CDRFIR33.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 3,
+            "file": "CDRFIR34.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 4,
+            "file": "CDRFIR35.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 5,
+            "file": "CDRFIR36.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 6,
+            "file": "CDRFIR37.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 0,
+            "file": "CDRFIR01.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 1,
+            "file": "CDRFIR38.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 2,
+            "file": "CDRFIR39.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 3,
+            "file": "CDRFIR40.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 4,
+            "file": "CDRFIR41.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 5,
+            "file": "CDRFIR42.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 6,
+            "file": "CDRFIR43.PCX.png"
+        },
+        {
+            "group": 20,
+            "frame": 0,
+            "file": "CDRFIR10.PCX.png"
+        },
+        {
+            "group": 21,
+            "frame": 0,
+            "file": "CDRFIR17.PCX.png"
+        }
+    ],
+    "basepath": "creatures/fortress/battle/lvl3Alt/"
+}

@@ -1,0 +1,44 @@
+{
+	"core:skeleton" : {
+		"upgrades": ["core:skeletonWarrior", "skeletonArcherAU"]
+	},
+	"core:skeletonWarrior" : {
+		"upgrades": ["skeletonArcherAU"]
+	},
+	"core:walkingDead" : {
+		"upgrades": ["core:zombieLord", "rotZombieAU"]
+	},
+	"core:zombieLord" : {
+		"upgrades": ["rotZombieAU"]
+	},
+	"core:wight" : {
+		"upgrades": ["core:wraith", "bansheeAU"]
+	},
+	"core:wraith" : {
+		"upgrades": ["bansheeAU"]
+	},
+	"core:vampire" : {
+		"upgrades": ["core:vampireLord", "vampirePrinceAU"]
+	},
+	"core:vampireLord" : {
+		"upgrades": ["vampirePrinceAU"]
+	},
+	"core:lich" : {
+		"upgrades": ["core:powerLich", "lichMasterAU"]
+	},
+	"core:powerLich" : {
+		"upgrades": ["lichMasterAU"]
+	},
+	"core:blackKnight" : {
+		"upgrades": ["core:dreadKnight", "dreadtaurAU"]
+	},
+	"core:dreadKnight" : {
+		"upgrades": ["dreadtaurAU"]
+	},
+	"core:boneDragon" : {
+		"upgrades": ["core:ghostDragon", "spectralDragonAU"]
+	},
+	"core:ghostDragon" : {
+		"upgrades": ["spectralDragonAU"]
+	}
+}

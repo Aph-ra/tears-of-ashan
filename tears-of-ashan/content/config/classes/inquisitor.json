@@ -1,0 +1,90 @@
+{
+	"inquisitor" : {
+		"name" : "Inquisitor",
+		"faction" : "castle",
+		"affinity" : "might",	
+		"defaultTavern" : 5,
+		"commander" : "zealot",
+		"animation" : {
+			"battle" : {
+				"female" : "classes/inquisitor/FemaleCombat.def",
+				"male"   : "classes/inquisitor/MaleCombat.def"
+			}
+		},
+		"mapObject" : {
+			"filters" : {
+				"male" : { "male" : true },
+				"female" : { "female" : true }
+			},
+			"templates" : {
+				"female" : {
+					"animation" : "classes/inquisitor/FemaleMap.def"
+					//"editorAnimation": "inquisitor/FemaleEditor.def"
+				},
+				"male" : {
+					"animation" : "classes/inquisitor/MaleMap.def"
+					//"editorAnimation": "inquisitor/MaleEditor.def"
+				}
+			}
+		},
+		"primarySkills" : {
+			"attack"     : 2,
+			"defence"    : 1,
+			"spellpower" : 2,
+			"knowledge"  : 1
+		},
+		"lowLevelChance" : {
+			"attack"     : 20,
+			"defence"    : 20,
+			"spellpower" : 35,
+			"knowledge"  : 25
+		},
+		"highLevelChance" : {
+			"attack"     : 30,
+			"defence"    : 20,
+			"spellpower" : 30,
+			"knowledge"  : 20
+		},
+		"secondarySkills" : {
+			"pathfinding"  : 3,
+			"archery"      : 2,
+			"logistics"    : 6,
+			"scouting"     : 3,
+			"diplomacy"    : 3,
+			"navigation"   : 0,
+			"leadership"   : 5,
+			"wisdom"       : 10,
+			"mysticism"    : 2,
+			"luck"         : 4,
+			"ballistics"   : 3,
+			"eagleEye"     : 1,
+			"necromancy"   : 0,
+			"estates"      : 1,
+			"fireMagic"    : 10,
+			"airMagic"     : 6,
+			"waterMagic"   : 4,
+			"earthMagic"   : 6,
+			"scholar"      : 1,
+			"tactics"      : 3,
+			"artillery"    : 4,
+			"learning"     : 4,
+			"offence"      : 9,
+			"armorer"      : 9,
+			"intelligence" : 6,
+			"sorcery"      : 4,
+			"resistance"   : 2,
+			"firstAid"     : 1
+		},
+		"tavern" : {
+			"castle"     : 10,
+			"rampart"    : 7,
+			"tower"      : 6,
+			"inferno"    : 8,
+			"necropolis" : 4,
+			"dungeon"    : 6,
+			"stronghold" : 6,
+			"fortress"   : 4,
+			"conflux"    : 5
+		}
+	}
+}

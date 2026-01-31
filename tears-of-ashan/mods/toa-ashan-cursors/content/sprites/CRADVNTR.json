@@ -1,0 +1,220 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "CursrA00.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "CursrA10.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "CursrA11.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "CursrA48.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "CursrA20.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "CursrA28.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "CursrA32.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "CursrA40.png"
+        },
+        {
+            "group": 0,
+            "frame": 8,
+            "file": "CursrA44.png"
+        },
+        {
+            "group": 0,
+            "frame": 9,
+            "file": "CursrA24.png"
+        },
+        {
+            "group": 0,
+            "frame": 10,
+            "file": "CursrA21.png"
+        },
+        {
+            "group": 0,
+            "frame": 11,
+            "file": "CursrA29.png"
+        },
+        {
+            "group": 0,
+            "frame": 12,
+            "file": "CursrA33.png"
+        },
+        {
+            "group": 0,
+            "frame": 13,
+            "file": "CursrA41.png"
+        },
+        {
+            "group": 0,
+            "frame": 14,
+            "file": "CursrA45.png"
+        },
+        {
+            "group": 0,
+            "frame": 15,
+            "file": "CursrA25.png"
+        },
+        {
+            "group": 0,
+            "frame": 16,
+            "file": "CursrA22.png"
+        },
+        {
+            "group": 0,
+            "frame": 17,
+            "file": "CursrA30.png"
+        },
+        {
+            "group": 0,
+            "frame": 18,
+            "file": "CursrA34.png"
+        },
+        {
+            "group": 0,
+            "frame": 19,
+            "file": "CursrA42.png"
+        },
+        {
+            "group": 0,
+            "frame": 20,
+            "file": "CursrA46.png"
+        },
+        {
+            "group": 0,
+            "frame": 21,
+            "file": "CursrA26.png"
+        },
+        {
+            "group": 0,
+            "frame": 22,
+            "file": "CursrA23.png"
+        },
+        {
+            "group": 0,
+            "frame": 23,
+            "file": "CursrA31.png"
+        },
+        {
+            "group": 0,
+            "frame": 24,
+            "file": "CursrA35.png"
+        },
+        {
+            "group": 0,
+            "frame": 25,
+            "file": "CursrA43.png"
+        },
+        {
+            "group": 0,
+            "frame": 26,
+            "file": "CursrA47.png"
+        },
+        {
+            "group": 0,
+            "frame": 27,
+            "file": "CursrA27.png"
+        },
+        {
+            "group": 0,
+            "frame": 28,
+            "file": "CursrA36.png"
+        },
+        {
+            "group": 0,
+            "frame": 29,
+            "file": "CursrA37.png"
+        },
+        {
+            "group": 0,
+            "frame": 30,
+            "file": "CursrA38.png"
+        },
+        {
+            "group": 0,
+            "frame": 31,
+            "file": "CursrA39.png"
+        },
+        {
+            "group": 0,
+            "frame": 32,
+            "file": "CursrA01.png"
+        },
+        {
+            "group": 0,
+            "frame": 33,
+            "file": "CursrA02.png"
+        },
+        {
+            "group": 0,
+            "frame": 34,
+            "file": "CursrA03.png"
+        },
+        {
+            "group": 0,
+            "frame": 35,
+            "file": "CursrA04.png"
+        },
+        {
+            "group": 0,
+            "frame": 36,
+            "file": "CursrA05.png"
+        },
+        {
+            "group": 0,
+            "frame": 37,
+            "file": "CursrA06.png"
+        },
+        {
+            "group": 0,
+            "frame": 38,
+            "file": "CursrA07.png"
+        },
+        {
+            "group": 0,
+            "frame": 39,
+            "file": "CursrA08.png"
+        },
+        {
+            "group": 0,
+            "frame": 40,
+            "file": "CursrA00.png"
+        },
+        {
+            "group": 0,
+            "frame": 41,
+            "file": "CursrA49.png"
+        },
+        {
+            "group": 0,
+            "frame": 42,
+            "file": "CursrA50.png"
+        }
+    ],
+    "basepath": "sprites/CRADVNTR/"
+}

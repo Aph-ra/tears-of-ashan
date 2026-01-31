@@ -1,0 +1,51 @@
+{
+	"pristineUnicornAU": {
+		"name" : {"singular" : "Pristine Unicorn", "plural" : "Pristine Unicorns"},
+		"faction" : "rampart",
+		"level" : 6,
+		"attack" : 15,
+		"defense" : 18,
+		"damage" : {"min" : 18, "max" : 22},
+		"hitPoints" : 110,
+		"speed" : 9,
+		"growth" : 2,
+		"aiValue" : 2250,
+		"fightValue" : 2250,
+		"cost" : {"gold" : 1050},
+		"advMapAmount" : {"min" : 5, "max" : 10},
+		"upgrades" : ["core:warUnicorn"],
+		"doubleWide" : true,
+		"abilities" : {
+			"spellResistAura" : {
+				"type" : "SPELL_RESISTANCE_AURA",
+				"val" : 50
+			},
+			"spellAfterBlind" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "blind",
+				"val" : 20,
+				"icon" : "zvs/Lib1.res/blindattack.png"
+			}	
+		},
+		"graphics" : {
+			"animation" : "creatures/rampart/battle/lvl6Alt.json",
+			"map" : "creatures/rampart/map/lvl6Alt.json",
+			"mapMask" : ["VVV","VAV"],
+			"iconSmall" : "creatures/rampart/iconsSmall/lvl6Alt.png",
+			"iconLarge" : "creatures/rampart/iconsBig/lvl6Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "WUNCATTK.wav",
+			"defend": "WUNCDFND.wav",
+			"killed": "WUNCKILL.wav",
+			"move": "WUNCMOVE.wav",
+			"wince": "WUNCWNCE.wav"
+		}
+	}
+}

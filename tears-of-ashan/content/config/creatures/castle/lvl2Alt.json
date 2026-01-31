@@ -1,0 +1,69 @@
+{
+	"crossbowmanAU": {
+		"name" : {"singular" : "Crossbowman", "plural" : "Crossbowmen"},
+		"faction" : "castle",
+		"level" : 2,
+		"attack" : 8,
+		"defense" : 3,
+		"shots" : 24,
+		"damage" : {"min" : 3, "max" : 5},
+		"hitPoints" : 10,
+		"speed" : 7,
+		"growth" : 9,
+		"aiValue" : 184,
+		"fightValue" : 115,
+		"cost" : {"gold" : 150},
+		"advMapAmount" : {"min" : 16, "max" : 25},
+		"upgrades" : ["core:marksman"],
+		"doubleWide" : false,
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"noDistancePenalty" : {
+				"type" : "NO_DISTANCE_PENALTY"
+			},
+			"noWallPenalty" : {
+				"type" : "NO_WALL_PENALTY"
+			},
+			"reduceDefence" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/castle/battle/lvl2Alt.def",
+			"map" : "creatures/castle/map/lvl2Alt.def",
+			"mapMask" : ["VVV","VAV"],
+			"iconSmall" : "creatures/castle/iconsSmall/lvl2Alt.png",
+			"iconLarge" : "creatures/castle/iconsBig/lvl2Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			},
+			"missile" : {
+				"projectile": "PLCBOWX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" : {
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" : {
+			"attack": "HCRSATTK.wav",
+			"defend": "HCRSDFND.wav",
+			"killed": "HCRSKILL.wav",
+			"move": "HCRSMOVE.wav",
+			"shoot": "HCRSSHOT.wav",
+			"wince": "HCRSWNCE.wav"
+		}
+	}	
+}

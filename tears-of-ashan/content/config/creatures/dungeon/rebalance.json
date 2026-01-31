@@ -1,0 +1,144 @@
+{
+	"core:infernalTroglodyte": {
+		"speed" : 6,
+		"aiValue" : 90,
+		"fightValue" : 90,
+		"cost" : {"gold" : 75}
+	},
+	"core:harpy": {
+		"hitPoints" : 15
+	},
+	"core:harpyHag": {
+		"attack" : 7,
+		"damage" : {"min" : 2, "max" : 4},
+		"hitPoints" : 15,
+		"aiValue" : 260,
+		"fightValue" : 210
+	},
+	"core:beholder": {
+		"hitPoints" : 20,
+		"abilities": {
+			"noWallPenalty" : {
+				"type" : "NO_WALL_PENALTY"
+			}
+		}
+	},
+	"core:evilEye": {
+		"hitPoints" : 20,
+		"aiValue" : 400,
+		"fightValue" : 280,
+		"cost" : {"gold" : 300},
+		"abilities": {
+			"noWallPenalty" : {
+				"type" : "NO_WALL_PENALTY"
+			},
+			"noDistancePenalty" : {
+				"type" : "NO_DISTANCE_PENALTY"
+			}
+		}
+	},
+	"core:medusa": {
+		"attack" : 10,
+		"defense" : 10,
+		"shots" : 12,
+		"aiValue" : 540,
+		"fightValue" : 390
+	},
+	"core:medusaQueen": {
+		"attack" : 14,
+		"defense" : 10,
+		"shots" : 24,
+		"aiValue" : 650,
+		"fightValue" : 550,
+		"cost" : {"gold" : 360}
+	},
+	"core:minotaurKing": {
+		"attack" : 17,
+		"defense" : 13,
+		"aiValue" : 1200,
+		"fightValue" : 975,
+		"cost" : {"gold" : 650},
+		"abilities": {
+			"extraAttack" : {
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
+			}
+		}
+	},
+	"core:manticore": {
+		"damage" : {"min" : 15, "max" : 20},
+		"aiValue" : 1600,
+		"fightValue" : 1250,
+		"abilities": {
+			"paralyze" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.paralyze",
+				"val" : 15,
+				"icon" : "zvs/Lib1.res/paralysisattack.png"
+			}
+		}
+	},
+	"core:scorpicore": {
+		"attack" : 18,
+		"defense" : 15,
+		"damage" : {"min" : 18, "max" : 22},
+		"hitPoints" : 100,
+		"aiValue" : 2000,
+		"fightValue" : 1750,
+		"cost" : {"gold" : 1250},
+		"abilities#override": {
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"paralize" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.paralyze",
+				"val" : 30,
+				"icon" : "zvs/Lib1.res/paralysisattack.png"
+			}
+		}
+	},
+	"core:redDragon": {
+		"abilities": {
+			"hateGiants" : {
+				"type" : "HATE",
+				"subtype" : "giant",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateTitans" : {
+				"type" : "HATE",
+				"subtype" : "titan",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateColossi" : {
+				"type" : "HATE",
+				"subtype" : "colossusAU",
+				"val" : 50,
+				"description" : "{Hates Giants}\nDoes 50% more Damage to Giants, Titans, and Colossi",
+				"icon" : "zvs/Lib1.res/hateblackdragons.png"
+			}
+		}
+	},
+	"core:blackDragon": {
+		"abilities": {
+			"hateGiants" : {
+				"type" : "HATE",
+				"subtype" : "giant",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateTitans" : {
+				"hidden" : true
+			},
+			"hateColossi" : {
+				"type" : "HATE",
+				"subtype" : "colossusAU",
+				"val" : 50,
+				"description" : "{Hates Giants}\nDoes 50% more Damage to Giants, Titans, and Colossi",
+				"icon" : "zvs/Lib1.res/hateblackdragons.png"
+			}
+		}
+	}
+}

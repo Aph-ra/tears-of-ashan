@@ -1,0 +1,71 @@
+{
+	"nightmareAU" : {
+		"name" : {"singular" : "Nightmare", "plural" : "Nightmares"},
+		"faction": "inferno",
+		"level": 6,
+		"attack" : 19,
+		"defense" : 15,
+		"damage" : {"min" : 22, "max" : 26},
+		"hitPoints" : 110,
+		"speed" : 9,
+		"growth" : 2,
+		"aiValue" : 2650,
+		"fightValue" : 2500,
+		"cost" : {"gold" : 1500},
+		"advMapAmount" : {"min" : 5, "max" : 10},
+		"upgrades": ["hellStallionAU"],
+		"doubleWide" : true,
+		"abilities": {
+			"magicResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 50
+			},
+			"deathStare" : {
+				"type" : "DEATH_STARE",
+				"subtype" : "deathStareGorgon",
+				"val" : 10
+			},
+			"fearful" : {
+				"type" : "FEARFUL",
+				"val" : 10,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ 
+					"OPPOSITE_SIDE", {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "LIVING"
+					}
+				],
+				"description" : "{Fearsome}\nHas a 10% chance to inflict enemies with Fear",
+				"icon" : "zvs/Lib1.res/e_fear.png"
+			},
+			"fearless" : {
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"val" : 0,
+				"description" : "{Fearless}\nUnaffected by Fear",
+				"icon" : "zvs/Lib1.res/e_fearl.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/inferno/battle/lvl6AltUpg1.def",
+			"map" : "creatures/inferno/map/lvl6AltUpg1.def",
+			"iconSmall" : "creatures/inferno/iconsSmall/lvl6AltUpg1.png",
+			"iconLarge" : "creatures/inferno/iconsBig/lvl6AltUpg1.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.20,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "BGORATTK.wav",
+			"defend": "BGORDFND.wav",
+			"killed": "BGORKILL.wav",
+			"move": "BGORMOVE.wav",
+			"wince": "BGORWNCE.wav"
+		}
+	}
+}

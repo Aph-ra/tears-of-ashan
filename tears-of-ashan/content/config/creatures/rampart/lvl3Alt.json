@@ -1,0 +1,44 @@
+{
+	"elfWardancerAU": {
+		"name" : {"singular" : "Elf Wardancer",	"plural" : "Elf Wardancers"},
+		"faction" : "rampart",
+		"level" : 3,
+		"attack" : 9,
+		"defense" : 7,
+		"damage" : {"min" : 3, "max" : 5},
+		"hitPoints" : 20,
+		"speed" : 9,
+		"growth" : 7,
+		"aiValue" : 331,
+		"fightValue" : 195,
+		"cost" : {"gold" : 225},
+		"advMapAmount" : {"min" : 12, "max" : 20},
+		"upgrades" : ["core:grandElf"],
+		"doubleWide" : false,
+		"abilities" : {
+			"additionalAttack" : {
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/rampart/battle/lvl3Alt.def",
+			"map" : "creatures/rampart/map/lvl3Alt.def",
+			"iconSmall" : "creatures/rampart/iconsSmall/lvl3Alt.png",
+			"iconLarge" : "creatures/rampart/iconsBig/lvl3Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.20,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "GELFATTK.wav",
+			"defend": "GELFDFND.wav",
+			"killed": "GELFKILL.wav",
+			"move": "GELFMOVE.wav",
+			"wince": "GELFWNCE.wav"
+		}
+	}	
+}

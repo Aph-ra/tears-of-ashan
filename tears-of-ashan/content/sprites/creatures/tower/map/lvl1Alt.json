@@ -1,0 +1,45 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "AVWgrex0A000.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "AVWgrex0A001.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "AVWgrex0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "AVWgrex0A001.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "AVWgrex0A000.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "AVWgrex0A005.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "AVWgrex0A006.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "AVWgrex0A005.png"
+        }
+    ],
+    "basepath": "creatures/tower/map/lvl1Alt/"
+}

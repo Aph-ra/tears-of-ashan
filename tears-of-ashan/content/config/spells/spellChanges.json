@@ -1,0 +1,626 @@
+{
+	"core:bless" : {
+		"name" : "Divine Strength",
+		"school" : {
+			"water" : false,
+			"01lightSchool" : true
+		},
+		"levels" : {
+			"none" : {
+				"description" : "{Divine Strength}\n\nCauses the selected friendly unit to inflict maximum damage in combat. Removes Curse effect. Does not affect undead.\n",
+			},
+			"basic" : {
+				"description" : "{Basic Divine Strength}\n\nCauses the selected friendly unit to inflict maximum damage in combat. Removes Curse effect. Does not affect undead.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Divine Strength}\n\nCauses the selected friendly unit to inflict damage greater than their normal maximum damange in combat by 1. Removes Curse effect. Does not affect undead.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Divine Strength}\n\nCauses all friendly units to inflict damage greater than their normal maximum damange in combat by 1. Removes Curse effect. Does not affect undead.\n"
+			}
+		}
+	},
+	"core:blind" : {
+		"school" : {
+			"fire" : false,
+			"01lightSchool" : true
+		}
+	},
+	"core:deathRipple" : {
+		"school" : {
+			"earth" : false,
+			"02darkSchool" : true
+		},
+		"graphics" : {
+			"iconBook" : "spells/deathRipple/spellBook",
+			"iconScroll" : "spells/deathRipple/spellScroll",
+			"iconScenarioBonus" : "spells/deathRipple/spellBonus",
+			"iconEffect" : "spells/deathRipple/spellEffect"
+		}
+	},
+	"core:destroyUndead" : {
+		"school" : {
+			"air" : false,
+			"01lightSchool" : true
+		},
+		"targetCondition" : {
+			"allOf" : {
+				"bonus.UNDEAD" : "absolute"
+				//"bonus.INFERNAL" : "absolute"
+			}
+		},
+		"levels" : {
+			"none" : {
+				"description" : "{Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield.\n\nEach unit takes (Spell Power x 10 + 10) damage.\n",
+			},
+			"basic" : {
+				"description" : "{Basic Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield.\n\nEach unit takes (Spell Power x 10 + 10) damage.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield.\n\nEach unit takes (Spell Power x 10 + 20) damage.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield.\n\nEach unit takes (Spell Power x 10 + 50) damage.\n"
+			}
+		}
+	},
+	"core:dimensionDoor" : {
+		"school" : {
+			"air" : true,
+			"earth" : true,
+			"fire" : true,
+			"water" : true,
+			"01lightSchool" : true,
+			"02darkSchool" : true
+		},
+		"graphics" : {
+			"iconBook" : "spells/dimensionDoor/spellBook",
+			"iconScroll" : "spells/dimensionDoor/spellScroll",
+			//"iconScenarioBonus" : "spells/dimensionDoor/spellBonus",
+			//"iconEffect" : "spells/dimensionDoor/spellEffect"
+		}
+	},
+	"core:dispel" : {
+		"name" : "Cleansing",
+		"school" : {
+			"water" : false,
+			"01lightSchool" : true
+		},
+		"graphics" : {
+			"iconBook" : "spells/dispel/spellBook",
+			"iconScroll" : "spells/dispel/spellScroll",
+			"iconScenarioBonus" : "spells/dispel/spellBonus",
+			"iconEffect" : "spells/dispel/spellEffect"
+		},
+		"levels" : {
+			"none" : {
+				"description" : "{Cleansing}\n\nRemoves all spells and effects except Disrupting Ray and Poison from a friendly unit. Ignores target creature's natural immunities to magic.\n",
+			},
+			"basic" : {
+				"description" : "{Basic Cleansing}\n\nRemoves all spells and effects except Disrupting Ray and Poison from a friendly unit. Ignores target creature's natural immunities to magic.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Cleansing}\n\nRemoves all spells and effects except Disrupting Ray and Poison from a friendly or hostile unit. Ignores target creature's natural immunities to magic.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Cleansing}\n\nRemoves all spells and effects except Disrupting Ray and Poison from all units on the battlefield and destroys all magic obstacles. Ignores target creatures' chances to resist spells and natural immunities to magic.\n"
+			}
+		}
+	},
+	"core:fortune" : {
+		"school" : {
+			"air" : false,
+			"01lightSchool" : true
+		}
+	},
+	"core:magicArrow" : {
+		"school" : {
+			"air" : true,
+			"earth" : true,
+			"fire" : true,
+			"water" : true,
+			"01lightSchool" : true,
+			"02darkSchool" : true
+		}
+	},
+	"core:mirth" : {
+		"school" : {
+			"water" : false,
+			"01lightSchool" : true
+		},
+		"graphics" : {
+			"iconBook" : "spells/mirth/spellBook",
+			"iconScroll" : "spells/mirth/spellScroll",
+			"iconScenarioBonus" : "spells/mirth/spellBonus",
+			"iconEffect" : "spells/mirth/spellEffect"
+		}
+	},
+	"core:misfortune" : {
+		"school" : {
+			"fire" : false,
+			"02darkSchool" : true
+		},
+		"graphics" : {
+			"iconBook" : "spells/misfortune/spellBook",
+			"iconScroll" : "spells/misfortune/spellScroll",
+			"iconScenarioBonus" : "spells/misfortune/spellBonus",
+			"iconEffect" : "spells/misfortune/spellEffect"
+		}
+	},
+	"core:prayer" : {
+		"school" : {
+			"water" : false,
+			"01lightSchool" : true
+		},
+		"graphics" : {
+			"iconBook" : "spells/prayer/spellBook",
+			"iconScroll" : "spells/prayer/spellScroll",
+			"iconScenarioBonus" : "spells/prayer/spellBonus",
+			"iconEffect" : "spells/prayer/spellEffect"
+		},
+		"levels" : {
+			"none" : {
+				"description" : "{Prayer}\n\nBestows a +2 bonus to the Attack strength, Defense strength, and Speed of the selected friendly unit.\n",
+			},
+			"basic" : {
+				"description" : "{Basic Prayer}\n\nBestows a +2 bonus to the Attack strength, Defense strength, and Speed of the selected friendly unit.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Prayer}\n\nBestows a +4 bonus to the Attack strength, Defense strength, and Speed of the selected friendly unit.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Prayer}\n\nBestows a +5 bonus to the Attack strength, Defense strength, and Speed of all friendly units.\n"
+			}
+		}
+	},
+	"core:sorrow" : {
+		"school" : {
+			"earth" : false,
+			"02darkSchool" : true
+		},
+		"graphics" : {
+			"iconBook" : "spells/sorrow/spellBook",
+			"iconScroll" : "spells/sorrow/spellScroll",
+			"iconScenarioBonus" : "spells/sorrow/spellBonus",
+			"iconEffect" : "spells/sorrow/spellEffect"
+		}
+	},
+	"core:townPortal" : {
+		"school" : {
+			"air" : true,
+			"earth" : true,
+			"fire" : true,
+			"water" : true,
+			"01lightSchool" : true,
+			"02darkSchool" : true
+		},
+		"graphics" : {
+			"iconBook" : "spells/townPortal/spellBook",
+			"iconScroll" : "spells/townPortal/spellScroll",
+			//"iconScenarioBonus" : "spells/townPortal/spellBonus",
+			//"iconEffect" : "spells/townPortal/spellEffect"
+		}
+	},
+	"core:visions" : {
+		"school" : {
+			"air" : true,
+			"earth" : true,
+			"fire" : true,
+			"water" : true,
+			"01lightSchool" : true,
+			"02darkSchool" : true
+		}
+	},
+	"new-old-spells-plus:waspSwarm" : {
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					},
+					"speed" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"reduceSpeed" : {
+								"type" : "STACKS_SPEED",
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : ["N_TURNS"],
+								"val" : -20
+							}
+						}
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Wasp Swarm}\n\nConjures a swarm of wasps to assail the target enemy.\n\nTarget enemy troop takes (Spell Power x 10 + 10) Damage and has its Speed reduced by 20%. Does not affect undead or non-living units.\n",
+				"cost" : 8,
+				"power" : 10
+			},
+			"basic" : {
+				"description" : "{Basic Wasp Swarm}\n\nConjures a swarm of wasps to assail the target enemy.\n\nTarget enemy troop takes (Spell Power x 10 + 10) Damage and has its Speed reduced by 20%. Does not affect undead or non-living units.\n",
+				"cost" : 6,
+				"power" : 10
+			},
+			"advanced" : {
+				"description" : "{Advanced Wasp Swarm}\n\nConjures a swarm of wasps to assail the target enemy.\n\nTarget enemy troop takes (Spell Power x 10 + 15) Damage and has its Speed reduced by 40%. Does not affect undead or non-living units.\n",
+				"cost" : 6,
+				"power" : 15,
+				"battleEffects" : {
+					"speed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"reduceSpeed" : {
+								"val" : -40
+							}
+						}
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Expert Wasp Swarm}\n\nConjures a swarm of wasps to assail the target enemy.\n\nTarget enemy troop takes (Spell Power x 10 + 20) Damage and has its Speed reduced by 60%. Does not affect undead or non-living units.\n",
+				"cost" : 6,
+				"power" : 20,
+				"battleEffects" : {
+					"speed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"reduceSpeed" : {
+								"val" : -60
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"new-old-spells-plus:levitation" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Levitation}\n\nCauses magical clouds to lift the target friendly troop, allowing it to fly until they attack.\n",
+				"cost" : 16
+			},
+			"basic" : {
+				"description" : "{Basic Levitation}\n\nCauses magical clouds to lift the target friendly troop, allowing it to fly until they attack.\n",
+				"cost" : 12
+			},
+			"advanced" : {
+				"description" : "{Advanced Levitation}\n\nCauses magical clouds to lift the target friendly troop, allowing it to fly.\n",
+				"cost" : 12
+			},
+			"expert" : {
+				"description" : "{Expert Levitation}\n\nCauses magical clouds to lift all friendly troops, allowing them to fly.\n",
+				"cost" : 12
+			}
+		}
+	},
+	"new-old-spells-plus:confusion" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Confusion}\n\nCauses target enemy troop to become confused and unable to retaliate once.\n",
+				"cost" : 12
+			},
+			"basic" : {
+				"description" : "{Basic Confusion}\n\nCauses target enemy troop to become confused and unable to retaliate once.\n",
+				"cost" : 9
+			},
+			"advanced" : {
+				"description" : "{Advanced Confusion}\n\nCauses target enemy troop to become confused and unable to retaliate.\n",
+				"cost" : 9
+			},
+			"expert" : {
+				"description" : "{Expert Confusion}\n\nCauses all enemy troops to become confused and unable to retaliate.\n",
+				"cost" : 9
+			}
+		}
+	},
+	"new-old-spells-plus:vigour" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Vigour}\n\nTarget friendly troop will strike twice upon its next melee attack.",
+				"cost" : 22
+			},
+			"basic" : {
+				"description" : "{Basic Vigour}\n\nTarget friendly troop will strike twice upon its next melee attack.",
+				"cost" : 18
+			},
+			"advanced" : {
+				"description" : "{Advanced Vigour}\n\nTarget friendly troop will strike twice upon its next melee attack.",
+				"cost" : 18
+			},
+			"expert" : {
+				"description" : "{Expert Vigour}\n\nAll friendly troops will strike twice upon their next melee attack.",
+				"cost" : 18,
+			}
+		}
+	},
+	"new-old-spells-plus:dragonStrength" : {
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"health" : {
+						"type" : "STACK_HEALTH",
+						"val" : 20,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					},
+					"damage" : {
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : "creatureDamageBoth",
+						"val" : 20,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Dragon Strength}\n\nImbues the target friendly troop with the strength and vitality of a Dragon.\n\nIncreases the Health and Damage of target friendly troop by 20%. Does not affect Dragons.\n",
+				"cost" : 28
+			},
+			"basic" : {
+				"description" : "{Basic Dragon Strength}\n\nImbues the target friendly troop with the strength and vitality of a Dragon.\n\nIncreases the Health and Damage of target friendly troop by 20%. Does not affect Dragons.\n",
+				"cost" : 24
+			},
+			"advanced" : {
+				"description" : "{Advanced Dragon Strength}\n\nImbues the target friendly troop with the strength and vitality of a Dragon.\n\nIncreases the Health and Damage of target friendly troop by 35%. Does not affect Dragons.\n",
+				"cost" : 24,
+				"effects" : {
+					"health" : {
+						"val" : 35
+					},
+					"damage" : {
+						"val" : 35
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Expert Dragon Strength}\n\nImbues the target friendly troop with the strength and vitality of a Dragon.\n\nIncreases the Health and Damage of target friendly troop by 50%. Does not affect Dragons.\n",
+				"cost" : 24,
+				"effects" : {
+					"health" : {
+						"val" : 50
+					},
+					"damage" : {
+						"val" : 50
+					}
+				}
+			}
+		}
+	},
+	"new-old-spells-plus:deepFreeze" : {
+		"animation" : {
+			"affect" : [ {
+					"effectName" : "deepFreeze",
+					"transparency" : 0.5
+				}
+			]
+		},
+		"power" : 50,
+		"levels#override" : {
+			"base" : {
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				},
+				"effects" : {
+					"notActive" : {
+						"val" : 0,
+						"type" : "NOT_ACTIVE",
+						"subtype" : "new-old-spells-plus:deepFreeze",
+						"duration" : [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						],
+						"turns" : 3
+					},
+					"generalDamageReduction" : {
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"val" : -20,
+						"duration" : [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						],
+						"turns" : 3
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Deep Freeze}\n\nFreezes the target enemy troop with a wave of sheer cold for 3 turns.\n\nTarget enemy troop takes (Spell Power x 50 + 50) Damage. It receives 20% increased Damage until it is attacked or thaws out.\n",
+				"cost" : 30,
+				"power" : 50
+			},
+			"basic" : {
+				"description" : "{Basic Deep Freeze}\n\nFreezes the target enemy troop with a wave of sheer cold for 3 turns.\n\nTarget enemy troop takes (Spell Power x 50 + 50) Damage. It receives 20% increased Damage until it is attacked or thaws out.\n",
+				"cost" : 25,
+				"power" : 50
+			},
+			"advanced" : {
+				"description" : "{Advanced Deep Freeze}\n\nFreezes the target enemy troop with a wave of sheer cold for 3 turns.\n\nTarget enemy troop takes (Spell Power x 50 + 100) Damage. It receives 35% increased Damage until it is attacked or thaws out.\n",
+				"cost" : 25,
+				"power" : 100,
+				"effects" : {
+					"generalDamageReduction" : {
+						"val" : -35
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Expert Deep Freeze}\n\nFreezes the target enemy troop with a wave of sheer cold for 3 turns.\n\nTarget enemy troop takes (Spell Power x 50 + 150) Damage. It receives 50% increased Damage until it is attacked or thaws out.\n",
+				"cost" : 25,
+				"power" : 150,
+				"effects" : {
+					"generalDamageReduction" : {
+						"val" : -50
+					}
+				}
+			}
+		}
+	},
+	"new-old-spells-plus:oh3Fear" : {
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false,
+			"02darkSchool" : true
+		},
+		"graphics" : {
+			"iconBook" : "spells/fear/spellBook",
+			"iconScroll" : "spells/fear/spellScroll",
+			"iconScenarioBonus" : "spells/fear/spellBonus",
+			"iconEffect" : "spells/fear/spellEffect"
+		},
+		"levels" : {
+			"base" : {
+				"effects#override" : {
+					"reduceDamage" : {
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : "creatureDamageBoth",
+						"val" : -100,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						],
+						"turns" : 3
+					},
+					"reduceSpeed" : {
+						"type" : "STACKS_SPEED",
+						"val" : -25,
+						"valueType" : "PERCENT_TO_BASE",
+						"duration" : [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						],
+						"turns" : 3
+					},
+					"noAttack" : {
+						"type" : "ADDITIONAL_ATTACK",
+						"val" : -1,
+						"valueType" : "INDEPENDENT_MIN",
+						"duration" : [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						],
+						"turns" : 3
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Fear}\n\nStrikes an enemy unit with such fear that it becomes unable to attack and nearly unable to move.\n\nTarget enemy unit cannot attack or retaliate and has its Speed reduced by 25% until it is attacked or overcomes its fear.\n",
+				"cost" : 36
+			},
+			"basic" : {
+				"description" : "{Basic Fear}\n\nStrikes an enemy unit with such fear that it becomes unable to attack and nearly unable to move.\n\nTarget enemy unit cannot attack or retaliate and has its Speed reduced by 25% until it is attacked or overcomes its fear.\n",
+				"cost" : 32
+			},
+			"advanced" : {
+				"description" : "{Advanced Fear}\n\nStrikes an enemy unit with such fear that it becomes unable to attack and nearly unable to move.\n\nTarget enemy unit cannot attack or retaliate and has its Speed reduced by 50% until it is attacked or overcomes its fear.\n",
+				"cost" : 32
+			},
+			"expert" : {
+				"description" : "{Expert Fear}\n\nStrikes an enemy unit with such fear that it becomes unable to attack and nearly unable to move.\n\nTarget enemy unit cannot attack or retaliate and has its Speed reduced by 75% until it is attacked or overcomes its fear.\n",
+				"cost" : 32
+			}
+		}
+	},
+	"new-old-spells-plus:puppetMaster" : {
+		"school" : {
+			"air" : false,
+			"02darkSchool" : true
+		},
+		"levels" : {
+			"none" : {
+				"description" : "{Puppet Master}\n\nPuppeteers an enemy troop under your control until they take damage.\n\nThe affected troop has its Speed reduced by 50%.\n",
+				"cost" : 40,
+				"effects" : {
+					"undead" : {
+						"type" : "HYPNOTIZED",
+						"duration" : [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						]
+					},
+					"speed" : {
+						"type" : "STACKS_SPEED",
+						"valueType" : "PERCENT_TO_ALL",
+						"val" : -50
+					}
+				}
+			},
+			"basic" : {
+				"description" : "{Basic Puppet Master}\n\nPuppeteers an enemy troop under your control until they take damage.\n\nThe affected troop has its Speed reduced by 50%.\n",
+				"cost" : 35,
+				"effects" : {
+					"undead" : {
+						"type" : "HYPNOTIZED",
+						"duration" : [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						]
+					},
+					"speed" : {
+						"type" : "STACKS_SPEED",
+						"valueType" : "PERCENT_TO_ALL",
+						"val" : -50
+					}
+				}
+			},
+			"advanced" : {
+				"description" : "{Advanced Puppet Master}\n\nPuppeteers an enemy troop under your control until they take damage.\n\nThe affected troop has its Speed reduced by 25%.\n",
+				"cost" : 35,
+				"effects" : {
+					"undead" : {
+						"type" : "HYPNOTIZED",
+						"duration" : [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						]
+					},
+					"speed" : {
+						"type" : "STACKS_SPEED",
+						"valueType" : "PERCENT_TO_ALL",
+						"val" : -25
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Expert Puppet Master}\n\nPuppeteers an enemy troop under your control until they take damage.\n",
+				"cost" : 35,
+				"effects" : {
+					"undead" : {
+						"type" : "HYPNOTIZED",
+						"duration" : [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						]
+					}
+				}
+			}
+		}
+	},
+	"new-old-spells-plus:vampirism" : {
+		"school" : {
+			"earth" : false,
+			"02darkSchool" : true
+		},
+		"levels" : {
+			"none" : {
+				"description" : "{Vampirism}\n\nImbues the target friendly troop with profane powers, turning them vampiric and undead.\n\nTarget friendly troop becomes Undead and gains Life Drain (20%).\n",
+				"cost" : 28
+			},
+			"basic" : {
+				"description" : "{Basic Vampirism}\n\nImbues the target friendly troop with profane powers, turning them vampiric and undead.\n\nTarget friendly troop becomes Undead and gains Life Drain (20%).\n",
+				"cost" : 24
+			},
+			"advanced" : {
+				"description" : "{Advanced Vampirism}\n\nImbues the target friendly troop with profane powers, turning them vampiric and undead.\n\nTarget friendly troop becomes Undead and gains Life Drain (35%).\n",
+				"cost" : 24
+			},
+			"expert" : {
+				"description" : "{Expert Vampirism}\n\nImbues the target friendly troop with profane powers, turning them vampiric and undead.\n\nTarget friendly troop becomes Undead and gains Life Drain (50%).\n",
+				"cost" : 24
+			}
+		}
+	}
+}

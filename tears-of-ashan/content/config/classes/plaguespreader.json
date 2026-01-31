@@ -1,0 +1,90 @@
+{
+	"plaguespreader" : {
+		"name" : "Plaguespreader",
+		"faction" : "necropolis",
+		"affinity" : "magic",
+		"defaultTavern" : 5,
+		"commander" : "powerLich",
+		"animation" : {
+			"battle" : {
+				"female" : "classes/plaguespreader/MaleCombat.def",
+				"male"   : "classes/plaguespreader/MaleCombat.def"
+			}
+		},
+		"mapObject" : {
+			"filters" : {
+				"male" : { "male" : true },
+				"female" : { "female" : true }
+			},
+			"templates" : {
+				"female" : {
+					"animation" : "classes/plaguespreader/FemaleMap.def",
+					"editorAnimation": "classes/plaguespreader/FemaleEditor.def"
+				},
+				"male" : {
+					"animation" : "classes/plaguespreader/MaleMap.def",
+					"editorAnimation": "classes/plaguespreader/MaleEditor.def"
+				}
+			}
+		},
+		"primarySkills" : {
+			"attack"     : 2,
+			"defence"    : 1,
+			"spellpower" : 1,
+			"knowledge"  : 2
+		},
+		"lowLevelChance" : {
+			"attack"     : 35,
+			"defence"    : 15,
+			"spellpower" : 20,
+			"knowledge"  : 30
+		},
+		"highLevelChance" : {
+			"attack"     : 30,
+			"defence"    : 20,
+			"spellpower" : 25,
+			"knowledge"  : 25
+		},
+		"secondarySkills" : {
+			"pathfinding"  : 3,
+			"archery"      : 2,
+			"logistics"    : 6,
+			"scouting"     : 2,
+			"diplomacy"    : 3,
+			"navigation"   : 0,
+			"leadership"   : 0,
+			"wisdom"       : 8,
+			"mysticism"    : 2,
+			"luck"         : 4,
+			"ballistics"   : 3,
+			"eagleEye"     : 1,
+			"necromancy"   : 7,
+			"estates"      : 1,
+			"fireMagic"    : 4,
+			"airMagic"     : 8,
+			"waterMagic"   : 5,
+			"earthMagic"   : 10,
+			"scholar"      : 1,
+			"tactics"      : 3,
+			"artillery"    : 2,
+			"learning"     : 4,
+			"offence"      : 6,
+			"armorer"      : 6,
+			"intelligence" : 8,
+			"sorcery"      : 4,
+			"resistance"   : 2,
+			"firstAid"     : 4
+		},
+		"tavern" : {
+			"castle"     : 3,
+			"rampart"    : 3,
+			"tower"      : 3,
+			"inferno"    : 7,
+			"necropolis" : 10,
+			"dungeon"    : 7,
+			"stronghold" : 3,
+			"fortress"   : 5,
+			"conflux"    : 3
+		}
+	}
+}

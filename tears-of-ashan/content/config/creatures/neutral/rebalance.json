@@ -1,0 +1,95 @@
+{
+	"core:boar": {
+		"name" : {"singular" : "Boar Rider", "plural" : "Boar Riders"},
+		"faction" : "stronghold",
+		"attack" : 9,
+		"defense" : 5,
+		"damage" : {"min" : 3, "max" : 5},
+		"hitPoints" : 15,
+		"speed" : 7,
+		"growth" : 9,
+		"aiValue" : 210,
+		"fightValue" : 180,
+		"cost" : {"gold" : 140},
+		"upgrades" : ["core:hobgoblinWolfRider"],
+		"abilities" : {
+			"jousting" : {
+				"type" : "JOUSTING",
+				"val" : 3
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/boar",
+			"iconSmall" : "creatures/neutral/iconssmall/boar"
+		}
+	},
+	"core:mummy": {
+		"faction" : "necropolis",
+		"aiValue" : 370,
+		"fightValue" : 370,
+		"abilities" : {
+			"castWaspSwarm" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "waspSwarm",
+				"val" : 1
+			},
+			"waspSwarmPower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"subtype" : "waspSwarm",
+				"val" : 50
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 1
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/mummy"
+		}
+	},
+	"core:sharpshooter": {
+		"hitPoints" : 20,
+		"aiValue" : 640,
+		"fightValue" : 450,
+		"cost" : {"gold" : 450},
+		"abilities" : {
+			"skeletonTransformer" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "skeletonSharpshooterAU"
+			}
+		}
+	},
+	"hota.neutralcreatures:steelGolem": {
+		"faction" : "tower",
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/steelGolem"
+		}
+	},
+	"core:goldGolem": {
+		"level" : 5,
+		"faction" : "tower",
+		"advMapAmount" : {"min" : 8, "max" : 16},
+		"upgrades" : ["core:diamondGolem"],
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/goldGolem"
+		}
+	},
+	"core:diamondGolem": {
+		"level" : 5,
+		"faction" : "tower",
+		"growth" : 3,
+		"cost" : {"gold" : 675},
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/diamondGolem"
+		}
+	},
+	"core:fairieDragon": {
+		"attack" : 25,
+		"defense" : 25,
+		"damage" : {"min" : 30, "max" : 50},
+		"cost" : {"gold" : 10000, "gems" : 10}
+	},
+	"core:rustDragon": {
+		"cost" : {"gold" : 15000, "sulfur" : 10}
+	}
+}

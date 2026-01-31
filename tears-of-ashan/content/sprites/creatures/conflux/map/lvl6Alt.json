@@ -1,0 +1,115 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "AVWmagelA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "AVWmagelA001.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "AVWmagelA002.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "AVWmagelA003.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "AVWmagelA004.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "AVWmagelA005.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "AVWmagelA006.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "AVWmagelA007.png"
+        },
+        {
+            "group": 0,
+            "frame": 8,
+            "file": "AVWmagelA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 9,
+            "file": "AVWmagelA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 10,
+            "file": "AVWmagelA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 11,
+            "file": "AVWmagelA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 12,
+            "file": "AVWmagelA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 13,
+            "file": "AVWmagelA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 14,
+            "file": "AVWmagelA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 15,
+            "file": "AVWmagelA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 16,
+            "file": "AVWmagelA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 17,
+            "file": "AVWmagelA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 18,
+            "file": "AVWmagelA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 19,
+            "file": "AVWmagelA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 20,
+            "file": "AVWmagelA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 21,
+            "file": "AVWmagelA000.png"
+        }
+    ],
+    "basepath": "creatures/conflux/map/lvl6Alt/"
+}

@@ -1,0 +1,51 @@
+{
+	"furyAU": {
+		"name" : {"singular" : "Fury", "plural" : "Furies"},
+		"faction" : "dungeon",
+		"level" : 2,
+		"attack" : 8,
+		"defense" : 5,
+		"damage" : {"min" : 1, "max" : 4},
+		"hitPoints" : 15,
+		"speed" : 7,
+		"growth" : 8,
+		"aiValue" : 260,
+		"fightValue" : 210,
+		"cost" : {"gold" : 170},
+		"advMapAmount" : {"min" : 16, "max" : 25},
+		"upgrades" : ["core:harpyHag"],
+		"doubleWide" : false,
+		"abilities" : {
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
+			},
+			"strikeAndReturn" : {
+				"type" : "RETURN_AFTER_STRIKE"
+			},
+			"extraAttack" : {
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dungeon/battle/lvl2Alt",
+			"map" : "creatures/dungeon/map/lvl2Alt",
+			"iconSmall" : "creatures/dungeon/iconsSmall/lvl2Alt",
+			"iconLarge" : "creatures/dungeon/iconsBig/lvl2Alt",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 0.85
+			}
+		},
+		"sound" : {
+			"attack" : "HHAGATTK.wav",
+			"defend" : "HHAGDFND.wav",
+			"killed" : "HHAGKILL.wav",
+			"move" : "HHAGMOVE.wav",
+			"shoot" : "HHAGSHOT.wav",
+			"wince" : "HHAGWNCE.wav"
+		}
+	}
+}

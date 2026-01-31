@@ -1,0 +1,53 @@
+{
+	"ogreBruteAU" : {
+		"name" : {"singular" : "Ogre Brute", "plural" : "Ogre Brutes"},
+		"faction" : "stronghold",
+		"level" : 4,
+		"attack" : 15,
+		"defense" : 8,
+		"damage" : {"min" : 6, "max" : 12},
+		"hitPoints" : 50,
+		"speed" : 7,
+		"growth" : 4,
+		"aiValue" : 700,
+		"fightValue" : 700,
+		"cost" : {"gold" : 400},
+		"advMapAmount" : {"min" : 10, "max" : 16},
+		"upgrades" : ["core:ogreMage"],
+		"doubleWide" : false,
+		"abilities" : {
+			"frenzyAttack" : {
+				"type" : "SPELL_BEFORE_ATTACK",
+				"subtype" : "frenzy",
+				"val" : 20,
+				"addInfo" : [2,0],
+				"description" : "{Cast Before Attack}\nHas a 20% chance to cast Advanced Frenzy before attacking (1 Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/frenzy2.png"
+			},
+			"spellPower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/stronghold/battle/lvl4Alt.def",
+			"map" : "creatures/stronghold/map/lvl4Alt.def",
+			"iconSmall" : "creatures/stronghold/iconsSmall/lvl4Alt.png",
+			"iconLarge" : "creatures/stronghold/iconsBig/lvl4Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack" : "OGRMATTK.wav",
+			"defend" : "OGRMDFND.wav",
+			"killed" : "OGRMKILL.wav",
+			"move" : "OGRMMOVE.wav",
+			"shoot" : "OGRMSHOT.wav",
+			"wince" : "OGRMWNCE.wav"
+		}
+	}
+}

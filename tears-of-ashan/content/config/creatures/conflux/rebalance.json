@@ -1,0 +1,563 @@
+{
+	"core:pixie": {
+		"attack" : 2,
+		"defense" : 1,
+		"damage" : {"min" : 1, "max" : 2},
+		"hitPoints" : 5,
+		"growth" : 14,
+		"horde" : 6,
+		"aiValue" : 70,
+		"fightValue" : 70,
+		"cost" : {"gold" : 60},
+		"abilities#override" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"attackAllAdjacent" : {
+				"type" : "THREE_HEADED_ATTACK"
+			}
+		}
+	},
+	"core:sprite": {
+		"attack" : 3,
+		"hitPoints" : 5,
+		"growth" : 14,
+		"horde" : 6,
+		"aiValue" : 120,
+		"fightValue" : 100,
+		"cost" : {"gold" : 90},
+		"abilities#override" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"noRetaliation" : {
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"attackAllAdjacent" : {
+				"type" : "THREE_HEADED_ATTACK"
+			},
+			"castCure" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "cure",
+				"val" : 1,
+				"description" : "{Spellcaster}\nCan cast Basic Cure (5% Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/cure1.png"
+			},
+			"curePower" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "cure",
+				"val" : 5
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 1
+			}
+		}
+	},
+	"core:airElemental": {
+		"attack" : 7,
+		"defense" : 5,
+		"damage" : {"min" : 2, "max" : 6},
+		"hitPoints" : 15,
+		"growth" : 8,
+		"aiValue" : 210,
+		"fightValue" : 180,
+		"cost" : {"gold" : 175},
+		"advMapAmount" : {"min" : 16, "max" : 30},
+		"abilities#override" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"nonLiving" : {
+				"type" : "NON_LIVING"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"airReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "air",
+				"val" : 50,
+				"hidden" : true
+			},
+			"meteorShowerVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.meteorShower",
+				"val" : 50,
+				"hidden" : true
+			},
+			"implosionVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.implosion",
+				"val" : 50,
+				"description" : "{Vulnerable to Earth}\nTakes 50% more Damage from Earth Magic spells",
+				"icon" : "zvs/Lib1.res/vulnerabilityearth.png"
+			}
+		}
+	},
+	"core:stormElemental": {
+		"attack" : 9,
+		"defense" : 5,
+		"damage" : {"min" : 2, "max" : 6},
+		"hitPoints" : 15,
+		"growth" : 8,
+		"aiValue" : 350,
+		"fightValue" : 240,
+		"cost" : {"gold" : 230},
+		"advMapAmount" : {"min" : 16, "max" : 25},
+		"abilities#override" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"nonLiving" : {
+				"type" : "NON_LIVING"
+			},
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"airReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "air",
+				"val" : 75
+			},
+			"meteorShowerVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.meteorShower",
+				"val" : 50,
+				"hidden" : true
+			},
+			"implosionVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.implosion",
+				"val" : 50,
+				"description" : "{Vulnerable to Earth}\nTakes 50% more Damage from Earth Magic spells",
+				"icon" : "zvs/Lib1.res/vulnerabilityearth.png"
+			}
+		}
+	},
+	"core:waterElemental": {
+		"attack" : 10,
+		"defense" : 8,
+		"hitPoints" : 25,
+		"cost" : {"gold" : 280},
+		"abilities#override" : {
+			"nonLiving" : {
+				"type" : "NON_LIVING"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"waterReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val" : 50
+			},
+			"fireballVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireball",
+				"val" : 50,
+				"hidden" : true
+			},
+			"infernoVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.inferno",
+				"val" : 50,
+				"hidden" : true
+			},
+			"armageddonVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.armageddon",
+				"val" : 50,
+				"hidden" : true
+			},
+			"fireShieldVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireShield",
+				"val" : 50,
+				"hidden" : true
+			},
+			"fireWallVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireWallTrigger",
+				"val" : 50,
+				"description" : "{Vulnerable to Fire}\nTakes 50% more Damage from Fire Magic spells",
+				"icon" : "zvs/Lib1.res/vulnerabilityfire.png"
+			}
+		}
+	},
+	"core:iceElemental": {
+		"attack" : 12,
+		"defense" : 8,
+		"hitPoints" : 25,
+		"speed" : 7,
+		"aiValue" : 400,
+		"fightValue" : 400,
+		"cost" : {"gold" : 350},
+		"abilities#override" : {
+			"nonLiving" : {
+				"type" : "NON_LIVING"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"waterReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val" : 75
+			},
+			"fireballVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireball",
+				"val" : 50,
+				"hidden" : true
+			},
+			"infernoVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.inferno",
+				"val" : 50,
+				"hidden" : true
+			},
+			"armageddonVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.armageddon",
+				"val" : 50,
+				"hidden" : true
+			},
+			"fireShieldVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireShield",
+				"val" : 50,
+				"hidden" : true
+			},
+			"fireWallVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireWallTrigger",
+				"val" : 50,
+				"description" : "{Vulnerable to Fire}\nTakes 50% more Damage from Fire Magic spells",
+				"icon" : "zvs/Lib1.res/vulnerabilityfire.png"
+			},
+			"castIceBolt" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "iceBolt",
+				"val" : 1,
+				"description" : "{Spellcaster}\nCan cast Basic Ice Bolt (50% Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/icebolt1.png"
+			},
+			"iceBoltPower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"subtype" : "iceBolt",
+				"val" : 50
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 3
+			}
+		}
+	},
+	"core:fireElemental": {
+		"attack" : 12,
+		"defense" : 10,
+		"damage" : {"min" : 5, "max" : 10},
+		"aiValue" : 600,
+		"fightValue" : 475,
+		"abilities#override" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"nonLiving" : {
+				"type" : "NON_LIVING"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 50
+			},
+			"iceBoltVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.iceBolt",
+				"val" : 50,
+				"hidden" : true
+			},
+			"frostRingVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.frostRing",
+				"val" : 50,
+				"hidden" : true
+			},
+			"deepFreezeVulnerability" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "deepFreeze",
+				"val" : 50,
+				"description" : "{Vulnerable to Water}\nTakes 50% more Damage from Water Magic spells",
+				"icon" : "zvs/Lib1.res/vulnerabilitywater.png"
+			},
+			"fireShield" : {
+				"type" : "FIRE_SHIELD",
+				"val" : 20
+			}
+		}
+	},
+	"core:energyElemental": {
+		"attack" : 14,
+		"defense" : 10,
+		"damage" : {"min" : 6, "max" : 12},
+		"aiValue" : 900,
+		"fightValue" : 750,
+		"cost" : {"gold" : 425},
+		"abilities#override" : {
+			"energizes" : {
+				"type" : "FLYING"
+			},
+			"nonLiving" : {
+				"type" : "NON_LIVING"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 75
+			},
+			"iceBoltVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.iceBolt",
+				"val" : 50,
+				"hidden" : true
+			},
+			"frostRingVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.frostRing",
+				"val" : 50,
+				"hidden" : true
+			},
+			"deepFreezeVulnerability" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "deepFreeze",
+				"val" : 50,
+				"description" : "{Vulnerable to Water}\nTakes 50% more Damage from Water Magic spells",
+				"icon" : "zvs/Lib1.res/vulnerabilitywater.png"
+			},
+			"fireShield" : {
+				"type" : "FIRE_SHIELD",
+				"val" : 20
+			},
+			"castFireShield" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "fireShield",
+				"val" : 1,
+				"description" : "{Spellcaster}\nCan cast Basic Fire Shield (6 Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/fireshield1.png"
+			},
+			"fireShieldPower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 2
+			}
+		}
+	},
+	"core:earthElemental": {
+		"attack" : 10,
+		"defense" : 15,
+		"damage" : {"min" : 10, "max" : 16},
+		"hitPoints" : 50,
+		"aiValue" : 825,
+		"fightValue" : 600,
+		"cost" : {"gold" : 500},
+		"advMapAmount" : {"min" : 8, "max" : 16},
+		"abilities#override": {
+			"nonLiving" : {
+				"type" : "NON_LIVING"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"earthReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "earth",
+				"val" : 50
+			},
+			"lightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : 50,
+				"hidden" : true
+			},
+			"chainLightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : 50,
+				"hidden" : true
+			},
+			"titanBoltVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.titanBolt",
+				"val" : 50,
+				"description" : "{Vulnerable to Air}\nTakes 50% more Damage from Air Magic spells",
+				"icon" : "zvs/Lib1.res/vulnerabilityair.png"
+			},
+			"ignoreAttack" : {
+				"type" : "ENEMY_ATTACK_REDUCTION",
+				"val" : 20
+			}
+		}
+	},
+	"core:magmaElemental": {
+		"attack" : 10,
+		"defense" : 17,
+		"damage" : {"min" : 12, "max" : 16},
+		"hitPoints" : 60,
+		"aiValue" : 1150,
+		"fightValue" : 780,
+		"cost" : {"gold" : 650},
+		"advMapAmount" : {"min" : 8, "max" : 12},
+		"abilities#override": {
+			"nonLiving" : {
+				"type" : "NON_LIVING"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"earthReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "earth",
+				"val" : 75
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 75
+			},
+			"lightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : 50,
+				"hidden" : true
+			},
+			"chainLightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : 50,
+				"hidden" : true
+			},
+			"titanBoltVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.titanBolt",
+				"val" : 50,
+				"description" : "{Vulnerable to Air}\nTakes 50% more Damage from Air Magic spells",
+				"icon" : "zvs/Lib1.res/vulnerabilityair.png"
+			},
+			"iceBoltVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.iceBolt",
+				"val" : 50,
+				"hidden" : true
+			},
+			"frostRingVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.frostRing",
+				"val" : 50,
+				"hidden" : true
+			},
+			"deepFreezeVulnerability" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "deepFreeze",
+				"val" : 50,
+				"description" : "{Vulnerable to Water}\nTakes 50% more Damage from Water Magic spells",
+				"icon" : "zvs/Lib1.res/vulnerabilitywater.png"
+			},
+			"ignoreAttack" : {
+				"type" : "ENEMY_ATTACK_REDUCTION",
+				"val" : 40
+			}
+		}
+	},
+	"core:psychicElemental": {
+		"attack" : 14,
+		"defense" : 14,
+		"speed" : 8,
+		"aiValue" : 1680,
+		"fightValue" : 1440,
+		"cost" : {"gold" : 1000}
+	},
+	"core:magicElemental": {
+		"attack" : 18,
+		"defense" : 14,
+		"hitPoints" : 100,
+		"speed" : 10,
+		"aiValue" : 2250,
+		"fightValue" : 1850,
+		"cost" : {"gold" : 1450}
+	},
+	"core:firebird": {
+		"attack" : 20,
+		"defense" : 16,
+		"damage" : {"min" : 30, "max" : 50},
+		"speed" : 13,
+		"aiValue" : 5200,
+		"fightValue" : 3500,
+		"cost" : {"gold" : 2500, "mercury" : 1},
+		"abilities" : {
+			"fireShield" : {
+				"type" : "FIRE_SHIELD",
+				"val" : 20
+			}
+		}
+	},
+	"core:phoenix": {
+		"attack" : 21,
+		"defense" : 21,
+		"damage" : {"min" : 30, "max" : 50},
+		"hitPoints" : 200,
+		"speed" : 19,
+		"aiValue" : 7700,
+		"fightValue" : 5700,
+		"cost" : {"gold" : 4000, "mercury" : 2},
+		"abilities#override" : {
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"twoHexAttackBreath" : {
+				"type" : "TWO_HEX_ATTACK_BREATH",
+				"icon" : "zvs/Lib1.res/e_breathphoenix.png"
+			},
+			"rebirthOnce" : {
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"rebirth" : {
+				"type" : "REBIRTH",
+				"val" : 50
+			},
+			"immuneToFire" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.fire"
+			},
+			"KING_1" : {
+				"type" : "KING",
+				"val" : 0
+			},
+			"fireShield" : {
+				"type" : "FIRE_SHIELD",
+				"val" : 25
+			}
+		}
+	}
+}
