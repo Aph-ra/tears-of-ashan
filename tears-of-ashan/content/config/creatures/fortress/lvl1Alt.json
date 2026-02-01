@@ -19,7 +19,7 @@
 		"abilities" : {
 			"casts" : {
 				"type" : "CASTS",
-				"val" : 1
+				"val" : 2
 			},
 			"spellPower" : {
 				"type" : "CREATURE_ENCHANT_POWER",
