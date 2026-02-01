@@ -2,11 +2,14 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "Public Beta 1.1.3",
+	"version" : "Public Beta 1.1.4",
 	"modType" : "Expansion",
 	"compatibility" : {"min" : "1.7.0"},
 	
 	"changelog" : {
+		"Public Beta 1.1.4"   : [
+			"Amalek Inferno Power scaling reduced 50% → 30%"
+		],
 		"Public Beta 1.1.3"   : [
 			"Temporarily removed battleEffects.json due to crashing when certain spell animations are played",
 			"Deep Freeze's freezing colour effect removed due to battleEffects.json causing crashes"
