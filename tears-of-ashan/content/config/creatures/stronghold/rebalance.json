@@ -65,7 +65,22 @@
 		"defense" : 10,
 		"damage" : {"min" : 12, "max" : 16},
 		"aiValue" : 1150,
-		"fightValue" : 900
+		"fightValue" : 900,
+		"abilities#override" : {
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"thunderOnAttack" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.thunderbolt",
+				"val" : 30
+			},
+			"thunderStrength" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.thunderbolt",
+				"val" : 10
+			}
+		}
 	},
 	"core:cyclopKing": {
 		"attack" : 18,
