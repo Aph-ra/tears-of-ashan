@@ -90,12 +90,20 @@
 		}
 	},
 	"core:fairieDragon": {
+		"faction" : "conflux",
 		"attack" : 25,
 		"defense" : 25,
 		"damage" : {"min" : 30, "max" : 50},
 		"cost" : {"gold" : 10000, "gems" : 10}
 	},
+	"core:crystalDragon": {
+		"faction" : "tower"
+	},
 	"core:rustDragon": {
+		"faction" : "dungeon",
 		"cost" : {"gold" : 15000, "sulfur" : 10}
+	},
+	"core:azureDragon": {
+		"faction" : "bulwark"
 	}
 }

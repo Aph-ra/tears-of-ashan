@@ -2,11 +2,32 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "Public Beta 1.1.6",
+	"version" : "Public Beta 1.2.1",
 	"modType" : "Expansion",
-	"compatibility" : {"min" : "1.7.0"},
+	"compatibility" : {"min" : "1.7.2"},
 	
 	"changelog" : {
+		"Public Beta 1.2.1"   : [
+			"Faerie Dragon Neutral → Conflux; large icon updated",
+			"Rust Dragon Neutral → Dungeon; large icon updated",
+			"Crystal Dragon Neutral → Tower; large icon updated",
+			"Azure Dragon Neutral → Bulwark; large icon updated"
+		],
+		"Public Beta 1.2.0"   : [
+			"Added descriptions to submods",
+			"Diamond Dragon Health 200 → 225",
+			"Fangarm Neutral → Cove",
+			"Changed Sanctus' portrait to that of the H6/H7 Gold Dragon",
+			"Changed Biara's specialty image to Hell Steeds & updated specialty name",
+			"Jormungandr starts with Water Magic → Leadership",
+			"Updated Bulwark hero armies for those with creature specialties",
+			"Added Hrimnir (Chieftain, Jotunn specialist)",
+			"Lord Haart/Catherine/Roland/Xeron/Haart Lich/Mutare/Boragus/Kilgor/Adrienne are no longer special by default",
+			"Barbarus has been removed; Mutare is now a Red Dragon specialist instead of being a Dragon specialist",
+			"Mutare Drake retains her Dragon specialty and is disabled by default; starts with Estates → Wisdom; starts with Dragon Strength",
+			"A new submod for enabling Sir Mullich/Gelu/Dracon/Mutare Drake in random maps has been created",
+			"Changed Gatekeeper sprites to that of the Demoniac instead of the Inquisitor"
+		],
 		"Public Beta 1.1.6"   : [
 			"Fixed Sacred Phoenix horde growth"
 		],
