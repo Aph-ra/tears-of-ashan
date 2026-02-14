@@ -1,0 +1,78 @@
+{
+	"genieVizierAU": {
+		"name" : {"singular" : "Genie Vizier", "plural" : "Genie Viziers"},
+		"faction" : "tower",
+		"level" : 5,
+		"attack" : 14,
+		"defense" : 12,
+		"damage" : {"min" : 13, "max" : 16},
+		"hitPoints" : 50,
+		"speed" : 10,
+		"growth" : 3,
+		"fightValue" : 1100,
+		"aiValue" : 775,
+		"cost" : {"gold" : 650},
+		"advMapAmount" : {"min" : 8, "max" : 12},
+		"upgrades" : ["core:masterGenie"],
+		"doubleWide" : false,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying",
+				"icon" : "zvs/Lib1.res/e_fly3"
+			},
+			"hateEfreet" : {
+				"type" : "HATE",
+				"subtype" : "efreet",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateEfreetSultan" : {
+				"type" : "HATE",
+				"subtype" : "efreetSultan",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateEfreetSufi" : {
+				"type" : "HATE",
+				"subtype" : "efreetSufiAU",
+				"val" : 50,
+				"description" : "{Hates Efreet}\nHates Efreet, Efreet Sultans, and Efreet Sufis",
+				"icon" : "zvs/Lib1.res/hatemastergenies.png"
+			},
+			"airResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "air",
+				"val" : 50
+			},
+			"castsMisfortune" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.misfortune",
+				"val" : 100,
+				"addInfo" : [2,0],
+				"description" : "{Cast After Attack}\nHas a 100% chance to cast Advanced Misfortune after attacking (3 Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/misfortune2.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/tower/battle/lvl5Alt.def",
+			"map" : "creatures/tower/map/lvl5Alt.def",
+			"iconSmall" : "creatures/tower/iconsSmall/lvl5Alt.png",
+			"iconLarge" : "creatures/tower/iconsBig/lvl5Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "CALFATTK.wav",
+			"defend": "CALFDFND.wav",
+			"killed": "CALFKILL.wav",
+			"move": "CALFMOVE.wav",
+			"shoot": "CALFSHOT.wav",
+			"wince": "CALFWNCE.wav"
+		}
+	}
+}

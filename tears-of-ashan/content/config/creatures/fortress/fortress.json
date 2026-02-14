@@ -1,0 +1,44 @@
+{
+	"core:gnoll" : {
+		"upgrades": ["core:gnollMarauder", "gnollShamanAU"]
+	},
+	"core:gnollMarauder" : {
+		"upgrades": ["gnollShamanAU"]
+	},
+	"core:lizardman" : {
+		"upgrades": ["core:lizardWarrior", "lizardAssassinAU"]
+	},
+	"core:lizardWarrior" : {
+		"upgrades": ["lizardAssassinAU"]
+	},
+	"core:serpentFly" : {
+		"upgrades": ["core:fireDragonFly", "damselFlyAU"]
+	},
+	"core:fireDragonFly" : {
+		"upgrades": ["damselFlyAU"]
+	},
+	"core:basilisk" : {
+		"upgrades": ["core:greaterBasilisk", "basiliskFlamespitterAU"]
+	},
+	"core:greaterBasilisk" : {
+		"upgrades": ["basiliskFlamespitterAU"]
+	},
+	"core:gorgon" : {
+		"upgrades": ["core:mightyGorgon", "corrosiveGorgonAU"]
+	},
+	"core:mightyGorgon" : {
+		"upgrades": ["corrosiveGorgonAU"]
+	},
+	"core:wyvern" : {
+		"upgrades": ["core:wyvernMonarch", "paokaiAU"]
+	},
+	"core:wyvernMonarch" : {
+		"upgrades": ["paokaiAU"]
+	},
+	"core:hydra" : {
+		"upgrades": ["core:chaosHydra", "ruinousHydraAU"]
+	},
+	"core:chaosHydra" : {
+		"upgrades": ["ruinousHydraAU"]
+	}
+}

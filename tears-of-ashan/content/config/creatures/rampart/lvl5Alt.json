@@ -1,0 +1,68 @@
+{
+	"dendroidShamanAU": {
+		"name" : {"singular" : "Dendroid Shaman", "plural" : "Dendroid Shamans"},
+		"faction" : "rampart",
+		"level" : 5,
+		"attack" : 9,
+		"defense" : 15,
+		"damage" : {"min" : 10, "max" : 14},
+		"hitPoints" : 65,
+		"speed" : 4,
+		"growth" : 3,
+		"horde" : 2,
+		"aiValue" : 900,
+		"fightValue" : 820,
+		"cost" : {"gold" : 550},
+		"advMapAmount" : {"min" : 8, "max" : 12},
+		"upgrades" : ["core:dendroidSoldier"],
+		"doubleWide" : false,
+		"abilities" : {
+			"binds" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "bind",
+				"val" : 100,
+				"icon" : "zvs/Lib1.res/sticky.png"
+			},
+			"resurrects" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.resurrection",
+				"val" : 3,
+				"limiters": [ {
+					"type" : "FACTION_LIMITER",
+					"faction" : "rampart"
+					}
+				],
+				"description" : "{Spellcaster}\nCan cast Expert Resurrection on Rampart units (30% Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/resurrect3.png"
+			},
+			"resurrectionPower" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.resurrection",
+				"val" : 30
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 2
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/rampart/battle/lvl5Alt.def",
+			"map" : "creatures/rampart/map/lvl5Alt.def",
+			"iconSmall" : "creatures/rampart/iconsSmall/lvl5Alt.png",
+			"iconLarge" : "creatures/rampart/iconsBig/lvl5Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "BTREATTK.wav",
+			"defend": "BTREDFND.wav",
+			"killed": "BTREKILL.wav",
+			"move": "BTREMOVE.wav",
+			"wince": "BTREWNCE.wav"
+		}
+	}
+}

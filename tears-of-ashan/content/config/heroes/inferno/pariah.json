@@ -1,0 +1,46 @@
+{
+	"pariah" : {
+		"class" : "gatekeeperDevilSpec",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [ "disruptingRay", "fireball", "meteorShower" ],
+		"texts" : {
+			"name" : "Pariah",
+			"biography" : "A demon from the depths of Ashan, Pariah is far more powerful than any and all Kreegan Pit Lords. He prefers the company of Devils more than any lesser demon. Most frighteningly, he possesses surreal magical capabilities that rival most seasoned mages and warlocks.",
+			"specialty" : {
+				"description" : "Gating Devils costs 25% less spell points. Can gate Arch Devils with Expert Gating, but spell point cost is unaffected.",
+				"tooltip" : "Secondary Skill Bonus: Gating",
+				"name" : "Urgash's Call"
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/inferno/pariah/portraitSmall.png",
+			"large" : "heroes/inferno/pariah/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Urgash's Call.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Urgash's Call.png"
+		},
+
+		"skills": [
+			{ "skill" : "gatingDevilSpec", "level": "basic" },
+			{ "skill" : "earthMagic", "level": "basic" }
+		],
+    
+		"specialty" : {	},
+	
+		"army" : [
+			{
+				"creature" : "imp",
+				"min" : 20, "max" : 30,
+			},
+			{
+				"creature" : "gog",
+				"min" : 5, "max" : 7,
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4, "max" : 5,
+			}
+		]
+	}
+}

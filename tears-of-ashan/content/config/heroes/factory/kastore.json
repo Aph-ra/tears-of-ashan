@@ -1,0 +1,50 @@
+{
+	"kastoreTOA" : {
+		"class" : "artificer",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [ "disruptingRay" ],
+		"texts" : {
+			"name" : "Kastore",
+			"biography" : "Kastore is an Elven sorcerer and one of the Adventurers of Terra. While originally from the world of Terra, he is the ruler of Deyja and Terra Nova. His early attempts focused on locating the mythical Ancients, but were later abandoned due to the lack of success. As the king of Deyja, the bulk of his new plans consisted of the renaissance of the Heavenly Forge. While he achieved some progress, such as the creation and mass-production of Dreadnoughts, his schemes ultimately failed.",
+			"specialty" : {
+				"name" : "Dreadnoughts",
+				"tooltip" : "Creature Bonus: Dreadnoughts",
+				"description" : "Increases the Speed of allied Dreadnoughts and Juggernauts by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/factory/kastore/portraitSmall.png",
+			"large" : "heroes/factory/kastore/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Dreadnoughts.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Dreadnoughts.png"
+		},
+
+		"skills": [
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "airMagic", "level": "basic" }
+		],
+		
+		"specialty" : {
+			"creature" : "hotaDreadnought",
+			"creatureLevel" : 7,
+			"stepSize" : 20
+		},
+		
+		"army" : [
+			{
+				"creature" : "halfling",
+				"min" : 15, "max" : 25,
+			},
+			{
+				"creature" : "hotaMechanic",
+				"min" : 7, "max" : 9,
+			},
+			{
+				"creature" : "armadillo",
+				"min" : 4, "max" : 6,
+			}
+		]
+	}
+}

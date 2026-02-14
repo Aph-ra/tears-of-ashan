@@ -1,0 +1,160 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "AVWunix0A000.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "AVWunix0A001.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 8,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 9,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 10,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 11,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 12,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 13,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 14,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 15,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 16,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 17,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 18,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 19,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 20,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 21,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 22,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 23,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 24,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 25,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 26,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 27,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 28,
+            "file": "AVWunix0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 29,
+            "file": "AVWunix0A029.png"
+        },
+        {
+            "group": 0,
+            "frame": 30,
+            "file": "AVWunix0A030.png"
+        }
+    ],
+    "basepath": "creatures/rampart/map/lvl6Alt/"
+}

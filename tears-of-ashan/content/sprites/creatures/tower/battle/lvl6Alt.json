@@ -1,0 +1,445 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "cnagag30.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "cnagag31.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "cnagag32.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "cnagag33.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "cnagag34.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "cnagag35.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "cnagag36.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "cnagag37.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "cnagag20.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 1,
+            "file": "cnagag21.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 2,
+            "file": "cnagag22.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 3,
+            "file": "cnagag23.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 4,
+            "file": "cnagag23.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 5,
+            "file": "cnagag22.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 6,
+            "file": "cnagag21.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 7,
+            "file": "cnagag20.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "cnagag48.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 1,
+            "file": "cnagag24.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 2,
+            "file": "cnagag25.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 3,
+            "file": "cnagag26.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 4,
+            "file": "cnagag27.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 5,
+            "file": "cnagag26.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 6,
+            "file": "cnagag25.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 7,
+            "file": "cnagag24.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "cnagag40.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 1,
+            "file": "cnagag41.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "cnagag42.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 3,
+            "file": "cnagag43.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 4,
+            "file": "cnagag44.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 5,
+            "file": "cnagag45.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "cnagag16.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 1,
+            "file": "cnagag17.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 2,
+            "file": "cnagag18.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 3,
+            "file": "cnagag19.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 4,
+            "file": "cnagag19.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 5,
+            "file": "cnagag19.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 6,
+            "file": "cnagag19.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 7,
+            "file": "cnagag19.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 8,
+            "file": "cnagag18.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 9,
+            "file": "cnagag17.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 10,
+            "file": "cnagag16.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 0,
+            "file": "cnagag40.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 1,
+            "file": "cnagag41.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 2,
+            "file": "cnagag10.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 3,
+            "file": "cnagag11.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 4,
+            "file": "cnagag12.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 5,
+            "file": "cnagag13.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 6,
+            "file": "cnagag14.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 7,
+            "file": "cnagag15.pcx.png"
+        },
+        {
+            "group": 7,
+            "frame": 0,
+            "file": "cnagag46.pcx.png"
+        },
+        {
+            "group": 7,
+            "frame": 1,
+            "file": "cnagag47.pcx.png"
+        },
+        {
+            "group": 8,
+            "frame": 0,
+            "file": "cnagag47.pcx.png"
+        },
+        {
+            "group": 8,
+            "frame": 1,
+            "file": "cnagag46.pcx.png"
+        },
+        {
+            "group": 9,
+            "frame": 0,
+            "file": "cnagag46.pcx.png"
+        },
+        {
+            "group": 9,
+            "frame": 1,
+            "file": "cnagag47.pcx.png"
+        },
+        {
+            "group": 10,
+            "frame": 0,
+            "file": "cnagag47.pcx.png"
+        },
+        {
+            "group": 10,
+            "frame": 1,
+            "file": "cnagag46.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 0,
+            "file": "cnagag01.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 1,
+            "file": "cnagag02.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 2,
+            "file": "cnagag03.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 3,
+            "file": "cnagag04.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 4,
+            "file": "cnagag05.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 5,
+            "file": "cnagag06.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 6,
+            "file": "cnagag07.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 7,
+            "file": "cnagag08.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 8,
+            "file": "cnagag09.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 0,
+            "file": "cnagag01.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 1,
+            "file": "cnagag02.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 2,
+            "file": "cnagag03.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 3,
+            "file": "cnagag04.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 4,
+            "file": "cnagag05.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 5,
+            "file": "cnagag06.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 6,
+            "file": "cnagag07.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 7,
+            "file": "cnagag08.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 8,
+            "file": "cnagag09.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 0,
+            "file": "cnagag01.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 1,
+            "file": "cnagag02.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 2,
+            "file": "cnagag03.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 3,
+            "file": "cnagag04.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 4,
+            "file": "cnagag05.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 5,
+            "file": "cnagag06.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 6,
+            "file": "cnagag07.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 7,
+            "file": "cnagag08.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 8,
+            "file": "cnagag09.pcx.png"
+        },
+        {
+            "group": 20,
+            "frame": 0,
+            "file": "cnagag28.pcx.png"
+        },
+        {
+            "group": 20,
+            "frame": 1,
+            "file": "cnagag29.pcx.png"
+        },
+        {
+            "group": 21,
+            "frame": 0,
+            "file": "cnagag38.pcx.png"
+        },
+        {
+            "group": 21,
+            "frame": 1,
+            "file": "cnagag39.pcx.png"
+        }
+    ],
+    "basepath": "creatures/tower/battle/lvl6Alt/"
+}

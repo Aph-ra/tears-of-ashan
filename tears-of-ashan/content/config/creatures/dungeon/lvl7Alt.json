@@ -1,0 +1,94 @@
+{
+	"shadowDragonAU" : {
+		"name" : {"singular" : "Shadow Dragon", "plural" : "Shadow Dragons"},
+		"faction" : "dungeon",
+		"level" : 7,
+		"attack" : 28,
+		"defense" : 22,
+		"damage" : {"min" : 40, "max" : 50},
+		"hitPoints" : 240,
+		"speed" : 16,
+		"growth" : 1,
+		"aiValue" : 8721,
+		"fightValue" : 6783,
+		"cost" : {"gold" : 4000, "sulfur" : 2},
+		"advMapAmount" : {"min" : 3, "max" : 8},
+		"upgrades" : ["core:blackDragon"],
+		"doubleWide" : true,
+		"abilities" : {
+			"king1" : {
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"dragon" : {
+				"type" : "DRAGON_NATURE"
+			},
+			"flying" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"fireBreath" : {
+				"type" : "TWO_HEX_ATTACK_BREATH",
+				"icon" : "zvs/Lib1.res/e_breathblack.png"
+			},
+			"acidBreath" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.acidBreath",
+				"val" : 20,
+				"icon" : "zvs/Lib1.res/acidattack.png"
+			},
+			"acidBreathChance" : {
+				"type" : "ACID_BREATH",
+				"val" : 25,
+				"addInfo" : 20
+			},
+			"spellImmunity" : {
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 4
+			},
+			"hateGiants" : {
+				"type" : "HATE",
+				"subtype" : "giant",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateTitans" : {
+				"type" : "HATE",
+				"subtype" : "titan",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateColossi" : {
+				"type" : "HATE",
+				"subtype" : "colossusAU",
+				"val" : 50,
+				"description" : "{Hates Giants}\nDoes 50% more Damage to Giants, Titans, and Colossi",
+				"icon" : "zvs/Lib1.res/hateblackdragons.png"
+			},
+			"dragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dungeon/battle/lvl7Alt",
+			"map" : "creatures/dungeon/map/lvl7Alt",
+			"iconSmall" : "creatures/dungeon/iconsSmall/lvl7Alt",
+			"iconLarge" : "creatures/dungeon/iconsBig/lvl7Alt",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 0.6,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" : {
+			"attack" : "BKDRATTK.wav",
+			"defend" : "BKDRDFND.wav",
+			"killed" : "BKDRKILL.wav",
+			"move" : "BKDRMOVE.wav",
+			"wince" : "BKDRWNCE.wav"
+		}
+	}
+}

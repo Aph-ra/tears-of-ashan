@@ -1,0 +1,69 @@
+{
+    "gate06Efreeti": {
+        "type": "combat",
+        "name": "Gate Efreet",
+        "school": {
+            "03gatingSchool": true
+        },
+        "level": 4,
+        "power": 1,
+        "defaultGainChance": 0,
+        "gainChance": {
+            "inferno": 0
+        },
+        "flags": {
+            "indifferent": true,
+            "special": true
+        },
+        "graphics": {
+            "iconBook": "spells/gatingEfreeti/spellBook",
+            "iconScroll": "spells/gatingEfreeti/spellScroll",
+            "iconScenarioBonus": "spells/gatingEfreeti/spellBonus",
+            "iconEffect": "spells/gatingEfreeti/spellEffect"
+        },
+        "animation": {
+            "affect": [
+                "spells/C12SPF0.def"
+            ]
+        },
+        "sounds": {
+            "cast": "RESURECT"
+        },
+        "targetType": "NO_TARGET",
+        "levels": {
+            "base": {
+                "description": "{Gate Efreet}\r\n\r\nAllows you to gate Efreet.\r\n\r\nOnce cast, other creatures may also be gated.",
+                "range": "X",
+                "cost": 50,
+                "power": 1,
+                "battleEffects": {
+                    "summon": {
+                        "exclusive": false,
+                        "id": "efreet",
+                        "permanent": false,
+                        "type": "core:summon"
+                    }
+                }
+            },
+            "none": {
+                "cost": 48,
+                "power": 1
+            },
+            "basic": {
+				"description": "{Basic Gate Efreet}\r\n\r\nGates (Power x 1) Efreet.\r\n\r\nOnce cast, other creatures may also be gated.",
+                "cost": 48,
+                "power": 1
+            },
+            "advanced": {
+				"description": "{Advanced Gate Efreet}\r\n\r\nGates (Power x 2) Efreet.\r\n\r\nOnce cast, other creatures may also be gated.",
+                "cost": 42,
+                "power": 2
+            },
+            "expert": {
+				"description": "{Expert Gate Efreet}\r\n\r\nGates (Power x 3) Efreet.\r\n\r\nOnce cast, other creatures may also be gated.",
+                "cost": 36,
+                "power": 3
+            }
+        }
+    }
+}

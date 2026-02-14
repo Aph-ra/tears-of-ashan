@@ -1,0 +1,94 @@
+{
+	"lightMagic" : {
+		"name" : "Light Magic",
+		"gainChance" : {
+			"might"       : 3,
+            "magic"       : 7,
+			
+			"knight"      : 8,
+            "cleric"      : 10,
+			"inquisitor"  : 9,
+			
+			"ranger"      : 3,
+            "druid"       : 6,
+			
+			"alchemist"   : 3,
+			"wizard"      : 6,
+			
+            "demoniac"    : 1,
+			"heretic"     : 3,
+			"gatekeeper"  : 2,
+			"gatekeeperDevilSpec"  : 2,
+			"gatekeeperNightmareSpec"  : 2,
+			
+			"deathknight" : 1,
+            "necromancer" : 2,
+			"deathKnightNew" : 1,
+			"plaguespreader" : 2,
+			
+			"overlord"    : 2,
+            "warlock"     : 3,
+			
+			"barbarian"   : 1,
+            "battlemage"  : 5,
+			
+			"beastmaster" : 2,
+            "witch"       : 4,
+			
+			"planeswalker" : 3,
+            "elementalist" : 6,
+			
+			"captain"      : 2,
+            "navigator"    : 5,
+			
+			"mercenary"    : 3,
+            "artificer"    : 5			
+		},
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"light" : {
+					"subtype" : "spellSchool.01lightSchool",
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Light Magic}\n\nBasic Light Magic allows your hero to cast Light spells at reduced cost.",
+			"effects" : {
+				"light" : { "val" : 1 }
+			},
+			"images" : {
+				"small" : "skills/lightSmall/1",
+				"medium" : "skills/lightMedium/1",
+				"large" : "skills/lightLarge/1",
+				"scenarioBonus" : "skills/lightBonus/1"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Light Magic}\n\nAdvanced Light Magic allows your hero to cast Light spells at reduced cost and increased effectiveness.",
+			"effects" : {
+				"light" : { "val" : 2 }
+			},				
+			"images" : {
+				"small" : "skills/lightSmall/2",
+				"medium" : "skills/lightMedium/2",
+				"large" : "skills/lightLarge/2",
+				"scenarioBonus" : "skills/lightBonus/2"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Light Magic}\n\nExpert Light Magic allows your hero to cast Light spells at reduced cost and maximum effectiveness.",
+			"effects" : {
+				"light" : { "val" : 3 }
+			},
+			"images" : {
+				"small" : "skills/lightSmall/3",
+				"medium" : "skills/lightMedium/3",
+				"large" : "skills/lightLarge/3",
+				"scenarioBonus" : "skills/lightBonus/3"
+			}
+		}
+	}
+}

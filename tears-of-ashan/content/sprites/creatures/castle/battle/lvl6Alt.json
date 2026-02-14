@@ -1,0 +1,440 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "cchamp52.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "cchamp53.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "cchamp54.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "cchamp55.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "cchamp56.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "cchamp57.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "cchamp58.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "cchamp59.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "cchamp40.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 1,
+            "file": "cchamp41.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 2,
+            "file": "cchamp42.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 3,
+            "file": "cchamp43.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 4,
+            "file": "cchamp44.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "cchamp45.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 1,
+            "file": "cchamp46.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 2,
+            "file": "cchamp47.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 3,
+            "file": "cchamp48.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "cchamp67.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 1,
+            "file": "cchamp70.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "cchamp69.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 3,
+            "file": "cchamp68.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 4,
+            "file": "cchamp67.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 5,
+            "file": "cchamp66.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 6,
+            "file": "cchamp65.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 7,
+            "file": "cchamp64.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "cchamp34.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 1,
+            "file": "cchamp35.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 2,
+            "file": "cchamp36.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 3,
+            "file": "cchamp37.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 4,
+            "file": "cchamp38.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 5,
+            "file": "cchamp39.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 0,
+            "file": "cchamp26.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 1,
+            "file": "cchamp27.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 2,
+            "file": "cchamp28.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 3,
+            "file": "cchamp29.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 4,
+            "file": "cchamp30.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 5,
+            "file": "cchamp31.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 6,
+            "file": "cchamp32.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 7,
+            "file": "cchamp33.pcx.png"
+        },
+        {
+            "group": 7,
+            "frame": 0,
+            "file": "cchamp71.pcx.png"
+        },
+        {
+            "group": 7,
+            "frame": 1,
+            "file": "cchamp72.pcx.png"
+        },
+        {
+            "group": 7,
+            "frame": 2,
+            "file": "cchamp73.pcx.png"
+        },
+        {
+            "group": 8,
+            "frame": 0,
+            "file": "cchamp73.pcx.png"
+        },
+        {
+            "group": 8,
+            "frame": 1,
+            "file": "cchamp72.pcx.png"
+        },
+        {
+            "group": 8,
+            "frame": 2,
+            "file": "cchamp71.pcx.png"
+        },
+        {
+            "group": 9,
+            "frame": 0,
+            "file": "cchamp71.pcx.png"
+        },
+        {
+            "group": 9,
+            "frame": 1,
+            "file": "cchamp72.pcx.png"
+        },
+        {
+            "group": 9,
+            "frame": 2,
+            "file": "cchamp73.pcx.png"
+        },
+        {
+            "group": 10,
+            "frame": 0,
+            "file": "cchamp73.pcx.png"
+        },
+        {
+            "group": 10,
+            "frame": 1,
+            "file": "cchamp72.pcx.png"
+        },
+        {
+            "group": 10,
+            "frame": 2,
+            "file": "cchamp71.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 0,
+            "file": "cchamp01.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 1,
+            "file": "cchamp11.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 2,
+            "file": "cchamp12.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 3,
+            "file": "cchamp13.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 4,
+            "file": "cchamp14.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 5,
+            "file": "cchamp15.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 6,
+            "file": "cchamp16.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 7,
+            "file": "cchamp17.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 8,
+            "file": "cchamp18.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 9,
+            "file": "cchamp19.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 0,
+            "file": "cchamp01.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 1,
+            "file": "cchamp02.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 2,
+            "file": "cchamp03.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 3,
+            "file": "cchamp04.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 4,
+            "file": "cchamp05.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 5,
+            "file": "cchamp06.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 6,
+            "file": "cchamp07.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 7,
+            "file": "cchamp08.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 8,
+            "file": "cchamp09.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 9,
+            "file": "cchamp10.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 0,
+            "file": "cchamp20.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 1,
+            "file": "cchamp21.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 2,
+            "file": "cchamp23.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 3,
+            "file": "cchamp25.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 4,
+            "file": "cchamp24.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 5,
+            "file": "cchamp23.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 6,
+            "file": "cchamp22.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 7,
+            "file": "cchamp21.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 8,
+            "file": "cchamp20.pcx.png"
+        },
+        {
+            "group": 20,
+            "frame": 0,
+            "file": "cchamp49.pcx.png"
+        },
+        {
+            "group": 20,
+            "frame": 1,
+            "file": "cchamp50.pcx.png"
+        },
+        {
+            "group": 20,
+            "frame": 2,
+            "file": "cchamp51.pcx.png"
+        },
+        {
+            "group": 21,
+            "frame": 0,
+            "file": "cchamp60.pcx.png"
+        },
+        {
+            "group": 21,
+            "frame": 1,
+            "file": "cchamp61.pcx.png"
+        },
+        {
+            "group": 21,
+            "frame": 2,
+            "file": "cchamp62.pcx.png"
+        },
+        {
+            "group": 21,
+            "frame": 3,
+            "file": "cchamp63.pcx.png"
+        }
+    ],
+    "basepath": "creatures/castle/battle/lvl6Alt/"
+}

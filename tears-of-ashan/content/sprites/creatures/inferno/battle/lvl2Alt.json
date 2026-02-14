@@ -1,0 +1,560 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "Cmagog11.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "Cmagog12.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "Cmagog13.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "Cmagog14.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "Cmagog15.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "Cmagog16.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "Cmagog17.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "Cmagog18.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "Cmagog01.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 1,
+            "file": "Cmagog05.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 2,
+            "file": "Cmagog06.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 3,
+            "file": "Cmagog07.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 4,
+            "file": "Cmagog08.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 5,
+            "file": "Cmagog09.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 6,
+            "file": "Cmagog08.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 7,
+            "file": "Cmagog07.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 8,
+            "file": "Cmagog06.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 9,
+            "file": "Cmagog05.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "Cmagog01.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 1,
+            "file": "Cmagog02.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 2,
+            "file": "Cmagog03.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 3,
+            "file": "Cmagog04.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 4,
+            "file": "Cmagog03.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 5,
+            "file": "Cmagog02.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "Cmagog01.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 1,
+            "file": "Cmagog53.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "Cmagog54.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 3,
+            "file": "Cmagog55.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 4,
+            "file": "Cmagog56.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 5,
+            "file": "Cmagog57.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 6,
+            "file": "Cmagog58.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "Cmagog01.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 1,
+            "file": "Cmagog21.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 2,
+            "file": "Cmagog22.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 3,
+            "file": "Cmagog23.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 4,
+            "file": "Cmagog24.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 5,
+            "file": "Cmagog25.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 6,
+            "file": "Cmagog26.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 0,
+            "file": "Cmagog01.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 1,
+            "file": "Cmagog59.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 2,
+            "file": "Cmagog60.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 3,
+            "file": "Cmagog61.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 4,
+            "file": "Cmagog62.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 5,
+            "file": "Cmagog63.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 6,
+            "file": "Cmagog64.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 7,
+            "file": "Cmagog63.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 8,
+            "file": "Cmagog64.pcx.png"
+        },
+        {
+            "group": 7,
+            "frame": 0,
+            "file": "Cmagog01.pcx.png"
+        },
+        {
+            "group": 7,
+            "frame": 1,
+            "file": "Cmagog19.pcx.png"
+        },
+        {
+            "group": 7,
+            "frame": 2,
+            "file": "Cmagog20.pcx.png"
+        },
+        {
+            "group": 8,
+            "frame": 0,
+            "file": "Cmagog20.pcx.png"
+        },
+        {
+            "group": 8,
+            "frame": 1,
+            "file": "Cmagog19.pcx.png"
+        },
+        {
+            "group": 8,
+            "frame": 2,
+            "file": "Cmagog01.pcx.png"
+        },
+        {
+            "group": 9,
+            "frame": 0,
+            "file": "Cmagog01.pcx.png"
+        },
+        {
+            "group": 9,
+            "frame": 1,
+            "file": "Cmagog19.pcx.png"
+        },
+        {
+            "group": 9,
+            "frame": 2,
+            "file": "Cmagog20.pcx.png"
+        },
+        {
+            "group": 10,
+            "frame": 0,
+            "file": "Cmagog20.pcx.png"
+        },
+        {
+            "group": 10,
+            "frame": 1,
+            "file": "Cmagog19.pcx.png"
+        },
+        {
+            "group": 10,
+            "frame": 2,
+            "file": "Cmagog01.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 0,
+            "file": "Cmagog01.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 1,
+            "file": "Cmagog38.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 2,
+            "file": "Cmagog39.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 3,
+            "file": "Cmagog30.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 4,
+            "file": "Cmagog27.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 5,
+            "file": "Cmagog28.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 6,
+            "file": "Cmagog29.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 7,
+            "file": "Cmagog34.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 0,
+            "file": "Cmagog01.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 1,
+            "file": "Cmagog38.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 2,
+            "file": "Cmagog39.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 3,
+            "file": "Cmagog40.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 4,
+            "file": "Cmagog35.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 5,
+            "file": "Cmagog36.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 6,
+            "file": "Cmagog37.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 7,
+            "file": "Cmagog44.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 0,
+            "file": "Cmagog01.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 1,
+            "file": "Cmagog38.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 2,
+            "file": "Cmagog39.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 3,
+            "file": "Cmagog40.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 4,
+            "file": "Cmagog48.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 5,
+            "file": "Cmagog45.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 6,
+            "file": "Cmagog46.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 7,
+            "file": "Cmagog47.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 8,
+            "file": "Cmagog52.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 0,
+            "file": "Cmagog01.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 1,
+            "file": "Cmagog38.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 2,
+            "file": "Cmagog39.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 3,
+            "file": "Cmagog30.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 4,
+            "file": "Cmagog31.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 5,
+            "file": "Cmagog32.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 6,
+            "file": "Cmagog33.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 7,
+            "file": "Cmagog34.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 0,
+            "file": "Cmagog01.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 1,
+            "file": "Cmagog38.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 2,
+            "file": "Cmagog39.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 3,
+            "file": "Cmagog40.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 4,
+            "file": "Cmagog41.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 5,
+            "file": "Cmagog42.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 6,
+            "file": "Cmagog43.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 7,
+            "file": "Cmagog44.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 0,
+            "file": "Cmagog01.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 1,
+            "file": "Cmagog38.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 2,
+            "file": "Cmagog39.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 3,
+            "file": "Cmagog40.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 4,
+            "file": "Cmagog48.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 5,
+            "file": "Cmagog49.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 6,
+            "file": "Cmagog50.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 7,
+            "file": "Cmagog51.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 8,
+            "file": "Cmagog52.pcx.png"
+        },
+        {
+            "group": 20,
+            "frame": 0,
+            "file": "Cmagog10.pcx.png"
+        },
+        {
+            "group": 21,
+            "frame": 0,
+            "file": "Cmagog10.pcx.png"
+        }
+    ],
+    "basepath": "creatures/inferno/battle/lvl2Alt/"
+}

@@ -1,0 +1,57 @@
+{
+	"pitSpawnAU": {
+		"name" : {"singular" : "Pit Spawn", "plural" : "Pit Spawn"},
+		"faction" : "inferno",
+		"level" : 5,
+		"attack" : 14,
+		"defense" : 12,
+		"damage" : {"min" : 13, "max" : 17},
+		"hitPoints" : 45,
+		"speed" : 8,
+		"growth" : 2,
+		"aiValue" : 1240,
+		"fightValue" : 1080,
+		"cost" : {"gold" : 700},
+		"advMapAmount" : {"min" : 8, "max" : 12},
+		"upgrades" : ["core:pitLord"],
+		"doubleWide" : false,
+		"abilities" : {
+			"castMeteor" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "meteorShower",
+				"val" : 1,
+				"description" : "{Spellcaster}\nCan cast Basic Meteor Shower (75% Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/meteorshower1.png"
+			},
+			"meteorPower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"subtype" : "meteorShower",
+				"val" : 75
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 2
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/inferno/battle/lvl5Alt.def",
+			"map" : "creatures/inferno/map/lvl5Alt.json",
+			"mapMask" : ["VVV","VAV"],
+			"iconSmall" : "creatures/inferno/iconsSmall/lvl5Alt.png",
+			"iconLarge" : "creatures/inferno/iconsBig/lvl5Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "PFOEATTK.wav",
+			"defend": "PFOEDFND.wav",
+			"killed": "PFOEKILL.wav",
+			"move": "PFOEMOVE.wav",
+			"wince": "PFOEWNCE.wav"
+		}
+	}	
+}

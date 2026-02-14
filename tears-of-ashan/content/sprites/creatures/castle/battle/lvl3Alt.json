@@ -1,0 +1,460 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "CrgrifA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "CrgrifA001.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "CrgrifA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "CrgrifA003.png"
+        },
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 1,
+            "frame": 1,
+            "file": "CrgrifB001.png"
+        },
+        {
+            "group": 1,
+            "frame": 2,
+            "file": "CrgrifB002.png"
+        },
+        {
+            "group": 1,
+            "frame": 3,
+            "file": "CrgrifB003.png"
+        },
+        {
+            "group": 1,
+            "frame": 4,
+            "file": "CrgrifB003.png"
+        },
+        {
+            "group": 1,
+            "frame": 5,
+            "file": "CrgrifB002.png"
+        },
+        {
+            "group": 1,
+            "frame": 6,
+            "file": "CrgrifB001.png"
+        },
+        {
+            "group": 1,
+            "frame": 7,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 2,
+            "frame": 1,
+            "file": "CrgrifC001.png"
+        },
+        {
+            "group": 2,
+            "frame": 2,
+            "file": "CrgrifC002.png"
+        },
+        {
+            "group": 2,
+            "frame": 3,
+            "file": "CrgrifC002.png"
+        },
+        {
+            "group": 2,
+            "frame": 4,
+            "file": "CrgrifC002.png"
+        },
+        {
+            "group": 2,
+            "frame": 5,
+            "file": "CrgrifC001.png"
+        },
+        {
+            "group": 2,
+            "frame": 6,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 2,
+            "frame": 7,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 3,
+            "frame": 1,
+            "file": "CrgrifD001.png"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "CrgrifD002.png"
+        },
+        {
+            "group": 3,
+            "frame": 3,
+            "file": "CrgrifD003.png"
+        },
+        {
+            "group": 3,
+            "frame": 4,
+            "file": "CrgrifD004.png"
+        },
+        {
+            "group": 3,
+            "frame": 5,
+            "file": "CrgrifD005.png"
+        },
+        {
+            "group": 3,
+            "frame": 6,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 4,
+            "frame": 1,
+            "file": "CrgrifE001.png"
+        },
+        {
+            "group": 4,
+            "frame": 2,
+            "file": "CrgrifE002.png"
+        },
+        {
+            "group": 4,
+            "frame": 3,
+            "file": "CrgrifE003.png"
+        },
+        {
+            "group": 4,
+            "frame": 4,
+            "file": "CrgrifE003.png"
+        },
+        {
+            "group": 4,
+            "frame": 5,
+            "file": "CrgrifE002.png"
+        },
+        {
+            "group": 4,
+            "frame": 6,
+            "file": "CrgrifE001.png"
+        },
+        {
+            "group": 4,
+            "frame": 7,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 5,
+            "frame": 0,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 5,
+            "frame": 1,
+            "file": "CrgrifF001.png"
+        },
+        {
+            "group": 5,
+            "frame": 2,
+            "file": "CrgrifF002.png"
+        },
+        {
+            "group": 5,
+            "frame": 3,
+            "file": "CrgrifF003.png"
+        },
+        {
+            "group": 5,
+            "frame": 4,
+            "file": "CrgrifF004.png"
+        },
+        {
+            "group": 5,
+            "frame": 5,
+            "file": "CrgrifF005.png"
+        },
+        {
+            "group": 5,
+            "frame": 6,
+            "file": "CrgrifF006.png"
+        },
+        {
+            "group": 5,
+            "frame": 7,
+            "file": "CrgrifF007.png"
+        },
+        {
+            "group": 5,
+            "frame": 8,
+            "file": "CrgrifF008.png"
+        },
+        {
+            "group": 7,
+            "frame": 0,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 7,
+            "frame": 1,
+            "file": "CrgrifG001.png"
+        },
+        {
+            "group": 7,
+            "frame": 2,
+            "file": "CrgrifG002.png"
+        },
+        {
+            "group": 8,
+            "frame": 0,
+            "file": "CrgrifG002.png"
+        },
+        {
+            "group": 8,
+            "frame": 1,
+            "file": "CrgrifG001.png"
+        },
+        {
+            "group": 8,
+            "frame": 2,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 9,
+            "frame": 0,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 9,
+            "frame": 1,
+            "file": "CrgrifG001.png"
+        },
+        {
+            "group": 9,
+            "frame": 2,
+            "file": "CrgrifG002.png"
+        },
+        {
+            "group": 10,
+            "frame": 0,
+            "file": "CrgrifG002.png"
+        },
+        {
+            "group": 10,
+            "frame": 1,
+            "file": "CrgrifG001.png"
+        },
+        {
+            "group": 10,
+            "frame": 2,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 11,
+            "frame": 0,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 11,
+            "frame": 1,
+            "file": "CrgrifK001.png"
+        },
+        {
+            "group": 11,
+            "frame": 2,
+            "file": "CrgrifK002.png"
+        },
+        {
+            "group": 11,
+            "frame": 3,
+            "file": "CrgrifK003.png"
+        },
+        {
+            "group": 11,
+            "frame": 4,
+            "file": "CrgrifK004.png"
+        },
+        {
+            "group": 11,
+            "frame": 5,
+            "file": "CrgrifK005.png"
+        },
+        {
+            "group": 11,
+            "frame": 6,
+            "file": "CrgrifK006.png"
+        },
+        {
+            "group": 11,
+            "frame": 7,
+            "file": "CrgrifK007.png"
+        },
+        {
+            "group": 11,
+            "frame": 8,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 12,
+            "frame": 0,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 12,
+            "frame": 1,
+            "file": "CrgrifL001.png"
+        },
+        {
+            "group": 12,
+            "frame": 2,
+            "file": "CrgrifL002.png"
+        },
+        {
+            "group": 12,
+            "frame": 3,
+            "file": "CrgrifL003.png"
+        },
+        {
+            "group": 12,
+            "frame": 4,
+            "file": "CrgrifL004.png"
+        },
+        {
+            "group": 12,
+            "frame": 5,
+            "file": "CrgrifL005.png"
+        },
+        {
+            "group": 12,
+            "frame": 6,
+            "file": "CrgrifL006.png"
+        },
+        {
+            "group": 12,
+            "frame": 7,
+            "file": "CrgrifL007.png"
+        },
+        {
+            "group": 12,
+            "frame": 8,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 13,
+            "frame": 0,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 13,
+            "frame": 1,
+            "file": "CrgrifM001.png"
+        },
+        {
+            "group": 13,
+            "frame": 2,
+            "file": "CrgrifM002.png"
+        },
+        {
+            "group": 13,
+            "frame": 3,
+            "file": "CrgrifM003.png"
+        },
+        {
+            "group": 13,
+            "frame": 4,
+            "file": "CrgrifM004.png"
+        },
+        {
+            "group": 13,
+            "frame": 5,
+            "file": "CrgrifM005.png"
+        },
+        {
+            "group": 13,
+            "frame": 6,
+            "file": "CrgrifM006.png"
+        },
+        {
+            "group": 13,
+            "frame": 7,
+            "file": "CrgrifM007.png"
+        },
+        {
+            "group": 13,
+            "frame": 8,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 20,
+            "frame": 0,
+            "file": "CrgrifB000.png"
+        },
+        {
+            "group": 20,
+            "frame": 1,
+            "file": "CrgrifN001.png"
+        },
+        {
+            "group": 20,
+            "frame": 2,
+            "file": "CrgrifN002.png"
+        },
+        {
+            "group": 20,
+            "frame": 3,
+            "file": "CrgrifN003.png"
+        },
+        {
+            "group": 21,
+            "frame": 0,
+            "file": "CrgrifN003.png"
+        },
+        {
+            "group": 21,
+            "frame": 1,
+            "file": "CrgrifO001.png"
+        },
+        {
+            "group": 21,
+            "frame": 2,
+            "file": "CrgrifO002.png"
+        },
+        {
+            "group": 21,
+            "frame": 3,
+            "file": "CrgrifB000.png"
+        }
+    ],
+    "basepath": "creatures/castle/battle/lvl3Alt/"
+}

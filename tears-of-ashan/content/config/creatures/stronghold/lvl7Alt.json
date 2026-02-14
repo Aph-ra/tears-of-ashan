@@ -1,0 +1,53 @@
+{
+	"ghostBehemothAU" : {
+		"name" : {"singular" : "Ghost Behemoth", "plural" : "Ghost Behemoths"},
+		"faction" : "stronghold",
+		"level" : 7,
+		"attack" : 22,
+		"defense" : 18,
+		"damage" : {"min" : 30, "max" : 50},
+		"hitPoints" : 240,
+		"speed" : 11,
+		"growth" : 1,
+		"aiValue" : 6250,
+		"fightValue" : 5450,
+		"cost" : {"gold" : 3000, "crystal" : 2},
+		"advMapAmount" : {"min" : 3, "max" : 8},
+		"upgrades" : ["core:ancientBehemoth"],
+		"doubleWide" : true,
+		"abilities" : {
+			"king1" : {
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"reduceDefence" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 60
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/stronghold/battle/lvl7Alt.def",
+			"map" : "creatures/stronghold/map/lvl7Alt.def",
+			"iconSmall" : "creatures/stronghold/iconsSmall/lvl7Alt.png",
+			"iconLarge" : "creatures/stronghold/iconsBig/lvl7Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.17,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" : {
+			"attack" : "BMTHATTK.wav",
+			"defend" : "BMTHDFND.wav",
+			"killed" : "BMTHKILL.wav",
+			"move" : "BMTHMOVE.wav",
+			"wince" : "BMTHWNCE.wav"
+		}
+	}
+}

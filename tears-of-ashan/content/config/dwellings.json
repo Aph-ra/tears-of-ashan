@@ -1,0 +1,80 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"hellfireRiftAU" : {
+				"name" : "Hellfire Rift",
+				"creatures" : [["hellSteedAU"]],
+				"guards" : true,
+				"sounds" : {"ambient" : ["dwellings/LOOPHLLRFT"]},
+				"visit" : ["MILITARY"],
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/hellSteedDwellingLarge",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						]
+					},
+					"small" : {
+						"animation" : "dwellings/hellSteedDwellingSmall",
+						"mask" : [
+							"VV",
+							"BA"
+						]
+					}
+				}
+			},
+			"cathedralOfDarknessAU" : {
+				"name" : "Cathedral of Darkness",
+				"creatures" : [["grimGuardAU"]],
+				"guards" : false,
+				"sounds" : {"ambient" : ["LOOPSWOR"]},
+				"visit" : ["MILITARY"],
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/grimGuardDwelling",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VABV"
+						]
+					}
+				}
+			},
+			"abandonedTowerAU" : {
+				"name" : "Abandoned Tower",
+				"creatures" : [["skeletonSharpshooterAU"]],
+				"guards" : false,
+				"visit" : ["MILITARY"],
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/skeletonSharpshooterDwelling",
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVBA"
+						]
+					}
+				}
+			},
+			"dracolichDwellingAU" : {
+				"name" : "Ethereal Boneyard",
+				"creatures" : [["dracolichAU"]],
+				"guards" : true,
+				"visit" : ["MILITARY"],
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/dracolichDwelling",
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVBB",
+							"VVAA"
+						]
+					}
+				}
+			}
+		}
+	}
+}

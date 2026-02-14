@@ -1,0 +1,49 @@
+{
+	"fireHoundAU": {
+		"name" : {"singular" : "Fire Hound", "plural" : "Fire Hounds"},
+		"faction" : "inferno",
+		"level" : 3,
+		"attack" : 10,
+		"defense" : 8,
+		"damage" : {"min" : 2, "max" : 7},
+		"hitPoints" : 25,
+		"speed" : 7,
+		"growth" : 5,
+		"horde" : 3,
+		"aiValue" : 392,
+		"fightValue" : 308,
+		"cost" : {"gold" : 250},
+		"advMapAmount" : {"min" : 12, "max" : 20},
+		"doubleWide" : true,
+		"upgrades" : ["core:cerberus"],
+		"abilities" : {
+			"threeHeads" : {
+				"type" : "THREE_HEADED_ATTACK",
+				"icon" : "zvs/Lib1.res/cerberus"
+			},
+			"fireBreath" : {
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/inferno/battle/lvl3Alt.json",
+			"map" : "creatures/inferno/map/lvl3Alt.def",
+			"mapMask" : ["VVV","VAV"],
+			"iconSmall" : "creatures/inferno/iconsSmall/lvl3Alt.png",
+			"iconLarge" : "creatures/inferno/iconsBig/lvl3Alt.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "CERBATTK.wav",
+			"defend" : "CERBDFND.wav",
+			"killed" : "CERBKILL.wav",
+			"move" : "CERBMOVE.wav",
+			"wince" : "CERBWNCE.wav"
+		}
+	}
+}

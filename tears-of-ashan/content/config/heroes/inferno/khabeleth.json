@@ -1,0 +1,50 @@
+{
+	"khabeleth" : {
+		"class" : "gatekeeper",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [ "fireWall" ],
+		"texts" : {
+			"name" : "Kha-Beleth",
+			"biography" : "Kha-Beleth is an Arch-Demon with no master, and no past. Nobody knows from whence he came. Unlike other demons who constantly feed on scraps from their overlords, Kha-Beleth relies fully on his own resources, a trait which proves him a powerful figure in the complicated world of infernal politics. He makes no secret of what he wants: nothing less than destruction of the walls of Sheogh, and freedom for the children of Urgash. With his near-infinite patience, his fearlessness, his brilliant mind, and his charismatic manner, he may one day realise his lofty goals.",
+			"specialty" : {
+				"name" : "Devils",
+				"tooltip" : "Creature Bonus: Devils",
+				"description" : "Increases the Speed of allied Devils, Arch Devils, and Arch Demons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."				
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/inferno/khabeleth/portraitSmall.png",
+			"large" : "heroes/inferno/khabeleth/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Devils.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Devils.png"
+		},
+
+		"skills": [
+			{ "skill" : "gating", "level": "basic" },
+			{ "skill" : "offence", "level": "basic" }
+		],
+    
+		"specialty" : {
+			"creature" : "devil",
+			"creatureLevel" : 7,
+			"stepSize" : 20
+		},
+	
+		"army" : [
+			{
+				"creature" : "imp",
+				"min" : 20, "max" : 30,
+			},
+			{
+				"creature" : "gog",
+				"min" : 5, "max" : 7,
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4, "max" : 5,
+			}
+		]
+	}
+}

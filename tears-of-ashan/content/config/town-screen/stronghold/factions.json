@@ -1,0 +1,101 @@
+{
+	"core:stronghold" : {
+		"town" : {
+			"hallBackground": "TPTHBKTW.BMP",
+			"buildingsIcons": "town-screen/stronghold/HALLSTRNALT.DEF",
+			
+			"creatures" : [
+				["goblin", "hobgoblin", "goblinTrapperAU"],
+				["goblinWolfRider", "hobgoblinWolfRider", "boar"],
+				["orc", "orcChieftain", "orcBerserkerAU"],
+				["ogre", "ogreMage", "ogreBruteAU"],
+				["roc", "thunderbird", "shahrokhAU"],
+				["cyclop", "cyclopKing", "bloodEyedCyclopsAU"],
+				["behemoth", "ancientBehemoth", "ghostBehemothAU"]
+			],
+			
+			"structures" : {
+				"horde1Upgr2":     { "animation" : "town-screen/cyan", "x" : 373, "y" : 220,           	"border" : "TOSGOB2H.bmp", "area" : "TZSGOB2H.bmp", "hidden" : true, "builds" : "horde1Upgr" },
+				"dwellingUp2Lvl1": { "animation" : "town-screen/cyan", "x" : 373, "y" : 220,			"border" : "TOSGOB2.bmp",  "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl2": { "animation" : "town-screen/cyan", "x" : 266, "y" : 225, "z" : 1,  	"border" : "TOSWOL2.bmp",  "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl3": { "animation" : "town-screen/cyan", "x" : 566, "y" : 158, "z" : 2,  	"border" : "TOSORC2.bmp",  "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl4": { "animation" : "town-screen/cyan", "x" : 197, "y" : 137,           	"border" : "TOSOGR2.bmp",  "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl5": { "animation" : "town-screen/cyan", "x" : 129, "y" : 15,  "z" : -1, 	"border" : "TOSROC2.bmp",  "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl6": { "animation" : "town-screen/cyan", "x" : 616, "y" : 93,  "z" : -2, 	"border" : "TOSCYC2A.bmp", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl7": { "animation" : "town-screen/cyan", "x" : 604, "y" : 0,             	"border" : "TOSBEH2A.bmp", "area" : "town-screen/cyan" }	
+			},
+
+			"buildings" : {
+				"horde1Upgr2" : {
+					"name" : "Mess Hall",
+					"description" : "The Mess Hall increases Hobgoblin and Goblin Trapper production by 8 per week.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["horde1Upgr"] ]
+				},
+				"dwellingUpLvl1" : {
+					"description" : "The Goblin Barracks allows you to recruit Hobgoblins and Goblin Trappers."
+				},
+				"dwellingUp2Lvl1" : {
+					"name" : "Upg. Goblin Barracks",
+					"description" : "The Goblin Barracks allows you to recruit Hobgoblins and Goblin Trappers.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl1"] ]
+				},
+				"dwellingUpLvl2" : {
+					"description" : "The Wolf Pen allows you to recruit Wolf Raiders and Boar Riders."
+				},
+				"dwellingUp2Lvl2" : {
+					"name" : "Upg. Wolf Pen",
+					"description" : "The Wolf Pen allows you to recruit Wolf Raiders and Boar Riders.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl2"] ]
+				},
+				"dwellingUpLvl3" : {
+					"description" : "The Orc Tower allows you to recruit Orc Chieftains and Orc Berserkers."
+				},
+				"dwellingUp2Lvl3" : {
+					"name" : "Upg. Orc Tower",
+					"description" : "The Orc Tower allows you to recruit Orc Chieftains and Orc Berserkers.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl3"] ]
+				},
+				"dwellingUpLvl4" : {
+					"description" : "The Ogre Fort allows you to recruit Ogre Magi and Ogre Brutes."
+				},
+				"dwellingUp2Lvl4" : {
+					"name" : "Upg. Ogre Fort",
+					"description" : "The Ogre Fort allows you to recruit Ogre Magi and Ogre Brutes.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl4"] ]
+				},
+				"dwellingUpLvl5" : {
+					"description" : "The Cliff Nest allows you to recruit Thunderbirds and Shahrokhs."
+				},
+				"dwellingUp2Lvl5" : {
+					"name" : "Upg. Cliff Nest",
+					"description" : "The Cliff Nest allows you to recruit Thunderbirds and Shahrokhs.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl5"] ]
+				},
+				"dwellingUpLvl6" : {
+					"description" : "The Cyclops Cave allows you to recruit Cyclops Kings and Blood-Eyed Cyclopes."
+				},
+				"dwellingUp2Lvl6" : {
+					"name" : "Upg. Cyclops Cave",
+					"description" : "The Cyclops Cave allows you to recruit Cyclops Kings and Blood-Eyed Cyclopes.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl6"] ]
+				},
+				"dwellingUpLvl7" : {
+					"description" : "The Behemoth Lair allows you to recruit Ancient Behemoths and Ghost Behemoths."
+				},
+				"dwellingUp2Lvl7" : {
+				"name" : "Upg. Behemoth Lair",
+					"description" : "The Behemoth Lair allows you to recruit Ancient Behemoths and Ghost Behemoths.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl7"] ]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,67 @@
+{
+	"bloodEyedCyclopsAU" : {
+		"name" : {"singular" : "Blood-Eyed Cyclops", "plural" : "Blood-Eyed Cyclopes"},
+		"faction" : "stronghold",
+		"level" : 6,
+		"attack" : 16,
+		"defense" : 14,
+		"shots" : 24,
+		"damage" : {"min" : 16, "max" : 20},
+		"hitPoints" : 70,
+		"speed" : 7,
+		"growth" : 2,
+		"aiValue" : 1544,
+		"fightValue" : 1110,
+		"cost" : {"gold" : 1000},
+		"advMapAmount" : {"min" : 5, "max" : 10},
+		"upgrades" : ["core:cyclopKing"],
+		"doubleWide" : false,
+		"abilities": {
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"noDistancePenalty" : {
+				"type" : "NO_DISTANCE_PENALTY"
+			},
+			"noWallPenalty" : {
+				"type" : "NO_WALL_PENALTY"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/stronghold/battle/lvl6Alt.def",
+			"map" : "creatures/stronghold/map/lvl6Alt.def",
+			"iconSmall" : "creatures/stronghold/iconsSmall/lvl6Alt.png",
+			"iconLarge" : "creatures/stronghold/iconsBig/lvl6Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			},
+			"missile" : {
+				"attackClimaxFrame" : 7,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0 ],
+				"ray" : [
+					{ "start" : [ 255, 140,  40, 255 ], "end" : [ 255, 140,  40,  64 ] },
+					{ "start" : [ 255, 248, 198, 255 ], "end" : [ 255, 248, 198, 128 ] },
+					{ "start" : [ 255, 255, 255, 255 ], "end" : [ 255, 255, 255, 255 ] },
+					{ "start" : [ 255, 248, 198, 255 ], "end" : [ 255, 248, 198, 128 ] },
+					{ "start" : [ 255, 140,  40, 255 ], "end" : [ 255, 140,  40,  64 ] }
+				],
+				"offset" : {
+					"lowerX" : 4,	"lowerY" : -80,
+					"middleX" : 4,	"middleY" : -80,
+					"upperX" : 4,	"upperY" : -80
+				}
+			}
+		},
+		"sound" : {
+			"attack": "CCYCATTK.wav",
+			"defend": "CCYCDFND.wav",
+			"killed": "CCYCKILL.wav",
+			"move": "CCYCMOVE.wav",
+			"shoot": "CCYCSHOT.wav",
+			"wince": "CCYCWNCE.wav"
+		}
+	}
+}

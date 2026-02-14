@@ -1,0 +1,59 @@
+{
+	"naadir" : {
+		"class" : "necromancer",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [ "curse" ],
+		"texts" : {
+			"name" : "Naadir",
+			"biography" : "Naadir despises the world of flesh, even more so than his fellow Necromancers. To him, perfection is only to be found in the naked spirit, cleansed from its material impurities. On the battlefield, his intimate knowledge of the spirit world allows him to \"capture\" the souls of his enemies and use them as reinforcements to his own forces.",
+			"specialty" : {
+				"name" : "Mummies",
+				"tooltip" : "Creature Bonus: Mummies",
+				"description" : "Increases the Speed of allied Mummies by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up). Can upgrade Walking Dead, Plague Zombies, and Rot Zombies to Mummies."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/necropolis/naadir/portraitSmall.png",
+			"large" : "heroes/necropolis/naadir/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Mummies.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Mummies.png"
+		},
+
+		"skills" : [
+			{"skill" : "necromancy", "level": "basic"},
+			{"skill" : "fireMagic", "level": "basic"}
+		],
+    
+		"specialty" : {
+			"creature" : "mummy",
+			"creatureLevel" : 3,
+			"stepSize" : 20,
+			"base" : {
+				"addInfo" : "creature.mummy",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			"bonuses" : {
+				"walkingDead2mummy" : { "subtype" : "creature.walkingDead" },
+				"plaguezombie2mummy" : { "subtype" : "creature.zombieLord" },
+				"rotzombie2mummy" : { "subtype" : "rotZombieAU" }
+			}
+		},
+	
+		"army" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "mummy",
+				"min" : 4, "max" : 5
+			},
+			{
+				"creature" : "mummy",
+				"min" : 4, "max" : 5
+			}
+		]
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"goreDemonAU": {
+		"name" : {"singular" : "Gore Demon", "plural" : "Gore Demons"},
+		"faction" : "inferno",
+		"level" : 4,
+		"attack" : 12,
+		"defense" : 10,
+		"damage" : {"min" : 7, "max" : 9},
+		"hitPoints" : 35,
+		"speed" : 8,
+		"growth" : 4,
+		"aiValue" : 550,
+		"fightValue" : 550,
+		"cost" : {"gold" : 350},
+		"advMapAmount" : {"min" : 10, "max" : 16},
+		"upgrades" : ["core:hornedDemon"],
+		"doubleWide" : false,
+		"abilities" : {
+			"jousting" : {
+				"type" : "JOUSTING",
+				"val" : 3
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/inferno/battle/lvl4Alt.def",
+			"map" : "creatures/inferno/map/lvl4Alt.def",
+			"iconSmall" : "creatures/inferno/iconsSmall/lvl4Alt.png",
+			"iconLarge" : "creatures/inferno/iconsBig/lvl4Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" :
+		{
+			"attack": "DHDMATTK.wav",
+			"defend": "DHDMDFND.wav",
+			"killed": "DHDMKILL.wav",
+			"move": "DHDMMOVE.wav",
+			"wince": "DHDMWNCE.wav"
+		}
+	}	
+}

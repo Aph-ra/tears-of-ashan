@@ -1,0 +1,54 @@
+{
+	"maeve" : {
+		"class" : "knight",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [ "haste" ],
+		"texts" : {
+			"name" : "Maeve",
+			"biography" : "Brilliant but embattled, Maeve is a dedicated ruler working desperately to pull a doomed empire out of its downward spiral. Trying to salvage a future for the fragmenting Falcon Empire while fighting off a Demon invasion, Maeve has nothing to rely on but her own dedication to the ideals of chivalry and her unswerving faith in the worship of the Dragon of Light.",
+			"specialty" : {
+				"name" : "Haste",
+				"tooltip" : "Spell Bonus: Haste",
+				"description" : "Casts Haste with effect increased by 3 for level 1–2 creatures, by 2 for level 3–4 creatures, and by 1 for level 5–6 creatures."				
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/castle/maeve/portraitSmall.png",
+			"large" : "heroes/castle/maeve/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Haste.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Haste.png"
+		},
+
+		"skills" : [
+			{"skill" : "leadership", "level": "basic"},
+			{"skill" : "airMagic", "level": "basic"}
+		],
+    
+		"specialty" : {
+			"bonuses" : {
+				"haste" : {
+					"addInfo" : 0,
+					"subtype" : "spell.haste",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		},
+	
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		]
+	}
+}

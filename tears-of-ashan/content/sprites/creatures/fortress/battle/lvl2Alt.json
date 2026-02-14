@@ -1,0 +1,600 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "caliza54.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "caliza55.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "caliza56.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "caliza57.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "caliza58.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "caliza59.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "caliza60.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "caliza44.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 1,
+            "file": "caliza45.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 2,
+            "file": "caliza46.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 3,
+            "file": "caliza47.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 4,
+            "file": "caliza47.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 5,
+            "file": "caliza47.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 6,
+            "file": "caliza47.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 7,
+            "file": "caliza46.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 8,
+            "file": "caliza45.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 9,
+            "file": "caliza44.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "caliza72.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 1,
+            "file": "caliza48.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 2,
+            "file": "caliza49.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 3,
+            "file": "caliza50.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 4,
+            "file": "caliza51.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 5,
+            "file": "caliza50.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 6,
+            "file": "caliza49.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 7,
+            "file": "caliza48.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "caliza64.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 1,
+            "file": "caliza65.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "caliza66.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 3,
+            "file": "caliza67.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 4,
+            "file": "caliza68.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 5,
+            "file": "caliza69.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "caliza40.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 1,
+            "file": "caliza41.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 2,
+            "file": "caliza42.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 3,
+            "file": "caliza43.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 4,
+            "file": "caliza43.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 5,
+            "file": "caliza43.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 6,
+            "file": "caliza43.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 7,
+            "file": "caliza42.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 8,
+            "file": "caliza41.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 9,
+            "file": "caliza40.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 0,
+            "file": "caliza64.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 1,
+            "file": "caliza65.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 2,
+            "file": "caliza34.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 3,
+            "file": "caliza35.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 4,
+            "file": "caliza36.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 5,
+            "file": "caliza37.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 6,
+            "file": "caliza38.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 7,
+            "file": "caliza39.pcx.png"
+        },
+        {
+            "group": 7,
+            "frame": 0,
+            "file": "caliza70.pcx.png"
+        },
+        {
+            "group": 7,
+            "frame": 1,
+            "file": "caliza71.pcx.png"
+        },
+        {
+            "group": 8,
+            "frame": 0,
+            "file": "caliza71.pcx.png"
+        },
+        {
+            "group": 8,
+            "frame": 1,
+            "file": "caliza70.pcx.png"
+        },
+        {
+            "group": 9,
+            "frame": 0,
+            "file": "caliza70.pcx.png"
+        },
+        {
+            "group": 9,
+            "frame": 1,
+            "file": "caliza71.pcx.png"
+        },
+        {
+            "group": 10,
+            "frame": 0,
+            "file": "caliza71.pcx.png"
+        },
+        {
+            "group": 10,
+            "frame": 1,
+            "file": "caliza70.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 0,
+            "file": "caliza19.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 1,
+            "file": "caliza20.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 2,
+            "file": "caliza21.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 3,
+            "file": "caliza22.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 4,
+            "file": "caliza28.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 5,
+            "file": "caliza29.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 6,
+            "file": "caliza30.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 7,
+            "file": "caliza26.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 8,
+            "file": "caliza27.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 0,
+            "file": "caliza19.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 1,
+            "file": "caliza20.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 2,
+            "file": "caliza21.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 3,
+            "file": "caliza22.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 4,
+            "file": "caliza23.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 5,
+            "file": "caliza24.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 6,
+            "file": "caliza25.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 7,
+            "file": "caliza26.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 8,
+            "file": "caliza27.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 0,
+            "file": "caliza19.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 1,
+            "file": "caliza20.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 2,
+            "file": "caliza21.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 3,
+            "file": "caliza22.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 4,
+            "file": "caliza31.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 5,
+            "file": "caliza32.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 6,
+            "file": "caliza33.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 7,
+            "file": "caliza26.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 8,
+            "file": "caliza27.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 0,
+            "file": "caliza07.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 1,
+            "file": "caliza08.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 2,
+            "file": "caliza09.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 3,
+            "file": "caliza10.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 4,
+            "file": "caliza10.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 5,
+            "file": "caliza10.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 6,
+            "file": "caliza10.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 7,
+            "file": "caliza10.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 8,
+            "file": "caliza11.pcx.png"
+        },
+        {
+            "group": 14,
+            "frame": 9,
+            "file": "caliza12.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 0,
+            "file": "caliza01.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 1,
+            "file": "caliza02.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 2,
+            "file": "caliza03.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 3,
+            "file": "caliza04.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 4,
+            "file": "caliza04.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 5,
+            "file": "caliza04.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 6,
+            "file": "caliza04.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 7,
+            "file": "caliza04.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 8,
+            "file": "caliza05.pcx.png"
+        },
+        {
+            "group": 15,
+            "frame": 9,
+            "file": "caliza06.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 0,
+            "file": "caliza13.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 1,
+            "file": "caliza14.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 2,
+            "file": "caliza15.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 3,
+            "file": "caliza16.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 4,
+            "file": "caliza16.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 5,
+            "file": "caliza16.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 6,
+            "file": "caliza16.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 7,
+            "file": "caliza16.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 8,
+            "file": "caliza17.pcx.png"
+        },
+        {
+            "group": 16,
+            "frame": 9,
+            "file": "caliza18.pcx.png"
+        },
+        {
+            "group": 20,
+            "frame": 0,
+            "file": "caliza52.pcx.png"
+        },
+        {
+            "group": 20,
+            "frame": 1,
+            "file": "caliza53.pcx.png"
+        },
+        {
+            "group": 21,
+            "frame": 0,
+            "file": "caliza61.pcx.png"
+        },
+        {
+            "group": 21,
+            "frame": 1,
+            "file": "caliza62.pcx.png"
+        },
+        {
+            "group": 21,
+            "frame": 2,
+            "file": "caliza63.pcx.png"
+        }
+    ],
+    "basepath": "creatures/fortress/battle/lvl2Alt/"
+}

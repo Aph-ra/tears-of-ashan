@@ -1,0 +1,69 @@
+{
+    "gate10ArchDevil": {
+        "type": "combat",
+        "name": "Gate Arch Devils",
+        "school": {
+            "03gatingSchool": true
+        },
+        "level": 5,
+        "power": 1,
+        "defaultGainChance": 0,
+        "gainChance": {
+            "inferno": 0
+        },
+        "flags": {
+            "indifferent": true,
+            "special": true
+        },
+        "graphics": {
+            "iconBook": "spells/gatingArchDevil/spellBook",
+            "iconScroll": "spells/gatingArchDevil/spellScroll",
+            "iconScenarioBonus": "spells/gatingArchDevil/spellBonus",
+            "iconEffect": "spells/gatingArchDevil/spellEffect"
+        },
+        "animation": {
+            "affect": [
+                "spells/C12SPF0.def"
+            ]
+        },
+        "sounds": {
+            "cast": "RESURECT"
+        },
+        "targetType": "NO_TARGET",
+        "levels": {
+            "base": {
+                "description": "{Gate Arch Devils}\r\n\r\nAllows you to gate Arch Devils.\r\n\r\nOnce cast, other creatures may also be gated.",
+                "range": "X",
+                "cost": 100,
+                "power": 1,
+                "battleEffects": {
+                    "summon": {
+                        "exclusive": false,
+                        "id": "archDevil",
+                        "permanent": false,
+                        "type": "core:summon"
+                    }
+                }
+            },
+            "none": {
+                "cost": 150,
+                "power": 1
+            },
+            "basic": {
+				"description": "{Basic Gate Arch Devils}\r\n\r\nGates (Power x 1) Arch Devils.\r\n\r\nOnce cast, other creatures may also be gated.",
+                "cost": 150,
+                "power": 1
+            },
+            "advanced": {
+				"description": "{Advanced Gate Arch Devils}\r\n\r\nGates (Power x 1) Arch Devils.\r\n\r\nOnce cast, other creatures may also be gated.",
+                "cost": 135,
+                "power": 1
+            },
+            "expert": {
+				"description": "{Expert Gate Arch Devils}\r\n\r\nGates (Power x 2) Arch Devils.\r\n\r\nOnce cast, other creatures may also be gated.",
+                "cost": 120,
+                "power": 2
+            }
+        }
+    }
+}

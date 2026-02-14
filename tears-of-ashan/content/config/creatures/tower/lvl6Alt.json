@@ -1,0 +1,47 @@
+{
+	"nagaRaniAU": {
+		"name" : {"singular" : "Naga Rani", "plural" : "Naga Ranis"},
+		"faction" : "tower",
+		"level" : 6,
+		"attack" : 16,
+		"defense" : 14,
+		"damage" : {"min" : 25, "max" : 25},
+		"hitPoints" : 110,
+		"speed" : 8,
+		"growth" : 2,
+		"aiValue" : 3000,
+		"fightValue" : 3000,
+		"cost" : {"gold" : 1600},
+		"advMapAmount" : {"min" : 5, "max" : 10},
+		"upgrades" : ["core:nagaQueen"],
+		"doubleWide" : true,
+		"abilities" : {
+			"noRetaliation" : {
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"threeHeads" : {
+				"type" : "THREE_HEADED_ATTACK"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/tower/battle/lvl6Alt.json",
+			"map" : "creatures/tower/map/lvl6Alt.json",
+			"mapMask" : [ "VVV", "VAV"],
+			"iconSmall" : "creatures/tower/iconsSmall/lvl6Alt.png",
+			"iconLarge" : "creatures/tower/iconsBig/lvl6Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "NGRDATTK.wav",
+			"defend": "NGRDDFND.wav",
+			"killed": "NGRDKILL.wav",
+			"move": "NGRDMOVE.wav",
+			"wince": "NGRDWNCE.wav"
+		}
+	}
+}

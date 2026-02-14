@@ -1,0 +1,575 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "CmagelA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "CmagelA001.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "CmagelA002.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "CmagelA003.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "CmagelA004.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "CmagelA005.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "CmagelA006.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "CmagelA007.png"
+        },
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "CmagelB000.png"
+        },
+        {
+            "group": 1,
+            "frame": 1,
+            "file": "CmagelB001.png"
+        },
+        {
+            "group": 1,
+            "frame": 2,
+            "file": "CmagelB002.png"
+        },
+        {
+            "group": 1,
+            "frame": 3,
+            "file": "CmagelB003.png"
+        },
+        {
+            "group": 1,
+            "frame": 4,
+            "file": "CmagelB004.png"
+        },
+        {
+            "group": 1,
+            "frame": 5,
+            "file": "CmagelB005.png"
+        },
+        {
+            "group": 1,
+            "frame": 6,
+            "file": "CmagelB006.png"
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "CmagelC000.png"
+        },
+        {
+            "group": 2,
+            "frame": 1,
+            "file": "CmagelC001.png"
+        },
+        {
+            "group": 2,
+            "frame": 2,
+            "file": "CmagelC002.png"
+        },
+        {
+            "group": 2,
+            "frame": 3,
+            "file": "CmagelC003.png"
+        },
+        {
+            "group": 2,
+            "frame": 4,
+            "file": "CmagelC004.png"
+        },
+        {
+            "group": 2,
+            "frame": 5,
+            "file": "CmagelC003.png"
+        },
+        {
+            "group": 2,
+            "frame": 6,
+            "file": "CmagelC002.png"
+        },
+        {
+            "group": 2,
+            "frame": 7,
+            "file": "CmagelC001.png"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "CmagelD000.png"
+        },
+        {
+            "group": 3,
+            "frame": 1,
+            "file": "CmagelD001.png"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "CmagelD002.png"
+        },
+        {
+            "group": 3,
+            "frame": 3,
+            "file": "CmagelD003.png"
+        },
+        {
+            "group": 3,
+            "frame": 4,
+            "file": "CmagelD004.png"
+        },
+        {
+            "group": 3,
+            "frame": 5,
+            "file": "CmagelD005.png"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "CmagelE000.png"
+        },
+        {
+            "group": 4,
+            "frame": 1,
+            "file": "CmagelE001.png"
+        },
+        {
+            "group": 4,
+            "frame": 2,
+            "file": "CmagelE002.png"
+        },
+        {
+            "group": 4,
+            "frame": 3,
+            "file": "CmagelE003.png"
+        },
+        {
+            "group": 4,
+            "frame": 4,
+            "file": "CmagelE004.png"
+        },
+        {
+            "group": 4,
+            "frame": 5,
+            "file": "CmagelE005.png"
+        },
+        {
+            "group": 4,
+            "frame": 6,
+            "file": "CmagelE005.png"
+        },
+        {
+            "group": 4,
+            "frame": 7,
+            "file": "CmagelE005.png"
+        },
+        {
+            "group": 4,
+            "frame": 8,
+            "file": "CmagelE004.png"
+        },
+        {
+            "group": 4,
+            "frame": 9,
+            "file": "CmagelE003.png"
+        },
+        {
+            "group": 4,
+            "frame": 10,
+            "file": "CmagelE002.png"
+        },
+        {
+            "group": 4,
+            "frame": 11,
+            "file": "CmagelE001.png"
+        },
+        {
+            "group": 4,
+            "frame": 12,
+            "file": "CmagelE000.png"
+        },
+        {
+            "group": 5,
+            "frame": 0,
+            "file": "CmagelF000.png"
+        },
+        {
+            "group": 5,
+            "frame": 1,
+            "file": "CmagelF001.png"
+        },
+        {
+            "group": 5,
+            "frame": 2,
+            "file": "CmagelF002.png"
+        },
+        {
+            "group": 5,
+            "frame": 3,
+            "file": "CmagelF003.png"
+        },
+        {
+            "group": 5,
+            "frame": 4,
+            "file": "CmagelF004.png"
+        },
+        {
+            "group": 5,
+            "frame": 5,
+            "file": "CmagelF005.png"
+        },
+        {
+            "group": 7,
+            "frame": 0,
+            "file": "CmagelH000.png"
+        },
+        {
+            "group": 7,
+            "frame": 1,
+            "file": "CmagelH001.png"
+        },
+        {
+            "group": 8,
+            "frame": 0,
+            "file": "CmagelH001.png"
+        },
+        {
+            "group": 8,
+            "frame": 1,
+            "file": "CmagelH000.png"
+        },
+        {
+            "group": 9,
+            "frame": 0,
+            "file": "CmagelH000.png"
+        },
+        {
+            "group": 9,
+            "frame": 1,
+            "file": "CmagelH001.png"
+        },
+        {
+            "group": 10,
+            "frame": 0,
+            "file": "CmagelH001.png"
+        },
+        {
+            "group": 10,
+            "frame": 1,
+            "file": "CmagelH000.png"
+        },
+        {
+            "group": 11,
+            "frame": 0,
+            "file": "CmagelL000.png"
+        },
+        {
+            "group": 11,
+            "frame": 1,
+            "file": "CmagelL001.png"
+        },
+        {
+            "group": 11,
+            "frame": 2,
+            "file": "CmagelL002.png"
+        },
+        {
+            "group": 11,
+            "frame": 3,
+            "file": "CmagelL003.png"
+        },
+        {
+            "group": 11,
+            "frame": 4,
+            "file": "CmagelL003.png"
+        },
+        {
+            "group": 11,
+            "frame": 5,
+            "file": "CmagelL003.png"
+        },
+        {
+            "group": 11,
+            "frame": 6,
+            "file": "CmagelL002.png"
+        },
+        {
+            "group": 11,
+            "frame": 7,
+            "file": "CmagelL001.png"
+        },
+        {
+            "group": 11,
+            "frame": 8,
+            "file": "CmagelL000.png"
+        },
+        {
+            "group": 12,
+            "frame": 0,
+            "file": "CmagelL000.png"
+        },
+        {
+            "group": 12,
+            "frame": 1,
+            "file": "CmagelL001.png"
+        },
+        {
+            "group": 12,
+            "frame": 2,
+            "file": "CmagelL002.png"
+        },
+        {
+            "group": 12,
+            "frame": 3,
+            "file": "CmagelL003.png"
+        },
+        {
+            "group": 12,
+            "frame": 4,
+            "file": "CmagelL003.png"
+        },
+        {
+            "group": 12,
+            "frame": 5,
+            "file": "CmagelL003.png"
+        },
+        {
+            "group": 12,
+            "frame": 6,
+            "file": "CmagelL002.png"
+        },
+        {
+            "group": 12,
+            "frame": 7,
+            "file": "CmagelL001.png"
+        },
+        {
+            "group": 12,
+            "frame": 8,
+            "file": "CmagelL000.png"
+        },
+        {
+            "group": 13,
+            "frame": 0,
+            "file": "CmagelL000.png"
+        },
+        {
+            "group": 13,
+            "frame": 1,
+            "file": "CmagelL001.png"
+        },
+        {
+            "group": 13,
+            "frame": 2,
+            "file": "CmagelL002.png"
+        },
+        {
+            "group": 13,
+            "frame": 3,
+            "file": "CmagelL003.png"
+        },
+        {
+            "group": 13,
+            "frame": 4,
+            "file": "CmagelL003.png"
+        },
+        {
+            "group": 13,
+            "frame": 5,
+            "file": "CmagelL003.png"
+        },
+        {
+            "group": 13,
+            "frame": 6,
+            "file": "CmagelL002.png"
+        },
+        {
+            "group": 13,
+            "frame": 7,
+            "file": "CmagelL001.png"
+        },
+        {
+            "group": 13,
+            "frame": 8,
+            "file": "CmagelL000.png"
+        },
+        {
+            "group": 17,
+            "frame": 0,
+            "file": "CmagelL000.png"
+        },
+        {
+            "group": 17,
+            "frame": 1,
+            "file": "CmagelL001.png"
+        },
+        {
+            "group": 17,
+            "frame": 2,
+            "file": "CmagelL002.png"
+        },
+        {
+            "group": 17,
+            "frame": 3,
+            "file": "CmagelL003.png"
+        },
+        {
+            "group": 17,
+            "frame": 4,
+            "file": "CmagelL003.png"
+        },
+        {
+            "group": 17,
+            "frame": 5,
+            "file": "CmagelL003.png"
+        },
+        {
+            "group": 17,
+            "frame": 6,
+            "file": "CmagelL002.png"
+        },
+        {
+            "group": 17,
+            "frame": 7,
+            "file": "CmagelL001.png"
+        },
+        {
+            "group": 17,
+            "frame": 8,
+            "file": "CmagelL000.png"
+        },
+        {
+            "group": 18,
+            "frame": 0,
+            "file": "CmagelL000.png"
+        },
+        {
+            "group": 18,
+            "frame": 1,
+            "file": "CmagelL001.png"
+        },
+        {
+            "group": 18,
+            "frame": 2,
+            "file": "CmagelL002.png"
+        },
+        {
+            "group": 18,
+            "frame": 3,
+            "file": "CmagelL003.png"
+        },
+        {
+            "group": 18,
+            "frame": 4,
+            "file": "CmagelL003.png"
+        },
+        {
+            "group": 18,
+            "frame": 5,
+            "file": "CmagelL003.png"
+        },
+        {
+            "group": 18,
+            "frame": 6,
+            "file": "CmagelL002.png"
+        },
+        {
+            "group": 18,
+            "frame": 7,
+            "file": "CmagelL001.png"
+        },
+        {
+            "group": 18,
+            "frame": 8,
+            "file": "CmagelL000.png"
+        },
+        {
+            "group": 19,
+            "frame": 0,
+            "file": "CmagelL000.png"
+        },
+        {
+            "group": 19,
+            "frame": 1,
+            "file": "CmagelL001.png"
+        },
+        {
+            "group": 19,
+            "frame": 2,
+            "file": "CmagelL002.png"
+        },
+        {
+            "group": 19,
+            "frame": 3,
+            "file": "CmagelL003.png"
+        },
+        {
+            "group": 19,
+            "frame": 4,
+            "file": "CmagelL003.png"
+        },
+        {
+            "group": 19,
+            "frame": 5,
+            "file": "CmagelL003.png"
+        },
+        {
+            "group": 19,
+            "frame": 6,
+            "file": "CmagelL002.png"
+        },
+        {
+            "group": 19,
+            "frame": 7,
+            "file": "CmagelL001.png"
+        },
+        {
+            "group": 19,
+            "frame": 8,
+            "file": "CmagelL000.png"
+        },
+        {
+            "group": 20,
+            "frame": 0,
+            "file": "CmagelU000.png"
+        },
+        {
+            "group": 20,
+            "frame": 1,
+            "file": "CmagelU001.png"
+        },
+        {
+            "group": 21,
+            "frame": 0,
+            "file": "CmagelV000.png"
+        },
+        {
+            "group": 21,
+            "frame": 1,
+            "file": "CmagelV001.png"
+        }
+    ],
+    "basepath": "creatures/conflux/battle/lvl6Alt/"
+}

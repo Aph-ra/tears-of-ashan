@@ -1,0 +1,50 @@
+{
+	"atlas" : {
+		"class" : "alchemist",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [ "lightningBolt" ],
+		"texts" : {
+			"name" : "Atlas",
+			"biography" : "Atlas has ever been used to playing a large supportive role in the lives of the humans and other species. This stalwart defender has existed long before Bracaduun fell and was part of the cohort that helped to reform Bracada. He has become a symbol of stability among the wizards and a hulking rallying flag for his kin.",
+			"specialty" : {
+				"description" : "Increases the Speed of allied Giants, Titans, and Colossi by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Giants",
+				"name" : "Giants"
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/tower/atlas/portraitSmall.png",
+			"large" : "heroes/tower/atlas/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Giants.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Giants.png"
+		},
+
+		"skills" : [
+			{ "skill" : "offence", "level": "basic" },
+			{ "skill" : "airMagic", "level": "basic" }
+		],
+    
+		"specialty" : {
+			"creature" : "giant",
+			"creatureLevel" : 7,
+			"stepSize" : 20
+		},
+	
+		"army" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30, "max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5, "max" : 7,
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4, "max" : 5
+			}
+		]
+	}
+}

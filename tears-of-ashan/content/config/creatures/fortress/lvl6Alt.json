@@ -1,0 +1,67 @@
+{
+	"paokaiAU": {
+		"name" : {"singular" : "Paokai", "plural" : "Paokais"},
+		"faction" : "fortress",
+		"level" : 6,
+		"attack" : 14,
+		"defense" : 14,
+		"damage" : {"min" : 14, "max" : 18},
+		"hitPoints" : 80,
+		"speed" : 10,
+		"growth" : 2,
+		"aiValue" : 1950,
+		"fightValue" : 1950,
+		"cost" : {"gold" : 1300},
+		"advMapAmount" : {"min" : 5, "max" : 10},
+		"upgrades" : ["core:wyvernMonarch"],
+		"doubleWide" : true,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"regenerates" : {
+				"type" : "HP_REGENERATION",
+				"val" : 40
+			},
+			"lightningOnAttack" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.paokaiLightning",
+				"val" : 100,
+				"description" : "{Lightning Breath}\nStrikes up to 3 enemy targets with Lightning Breath after attacking",
+				"icon" : "zvs/Lib1.res/PrismBreath.png"
+			},
+			"lightningPower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"lightningImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.paokaiLightning",
+				"propagator" : "HERO",
+				"description" : "{Lightning Breath Immunity}\nTEMPORARY IMMUNITY - TO BE REMOVED",
+				"icon" : "zvs/Lib1.res/inactive.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/fortress/battle/lvl6Alt.json",
+			"map" : "creatures/fortress/map/lvl6Alt.json",
+			"mapMask" : ["VVV","VAV"],
+			"iconSmall" : "creatures/fortress/iconsSmall/lvl6Alt.png",
+			"iconLarge" : "creatures/fortress/iconsBig/lvl6Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "WYVMATTK.wav",
+			"defend": "WYVMDFND.wav",
+			"killed": "WYVMKILL.wav",
+			"move": "WYVMMOVE.wav",
+			"wince": "WYVMWNCE.wav"
+		}
+	}
+}	

@@ -1,0 +1,73 @@
+{
+	"elementalGargoyleAU": {
+		"name" : {"singular" : "Elemental Gargoyle", "plural" : "Elemental Gargoyles"},
+		"faction" : "tower",
+		"level" : 2,
+		"attack" : 6,
+		"defense" : 8,
+		"damage" : {"min" : 2, "max" : 3},
+		"hitPoints" : 20,
+		"speed" : 7,
+		"growth" : 9,
+		"horde" : 4,
+		"aiValue" : 225,
+		"fightValue" : 165,
+		"cost" : {"gold" : 160},
+		"advMapAmount" : {"min" : 16, "max" : 25},
+		"upgrades" : ["core:obsidianGargoyle"],
+		"doubleWide" : false,
+		"abilities" : {
+			"gargoyle" : {
+				"type" : "GARGOYLE"
+			},
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"airResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "air",
+				"val" : 50
+			},
+			"earthResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "earth",
+				"val" : 50
+			},
+			"fireResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 50
+			},
+			"waterResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val" : 50
+			},
+			"petrifyImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "stoneGaze",
+				"addInfo" : 1
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/tower/battle/lvl2Alt.def",
+			"map" : "creatures/tower/map/lvl2Alt.json",
+			"mapMask" : [ "VVV", "VAV"],
+			"iconSmall" : "creatures/tower/iconsSmall/lvl2Alt.png",
+			"iconLarge" : "creatures/tower/iconsBig/lvl2Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "OGRGATTK.wav",
+			"defend": "OGRGDFND.wav",
+			"killed": "OGRGKILL.wav",
+			"move": "OGRGMOVE.wav",
+			"wince": "OGRGWNCE.wav"
+		}
+	}
+}

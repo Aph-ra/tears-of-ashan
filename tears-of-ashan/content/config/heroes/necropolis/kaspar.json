@@ -1,0 +1,55 @@
+{
+	"kaspar" : {
+		"class" : "plaguespreader",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [ "animateDead" ],
+		"texts" : {
+			"name" : "Kaspar",
+			"biography" : "Kaspar was a great doctor and healer who was able to cure even the most terrible wounds. Delving deeper and deeper into the secrets of life and death, Kaspar made a particularly risky experiment that went wrong... and brought him to the realm of the dead. Though he now leads an undead army, his knowledge of anatomy and the treating of wounds remains unparalleled.",
+			"specialty" : {
+				"description" : "Casts Poison at the start of battle.",
+				"tooltip" : "Battle Bonus: Poisoner",
+				"name" : "Poisoner"
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/necropolis/kaspar/portraitSmall.png",
+			"large" : "heroes/necropolis/kaspar/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Poison.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Poison.png"
+		},
+
+		"skills" : [
+			{ "skill" : "necromancy", "level": "basic" },
+			{ "skill" : "earthMagic", "level": "basic" }
+		],
+    
+		"specialty" : {
+			"bonuses" : {
+				"poisonStart" : {
+					"subtype" : "spell.poison",
+					"type" : "OPENING_BATTLE_SPELL",
+					"val" : 6,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+	
+		"army" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "wight",
+				"min" : 4, "max" : 6
+			}
+		]
+	}
+}

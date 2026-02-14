@@ -1,0 +1,25 @@
+{
+	"core:artillery" : {
+		"basic" : {
+			"description" : "{Basic Artillery}\n\nBasic Artillery gives the hero control of the Ballista, Arrow Towers, and the Cannon. The Ballista has a 50% chance to inflict 200% base Damage. The Cannon has an increased chance to hit fortifications. The Ballista and the Cannon cannot be dealt more than 40% of their Health as Damage from any single damage source.",
+			"effects" : {
+				"main" : { "val" : 50 },
+				"val2" : { "val" : 0 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Artillery}\n\nAdvanced Artillery gives the hero control of the Ballista, Arrow Towers, and the Cannon. The Ballista shoots twice and has a 75% chance to inflict 200% base Damage. The Cannon has an increased chance to hit fortifications and inflicts 200% base Damage to creatures. The Ballista and the Cannon cannot be dealt more than 40% of their Health as Damage from any single damage source.",
+			"effects" : {
+				"main" : { "val" : 75 },
+				"val2" : { "val" : 1 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Artillery}\n\nExpert Artillery gives the hero control of the Ballista, Arrow Towers, and the Cannon. The Ballista shoots thrice and has a 100% chance to inflict 200% base Damage. The Cannon precisely hits fortifications at maximum Damage and inflicts 300% base Damage to creatures. The Ballista and the Cannon cannot be dealt more than 40% of their Health as Damage from any single damage source.",
+			"effects" : {
+				"main" : { "val" : 100 },
+				"val2" : { "val" : 2 }
+			}
+		}
+	}
+}

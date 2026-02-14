@@ -1,0 +1,74 @@
+{
+	"lizardAssassinAU": {
+		"name" : {"singular" : "Lizard Assassin", "plural" : "Lizard Assassins"},
+		"faction" : "fortress",
+		"level" : 2,
+		"attack" : 8,
+		"defense" : 6,
+		"shots" : 24,
+		"damage" : {"min" : 3, "max" : 5},
+		"hitPoints" : 15,
+		"speed" : 8,
+		"growth" : 9,
+		"aiValue" : 250,
+		"fightValue" : 210,
+		"cost" : {"gold" : 170},
+		"advMapAmount" : {"min" : 16, "max" : 25},
+		"upgrades" : ["core:lizardWarrior"],
+		"doubleWide" : false,
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"limitedRange" : {
+				"type": "LIMITED_SHOOTING_RANGE",
+				"val" : 10
+			},
+			"teleports" : {
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
+			},
+			"poison" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "poison",
+				"val" : 100,
+				"addInfo" : [1,0],
+				"icon" : "zvs/Lib1.res/poison.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/fortress/battle/lvl2Alt.json",
+			"map" : "creatures/fortress/map/lvl2Alt.json",
+			"mapMask" : ["VVV","VAV"],
+			"iconSmall" : "creatures/fortress/iconsSmall/lvl2Alt.png",
+			"iconLarge" : "creatures/fortress/iconsBig/lvl2Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			},
+			"missile" : {
+				"projectile": "PPLIZAX.DEF",
+				"attackClimaxFrame" : 9,
+				"offset" : {
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" : {
+			"attack": "ALIZATTK.wav",
+			"defend": "ALIZDFND.wav",
+			"killed": "ALIZKILL.wav",
+			"move": "ALIZMOVE.wav",
+			"shoot": "ALIZSHOT.wav",
+			"wince": "ALIZWNCE.wav"
+		}
+	}	
+}

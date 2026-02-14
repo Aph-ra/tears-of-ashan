@@ -1,0 +1,75 @@
+{
+	"spectralDragonAU" : {
+		"name" : {"singular" : "Spectral Dragon", "plural" : "Spectral Dragons"},
+		"faction" : "necropolis",
+		"level" : 7,
+		"attack" : 21,
+		"defense" : 21,
+		"damage" : {"min" : 25, "max" : 50},
+		"hitPoints" : 200,
+		"speed" : 14,
+		"growth" : 1,
+		"aiValue" : 5300,
+		"fightValue" : 3750,
+		"cost" : {"gold" : 3500, "mercury" : 2},
+		"advMapAmount" : {"min" : 3, "max" : 8},
+		"doubleWide" : true,
+		"upgrades" : ["core:ghostDragon"],
+		"abilities" : {
+			"king1" : {
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"undead" : {
+				"type" : "UNDEAD"
+			},
+			"dragon" : {
+				"type" : "DRAGON_NATURE"
+			},
+			"flying" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"decreaseMorale" : {
+				"type" : "MORALE",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : ["OPPOSITE_SIDE"],
+				"val" : -1,
+				"stacking" : "Undead Dragons",
+				"description" : "{Lowers Morale}\nBone Dragons, Ghost Dragons, and Spectral Dragons lower enemy units' Morale by -1",
+				"icon" : "zvs/Lib1.res/bonusnegativemorale.png"
+			},
+			"deathStare" : {
+				"type" : "DEATH_STARE",
+				"subtype" : "deathStareGorgon",
+				"val" : 10
+			},
+			"dragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/necropolis/battle/lvl7Alt",
+			"map" : "creatures/necropolis/map/lvl7Alt",
+			"mapMask" : ["VVV","VAV"],
+			"iconSmall" : "creatures/necropolis/iconsSmall/lvl7Alt",
+			"iconLarge" : "creatures/necropolis/iconsBig/lvl7Alt",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 0.75,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" : {
+			"attack" : "GHDRATTK.wav",
+			"defend" : "GHDRDFND.wav",
+			"killed" : "GHDRKILL.wav",
+			"move" : "GHDRMOVE.wav",
+			"wince" : "GHDRWNCE.wav"
+		}
+	}
+}

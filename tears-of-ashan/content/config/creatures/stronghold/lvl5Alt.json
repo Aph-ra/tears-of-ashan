@@ -1,0 +1,48 @@
+{
+	"shahrokhAU" : {
+		"name" : {"singular" : "Shahrokh", "plural" : "Shahrokhs"},
+		"faction" : "stronghold",
+		"level" : 5,
+		"attack" : 16,
+		"defense" : 10,
+		"damage" : {"min" : 10, "max" : 15},
+		"hitPoints" : 50,
+		"speed" : 10,
+		"growth" : 3,
+		"aiValue" : 1150,
+		"fightValue" : 900,
+		"cost" : {"gold" : 700},
+		"advMapAmount" : {"min" : 8, "max" : 12},
+		"upgrades" : ["core:thunderbird"],
+		"doubleWide" : true,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"doubleAttack" : {
+				"type" : "FEROCITY",
+				"val" : 1
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/stronghold/battle/lvl5Alt.def",
+			"map" : "creatures/stronghold/map/lvl5Alt.def",
+			"iconSmall" : "creatures/stronghold/iconsSmall/lvl5Alt.png",
+			"iconLarge" : "creatures/stronghold/iconsBig/lvl5Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "TBRDATTK.wav",
+			"defend": "TBRDDFND.wav",
+			"killed": "TBRDKILL.wav",
+			"move": "TBRDMOVE.wav",
+			"wince": "TBRDWNCE.wav"
+		}
+	}
+}
