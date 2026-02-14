@@ -9,7 +9,6 @@
 	"changelog" : {
 		"Public Beta 1.2.0"   : [
 			"Added descriptions to submods",
-			"Moved mod folders to zip files to drastically improve download and install times",
 			"Diamond Dragon Health 200 → 225",
 			"Fangarms Neutral → Cove",
 			"Changed Sanctus' portrait to that of the H6/H7 Gold Dragon",

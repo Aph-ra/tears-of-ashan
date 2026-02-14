@@ -91,6 +91,7 @@
 		]
 	},
 	"core:lordHaart" : {
+		"special" : false,
 		"army#override" : [
 			{
 				"creature" : "pikeman",
@@ -197,6 +198,7 @@
 		}
 	},
 	"core:catherine" : {
+		"special" : false,
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Morale of allied creatures by 1.",
@@ -234,6 +236,7 @@
 		}
 	},
 	"core:roland" : {
+		"special" : false,
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases Tactics placement area by 2.",
@@ -292,6 +295,13 @@
 		]
 	},
 	"core:adela" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Damage of units affected by Divine Strength by 10% for every N hero levels, where N is the level of the target creature.",
+				"name" : "Divine Strength",
+				"tooltip" : "Spell Bonus: Divine Strength"
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "pikeman",
@@ -1376,6 +1386,7 @@
 		]
 	},
 	"core:xeron" : {
+		"special" : false,
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of allied Devils, Arch Devils, and Arch Demons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
@@ -1725,6 +1736,7 @@
 		]
 	},
 	"core:undeadHaart" : {
+		"special" : false,
 		"texts" : {
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Estates skill.",
@@ -2100,46 +2112,18 @@
 		]
 	},
 	"core:mutare" : {
+		"special" : false,
 		"texts" : {
 			"specialty" : {
-				"name" : "Dragons",
-				"tooltip" : "Creature Bonus: Dragons",
-				"description" : "Increases the Speed of allied Dragons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."				
+				"name" : "Red Dragons",
+				"tooltip" : "Creature Bonus: Red Dragons",
+				"description" : "Increases the Speed of allied Red Dragons, Black Dragons, and Shadow Dragons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."				
 			}
 		},
 		"specialty#override" : {
-			"base" : {
-				"limiters" : [ {
-					"parameters" : [ "DRAGON_NATURE" ],
-					"type" : "HAS_ANOTHER_BONUS_LIMITER"
-				} ]
-			},
-			"bonuses" : {
-				"attackBonus" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack",
-					"val" : 1,
-					"updater" : {
-						"type" : "GROWS_WITH_LEVEL",
-						"valPer20" : 28,
-						"stepSize" : 7
-					}
-				},
-				"defenceBonus" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence",
-					"val" : 1,
-					"updater" : {
-						"type" : "GROWS_WITH_LEVEL",
-						"valPer20" : 28,
-						"stepSize" : 7
-					}
-				},
-				"speedBonus" : {
-					"type" : "STACKS_SPEED",
-					"val" : 1
-				}
-			}
+			"creature" : "redDragon",
+			"creatureLevel" : 7,
+			"stepSize" : 20
 		},
 		"army#override" : [
 			{
@@ -2157,9 +2141,10 @@
 		]
 	},
 	"core:mutareDrake" : {
+		"spellbook": [ "dragonStrength" ],
 		"texts" : {
 			"specialty" : {
-				"name" : "Dragons",
+				"name" : "Dragon Master",
 				"tooltip" : "Creature Bonus: Dragons",
 				"description" : "Increases the Speed of allied Dragons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."				
 			}
@@ -2211,7 +2196,17 @@
 				"creature" : "beholder",
 				"min" : 3, "max" : 5
 			}
-		]
+		],
+		"skills#override": [
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "tactics", "level": "basic" }
+		],
+		"images" : {
+			"small" : "HPS008SH.PCX",
+			"large" : "HPL008SH.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Dragons.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Dragons.png"
+		}
 	},
 	"core:alamar" : {
 		"texts" : {
@@ -2567,6 +2562,7 @@
 		}
 	},
 	"core:boragus" : {
+		"special" : false,
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases Tactics placement area by 2.",
@@ -2605,6 +2601,7 @@
 		}
 	},
 	"core:kilgor" : {
+		"special" : false,
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of allied Behemoths, Ancient Behemoths, and Ghost Behemoths by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
@@ -3134,6 +3131,7 @@
 		]
 	},
 	"core:adrienne" : {
+		"special" : false,
 		"texts" : {
 			"specialty" : {
 				"name" : "Fire Magic",
@@ -3146,7 +3144,8 @@
 				"fireMagicDamage" : {
 					"type" : "SPELL_DAMAGE",
 					"subtype" : "fire",
-					"val" : 50
+					"val" : 50,
+					"valueType" : "BASE_NUMBER"
 				}
 			}
 		},
@@ -3569,7 +3568,7 @@
 	"hota.cove:03illor" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Stormbirds and Ayssids by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+				"description" : "Increases the Speed of allied Stormbirds, Ayssids, and Halcyons by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
 				"name" : "Stormbirds",
 				"tooltip" : "Creature Bonus: Stormbirds"
 			}
@@ -3597,7 +3596,7 @@
 	"hota.cove:05derek" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Crew Mates and Seamen by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+				"description" : "Increases the Speed of allied Crew Mates, Seamen, and Swashbucklers by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
 				"name" : "Crew Mates",
 				"tooltip" : "Creature Bonus: Crew Mates"
 			}
@@ -3625,7 +3624,7 @@
 	"hota.cove:08cassiopeia" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Nymphs and Oceanids by 1 and their Attack and Defense skills by 10% for every level (rounded up).",
+				"description" : "Increases the Speed of allied Nymphs, Oceanids, and Nereids by 1 and their Attack and Defense skills by 10% for every level (rounded up).",
 				"name" : "Nymphs",
 				"tooltip" : "Creature Bonus: Nymphs"
 			}
@@ -3637,9 +3636,10 @@
 		}
 	},
 	"hota.cove:11tark" : {
+		"special" : false,
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Nix and Nix Warriors by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+				"description" : "Increases the Speed of allied Nix, Nix Warriors, and Nix Retiarii by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
 				"name" : "Nix",
 				"tooltip" : "Creature Bonus: Nix"
 			}
@@ -3667,7 +3667,7 @@
 	"hota.cove:12casmetra" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Sea Witches and Sorceresses by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+				"description" : "Increases the Speed of allied Sea Witches, Sorceresses, and Tidecallers by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
 				"name" : "Sea Witches",
 				"tooltip" : "Creature Bonus: Sea Witches"
 			}
@@ -3829,6 +3829,55 @@
 			},
 			{
 				"creature" : "sandworm",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+//BULWARK
+	"hota.bulwark:05creyle" : {
+		"army#override" : [
+			{
+				"creature" : "kobold",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "mountainRam",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "mammoth",
+				"min" : 1, "max" : 1
+			}
+		]
+	},
+	"hota.bulwark:06spadum" : {
+		"army#override" : [
+			{
+				"creature" : "kobold",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "yeti",
+				"min" : 2, "max" : 3
+			},
+			{
+				"creature" : "yeti",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+	"hota.bulwark:09kriv" : {
+		"army#override" : [
+			{
+				"creature" : "kobold",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "mountainRam",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "shaman",
 				"min" : 2, "max" : 3
 			}
 		]

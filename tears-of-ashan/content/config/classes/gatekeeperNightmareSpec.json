@@ -7,8 +7,8 @@
 		"commander" : "magog",
 		"animation" : {
 			"battle" : {
-				"female" : "classes/inquisitor/FemaleCombat.def",
-				"male"   : "classes/inquisitor/MaleCombat.def"
+				"female" : "classes/gatekeeper/FemaleCombat.def",
+				"male"   : "classes/gatekeeper/MaleCombat.def"
 			}
 		},
 		"mapObject" : {
@@ -18,12 +18,12 @@
 			},
 			"templates" : {
 				"female" : {
-					"animation" : "classes/inquisitor/FemaleMap.def"
-					//"editorAnimation": "inquisitor/FemaleEditor.def"
+					"animation" : "classes/gatekeeper/FemaleMap.def",
+					"editorAnimation": "classes/gatekeeper/FemaleEditor.def"
 				},
 				"male" : {
-					"animation" : "classes/inquisitor/MaleMap.def"
-					//"editorAnimation": "inquisitor/MaleEditor.def"
+					"animation" : "classes/gatekeeper/MaleMap.def",
+					"editorAnimation": "classes/gatekeeper/MaleEditor.def"
 				}
 			}
 		},		

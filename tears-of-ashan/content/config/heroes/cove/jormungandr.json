@@ -10,7 +10,7 @@
 			"specialty" : {
 				"name" : "Sea Serpents",
 				"tooltip" : "Creature Bonus: Sea Serpents",
-				"description" : "Increases the Speed of allied Sea Serpents and Haspids by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+				"description" : "Increases the Speed of allied Sea Serpents, Haspids, and Deep Serpents by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
 			}
 		},
 
@@ -23,7 +23,7 @@
 
 		"skills": [
 			{ "skill" : "offence", "level": "basic" },
-			{ "skill" : "waterMagic", "level": "basic" }
+			{ "skill" : "leadership", "level": "basic" }
 		],
 		
 		"specialty" : {

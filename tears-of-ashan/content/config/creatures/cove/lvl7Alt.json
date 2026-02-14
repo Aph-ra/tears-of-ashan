@@ -1,0 +1,73 @@
+{
+	"deepSerpentAU": {
+		"name" : {"singular" : "Deep Serpent", "plural" : "Deep Serpents"},
+		"faction" : "cove",
+		"level" : 7,
+		"attack" : 25,
+		"defense" : 25,
+		"damage" : {"min" : 30, "max" : 55},
+		"hitPoints" : 250,
+		"speed" : 14,
+		"growth" : 1,
+		"aiValue" : 7300,
+		"fightValue" : 5600,
+		"cost" : {"gold" : 4000, "sulfur" : 2},
+		"advMapAmount" : {"min" : 3, "max" : 8},
+		"upgrades" : ["haspid"],
+		"doubleWide" : true,
+		"abilities": {
+			"poisonous" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"val" : 30,
+				"addInfo" : [0, 2],
+				"icon" : "zvs/Lib1.res/poison",
+				"description" : "{Cast After Attack}\nHas a 30% chance to cast Poison after attacking",
+			},
+			"cursing" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.curse",
+				"val" : 30,
+				"addInfo" : [0, 2],
+				"icon" : "zvs/Lib1.res/spellsSOD/curse2",
+				"description" : "{Cast After Attack}\nHas a 30% chance to cast Advanced Curse after attacking",
+			},
+			"slowing" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.slow",
+				"val" : 30,
+				"addInfo" : [0, 2],
+				"icon" : "zvs/Lib1.res/spellsSOD/slow2",
+				"description" : "{Cast After Attack}\nHas a 30% chance to cast Advanced Slow after attacking",
+			},
+			"KING_1" : {
+				"type" : "KING",
+				"val" : 0
+			},
+			"dragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/cove/battle/lvl7Alt.def",
+			"map" : "creatures/cove/map/lvl7Alt.def",
+			"mapMask" : ["VVV","VAV"],
+			"iconSmall" : "creatures/cove/iconsSmall/lvl7Alt.png",
+			"iconLarge" : "creatures/cove/iconsBig/lvl7Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack" : "hota/cove/creatures/seaserpent/ASPIATTK.wav",
+			"defend" : "hota/cove/creatures/seaserpent/ASPIDFND.wav",
+			"killed" : "hota/cove/creatures/seaserpent/ASPIKILL.wav",
+			"move" : "hota/cove/creatures/seaserpent/ASPIMOVE.wav",
+			"wince" : "hota/cove/creatures/seaserpent/ASPIWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,171 @@
+{
+	"hota.cove:crewmate": {
+		"abilities" : {
+			"generateGold" : {
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "gold",
+				"val" : 5,
+				"propagator" : "HERO",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"stepSize" : 1,
+					"filteredCreature" : "hota.cove:crewmate"
+				},
+				"stacking" : "base",
+				"icon" : "zvs/Lib1.res/gold.png",
+				"description" : "{Generates Gold}\nCrew Mates produce 5 Gold per unit per day while in a hero's army"
+			}
+		}
+	},
+	
+	"hota.cove:seaman": {
+		"hitPoints" : 18,
+		"abilities" : {
+			"generateGold" : {
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "gold",
+				"val" : 7,
+				"propagator" : "HERO",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"stepSize" : 1,
+					"filteredCreature" : "hota.cove:seaman"
+				},
+				"stacking" : "base",
+				"icon" : "zvs/Lib1.res/gold2.png",
+				"description" : "{Generates Gold}\nSeamen produce 7 Gold per unit per day while in a hero's army"
+			}
+		}
+	},
+	
+	"hota.cove:pirate": {
+		"abilities" : {
+			"navigationBonus" : {
+				"subtype" : "heroMovementSea",
+				"type" : "MOVEMENT",
+				"val" : 300,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [ {
+						"type" : "CREATURE_TERRAIN_LIMITER",
+						"terrain" : "water"
+					}
+				],
+				"propagator" : "HERO",
+				"description" : "{Novice Navigator}\nGrants a bonus of 300 extra movement points at sea",
+				"icon" : "zvs/Lib1.res/terrainbonuswater0.png"
+			}
+		}
+	},
+	
+	"hota.cove:corsair": {
+		"abilities" : {
+			"navigationBonus" : {
+				"subtype" : "heroMovementSea",
+				"type" : "MOVEMENT",
+				"val" : 600,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [ {
+						"type" : "CREATURE_TERRAIN_LIMITER",
+						"terrain" : "water"
+					}
+				],
+				"propagator" : "HERO",
+				"description" : "{Proficient Navigator}\nGrants a bonus of 600 extra movement points at sea",
+				"icon" : "zvs/Lib1.res/terrainbonuswater0.png"
+			}
+		}
+	},
+	
+	"hota.cove:seadog": {
+		"abilities" : {
+			"navigationBonus" : {
+				"subtype" : "heroMovementSea",
+				"type" : "MOVEMENT",
+				"val" : 900,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [ {
+						"type" : "CREATURE_TERRAIN_LIMITER",
+						"terrain" : "water"
+					}
+				],
+				"propagator" : "HERO",
+				"description" : "{Seasoned Navigator}\nGrants a bonus of 900 extra movement points at sea",
+				"icon" : "zvs/Lib1.res/terrainbonuswater0.png"
+			}
+		}
+	},
+	
+	"hota.cove:ayssid": {
+		"attack" : 12,
+		"damage" : {"min" : 6, "max" : 12},
+		"aiValue" : 700,
+		"fightValue" : 500,
+		"cost" : {"gold" : 350}
+	},
+	
+	"hota.cove:seaWitch": {
+		"abilities#override" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"castsWeakness" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.weakness",
+				"val" : 100,
+				"addInfo" : [1, 0, 0],
+				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Weakness after attacking",
+				"icon" : "zvs/Lib1.res/spellsSOD/weakness1"
+			},
+			"castsDisruptingRay" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disruptingRay",
+				"val" : 100,
+				"addInfo" : [1, 0, 1],
+				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Disrupting Ray after attacking",
+				"icon" : "zvs/Lib1.res/spellsSOD/disruptingray1"
+			}
+		}
+	},
+	
+	"hota.cove:sorceress": {
+		"defense" : 10,
+		"shots" : 24,
+		"hitPoints" : 45,
+		"aiValue" : 900,
+		"fightValue" : 700,
+		"cost" : {"gold" : 575},
+		"abilities#override" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"castsWeakness" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.weakness",
+				"val" : 100,
+				"addInfo" : [2, 0, 0],
+				"description" : "{Cast After Attack}\nHas a 100% chance to cast Advanced Weakness after attacking",
+				"icon" : "zvs/Lib1.res/spellsSOD/weakness2"
+			},
+			"castsDisruptingRay" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disruptingRay",
+				"val" : 100,
+				"addInfo" : [2, 0, 1],
+				"description" : "{Cast After Attack}\nHas a 100% chance to cast Advanced Disrupting Ray after attacking",
+				"icon" : "zvs/Lib1.res/spellsSOD/disruptingray2"
+			}
+		}
+	},
+	
+	"hota.cove:nixWarrior": {
+		"defense" : 18,
+		"aiValue" : 2150,
+		"fightValue" : 1775
+	},
+	
+	"hota.cove:haspid": {
+		"attack" : 30,
+		"aiValue" : 7300,
+		"fightValue" : 5600
+	},
+}

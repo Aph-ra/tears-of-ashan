@@ -1,0 +1,17 @@
+{
+	"core:lordHaart" : {
+		"special" : true
+	},
+	"core:sirMullich" : {
+		"special" : false
+	},
+	"core:gelu" : {
+		"special" : false
+	},
+	"core:dracon" : {
+		"special" : false
+	},
+	"core:mutareDrake" : {
+		"special" : false
+	}
+}
