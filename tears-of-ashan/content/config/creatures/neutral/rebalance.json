@@ -94,16 +94,28 @@
 		"attack" : 25,
 		"defense" : 25,
 		"damage" : {"min" : 30, "max" : 50},
-		"cost" : {"gold" : 10000, "gems" : 10}
+		"cost" : {"gold" : 10000, "gems" : 10},
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/faerieDragon"
+		}
 	},
 	"core:crystalDragon": {
-		"faction" : "tower"
+		"faction" : "tower",
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/crystalDragon"
+		}
 	},
 	"core:rustDragon": {
 		"faction" : "dungeon",
-		"cost" : {"gold" : 15000, "sulfur" : 10}
+		"cost" : {"gold" : 15000, "sulfur" : 10},
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/rustDragon"
+		}
 	},
 	"core:azureDragon": {
-		"faction" : "bulwark"
+		"faction" : "bulwark",
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/azureDragon"
+		}
 	}
 }
