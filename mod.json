@@ -4,7 +4,7 @@
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
 	"version" : "Public Beta 1.2.0",
 	"modType" : "Expansion",
-	"compatibility" : {"min" : "1.8.0"},
+	"compatibility" : {"min" : "1.7.2"},
 	
 	"changelog" : {
 		"Public Beta 1.2.0"   : [
