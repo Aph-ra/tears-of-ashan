@@ -1,0 +1,73 @@
+{
+	"plasmaElementalAU" : {
+		"name" : {"singular" : "Plasma Elemental", "plural" : "Plasma Elementals"},
+		"faction" : "conflux",
+		"level" : 4,
+		"attack" : 12,
+		"defense" : 12,
+		"damage" : {"min" : 6, "max" : 12},
+		"hitPoints" : 35,
+		"speed" : 9,
+		"growth" : 5,
+		"aiValue" : 900,
+		"fightValue" : 750,
+		"cost" : {"gold" : 425},
+		"advMapAmount" : {"min" : 10, "max" : 16},
+		"upgrades" : ["core:energyElemental"],
+		"doubleWide" : false,
+		"abilities" : {
+			"energizes" : {
+				"type" : "FLYING"
+			},
+			"nonLiving" : {
+				"type" : "NON_LIVING"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"immuneToFire" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.fire"
+			},
+			"fireBuff" : {
+				"type" : "RECEPTIVE"
+			},
+			"iceBoltVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.iceBolt",
+				"val" : 50,
+				"hidden" : true
+			},
+			"frostRingVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.frostRing",
+				"val" : 50,
+				"description" : "{Vulnerable to Water}\nTakes 50% more Damage from Water Magic spells",
+				"icon" : "zvs/Lib1.res/vulnerabilitywater.png"
+			},
+			"fireShield" : {
+				"type" : "FIRE_SHIELD",
+				"val" : 25
+			}	
+		},
+		"graphics" : {
+			"animation" : "creatures/conflux/battle/lvl4Alt.def",
+			"map" : "creatures/conflux/map/lvl4Alt.def",
+			"iconSmall" : "creatures/conflux/iconsSmall/lvl4Alt.png",
+			"iconLarge" : "creatures/conflux/iconsBig/lvl4Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "FELMATTK.wav",
+			"defend": "FELMDFND.wav",
+			"killed": "FELMKILL.wav",
+			"move": "FELMMOVE.wav",
+			"wince": "FELMWNCE.wav"
+		}
+	}
+}	

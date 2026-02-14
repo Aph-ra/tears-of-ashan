@@ -1,0 +1,48 @@
+{
+	"hellSteedAU" : {
+		"name" : {"singular" : "Hell Steed", "plural" : "Hell Steeds"},
+		"faction": "inferno",
+		"level": 6,
+		"attack" : 15,
+		"defense" : 15,
+		"damage" : {"min" : 18, "max" : 22},
+		"hitPoints" : 100,
+		"speed" : 7,
+		"growth" : 2,
+		"aiValue" : 1800,
+		"fightValue" : 1500,
+		"cost" : {"gold" : 1100},
+		"advMapAmount" : {"min" : 5, "max" : 12},
+		"upgrades": ["nightmareAU", "hellStallionAU"],
+		"doubleWide" : true,
+		"abilities": {
+			"magicResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 50
+			},
+			"fireBreath" : {
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/inferno/battle/lvl6AltBase.def",
+			"map" : "creatures/inferno/map/lvl6AltBase.def",
+			"iconSmall" : "creatures/inferno/iconsSmall/lvl6AltBase.png",
+			"iconLarge" : "creatures/inferno/iconsBig/lvl6AltBase.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.20,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "BGORATTK.wav",
+			"defend": "BGORDFND.wav",
+			"killed": "BGORKILL.wav",
+			"move": "BGORMOVE.wav",
+			"wince": "BGORWNCE.wav"
+		}
+	}
+}

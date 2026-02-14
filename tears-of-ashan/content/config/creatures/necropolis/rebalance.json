@@ -1,0 +1,101 @@
+{
+	"core:zombieLord": {
+		"name" : {"singular" : "Plague Zombie", "plural" : "Plague Zombies"},
+		"attack" : 6,
+		"defense" : 6,
+		"aiValue" : 160,
+		"abilities#override": {
+			"undead" : {
+				"type" : "UNDEAD"
+			},
+			"castDisease" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"val" : 40,
+				"description" : "{Cast After Attack}\nHas a 40% chance to cast Disease after attacking (3 Power)",
+				"icon" : "zvs/Lib1.res/diseaseattack.png"
+			}
+		}
+	},
+	"core:wight": {
+		"hitPoints" : 15,
+		"abilities" : {
+			"drainsMana" : {
+				"type" : "MANA_DRAIN",
+				"val" : 2
+			}
+		}
+	},
+	"core:wraith": {
+		"attack" : 8,
+		"defense" : 8,
+		"aiValue" : 400,
+		"fightValue" : 350,
+		"cost" : {"gold" : 300},
+		"abilities" : {
+			"drainsLife" : {
+				"type" : "LIFE_DRAIN",
+				"val" : 50
+			}
+		}
+	},
+	"core:vampire": {
+		"defense" : 8,
+		"aiValue" : 625,
+		"fightValue" : 550,
+		"cost" : {"gold" : 400},
+		"abilities#override" : {
+			"undead" : {
+				"type" : "UNDEAD"
+			},
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"drainsLife" : {
+				"type" : "LIFE_DRAIN",
+				"val" : 50
+			}
+		}
+	},
+	"core:vampireLord": {
+		"attack" : 12,
+		"defense" : 8
+	},
+	"core:powerLich": {
+		"damage" : {"min" : 13, "max" : 15},
+		"aiValue" : 1100,
+		"fightValue" : 900,
+	},
+	"core:boneDragon": {
+		"attack" : 18,
+		"defense" : 16,
+		"aiValue" : 3450,
+		"fightValue" : 2500,
+		"cost" : {"gold" : 2000},
+		"abilities" : {
+			"decreaseMorale" : {
+				"description" : "{Lowers Morale}\nBone Dragons, Ghost Dragons, and Spectral Dragons lower enemy units' Morale by -1"
+			}
+		}
+	},
+	"core:ghostDragon": {
+		"attack" : 24,
+		"defense" : 18,
+		"aiValue" : 5300,
+		"fightValue" : 3750,
+		"cost" : {"gold" : 3500, "mercury" : 2},
+		"abilities" : {
+			"castSorrow" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "sorrow",
+				"val" : 50,
+				"addInfo" : [2,2],
+				"description" : "{Cast After Attack}\nHas a 20% chance to cast Advanced Sorrow after attacking (6 Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/sorrow2.png"
+			},
+			"decreaseMorale" : {
+				"description" : "{Lowers Morale}\nBone Dragons, Ghost Dragons, and Spectral Dragons lower enemy units' Morale by -1"
+			}
+		}
+	}
+}

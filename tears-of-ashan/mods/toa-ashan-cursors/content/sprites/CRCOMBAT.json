@@ -1,0 +1,105 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "Crcom006.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "Crcom009.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "Crcom012.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "Crcom023.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "Crcom028.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "Crcom003.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "Crcom000.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "Crcom016.png"
+        },
+        {
+            "group": 0,
+            "frame": 8,
+            "file": "Crcom017.png"
+        },
+        {
+            "group": 0,
+            "frame": 9,
+            "file": "Crcom018.png"
+        },
+        {
+            "group": 0,
+            "frame": 10,
+            "file": "Crcom020.png"
+        },
+        {
+            "group": 0,
+            "frame": 11,
+            "file": "Crcom021.png"
+        },
+        {
+            "group": 0,
+            "frame": 12,
+            "file": "Crcom022.png"
+        },
+        {
+            "group": 0,
+            "frame": 13,
+            "file": "Crcom015.png"
+        },
+        {
+            "group": 0,
+            "frame": 14,
+            "file": "Crcom019.png"
+        },
+        {
+            "group": 0,
+            "frame": 15,
+            "file": "Crcom026.png"
+        },
+        {
+            "group": 0,
+            "frame": 16,
+            "file": "Crcom034.png"
+        },
+        {
+            "group": 0,
+            "frame": 17,
+            "file": "Crcom031.png"
+        },
+        {
+            "group": 0,
+            "frame": 18,
+            "file": "Crcom032.png"
+        },
+        {
+            "group": 0,
+            "frame": 19,
+            "file": "Crcom033.png"
+        }
+    ],
+    "basepath": "CRCOMBAT/"
+}

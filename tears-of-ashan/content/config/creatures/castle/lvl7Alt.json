@@ -1,0 +1,89 @@
+{
+	"seraphAU": {
+		"name" : {"singular" : "Seraph", "plural" : "Seraphim"},
+		"faction" : "castle",
+		"level" : 7,
+		"attack" : 25,
+		"defense" : 25,
+		"damage" : {"min" : 50, "max" : 50},
+		"hitPoints" : 300,
+		"speed" : 18,
+		"growth" : 1,
+		"aiValue" : 8776,
+		"fightValue" : 6033,
+		"cost" : {"gold" : 5000, "gems" : 3},
+		"advMapAmount" : {"min" : 3, "max" : 8},
+		"upgrades" : ["core:archangel"],
+		"doubleWide" : true,
+		"abilities": {
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"castPrayer" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "prayer",
+				"val" : 3,
+				"description" : "{Spellcaster}\nCan cast Expert Prayer (100% Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/prayer3.png"
+			},
+			"prayerPower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 1
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"raisesMorale" : {
+				"type" : "MORALE",
+				"val" : 1,
+				"propagator" : "HERO",
+				"stacking" : "Angels",
+				"description" : "{Raises Morale}\nAngels, Archangels, and Seraphim raise allied units' Morale by +1",
+				"icon" : "zvs/Lib1.res/bonusmoraleangel"
+			},
+			"KING_2" : {
+				"type" : "KING",
+				"val" : 2
+			},
+			"hateDevils" : {
+				"type" : "HATE",
+				"subtype" : "creature.devil",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateArchDevils" : {
+				"type" : "HATE",
+				"subtype" : "creature.archDevil",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateArchDemons" : {
+				"type" : "HATE",
+				"subtype" : "archDemonAU",
+				"val" : 50,
+				"description" : "{Hates Devils}\nDoes 50% more Damage to Devils, Arch Devils, and Arch Demons",
+				"icon" : "zvs/Lib1.res/hatearchangels.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/castle/battle/lvl7Alt.def",
+			"map" : "creatures/castle/map/lvl7Alt.def",
+			"iconSmall" : "creatures/castle/iconsSmall/lvl7Alt.png",
+			"iconLarge" : "creatures/castle/iconsBig/lvl7Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack" : "AAGLATTK.wav",
+			"defend" : "AAGLDFND.wav",
+			"killed" : "AAGLKILL.wav",
+			"move" : "AAGLMOVE.wav",
+			"wince" : "AAGLWNCE.wav"
+		}
+	}
+}

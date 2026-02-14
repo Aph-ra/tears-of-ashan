@@ -1,0 +1,70 @@
+{
+	"basiliskFlamespitterAU": {
+		"name" : {"singular" : "Basilisk Flamespitter", "plural" : "Basilisk Flamespitters"},
+		"faction" : "fortress",
+		"level" : 4,
+		"attack" : 14,
+		"defense" : 10,
+		"damage" : {"min" : 6, "max" : 10},
+		"growth" : 4,
+		"hitPoints" : 40,
+		"speed" : 7,
+		"aiValue" : 750,
+		"fightValue" : 580,
+		"cost" :{"gold" : 400},
+		"advMapAmount" : {"min" : 10, "max" : 16},
+		"upgrades" : ["core:greaterBasilisk"],
+		"doubleWide" : true,
+		"abilities" : {
+			"petrify" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "stoneGaze",
+				"val" : 20,
+				"addInfo" : [0, 2],
+				"icon" : "zvs/Lib1.res/basiliskpetrify2.png"
+			},
+			"breathAttack" : {
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 50
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/fortress/battle/lvl4Alt.json",
+			"map" : "creatures/fortress/map/lvl4Alt.json",
+			"mapMask" : ["VVV","VAV"],
+			"iconSmall" : "creatures/fortress/iconsSmall/lvl4Alt.png",
+			"iconLarge" : "creatures/fortress/iconsBig/lvl4Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			},
+			"missile" : {
+				"projectile": "CPRGOGX.DEF",
+				"attackClimaxFrame" : 5,
+				"offset" : {
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" : {
+			"attack": "GBASATTK.wav",
+			"defend": "GBASDFND.wav",
+			"killed": "GBASKILL.wav",
+			"move": "GBASMOVE.wav",
+			"shoot": "SPONTCOMB.wav",
+			"wince": "GBASWNCE.wav"
+		}
+	}
+}	

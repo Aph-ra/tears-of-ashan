@@ -1,0 +1,101 @@
+{
+	"core:castle" : {
+		"town" : {
+			"hallBackground": "TPTHBKCS",
+			"buildingsIcons": "town-screen/castle/HALLCSTL",
+			
+			"creatures" : [
+				["pikeman", "halberdier", "glaivierAU"],
+				["archer", "marksman", "crossbowmanAU"],
+				["griffin", "royalGriffin","battleGriffinAU"],
+				["swordsman", "crusader", "guardsmanAU"],
+				["monk", "zealot", "priestAU"],
+				["cavalier", "champion", "justiciarAU"],
+				["angel", "archangel", "seraphAU"]
+			],
+
+			"structures" : {
+				"horde1Upgr2":		{ "animation" : "town-screen/cyan", "x" : 76,  "y" : 1, "z" : -1, "border" : "TOCSGR2H.PCX", "area" : "town-screen/cyan", "hidden" : true, "builds" : "horde1Upgr" },
+				"dwellingUp2Lvl1": 	{ "animation" : "town-screen/cyan", "x" : 304, "y" : 65, "border" : "TOCSPIK2.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl2": 	{ "animation" : "town-screen/cyan", "x" : 360, "y" : 115, "border" : "TOCSCRS2.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl3": 	{ "animation" : "town-screen/cyan", "x" : 76, "y" : 35, "border" : "TOCSGR2N.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl4": 	{ "animation" : "town-screen/cyan", "x" : 176, "y" : 85, "border" : "TOCSSWD2.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl5": 	{ "animation" : "town-screen/cyan", "x" : 563, "y" : 173, "z" : 1, "border" : "TOCSMON2.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl6": 	{ "animation" : "town-screen/cyan", "x" : 160, "y" : 190, "z" : -1, "border" : "TOCSCAV2.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl7": 	{ "animation" : "town-screen/cyan", "x" : 303, "y" : 0, "z" : -1, "border" : "TOCSANG2.PCX", "area" : "town-screen/cyan" }
+			},			
+
+			"buildings" : {
+				"horde1Upgr2" : {
+					"name" : "Griffin Bastion",
+					"description" : "The Griffin Bastion increases Royal Griffin and Battle Griffin production by 3 per week.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["horde1Upgr"] ]
+				},
+				"dwellingUpLvl1" : {
+					"description" : "The Guardhouse allows you to recruit Halberdiers and Glaiviers."
+				},
+				"dwellingUp2Lvl1" : {
+					"name" : "Upg. Guardhouse",
+					"description" : "The Guardhouse allows you to recruit Halberdiers and Glaiviers.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl1"] ]
+				},
+				"dwellingUpLvl2" : {
+					"description" : "The Archers' Tower allows you to recruit Marksmen and Crossbowmen."
+				},
+				"dwellingUp2Lvl2" : {
+					"name" : "Upg. Archers' Tower",
+					"description" : "The Archers' Tower allows you to recruit Marksmen and Crossbowmen.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl2"] ]
+				},
+				"dwellingUpLvl3" : {
+					"description" : "The Griffin Tower allows you to recruit Royal Griffins and Battle Griffins."
+				},
+				"dwellingUp2Lvl3" : {
+					"name" : "Upg. Griffin Tower",
+					"description" : "The Griffin Tower allows you to recruit Royal Griffins and Battle Griffins.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl3"] ]
+				},
+				"dwellingUpLvl4" : {
+					"description" : "The Barracks allow you to recruit Crusaders and Guardsmen."
+				},
+				"dwellingUp2Lvl4" : {
+					"name" : "Upg. Barracks",
+					"description" : "The Barracks allow you to recruit Crusaders and Guardsmen.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl4"] ]
+				},
+				"dwellingUpLvl5" : {
+					"description" : "The Monastery allows you to recruit Zealots and Priests."
+				},
+				"dwellingUp2Lvl5" : {
+					"name" : "Upg. Monastery",
+					"description" : "The Monastery allows you to recruit Zealots and Priests.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl5"] ]
+				},
+				"dwellingUpLvl6" : {
+					"description" : "The Training Grounds allow you to recruit Champions and Justiciars."
+				},
+				"dwellingUp2Lvl6" : {
+					"name" : "Upg. Training Grounds",
+					"description" : "The Training Grounds allow you to recruit Champions and Justiciars.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl6"] ]
+				},
+				"dwellingUpLvl7" : {
+					"description" : "The Portal of Glory allows you to recruit Archangels and Seraphim."
+				},
+				"dwellingUp2Lvl7" : {
+				"name" : "Upg. Portal of Glory",
+					"description" : "The Portal of Glory allows you to recruit Archangels and Seraphim.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl7"] ]
+				}
+			}
+		}
+	}
+}

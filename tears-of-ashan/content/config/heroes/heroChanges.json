@@ -1,0 +1,3836 @@
+{
+//CASTLE
+	"core:orrin" : {
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:valeska" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Archers, Marksmen, and Crossbowmen by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+				"name" : "Archers",
+				"tooltip" : "Creature Bonus: Archers"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "archer",
+			"creatureLevel" : 2,
+			"stepSize" : 20
+		}
+	},
+	"core:edric" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Griffins, Royal Griffins, and Battle Griffins by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+				"name" : "Griffins",
+				"tooltip" : "Creature Bonus: Griffins"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "griffin",
+			"creatureLevel" : 3,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:sylvia" : {
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"hota.heroes:beatrice" : {
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:lordHaart" : {
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:sorsha" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Swordsmen, Crusaders, and Guardsmen by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+				"name" : "Swordsmen",
+				"tooltip" : "Creature Bonus: Swordsmen"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "swordsman",
+			"creatureLevel" : 4,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "swordsman",
+				"min" : 2, "max" : 3
+			},
+			{
+				"creature" : "swordsman",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+	"core:christian" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Ballista's Attack and Defense skills by 30% for every 5 levels (rounded up).",
+				"name" : "Ballista",
+				"tooltip" : "Creature Bonus: Ballista"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "ballista",
+			"creatureLevel" : 5,
+			"stepSize" : 30
+		},
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "ballista",
+				"min" : 1, "max" : 1
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:tyris" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Cavaliers, Champions, and Justiciars by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+				"name" : "Cavaliers",
+				"tooltip" : "Creature Bonus: Cavaliers"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "cavalier",
+			"creatureLevel" : 6,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "cavalier",
+				"min" : 1, "max" : 1
+			}
+		],
+		"images" : {
+			"small" : "HPS007KN.PCX",
+			"large" : "HPL007KN.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Cavaliers (Alternate).png",
+			"specialtyLarge" : "heroes/specialtyLarge/Cavaliers (Alternate).png"
+		}
+	},
+	"core:catherine" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Morale of allied creatures by 1.",
+				"name" : "Leadership",
+				"tooltip" : "Creature Bonus: Leadership"
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"morale" : {
+					"type" : "MORALE",
+					"val" : 1
+				}
+			}
+		},
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		],
+		"images" : {
+			"small" : "heroes/castle/catherine/portraitSmall.png",
+			"large" : "heroes/castle/catherine/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Expert Leadership.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Expert Leadership.png"
+		}
+	},
+	"core:roland" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases Tactics placement area by 2.",
+				"name" : "Tactics",
+				"tooltip" : "Secondary Skill Bonus: Tactics"
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"tactics" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "BEFORE_BATTLE_REPOSITION",
+					"val" : 2
+				}
+			}
+		},
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		],
+		"skills#override": [
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "tactics", "level": "basic" }
+		],
+		"images" : {
+			"small" : "HPS009SH.PCX",
+			"large" : "HPL009SH.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Expert Tactics.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Expert Tactics.png"
+		}
+	},
+	"core:sirMullich" : {
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:adela" : {
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:cuthbert" : {
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:adelaide" : {
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:ingham" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Monks, Zealots, and Priests by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+				"name" : "Monks",
+				"tooltip" : "Creature Bonus: Monks"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "monk",
+			"creatureLevel" : 5,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "monk",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+	"core:sanya" : {
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:loynis" : {
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:caitlin" : {
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:rion" : {
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+//RAMPART
+	"core:mephala" : {
+		"army#override" : [
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:ufretin" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Dwarves, Battle Dwarves, and Dwarf Battleragers by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+				"name" : "Dwarves",
+				"tooltip" : "Creature Bonus: Dwarves"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "dwarf",
+			"creatureLevel" : 2,
+			"stepSize" : 20
+		}
+	},
+	"core:jenova" : {
+		"army#override" : [
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:ryland" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Dendroid Guards, Dendroid Soldiers, and Dendroid Shamans by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+				"name" : "Dendroids",
+				"tooltip" : "Creature Bonus: Dendroids"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "dendroidGuard",
+			"creatureLevel" : 2,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "dendroidGuard",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+	"core:thorgrim" : {
+		"army#override" : [
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"hota.interference:giselle" : {
+		"army#override" : [
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:ivor" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Wood Elves, Grand Elves, and Elf Wardancers by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+				"name" : "Elves",
+				"tooltip" : "Creature Bonus: Elves"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "woodElf",
+			"creatureLevel" : 3,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3, "max" : 5
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:clancy" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Unicorns, War Unicorns, and Pristine Unicorns by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+				"name" : "Unicorns",
+				"tooltip" : "Creature Bonus: Unicorns"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "unicorn",
+			"creatureLevel" : 6,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "unicorn",
+				"min" : 1, "max" : 1
+			}
+		]
+	},
+	"core:kyrre" : {
+		"army#override" : [
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:gelu" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Sharpshooters by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up). Can upgrade all Archers and Elves to Sharpshooters.",
+				"name" : "Sharpshooters",
+				"tooltip" : "Creature Bonus: Sharpshooters"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "sharpshooter",
+			"creatureLevel" : 4,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24
+			},
+			{
+				"creature" : "sharpshooter",
+				"min" : 2, "max" : 3
+			},
+			{
+				"creature" : "sharpshooter",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+	"core:coronius" : {
+		"army#override" : [
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:uland" : {
+		"army#override" : [
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:elleshar" : {
+		"army#override" : [
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:gem" : {
+		"army#override" : [
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:malcom" : {
+		"army#override" : [
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:melodia" : {
+		"army#override" : [
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:alagar" : {
+		"army#override" : [
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:aeris" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Pegasi, Silver Pegasi, and Gold Pegasi by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+				"name" : "Pegasi",
+				"tooltip" : "Creature Bonus: Pegasi"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "pegasus",
+			"creatureLevel" : 4,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24
+			},
+			{
+				"creature" : "pegasus",
+				"min" : 2, "max" : 3
+			},
+			{
+				"creature" : "pegasus",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+//TOWER
+	"core:piquedram" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Stone Gargoyles, Obsidian Gargoyles, and Elemental Gargoyles by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+				"name" : "Gargoyles",
+				"tooltip" : "Creature Bonus: Gargoyles"
+			}
+		},
+		"army#override" : [
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5, "max" : 7
+			}
+		]
+	},
+	"core:thane" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the maximum learning level of spells taught and learned by Scholar by 1 per level of Scholar.",
+				"tooltip" : "Secondary Skill Bonus: Scholar",
+				"name" : "Scholar"
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"scholar" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "LEARN_MEETING_SPELL_LIMIT",
+					"val" : 1
+				}
+			}
+		},
+		"army#override" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30, "max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4, "max" : 5
+			}
+		],
+		"images" : {
+			"small" : "HPS033AL.PCX",
+			"large" : "HPL033AL.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Expert Scholar.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Expert Scholar.png"
+		}
+	},
+	"core:josephine" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Stone Golems, Iron Golems, and Magnetic Golems by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+				"name" : "Golems",
+				"tooltip" : "Creature Bonus: Golems"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "ironGolem",
+			"creatureLevel" : 3,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30, "max" : 40
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4, "max" : 5
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:neela" : {
+		"army#override" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30, "max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:torosar" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Ballista's Attack and Defense skills by 30% for every 5 levels (rounded up).",
+				"name" : "Ballista",
+				"tooltip" : "Creature Bonus: Ballista"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "ballista",
+			"creatureLevel" : 5,
+			"stepSize" : 30
+		},
+		"army#override" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30, "max" : 40
+			},
+			{
+				"creature" : "ballista",
+				"min" : 1, "max" : 1
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4, "max" : 5
+			}
+		],
+		"skills#override": [
+			{ "skill" : "artillery", "level": "basic" },
+			{ "skill" : "tactics", "level": "basic" }
+		]
+	},
+	"core:fafner" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Nagas, Naga Queens, and Naga Ranis by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+				"name" : "Nagas",
+				"tooltip" : "Creature Bonus: Nagas"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "naga",
+			"creatureLevel" : 6,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30, "max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "naga",
+				"min" : 1, "max" : 1
+			}
+		]
+	},
+	"core:rissa" : {
+		"army#override" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30, "max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:iona" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Genies, Master Genies, and Genie Viziers by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+				"name" : "Genies",
+				"tooltip" : "Creature Bonus: Genies"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "genie",
+			"creatureLevel" : 5,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30, "max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "genie",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+	"core:astral" : {
+		"army#override" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30, "max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:halon" : {
+		"army#override" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30, "max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:serena" : {
+		"army#override" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30, "max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4, "max" : 5
+			}
+		],
+		"images" : {
+			"small" : "heroes/tower/serena/portraitSmall.png",
+			"large" : "HPL042WZ.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Eagle Eye.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Eagle Eye.png"
+		}
+	},
+	"core:daremyth" : {
+		"army#override" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30, "max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:theodorus" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Magi, Arch Magi, and Battle Magi by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+				"name" : "Magi",
+				"tooltip" : "Creature Bonus: Magi"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "mage",
+			"creatureLevel" : 4,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30, "max" : 40
+			},
+			{
+				"creature" : "mage",
+				"min" : 2, "max" : 3
+			},
+			{
+				"creature" : "mage",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+	"core:solmyr" : {
+		"army#override" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30, "max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:cyra" : {
+		"army#override" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30, "max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:aine" : {
+		"army#override" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30, "max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:dracon" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Enchanters by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up). Can upgrade all Monks and Mages to Enchanters.",
+				"name" : "Enchanters",
+				"tooltip" : "Creature Bonus: Enchanters"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "enchanter",
+			"creatureLevel" : 6,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30, "max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "enchanter",
+				"min" : 1, "max" : 1
+			}
+		]
+	},
+//INFERNO
+	"core:fiona" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Hell Hounds, Cerberi, and Fire Hounds by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+				"name" : "Hell Hounds",
+				"tooltip" : "Creature Bonus: Hell Hounds"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "hellHound",
+			"creatureLevel" : 3,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "imp",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4, "max" : 5
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:rashka" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Efreet, Efreet Sultans, and Efreet Sufis by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+				"name" : "Efreet",
+				"tooltip" : "Creature Bonus: Efreet"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "efreet",
+			"creatureLevel" : 6,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "imp",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4, "max" : 5
+			},
+			{
+				"creature" : "efreet",
+				"min" : 1, "max" : 1
+			}
+		]
+	},
+	"core:marius" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Demons, Horned Demons, and Gore Demons by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+				"name" : "Demons",
+				"tooltip" : "Creature Bonus: Demons"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "demon",
+			"creatureLevel" : 4,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "imp",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "demon",
+				"min" : 2, "max" : 3
+			},
+			{
+				"creature" : "demon",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+	"core:ignatius" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Imps, Familiars, and Vermin by 1 and their Attack and Defense skills by 20% for every level (rounded up).",
+				"name" : "Imps",
+				"tooltip" : "Creature Bonus: Imps"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "imp",
+			"creatureLevel" : 1,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "imp",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "imp",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "imp",
+				"min" : 20, "max" : 30
+			}
+		]
+	},
+	"core:octavia" : {
+		"army#override" : [
+			{
+				"creature" : "imp",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "gog",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:calh" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Gogs, Magogs, and Amaleki by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+				"name" : "Gogs",
+				"tooltip" : "Creature Bonus: Gogs"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "gog",
+			"creatureLevel" : 2,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "gog",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "gog",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "gog",
+				"min" : 5, "max" : 7
+			}
+		]
+	},
+	"core:pyre" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Ballista's Attack and Defense skills by 30% for every 5 levels (rounded up).",
+				"name" : "Ballista",
+				"tooltip" : "Creature Bonus: Ballista"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "ballista",
+			"creatureLevel" : 5,
+			"stepSize" : 30
+		},
+		"army#override" : [
+			{
+				"creature" : "imp",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "ballista",
+				"min" : 1, "max" : 1
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:nymus" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Pit Fiends, Pit Lords, and Pit Spawn by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+				"name" : "Pit Fiends",
+				"tooltip" : "Creature Bonus: Pit Fiends"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "pitFiend",
+			"creatureLevel" : 5,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "imp",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "gog",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "pitFiend",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+	"core:xeron" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Devils, Arch Devils, and Arch Demons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
+				"name" : "Devils",
+				"tooltip" : "Creature Bonus: Devils"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "devil",
+			"creatureLevel" : 7,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "imp",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "gog",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:ayden" : {
+		"army#override" : [
+			{
+				"creature" : "imp",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "gog",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:xyron" : {
+		"army#override" : [
+			{
+				"creature" : "imp",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "gog",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:axsis" : {
+		"army#override" : [
+			{
+				"creature" : "imp",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "gog",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:olema" : {
+		"army#override" : [
+			{
+				"creature" : "imp",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "gog",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:calid" : {
+		"army#override" : [
+			{
+				"creature" : "imp",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "gog",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:ash" : {
+		"army#override" : [
+			{
+				"creature" : "imp",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "gog",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:zydar" : {
+		"army#override" : [
+			{
+				"creature" : "imp",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "gog",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+	"core:xarfax" : {
+		"army#override" : [
+			{
+				"creature" : "imp",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "gog",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4, "max" : 5
+			}
+		]
+	},
+//NECROPOLIS
+	"core:straker" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Walking Dead, Plague Zombies, and Rot Zombies by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+				"name" : "Walking Dead",
+				"tooltip" : "Creature Bonus: Walking Dead"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "walkingDead",
+			"creatureLevel" : 2,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "walkingDead",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6, "max" : 8
+			}
+		]
+	},
+	"core:vokial" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Vampires, Vampire Lords, and Vampire Princes by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+				"name" : "Vampires",
+				"tooltip" : "Creature Bonus: Vampires"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "vampire",
+			"creatureLevel" : 4,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "vampire",
+				"min" : 2, "max" : 3
+			},
+			{
+				"creature" : "vampire",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+	"core:moandor" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Liches, Power Liches, and Lich Masters by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+				"name" : "Liches",
+				"tooltip" : "Creature Bonus: Liches"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "lich",
+			"creatureLevel" : 5,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "lich",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+	"core:charna" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Wights, Wraiths, and Banshees by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+				"name" : "Wights",
+				"tooltip" : "Creature Bonus: Wights"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "wight",
+			"creatureLevel" : 3,
+			"stepSize" : 20
+		}
+	},
+	"core:tamika" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Black Knights, Dread Knights, and Dreadtaurs by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+				"name" : "Black Knights",
+				"tooltip" : "Creature Bonus: Black Knights"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "blackKnight",
+			"creatureLevel" : 6,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "blackKnight",
+				"min" : 1, "max" : 1
+			}
+		]
+	},
+	"core:isra" : {
+		"army#override" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "wight",
+				"min" : 4, "max" : 6
+			}
+		]
+	},
+	"core:clavius" : {
+		"images" : {
+			"small" : "heroes/necropolis/clavius/portraitSmall.png",
+			"large" : "HPL070DK.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Estates.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Estates.png"
+		}
+	},	
+	"core:galthran" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Skeletons, Skeleton Warriors, and Skeleton Archers by 1 and their Attack and Defense skills by 20% for every level (rounded up).",
+				"name" : "Skeletons",
+				"tooltip" : "Creature Bonus: Skeletons"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "skeleton",
+			"creatureLevel" : 1,
+			"stepSize" : 20
+		}
+	},
+	"hota.heroes:ranloo" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Ballista's Attack and Defense skills by 30% for every 5 levels (rounded up).",
+				"name" : "Ballista",
+				"tooltip" : "Creature Bonus: Ballista"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "ballista",
+			"creatureLevel" : 5,
+			"stepSize" : 30
+		},
+		"army#override" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "ballista",
+				"min" : 1, "max" : 1
+			},
+			{
+				"creature" : "wight",
+				"min" : 4, "max" : 6
+			}
+		]
+	},
+	"core:undeadHaart" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Estates skill.",
+				"name" : "Estates",
+				"tooltip" : "Secondary Skill Bonus: Estates"
+			}
+		},
+		"specialty#override" : {
+			"secondary" : "estates"
+		},
+		"army#override" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "wight",
+				"min" : 4, "max" : 6
+			}
+		],
+		"skills#override": [
+			{ "skill" : "necromancy", "level": "basic" },
+			{ "skill" : "estates", "level": "basic" }
+		],
+		"images" : {
+			"small" : "HPS006SH.PCX",
+			"large" : "HPL006SH.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Estates.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Estates.png"
+		}
+	},
+	"core:septienna" : {
+		"army#override" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "wight",
+				"min" : 4, "max" : 6
+			}
+		],
+		"images" : {
+			"small" : "heroes/necropolis/septienna/portraitSmall.png",
+			"large" : "HPL072NC.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Death Ripple.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Death Ripple.png"
+		}
+	},
+	"core:aislinn" : {
+		"army#override" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "wight",
+				"min" : 4, "max" : 6
+			}
+		]
+	},
+	"core:sandro" : {
+		"army#override" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "wight",
+				"min" : 4, "max" : 6
+			}
+		]
+	},
+	"core:nimbus" : {
+		"army#override" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "wight",
+				"min" : 4, "max" : 6
+			}
+		]
+	},
+	"core:thant" : {
+		"army#override" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "wight",
+				"min" : 4, "max" : 6
+			}
+		]
+	},
+	"core:xsi" : {
+		"army#override" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "wight",
+				"min" : 4, "max" : 6
+			}
+		]
+	},
+	"core:vidomina" : {
+		"army#override" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "wight",
+				"min" : 4, "max" : 6
+			}
+		]
+	},
+	"core:nagash" : {
+		"army#override" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "wight",
+				"min" : 4, "max" : 6
+			}
+		]
+	},
+//DUNGEON
+	"core:lorelei" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Harpies, Harpy Hags, and Furies by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+				"name" : "Harpies",
+				"tooltip" : "Creature Bonus: Harpies"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "harpy",
+			"creatureLevel" : 2,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "harpy",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6, "max" : 8
+			}
+		]
+	},
+	"core:arlach" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Ballista's Attack and Defense skills by 30% for every 5 levels (rounded up).",
+				"name" : "Ballista",
+				"tooltip" : "Creature Bonus: Ballista"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "ballista",
+			"creatureLevel" : 5,
+			"stepSize" : 30
+		},
+		"army#override" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "ballista",
+				"min" : 1, "max" : 1
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:dace" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Minotaurs, Minotaur Kings, and Minotaur Taskmasters by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+				"name" : "Minotaurs",
+				"tooltip" : "Creature Bonus: Minotaurs"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "minotaur",
+			"creatureLevel" : 5,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "minotaur",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+	"core:ajit" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Beholders, Evil Eyes, and Fargazers by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+				"name" : "Evil Eyes",
+				"tooltip" : "Creature Bonus: Evil Eyes"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "beholder",
+			"creatureLevel" : 3,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3, "max" : 5
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:damacon" : {
+		"army#override" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:gunnar" : {
+		"army#override" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:synca" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Manticores, Scorpicores, and Chimeras by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+				"name" : "Manticores",
+				"tooltip" : "Creature Bonus: Manticores"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "manticore",
+			"creatureLevel" : 6,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "manticore",
+				"min" : 1, "max" : 1
+			}
+		],
+		"skills#override": [
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		]
+	},
+	"core:shakti" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Troglodytes, Infernal Troglodytes, and Chthonians by 1 and their Attack and Defense skills by 20% for every level (rounded up).",
+				"name" : "Troglodytes",
+				"tooltip" : "Creature Bonus: Troglodytes"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "troglodyte",
+			"creatureLevel" : 1,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30
+			}
+		]
+	},
+	"core:mutare" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "Dragons",
+				"tooltip" : "Creature Bonus: Dragons",
+				"description" : "Increases the Speed of allied Dragons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."				
+			}
+		},
+		"specialty#override" : {
+			"base" : {
+				"limiters" : [ {
+					"parameters" : [ "DRAGON_NATURE" ],
+					"type" : "HAS_ANOTHER_BONUS_LIMITER"
+				} ]
+			},
+			"bonuses" : {
+				"attackBonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack",
+					"val" : 1,
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 28,
+						"stepSize" : 7
+					}
+				},
+				"defenceBonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"val" : 1,
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 28,
+						"stepSize" : 7
+					}
+				},
+				"speedBonus" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
+		},
+		"army#override" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:mutareDrake" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "Dragons",
+				"tooltip" : "Creature Bonus: Dragons",
+				"description" : "Increases the Speed of allied Dragons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."				
+			}
+		},
+		"specialty#override" : {
+			"base" : {
+				"limiters" : [ {
+					"parameters" : [ "DRAGON_NATURE" ],
+					"type" : "HAS_ANOTHER_BONUS_LIMITER"
+				} ]
+			},
+			"bonuses" : {
+				"attackBonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack",
+					"val" : 1,
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 28,
+						"stepSize" : 7
+					}
+				},
+				"defenceBonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"val" : 1,
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 28,
+						"stepSize" : 7
+					}
+				},
+				"speedBonus" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
+		},
+		"army#override" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:alamar" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Intelligence skill percentage.",
+				"name" : "Intelligence",
+				"tooltip" : "Secondary Skill Bonus: Intelligence"
+			}
+		},
+		"specialty#override" : {
+			"secondary" : "intelligence"
+		},
+		"army#override" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3, "max" : 5
+			}
+		],
+		"skills#override": [
+			{ "skill" : "intelligence", "level": "basic" },
+			{ "skill" : "scholar", "level": "basic" }
+		],
+		"images" : {
+			"small" : "HPS088WL.PCX",
+			"large" : "HPL088WL.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Intelligence.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Intelligence.png"
+		}
+	},
+	"core:jaegar" : {
+		"army#override" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:malekith" : {
+		"army#override" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:jeddite" : {
+		"army#override" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:geon" : {
+		"army#override" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:deemer" : {
+		"army#override" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:sephinroth" : {
+		"army#override" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:darkstorn" : {
+		"army#override" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+//STRONGHOLD
+	"core:yog" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Cyclopes, Cyclops Kings, and Blood-Eyed Cyclopes by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+				"name" : "Cyclopes",
+				"tooltip" : "Creature Bonus: Cyclopes"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "cyclop",
+			"creatureLevel" : 6,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "goblin",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "cyclop",
+				"min" : 1, "max" : 1
+			}
+		]
+	},
+	"core:gurnisson" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Ballista's Attack and Defense skills by 30% for every 5 levels (rounded up).",
+				"name" : "Ballista",
+				"tooltip" : "Creature Bonus: Ballista"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "ballista",
+			"creatureLevel" : 5,
+			"stepSize" : 30
+		},
+		"army#override" : [
+			{
+				"creature" : "goblin",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "ballista",
+				"min" : 1, "max" : 1
+			},
+			{
+				"creature" : "orc",
+				"min" : 4, "max" : 7
+			}
+		]
+	},
+	"core:jabarkas" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Orcs, Orc Chieftains, and Orc Berserkers by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+				"name" : "Orcs",
+				"tooltip" : "Creature Bonus: Orcs"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "orc",
+			"creatureLevel" : 3,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "orc",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 4, "max" : 7
+			}
+		]
+	},
+	"core:shiva" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Rocs, Thunderbirds, and Shahrohks by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+				"name" : "Rocs",
+				"tooltip" : "Creature Bonus: Rocs"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "roc",
+			"creatureLevel" : 5,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "goblin",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "roc",
+				"min" : 2, "max" : 3
+			}
+		],
+		"images" : {
+			"small" : "heroes/stronghold/shiva/portraitSmall.png",
+			"large" : "HPL099BR.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Rocs.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Rocs.png"
+		}
+	},
+	"core:gretchin" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Goblins, Hobgoblins, and Goblin Trappers by 1 and their Attack and Defense skills by 20% for every level (rounded up).",
+				"name" : "Goblins",
+				"tooltip" : "Creature Bonus: Goblins"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "goblin",
+			"creatureLevel" : 1,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "goblin",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "goblin",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "goblin",
+				"min" : 20, "max" : 30
+			}
+		]
+	},
+	"core:krellion" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Ogres, Ogre Magi, and Ogre Brutes by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+				"name" : "Ogres",
+				"tooltip" : "Creature Bonus: Ogres"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "ogre",
+			"creatureLevel" : 4,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "goblin",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "ogre",
+				"min" : 2, "max" : 3
+			},
+			{
+				"creature" : "ogre",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+	"core:cragHack" : {
+		"army#override" : [
+			{
+				"creature" : "goblin",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 4, "max" : 7
+			}
+		]
+	},
+	"core:tyraxor" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Wolf Riders, Wolf Raiders, and Boar Riders by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+				"name" : "Wolf Riders",
+				"tooltip" : "Creature Bonus: Wolf Riders"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "goblinWolfRider",
+			"creatureLevel" : 2,
+			"stepSize" : 20
+		}
+	},
+	"core:boragus" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases Tactics placement area by 2.",
+				"name" : "Tactics",
+				"tooltip" : "Secondary Skill Bonus: Tactics"
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"tactics" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "BEFORE_BATTLE_REPOSITION",
+					"val" : 2
+				}
+			}
+		},
+		"army#override" : [
+			{
+				"creature" : "goblin",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 4, "max" : 7
+			}
+		],
+		"images" : {
+			"small" : "HPS001SH.PCX",
+			"large" : "HPL001SH.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Expert Tactics.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Expert Tactics.png"
+		}
+	},
+	"core:kilgor" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Behemoths, Ancient Behemoths, and Ghost Behemoths by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
+				"name" : "Behemoths",
+				"tooltip" : "Creature Bonus: Behemoths"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "behemoth",
+			"creatureLevel" : 7,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "goblin",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 4, "max" : 7
+			}
+		],
+		"images" : {
+			"small" : "HPS005SH.PCX",
+			"large" : "HPL005SH.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Behemoths (Alternate).png",
+			"specialtyLarge" : "heroes/specialtyLarge/Behemoths (Alternate).png",
+		}
+	},
+	"core:gird" : {
+		"spellbook#override" : [ "magicArrow" ],
+		"army#override" : [
+			{
+				"creature" : "goblin",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 4, "max" : 7
+			}
+		]
+	},
+	"core:vey" : {
+		"spellbook#override": [ "bloodlust" ],
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Bloodlust with effect increased by 10 for level 1–2 creatures, by 8 for level 3–4 creatures, by 6 for level 5–6 creatures, and by 4 for level 7 creatures.",
+				"name" : "Bloodlust",
+				"tooltip" : "Spell Bonus: Bloodlust"
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"bloodlust" : {
+					"addInfo" : 0,
+					"subtype" : "spell.bloodlust",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		},
+		"army#override" : [
+			{
+				"creature" : "goblin",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 4, "max" : 7
+			}
+		],
+		"images" : {
+			"small" : "HPS105BM.PCX",
+			"large" : "HPL105BM.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Bloodlust.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Bloodlust.png"
+		}
+	},
+	"core:dessa" : {
+		"army#override" : [
+			{
+				"creature" : "goblin",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 4, "max" : 7
+			}
+		]
+	},
+	"core:terek" : {
+		"army#override" : [
+			{
+				"creature" : "goblin",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 4, "max" : 7
+			}
+		]
+	},
+	"core:zubin" : {
+		"army#override" : [
+			{
+				"creature" : "goblin",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 4, "max" : 7
+			}
+		]
+	},
+	"core:gundula" : {
+		"army#override" : [
+			{
+				"creature" : "goblin",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 4, "max" : 7
+			}
+		]
+	},
+	"core:oris" : {
+		"army#override" : [
+			{
+				"creature" : "goblin",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 4, "max" : 7
+			}
+		]
+	},
+	"core:saurug" : {
+		"army#override" : [
+			{
+				"creature" : "goblin",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 4, "max" : 7
+			}
+		]
+	},
+//FORTRESS
+	"core:bron" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Basilisks, Greater Basilisks, and Basilisk Flamespitters by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+				"name" : "Basilisks",
+				"tooltip" : "Creature Bonus: Basilisks"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "basilisk",
+			"creatureLevel" : 4,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "basilisk",
+				"min" : 2, "max" : 3
+			},
+			{
+				"creature" : "basilisk",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+	"core:drakon" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Gnolls, Gnoll Marauders, and Gnoll Shamans by 1 and their Attack and Defense skills by 20% for every level (rounded up).",
+				"name" : "Gnolls",
+				"tooltip" : "Creature Bonus: Gnolls"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "gnoll",
+			"creatureLevel" : 1,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			}
+		]
+	},
+	"core:wystan" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Lizardmen, Lizard Warriors, and Lizard Assassins by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+				"name" : "Lizardmen",
+				"tooltip" : "Creature Bonus: Lizardmen"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "lizardman",
+			"creatureLevel" : 2,
+			"stepSize" : 20
+		}
+	},
+	"core:tazar" : {
+		"army#override" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:alkin" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Gorgons, Mighty Gorgons, and Corrosive Gorgons by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+				"name" : "Gorgons",
+				"tooltip" : "Creature Bonus: Gorgons"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "gorgon",
+			"creatureLevel" : 5,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "gorgon",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+	"core:korbac" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Serpent Flies, Dragon Flies, and Damsel Flies by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+				"name" : "Serpent Flies",
+				"tooltip" : "Creature Bonus: Serpent Flies"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "serpentFly",
+			"creatureLevel" : 3,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3, "max" : 5
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:gerwulf" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Ballista's Attack and Defense skills by 30% for every 5 levels (rounded up).",
+				"name" : "Ballista",
+				"tooltip" : "Creature Bonus: Ballista"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "ballista",
+			"creatureLevel" : 5,
+			"stepSize" : 30
+		},
+		"army#override" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "ballista",
+				"min" : 1, "max" : 1
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:broghild" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Wyverns, Wyvern Monarchs, and Paokais by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+				"name" : "Wyverns",
+				"tooltip" : "Creature Bonus: Wyverns"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "wyvern",
+			"creatureLevel" : 6,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "wyvern",
+				"min" : 1, "max" : 1
+			}
+		]
+	},
+	"core:mirlanda" : {
+		"army#override" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:rosic" : {
+		"army#override" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:voy" : {
+		"army#override" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"hota.heroes:kinkeria" : {
+		"army#override" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:verdish" : {
+		"army#override" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:merist" : {
+		"army#override" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:styg" : {
+		"army#override" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:andra" : {
+		"army#override" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:tiva" : {
+		"army#override" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"core:adrienne" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "Fire Magic",
+				"tooltip" : "Secondary Skill Bonus: Fire Magic",
+				"description" : "Increases the Damage of Fire Magic spells by 50%. Starts with Expert Fire Magic."				
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"fireMagicDamage" : {
+					"type" : "SPELL_DAMAGE",
+					"subtype" : "fire",
+					"val" : 50
+				}
+			}
+		},
+		"army#override" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+//CONFLUX
+	"core:pasis" : {
+		"texts" : {
+			"specialty#override" : {
+				"description" : "Increases the Speed of allied Psychic Elementals, Magic Elementals, and Astral Elementals by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+				"name" : "Psychic Elem.",
+				"tooltip" : "Creature Bonus: Psychic Elementals"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "psychicElemental",
+			"creatureLevel" : 6,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25,
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4, "max" : 6,
+			},
+			{
+				"creature" : "psychicElemental",
+				"min" : 1, "max" : 1,
+			}
+		],
+		"skills#override": [
+			{ "skill" : "offence", "level": "basic" },
+			{ "skill" : "intelligence", "level": "basic" }
+		]
+	},
+	"core:thunar" : {
+		"texts" : {
+			"biography#override" : "Living around the Erathian Capitol for many years, Thunar received extensive training in battle tactics, which helped to hone her defensive capabilities. Her curiosity and respect of mortals gained her a place in the Conflux.",
+			"specialty#override" : {
+				"description" : "Increases the Speed of allied Earth Elementals, Magma Elementals, and Lava Elementals by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+				"name" : "Earth Elem.",
+				"tooltip" : "Creature Bonus: Earth Elementals"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "earthElemental",
+			"creatureLevel" : 5,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25,
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4, "max" : 6,
+			},
+			{
+				"creature" : "earthElemental",
+				"min" : 2, "max" : 3,
+			}
+		],
+		"skills#override": [
+			{ "skill" : "tactics", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		]
+	},
+	"core:ignissa" : {
+		"texts" : {
+			"specialty#override" : {
+				"description" : "Increases the Speed of allied Fire Elementals, Energy Elementals, and Plasma Elementals by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+				"name" : "Fire Elem.",
+				"tooltip" : "Creature Bonus: Fire Elementals"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "fireElemental",
+			"creatureLevel" : 4,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25,
+			},
+			{
+				"creature" : "fireElemental",
+				"min" : 2, "max" : 3,
+			},
+			{
+				"creature" : "fireElemental",
+				"min" : 2, "max" : 3,
+			}
+		],
+		"skills#override": [
+			{ "skill" : "offence", "level": "basic" },
+			{ "skill" : "fireMagic", "level": "basic" }
+		]
+	},
+	"core:lacus" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Water Elementals, Ice Elementals, and Frost Elementals by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+				"name" : "Water Elem.",
+				"tooltip" : "Creature Bonus: Water Elementals"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "waterElemental",
+			"creatureLevel" : 3,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25,
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3, "max" : 5,
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3, "max" : 5,
+			}
+		],
+		"skills#override": [
+			{ "skill" : "tactics", "level": "basic" },
+			{ "skill" : "archery", "level": "basic" }
+		]
+	},
+	"core:monere" : {
+		"texts" : {
+			"specialty#override" : {
+				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
+				"name" : "Logistics",
+				"tooltip" : "Secondary Skill Bonus: Logistics"
+			}
+		},
+		"specialty#override" : {
+			"secondary" : "logistics"
+		},
+		"army#override" : [
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25,
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4, "max" : 6,
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3, "max" : 5,
+			}
+		],
+		"images" : {
+			"small" : "HPS004PL.PCX",
+			"large" : "HPL004PL.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Logistics.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Logistics.png"
+		}
+	},
+	"core:erdamon" : {
+		"texts" : {
+			"specialty#override" : {
+				"description" : "Receives a 5% per level bonus to Estates skill.",
+				"name" : "Estates",
+				"tooltip" : "Secondary Skill Bonus: Estates"
+			}
+		},
+		"specialty#override" : {
+			"secondary" : "estates"
+		},
+		"army#override" : [
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25,
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4, "max" : 6,
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3, "max" : 5,
+			}
+		],
+		"images" : {
+			"small" : "HPS005PL.PCX",
+			"large" : "HPL005PL.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Estates.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Estates.png"
+		}
+	},
+	"core:fiur" : {
+		"texts" : {
+			"specialty#override" : {
+				"description" : "Receives a 5% per level bonus to Offense skill percentage.",
+				"name" : "Offense",
+				"tooltip" : "Secondary Skill Bonus: Offense"
+			}
+		},
+		"specialty#override" : {
+			"secondary" : "offence"
+		},
+		"army#override" : [
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25,
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4, "max" : 6,
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3, "max" : 5,
+			}
+		],
+		"images" : {
+			"small" : "HPS006PL.PCX",
+			"large" : "HPL006PL.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Offense.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Offense.png"
+		}
+	},
+	"core:kalt" : {
+		"texts" : {
+			"specialty#override" : {
+				"description" : "Receives a 5% per level bonus to Learning skill percentage.",
+				"name" : "Learning",
+				"tooltip" : "Secondary Skill Bonus: Learning"
+			}
+		},
+		"specialty#override" : {
+			"secondary" : "learning"
+		},
+		"army#override" : [
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25,
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4, "max" : 6,
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3, "max" : 5,
+			}
+		],
+		"images" : {
+			"small" : "HPS007PL.PCX",
+			"large" : "HPL007PL.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Learning.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Learning.png"
+		}
+	},
+	"core:luna" : {
+		"army#override" : [
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25,
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4, "max" : 6,
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3, "max" : 5,
+			}
+		]
+	},
+	"core:brissa" : {
+		"army#override" : [
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25,
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4, "max" : 6,
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3, "max" : 5,
+			}
+		]
+	},
+	"core:ciele" : {
+		"army#override" : [
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25,
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4, "max" : 6,
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3, "max" : 5,
+			}
+		]
+	},
+	"core:labetha" : {
+		"army#override" : [
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25,
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4, "max" : 6,
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3, "max" : 5,
+			}
+		]
+	},
+	"core:inteus" : {
+		"army#override" : [
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25,
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4, "max" : 6,
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3, "max" : 5,
+			}
+		]
+	},
+	"core:aenain" : {
+		"army#override" : [
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25,
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4, "max" : 6,
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3, "max" : 5,
+			}
+		]
+	},
+	"core:gelare" : {
+		"army#override" : [
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25,
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4, "max" : 6,
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3, "max" : 5,
+			}
+		]
+	},
+	"core:grindan" : {
+		"army#override" : [
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25,
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4, "max" : 6,
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3, "max" : 5,
+			}
+		]
+	},
+//COVE
+	"hota.cove:02jeremy" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Cannon's Attack and Defense skills by 20% for every 6 levels (rounded up).",
+				"name" : "Cannon",
+				"tooltip" : "Creature Bonus: Cannon"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "hota.cannon:cannon",
+			"creatureLevel" : 6,
+			"stepSize" : 20
+		}
+	},
+	"hota.cove:03illor" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Stormbirds and Ayssids by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+				"name" : "Stormbirds",
+				"tooltip" : "Creature Bonus: Stormbirds"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "hota.cove:stormbird",
+			"creatureLevel" : 4,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "nymph",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "stormbird",
+				"min" : 2, "max" : 3
+			},
+			{
+				"creature" : "stormbird",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+	"hota.cove:05derek" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Crew Mates and Seamen by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+				"name" : "Crew Mates",
+				"tooltip" : "Creature Bonus: Crew Mates"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "hota.cove:crewmate",
+			"creatureLevel" : 2,
+			"stepSize" : 20
+		}
+	},
+	"hota.cove:07anabel" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Pirates, Corsairs, and Sea Dogs by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+				"name" : "Pirates",
+				"tooltip" : "Creature Bonus: Pirates"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "hota.cove:pirate",
+			"creatureLevel" : 3,
+			"stepSize" : 20
+		}
+	},
+	"hota.cove:08cassiopeia" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Nymphs and Oceanids by 1 and their Attack and Defense skills by 10% for every level (rounded up).",
+				"name" : "Nymphs",
+				"tooltip" : "Creature Bonus: Nymphs"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "hota.cove:nymph",
+			"creatureLevel" : 1,
+			"stepSize" : 10
+		}
+	},
+	"hota.cove:11tark" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Nix and Nix Warriors by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+				"name" : "Nix",
+				"tooltip" : "Creature Bonus: Nix"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "hota.cove:nix",
+			"creatureLevel" : 6,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "nymph",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "crewmate",
+				"min" : 6, "max" : 9
+			},
+			{
+				"creature" : "nix",
+				"min" : 1, "max" : 1
+			}
+		]
+	},
+	"hota.cove:12casmetra" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Sea Witches and Sorceresses by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+				"name" : "Sea Witches",
+				"tooltip" : "Creature Bonus: Sea Witches"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "hota.cove:seaWitch",
+			"creatureLevel" : 5,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "nymph",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "crewmate",
+				"min" : 6, "max" : 9
+			},
+			{
+				"creature" : "seaWitch",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+//FACTORY
+	"hota.factory:01henrietta" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Halflings and Halfling Grenadiers by 1 and their Attack and Defense skills by 10% for every level (rounded up).",
+				"name" : "Halflings",
+				"tooltip" : "Creature Bonus: Halflings"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "halfling",
+			"creatureLevel" : 1,
+			"stepSize" : 10
+		}
+	},
+	"hota.factory:02sam" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Mechanics and Engineers by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+				"name" : "Mechanics",
+				"tooltip" : "Creature Bonus: Mechanics"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "hotaMechanic",
+			"creatureLevel" : 2,
+			"stepSize" : 20
+		}
+	},
+	"hota.factory:03tancred" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Gunslingers and Bounty Hunters by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+				"name" : "Gunslingers",
+				"tooltip" : "Creature Bonus: Gunslingers"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "gunslinger",
+			"creatureLevel" : 6,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "halfling",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "hotaMechanic",
+				"min" : 7, "max" : 9
+			},
+			{
+				"creature" : "gunslinger",
+				"min" : 1, "max" : 1
+			}
+		]
+	},
+	"hota.factory:08morton" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Ballista's Attack and Defense skills by 30% for every 5 levels (rounded up).",
+				"name" : "Ballista",
+				"tooltip" : "Creature Bonus: Ballista"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "ballista",
+			"creatureLevel" : 5,
+			"stepSize" : 30
+		}
+	},
+	"hota.factory:11celestine" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Armadillos and Bellwether Armadillos by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+				"name" : "Armadillos",
+				"tooltip" : "Creature Bonus: Armadillos"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "armadillo",
+			"creatureLevel" : 3,
+			"stepSize" : 20
+		}
+	},
+	"hota.factory:12todd" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Automatons and Sentinel Automatons by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+				"name" : "Automatons",
+				"tooltip" : "Creature Bonus: Automatons"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "automaton",
+			"creatureLevel" : 4,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "halfling",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "automaton",
+				"min" : 2, "max" : 3
+			},
+			{
+				"creature" : "automaton",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+	"hota.factory:13agar" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Sandworms and Olgoi-Khorkhoi by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+				"name" : "Sandworms",
+				"tooltip" : "Creature Bonus: Sandworms"
+			}
+		},
+		"specialty#override" : {
+			"creature" : "sandworm",
+			"creatureLevel" : 5,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "halfling",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "hotaMechanic",
+				"min" : 7, "max" : 9
+			},
+			{
+				"creature" : "sandworm",
+				"min" : 2, "max" : 3
+			}
+		]
+	}
+}

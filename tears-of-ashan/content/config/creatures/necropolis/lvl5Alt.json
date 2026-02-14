@@ -1,0 +1,87 @@
+{
+	"lichMasterAU": {
+		"name" : {"singular" : "Lich Master", "plural" : "Lich Masters"},
+		"faction" : "necropolis",
+		"level" : 5,
+		"attack" : 13,
+		"defense" : 10,
+		"shots" : 24,
+		"damage" : {"min" : 11, "max" : 15},
+		"hitPoints" : 40,
+		"speed" : 8,
+		"growth" : 3,
+		"aiValue" : 1079,
+		"fightValue" : 889,
+		"cost" : {"gold" : 600},
+		"advMapAmount" : {"min" : 8, "max" : 12},
+		"doubleWide" : false,
+		"upgrades" : ["core:powerLich"],
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"undead" : {
+				"type" : "UNDEAD"
+			},
+			"noWallPenalty" : {
+				"type" : "NO_WALL_PENALTY"
+			},
+			"noDistancePenalty" : {
+				"type" : "NO_DISTANCE_PENALTY"
+			},
+			"animateDead" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.animateDead",
+				"val" : 1,
+				"description" : "{Spellcaster}\nCan cast Expert Animate Dead (30% Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/animatedead3.png"
+			},
+			"animateDeadPower" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.animateDead",
+				"val" : 30
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 2
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/necropolis/battle/lvl5Alt",
+			"map" : "creatures/necropolis/map/lvl5Alt",
+			"iconSmall" : "creatures/necropolis/iconsSmall/lvl5Alt",
+			"iconLarge" : "creatures/necropolis/iconsBig/lvl5Alt",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			},
+			"missile" : {
+				"attackClimaxFrame" : 5,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0 ],
+				"ray" : [
+					{ "start" : [ 109, 44, 45, 255 ], "end" : [ 109, 44, 45, 64 ] },
+					{ "start" : [ 246, 77, 77, 255 ], "end" : [ 246, 77, 77, 128 ] },
+					{ "start" : [ 250, 247,  247, 255 ], "end" : [ 32, 176, 32, 255 ] },
+					{ "start" : [ 246, 77, 77, 255 ], "end" : [ 246, 77, 77, 128 ] },
+					{ "start" : [ 109, 44, 45, 255 ], "end" : [ 109, 44, 45, 64 ] }
+				],
+				"offset" : {
+					"lowerX" : 6,	"lowerY" : -97,
+					"middleX" : 12,	"middleY" : -97,
+					"upperX" : 13,	"upperY" : -97
+				}
+			}
+		},
+		
+		"sound" : {
+			"attack": "PLCHATTK.wav",
+			"defend": "PLCHDFND.wav",
+			"killed": "PLCHKILL.wav",
+			"move": "PLCHMOVE.wav",
+			"shoot": "PLCHSHOT.wav",
+			"wince": "PLCHWNCE.wav",
+		}
+	}
+}

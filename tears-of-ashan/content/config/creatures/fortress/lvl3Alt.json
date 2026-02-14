@@ -1,0 +1,55 @@
+{
+	"damselFlyAU": {
+		"name" : {"singular" : "Damsel Fly", "plural" : "Damsel Flies"},
+		"faction" : "fortress",
+		"level" : 3,
+		"attack" : 9,
+		"defense" : 9,
+		"damage" : {"min" : 2, "max" : 5},
+		"hitPoints" : 20,
+		"speed" : 11,
+		"growth" : 8,
+		"aiValue" : 312,
+		"fightValue" : 250,
+		"cost" : {"gold" : 240},
+		"advMapAmount" : {"min" : 12, "max" : 20},
+		"upgrades" : ["core:fireDragonFly"],
+		"doubleWide" : false,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"dispelHelpful" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "dispelHelpful",
+				"val" : 100,
+				"addInfo" : [1, 0],
+				"icon" : "zvs/Lib1.res/dispelattack.png"
+			},
+			"strikeAndReturn" : {
+				"type" : "RETURN_AFTER_STRIKE"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/fortress/battle/lvl3Alt.json",
+			"map" : "creatures/fortress/map/lvl3Alt.json",
+			"mapMask" : ["VVV","VAV"],
+			"iconSmall" : "creatures/fortress/iconsSmall/lvl3Alt.png",
+			"iconLarge" : "creatures/fortress/iconsBig/lvl3Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "FDFLATTK.wav",
+			"defend": "FDFLDFND.wav",
+			"killed": "FDFLKILL.wav",
+			"move": "FDFLMOVE.wav",
+			"shoot": "FDFLSHOT.wav",
+			"wince": "FDFLWNCE.wav"
+		}
+	}
+}	

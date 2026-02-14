@@ -1,0 +1,101 @@
+{
+	"core:fortress" : {
+		"town" : {
+			"hallBackground": "TPTHBKFR.BMP",
+			"buildingsIcons": "town-screen/fortress/HALLFORTALT.DEF",
+			
+			"creatures" : [
+				["gnoll", "gnollMarauder", "gnollShamanAU"],
+				["lizardman", "lizardWarrior", "lizardAssassinAU"],
+				["serpentFly", "fireDragonFly", "damselFlyAU"],
+				["basilisk", "greaterBasilisk", "basiliskFlamespitterAU"],
+				["gorgon", "mightyGorgon", "corrosiveGorgonAU"],
+				["wyvern", "wyvernMonarch", "paokaiAU"],
+				["hydra", "chaosHydra", "ruinousHydraAU"]
+			],
+			
+			"structures" : {				
+				"horde1Upgr2":     { "animation" : "town-screen/cyan", "x" : 641, "y" : 68,  "z" : 1,  "border" : "TOFGNL2H.PCX", "area" : "town-screen/cyan", "hidden" : true, "builds" : "horde1Upgr" },
+				"dwellingUp2Lvl1": { "animation" : "town-screen/cyan", "x" : 641, "y" : 107, "z" : 1,  "border" : "TOFGNL2.PCX",  "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl2": { "animation" : "town-screen/cyan", "x" : 125, "y" : 163,           "border" : "TOFLIZ2.PCX",  "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl3": { "animation" : "town-screen/cyan", "x" : 159, "y" : 19,            "border" : "TOFFLY2A.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl4": { "animation" : "town-screen/cyan", "x" : 0,   "y" : 257, "z" : 1,  "border" : "TOFBAS2.PCX",  "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl5": { "animation" : "town-screen/cyan", "x" : 15,  "y" : 69,  "z" : -2, "border" : "TOFGOR2.PCX",  "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl6": { "animation" : "town-screen/cyan", "x" : 0,   "y" : 4,             "border" : "TOFWYV2.PCX",  "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl7": { "animation" : "town-screen/cyan", "x" : 587, "y" : 263, "z" : 5,  "border" : "TOFHYD2A.PCX", "area" : "town-screen/cyan" }
+			},
+			
+			"buildings" : {
+				"horde1Upgr2" : {
+					"name" : "Captain's Quarters",
+					"description" : "The Captain's Quarters increases Gnoll Marauder and Gnoll Shaman production by 6 per week.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["horde1Upgr"] ]
+				},
+				"dwellingUpLvl1" : {
+					"description" : "The Gnoll Hut allows you to recruit Gnoll Marauders and Gnoll Shamans."
+				},
+				"dwellingUp2Lvl1" : {
+					"name" : "Upg. Gnoll Hut",
+					"description" : "The Gnoll Hut allows you to recruit Gnoll Marauders and Gnoll Shamans.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl1"] ]
+				},
+				"dwellingUpLvl2" : {
+					"description" : "The Lizard Den allows you to recruit Lizard Warriors and Lizard Assassins."
+				},
+				"dwellingUp2Lvl2" : {
+					"name" : "Upg. Lizard Den",
+					"description" : "The Lizard Den allows you to recruit Lizard Warriors and Lizard Assassins.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl2"] ]
+				},
+				"dwellingUpLvl3" : {
+					"description" : "The Serpent Fly Hive allows you to recruit Dragon Flies and Damsel Flies."
+				},
+				"dwellingUp2Lvl3" : {
+					"name" : "Upg. Serpent Fly Hive",
+					"description" : "The Serpent Fly Hive allows you to recruit Dragon Flies and Damsel Flies.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl3"] ]
+				},
+				"dwellingUpLvl4" : {
+					"description" : "The Basilisk Pit allows you to recruit Greater Basilisks and Basilisk Flamespitters."
+				},
+				"dwellingUp2Lvl4" : {
+					"name" : "Upg. Basilisk Pit",
+					"description" : "The Basilisk Pit allows you to recruit Greater Basilisks and Basilisk Flamespitters.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl4"] ]
+				},
+				"dwellingUpLvl5" : {
+					"description" : "The Gorgon Lair allows you to recruit Mighty Gorgons and Corrosive Gorgons."
+				},
+				"dwellingUp2Lvl5" : {
+					"name" : "Upg. Gorgon Lair",
+					"description" : "The Gorgon Lair allows you to recruit Mighty Gorgons and Corrosive Gorgons.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl5"] ]
+				},
+				"dwellingUpLvl6" : {
+					"description" : "The Wyvern Nest allows you to recruit Wyvern Monarchs and Paokais."
+				},
+				"dwellingUp2Lvl6" : {
+					"name" : "Upg. Wyvern Nest",
+					"description" : "The Wyvern Nest allows you to recruit Wyvern Monarchs and Paokais.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl6"] ]
+				},
+				"dwellingUpLvl7" : {
+					"description" : "The Hydra Pond allows you to recruit Chaos Hydras and Ruinous Hydras."
+				},
+				"dwellingUp2Lvl7" : {
+				"name" : "Upg. Hydra Pond",
+					"description" : "The Hydra Pond allows you to recruit Chaos Hydras and Ruinous Hydras.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl7"] ]
+				}
+			}
+		}
+	}	
+}

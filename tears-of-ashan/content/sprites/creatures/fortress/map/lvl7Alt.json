@@ -1,0 +1,70 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "AVWhydx0A000.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "AVWhydx0A000.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "AVWhydx0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "AVWhydx0A003.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "AVWhydx0A004.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "AVWhydx0A005.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "AVWhydx0A006.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "AVWhydx0A007.png"
+        },
+        {
+            "group": 0,
+            "frame": 8,
+            "file": "AVWhydx0A000.png"
+        },
+        {
+            "group": 0,
+            "frame": 9,
+            "file": "AVWhydx0A000.png"
+        },
+        {
+            "group": 0,
+            "frame": 10,
+            "file": "AVWhydx0A000.png"
+        },
+        {
+            "group": 0,
+            "frame": 11,
+            "file": "AVWhydx0A000.png"
+        },
+        {
+            "group": 0,
+            "frame": 12,
+            "file": "AVWhydx0A000.png"
+        }
+    ],
+    "basepath": "creatures/fortress/map/lvl7Alt/"
+}

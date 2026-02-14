@@ -1,0 +1,58 @@
+{
+	"core:crusader": {
+		"graphics" : {
+			"iconLarge" : "creatures/castle/iconsbig/lvl4Upg"
+		}
+	},
+	"core:zealot": {
+		"attack" : 14,
+		"defense" : 10,
+		"damage" : {"min" : 10, "max" : 14},
+		"aiValue" : 850,
+		"fightValue" : 600,
+		"cost" : {"gold" : 550}
+	},
+	"core:angel": {
+		"abilities" : {
+			"hateDevils" : {
+				"hidden" : true
+			},
+			"hateArchDevils" : {
+				"hidden" : true
+			},
+			"hateArchDemons" : {
+				"type" : "HATE",
+				"subtype" : "archDemonAU",
+				"val" : 50,
+				"description" : "{Hates Devils}\nDoes 50% more Damage to Devils, Arch Devils, and Arch Demons",
+				"icon" : "zvs/Lib1.res/hatearchangels.png"
+			},
+			"raisesMorale" : {
+				"description" : "{Raises Morale}\nAngels, Archangels, and Seraphim raise allied units' Morale by +1",
+			}
+		}
+	},
+	"core:archangel": {
+		"abilities" : {
+			"hateDevils" : {
+				"hidden" : true
+			},
+			"hateArchDevils" : {
+				"hidden" : true
+			},
+			"hateArchDemons" : {
+				"type" : "HATE",
+				"subtype" : "archDemonAU",
+				"val" : 50,
+				"description" : "{Hates Devils}\nDoes 50% more Damage to Devils, Arch Devils, and Arch Demons",
+				"icon" : "zvs/Lib1.res/hatearchangels.png"
+			},
+			"raisesMorale" : {
+				"description" : "{Raises Morale}\nAngels, Archangels, and Seraphim raise allied units' Morale by +1"
+			},
+			"resurrects" : {
+				"description" : "{Spellcaster}\nCan cast Resurrection (100 Health per Archangel)"
+			}
+		}
+	}
+}

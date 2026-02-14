@@ -1,0 +1,71 @@
+{
+	"balindar" : {
+		"class" : "wizard",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [ "shield" ],
+		"texts" : {
+			"name" : "Balindar",
+			"biography" : "Balindar was the first in Bracada to test the Enrothean technology of using the best steel armor to create statues slated for animation, rather than regular rock, ore, or even precious metals. The rigid-minded golem-building academicians did not welcome this innovation, so Balindar's works, although far superior to their prototypes, still bear the experimental status.",
+			"specialty" : {
+				"description" : "Increases the Speed of allied Steel Golems by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up). Can upgrade Stone Golems, Iron Golems, and Magnetic Golems to Steel Golems.",
+				"tooltip" : "Creature Bonus: Steel Golems",
+				"name" : "Steel Golems"
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/tower/balindar/portraitSmall.png",
+			"large" : "heroes/tower/balindar/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Steel Golems.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Steel Golems.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "earthMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "steelGolem",
+			"creatureLevel" : 4,
+			"stepSize" : 20,
+			"base" : {
+				"addInfo" : "steelGolem",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			"bonuses" : {
+				"stoneToSteel" : {
+					"subtype" : "stoneGolem"
+				},
+				"ironToSteel" : {
+					"subtype" : "ironGolem"
+				},
+				"magneticToSteel" : {
+					"subtype" : "magneticGolemAU"
+				},
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30, "max" : 40
+			},
+			{
+				"creature" : "steelGolem",
+				"min" : 2, "max" : 3
+			},
+			{
+				"creature" : "steelGolem",
+				"min" : 2, "max" : 3
+			}
+		]
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"barbarus" : {
+		"class" : "overlord",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [ "dragonStrength" ],
+		"texts" : {
+			"name" : "Barbarus",
+			"biography" : "",
+			"specialty" : {
+				"name" : "Red Dragons",
+				"tooltip" : "Creature Bonus: Red Dragons",
+				"description" : "Increases the Speed of allied Red Dragons, Black Dragons, and Shadow Dragons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/dungeon/barbarus/portraitSmall.png",
+			"large" : "heroes/dungeon/barbarus/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Dragons (HotA).png",
+			"specialtyLarge" : "heroes/specialtyLarge/Dragons (HotA).png"
+		},
+
+		"skills" : [
+			{"skill" : "offence", "level": "basic"},
+			{"skill" : "fireMagic", "level": "basic"}
+		],
+    
+		"specialty" : {
+			"creature" : "redDragon",
+			"creatureLevel" : 7,
+			"stepSize" : 20
+		},
+	
+		"army" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30,
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6, "max" : 8,
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3, "max" : 5,
+			}
+		]
+	}
+}

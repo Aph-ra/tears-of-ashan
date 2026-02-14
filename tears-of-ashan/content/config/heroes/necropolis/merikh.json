@@ -1,0 +1,50 @@
+{
+	"merikh" : {
+		"class" : "deathKnightNew",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [ "shield" ],
+		"texts" : {
+			"name" : "Merikh",
+			"biography" : "Once a Sherif of the Seven Cities, Merikh remained a stern agent of the law after being turned into an Undead by Archon Belketh himself. It was Merikh who presided over the trial of the nefarious Nethermancer Sandro, banishing him from the Wizard lands. When Sandro returned, some sixty years later, he had not forgotten Merikh's role in his exile, and perpetrated his revenge by trapping his soul within a ghoul's body. It took Belketh several years and a great amount of power to track down the creature and salvage Merikh's essence, binding it to a more appropriate vessel: a black suit of armour. Relentless, unbendable and incorruptible, Merikh has become a terrifying embodiment of Justice.",
+			"specialty" : {
+				"name" : "Grim Guards",
+				"tooltip" : "Creature Bonus: Grim Guards",
+				"description" : "Increases the Speed of allied Grim Guards, Black Guards, and Dread Guards by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."				
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/necropolis/merikh/portraitSmall.png",
+			"large" : "heroes/necropolis/merikh/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Grim Guards.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Grim Guards.png"
+		},
+
+		"skills" : [
+			{"skill" : "necromancy", "level": "basic"},
+			{"skill" : "armorer", "level": "basic"}
+		],
+    
+		"specialty" : {
+			"creature" : "grimGuardAU",
+			"creatureLevel" : 4,
+			"stepSize" : 20
+		},
+	
+		"army" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "grimGuardAU",
+				"min" : 2, "max" : 3
+			},
+			{
+				"creature" : "grimGuardAU",
+				"min" : 2, "max" : 3
+			}
+		]
+	}
+}

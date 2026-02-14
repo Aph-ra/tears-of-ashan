@@ -1,0 +1,243 @@
+{
+	"campaign-heroes:generalKendal" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Armorer skill percentage.",
+				"name" : "Armorer",
+				"tooltip" : "Secondary Skill Bonus: Armorer"
+			}
+		},
+		"specialty#override" : {
+			"secondary" : "armorer"
+		},
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		],
+		"skills#override": [
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		"images" : {
+			"small" : "HPS129MK.PCX",
+			"large" : "HPL129MK.PCX",
+			"specialtySmall" : "heroes/castle/generalKendal/specialtySmall.png",
+			"specialtyLarge" : "heroes/castle/generalKendal/specialtyLarge.png"
+		}
+	},
+	"campaign-heroes:youngCatherine" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Swordsmen, Crusaders, and Guardsmen by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
+			}
+		},
+		"specialty#override" : {
+			"creature" : "swordsman",
+			"creatureLevel" : 4,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "swordsman",
+				"min" : 2, "max" : 3
+			},
+			{
+				"creature" : "swordsman",
+				"min" : 2, "max" : 3
+			}
+		]
+	},
+	"campaign-heroes:youngChristian" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
+				"name" : "Logistics",
+				"tooltip" : "Secondary Skill Bonus: Logistics"
+			}
+		},
+		"specialty#override" : {
+			"secondary" : "logistics"
+		},
+		"army#override" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		],
+		"skills#override": [
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "logistics", "level": "basic" }
+		],
+		"images" : {
+			"small" : "HPS002SH.PCX",
+			"large" : "HPL002SH.PCX",
+			"specialtySmall" : "heroes/castle/youngChristian/specialtySmall.png",
+			"specialtyLarge" : "heroes/castle/youngChristian/specialtyLarge.png"
+		}
+	},
+	"campaign-heroes:youngGem" : {
+		"army#override" : [
+			{
+				"creature" : "centaur",
+				"min" : 12, "max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"campaign-heroes:youngYog" : {
+		"spellbook" : [ "chainLightning" ],
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases Tactics placement area by 2.",
+				"name" : "Tactics",
+				"tooltip" : "Secondary Skill Bonus: Tactics"
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"tactics" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "BEFORE_BATTLE_REPOSITION",
+					"val" : 2
+				}
+			}
+		},
+		"army#override" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30, "max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5, "max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4, "max" : 5
+			}
+		],
+		"skills#override": [
+			{ "skill" : "tactics", "level": "basic" },
+			{ "skill" : "airMagic", "level": "basic" }
+		],
+		"images" : {
+			"small" : "HPS136WI.PCX",
+			"large" : "HPL136WI.PCX",
+			"specialtySmall" : "heroes/tower/yog/specialtySmall.png",
+			"specialtyLarge" : "heroes/tower/yog/specialtyLarge.png"
+		}
+	},
+	"campaign-heroes:finneasVilmar" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Animate Dead with effect increased by 5% for every N hero levels, where N is the level of the target creature."
+			}
+		},
+		"army#override" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "wight",
+				"min" : 4, "max" : 6
+			}
+		]
+	},
+	"campaign-heroes:youngSandro" : {
+		"army#override" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "wight",
+				"min" : 4, "max" : 6
+			}
+		]
+	},
+	"campaign-heroes:ordwald" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Slayer with effect increased by 20 for level 1–2 creatures, by 16 for level 3–4 creatures, by 12 for level 5–6 creatures, and by 8 for level 7 creatures."
+			}
+		},
+		"army#override" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3, "max" : 5
+			}
+		]
+	},
+	"campaign-heroes:youngAlkin" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Gorgons, Mighty Gorgons, and Corrosive Gorgons by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up)."
+			}
+		},
+		"specialty#override" : {
+			"creature" : "gorgon",
+			"creatureLevel" : 5,
+			"stepSize" : 20
+		},
+		"army#override" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "gorgon",
+				"min" : 2, "max" : 3
+			}
+		]
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"goldPegasusAU": {
+		"name" : {"singular" : "Gold Pegasus", "plural" : "Gold Pegasi"},
+		"faction" : "rampart",
+		"level" : 4,
+		"attack" : 12,
+		"defense" : 8,
+		"damage" : {"min" : 5, "max" : 9},
+		"hitPoints" : 30,
+		"speed" : 12,
+		"growth" : 5,
+		"aiValue" : 580,
+		"fightValue" : 460,
+		"cost" : {"gold" : 350},
+		"advMapAmount" : {"min" : 10, "max" : 16},
+		"upgrades" : ["core:silverPegasus"],
+		"doubleWide" : true,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"noRetaliation" : {
+				"type" : "BLOCKS_RETALIATION"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/rampart/battle/lvl4Alt.json",
+			"map" : "creatures/rampart/map/lvl4Alt.json",
+			"mapMask" : ["VVV","VAV"],
+			"iconSmall" : "creatures/rampart/iconsSmall/lvl4Alt.png",
+			"iconLarge" : "creatures/rampart/iconsBig/lvl4Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "APEGATTK.wav",
+			"defend": "APEGDFND.wav",
+			"killed": "APEGKILL.wav",
+			"move": "APEGMOVE.wav",
+			"wince": "APEGWNCE.wav"
+		}
+	}
+}

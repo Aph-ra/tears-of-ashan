@@ -1,0 +1,8 @@
+{
+	"images" : [
+		{ "frame" : 0, "file" : "frames/lightSpell01.png" },
+		{ "frame" : 1, "file" : "frames/lightSpell02.png" },
+		{ "frame" : 2, "file" : "frames/lightSpell03.png" },
+		{ "frame" : 3, "file" : "frames/lightSpell04.png" }
+	]
+}

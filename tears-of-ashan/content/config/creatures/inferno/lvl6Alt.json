@@ -1,0 +1,132 @@
+{
+	"efreetSufiAU": {
+		"name" : {"singular" : "Efreet Sufi", "plural" : "Efreet Sufis"},
+		"faction" : "inferno",
+		"level" : 6,
+		"attack" : 18,
+		"defense" : 12,
+		"damage" : {"min" : 16, "max" : 24},
+		"hitPoints" : 90,
+		"speed" : 14,
+		"growth" : 2,
+		"aiValue" : 2500,
+		"fightValue" : 1850,
+		"cost" : {"gold" : 1250},
+		"advMapAmount" : {"min" : 5, "max" : 10},
+		"upgrades" : ["core:efreetSultan"],
+		"doubleWide" : false,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying",
+				"icon" : "zvs/Lib1.res/e_fly3"
+			},
+			"immuneToFire" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "fire"
+			},
+			"fireShield" : {
+				"type" : "FIRE_SHIELD",
+				"val" : 20
+			},
+			"hateGenies" : {
+				"type" : "HATE",
+				"subtype" : "genie",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateMasterGenies" : {
+				"type" : "HATE",
+				"subtype" : "masterGenie",
+				"val" : 50,
+				"hidden" : true
+			},
+			"hateGenieViziers" : {
+				"type" : "HATE",
+				"subtype" : "genieVizierAU",
+				"val" : 50,
+				"description" : "{Hates Genies}\nDoes 50% more Damage to Genies, Master Genies, and Genie Viziers",
+				"icon" : "zvs/Lib1.res/hatesultans1.png"
+			},
+			"casts" : {
+				"type" : "CASTS",
+				"val" : 3,
+				"description" : "{Random Negative Spell}\nCan cast a random Advanced negative spell on an enemy unit",
+				"icon" : "zvs/Lib1.res/RandomBoost.png"
+			},
+			"spellPower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"castDisruptingRay" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.disruptingRay",
+				"val" : 2,
+				"addInfo" : 15,
+				"hidden" : true
+			},
+			"castSlow" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.slow",
+				"val" : 2,
+				"addInfo" : 15,
+				"hidden" : true
+			},
+			"castSorrow" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.sorrow",
+				"val" : 2,
+				"addInfo" : 15,
+				"hidden" : true
+			},
+			"castBlind" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.blind",
+				"val" : 2,
+				"addInfo" : 10,
+				"hidden" : true
+			},
+			"castCurse" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.curse",
+				"val" : 2,
+				"addInfo" : 15,
+				"hidden" : true
+			},
+			"castMisfortune" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.misfortune",
+				"val" : 2,
+				"addInfo" : 15,
+				"hidden" : true
+			},
+			"castWeakness" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.weakness",
+				"val" : 2,
+				"addInfo" : 15,
+				"hidden" : true
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/inferno/battle/lvl6Alt.def",
+			"map" : "creatures/inferno/map/lvl6Alt.def",
+			"iconSmall" : "creatures/inferno/iconsSmall/lvl6Alt.png",
+			"iconLarge" : "creatures/inferno/iconsBig/lvl6Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "ESULATTK.wav",
+			"defend": "ESULDFND.wav",
+			"killed": "ESULKILL.wav",
+			"move": "ESULMOVE.wav",
+			"shoot": "ESULSHOT.wav",
+			"wince": "ESULWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"medusaWarriorAU": {
+		"name" : {"singular" : "Medusa Warrior", "plural" : "Medusa Warriors"},
+		"faction" : "dungeon",
+		"level" : 4,
+		"attack" : 12,
+		"defense" : 12,
+		"damage" : {"min" : 6, "max" : 12},
+		"hitPoints" : 35,
+		"speed" : 8,
+		"growth" : 4,
+		"aiValue" : 650,
+		"fightValue" : 550,
+		"cost" : {"gold" : 360},
+		"advMapAmount" : {"min" : 10, "max" : 16},
+		"upgrades" : ["core:medusaQueen"],
+		"doubleWide" : true,
+		"abilities" : {
+			"petrification" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "stoneGaze",
+				"val" : 40,
+				"addInfo" : [0, 1],
+				"icon" : "zvs/Lib1.res/turntostone0.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dungeon/battle/lvl4Alt",
+			"map" : "creatures/dungeon/map/lvl4Alt",
+			"iconSmall" : "creatures/dungeon/iconsSmall/lvl4Alt",
+			"iconLarge" : "creatures/dungeon/iconsBig/lvl4Alt",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack": "MEDQATTK.wav",
+			"defend": "MEDQDFND.wav",
+			"killed": "MEDQKILL.wav",
+			"move": "MEDQMOVE.wav",
+			"wince": "MEDQWNCE.wav"
+		}
+	}
+}	

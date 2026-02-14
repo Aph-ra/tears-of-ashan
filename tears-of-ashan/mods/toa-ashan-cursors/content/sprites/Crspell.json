@@ -1,0 +1,105 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "Crspl00.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "Crspl00.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "Crspl00.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "Crspl00.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "Crspl00.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "Crspl00.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "Crspl00.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "Crspl00.png"
+        },
+        {
+            "group": 0,
+            "frame": 8,
+            "file": "Crspl00.png"
+        },
+        {
+            "group": 0,
+            "frame": 9,
+            "file": "Crspl00.png"
+        },
+        {
+            "group": 0,
+            "frame": 10,
+            "file": "Crspl00.png"
+        },
+        {
+            "group": 0,
+            "frame": 11,
+            "file": "Crspl00.png"
+        },
+        {
+            "group": 0,
+            "frame": 12,
+            "file": "Crspl00.png"
+        },
+        {
+            "group": 0,
+            "frame": 13,
+            "file": "Crspl00.png"
+        },
+        {
+            "group": 0,
+            "frame": 14,
+            "file": "Crspl00.png"
+        },
+        {
+            "group": 0,
+            "frame": 15,
+            "file": "Crspl00.png"
+        },
+        {
+            "group": 0,
+            "frame": 16,
+            "file": "Crspl00.png"
+        },
+        {
+            "group": 0,
+            "frame": 17,
+            "file": "Crspl00.png"
+        },
+        {
+            "group": 0,
+            "frame": 18,
+            "file": "Crspl00.png"
+        },
+        {
+            "group": 0,
+            "frame": 19,
+            "file": "Crspl00.png"
+        }
+    ],
+    "basepath": "Crspell/"
+}

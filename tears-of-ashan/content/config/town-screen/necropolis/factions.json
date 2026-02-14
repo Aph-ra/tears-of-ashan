@@ -1,0 +1,168 @@
+{
+	"core:necropolis" : {
+		"town" : {
+			"hallBackground": "town-screen/necropolis/necropolisHallBg",
+			"buildingsIcons": "town-screen/necropolis/ALTHALLNECR.DEF",
+			
+			"creatures" : [
+				["skeleton", "skeletonWarrior", "skeletonArcherAU"],
+				["walkingDead", "zombieLord", "rotZombieAU"],
+				["wight", "wraith", "bansheeAU"],
+				["vampire", "vampireLord", "vampirePrinceAU", "grimGuardAU", "dreadGuardAU", "blackGuardAU"],
+				["lich", "powerLich", "lichMasterAU"],
+				["blackKnight", "dreadKnight", "dreadtaurAU"],
+				["boneDragon", "ghostDragon", "spectralDragonAU"]
+			],
+			
+			"hallSlots": [
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special2" ], [ "shipyard" ] ],
+				[ [ "special1" ], [ "special3" ], [ "horde1", "horde1Upgr", "horde1Upgr2" ], [ "dwellingLvl4B", "dwellingUpLvl4B", "dwellingUp2Lvl4B" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1", "dwellingUp2Lvl1" ], [ "dwellingLvl2", "dwellingUpLvl2", "dwellingUp2Lvl2" ], [ "dwellingLvl3", "dwellingUpLvl3", "dwellingUp2Lvl3" ], [ "dwellingLvl4", "dwellingUpLvl4", "dwellingUp2Lvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5", "dwellingUp2Lvl5" ], [ "dwellingLvl6", "dwellingUpLvl6", "dwellingUp2Lvl6" ], [ "dwellingLvl7", "dwellingUpLvl7", "dwellingUp2Lvl7" ] ]
+			],
+			
+			"structures" : {
+				"horde1Upgr2": { "animation" : "town-screen/cyan", "x" : 64,  "y" : 222, "z" : 5, "border" : "TONSKE2H.PCX", "area" : "town-screen/cyan", "hidden" : true, "builds" : "horde1Upgr" },
+				"dwellingUp2Lvl1": { "animation" : "town-screen/cyan", "x" : 64,  "y" : 222, "z" : 5, "border" : "TONSKEL2.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl2": { "animation" : "town-screen/cyan", "x" : 498, "y" : 224, "z" : 1, "border" : "TONZOMB2.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl3": { "animation" : "town-screen/cyan", "x" : 0,   "y" : 179, "z" : 8, "border" : "TONWIGH2.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl4": { "animation" : "town-screen/cyan", "x" : 615, "y" : 193, "z" : 2, "border" : "TONVAM2.PCX",  "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl5": { "animation" : "town-screen/cyan", "x" : 222, "y" : 171, "z" : 3, "border" : "TONLICH2.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl6": { "animation" : "town-screen/cyan", "x" : 0,   "y" : 30,  "z" : -2,  "border" : "TONBKN2.PCX",  "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl7": { "animation" : "town-screen/cyan", "x" : 662, "y" : 23,  "border" : "TONBON2.PCX",  "area" : "town-screen/cyan" },
+				"dwellingLvl4B": {
+					"animation" : "town-screen/necropolis/guard1.json",
+					"x" : 593, "y" : 212, "z" : 3,
+					"border" : "town-screen/necropolis/borders/TONgard1.bmp",
+					"area" : "town-screen/necropolis/areas/TZNgard1.bmp"
+				},
+				"dwellingUpLvl4B": {
+					"animation" : "town-screen/necropolis/guard2.json",
+					"x" : 593, "y" : 212, "z" : 3,
+					"border" : "town-screen/necropolis/borders/TONgard2.bmp",
+					"area" : "town-screen/necropolis/areas/TZNgard1.bmp"
+				},
+				"dwellingUp2Lvl4B": {
+					"animation" : "town-screen/necropolis/guard3.json",
+					"x" : 593, "y" : 212, "z" : 3,
+					"border" : "town-screen/necropolis/borders/TONgard2.bmp",
+					"area" : "town-screen/necropolis/areas/TZNgard2.bmp"
+				}
+			},
+			
+			"buildings" : {
+				"horde1Upgr" : {
+					"description" : "The Unearthed Graves increase Skeleton Warrior and Skeleton Archer production by 8 per week."
+				},
+				"horde1Upgr2" : {
+					"name" : "Unearthed Graves",
+					"description" : "The Unearthed Graves increase Skeleton Warrior and Skeleton Archer production by 8 per week.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["horde1Upgr"] ]
+				},
+				"dwellingUpLvl1" : {
+					"description" : "The Cursed Temple allows you to recruit Skeleton Warriors and Skeleton Archers."
+				},
+				"dwellingUp2Lvl1" : {
+					"name" : "Upg. Cursed Temple",
+					"description" : "The Cursed Temple allows you to recruit Skeleton Warriors and Skeleton Archers.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl1"] ]
+				},
+				"dwellingUpLvl2" : {
+					"description" : "The Graveyard allows you to recruit Plague Zombies and Rot Zombies."
+				},
+				"dwellingUp2Lvl2" : {
+					"name" : "Upg. Graveyard",
+					"description" : "The Graveyard allows you to recruit Plague Zombies and Rot Zombies.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl2"] ]
+				},
+				"dwellingUpLvl3" : {
+					"description" : "The Tomb of Souls allows you to recruit Wraiths and Banshees."
+				},
+				"dwellingUp2Lvl3" : {
+					"name" : "Upg. Tomb of Souls",
+					"description" : "The Tomb of Souls allows you to recruit Wraiths and Banshees.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl3"] ]
+				},
+				"dwellingUpLvl4" : {
+					"description" : "The Estate allows you to recruit Vampire Lords and Vampire Princes."
+				},
+				"dwellingUp2Lvl4" : {
+					"name" : "Upg. Estate",
+					"description" : "The Estate allows you to recruit Vampire Lords and Vampire Princes.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl4"] ]
+				},
+				"dwellingUpLvl5" : {
+					"description" : "The Mausoleum allows you to recruit Power Liches and Lich Masters."
+				},
+				"dwellingUp2Lvl5" : {
+					"name" : "Upg. Mausoleum",
+					"description" : "The Mausoleum allows you to recruit Power Liches and Lich Masters.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl5"] ]
+				},
+				"dwellingUpLvl6" : {
+					"description" : "The Hall of Darkness allows you to recruit Dread Knights and Dreadtaurs."
+				},
+				"dwellingUp2Lvl6" : {
+					"name" : "Upg. Hall of Darkness",
+					"description" : "The Hall of Darkness allows you to recruit Dread Knights and Dreadtaurs.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl6"] ]
+				},
+				"dwellingUpLvl7" : { 
+					"description" : "The Dragon Vault allows you to recruit Ghost Dragons and Spectral Dragons."
+				},
+				"dwellingUp2Lvl7" : { 
+					"name" : "Upg. Dragon Vault",
+					"description" : "The Dragon Vault allows you to recruit Ghost Dragons and Spectral Dragons.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl7"] ]
+				},
+				"dwellingLvl4" : {
+					"requires" : [ "allOf", [ "dwellingLvl2" ], [ "noneOf", [ "dwellingLvl4B" ] ]	]
+				},
+				"dwellingLvl6" : {
+					"requires" : [ "allOf",	[ "dwellingLvl5" ], [ "anyOf", [ "dwellingLvl4" ], [ "dwellingLvl4B" ] ] ]
+				},
+				"dwellingLvl4B" : {
+					"description" : "The Cathedral of Darkness allows you to recruit Grim Guards.",
+					"name" : "Cathedral of Darkness",
+					"id" : 54,
+					"cost" : {
+						"gold" : 2000,
+						"wood" : 5,
+						"ore" : 10
+					},
+					"requires" : [ "allOf", [ "dwellingLvl2" ], [ "noneOf", [ "dwellingLvl4" ] ] ]
+				},
+				"dwellingUpLvl4B" : {
+					"description" : "The Cathedral of Darkness allows you to recruit Black Guards and Dread Guards.",
+					"name" : "Upg. Cathedral of Darkness",
+					"id" : 61,
+					"upgrades" : "dwellingLvl4B",
+					"cost" : {
+						"gold" : 2000,
+						"crystal" : 5,
+						"gems" : 5
+					},
+					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ] ]
+				},
+				"dwellingUp2Lvl4B" : {
+					"description" : "The Cathedral of Darkness you to recruit Black Guards and Dread Guards.",
+					"name" : "Upg. Cathedral of Darkness",
+					"id" : 68,
+					"upgrades" : "dwellingUpLvl4B",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl4B"] ]
+				},
+				
+			}
+		}
+	}	
+}

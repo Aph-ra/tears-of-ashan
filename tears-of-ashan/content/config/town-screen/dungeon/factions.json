@@ -1,0 +1,101 @@
+{
+	"core:dungeon" : {
+		"town" : {
+			"hallBackground": "TPTHBKDG",
+			"buildingsIcons": "town-screen/dungeon/AltHallDung",
+
+			"creatures" : [
+				["troglodyte", "infernalTroglodyte", "chthonianAU"],
+				["harpy", "harpyHag", "furyAU"],
+				["beholder", "evilEye", "fargazerAU"],
+				["medusa", "medusaQueen", "medusaWarriorAU"],
+				["minotaur", "minotaurKing", "minotaurTaskmasterAU" ],
+				["manticore", "scorpicore", "chimeraAU"],
+				["redDragon", "blackDragon", "shadowDragonAU"]
+			],
+
+			"structures" : {
+				"horde1Upgr2":		{ "animation" : "town-screen/cyan", "x" : 0,   "y" : 300, "z" : 2, "border" : "TODTR2HA.PCX", "area" : "town-screen/cyan", "hidden" : true, "builds" : "horde1Upgr" },
+				"dwellingUp2Lvl1": 	{ "animation" : "town-screen/cyan", "x" : 0,   "y" : 300, "z" : 2, "border" : "TODTRG2A.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl2": 	{ "animation" : "town-screen/cyan", "x" : 0,   "y" : 26,           "border" : "TODHAR2.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl3": 	{ "animation" : "town-screen/cyan", "x" : 118, "y" : 256, "z" : 1, "border" : "TODBEH2A.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl4": 	{ "animation" : "town-screen/cyan", "x" : 300, "y" : 29,  "z" : -1, "border" : "TODMED2.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl5": 	{ "animation" : "town-screen/cyan", "x" : 519, "y" : 172, "z" : 1, "border" : "TODMIN2.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl6": 	{ "animation" : "town-screen/cyan", "x" : 270, "y" : 253, "z" : -1, "border" : "TODMAN2.PCX", "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl7": 	{ "animation" : "town-screen/cyan", "x" : 550, "y" : 0,   "z" : -1, "border" : "TODDRA2A.PCX", "area" : "town-screen/cyan" }
+			},
+
+			"buildings" : {
+				"horde1Upgr2" : {
+					"name" : "Mushroom Rings",
+					"description" : "The Mushroom Rings increase Infernal Troglodyte and Chthonian production by 7 per week.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["horde1Upgr"] ]
+				},
+				"dwellingUpLvl1" : {
+					"description" : "The Warren allows you to recruit Infernal Troglodytes and Chthonians."
+				},
+				"dwellingUp2Lvl1" : {
+					"name" : "Upg. Warren",
+					"description" : "The Warren allows you to recruit Infernal Troglodytes and Chthonians.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl1"] ]
+				},
+				"dwellingUpLvl2" : {
+					"description" : "The Harpy Loft allows you to recruit Harpy Hags and Furies."
+				},
+				"dwellingUp2Lvl2" : {
+					"name" : "Upg. Harpy Loft",
+					"description" : "The Harpy Loft allows you to recruit Harpy Hags and Furies.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl2"] ]
+				},
+				"dwellingUpLvl3" : {
+					"description" : "The Pillar of Eyes allows you to recruit Evil Eyes and Fargazers."
+				},
+				"dwellingUp2Lvl3" : {
+					"name" : "Upg. Pillar of Eyes",
+					"description" : "The Pillar of Eyes allows you to recruit Evil Eyes and Fargazers.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl3"] ]
+				},
+				"dwellingUpLvl4" : {
+					"description" : "The Chapel of Stilled Voices allow you to recruit Medusa Queens and Medusa Warriors."
+				},
+				"dwellingUp2Lvl4" : {
+					"name" : "Upg. Chapel of Stilled Voices",
+					"description" : "The Chapel of Stilled Voices allow you to recruit Medusa Queens and Medusa Warriors.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl4"] ]
+				},
+				"dwellingUpLvl5" : {
+					"description" : "The Labyrinth allows you to recruit Minotaur Kings and Minotaur Taskmasters."
+				},
+				"dwellingUp2Lvl5" : {
+					"name" : "Upg. Labyrinth",
+					"description" : "The Labyrinth allows you to recruit Minotaur Kings and Minotaur Taskmasters.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl5"] ]
+				},
+				"dwellingUpLvl6" : {
+					"description" : "The Manticore Lair allow you to recruit Scorpicores and Chimeras."
+				},
+				"dwellingUp2Lvl6" : {
+					"name" : "Upg. Manticore Lair",
+					"description" : "The Manticore Lair allow you to recruit Scorpicores and Chimeras.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl6"] ]
+				},
+				"dwellingUpLvl7" : {
+					"description" : "The Dragon Cave allows you to recruit Black Dragons and Shadow Dragons."
+				},
+				"dwellingUp2Lvl7" : {
+				"name" : "Upg. Dragon Cave",
+					"description" : "The Dragon Cave allows you to recruit Black Dragons and Shadow Dragons.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl7"] ]
+				}
+			}
+		}
+	}
+}

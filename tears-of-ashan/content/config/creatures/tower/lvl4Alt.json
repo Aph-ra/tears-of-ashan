@@ -1,0 +1,101 @@
+{
+	"battleMageAU": {
+		"name" : {"singular" : "Battle Mage", "plural" : "Battle Magi"},
+		"faction" : "tower",
+		"level" : 4,
+		"attack" : 14,
+		"defense" : 8,
+		"shots" : 24,
+		"damage" : {"min" : 8, "max" : 10},
+		"hitPoints" : 30,
+		"speed" : 6,
+		"growth" : 4,
+		"aiValue" : 750,
+		"fightValue" : 500,
+		"cost" : {"gold" : 500},
+		"advMapAmount" : {"min" : 10, "max" : 16},
+		"upgrades" : ["core:archMage"],
+		"doubleWide" : false,
+		"abilities" : {
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"noWallPenalty" : {
+				"type" : "NO_WALL_PENALTY"
+			},
+			"reduceSpellCost" : {
+				"type" : "CHANGES_SPELL_COST_FOR_ALLY",
+				"val" :  2
+			},
+			"casts" : {
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"spellPower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 40
+			},
+			"castsMagicArrow" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.magicArrow",
+				"addInfo" : 40,
+				"val" : 2,
+				"description" : "{Spellcaster}\nHas a 40% chance to cast Advanced Magic Arrow (40% Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/magicarrow2.png"
+			},
+			"castsIceBolt" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.iceBolt",
+				"addInfo" : 35,
+				"val" : 2,
+				"description" : "{Spellcaster}\nHas a 35% chance to cast Advanced Ice Bolt (40% Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/icebolt2.png"
+			},
+			"castsLightningBolt" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.lightningBolt",
+				"addInfo" : 25,
+				"val" : 2,
+				"description" : "{Spellcaster}\nHas a 25% chance to cast Advanced Lightning Bolt (30% Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/lightningbolt2.png"
+			},
+		},
+		"graphics" : {
+			"animation" : "creatures/tower/battle/lvl4Alt.json",
+			"map" : "creatures/tower/map/lvl4Alt.json",
+			"mapMask" : [ "VVV", "VAV"],
+			"iconSmall" : "creatures/tower/iconsSmall/lvl4Alt.png",
+			"iconLarge" : "creatures/tower/iconsBig/lvl4Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"missile" : {
+				"attackClimaxFrame" : 5,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0 ],
+				"ray" : [
+					{ "start" : [ 160, 192,   0, 255 ], "end" : [ 160, 192,   0,  64 ] },
+					{ "start" : [ 128, 224, 128, 255 ], "end" : [ 128, 224, 128, 128 ] },
+					{ "start" : [  32, 176,  32, 255 ], "end" : [  32, 176,  32, 255 ] },
+					{ "start" : [ 128, 224, 128, 255 ], "end" : [ 128, 224, 128, 128 ] },
+					{ "start" : [ 160, 192,   0, 255 ], "end" : [ 160, 192,   0,  64 ] }
+				],
+				"offset" : {
+					"lowerX" : 24,	"lowerY" : -52,
+					"middleX" : 52,	"middleY" : -53,
+					"upperX" : 49,	"upperY" : -54
+				}
+			}
+		},
+		"sound" : {
+			"attack" : "AMAGATTK.wav",
+			"defend" : "AMAGDFND.wav",
+			"killed" : "AMAGKILL.wav",
+			"move" : "AMAGMOVE.wav",
+			"shoot" : "AMAGSHOT.wav",
+			"wince" : "AMAGWNCE.wav"
+		}
+	}
+}

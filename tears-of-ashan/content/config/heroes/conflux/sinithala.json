@@ -1,0 +1,50 @@
+{
+	"sinithala" : {
+		"class" : "elementalist",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [ "magicArrow" ],
+		"texts" : {
+			"name" : "Sinithala",
+			"biography" : "Sinithala is very old, old enough to remember a time when the Shantiri Empire still ruled most of the known lands, and Irollan's dominions spread as far south as Yon-Chall Forest. Of course, being an Elf, it would be very hard to guess her age just from her looks. Sinithala knows her time will come soon, though, but she is not willing to abandon her beloved forest. She is already making preparations to be reincarnated as a Dryad after her death.",
+			"specialty" : {
+				"description" : "Increases the Speed of allied Pixies, Sprites, and Faeries by 1 and their Attack and Defense skills by 20% for every level (rounded up).",
+				"tooltip" : "Creature Bonus: Pixies",
+				"name" : "Pixies"
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/conflux/sinithala/portraitSmall.png",
+			"large" : "heroes/conflux/sinithala/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Pixies.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Pixies.png"
+		},
+
+		"skills": [
+			{ "skill" : "scouting", "level": "basic" },
+			{ "skill" : "diplomacy", "level": "basic" }
+		],
+    
+		"specialty" : {
+			"creature" : "pixie",
+			"creatureLevel" : 1,
+			"stepSize" : 20
+		},
+	
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25
+			},
+			{
+				"creature" : "pixie",
+				"min" : 15, "max" : 25
+			}
+		]
+	}
+}

@@ -1,0 +1,505 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "cpfoe40.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "cpfoe41.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "cpfoe42.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "cpfoe43.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "cpfoe44.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "cpfoe45.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "cpfoe46.pcx.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "cpfoe47.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "cpfoe30.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 1,
+            "file": "cpfoe31.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 2,
+            "file": "cpfoe32.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 3,
+            "file": "cpfoe33.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 4,
+            "file": "cpfoe32.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 5,
+            "file": "cpfoe33.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 6,
+            "file": "cpfoe32.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 7,
+            "file": "cpfoe33.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 8,
+            "file": "cpfoe32.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 9,
+            "file": "cpfoe31.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 10,
+            "file": "cpfoe30.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "cpfoe64.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 1,
+            "file": "cpfoe34.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 2,
+            "file": "cpfoe35.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 3,
+            "file": "cpfoe36.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 4,
+            "file": "cpfoe37.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 5,
+            "file": "cpfoe36.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 6,
+            "file": "cpfoe35.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 7,
+            "file": "cpfoe34.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "cpfoe50.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 1,
+            "file": "cpfoe51.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "cpfoe52.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 3,
+            "file": "cpfoe53.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 4,
+            "file": "cpfoe54.pcx.png"
+        },
+        {
+            "group": 3,
+            "frame": 5,
+            "file": "cpfoe55.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "cpfoe26.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 1,
+            "file": "cpfoe27.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 2,
+            "file": "cpfoe28.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 3,
+            "file": "cpfoe29.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 4,
+            "file": "cpfoe29.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 5,
+            "file": "cpfoe29.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 6,
+            "file": "cpfoe29.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 7,
+            "file": "cpfoe29.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 8,
+            "file": "cpfoe28.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 9,
+            "file": "cpfoe27.pcx.png"
+        },
+        {
+            "group": 4,
+            "frame": 10,
+            "file": "cpfoe26.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 0,
+            "file": "cpfoe21.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 1,
+            "file": "cpfoe22.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 2,
+            "file": "cpfoe23.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 3,
+            "file": "cpfoe24.pcx.png"
+        },
+        {
+            "group": 5,
+            "frame": 4,
+            "file": "cpfoe25.pcx.png"
+        },
+        {
+            "group": 7,
+            "frame": 0,
+            "file": "cpfoe56.pcx.png"
+        },
+        {
+            "group": 7,
+            "frame": 1,
+            "file": "cpfoe57.pcx.png"
+        },
+        {
+            "group": 8,
+            "frame": 0,
+            "file": "cpfoe57.pcx.png"
+        },
+        {
+            "group": 8,
+            "frame": 1,
+            "file": "cpfoe56.pcx.png"
+        },
+        {
+            "group": 9,
+            "frame": 0,
+            "file": "cpfoe56.pcx.png"
+        },
+        {
+            "group": 9,
+            "frame": 1,
+            "file": "cpfoe57.pcx.png"
+        },
+        {
+            "group": 10,
+            "frame": 0,
+            "file": "cpfoe57.pcx.png"
+        },
+        {
+            "group": 10,
+            "frame": 1,
+            "file": "cpfoe56.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 0,
+            "file": "cpfoe01.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 1,
+            "file": "cpfoe02.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 2,
+            "file": "cpfoe09.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 3,
+            "file": "cpfoe10.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 4,
+            "file": "cpfoe11.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 5,
+            "file": "cpfoe12.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 6,
+            "file": "cpfoe13.pcx.png"
+        },
+        {
+            "group": 11,
+            "frame": 7,
+            "file": "cpfoe14.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 0,
+            "file": "cpfoe01.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 1,
+            "file": "cpfoe02.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 2,
+            "file": "cpfoe03.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 3,
+            "file": "cpfoe04.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 4,
+            "file": "cpfoe05.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 5,
+            "file": "cpfoe06.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 6,
+            "file": "cpfoe07.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 7,
+            "file": "cpfoe08.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 0,
+            "file": "cpfoe01.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 1,
+            "file": "cpfoe02.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 2,
+            "file": "cpfoe15.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 3,
+            "file": "cpfoe16.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 4,
+            "file": "cpfoe17.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 5,
+            "file": "cpfoe18.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 6,
+            "file": "cpfoe19.pcx.png"
+        },
+        {
+            "group": 13,
+            "frame": 7,
+            "file": "cpfoe20.pcx.png"
+        },
+        {
+            "group": 18,
+            "frame": 0,
+            "file": "cpfoe58.pcx.png"
+        },
+        {
+            "group": 18,
+            "frame": 1,
+            "file": "cpfoe59.pcx.png"
+        },
+        {
+            "group": 18,
+            "frame": 2,
+            "file": "cpfoe60.pcx.png"
+        },
+        {
+            "group": 18,
+            "frame": 3,
+            "file": "cpfoe61.pcx.png"
+        },
+        {
+            "group": 18,
+            "frame": 4,
+            "file": "cpfoe62.pcx.png"
+        },
+        {
+            "group": 18,
+            "frame": 5,
+            "file": "cpfoe63.pcx.png"
+        },
+        {
+            "group": 18,
+            "frame": 6,
+            "file": "cpfoe63.pcx.png"
+        },
+        {
+            "group": 18,
+            "frame": 7,
+            "file": "cpfoe63.pcx.png"
+        },
+        {
+            "group": 18,
+            "frame": 8,
+            "file": "cpfoe63.pcx.png"
+        },
+        {
+            "group": 18,
+            "frame": 9,
+            "file": "cpfoe63.pcx.png"
+        },
+        {
+            "group": 18,
+            "frame": 10,
+            "file": "cpfoe62.pcx.png"
+        },
+        {
+            "group": 18,
+            "frame": 11,
+            "file": "cpfoe61.pcx.png"
+        },
+        {
+            "group": 18,
+            "frame": 12,
+            "file": "cpfoe60.pcx.png"
+        },
+        {
+            "group": 18,
+            "frame": 13,
+            "file": "cpfoe59.pcx.png"
+        },
+        {
+            "group": 18,
+            "frame": 14,
+            "file": "cpfoe58.pcx.png"
+        },
+        {
+            "group": 20,
+            "frame": 0,
+            "file": "cpfoe38.pcx.png"
+        },
+        {
+            "group": 20,
+            "frame": 1,
+            "file": "cpfoe39.pcx.png"
+        },
+        {
+            "group": 21,
+            "frame": 0,
+            "file": "cpfoe48.pcx.png"
+        },
+        {
+            "group": 21,
+            "frame": 1,
+            "file": "cpfoe49.pcx.png"
+        }
+    ],
+    "basepath": "creatures/inferno/battle/lvl5Alt/"
+}

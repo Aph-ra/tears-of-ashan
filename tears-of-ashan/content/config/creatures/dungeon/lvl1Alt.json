@@ -1,0 +1,55 @@
+{
+	"chthonianAU": {
+		"name" : {"singular" : "Chthonian", "plural" : "Chthonians"},
+		"faction" : "dungeon",
+		"level" : 1,
+		"attack" : 6,
+		"defense" : 3,
+		"damage" : {"min" : 2, "max" : 3},
+		"hitPoints" : 5,
+		"speed" : 5,
+		"growth" : 14,
+		"horde" : 7,
+		"aiValue" : 90,
+		"fightValue" : 90,
+		"cost" : {"gold" : 75},
+		"advMapAmount" : {"min" : 20, "max" : 30},
+		"upgrades" : ["core:infernalTroglodyte"],
+		"doubleWide" : false,
+		"abilities" : {
+			"blindImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "blind",
+				"addInfo" : 1
+			},
+			"petrifyImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "stoneGaze",
+				"addInfo" : 1
+			},
+			"teleports" : {
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dungeon/battle/lvl1Alt",
+			"map" : "creatures/dungeon/map/lvl1Alt",
+			"iconSmall" : "creatures/dungeon/iconsSmall/lvl1Alt",
+			"iconLarge" : "creatures/dungeon/iconsBig/lvl1Alt",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 0.8
+			}
+		},
+		"sound" : {
+			"attack" : "ITRGATTK.wav",
+			"defend" : "ITRGDFND.wav",
+			"killed" : "ITRGKILL.wav",
+			"move" : "ITRGMOVE.wav",
+			"wince" : "ITRGWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,118 @@
+{
+	"frostElementalAU": {
+		"name" : {"singular" : "Frost Elemental", "plural" : "Frost Elementals"},
+		"faction" : "conflux",
+		"level" : 3,
+		"attack" : 10,
+		"defense" : 10,
+		"shots" : 24,
+		"damage" : {"min" : 3, "max" : 7},
+		"hitPoints" : 25,
+		"speed" : 7,
+		"growth" : 6,
+		"aiValue" : 400,
+		"fightValue" : 400,
+		"cost" : {"gold" : 350},
+		"advMapAmount" : {"min" : 12, "max" : 20},
+		"upgrades" : ["core:iceElemental"],
+		"doubleWide" : true,
+		"abilities#override" : {
+			"nonLiving" : {
+				"type" : "NON_LIVING"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"immuneToWater" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.water"
+			},
+			"waterBuff" : {
+				"type" : "RECEPTIVE"
+			},
+			"fireballVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireball",
+				"val" : 50,
+				"hidden" : true
+			},
+			"infernoVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.inferno",
+				"val" : 50,
+				"hidden" : true
+			},
+			"armageddonVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.armageddon",
+				"val" : 50,
+				"hidden" : true
+			},
+			"fireShieldVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireShield",
+				"val" : 50,
+				"hidden" : true
+			},
+			"fireWallVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireWallTrigger",
+				"val" : 50,
+				"description" : "{Vulnerable to Fire}\nTakes 50% more Damage from Fire Magic spells",
+				"icon" : "zvs/Lib1.res/vulnerabilityfire.png"
+			},
+			"castFrostRing" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "frostRing",
+				"val" : 1,
+				"description" : "{Spellcaster}\nCan cast Basic Frost Ring (50% Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/frostring1.png"
+			},
+			"frostRingPower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"subtype" : "frostRing",
+				"val" : 50
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 3
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/conflux/battle/lvl3Alt.def",
+			"map" : "creatures/conflux/map/lvl3Alt.def",
+			"iconSmall" : "creatures/conflux/iconsSmall/lvl3Alt.png",
+			"iconLarge" : "creatures/conflux/iconsBig/lvl3Alt.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"missile" : {
+				"projectile" : "PICEE.DEF",
+				"attackClimaxFrame" : 4,
+				"frameAngles" : [90,72,45,27,0,-27,-45,-72,-90,0,0,0],
+				"offset" : {
+					"lowerX" : 18,
+					"lowerY" : -92,
+					"middleX" : 43,
+					"middleY" : -99,
+					"upperX" : 28,
+					"upperY" : -107
+				},
+			},
+			"timeBetweenFidgets" : 1,
+		},
+		"sound" : {
+			"attack" : "ICELATTK.wav",
+			"defend" : "ICELDFND.wav",
+			"killed" : "ICELKILL.wav",
+			"move" : "ICELMOVE.wav",
+			"shoot" : "ICELSHOT.wav",
+			"wince" : "ICELWNCE.wav"
+		}
+	}
+}

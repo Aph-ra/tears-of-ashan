@@ -1,0 +1,44 @@
+{
+	"core:goblin" : {
+		"upgrades": ["core:hobgoblin", "goblinTrapperAU"]
+	},
+	"core:hobgoblin" : {
+		"upgrades": ["goblinTrapperAU"]
+	},
+	"core:goblinWolfRider" : {
+		"upgrades": ["core:hobgoblinWolfRider", "core:boar"]
+	},
+	"core:hobgoblinWolfRider" : {
+		"upgrades": ["core:boar"]
+	},
+	"core:orc" : {
+		"upgrades": ["core:orcChieftain", "orcBerserkerAU"]
+	},
+	"core:orcChieftain" : {
+		"upgrades": ["orcBerserkerAU"]
+	},
+	"core:ogre" : {
+		"upgrades": ["core:ogreMage", "ogreBruteAU"]
+	},
+	"core:ogreMage" : {
+		"upgrades": ["ogreBruteAU"]
+	},
+	"core:roc" : {
+		"upgrades": ["core:thunderbird", "shahrokhAU"]
+	},
+	"core:thunderbird" : {
+		"upgrades": ["shahrokhAU"]
+	},
+	"core:cyclop" : {
+		"upgrades": ["core:cyclopKing", "bloodEyedCyclopsAU"]
+	},
+	"core:cyclopKing" : {
+		"upgrades": ["bloodEyedCyclopsAU"]
+	},
+	"core:behemoth" : {
+		"upgrades": ["core:ancientBehemoth", "ghostBehemothAU"]
+	},
+	"core:ancientBehemoth" : {
+		"upgrades": ["ghostBehemothAU"]
+	}
+}

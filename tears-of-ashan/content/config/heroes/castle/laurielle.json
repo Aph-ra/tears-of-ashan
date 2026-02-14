@@ -1,0 +1,50 @@
+{
+	"laurielle" : {
+		"class" : "cleric",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [ "prayer" ],
+		"texts" : {
+			"name" : "Laurielle",
+			"biography" : "A faithful servant of Eltath for twenty-three centuries past, Laurielle is an Angel who survived the Elder Wars, but not before coming face-to-face with Azkaal, the Prince of Destruction, himself. Manning the battlements of the great flying city Albanora, Laurielle was struck down by the legendary Demon Lord with a searing blow whose memory still haunts her to this very day.",
+			"specialty" : {
+				"name" : "Angels",
+				"tooltip" : "Creature Bonus: Angels",
+				"description" : "Increases the Speed of allied Angels, Archangels, and Seraphim by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/castle/laurielle/portraitSmall.png",
+			"large" : "heroes/castle/laurielle/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Angels.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Angels.png"
+		},
+
+		"skills": [
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "lightMagic", "level": "basic" }
+		],
+    
+		"specialty" : {
+			"creature" : "angel",
+			"creatureLevel" : 7,
+			"stepSize" : 20
+		},
+	
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10, "max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4, "max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4, "max" : 5
+			}
+		]
+	}
+}

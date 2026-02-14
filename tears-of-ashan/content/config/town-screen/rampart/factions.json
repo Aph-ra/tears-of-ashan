@@ -1,0 +1,114 @@
+{
+	"core:rampart" : {
+		"town" : {
+			"hallBackground": "TPTHBKRM",
+			"buildingsIcons": "town-screen/rampart/ALTHALLRMT.DEF",
+			
+			"creatures" : [
+				["centaur", "centaurCaptain", "centaurRangerAU"],
+				["dwarf", "battleDwarf", "dwarfBattleragerAU"],
+				["woodElf", "grandElf", "elfWardancerAU"],
+				["pegasus", "silverPegasus",  "goldPegasusAU" ],
+				["dendroidGuard", "dendroidSoldier", "dendroidShamanAU"],
+				["unicorn", "warUnicorn", "pristineUnicornAU"],
+				["greenDragon", "goldDragon", "diamondDragonAU"]
+			],
+			
+			"structures" : {
+				"horde1Upgr2":    	{ "animation" : "town-screen/cyan", "x" : 0,   "y" : 143, "z" : -2, "border" : "TORDWF2H.PCX", "area" : "town-screen/cyan", "hidden" : true, "builds" : "horde1Upgr" },
+				"horde2Upgr2":{ "animation" : "town-screen/cyan", "x" : 47,  "y" : 142, "z" : -1, "border" : "TORTRE2H.PCX", "area" : "town-screen/cyan", "hidden" : true, "builds" : "horde2" },	
+				"dwellingUp2Lvl1": 	{ "animation" : "town-screen/cyan", "x" : 0, "y" : 236, "z" : 2, "border" : "TORCEN2A.PCX", "area": "town-screen/cyan" },
+				"dwellingUp2Lvl2": 	{ "animation" : "town-screen/cyan", "x" : 0, "y" : 143, "z" : -2, "border" : "TORDWF2.PCX",  "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl3":	{ "animation" : "town-screen/cyan", "x" : 665, "y" : 101, "z" : -1, "border" : "TORELF2.PCX",  "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl4":	{ "animation" : "town-screen/cyan", "x" : 287, "y" : 28,  "z" : -1, "border" : "TORPEG2A.PCX",  "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl5":	{ "animation" : "town-screen/cyan", "x" : 63,  "y" : 146, "z" : -1, "border" : "TORTRE2.PCX",  "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl6":	{ "animation" : "town-screen/cyan", "x" : 362, "y" : 90,  "z" : -2, "border" : "TORUNI2.PCX",  "area" : "town-screen/cyan" },
+				"dwellingUp2Lvl7":	{ "animation" : "town-screen/cyan", "x" : 502, "y" : 5,   "z" : -5, "border" : "TORDR2AA.PCX", "area" : "town-screen/cyan" }
+			},
+
+			"buildings" : {
+				"horde1Upgr" : {
+					"description" : "The Miners' Guild increases Battle Dwarf and Dwarf Battlerager production by 4 per week."
+				},
+				"horde1Upgr2" : {
+					"name" : "Miners' Guild",
+					"description" : "The Miners' Guild increases Battle Dwarf and Dwarf Battlerager production by 4 per week.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["horde1Upgr"] ]
+				},
+				"horde2Upgr" : {
+					"description" : "The Dendroid Saplings increases Dendroid Soldier and Dendroid Shaman production by 2 per week."
+				},
+				"horde2Upgr2" : {
+					"name" : "Dendroid Saplings",
+					"description" : "The Dendroid Saplings increases Dendroid Soldier and Dendroid Shaman production by 2 per week.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["horde2Upgr"] ]
+				},
+				"dwellingUpLvl1" : {
+					"description" : "The Centaur Stables allow you to recruit Centaur Captains and Centaur Rangers."
+				},
+				"dwellingUp2Lvl1" : {
+					"name" : "Upg. Centaur Stables",
+					"description" : "The Centaur Stables allow you to recruit Centaur Captains and Centaur Rangers.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl1"] ]
+				},
+				"dwellingUpLvl2" : {
+					"description" : "The Dwarf Cottage allows you to recruit Battle Dwarf and Dwarf Battleragers."
+				},
+				"dwellingUp2Lvl2" : {
+					"name" : "Upg. Dwarf Cottage",
+					"description" : "The Dwarf Cottage allows you to recruit Battle Dwarf and Dwarf Battleragers.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl2"] ]
+				},
+				"dwellingUpLvl3" : {
+					"description" : "The Homestead allows you to recruit Grand Elves and Elf Wardancers."
+				},
+				"dwellingUp2Lvl3" : {
+					"name" : "Upg. Homestead",
+					"description" : "The Homestead allows you to recruit Grand Elves and Elf Wardancers.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl3"] ]
+				},
+				"dwellingUpLvl4" : {
+					"description" : "The Enchanted Spring allows you to recruit Silver Pegasi and Gold Pegasi."
+				},
+				"dwellingUp2Lvl4" : {
+					"name" : "Upg. Enchanted Spring",
+					"description" : "The Enchanted Spring allows you to recruit Silver Pegasi and Gold Pegasi.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl4"] ]
+				},
+				"dwellingUpLvl5" : {
+					"description" : "The Dendroid Arches allow you to recruit Dendroid Soldiers and Dendroid Shamans."
+				},
+				"dwellingUp2Lvl5" : {
+					"name" : "Upg. Dendroid Arches",
+					"description" : "The Dendroid Arches allow you to recruit Dendroid Soldiers and Dendroid Shamans.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl5"] ]
+				},
+				"dwellingUpLvl6" : {
+					"description" : "The Unicorn Glade allows you to recruit War Uniorns and Pristine Unicorns."
+				},
+				"dwellingUp2Lvl6" : {
+					"name" : "Upg. Unicorn Glade",
+					"description" : "The Unicorn Glade allows you to recruit War Uniorns and Pristine Unicorns.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl6"] ]
+				},
+				"dwellingUpLvl7" : {
+					"description" : "The Dragon Cliffs allow you to recruit Gold Dragons and Diamond Dragons."
+				},
+				"dwellingUp2Lvl7" : {
+					"name" : "Upg. Dragon Cliffs",
+					"description" : "The Dragon Cliffs allow you to recruit Gold Dragons and Diamond Dragons.",
+					"mode" : "auto",
+					"requires" : [ "allOf",	["dwellingUpLvl7"] ]
+				}
+			}	
+		}
+	}	
+}

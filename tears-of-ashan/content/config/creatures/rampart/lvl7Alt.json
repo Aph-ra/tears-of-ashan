@@ -1,0 +1,64 @@
+{
+	"diamondDragonAU" : {
+		"name" : {"singular" : "Diamond Dragon", "plural" : "Diamond Dragons"},
+		"faction" : "rampart",
+		"level" : 7,
+		"attack" : 32,
+		"defense" : 22,
+		"damage" : {"min" : 40, "max" : 50},
+		"hitPoints" : 200,
+		"speed" : 16,
+		"growth" : 1,
+		"aiValue" : 8700,
+		"fightValue" : 6350,
+		"cost" : {"gold" : 4000, "crystal" : 2},
+		"advMapAmount" : {"min" : 3, "max" : 8},
+		"upgrades" : ["core:goldDragon"],
+		"doubleWide" : true,
+		"abilities" : {
+			"king1" : {
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"dragon" : {
+				"type" : "DRAGON_NATURE"
+			},
+			"dragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
+			},
+			"flying" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"fireBreath" : {
+				"type" : "TWO_HEX_ATTACK_BREATH",
+				"icon" : "zvs/Lib1.res/e_breathgold.png"
+			},
+			"spellImmunity" : {
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 3
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/rampart/battle/lvl7Alt.def",
+			"map" : "creatures/rampart/map/lvl7Alt.def",
+			"iconSmall" : "creatures/rampart/iconsSmall/lvl7Alt.png",
+			"iconLarge" : "creatures/rampart/iconsBig/lvl7Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 0.6,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" : {
+			"attack" : "GODRATTK.wav",
+			"defend" : "GODRDFND.wav",
+			"killed" : "GODRKILL.wav",
+			"move" : "GODRMOVE.wav",
+			"wince" : "GODRWNCE.wav"
+		}
+	}
+}
