@@ -75,6 +75,7 @@
 	],
 	
 	"depends" : [
+		"hota.bulwark",
 		"hota.cannon",
 		"hota.cove",
 		"hota.factory",
@@ -199,7 +200,9 @@
 		"config/heroes/cove/jormungandr.json",
 		
 		"config/heroes/factory/ixchel.json",
-		"config/heroes/factory/kastore.json"
+		"config/heroes/factory/kastore.json",
+		
+		"config/heroes/bulwark/hrimnir.json"
 	],
 
 	"factions" : [
