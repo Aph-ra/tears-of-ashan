@@ -1,0 +1,460 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "CASSIDUPA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "CASSIDUPA001.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "CASSIDUPA002.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "CASSIDUPA003.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "CASSIDUPA004.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "CASSIDUPA005.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "CASSIDUPA006.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "CASSIDUPA007.png"
+        },
+        {
+            "group": 0,
+            "frame": 8,
+            "file": "CASSIDUPA008.png"
+        },
+        {
+            "group": 0,
+            "frame": 9,
+            "file": "CASSIDUPA009.png"
+        },
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "CASSIDUPB000.png"
+        },
+        {
+            "group": 1,
+            "frame": 1,
+            "file": "CASSIDUPB001.png"
+        },
+        {
+            "group": 1,
+            "frame": 2,
+            "file": "CASSIDUPB002.png"
+        },
+        {
+            "group": 1,
+            "frame": 3,
+            "file": "CASSIDUPB003.png"
+        },
+        {
+            "group": 1,
+            "frame": 4,
+            "file": "CASSIDUPB003.png"
+        },
+        {
+            "group": 1,
+            "frame": 5,
+            "file": "CASSIDUPB003.png"
+        },
+        {
+            "group": 1,
+            "frame": 6,
+            "file": "CASSIDUPB003.png"
+        },
+        {
+            "group": 1,
+            "frame": 7,
+            "file": "CASSIDUPB002.png"
+        },
+        {
+            "group": 1,
+            "frame": 8,
+            "file": "CASSIDUPB001.png"
+        },
+        {
+            "group": 1,
+            "frame": 9,
+            "file": "CASSIDUPB000.png"
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "CASSIDUPC000.png"
+        },
+        {
+            "group": 2,
+            "frame": 1,
+            "file": "CASSIDUPC001.png"
+        },
+        {
+            "group": 2,
+            "frame": 2,
+            "file": "CASSIDUPC002.png"
+        },
+        {
+            "group": 2,
+            "frame": 3,
+            "file": "CASSIDUPC003.png"
+        },
+        {
+            "group": 2,
+            "frame": 4,
+            "file": "CASSIDUPC004.png"
+        },
+        {
+            "group": 2,
+            "frame": 5,
+            "file": "CASSIDUPC003.png"
+        },
+        {
+            "group": 2,
+            "frame": 6,
+            "file": "CASSIDUPC002.png"
+        },
+        {
+            "group": 2,
+            "frame": 7,
+            "file": "CASSIDUPC001.png"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "CASSIDUPD000.png"
+        },
+        {
+            "group": 3,
+            "frame": 1,
+            "file": "CASSIDUPD001.png"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "CASSIDUPD002.png"
+        },
+        {
+            "group": 3,
+            "frame": 3,
+            "file": "CASSIDUPD003.png"
+        },
+        {
+            "group": 3,
+            "frame": 4,
+            "file": "CASSIDUPD004.png"
+        },
+        {
+            "group": 3,
+            "frame": 5,
+            "file": "CASSIDUPD005.png"
+        },
+        {
+            "group": 3,
+            "frame": 6,
+            "file": "CASSIDUPD006.png"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "CASSIDUPE000.png"
+        },
+        {
+            "group": 4,
+            "frame": 1,
+            "file": "CASSIDUPE001.png"
+        },
+        {
+            "group": 4,
+            "frame": 2,
+            "file": "CASSIDUPE002.png"
+        },
+        {
+            "group": 4,
+            "frame": 3,
+            "file": "CASSIDUPE003.png"
+        },
+        {
+            "group": 4,
+            "frame": 4,
+            "file": "CASSIDUPE004.png"
+        },
+        {
+            "group": 4,
+            "frame": 5,
+            "file": "CASSIDUPE004.png"
+        },
+        {
+            "group": 4,
+            "frame": 6,
+            "file": "CASSIDUPE004.png"
+        },
+        {
+            "group": 4,
+            "frame": 7,
+            "file": "CASSIDUPE004.png"
+        },
+        {
+            "group": 4,
+            "frame": 8,
+            "file": "CASSIDUPE003.png"
+        },
+        {
+            "group": 4,
+            "frame": 9,
+            "file": "CASSIDUPE002.png"
+        },
+        {
+            "group": 4,
+            "frame": 10,
+            "file": "CASSIDUPE001.png"
+        },
+        {
+            "group": 4,
+            "frame": 11,
+            "file": "CASSIDUPE000.png"
+        },
+        {
+            "group": 5,
+            "frame": 0,
+            "file": "CASSIDUPF000.png"
+        },
+        {
+            "group": 5,
+            "frame": 1,
+            "file": "CASSIDUPF001.png"
+        },
+        {
+            "group": 5,
+            "frame": 2,
+            "file": "CASSIDUPF002.png"
+        },
+        {
+            "group": 5,
+            "frame": 3,
+            "file": "CASSIDUPF003.png"
+        },
+        {
+            "group": 5,
+            "frame": 4,
+            "file": "CASSIDUPF004.png"
+        },
+        {
+            "group": 5,
+            "frame": 5,
+            "file": "CASSIDUPF005.png"
+        },
+        {
+            "group": 5,
+            "frame": 6,
+            "file": "CASSIDUPF006.png"
+        },
+        {
+            "group": 5,
+            "frame": 7,
+            "file": "CASSIDUPF007.png"
+        },
+        {
+            "group": 7,
+            "frame": 0,
+            "file": "CASSIDUPG000.png"
+        },
+        {
+            "group": 7,
+            "frame": 1,
+            "file": "CASSIDUPG001.png"
+        },
+        {
+            "group": 8,
+            "frame": 0,
+            "file": "CASSIDUPG001.png"
+        },
+        {
+            "group": 8,
+            "frame": 1,
+            "file": "CASSIDUPG000.png"
+        },
+        {
+            "group": 9,
+            "frame": 0,
+            "file": "CASSIDUPG000.png"
+        },
+        {
+            "group": 9,
+            "frame": 1,
+            "file": "CASSIDUPG001.png"
+        },
+        {
+            "group": 10,
+            "frame": 0,
+            "file": "CASSIDUPG001.png"
+        },
+        {
+            "group": 10,
+            "frame": 1,
+            "file": "CASSIDUPG000.png"
+        },
+        {
+            "group": 11,
+            "frame": 0,
+            "file": "CASSIDUPK000.png"
+        },
+        {
+            "group": 11,
+            "frame": 1,
+            "file": "CASSIDUPK001.png"
+        },
+        {
+            "group": 11,
+            "frame": 2,
+            "file": "CASSIDUPK002.png"
+        },
+        {
+            "group": 11,
+            "frame": 3,
+            "file": "CASSIDUPK003.png"
+        },
+        {
+            "group": 11,
+            "frame": 4,
+            "file": "CASSIDUPK004.png"
+        },
+        {
+            "group": 11,
+            "frame": 5,
+            "file": "CASSIDUPK005.png"
+        },
+        {
+            "group": 11,
+            "frame": 6,
+            "file": "CASSIDUPK006.png"
+        },
+        {
+            "group": 11,
+            "frame": 7,
+            "file": "CASSIDUPK007.png"
+        },
+        {
+            "group": 12,
+            "frame": 0,
+            "file": "CASSIDUPL000.png"
+        },
+        {
+            "group": 12,
+            "frame": 1,
+            "file": "CASSIDUPL001.png"
+        },
+        {
+            "group": 12,
+            "frame": 2,
+            "file": "CASSIDUPL002.png"
+        },
+        {
+            "group": 12,
+            "frame": 3,
+            "file": "CASSIDUPL003.png"
+        },
+        {
+            "group": 12,
+            "frame": 4,
+            "file": "CASSIDUPL004.png"
+        },
+        {
+            "group": 12,
+            "frame": 5,
+            "file": "CASSIDUPL005.png"
+        },
+        {
+            "group": 12,
+            "frame": 6,
+            "file": "CASSIDUPL006.png"
+        },
+        {
+            "group": 12,
+            "frame": 7,
+            "file": "CASSIDUPL007.png"
+        },
+        {
+            "group": 13,
+            "frame": 0,
+            "file": "CASSIDUPM000.png"
+        },
+        {
+            "group": 13,
+            "frame": 1,
+            "file": "CASSIDUPM001.png"
+        },
+        {
+            "group": 13,
+            "frame": 2,
+            "file": "CASSIDUPM002.png"
+        },
+        {
+            "group": 13,
+            "frame": 3,
+            "file": "CASSIDUPM003.png"
+        },
+        {
+            "group": 13,
+            "frame": 4,
+            "file": "CASSIDUPM004.png"
+        },
+        {
+            "group": 13,
+            "frame": 5,
+            "file": "CASSIDUPM005.png"
+        },
+        {
+            "group": 13,
+            "frame": 6,
+            "file": "CASSIDUPM006.png"
+        },
+        {
+            "group": 13,
+            "frame": 7,
+            "file": "CASSIDUPM007.png"
+        },
+        {
+            "group": 20,
+            "frame": 0,
+            "file": "CASSIDUPN000.png"
+        },
+        {
+            "group": 20,
+            "frame": 1,
+            "file": "CASSIDUPN001.png"
+        },
+        {
+            "group": 21,
+            "frame": 0,
+            "file": "CASSIDUPO000.png"
+        },
+        {
+            "group": 21,
+            "frame": 1,
+            "file": "CASSIDUPO001.png"
+        }
+    ],
+    "basepath": "creatures/cove/battle/lvl4Alt/"
+}

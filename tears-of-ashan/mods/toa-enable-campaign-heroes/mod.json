@@ -1,0 +1,14 @@
+{
+	"name" : "Enable Strong Heroes",
+	"author" : "Aphra",
+	"contact" : "",
+	"description" : "Enables Sir Mullich, Gelu, Dracon, and Mutare Drake in random maps. Disables Lord Haart due to him conflicting with Sir Mullich.",
+	"version" : "1.0.0",
+	"modType" : "Heroes",
+	
+	"keepDisabled" : true,
+	
+	"heroes" : [
+		"config/enabled.json",
+	]
+}

@@ -1,0 +1,77 @@
+{
+	"nereidAU": {
+		"name" : {"singular" : "Nereid", "plural" : "Nereids"},
+		"faction" : "cove",
+		"level" : 1,
+		"attack" : 5,
+		"defense" : 3,
+		"damage" : {"min" : 1, "max" : 3},
+		"hitPoints" : 6,
+		"speed" : 7,
+		"growth" : 16,
+		"aiValue" : 75,
+		"fightValue" : 60,
+		"cost" : {"gold" : 45},
+		"advMapAmount" : {"min" : 20, "max" : 30},
+		"upgrades" : ["oceanid"],
+		"doubleWide" : false,
+		"abilities" : {
+			"teleports" : {
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting",
+				"icon" : "zvs/Lib1.res/e_teleport"
+			},
+			"iceBoltImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.iceBolt"
+			},
+			"frostRingImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.frostRing"
+			},
+			"immuneToFreezingShot" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.freezingShot",
+				"icon" : "hota/bulwark/bonuses/freezingShotImmunity",
+				"description" : "Immune to Freezing Shot."
+			},
+			"casts" : {
+				"type" : "CASTS",
+				"val" : 2
+			},
+			"spellPower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"castMirth" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.mirth",
+				"val" : 2,
+				"description" : "{Spellcaster}\nCan cast Advanced Mirth (6 Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/mirth2.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/cove/battle/lvl1Alt.json",
+			"map" : "creatures/cove/map/lvl1Alt.json",
+			"mapMask" : ["VVV","VAV"],
+			"iconSmall" : "creatures/cove/iconsSmall/lvl1Alt.png",
+			"iconLarge" : "creatures/cove/iconsBig/lvl1Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack" : "hota/cove/creatures/nymph/NIMPATTK.wav",
+			"defend" : "hota/cove/creatures/nymph/NIMPDFND.wav",
+			"killed" : "hota/cove/creatures/nymph/NIMPKILL.wav",
+			"move" : "hota/cove/creatures/nymph/NIMPMOVE.wav",
+			"startMoving" : "hota/cove/creatures/nymph/NIMPEXT1.wav",
+			"endMoving" : "hota/cove/creatures/nymph/NIMPEXT2.wav",
+			"wince" : "hota/cove/creatures/nymph/NIMPWNCE.wav"
+		}
+	}	
+}

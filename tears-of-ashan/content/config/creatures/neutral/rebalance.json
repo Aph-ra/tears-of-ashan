@@ -59,6 +59,12 @@
 			}
 		}
 	},
+	"hota.neutralcreatures:fangarm": {
+		"faction" : "cove",
+		"graphics" : {
+			"iconLarge" : "creatures/neutral/iconsbig/fangarm"
+		}
+	},
 	"hota.neutralcreatures:steelGolem": {
 		"faction" : "tower",
 		"graphics" : {

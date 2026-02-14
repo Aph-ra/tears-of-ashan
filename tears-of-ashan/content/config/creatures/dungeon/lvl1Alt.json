@@ -29,7 +29,8 @@
 			},
 			"teleports" : {
 				"type" : "FLYING",
-				"subtype" : "movementTeleporting"
+				"subtype" : "movementTeleporting",
+				"icon" : "zvs/Lib1.res/e_teleport"
 			}
 		},
 		"graphics" : {

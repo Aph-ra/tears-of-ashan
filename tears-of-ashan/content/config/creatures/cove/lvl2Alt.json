@@ -1,0 +1,56 @@
+{
+	"swashbucklerAU": {
+		"name" : {"singular" : "Swashbuckler", "plural" : "Swashbucklers"},
+		"faction" : "cove",
+		"level" : 2,
+		"attack" : 7,
+		"defense" : 7,
+		"damage" : {"min" : 2, "max" : 4},
+		"hitPoints" : 15,
+		"speed" : 7,
+		"growth" : 9,
+		"horde" : 4,
+		"aiValue" : 174,
+		"fightValue" : 174,
+		"cost" : {"gold" : 150},
+		"advMapAmount" : {"min" : 16, "max" : 25},
+		"upgrades" : ["seaman"],
+		"doubleWide" : false,
+		"abilities" : {
+			"generateGold" : {
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "gold",
+				"val" : 14,
+				"propagator" : "HERO",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"stepSize" : 1,
+					"filteredCreature" : "swashbucklerAU"
+				},
+				"stacking" : "base",
+				"icon" : "zvs/Lib1.res/gold3.png",
+				"description" : "{Generates Gold}\nSwashbucklers produce 14 Gold per unit per day while in a hero's army"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/cove/battle/lvl2Alt.def",
+			"map" : "creatures/cove/map/lvl2Alt.def",
+			"mapMask" : ["VVV","VAV"],
+			"iconSmall" : "creatures/cove/iconsSmall/lvl2Alt.png",
+			"iconLarge" : "creatures/cove/iconsBig/lvl2Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" : {
+			"attack" : "hota/cove/creatures/crewmate/SAYLATTK.wav",
+			"defend" : "hota/cove/creatures/crewmate/SAYLDFND.wav",
+			"killed" : "hota/cove/creatures/crewmate/SAYLKILL.wav",
+			"move" : "hota/cove/creatures/crewmate/SAYLMOVE.wav",
+			"wince" : "hota/cove/creatures/crewmate/SAYLWNCE.wav"
+		}
+	}
+}

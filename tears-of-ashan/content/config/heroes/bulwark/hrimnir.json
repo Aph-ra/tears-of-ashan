@@ -1,0 +1,50 @@
+{
+	"hrimnir" : {
+		"class" : "chieftain",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			//"name" : "Hrímnir",
+			"name" : "Hrimnir",
+			"biography" : "Hrimnir's labrys is known to bite with bitter hoarfrost as well as its wicked blades, hence his title of \"Harbinger of Frost\", allegedly bestowed unto him by the Ancients themselves. He prefers to lead his armies up front, charging at his enemies like an Argali let loose in a village.",
+			"specialty" : {
+				"name" : "Jotunns",
+				"tooltip" : "Creature Bonus: Jotunns",
+				"description" : "Increases the Speed of allied Jotunns and Jotunn Warlords by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/bulwark/hrimnir/portraitSmall.png",
+			"large" : "heroes/bulwark/hrimnir/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Jotunns.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Jotunns.png"
+		},
+
+		"skills": [
+			{ "skill" : "offence", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		
+		"specialty" : {
+			"creature" : "jotunn",
+			"creatureLevel" : 7,
+			"stepSize" : 20
+		},
+		
+		"army" : [
+			{
+				"creature" : "kobold",
+				"min" : 20, "max" : 30
+			},
+			{
+				"creature" : "mountainRam",
+				"min" : 6, "max" : 8
+			},
+			{
+				"creature" : "snowElf",
+				"min" : 3, "max" : 5
+			}
+		]
+	}
+}

@@ -6,7 +6,7 @@
 		"attack" : 32,
 		"defense" : 22,
 		"damage" : {"min" : 40, "max" : 50},
-		"hitPoints" : 200,
+		"hitPoints" : 225,
 		"speed" : 16,
 		"growth" : 1,
 		"aiValue" : 8700,

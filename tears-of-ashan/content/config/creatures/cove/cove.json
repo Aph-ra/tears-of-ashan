@@ -1,0 +1,38 @@
+{
+	"hota.cove:nymph" : {
+		"upgrades": ["oceanid", "nereidAU"]
+	},
+	"hota.cove:oceanid" : {
+		"upgrades": ["nereidAU"]
+	},
+	"hota.cove:crewmate" : {
+		"upgrades": ["seaman", "swashbucklerAU"]
+	},
+	"hota.cove:seaman" : {
+		"upgrades": ["swashbucklerAU"]
+	},
+	"hota.cove:stormbird" : {
+		"upgrades": ["ayssid", "halcyonAU"]
+	},
+	"hota.cove:ayssid" : {
+		"upgrades": ["halcyonAU"]
+	},
+	"hota.cove:seaWitch" : {
+		"upgrades": ["sorceress", "tidecallerAU"]
+	},
+	"hota.cove:sorceress" : {
+		"upgrades": ["tidecallerAU"]
+	},
+	"hota.cove:nix" : {	
+		"upgrades": ["nixWarrior", "nixRetiariusAU"]		
+	},
+	"hota.cove:nixWarrior" : {	
+		"upgrades": ["nixRetiariusAU"]		
+	},
+	"hota.cove:seaserpent" : {
+		"upgrades": ["haspid", "deepSerpentAU"]
+	},
+	"hota.cove:haspid" : {
+		"upgrades": ["deepSerpentAU"]
+	}
+}
