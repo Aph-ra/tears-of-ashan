@@ -1,0 +1,18 @@
+{
+	"name" : "Factional Neutral Dragons",
+	"author" : "Aphra",
+	"contact" : "",
+	"description" : "Moves Azure Dragons to Bulwark, Crystal Dragons to Tower, Rust Dragons to Dungeon, and Faerie Dragons to Conflux.",
+	"version" : "1.0.0",
+	"modType" : "Creatures",
+	
+	"keepDisabled" : true,
+	
+	"depends" : [
+		"hota.bulwark"
+	],
+
+	"creatures" : [
+		"config/enabled.json",
+	]
+}

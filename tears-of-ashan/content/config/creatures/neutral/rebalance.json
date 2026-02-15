@@ -90,32 +90,41 @@
 		}
 	},
 	"core:fairieDragon": {
-		"faction" : "conflux",
 		"attack" : 25,
 		"defense" : 25,
 		"damage" : {"min" : 30, "max" : 50},
 		"cost" : {"gold" : 10000, "gems" : 10},
-		"graphics" : {
-			"iconLarge" : "creatures/neutral/iconsbig/faerieDragon"
-		}
-	},
-	"core:crystalDragon": {
-		"faction" : "tower",
-		"graphics" : {
-			"iconLarge" : "creatures/neutral/iconsbig/crystalDragon"
-		}
 	},
 	"core:rustDragon": {
-		"faction" : "dungeon",
 		"cost" : {"gold" : 15000, "sulfur" : 10},
-		"graphics" : {
-			"iconLarge" : "creatures/neutral/iconsbig/rustDragon"
-		}
-	},
-	"core:azureDragon": {
-		"faction" : "bulwark",
-		"graphics" : {
-			"iconLarge" : "creatures/neutral/iconsbig/azureDragon"
+		"abilities#override" : {
+			"dragon" : {
+				"type" : "DRAGON_NATURE"
+			},
+			"dragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
+			},
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"twoHexAttackBreath" : {
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"acidBreath" : {
+				"type" : "ACID_BREATH",
+				"val" : 25,
+				"addInfo" : 50
+			},
+			"reduceDefence" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.acidBreath",
+				"val" : 100
+			},
+			"KING_1" : {
+				"type" : "KING",
+				"val" : 0
+			}
 		}
 	}
 }

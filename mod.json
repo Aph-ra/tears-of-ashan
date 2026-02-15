@@ -2,15 +2,26 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "Public Beta 1.2.0",
+	"version" : "Public Beta 1.2.2",
 	"modType" : "Expansion",
 	"compatibility" : {"min" : "1.7.2"},
 	
 	"changelog" : {
+		"Public Beta 1.2.2"   : [
+			"Moved Neutral Dragon faction changes to a submod",
+			"Rust Dragon Acid Breath Damage chance 25% → 50%",
+			"Darkness Dragon Acid Breath chance 20% → 100%; Damage chance 20% → 30%"
+		],
+		"Public Beta 1.2.1"   : [
+			"Faerie Dragon Neutral → Conflux; large icon updated",
+			"Rust Dragon Neutral → Dungeon; large icon updated",
+			"Crystal Dragon Neutral → Tower; large icon updated",
+			"Azure Dragon Neutral → Bulwark; large icon updated"
+		],
 		"Public Beta 1.2.0"   : [
 			"Added descriptions to submods",
 			"Diamond Dragon Health 200 → 225",
-			"Fangarms Neutral → Cove",
+			"Fangarm Neutral → Cove",
 			"Changed Sanctus' portrait to that of the H6/H7 Gold Dragon",
 			"Changed Biara's specialty image to Hell Steeds & updated specialty name",
 			"Jormungandr starts with Water Magic → Leadership",
@@ -195,7 +206,7 @@
 		"config/heroes/factory/ixchel.json",
 		"config/heroes/factory/kastore.json",
 		
-		"config/heroes/bulwark/hrimnir.json",
+		"config/heroes/bulwark/hrimnir.json"
 	],
 
 	"factions" : [
@@ -207,8 +218,7 @@
 		"config/town-screen/dungeon/factions",
 		"config/town-screen/stronghold/factions",
 		"config/town-screen/fortress/factions",
-		"config/town-screen/conflux/factions",
-		//"config/town-screen/cove/factions"
+		"config/town-screen/conflux/factions"
 	],
 
 	"creatures" : [
@@ -310,16 +320,6 @@
 		"config/creatures/conflux/lvl7Alt",
 		"config/creatures/conflux/rebalance",
 		
-		//"config/creatures/cove/cove",
-		//"config/creatures/cove/lvl1Alt",
-		//"config/creatures/cove/lvl2Alt",
-		//"config/creatures/cove/lvl3Alt",
-		//"config/creatures/cove/lvl4Alt",
-		//"config/creatures/cove/lvl5Alt",
-		//"config/creatures/cove/lvl6Alt",
-		//"config/creatures/cove/lvl7Alt",
-		//"config/creatures/cove/rebalance",
-		
 		"config/creatures/neutral/rebalance"
 	],
 
@@ -342,5 +342,5 @@
 		}
 	},
 	
-	"description" : "<p style='font-size:16px; font-style:italic;'>Explore a whole new realm in <b>Tears of Ashan</b>, a fan-made expansion for Heroes of Might and Magic III that mixes elements of Heroes of Might and Magic V with the familiar gameplay of Heroes III.</p><p style='font-size:22px; font-weight:bold;'>Heroes III x V</p> <p style='font-size:16px;'><b>Tears of Ashan</b> expands upon the original game with a horde of features from <b>Heroes V</b>, such as <b>alternate upgrades</b> for every creature in every faction, <b>Light and Dark Magic</b>, and mechanics such as <b>Gating</b>.  The secondary skill cap has been raised from 8 to 10 to allow for these new skills. Explore new strategies and discover more ways to play as each creature upgrade now offers unique strategic advantages. Empower your troops with the power of holy light, or send your enemies to the netherworld as they suffocate in darkness!</p> <p style='font-size:22px; font-weight:bold;'>Alternate Upgrades</p><p style='font-size:16px;'>Each faction now contains <b>21 creatures</b> instead of 14, as each creature can now choose between 2 upgrade paths. These upgraded creatures can be swapped between at any point, so long as it is done so at either a Hill Fort or a town that can recruit them. Some are supportive options that buff your troops or debuff enemy troops; some are offensive brutes that aim to take your enemies down hard and fast; and others are defensive options, there to provide cover for your shooters or bulk up your army. Each faction now has a wider set of strategies to deal with any number of situations, making adaptive gameplay even more possible!</p> <p style='font-size:22px; font-weight:bold;'>Conflux</p><p style='font-size:16px;'>While every faction has received a fair share of balance changes, the Conflux has been completely redesigned from the ground up. The core 4 Elementals are no longer \"Level 3.5 units\"; they have been given appropriate stats for their level while still retaining the key features that make both them and the overall balance of Conflux unique.</p> <p style='font-size:22px; font-weight:bold;'>Compatibilities</p> <p style='font-size:16px;'><ul><li>Campaign Heroes</li></ul></p><p style='font-size:16px;'><b>Website:</b> https://sites.google.com/view/tears-of-ashan</p>"
+	"description" : "<p style='font-size:16px; color:#333333; font-style:italic;'>Explore a whole new realm in <b>Tears of Ashan</b>, a fan-made expansion for Heroes of Might and Magic III that mixes elements of Heroes of Might and Magic V with the familiar gameplay of Heroes III.</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Heroes III x V</p> <p style='font-size:16px; color:#333333;'><b>Tears of Ashan</b> expands upon the original game with a horde of features from <b>Heroes V</b>, such as <b>alternate upgrades</b> for every creature in every faction, <b>Light and Dark Magic</b>, and mechanics such as <b>Gating</b>.  The secondary skill cap has been raised from 8 to 10 to allow for these new skills. Explore new strategies and discover more ways to play as each creature upgrade now offers unique strategic advantages. Empower your troops with the power of holy light, or send your enemies to the netherworld as they suffocate in darkness!</p> <p style='font-size:22px; color:#002366; font-weight:bold;'>Alternate Upgrades</p><p style='font-size:16px; color:#333333;'>Each faction now contains <b>21 creatures</b> instead of 14, as each creature can now choose between 2 upgrade paths. These upgraded creatures can be swapped between at any point, so long as it is done so at either a Hill Fort or a town that can recruit them. Some are supportive options that buff your troops or debuff enemy troops; some are offensive brutes that aim to take your enemies down hard and fast; and others are defensive options, there to provide cover for your shooters or bulk up your army. Each faction now has a wider set of strategies to deal with any number of situations, making adaptive gameplay even more possible!</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Conflux</p><p style='font-size:16px; color:#333333;'>While every faction has received a fair share of balance changes, the Conflux has been completely redesigned from the ground up. The core 4 Elementals are no longer \"Level 3.5 units\"; they have been given appropriate stats for their level while still retaining the key features that make both them and the overall balance of Conflux unique.</p> <p style='font-size:16px; color:#333333;'>Read and discover more online: https://sites.google.com/view/tears-of-ashan</p>"
 }
