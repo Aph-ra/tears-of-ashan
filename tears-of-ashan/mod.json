@@ -2,11 +2,16 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "Public Beta 1.2.1",
+	"version" : "Public Beta 1.2.2",
 	"modType" : "Expansion",
 	"compatibility" : {"min" : "1.7.2"},
 	
 	"changelog" : {
+		"Public Beta 1.2.2"   : [
+			"Moved Neutral Dragon faction changes to a submod",
+			"Rust Dragon Acid Breath Damage chance 25% → 50%",
+			"Darkness Dragon Acid Breath chance 20% → 100%; Damage chance 20% → 30%"
+		],
 		"Public Beta 1.2.1"   : [
 			"Faerie Dragon Neutral → Conflux; large icon updated",
 			"Rust Dragon Neutral → Dungeon; large icon updated",

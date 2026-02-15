@@ -35,13 +35,13 @@
 			"acidBreath" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.acidBreath",
-				"val" : 20,
+				"val" : 100,
 				"icon" : "zvs/Lib1.res/acidattack.png"
 			},
 			"acidBreathChance" : {
 				"type" : "ACID_BREATH",
 				"val" : 25,
-				"addInfo" : 20
+				"addInfo" : 30
 			},
 			"spellImmunity" : {
 				"type" : "LEVEL_SPELL_IMMUNITY",
