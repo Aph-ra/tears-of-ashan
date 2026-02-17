@@ -46,23 +46,23 @@
                 }
             },
             "none": {
-                "cost": 60,
+                "cost": 100,
                 "power": 1
             },
             "basic": {
 				"description": "{Basic Gate Nightmares}\r\n\r\nGates (Power x 1) Nightmares.\r\n\r\nOnce cast, other creatures may also be gated.",
-                "cost": 60,
+                "cost": 100,
                 "power": 1
             },
             "advanced": {
 				"description": "{Advanced Gate Nightmares}\r\n\r\nGates (Power x 2) Nightmares.\r\n\r\nOnce cast, other creatures may also be gated.",
-                "cost": 52,
+                "cost": 90,
                 "power": 2
             },
             "expert": {
-				"description": "{Expert Gate Nightmares}\r\n\r\nGates (Power x 3) Nightmares.\r\n\r\nOnce cast, other creatures may also be gated.",
-                "cost": 45,
-                "power": 3
+				"description": "{Expert Gate Nightmares}\r\n\r\nGates (Power x 2) Nightmares.\r\n\r\nOnce cast, other creatures may also be gated.",
+                "cost": 80,
+                "power": 2
             }
         }
     }

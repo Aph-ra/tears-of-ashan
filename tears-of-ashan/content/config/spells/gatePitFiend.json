@@ -46,22 +46,22 @@
                 }
             },
             "none": {
-                "cost": 36,
+                "cost": 48,
                 "power": 2
             },
             "basic": {
 				"description": "{Basic Gate Pit Fiends}\r\n\r\nGates (Power x 2) Pit Fiends.\r\n\r\nOnce cast, other creatures may also be gated.",
-                "cost": 36,
+                "cost": 48,
                 "power": 2
             },
             "advanced": {
 				"description": "{Advanced Gate Pit Fiends}\r\n\r\nGates (Power x 2) Pit Fiends.\r\n\r\nOnce cast, other creatures may also be gated.",
-                "cost": 32,
+                "cost": 42,
                 "power": 2
             },
             "expert": {
 				"description": "{Expert Gate Pit Fiends}\r\n\r\nGates (Power x 3) Pit Fiends.\r\n\r\nOnce cast, other creatures may also be gated.",
-                "cost": 28,
+                "cost": 36,
                 "power": 3
             }
         }

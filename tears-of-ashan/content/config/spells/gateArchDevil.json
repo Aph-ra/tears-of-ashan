@@ -46,23 +46,23 @@
                 }
             },
             "none": {
-                "cost": 150,
+                "cost": 210,
                 "power": 1
             },
             "basic": {
 				"description": "{Basic Gate Arch Devils}\r\n\r\nGates (Power x 1) Arch Devils.\r\n\r\nOnce cast, other creatures may also be gated.",
-                "cost": 150,
+                "cost": 210,
                 "power": 1
             },
             "advanced": {
 				"description": "{Advanced Gate Arch Devils}\r\n\r\nGates (Power x 1) Arch Devils.\r\n\r\nOnce cast, other creatures may also be gated.",
-                "cost": 135,
+                "cost": 180,
                 "power": 1
             },
             "expert": {
-				"description": "{Expert Gate Arch Devils}\r\n\r\nGates (Power x 2) Arch Devils.\r\n\r\nOnce cast, other creatures may also be gated.",
-                "cost": 120,
-                "power": 2
+				"description": "{Expert Gate Arch Devils}\r\n\r\nGates (Power x 1) Arch Devils.\r\n\r\nOnce cast, other creatures may also be gated.",
+                "cost": 150,
+                "power": 1
             }
         }
     }
