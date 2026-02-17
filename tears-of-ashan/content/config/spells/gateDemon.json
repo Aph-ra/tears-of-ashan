@@ -46,22 +46,22 @@
                 }
             },
             "none": {
-                "cost": 28,
+                "cost": 32,
                 "power": 2
             },
             "basic": {
 				"description": "{Basic Gate Demons}\r\n\r\nGates (Power x 2) Demons.\r\n\r\nOnce cast, other creatures may also be gated.",
-                "cost": 28,
+                "cost": 32,
                 "power": 2
             },
             "advanced": {
 				"description": "{Advanced Gate Demons}\r\n\r\nGates (Power x 3) Demons.\r\n\r\nOnce cast, other creatures may also be gated.",
-                "cost": 24,
+                "cost": 28,
                 "power": 3
             },
             "expert": {
 				"description": "{Expert Gate Demons}\r\n\r\nGates (Power x 4) Demons.\r\n\r\nOnce cast, other creatures may also be gated.",
-                "cost": 20,
+                "cost": 24,
                 "power": 4
             }
         }

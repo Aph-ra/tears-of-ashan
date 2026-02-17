@@ -2,11 +2,25 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "Public Beta 1.2.2",
+	"version" : "Public Beta 1.2.3",
 	"modType" : "Expansion",
 	"compatibility" : {"min" : "1.7.2"},
 	
 	"changelog" : {
+		"Public Beta 1.2.3"   : [
+			"Fixed Pit Spawn growth"
+			"Gate Demons Cost 28/24/20 → 32/28/24",
+			"Gate Pit Fiends Cost 36/32/28 → 48/42/36",
+			"Gate Efreeti & Hell Steed Cost 48/42/36 → 66/60/54",
+			"Gate Efreeti & Hell Steed Power 1/2/3 → 1/2/2",
+			"Gate Nightmares Cost 60/52/45 → 100/90/80",
+			"Gate Nightmares Power 1/2/3 → 1/2/2",
+			"Gate Devils Cost 100/90/80 → 140/120/100",
+			"Gate Devils (Specialty) Cost 75/68/60 → 105/80/75",
+			"Gate Devils Power 1/1/2 → 1/1/1",
+			"Gate Devils (Specialty) Power 1/1/2 → 1/1/1",
+			"Gate Arch Devils (Specialty) Cost 150/135/120 → 210/180/150"
+		],		
 		"Public Beta 1.2.2"   : [
 			"Moved Neutral Dragon faction changes to a submod",
 			"Rust Dragon Acid Breath Damage chance 25% → 50%",

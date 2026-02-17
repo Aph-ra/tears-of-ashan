@@ -46,23 +46,23 @@
                 }
             },
             "none": {
-                "cost": 100,
+                "cost": 140,
                 "power": 1
             },
             "basic": {
 				"description": "{Basic Gate Devils}\r\n\r\nGates (Power x 1) Devils.\r\n\r\nOnce cast, other creatures may also be gated.",
-                "cost": 100,
+                "cost": 140,
                 "power": 1
             },
             "advanced": {
 				"description": "{Advanced Gate Devils}\r\n\r\nGates (Power x 1) Devils.\r\n\r\nOnce cast, other creatures may also be gated.",
-                "cost": 90,
+                "cost": 120,
                 "power": 1
             },
             "expert": {
-				"description": "{Expert Gate Devils}\r\n\r\nGates (Power x 2) Devils.\r\n\r\nOnce cast, other creatures may also be gated.",
-                "cost": 80,
-                "power": 2
+				"description": "{Expert Gate Devils}\r\n\r\nGates (Power x 1) Devils.\r\n\r\nOnce cast, other creatures may also be gated.",
+                "cost": 100,
+                "power": 1
             }
         }
     }
