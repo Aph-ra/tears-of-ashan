@@ -50,9 +50,9 @@
                 "power": 2
             },
             "basic": {
-				"description": "{Basic Gate Pit Fiends}\r\n\r\nGates (Power x 2) Pit Fiends.\r\n\r\nOnce cast, other creatures may also be gated.",
+				"description": "{Basic Gate Pit Fiends}\r\n\r\nGates (Power x 1) Pit Fiends.\r\n\r\nOnce cast, other creatures may also be gated.",
                 "cost": 48,
-                "power": 2
+                "power": 1
             },
             "advanced": {
 				"description": "{Advanced Gate Pit Fiends}\r\n\r\nGates (Power x 2) Pit Fiends.\r\n\r\nOnce cast, other creatures may also be gated.",
