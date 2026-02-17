@@ -8,7 +8,7 @@
 	
 	"changelog" : {
 		"Public Beta 1.2.3"   : [
-			"Fixed Pit Spawn growth"
+			"Fixed Pit Spawn growth",
 			"Gate Demons Cost 28/24/20 → 32/28/24",
 			"Gate Pit Fiends Cost 36/32/28 → 48/42/36",
 			"Gate Efreeti & Hell Steed Cost 48/42/36 → 66/60/54",
