@@ -11,9 +11,9 @@
 			"Added Holy Word, a 4th Level Light Magic spell",
 			"Added DEMONIC as a bonus propagator; units receive -25% damage from Fire Magic spells and +25% damage from Light Magic spells",
 			"Added DEMONIC as to all Inferno units",
-			"Destroy Undead, Fireball, Land Mine, and Frost Ring Power 10% → 20%",
+			"Destroy Undead, Fireball, Land Mine, and Frost Ring Power 10 → 20",
 			"Frost Ring Cost 12/9 → 15/12",
-			"Meteor Shower Power 25% → 30%",
+			"Meteor Shower Power 25 → 30",
 			"Meteor Shower Cost 16/12 → 18/15",
 			"Fearsome and Fearless bonuses now display properly"
 		],
