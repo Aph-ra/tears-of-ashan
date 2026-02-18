@@ -17,6 +17,21 @@
 		"upgrades" : ["core:familiar"],
 		"doubleWide" : false,
 		"abilities" : {
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 25,
+				"hidden" : true
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			},
 			"canFly" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"

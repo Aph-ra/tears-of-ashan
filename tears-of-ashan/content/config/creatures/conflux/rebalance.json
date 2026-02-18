@@ -93,7 +93,7 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.implosion",
 				"val" : 50,
-				"description" : "{Vulnerable to Earth}\nTakes 50% more Damage from Earth Magic spells",
+				"description" : "{Vulnerable to Earth}\nReceives 50% more Damage from Earth Magic spells",
 				"icon" : "zvs/Lib1.res/vulnerabilityearth.png"
 			}
 		}
@@ -137,7 +137,7 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.implosion",
 				"val" : 50,
-				"description" : "{Vulnerable to Earth}\nTakes 50% more Damage from Earth Magic spells",
+				"description" : "{Vulnerable to Earth}\nReceives 50% more Damage from Earth Magic spells",
 				"icon" : "zvs/Lib1.res/vulnerabilityearth.png"
 			}
 		}
@@ -187,7 +187,7 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.fireWallTrigger",
 				"val" : 50,
-				"description" : "{Vulnerable to Fire}\nTakes 50% more Damage from Fire Magic spells",
+				"description" : "{Vulnerable to Fire}\nReceives 50% more Damage from Fire Magic spells",
 				"icon" : "zvs/Lib1.res/vulnerabilityfire.png"
 			}
 		}
@@ -243,7 +243,7 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.fireWallTrigger",
 				"val" : 50,
-				"description" : "{Vulnerable to Fire}\nTakes 50% more Damage from Fire Magic spells",
+				"description" : "{Vulnerable to Fire}\nReceives 50% more Damage from Fire Magic spells",
 				"icon" : "zvs/Lib1.res/vulnerabilityfire.png"
 			},
 			"castIceBolt" : {
@@ -302,7 +302,7 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "deepFreeze",
 				"val" : 50,
-				"description" : "{Vulnerable to Water}\nTakes 50% more Damage from Water Magic spells",
+				"description" : "{Vulnerable to Water}\nReceives 50% more Damage from Water Magic spells",
 				"icon" : "zvs/Lib1.res/vulnerabilitywater.png"
 			},
 			"fireShield" : {
@@ -349,7 +349,7 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "deepFreeze",
 				"val" : 50,
-				"description" : "{Vulnerable to Water}\nTakes 50% more Damage from Water Magic spells",
+				"description" : "{Vulnerable to Water}\nReceives 50% more Damage from Water Magic spells",
 				"icon" : "zvs/Lib1.res/vulnerabilitywater.png"
 			},
 			"fireShield" : {
@@ -410,7 +410,7 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.titanBolt",
 				"val" : 50,
-				"description" : "{Vulnerable to Air}\nTakes 50% more Damage from Air Magic spells",
+				"description" : "{Vulnerable to Air}\nReceives 50% more Damage from Air Magic spells",
 				"icon" : "zvs/Lib1.res/vulnerabilityair.png"
 			},
 			"ignoreAttack" : {
@@ -461,7 +461,7 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.titanBolt",
 				"val" : 50,
-				"description" : "{Vulnerable to Air}\nTakes 50% more Damage from Air Magic spells",
+				"description" : "{Vulnerable to Air}\nReceives 50% more Damage from Air Magic spells",
 				"icon" : "zvs/Lib1.res/vulnerabilityair.png"
 			},
 			"iceBoltVulnerablity" : {
@@ -480,7 +480,7 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "deepFreeze",
 				"val" : 50,
-				"description" : "{Vulnerable to Water}\nTakes 50% more Damage from Water Magic spells",
+				"description" : "{Vulnerable to Water}\nReceives 50% more Damage from Water Magic spells",
 				"icon" : "zvs/Lib1.res/vulnerabilitywater.png"
 			},
 			"ignoreAttack" : {

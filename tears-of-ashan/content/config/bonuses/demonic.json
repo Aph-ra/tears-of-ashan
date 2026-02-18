@@ -1,0 +1,13 @@
+{
+    "DEMONIC" : {
+		"hidden" : false,
+
+		"creatureNature" : false,
+
+		"description" : "{Demonic}\nReceives -25% damage from Fire Magic spells and +25% damage from Light Magic spells",
+
+		"graphics" : {
+			"icon" : "bonuses/bonusDemonic.png"
+		}
+	}
+}

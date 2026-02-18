@@ -22,7 +22,7 @@
 			},
 			"twoHexAttackBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH",
-				"icon" : "zvs/Lib1.res/e_breathphoenix.png"
+				"icon" : "bonuses/e_breathsacredphoenix.png"
 			},
 			"rebirthOnce" : {
 				"type" : "CASTS",
@@ -30,7 +30,8 @@
 			},
 			"rebirth" : {
 				"type" : "REBIRTH",
-				"val" : 25
+				"val" : 25,
+				"icon" : "bonuses/sacredrebirth.png"
 			},
 			"immuneToFire" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",

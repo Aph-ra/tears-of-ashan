@@ -2,11 +2,21 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "Public Beta 1.2.3",
+	"version" : "Public Beta 1.3.0",
 	"modType" : "Expansion",
 	"compatibility" : {"min" : "1.7.2"},
 	
 	"changelog" : {
+		"Public Beta 1.3.0"   : [
+			"Added Holy Word, a 4th Level Light Magic spell",
+			"Added DEMONIC as a bonus propagator; units receive -25% damage from Fire Magic spells and +25% damage from Light Magic spells",
+			"Added DEMONIC as to all Inferno units",
+			"Destroy Undead, Fireball, Land Mine, and Frost Ring Power 10% → 20%",
+			"Frost Ring Cost 12/9 → 15/12",
+			"Meteor Shower Power 25% → 30%",
+			"Meteor Shower Cost 16/12 → 18/15",
+			"Fearsome and Fearless bonuses now display properly"
+		],
 		"Public Beta 1.2.3"   : [
 			"Fixed Pit Spawn growth",
 			"Gate Demons Cost 28/24/20 → 32/28/24",
@@ -109,6 +119,10 @@
 		"vcmi-extras.bonusicons.bonus icons"
 	],
 	
+	"bonuses" : [
+		"config/bonuses/demonic.json"
+	],
+	
 	"skills" : [
 		"config/skills/gating.json",
 		"config/skills/gatingNightmareSpec.json",
@@ -144,6 +158,8 @@
 	
 	"spells" : [
 		"config/spells/spellChanges.json",
+		
+		"config/spells/holyWord.json",
 		
 		"config/spells/deathCloudDark.json",
 		

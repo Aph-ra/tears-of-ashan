@@ -34,7 +34,7 @@
 			},
 			"fireBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH",
-				"icon" : "zvs/Lib1.res/e_breathgold.png"
+				"icon" : "bonuses/e_breathdiamond.png"
 			},
 			"spellImmunity" : {
 				"type" : "LEVEL_SPELL_IMMUNITY",

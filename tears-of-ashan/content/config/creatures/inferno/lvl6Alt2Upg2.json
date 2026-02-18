@@ -16,6 +16,15 @@
 		"upgrades": ["nightmareAU"],
 		"doubleWide" : true,
 		"abilities": {
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			},
 			"immuneToFire" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "fire"

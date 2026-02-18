@@ -16,6 +16,15 @@
 		"upgrades" : ["core:efreetSultan"],
 		"doubleWide" : false,
 		"abilities" : {
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			},
 			"canFly" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying",
