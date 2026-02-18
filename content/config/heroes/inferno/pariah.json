@@ -3,7 +3,11 @@
 		"class" : "gatekeeperDevilSpec",
 		"female" : false,
 		"special" : false,
-		"spellbook" : [ "disruptingRay", "fireball", "meteorShower" ],
+		"spellbook" : [
+			"disruptingRay",
+			"fireball",
+			"meteorShower"
+		],
 		"texts" : {
 			"name" : "Pariah",
 			"biography" : "A demon from the depths of Ashan, Pariah is far more powerful than any and all Kreegan Pit Lords. He prefers the company of Devils more than any lesser demon. Most frighteningly, he possesses surreal magical capabilities that rival most seasoned mages and warlocks.",
@@ -21,25 +25,34 @@
 			"specialtyLarge" : "heroes/specialtyLarge/Urgash's Call.png"
 		},
 
-		"skills": [
-			{ "skill" : "gatingDevilSpec", "level": "basic" },
-			{ "skill" : "earthMagic", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "gatingDevilSpec",
+				"level" : "basic"
+			},
+			{
+				"skill" : "earthMagic",
+				"level" : "basic"
+			}
 		],
-    
-		"specialty" : {	},
-	
+
+		"specialty" : {},
+
 		"army" : [
 			{
 				"creature" : "imp",
-				"min" : 20, "max" : 30,
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "gog",
-				"min" : 5, "max" : 7,
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 4, "max" : 5,
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	}

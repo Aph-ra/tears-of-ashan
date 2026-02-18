@@ -1,140 +1,140 @@
 {
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "AVWASSUPA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 1,
-            "file": "AVWASSUPA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 2,
-            "file": "AVWASSUPA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 3,
-            "file": "AVWASSUPA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 4,
-            "file": "AVWASSUPA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 5,
-            "file": "AVWASSUPA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 6,
-            "file": "AVWASSUPA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 7,
-            "file": "AVWASSUPA007.png"
-        },
-        {
-            "group": 0,
-            "frame": 8,
-            "file": "AVWASSUPA008.png"
-        },
-        {
-            "group": 0,
-            "frame": 9,
-            "file": "AVWASSUPA009.png"
-        },
-        {
-            "group": 0,
-            "frame": 10,
-            "file": "AVWASSUPA010.png"
-        },
-        {
-            "group": 0,
-            "frame": 11,
-            "file": "AVWASSUPA009.png"
-        },
-        {
-            "group": 0,
-            "frame": 12,
-            "file": "AVWASSUPA008.png"
-        },
-        {
-            "group": 0,
-            "frame": 13,
-            "file": "AVWASSUPA007.png"
-        },
-        {
-            "group": 0,
-            "frame": 14,
-            "file": "AVWASSUPA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 15,
-            "file": "AVWASSUPA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 16,
-            "file": "AVWASSUPA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 17,
-            "file": "AVWASSUPA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 18,
-            "file": "AVWASSUPA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 19,
-            "file": "AVWASSUPA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 20,
-            "file": "AVWASSUPA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 21,
-            "file": "AVWASSUPA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 22,
-            "file": "AVWASSUPA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 23,
-            "file": "AVWASSUPA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 24,
-            "file": "AVWASSUPA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 25,
-            "file": "AVWASSUPA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 26,
-            "file": "AVWASSUPA000.png"
-        }
-    ],
-    "basepath": "creatures/cove/map/lvl4Alt/"
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "AVWASSUPA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "AVWASSUPA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "AVWASSUPA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "AVWASSUPA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "AVWASSUPA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "AVWASSUPA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "AVWASSUPA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "AVWASSUPA007.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "AVWASSUPA008.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 9,
+			"file" : "AVWASSUPA009.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 10,
+			"file" : "AVWASSUPA010.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 11,
+			"file" : "AVWASSUPA009.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 12,
+			"file" : "AVWASSUPA008.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 13,
+			"file" : "AVWASSUPA007.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 14,
+			"file" : "AVWASSUPA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 15,
+			"file" : "AVWASSUPA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 16,
+			"file" : "AVWASSUPA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 17,
+			"file" : "AVWASSUPA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 18,
+			"file" : "AVWASSUPA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 19,
+			"file" : "AVWASSUPA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 20,
+			"file" : "AVWASSUPA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 21,
+			"file" : "AVWASSUPA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 22,
+			"file" : "AVWASSUPA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 23,
+			"file" : "AVWASSUPA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 24,
+			"file" : "AVWASSUPA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 25,
+			"file" : "AVWASSUPA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 26,
+			"file" : "AVWASSUPA000.png"
+		}
+	],
+	"basepath" : "creatures/cove/map/lvl4Alt/"
 }

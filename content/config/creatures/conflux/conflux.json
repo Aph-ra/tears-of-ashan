@@ -1,44 +1,79 @@
 {
 	"core:pixie" : {
-		"upgrades": ["core:sprite", "faerieAU"]
-	},	
+		"upgrades" : [
+			"core:sprite",
+			"faerieAU"
+		]
+	},
 	"core:sprite" : {
-		"upgrades": ["faerieAU"]
+		"upgrades" : [
+			"faerieAU"
+		]
 	},
 	"core:airElemental" : {
-		"upgrades": ["core:stormElemental", "hurricaneElementalAU"]
+		"upgrades" : [
+			"core:stormElemental",
+			"hurricaneElementalAU"
+		]
 	},
 	"core:stormElemental" : {
-		"upgrades": ["hurricaneElementalAU"]
+		"upgrades" : [
+			"hurricaneElementalAU"
+		]
 	},
 	"core:waterElemental" : {
-		"upgrades": ["core:iceElemental", "frostElementalAU"]
+		"upgrades" : [
+			"core:iceElemental",
+			"frostElementalAU"
+		]
 	},
 	"core:iceElemental" : {
-		"upgrades": ["frostElementalAU"]
+		"upgrades" : [
+			"frostElementalAU"
+		]
 	},
 	"core:fireElemental" : {
-		"upgrades": ["core:energyElemental", "plasmaElementalAU"]
+		"upgrades" : [
+			"core:energyElemental",
+			"plasmaElementalAU"
+		]
 	},
 	"core:energyElemental" : {
-		"upgrades": ["plasmaElementalAU"]
+		"upgrades" : [
+			"plasmaElementalAU"
+		]
 	},
 	"core:earthElemental" : {
-		"upgrades": ["core:magmaElemental", "lavaElementalAU"]
+		"upgrades" : [
+			"core:magmaElemental",
+			"lavaElementalAU"
+		]
 	},
 	"core:magmaElemental" : {
-		"upgrades": ["lavaElementalAU"]
+		"upgrades" : [
+			"lavaElementalAU"
+		]
 	},
 	"core:psychicElemental" : {
-		"upgrades": ["core:magicElemental", "astralElementalAU"]
+		"upgrades" : [
+			"core:magicElemental",
+			"astralElementalAU"
+		]
 	},
 	"core:magicElemental" : {
-		"upgrades": ["astralElementalAU"]
+		"upgrades" : [
+			"astralElementalAU"
+		]
 	},
-	"core:firebird" : {	
-		"upgrades": ["core:phoenix", "sacredPhoenixAU"]
+	"core:firebird" : {
+		"upgrades" : [
+			"core:phoenix",
+			"sacredPhoenixAU"
+		]
 	},
-	"core:phoenix" : {	
-		"upgrades": ["sacredPhoenixAU"]
+	"core:phoenix" : {
+		"upgrades" : [
+			"sacredPhoenixAU"
+		]
 	}
 }

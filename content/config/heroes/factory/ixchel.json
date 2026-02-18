@@ -3,7 +3,9 @@
 		"class" : "artificer",
 		"female" : true,
 		"special" : false,
-		"spellbook" : [ "resurrection" ],
+		"spellbook" : [
+			"resurrection"
+		],
 		"texts" : {
 			"name" : "Ixchel",
 			"biography" : "The deserts of Ravage Roaming are a far cry from the tunnels of Nighon, but Ixchel is no stranger to these lands. Some say she is the descendant of a long-forgotten goddess, though she denies these claims entirely, chalking it up to people taking folk tales too seriously. Only she knows where she truly came from, and she is intent on keeping that, along with her peculiar bond with Couatls, a lifelong secret.",
@@ -21,29 +23,38 @@
 			"specialtyLarge" : "heroes/specialtyLarge/Couatls.png"
 		},
 
-		"skills": [
-			{ "skill" : "wisdom", "level": "basic" },
-			{ "skill" : "earthMagic", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "earthMagic",
+				"level" : "basic"
+			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "hotaCouatl",
 			"creatureLevel" : 7,
 			"stepSize" : 20
 		},
-		
+
 		"army" : [
 			{
 				"creature" : "halfling",
-				"min" : 15, "max" : 25,
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "hotaMechanic",
-				"min" : 7, "max" : 9,
+				"min" : 7,
+				"max" : 9
 			},
 			{
 				"creature" : "armadillo",
-				"min" : 4, "max" : 6,
+				"min" : 4,
+				"max" : 6
 			}
 		]
 	}

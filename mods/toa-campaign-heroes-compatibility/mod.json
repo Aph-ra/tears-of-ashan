@@ -7,15 +7,16 @@
 	"licenseURL" : "",
 	"modType" : "Compatibility",
 	"version" : "1.0.0",
-	"changelog" :
-    {
-		"1.0.0"   : [ "Initial release" ]
-    },
-	
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+
 	"depends" : [
 		"campaign-heroes"
 	],
-	
+
 	"heroes" : [
 		"config/heroChanges.json"
 	]

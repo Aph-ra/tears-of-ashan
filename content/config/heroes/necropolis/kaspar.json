@@ -3,7 +3,9 @@
 		"class" : "plaguespreader",
 		"female" : false,
 		"special" : false,
-		"spellbook" : [ "animateDead" ],
+		"spellbook" : [
+			"animateDead"
+		],
 		"texts" : {
 			"name" : "Kaspar",
 			"biography" : "Kaspar was a great doctor and healer who was able to cure even the most terrible wounds. Delving deeper and deeper into the secrets of life and death, Kaspar made a particularly risky experiment that went wrong... and brought him to the realm of the dead. Though he now leads an undead army, his knowledge of anatomy and the treating of wounds remains unparalleled.",
@@ -22,10 +24,16 @@
 		},
 
 		"skills" : [
-			{ "skill" : "necromancy", "level": "basic" },
-			{ "skill" : "earthMagic", "level": "basic" }
+			{
+				"skill" : "necromancy",
+				"level" : "basic"
+			},
+			{
+				"skill" : "earthMagic",
+				"level" : "basic"
+			}
 		],
-    
+
 		"specialty" : {
 			"bonuses" : {
 				"poisonStart" : {
@@ -36,19 +44,22 @@
 				}
 			}
 		},
-	
+
 		"army" : [
 			{
 				"creature" : "skeleton",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "walkingDead",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "wight",
-				"min" : 4, "max" : 6
+				"min" : 4,
+				"max" : 6
 			}
 		]
 	}

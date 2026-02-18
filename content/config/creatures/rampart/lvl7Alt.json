@@ -1,19 +1,33 @@
 {
 	"diamondDragonAU" : {
-		"name" : {"singular" : "Diamond Dragon", "plural" : "Diamond Dragons"},
+		"name" : {
+			"singular" : "Diamond Dragon",
+			"plural" : "Diamond Dragons"
+		},
 		"faction" : "rampart",
 		"level" : 7,
 		"attack" : 32,
 		"defense" : 22,
-		"damage" : {"min" : 40, "max" : 50},
+		"damage" : {
+			"min" : 40,
+			"max" : 50
+		},
 		"hitPoints" : 225,
 		"speed" : 16,
 		"growth" : 1,
 		"aiValue" : 8700,
 		"fightValue" : 6350,
-		"cost" : {"gold" : 4000, "crystal" : 2},
-		"advMapAmount" : {"min" : 3, "max" : 8},
-		"upgrades" : ["core:goldDragon"],
+		"cost" : {
+			"gold" : 4000,
+			"crystal" : 2
+		},
+		"advMapAmount" : {
+			"min" : 3,
+			"max" : 8
+		},
+		"upgrades" : [
+			"core:goldDragon"
+		],
 		"doubleWide" : true,
 		"abilities" : {
 			"king1" : {

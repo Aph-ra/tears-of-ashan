@@ -1,14 +1,19 @@
 {
-	"core:pixie": {
+	"core:pixie" : {
 		"attack" : 2,
 		"defense" : 1,
-		"damage" : {"min" : 1, "max" : 2},
+		"damage" : {
+			"min" : 1,
+			"max" : 2
+		},
 		"hitPoints" : 5,
 		"growth" : 14,
 		"horde" : 6,
 		"aiValue" : 70,
 		"fightValue" : 70,
-		"cost" : {"gold" : 60},
+		"cost" : {
+			"gold" : 60
+		},
 		"abilities#override" : {
 			"canFly" : {
 				"type" : "FLYING",
@@ -19,14 +24,16 @@
 			}
 		}
 	},
-	"core:sprite": {
+	"core:sprite" : {
 		"attack" : 3,
 		"hitPoints" : 5,
 		"growth" : 14,
 		"horde" : 6,
 		"aiValue" : 120,
 		"fightValue" : 100,
-		"cost" : {"gold" : 90},
+		"cost" : {
+			"gold" : 90
+		},
 		"abilities#override" : {
 			"canFly" : {
 				"type" : "FLYING",
@@ -56,16 +63,24 @@
 			}
 		}
 	},
-	"core:airElemental": {
+	"core:airElemental" : {
 		"attack" : 7,
 		"defense" : 5,
-		"damage" : {"min" : 2, "max" : 6},
+		"damage" : {
+			"min" : 2,
+			"max" : 6
+		},
 		"hitPoints" : 15,
 		"growth" : 8,
 		"aiValue" : 210,
 		"fightValue" : 180,
-		"cost" : {"gold" : 175},
-		"advMapAmount" : {"min" : 16, "max" : 30},
+		"cost" : {
+			"gold" : 175
+		},
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 30
+		},
 		"abilities#override" : {
 			"canFly" : {
 				"type" : "FLYING",
@@ -98,16 +113,24 @@
 			}
 		}
 	},
-	"core:stormElemental": {
+	"core:stormElemental" : {
 		"attack" : 9,
 		"defense" : 5,
-		"damage" : {"min" : 2, "max" : 6},
+		"damage" : {
+			"min" : 2,
+			"max" : 6
+		},
 		"hitPoints" : 15,
 		"growth" : 8,
 		"aiValue" : 350,
 		"fightValue" : 240,
-		"cost" : {"gold" : 230},
-		"advMapAmount" : {"min" : 16, "max" : 25},
+		"cost" : {
+			"gold" : 230
+		},
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 25
+		},
 		"abilities#override" : {
 			"canFly" : {
 				"type" : "FLYING",
@@ -142,11 +165,13 @@
 			}
 		}
 	},
-	"core:waterElemental": {
+	"core:waterElemental" : {
 		"attack" : 10,
 		"defense" : 8,
 		"hitPoints" : 25,
-		"cost" : {"gold" : 280},
+		"cost" : {
+			"gold" : 280
+		},
 		"abilities#override" : {
 			"nonLiving" : {
 				"type" : "NON_LIVING"
@@ -192,14 +217,16 @@
 			}
 		}
 	},
-	"core:iceElemental": {
+	"core:iceElemental" : {
 		"attack" : 12,
 		"defense" : 8,
 		"hitPoints" : 25,
 		"speed" : 7,
 		"aiValue" : 400,
 		"fightValue" : 400,
-		"cost" : {"gold" : 350},
+		"cost" : {
+			"gold" : 350
+		},
 		"abilities#override" : {
 			"nonLiving" : {
 				"type" : "NON_LIVING"
@@ -264,10 +291,13 @@
 			}
 		}
 	},
-	"core:fireElemental": {
+	"core:fireElemental" : {
 		"attack" : 12,
 		"defense" : 10,
-		"damage" : {"min" : 5, "max" : 10},
+		"damage" : {
+			"min" : 5,
+			"max" : 10
+		},
 		"aiValue" : 600,
 		"fightValue" : 475,
 		"abilities#override" : {
@@ -311,13 +341,18 @@
 			}
 		}
 	},
-	"core:energyElemental": {
+	"core:energyElemental" : {
 		"attack" : 14,
 		"defense" : 10,
-		"damage" : {"min" : 6, "max" : 12},
+		"damage" : {
+			"min" : 6,
+			"max" : 12
+		},
 		"aiValue" : 900,
 		"fightValue" : 750,
-		"cost" : {"gold" : 425},
+		"cost" : {
+			"gold" : 425
+		},
 		"abilities#override" : {
 			"energizes" : {
 				"type" : "FLYING"
@@ -373,16 +408,24 @@
 			}
 		}
 	},
-	"core:earthElemental": {
+	"core:earthElemental" : {
 		"attack" : 10,
 		"defense" : 15,
-		"damage" : {"min" : 10, "max" : 16},
+		"damage" : {
+			"min" : 10,
+			"max" : 16
+		},
 		"hitPoints" : 50,
 		"aiValue" : 825,
 		"fightValue" : 600,
-		"cost" : {"gold" : 500},
-		"advMapAmount" : {"min" : 8, "max" : 16},
-		"abilities#override": {
+		"cost" : {
+			"gold" : 500
+		},
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 16
+		},
+		"abilities#override" : {
 			"nonLiving" : {
 				"type" : "NON_LIVING"
 			},
@@ -419,16 +462,24 @@
 			}
 		}
 	},
-	"core:magmaElemental": {
+	"core:magmaElemental" : {
 		"attack" : 10,
 		"defense" : 17,
-		"damage" : {"min" : 12, "max" : 16},
+		"damage" : {
+			"min" : 12,
+			"max" : 16
+		},
 		"hitPoints" : 60,
 		"aiValue" : 1150,
 		"fightValue" : 780,
-		"cost" : {"gold" : 650},
-		"advMapAmount" : {"min" : 8, "max" : 12},
-		"abilities#override": {
+		"cost" : {
+			"gold" : 650
+		},
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 12
+		},
+		"abilities#override" : {
 			"nonLiving" : {
 				"type" : "NON_LIVING"
 			},
@@ -489,31 +540,41 @@
 			}
 		}
 	},
-	"core:psychicElemental": {
+	"core:psychicElemental" : {
 		"attack" : 14,
 		"defense" : 14,
 		"speed" : 8,
 		"aiValue" : 1680,
 		"fightValue" : 1440,
-		"cost" : {"gold" : 1000}
+		"cost" : {
+			"gold" : 1000
+		}
 	},
-	"core:magicElemental": {
+	"core:magicElemental" : {
 		"attack" : 18,
 		"defense" : 14,
 		"hitPoints" : 100,
 		"speed" : 10,
 		"aiValue" : 2250,
 		"fightValue" : 1850,
-		"cost" : {"gold" : 1450}
+		"cost" : {
+			"gold" : 1450
+		}
 	},
-	"core:firebird": {
+	"core:firebird" : {
 		"attack" : 20,
 		"defense" : 16,
-		"damage" : {"min" : 30, "max" : 50},
+		"damage" : {
+			"min" : 30,
+			"max" : 50
+		},
 		"speed" : 13,
 		"aiValue" : 5200,
 		"fightValue" : 3500,
-		"cost" : {"gold" : 2500, "mercury" : 1},
+		"cost" : {
+			"gold" : 2500,
+			"mercury" : 1
+		},
 		"abilities" : {
 			"fireShield" : {
 				"type" : "FIRE_SHIELD",
@@ -521,15 +582,21 @@
 			}
 		}
 	},
-	"core:phoenix": {
+	"core:phoenix" : {
 		"attack" : 21,
 		"defense" : 21,
-		"damage" : {"min" : 30, "max" : 50},
+		"damage" : {
+			"min" : 30,
+			"max" : 50
+		},
 		"hitPoints" : 200,
 		"speed" : 19,
 		"aiValue" : 7700,
 		"fightValue" : 5700,
-		"cost" : {"gold" : 4000, "mercury" : 2},
+		"cost" : {
+			"gold" : 4000,
+			"mercury" : 2
+		},
 		"abilities#override" : {
 			"canFly" : {
 				"type" : "FLYING"

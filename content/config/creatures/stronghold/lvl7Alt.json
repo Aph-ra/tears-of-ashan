@@ -1,19 +1,33 @@
 {
 	"ghostBehemothAU" : {
-		"name" : {"singular" : "Ghost Behemoth", "plural" : "Ghost Behemoths"},
+		"name" : {
+			"singular" : "Ghost Behemoth",
+			"plural" : "Ghost Behemoths"
+		},
 		"faction" : "stronghold",
 		"level" : 7,
 		"attack" : 22,
 		"defense" : 18,
-		"damage" : {"min" : 30, "max" : 50},
+		"damage" : {
+			"min" : 30,
+			"max" : 50
+		},
 		"hitPoints" : 240,
 		"speed" : 11,
 		"growth" : 1,
 		"aiValue" : 6250,
 		"fightValue" : 5450,
-		"cost" : {"gold" : 3000, "crystal" : 2},
-		"advMapAmount" : {"min" : 3, "max" : 8},
-		"upgrades" : ["core:ancientBehemoth"],
+		"cost" : {
+			"gold" : 3000,
+			"crystal" : 2
+		},
+		"advMapAmount" : {
+			"min" : 3,
+			"max" : 8
+		},
+		"upgrades" : [
+			"core:ancientBehemoth"
+		],
 		"doubleWide" : true,
 		"abilities" : {
 			"king1" : {

@@ -3,7 +3,9 @@
 		"class" : "gatekeeper",
 		"female" : false,
 		"special" : false,
-		"spellbook" : [ "bloodlust" ],
+		"spellbook" : [
+			"bloodlust"
+		],
 		"texts" : {
 			"name" : "Grok",
 			"biography" : "Grok's promotion as the Sovereign's \"go-fer\" was due to two things: his innate indefatigability and the Sovereign's love for massacre. He is his master's bloody entertainments manager, driving all manner of game and beings before Kha-Beleth to be slaughtered. The Sovereign knows that if there is a matter that must be handled quickly, there is no better fiend for it than the slavishly obedient and mindlessly brutal Grok.",
@@ -22,10 +24,16 @@
 		},
 
 		"skills" : [
-			{ "skill" : "gating", "level": "basic" },
-			{ "skill" : "armorer", "level": "basic" }
+			{
+				"skill" : "gating",
+				"level" : "basic"
+			},
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"gateImpStart" : {
@@ -48,19 +56,22 @@
 				}
 			}
 		},
-		
+
 		"army" : [
 			{
 				"creature" : "imp",
-				"min" : 20, "max" : 30,
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "gog",
-				"min" : 5, "max" : 7,
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 4, "max" : 5,
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	}

@@ -3,7 +3,9 @@
 		"class" : "cleric",
 		"female" : true,
 		"special" : false,
-		"spellbook" : ["magicArrow"],
+		"spellbook" : [
+			"magicArrow"
+		],
 		"texts" : {
 			"name" : "Gwenneth",
 			"biography" : "Gwenneth was once a handmaiden to Queen Catherine Ironfist herself, but as Catherine went to war, Gwenneth found herself wrapped up in clerical studies. She became incredibly learned and is keen on sharing her newfound knowledge.",
@@ -22,8 +24,14 @@
 		},
 
 		"skills" : [
-			{ "skill" : "wisdom", "level" : "basic"},
-			{ "skill" : "scholar", "level" : "basic"}
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "scholar",
+				"level" : "basic"
+			}
 		],
 
 		"specialty" : {
@@ -39,15 +47,18 @@
 		"army" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	}

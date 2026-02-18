@@ -5,7 +5,6 @@
 	"description" : "",
 	"version" : "1.0.0",
 	"modType" : "Interface",
-	
-	"conflicts" : [
-	]
+
+	"conflicts" : []
 }

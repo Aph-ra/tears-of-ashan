@@ -1,19 +1,33 @@
 {
 	"ruinousHydraAU" : {
-		"name" : {"singular" : "Ruinous Hydra", "plural" : "Ruinous Hydras"},
+		"name" : {
+			"singular" : "Ruinous Hydra",
+			"plural" : "Ruinous Hydras"
+		},
 		"faction" : "fortress",
 		"level" : 7,
 		"attack" : 18,
 		"defense" : 24,
-		"damage" : {"min" : 25, "max" : 45},
+		"damage" : {
+			"min" : 25,
+			"max" : 45
+		},
 		"hitPoints" : 220,
 		"speed" : 10,
 		"growth" : 1,
 		"aiValue" : 6800,
 		"fightValue" : 6600,
-		"cost" : {"gold" : 4000, "sulfur" : 2},
-		"advMapAmount" : {"min" : 3, "max" : 8},
-		"upgrades" : ["core:chaosHydra"],
+		"cost" : {
+			"gold" : 4000,
+			"sulfur" : 2
+		},
+		"advMapAmount" : {
+			"min" : 3,
+			"max" : 8
+		},
+		"upgrades" : [
+			"core:chaosHydra"
+		],
 		"doubleWide" : true,
 		"abilities" : {
 			"king1" : {
@@ -44,7 +58,10 @@
 		"graphics" : {
 			"animation" : "creatures/fortress/battle/lvl7Alt.json",
 			"map" : "creatures/fortress/map/lvl7Alt.json",
-			"mapMask" : ["VVV","VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"iconSmall" : "creatures/fortress/iconsSmall/lvl7Alt.png",
 			"iconLarge" : "creatures/fortress/iconsBig/lvl7Alt.png",
 			"timeBetweenFidgets" : 1,

@@ -1,44 +1,79 @@
 {
 	"core:goblin" : {
-		"upgrades": ["core:hobgoblin", "goblinTrapperAU"]
+		"upgrades" : [
+			"core:hobgoblin",
+			"goblinTrapperAU"
+		]
 	},
 	"core:hobgoblin" : {
-		"upgrades": ["goblinTrapperAU"]
+		"upgrades" : [
+			"goblinTrapperAU"
+		]
 	},
 	"core:goblinWolfRider" : {
-		"upgrades": ["core:hobgoblinWolfRider", "core:boar"]
+		"upgrades" : [
+			"core:hobgoblinWolfRider",
+			"core:boar"
+		]
 	},
 	"core:hobgoblinWolfRider" : {
-		"upgrades": ["core:boar"]
+		"upgrades" : [
+			"core:boar"
+		]
 	},
 	"core:orc" : {
-		"upgrades": ["core:orcChieftain", "orcBerserkerAU"]
+		"upgrades" : [
+			"core:orcChieftain",
+			"orcBerserkerAU"
+		]
 	},
 	"core:orcChieftain" : {
-		"upgrades": ["orcBerserkerAU"]
+		"upgrades" : [
+			"orcBerserkerAU"
+		]
 	},
 	"core:ogre" : {
-		"upgrades": ["core:ogreMage", "ogreBruteAU"]
+		"upgrades" : [
+			"core:ogreMage",
+			"ogreBruteAU"
+		]
 	},
 	"core:ogreMage" : {
-		"upgrades": ["ogreBruteAU"]
+		"upgrades" : [
+			"ogreBruteAU"
+		]
 	},
 	"core:roc" : {
-		"upgrades": ["core:thunderbird", "shahrokhAU"]
+		"upgrades" : [
+			"core:thunderbird",
+			"shahrokhAU"
+		]
 	},
 	"core:thunderbird" : {
-		"upgrades": ["shahrokhAU"]
+		"upgrades" : [
+			"shahrokhAU"
+		]
 	},
 	"core:cyclop" : {
-		"upgrades": ["core:cyclopKing", "bloodEyedCyclopsAU"]
+		"upgrades" : [
+			"core:cyclopKing",
+			"bloodEyedCyclopsAU"
+		]
 	},
 	"core:cyclopKing" : {
-		"upgrades": ["bloodEyedCyclopsAU"]
+		"upgrades" : [
+			"bloodEyedCyclopsAU"
+		]
 	},
 	"core:behemoth" : {
-		"upgrades": ["core:ancientBehemoth", "ghostBehemothAU"]
+		"upgrades" : [
+			"core:ancientBehemoth",
+			"ghostBehemothAU"
+		]
 	},
 	"core:ancientBehemoth" : {
-		"upgrades": ["ghostBehemothAU"]
+		"upgrades" : [
+			"ghostBehemothAU"
+		]
 	}
 }

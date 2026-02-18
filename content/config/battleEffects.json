@@ -2,39 +2,54 @@
 	"colorMuxers" : {
 		"example" : [
 			{
-				// Required. Time point at which this effect will be applied at full puwer. 
+				// Required. Time point at which this effect will be applied at full puwer.
 				// Must be greater than time point of previous effect
 				// During playback, effects will be played with smooth transition
-				// Effect will end once game reaches time point of the final filter 
+				// Effect will end once game reaches time point of the final filter
 				// Effect of final step will be applied to stack permanently for duration of the spell
 				// Note that actual speed of animation is subject to changes from in-game animation speed setting
 				"time" : 0.0,
 
 				// Optional. Adds grayscale overlay on top of creature, multiplied by specified color per channel (rgba order)
-				"color"   : [ 1.0, 0.0, 0.0, 1.0 ],
-				
+				"color" : [
+					1.0,
+					0.0,
+					0.0,
+					1.0
+				],
+
 				/// Optional. Transparency filter, makes stack appear semi-transparent, used mostly for fade-in effects
 				/// Value 0 = full transparency, 1 = fully opaque
 				"alpha" : 1.0
 			}
 		],
-	
+
 		"petrification" : [
 			{
 				"time" : 0.0,
 				"alpha" : 1.0
 			},
 			{
-				"time"  : 1.0,
-				"color"  : [ 1.0, 1.0, 1.0, 1.0 ], //grayscale
+				"time" : 1.0,
+				"color" : [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				], //grayscale
 				"alpha" : 1.0
 			}
 		],
 		"cloning" : [
-			{ 
+			{
 				// No fade in - will be handled by summonFadeIn effect
-				"time" : 0.0, 
-				"color"  : [ 0.0, 0.0, 1.0, 1.0 ], //blue
+				"time" : 0.0,
+				"color" : [
+					0.0,
+					0.0,
+					1.0,
+					1.0
+				], //blue
 				"alpha" : 1.0
 			}
 		],
@@ -46,7 +61,7 @@
 			{
 				"time" : 1.0,
 				"alpha" : 1.0
-			},
+			}
 		],
 		"summonFadeOut" : [
 			{
@@ -56,7 +71,7 @@
 			{
 				"time" : 1.0,
 				"alpha" : 0.0
-			},
+			}
 		],
 		"teleportFadeIn" : [
 			{
@@ -66,7 +81,7 @@
 			{
 				"time" : 0.5,
 				"alpha" : 1.0
-			},
+			}
 		],
 		"teleportFadeOut" : [
 			{
@@ -76,7 +91,7 @@
 			{
 				"time" : 0.5,
 				"alpha" : 0.0
-			},
+			}
 		],
 		"bloodlust" : [
 			{
@@ -84,16 +99,21 @@
 				"alpha" : 1.0
 			},
 			{
-				"time"  : 0.5,
-				"color"  : [ 1.0, 0.0, 0.0, 1.0 ], //red
+				"time" : 0.5,
+				"color" : [
+					1.0,
+					0.0,
+					0.0,
+					1.0
+				], //red
 				"alpha" : 1.0
 			},
 			{
 				"time" : 1.0,
 				"alpha" : 1.0
-			},
+			}
 		],
-		
+
 		"deepFreeze" : [
 			{
 				"time" : 0.0,
@@ -111,7 +131,7 @@
 				"alpha" : 1.0
 			}
 		],
-		
+
 		"freezingShot" : [
 			{
 				"time" : 0.0,

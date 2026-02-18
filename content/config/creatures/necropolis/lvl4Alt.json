@@ -1,19 +1,32 @@
 {
-	"vampirePrinceAU": {
-		"name" : {"singular" : "Vampire Prince", "plural" : "Vampire Princes"},
+	"vampirePrinceAU" : {
+		"name" : {
+			"singular" : "Vampire Prince",
+			"plural" : "Vampire Princes"
+		},
 		"faction" : "necropolis",
 		"level" : 4,
 		"attack" : 10,
 		"defense" : 10,
-		"damage" : {"min" : 5, "max" : 8},
+		"damage" : {
+			"min" : 5,
+			"max" : 8
+		},
 		"hitPoints" : 40,
 		"speed" : 10,
 		"growth" : 4,
 		"aiValue" : 783,
 		"fightValue" : 652,
-		"cost" : {"gold" : 500},
-		"advMapAmount" : {"min" : 10, "max" : 16},
-		"upgrades" : ["core:vampireLord"],
+		"cost" : {
+			"gold" : 500
+		},
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 16
+		},
+		"upgrades" : [
+			"core:vampireLord"
+		],
 		"doubleWide" : false,
 		"abilities" : {
 			"IS_UNDEAD" : {
@@ -31,9 +44,11 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "blind",
 				"val" : 30,
-				"addInfo" : [2,2],
+				"addInfo" : [
+					2,
+					2
+				],
 				"icon" : "zvs/Lib1.res/spellsSOD/blind2.png"
-				
 			},
 			"spellPower" : {
 				"type" : "SPECIFIC_SPELL_POWER",
@@ -42,7 +57,7 @@
 		},
 		"graphics" : {
 			"animation" : "creatures/necropolis/battle/lvl4Alt",
-			"map" : 	  "creatures/necropolis/map/lvl4Alt",
+			"map" : "creatures/necropolis/map/lvl4Alt",
 			"iconSmall" : "creatures/necropolis/iconsSmall/lvl4Alt",
 			"iconLarge" : "creatures/necropolis/iconsBig/lvl4Alt",
 			"timeBetweenFidgets" : 1,

@@ -5,11 +5,11 @@
 	"description" : "",
 	"version" : "1.0.0",
 	"modType" : "Music",
-	
+
 	"conflicts" : [
 		"new-sfx-sounds"
 	],
-	
+
 	"creatures" : [
 		"config/creatures.json"
 	]

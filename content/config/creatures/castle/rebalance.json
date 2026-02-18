@@ -1,18 +1,23 @@
 {
-	"core:crusader": {
+	"core:crusader" : {
 		"graphics" : {
 			"iconLarge" : "creatures/castle/iconsbig/lvl4Upg"
 		}
 	},
-	"core:zealot": {
+	"core:zealot" : {
 		"attack" : 14,
 		"defense" : 10,
-		"damage" : {"min" : 10, "max" : 14},
+		"damage" : {
+			"min" : 10,
+			"max" : 14
+		},
 		"aiValue" : 850,
 		"fightValue" : 600,
-		"cost" : {"gold" : 550}
+		"cost" : {
+			"gold" : 550
+		}
 	},
-	"core:angel": {
+	"core:angel" : {
 		"abilities" : {
 			"hateDevils" : {
 				"hidden" : true
@@ -28,11 +33,11 @@
 				"icon" : "zvs/Lib1.res/hatearchangels.png"
 			},
 			"raisesMorale" : {
-				"description" : "{Raises Morale}\nAngels, Archangels, and Seraphim raise allied units' Morale by +1",
+				"description" : "{Raises Morale}\nAngels, Archangels, and Seraphim raise allied units' Morale by +1"
 			}
 		}
 	},
-	"core:archangel": {
+	"core:archangel" : {
 		"abilities" : {
 			"hateDevils" : {
 				"hidden" : true

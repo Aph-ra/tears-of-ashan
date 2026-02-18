@@ -1,34 +1,41 @@
 {
-	"core:infernalTroglodyte": {
+	"core:infernalTroglodyte" : {
 		"speed" : 6,
 		"aiValue" : 90,
 		"fightValue" : 90,
-		"cost" : {"gold" : 75}
+		"cost" : {
+			"gold" : 75
+		}
 	},
-	"core:harpy": {
+	"core:harpy" : {
 		"hitPoints" : 15
 	},
-	"core:harpyHag": {
+	"core:harpyHag" : {
 		"attack" : 7,
-		"damage" : {"min" : 2, "max" : 4},
+		"damage" : {
+			"min" : 2,
+			"max" : 4
+		},
 		"hitPoints" : 15,
 		"aiValue" : 260,
 		"fightValue" : 210
 	},
-	"core:beholder": {
+	"core:beholder" : {
 		"hitPoints" : 20,
-		"abilities": {
+		"abilities" : {
 			"noWallPenalty" : {
 				"type" : "NO_WALL_PENALTY"
 			}
 		}
 	},
-	"core:evilEye": {
+	"core:evilEye" : {
 		"hitPoints" : 20,
 		"aiValue" : 400,
 		"fightValue" : 280,
-		"cost" : {"gold" : 300},
-		"abilities": {
+		"cost" : {
+			"gold" : 300
+		},
+		"abilities" : {
 			"noWallPenalty" : {
 				"type" : "NO_WALL_PENALTY"
 			},
@@ -37,39 +44,46 @@
 			}
 		}
 	},
-	"core:medusa": {
+	"core:medusa" : {
 		"attack" : 10,
 		"defense" : 10,
 		"shots" : 12,
 		"aiValue" : 540,
 		"fightValue" : 390
 	},
-	"core:medusaQueen": {
+	"core:medusaQueen" : {
 		"attack" : 14,
 		"defense" : 10,
 		"shots" : 24,
 		"aiValue" : 650,
 		"fightValue" : 550,
-		"cost" : {"gold" : 360}
+		"cost" : {
+			"gold" : 360
+		}
 	},
-	"core:minotaurKing": {
+	"core:minotaurKing" : {
 		"attack" : 17,
 		"defense" : 13,
 		"aiValue" : 1200,
 		"fightValue" : 975,
-		"cost" : {"gold" : 650},
-		"abilities": {
+		"cost" : {
+			"gold" : 650
+		},
+		"abilities" : {
 			"extraAttack" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1
 			}
 		}
 	},
-	"core:manticore": {
-		"damage" : {"min" : 15, "max" : 20},
+	"core:manticore" : {
+		"damage" : {
+			"min" : 15,
+			"max" : 20
+		},
 		"aiValue" : 1600,
 		"fightValue" : 1250,
-		"abilities": {
+		"abilities" : {
 			"paralyze" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.paralyze",
@@ -78,15 +92,20 @@
 			}
 		}
 	},
-	"core:scorpicore": {
+	"core:scorpicore" : {
 		"attack" : 18,
 		"defense" : 15,
-		"damage" : {"min" : 18, "max" : 22},
+		"damage" : {
+			"min" : 18,
+			"max" : 22
+		},
 		"hitPoints" : 100,
 		"aiValue" : 2000,
 		"fightValue" : 1750,
-		"cost" : {"gold" : 1250},
-		"abilities#override": {
+		"cost" : {
+			"gold" : 1250
+		},
+		"abilities#override" : {
 			"canFly" : {
 				"type" : "FLYING"
 			},
@@ -98,8 +117,8 @@
 			}
 		}
 	},
-	"core:redDragon": {
-		"abilities": {
+	"core:redDragon" : {
+		"abilities" : {
 			"hateGiants" : {
 				"type" : "HATE",
 				"subtype" : "giant",
@@ -121,8 +140,8 @@
 			}
 		}
 	},
-	"core:blackDragon": {
-		"abilities": {
+	"core:blackDragon" : {
+		"abilities" : {
 			"hateGiants" : {
 				"type" : "HATE",
 				"subtype" : "giant",

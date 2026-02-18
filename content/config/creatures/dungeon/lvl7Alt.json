@@ -1,19 +1,33 @@
 {
 	"shadowDragonAU" : {
-		"name" : {"singular" : "Shadow Dragon", "plural" : "Shadow Dragons"},
+		"name" : {
+			"singular" : "Shadow Dragon",
+			"plural" : "Shadow Dragons"
+		},
 		"faction" : "dungeon",
 		"level" : 7,
 		"attack" : 28,
 		"defense" : 22,
-		"damage" : {"min" : 40, "max" : 50},
+		"damage" : {
+			"min" : 40,
+			"max" : 50
+		},
 		"hitPoints" : 240,
 		"speed" : 16,
 		"growth" : 1,
 		"aiValue" : 8721,
 		"fightValue" : 6783,
-		"cost" : {"gold" : 4000, "sulfur" : 2},
-		"advMapAmount" : {"min" : 3, "max" : 8},
-		"upgrades" : ["core:blackDragon"],
+		"cost" : {
+			"gold" : 4000,
+			"sulfur" : 2
+		},
+		"advMapAmount" : {
+			"min" : 3,
+			"max" : 8
+		},
+		"upgrades" : [
+			"core:blackDragon"
+		],
 		"doubleWide" : true,
 		"abilities" : {
 			"king1" : {

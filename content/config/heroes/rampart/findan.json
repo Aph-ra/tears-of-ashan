@@ -9,7 +9,7 @@
 			"specialty" : {
 				"name" : "Archery",
 				"tooltip" : "Secondary Skill Bonus: Archery",
-				"description" : "Receives a 5% per level bonus to Archery skill percentage."				
+				"description" : "Receives a 5% per level bonus to Archery skill percentage."
 			}
 		},
 
@@ -21,26 +21,35 @@
 		},
 
 		"skills" : [
-			{"skill" : "archery", "level": "basic"},
-			{"skill" : "tactics", "level": "basic"}
+			{
+				"skill" : "archery",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
 		],
-    
+
 		"specialty" : {
 			"secondary" : "archery"
 		},
-	
+
 		"army" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24,
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 5, "max" : 7,
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
-				"min" : 3, "max" : 5,
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	}

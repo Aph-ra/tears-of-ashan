@@ -1,23 +1,23 @@
 {
-	"core:fairieDragon": {
+	"core:fairieDragon" : {
 		"faction" : "conflux",
 		"graphics" : {
 			"iconLarge" : "creatures/neutral/iconsbig/faerieDragon"
 		}
 	},
-	"core:crystalDragon": {
+	"core:crystalDragon" : {
 		"faction" : "tower",
 		"graphics" : {
 			"iconLarge" : "creatures/neutral/iconsbig/crystalDragon"
 		}
 	},
-	"core:rustDragon": {
+	"core:rustDragon" : {
 		"faction" : "dungeon",
 		"graphics" : {
 			"iconLarge" : "creatures/neutral/iconsbig/rustDragon"
 		}
 	},
-	"core:azureDragon": {
+	"core:azureDragon" : {
 		"faction" : "bulwark",
 		"graphics" : {
 			"iconLarge" : "creatures/neutral/iconsbig/azureDragon"

@@ -3,7 +3,9 @@
 		"class" : "inquisitor",
 		"female" : true,
 		"special" : false,
-		"spellbook" : [ "bloodlust" ],
+		"spellbook" : [
+			"bloodlust"
+		],
 		"texts" : {
 			"name" : "Ymoril",
 			"biography" : "Hailing from Hammer Fall, Ymoril Redshield is a young captain trained by Konrad Wolf in person. Ymoril lost her parents at a very young age and Konrad, who had just been appointed governor of the city, adopted her as his own daughter. Ymoril grew into a capable fighter but also a wise administrator, and she has the full trust of her foster father. Ymoril has no memories of the night of her parents' death, but she knows they were slaughtered by Demons, just as she knowst how Konrad risked his own life to track down the demonic assassins and avenge their victims.",
@@ -22,11 +24,20 @@
 		},
 
 		"skills" : [
-			{ "skill" : "offence", "level": "basic" },
-			{ "skill" : "armorer", "level": "basic" },
-			{ "skill" : "archery", "level": "basic" }
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			},
+			{
+				"skill" : "archery",
+				"level" : "basic"
+			}
 		],
-    
+
 		"specialty" : {
 			"bonuses" : {
 				"offence" : {
@@ -55,19 +66,22 @@
 				}
 			}
 		},
-	
+
 		"army" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	}

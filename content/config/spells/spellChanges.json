@@ -7,7 +7,7 @@
 		},
 		"levels" : {
 			"none" : {
-				"description" : "{Divine Strength}\n\nCauses the selected friendly unit to inflict maximum damage in combat. Removes Curse effect. Does not affect undead.\n",
+				"description" : "{Divine Strength}\n\nCauses the selected friendly unit to inflict maximum damage in combat. Removes Curse effect. Does not affect undead.\n"
 			},
 			"basic" : {
 				"description" : "{Basic Divine Strength}\n\nCauses the selected friendly unit to inflict maximum damage in combat. Removes Curse effect. Does not affect undead.\n"
@@ -39,14 +39,14 @@
 		}
 	},
 	"core:destroyUndead" : {
-		"power": 20,
+		"power" : 20,
 		"school" : {
 			"air" : false,
 			"01lightSchool" : true
 		},
 		"levels" : {
 			"none" : {
-				"description" : "{Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield.\n\nEach unit receives (Spell Power x 10 + 10) damage.\n",
+				"description" : "{Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield.\n\nEach unit receives (Spell Power x 10 + 10) damage.\n"
 			},
 			"basic" : {
 				"description" : "{Basic Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield.\n\nEach unit receives (Spell Power x 10 + 10) damage.\n"
@@ -70,7 +70,7 @@
 		},
 		"graphics" : {
 			"iconBook" : "spells/dimensionDoor/spellBook",
-			"iconScroll" : "spells/dimensionDoor/spellScroll",
+			"iconScroll" : "spells/dimensionDoor/spellScroll"
 			//"iconScenarioBonus" : "spells/dimensionDoor/spellBonus",
 			//"iconEffect" : "spells/dimensionDoor/spellEffect"
 		}
@@ -89,7 +89,7 @@
 		},
 		"levels" : {
 			"none" : {
-				"description" : "{Cleansing}\n\nRemoves all spells and effects except Disrupting Ray and Poison from a friendly unit. Ignores target creature's natural immunities to magic.\n",
+				"description" : "{Cleansing}\n\nRemoves all spells and effects except Disrupting Ray and Poison from a friendly unit. Ignores target creature's natural immunities to magic.\n"
 			},
 			"basic" : {
 				"description" : "{Basic Cleansing}\n\nRemoves all spells and effects except Disrupting Ray and Poison from a friendly unit. Ignores target creature's natural immunities to magic.\n"
@@ -103,7 +103,7 @@
 		}
 	},
 	"core:fireball" : {
-		"power": 20
+		"power" : 20
 	},
 	"core:fortune" : {
 		"school" : {
@@ -112,24 +112,24 @@
 		}
 	},
 	"core:frostRing" : {
-		"power": 20,
-		"levels": {
-			"none": {
-				"cost": 15
+		"power" : 20,
+		"levels" : {
+			"none" : {
+				"cost" : 15
 			},
-			"basic": {
-				"cost": 12
+			"basic" : {
+				"cost" : 12
 			},
-			"advanced": {
-				"cost": 15
+			"advanced" : {
+				"cost" : 15
 			},
-			"expert": {
-				"cost": 15
+			"expert" : {
+				"cost" : 15
 			}
 		}
 	},
 	"core:landMine" : {
-		"power": 20
+		"power" : 20
 	},
 	"core:magicArrow" : {
 		"school" : {
@@ -142,19 +142,19 @@
 		}
 	},
 	"core:meteorShower" : {
-		"power": 30,
-		"levels": {
-			"none": {
-				"cost": 18
+		"power" : 30,
+		"levels" : {
+			"none" : {
+				"cost" : 18
 			},
-			"basic": {
-				"cost": 15
+			"basic" : {
+				"cost" : 15
 			},
-			"advanced": {
-				"cost": 15
+			"advanced" : {
+				"cost" : 15
 			},
-			"expert": {
-				"cost": 15
+			"expert" : {
+				"cost" : 15
 			}
 		}
 	},
@@ -195,7 +195,7 @@
 		},
 		"levels" : {
 			"none" : {
-				"description" : "{Prayer}\n\nBestows a +2 bonus to the Attack strength, Defense strength, and Speed of the selected friendly unit.\n",
+				"description" : "{Prayer}\n\nBestows a +2 bonus to the Attack strength, Defense strength, and Speed of the selected friendly unit.\n"
 			},
 			"basic" : {
 				"description" : "{Basic Prayer}\n\nBestows a +2 bonus to the Attack strength, Defense strength, and Speed of the selected friendly unit.\n"
@@ -231,7 +231,7 @@
 		},
 		"graphics" : {
 			"iconBook" : "spells/townPortal/spellBook",
-			"iconScroll" : "spells/townPortal/spellScroll",
+			"iconScroll" : "spells/townPortal/spellScroll"
 			//"iconScenarioBonus" : "spells/townPortal/spellBonus",
 			//"iconEffect" : "spells/townPortal/spellEffect"
 		}
@@ -260,7 +260,9 @@
 							"reduceSpeed" : {
 								"type" : "STACKS_SPEED",
 								"valueType" : "PERCENT_TO_ALL",
-								"duration" : ["N_TURNS"],
+								"duration" : [
+									"N_TURNS"
+								],
 								"val" : -20
 							}
 						}
@@ -365,7 +367,7 @@
 			},
 			"expert" : {
 				"description" : "{Expert Vigour}\n\nAll friendly troops will strike twice upon their next melee attack.",
-				"cost" : 18,
+				"cost" : 18
 			}
 		}
 	},
@@ -424,7 +426,8 @@
 	},
 	"new-old-spells-plus:deepFreeze" : {
 		"animation" : {
-			"affect" : [ {
+			"affect" : [
+				{
 					"effectName" : "deepFreeze",
 					"transparency" : 0.5
 				}

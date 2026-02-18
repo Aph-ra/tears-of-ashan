@@ -1,44 +1,79 @@
 {
 	"core:skeleton" : {
-		"upgrades": ["core:skeletonWarrior", "skeletonArcherAU"]
+		"upgrades" : [
+			"core:skeletonWarrior",
+			"skeletonArcherAU"
+		]
 	},
 	"core:skeletonWarrior" : {
-		"upgrades": ["skeletonArcherAU"]
+		"upgrades" : [
+			"skeletonArcherAU"
+		]
 	},
 	"core:walkingDead" : {
-		"upgrades": ["core:zombieLord", "rotZombieAU"]
+		"upgrades" : [
+			"core:zombieLord",
+			"rotZombieAU"
+		]
 	},
 	"core:zombieLord" : {
-		"upgrades": ["rotZombieAU"]
+		"upgrades" : [
+			"rotZombieAU"
+		]
 	},
 	"core:wight" : {
-		"upgrades": ["core:wraith", "bansheeAU"]
+		"upgrades" : [
+			"core:wraith",
+			"bansheeAU"
+		]
 	},
 	"core:wraith" : {
-		"upgrades": ["bansheeAU"]
+		"upgrades" : [
+			"bansheeAU"
+		]
 	},
 	"core:vampire" : {
-		"upgrades": ["core:vampireLord", "vampirePrinceAU"]
+		"upgrades" : [
+			"core:vampireLord",
+			"vampirePrinceAU"
+		]
 	},
 	"core:vampireLord" : {
-		"upgrades": ["vampirePrinceAU"]
+		"upgrades" : [
+			"vampirePrinceAU"
+		]
 	},
 	"core:lich" : {
-		"upgrades": ["core:powerLich", "lichMasterAU"]
+		"upgrades" : [
+			"core:powerLich",
+			"lichMasterAU"
+		]
 	},
 	"core:powerLich" : {
-		"upgrades": ["lichMasterAU"]
+		"upgrades" : [
+			"lichMasterAU"
+		]
 	},
 	"core:blackKnight" : {
-		"upgrades": ["core:dreadKnight", "dreadtaurAU"]
+		"upgrades" : [
+			"core:dreadKnight",
+			"dreadtaurAU"
+		]
 	},
 	"core:dreadKnight" : {
-		"upgrades": ["dreadtaurAU"]
+		"upgrades" : [
+			"dreadtaurAU"
+		]
 	},
 	"core:boneDragon" : {
-		"upgrades": ["core:ghostDragon", "spectralDragonAU"]
+		"upgrades" : [
+			"core:ghostDragon",
+			"spectralDragonAU"
+		]
 	},
 	"core:ghostDragon" : {
-		"upgrades": ["spectralDragonAU"]
+		"upgrades" : [
+			"spectralDragonAU"
+		]
 	}
 }

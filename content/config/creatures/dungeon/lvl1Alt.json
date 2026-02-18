@@ -1,20 +1,33 @@
 {
-	"chthonianAU": {
-		"name" : {"singular" : "Chthonian", "plural" : "Chthonians"},
+	"chthonianAU" : {
+		"name" : {
+			"singular" : "Chthonian",
+			"plural" : "Chthonians"
+		},
 		"faction" : "dungeon",
 		"level" : 1,
 		"attack" : 6,
 		"defense" : 3,
-		"damage" : {"min" : 2, "max" : 3},
+		"damage" : {
+			"min" : 2,
+			"max" : 3
+		},
 		"hitPoints" : 5,
 		"speed" : 5,
 		"growth" : 14,
 		"horde" : 7,
 		"aiValue" : 90,
 		"fightValue" : 90,
-		"cost" : {"gold" : 75},
-		"advMapAmount" : {"min" : 20, "max" : 30},
-		"upgrades" : ["core:infernalTroglodyte"],
+		"cost" : {
+			"gold" : 75
+		},
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 30
+		},
+		"upgrades" : [
+			"core:infernalTroglodyte"
+		],
 		"doubleWide" : false,
 		"abilities" : {
 			"blindImmunity" : {

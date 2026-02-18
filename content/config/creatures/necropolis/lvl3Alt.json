@@ -1,19 +1,32 @@
 {
-	"bansheeAU": {
-		"name" : {"singular" : "Banshee", "plural" : "Banshees"},
+	"bansheeAU" : {
+		"name" : {
+			"singular" : "Banshee",
+			"plural" : "Banshees"
+		},
 		"level" : 3,
 		"faction" : "necropolis",
 		"attack" : 9,
 		"defense" : 7,
-		"damage" : {"min" : 3, "max" : 5},
+		"damage" : {
+			"min" : 3,
+			"max" : 5
+		},
 		"hitPoints" : 20,
 		"speed" : 7,
 		"growth" : 7,
 		"aiValue" : 400,
 		"fightValue" : 350,
-		"cost" : {"gold" : 300},
-		"advMapAmount" : {"min" : 12, "max" : 20},
-		"upgrades" : ["core:wraith"],
+		"cost" : {
+			"gold" : 300
+		},
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 20
+		},
+		"upgrades" : [
+			"core:wraith"
+		],
 		"doubleWide" : false,
 		"abilities" : {
 			"undead" : {
@@ -34,7 +47,10 @@
 				"type" : "SPELL_BEFORE_ATTACK",
 				"subtype" : "deathRipple",
 				"val" : 100,
-				"addInfo" : [1,2],
+				"addInfo" : [
+					1,
+					2
+				],
 				"description" : "{Cast Before Attack}\nCasts Basic Death Ripple before attacking (20% Power)",
 				"icon" : "zvs/Lib1.res/spellsSOD/deathripple1.png"
 			},
@@ -50,17 +66,17 @@
 			"iconLarge" : "creatures/necropolis/iconsBig/lvl3Alt",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"sound" : {
-			"attack": "WRTHATTK.wav",
-			"defend": "WRTHDFND.wav",
-			"killed": "WRTHKILL.wav",
-			"move": "WRTHMOVE.wav",
-			"wince": "WRTHWNCE.wav"
+			"attack" : "WRTHATTK.wav",
+			"defend" : "WRTHDFND.wav",
+			"killed" : "WRTHKILL.wav",
+			"move" : "WRTHMOVE.wav",
+			"wince" : "WRTHWNCE.wav"
 		}
 	}
 }

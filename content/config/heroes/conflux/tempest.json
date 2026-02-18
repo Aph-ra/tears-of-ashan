@@ -20,29 +20,38 @@
 			"specialtyLarge" : "heroes/specialtyLarge/Air Elementals.png"
 		},
 
-		"skills": [
-			{ "skill" : "airMagic", "level": "basic" },
-			{ "skill" : "pathfinding", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "airMagic",
+				"level" : "basic"
+			},
+			{
+				"skill" : "pathfinding",
+				"level" : "basic"
+			}
 		],
-    
+
 		"specialty" : {
 			"creature" : "airElemental",
 			"creatureLevel" : 2,
 			"stepSize" : 20
 		},
-	
+
 		"army" : [
 			{
 				"creature" : "airElemental",
-				"min" : 4, "max" : 6,
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "airElemental",
-				"min" : 4, "max" : 6,
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "airElemental",
-				"min" : 4, "max" : 6,
+				"min" : 4,
+				"max" : 6
 			}
 		]
 	}

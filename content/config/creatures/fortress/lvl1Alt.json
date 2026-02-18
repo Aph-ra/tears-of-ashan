@@ -1,20 +1,33 @@
 {
-	"gnollShamanAU": {
-		"name" : {"singular" : "Gnoll Shaman", "plural" : "Gnoll Shamans"},
+	"gnollShamanAU" : {
+		"name" : {
+			"singular" : "Gnoll Shaman",
+			"plural" : "Gnoll Shamans"
+		},
 		"faction" : "fortress",
 		"level" : 1,
 		"attack" : 3,
 		"defense" : 7,
-		"damage" : {"min" : 2, "max" : 3},
+		"damage" : {
+			"min" : 2,
+			"max" : 3
+		},
 		"hitPoints" : 6,
 		"speed" : 5,
 		"growth" : 12,
 		"horde" : 6,
 		"aiValue" : 100,
 		"fightValue" : 100,
-		"cost" : {"gold" : 70},
-		"advMapAmount" : {"min" : 20, "max" : 30},
-		"upgrades" : ["core:gnollMarauder"],
+		"cost" : {
+			"gold" : 70
+		},
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 30
+		},
+		"upgrades" : [
+			"core:gnollMarauder"
+		],
 		"doubleWide" : false,
 		"abilities" : {
 			"casts" : {

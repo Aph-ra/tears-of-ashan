@@ -1,19 +1,32 @@
 {
-	"rotZombieAU": {
-		"name" : {"singular" : "Rot Zombie", "plural" : "Rot Zombies"},
+	"rotZombieAU" : {
+		"name" : {
+			"singular" : "Rot Zombie",
+			"plural" : "Rot Zombies"
+		},
 		"faction" : "necropolis",
 		"level" : 2,
 		"attack" : 7,
 		"defense" : 5,
-		"damage" : {"min" : 2, "max" : 3},
+		"damage" : {
+			"min" : 2,
+			"max" : 3
+		},
 		"hitPoints" : 18,
 		"speed" : 5,
 		"growth" : 8,
 		"aiValue" : 160,
 		"fightValue" : 160,
-		"cost" : {"gold" : 125},
-		"advMapAmount" : {"min" : 16, "max" : 25},
-		"upgrades" : ["core:zombieLord"],
+		"cost" : {
+			"gold" : 125
+		},
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 25
+		},
+		"upgrades" : [
+			"core:zombieLord"
+		],
 		"doubleWide" : false,
 		"abilities" : {
 			"undead" : {
@@ -23,7 +36,10 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "disruptingRay",
 				"val" : 20,
-				"addInfo" : [2,2],
+				"addInfo" : [
+					2,
+					2
+				],
 				"description" : "{Cast After Attack}\nHas a 20% chance to cast Advanced Disrupting Ray after attacking (3 Power)",
 				"icon" : "zvs/Lib1.res/spellsSOD/disruptingray2.png"
 			},
@@ -34,7 +50,7 @@
 		},
 		"graphics" : {
 			"animation" : "creatures/necropolis/battle/lvl2Alt",
-			"map" : 	  "creatures/necropolis/map/lvl2Alt",
+			"map" : "creatures/necropolis/map/lvl2Alt",
 			"iconSmall" : "creatures/necropolis/iconsSmall/lvl2Alt",
 			"iconLarge" : "creatures/necropolis/iconsBig/lvl2Alt",
 			"animationTime" : {
@@ -42,7 +58,7 @@
 				"idle" : 10,
 				"walk" : 1.3
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "ZMBLATTK.wav",

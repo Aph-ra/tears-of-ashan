@@ -3,7 +3,9 @@
 		"class" : "overlord",
 		"female" : false,
 		"special" : false,
-		"spellbook" : [ "dragonStrength" ],
+		"spellbook" : [
+			"dragonStrength"
+		],
 		"texts" : {
 			"name" : "Barbarus",
 			"biography" : "",
@@ -22,28 +24,37 @@
 		},
 
 		"skills" : [
-			{"skill" : "offence", "level": "basic"},
-			{"skill" : "fireMagic", "level": "basic"}
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "fireMagic",
+				"level" : "basic"
+			}
 		],
-    
+
 		"specialty" : {
 			"creature" : "redDragon",
 			"creatureLevel" : 7,
 			"stepSize" : 20
 		},
-	
+
 		"army" : [
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30,
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "harpy",
-				"min" : 6, "max" : 8,
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "beholder",
-				"min" : 3, "max" : 5,
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	}

@@ -1,20 +1,33 @@
 {
-	"halcyonAU": {
-		"name" : {"singular" : "Halcyon", "plural" : "Halcyons"},	
+	"halcyonAU" : {
+		"name" : {
+			"singular" : "Halcyon",
+			"plural" : "Halcyons"
+		},
 		"faction" : "cove",
 		"level" : 4,
 		"attack" : 10,
 		"defense" : 10,
-		"damage" : {"min" : 6, "max" : 10},
+		"damage" : {
+			"min" : 6,
+			"max" : 10
+		},
 		"hitPoints" : 40,
 		"speed" : 10,
 		"growth" : 4,
 		"horde" : 3,
 		"aiValue" : 700,
 		"fightValue" : 500,
-		"cost" : {"gold" : 350},
-		"advMapAmount" : {"min" : 10, "max" : 16},
-		"upgrades" : ["ayssid"],
+		"cost" : {
+			"gold" : 350
+		},
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 16
+		},
+		"upgrades" : [
+			"ayssid"
+		],
 		"doubleWide" : true,
 		"abilities" : {
 			"canFly" : {
@@ -35,14 +48,17 @@
 		"graphics" : {
 			"animation" : "creatures/cove/battle/lvl4Alt.json",
 			"map" : "creatures/cove/map/lvl4Alt.json",
-			"mapMask" : ["VVV","VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"iconSmall" : "creatures/cove/iconsSmall/lvl4Alt.png",
 			"iconLarge" : "creatures/cove/iconsBig/lvl4Alt.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"sound" : {

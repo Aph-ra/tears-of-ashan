@@ -1,19 +1,32 @@
 {
-	"chimeraAU": {
-		"name" : {"singular" : "Chimera", "plural" : "Chimeras"},
+	"chimeraAU" : {
+		"name" : {
+			"singular" : "Chimera",
+			"plural" : "Chimeras"
+		},
 		"faction" : "dungeon",
 		"level" : 6,
 		"attack" : 20,
 		"defense" : 13,
-		"damage" : {"min" : 15, "max" : 20},
+		"damage" : {
+			"min" : 15,
+			"max" : 20
+		},
 		"hitPoints" : 90,
 		"speed" : 9,
 		"growth" : 2,
 		"aiValue" : 2000,
 		"fightValue" : 1750,
-		"cost" : {"gold" : 1250},
-		"advMapAmount" : {"min" : 5, "max" : 10},
-		"upgrades" : ["core:scorpicore"],
+		"cost" : {
+			"gold" : 1250
+		},
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 10
+		},
+		"upgrades" : [
+			"core:scorpicore"
+		],
 		"doubleWide" : true,
 		"abilities" : {
 			"canFly" : {
@@ -37,9 +50,9 @@
 			"iconLarge" : "creatures/dungeon/iconsBig/lvl6Alt",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
-				"walk" : 0.80,
-				"idle" : 10.00,
-				"attack" : 1.00
+				"walk" : 0.8,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"sound" : {
@@ -50,4 +63,4 @@
 			"wince" : "SCRPWNCE.wav"
 		}
 	}
-}	
+}

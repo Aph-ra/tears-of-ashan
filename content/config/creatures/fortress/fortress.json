@@ -1,44 +1,79 @@
 {
 	"core:gnoll" : {
-		"upgrades": ["core:gnollMarauder", "gnollShamanAU"]
+		"upgrades" : [
+			"core:gnollMarauder",
+			"gnollShamanAU"
+		]
 	},
 	"core:gnollMarauder" : {
-		"upgrades": ["gnollShamanAU"]
+		"upgrades" : [
+			"gnollShamanAU"
+		]
 	},
 	"core:lizardman" : {
-		"upgrades": ["core:lizardWarrior", "lizardAssassinAU"]
+		"upgrades" : [
+			"core:lizardWarrior",
+			"lizardAssassinAU"
+		]
 	},
 	"core:lizardWarrior" : {
-		"upgrades": ["lizardAssassinAU"]
+		"upgrades" : [
+			"lizardAssassinAU"
+		]
 	},
 	"core:serpentFly" : {
-		"upgrades": ["core:fireDragonFly", "damselFlyAU"]
+		"upgrades" : [
+			"core:fireDragonFly",
+			"damselFlyAU"
+		]
 	},
 	"core:fireDragonFly" : {
-		"upgrades": ["damselFlyAU"]
+		"upgrades" : [
+			"damselFlyAU"
+		]
 	},
 	"core:basilisk" : {
-		"upgrades": ["core:greaterBasilisk", "basiliskFlamespitterAU"]
+		"upgrades" : [
+			"core:greaterBasilisk",
+			"basiliskFlamespitterAU"
+		]
 	},
 	"core:greaterBasilisk" : {
-		"upgrades": ["basiliskFlamespitterAU"]
+		"upgrades" : [
+			"basiliskFlamespitterAU"
+		]
 	},
 	"core:gorgon" : {
-		"upgrades": ["core:mightyGorgon", "corrosiveGorgonAU"]
+		"upgrades" : [
+			"core:mightyGorgon",
+			"corrosiveGorgonAU"
+		]
 	},
 	"core:mightyGorgon" : {
-		"upgrades": ["corrosiveGorgonAU"]
+		"upgrades" : [
+			"corrosiveGorgonAU"
+		]
 	},
 	"core:wyvern" : {
-		"upgrades": ["core:wyvernMonarch", "paokaiAU"]
+		"upgrades" : [
+			"core:wyvernMonarch",
+			"paokaiAU"
+		]
 	},
 	"core:wyvernMonarch" : {
-		"upgrades": ["paokaiAU"]
+		"upgrades" : [
+			"paokaiAU"
+		]
 	},
 	"core:hydra" : {
-		"upgrades": ["core:chaosHydra", "ruinousHydraAU"]
+		"upgrades" : [
+			"core:chaosHydra",
+			"ruinousHydraAU"
+		]
 	},
 	"core:chaosHydra" : {
-		"upgrades": ["ruinousHydraAU"]
+		"upgrades" : [
+			"ruinousHydraAU"
+		]
 	}
 }

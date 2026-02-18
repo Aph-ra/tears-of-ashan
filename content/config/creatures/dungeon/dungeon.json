@@ -1,44 +1,79 @@
 {
 	"core:troglodyte" : {
-		"upgrades": ["core:infernalTroglodyte", "chthonianAU"]
+		"upgrades" : [
+			"core:infernalTroglodyte",
+			"chthonianAU"
+		]
 	},
 	"core:infernalTroglodyte" : {
-		"upgrades": ["chthonianAU"]
+		"upgrades" : [
+			"chthonianAU"
+		]
 	},
 	"core:harpy" : {
-		"upgrades": ["core:harpyHag", "furyAU"]
+		"upgrades" : [
+			"core:harpyHag",
+			"furyAU"
+		]
 	},
 	"core:harpyHag" : {
-		"upgrades": ["furyAU"]
+		"upgrades" : [
+			"furyAU"
+		]
 	},
 	"core:beholder" : {
-		"upgrades": ["core:evilEye", "fargazerAU"]
+		"upgrades" : [
+			"core:evilEye",
+			"fargazerAU"
+		]
 	},
 	"core:evilEye" : {
-		"upgrades": ["fargazerAU"]
+		"upgrades" : [
+			"fargazerAU"
+		]
 	},
 	"core:medusa" : {
-		"upgrades": ["core:medusaQueen", "medusaWarriorAU"]
+		"upgrades" : [
+			"core:medusaQueen",
+			"medusaWarriorAU"
+		]
 	},
 	"core:medusaQueen" : {
-		"upgrades": ["medusaWarriorAU"]
+		"upgrades" : [
+			"medusaWarriorAU"
+		]
 	},
 	"core:minotaur" : {
-		"upgrades": ["core:minotaurKing", "minotaurTaskmasterAU"]
+		"upgrades" : [
+			"core:minotaurKing",
+			"minotaurTaskmasterAU"
+		]
 	},
 	"core:minotaurKing" : {
-		"upgrades": ["minotaurTaskmasterAU"]
+		"upgrades" : [
+			"minotaurTaskmasterAU"
+		]
 	},
 	"core:manticore" : {
-		"upgrades": ["core:scorpicore", "chimeraAU"]
+		"upgrades" : [
+			"core:scorpicore",
+			"chimeraAU"
+		]
 	},
 	"core:scorpicore" : {
-		"upgrades": ["chimeraAU"]
+		"upgrades" : [
+			"chimeraAU"
+		]
 	},
 	"core:redDragon" : {
-		"upgrades": ["core:blackDragon", "shadowDragonAU"]
+		"upgrades" : [
+			"core:blackDragon",
+			"shadowDragonAU"
+		]
 	},
 	"core:blackDragon" : {
-		"upgrades": ["shadowDragonAU"]
+		"upgrades" : [
+			"shadowDragonAU"
+		]
 	}
 }

@@ -3,14 +3,16 @@
 		"class" : "ranger",
 		"female" : false,
 		"special" : false,
-		"spellbook" : [ "dragonStrength" ],
+		"spellbook" : [
+			"dragonStrength"
+		],
 		"texts" : {
 			"name" : "Sanctus",
 			"biography" : "",
 			"specialty" : {
 				"name" : "Green Dragons",
 				"tooltip" : "Creature Bonus: Green Dragons",
-				"description" : "Increases the Speed of allied Green Dragons, Gold Dragons, and Diamond Dragons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."				
+				"description" : "Increases the Speed of allied Green Dragons, Gold Dragons, and Diamond Dragons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
 			}
 		},
 
@@ -22,28 +24,37 @@
 		},
 
 		"skills" : [
-			{"skill" : "armorer", "level": "basic"},
-			{"skill" : "fireMagic", "level": "basic"}
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			},
+			{
+				"skill" : "fireMagic",
+				"level" : "basic"
+			}
 		],
-    
+
 		"specialty" : {
 			"creature" : "greenDragon",
 			"creatureLevel" : 7,
 			"stepSize" : 20
 		},
-	
+
 		"army" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24,
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 5, "max" : 7,
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
-				"min" : 3, "max" : 5,
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	}

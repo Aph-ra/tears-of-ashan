@@ -1,21 +1,34 @@
 {
-	"lavaElementalAU": {
-		"name" : {"singular" : "Lava Elemental", "plural" : "Lava Elementals"},
+	"lavaElementalAU" : {
+		"name" : {
+			"singular" : "Lava Elemental",
+			"plural" : "Lava Elementals"
+		},
 		"faction" : "conflux",
 		"level" : 5,
 		"attack" : 12,
 		"defense" : 15,
-		"damage" : {"min" : 10, "max" : 18},
+		"damage" : {
+			"min" : 10,
+			"max" : 18
+		},
 		"hitPoints" : 50,
 		"speed" : 6,
 		"growth" : 4,
 		"aiValue" : 1150,
 		"fightValue" : 780,
-		"cost" : {"gold" : 650},
-		"advMapAmount" : {"min" : 8, "max" : 12},
-		"upgrades" : ["core:magmaElemental"],
+		"cost" : {
+			"gold" : 650
+		},
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 12
+		},
+		"upgrades" : [
+			"core:magmaElemental"
+		],
 		"doubleWide" : false,
-		"abilities": {
+		"abilities" : {
 			"nonLiving" : {
 				"type" : "NON_LIVING"
 			},
@@ -86,17 +99,17 @@
 			"iconLarge" : "creatures/conflux/iconsBig/lvl5Alt.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"sound" : {
-			"attack": "MAGMATTK.wav",
-			"defend": "MAGMDFND.wav",
-			"killed": "MAGMKILL.wav",
-			"move": "MAGMMOVE.wav",
-			"wince": "MAGMWNCE.wav"
-		}	
+			"attack" : "MAGMATTK.wav",
+			"defend" : "MAGMDFND.wav",
+			"killed" : "MAGMKILL.wav",
+			"move" : "MAGMMOVE.wav",
+			"wince" : "MAGMWNCE.wav"
+		}
 	}
-}	
+}

@@ -9,7 +9,7 @@
 			"specialty" : {
 				"name" : "Pikemen",
 				"tooltip" : "Creature Bonus: Pikemen",
-				"description" : "Increases the Speed of allied Pikeman, Halberdiers, and Glaviers by 1 and their Attack and Defense skills by 20% for every level (rounded up)."				
+				"description" : "Increases the Speed of allied Pikeman, Halberdiers, and Glaviers by 1 and their Attack and Defense skills by 20% for every level (rounded up)."
 			}
 		},
 
@@ -20,29 +20,38 @@
 			"specialtyLarge" : "heroes/specialtyLarge/Pikemen (HotA).png"
 		},
 
-		"skills": [
-			{ "skill" : "leadership", "level": "basic" },
-			{ "skill" : "armorer", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			}
 		],
-    
+
 		"specialty" : {
 			"creature" : "pikeman",
 			"creatureLevel" : 1,
 			"stepSize" : 20
 		},
-	
+
 		"army" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			}
 		]
 	}

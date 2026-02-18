@@ -13,20 +13,29 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		],
-		"skills#override": [
-			{ "skill" : "leadership", "level": "basic" },
-			{ "skill" : "armorer", "level": "basic" }
+		"skills#override" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			}
 		],
 		"images" : {
 			"small" : "HPS129MK.PCX",
@@ -49,15 +58,18 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "swordsman",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			},
 			{
 				"creature" : "swordsman",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -75,20 +87,29 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		],
-		"skills#override": [
-			{ "skill" : "leadership", "level": "basic" },
-			{ "skill" : "logistics", "level": "basic" }
+		"skills#override" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "logistics",
+				"level" : "basic"
+			}
 		],
 		"images" : {
 			"small" : "HPS002SH.PCX",
@@ -101,20 +122,25 @@
 		"army#override" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
 	"campaign-heroes:youngYog" : {
-		"spellbook" : [ "chainLightning" ],
+		"spellbook" : [
+			"chainLightning"
+		],
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases Tactics placement area by 2.",
@@ -134,20 +160,29 @@
 		"army#override" : [
 			{
 				"creature" : "gremlin",
-				"min" : 30, "max" : 40
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "ironGolem",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		],
-		"skills#override": [
-			{ "skill" : "tactics", "level": "basic" },
-			{ "skill" : "airMagic", "level": "basic" }
+		"skills#override" : [
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			},
+			{
+				"skill" : "airMagic",
+				"level" : "basic"
+			}
 		],
 		"images" : {
 			"small" : "HPS136WI.PCX",
@@ -165,15 +200,18 @@
 		"army#override" : [
 			{
 				"creature" : "skeleton",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "walkingDead",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "wight",
-				"min" : 4, "max" : 6
+				"min" : 4,
+				"max" : 6
 			}
 		]
 	},
@@ -181,15 +219,18 @@
 		"army#override" : [
 			{
 				"creature" : "skeleton",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "walkingDead",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "wight",
-				"min" : 4, "max" : 6
+				"min" : 4,
+				"max" : 6
 			}
 		]
 	},
@@ -202,15 +243,18 @@
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "harpy",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "beholder",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -228,15 +272,18 @@
 		"army#override" : [
 			{
 				"creature" : "gnoll",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "lizardman",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "gorgon",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	}

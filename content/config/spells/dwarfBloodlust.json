@@ -5,14 +5,14 @@
 		"targetType" : "CREATURE",
 		"level" : 1,
 		"power" : 2,
-		
+
 		"school" : {
 			"air" : false,
 			"earth" : false,
 			"fire" : true,
 			"water" : false
 		},
-		
+
 		"defaultGainChance" : 0,
 		"gainChance" : {},
 
@@ -35,25 +35,29 @@
 			"iconEffect" : "SpellInt.def:0:44"
 		},
 
-		"animation":{
-			"affect":[ {
-				"effectName" : "bloodlust"
-			} ]
+		"animation" : {
+			"affect" : [
+				{
+					"effectName" : "bloodlust"
+				}
+			]
 		},
-		
-		"sounds": {
-			"cast": "BLOODLUS"
+
+		"sounds" : {
+			"cast" : "BLOODLUS"
 		},
-		
+
 		"counters" : {
-			"spell.weakness": true
+			"spell.weakness" : true
 		},
-		
+
 		"levels" : {
-			"base":{
+			"base" : {
 				"cost" : 5,
 				"range" : "0",
-				"targetModifier":{"smart":true},
+				"targetModifier" : {
+					"smart" : true
+				},
 				"effects" : {
 					"primarySkill" : {
 						"val" : 6,
@@ -64,7 +68,7 @@
 					}
 				}
 			},
-			"advanced":{
+			"advanced" : {
 				"description" : "Increases the selected friendly unit's attack strength for hand-to-hand attacks by 6.",
 				"power" : 2,
 				"effects" : {
@@ -73,7 +77,7 @@
 					}
 				}
 			},
-			"expert":{
+			"expert" : {
 				"description" : "Increases the attack strength for hand-to-hand attacks of all friendly units by 6.",
 				"power" : 2,
 				"range" : "X",

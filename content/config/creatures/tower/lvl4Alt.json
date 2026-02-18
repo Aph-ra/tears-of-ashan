@@ -1,20 +1,33 @@
 {
-	"battleMageAU": {
-		"name" : {"singular" : "Battle Mage", "plural" : "Battle Magi"},
+	"battleMageAU" : {
+		"name" : {
+			"singular" : "Battle Mage",
+			"plural" : "Battle Magi"
+		},
 		"faction" : "tower",
 		"level" : 4,
 		"attack" : 14,
 		"defense" : 8,
 		"shots" : 24,
-		"damage" : {"min" : 8, "max" : 10},
+		"damage" : {
+			"min" : 8,
+			"max" : 10
+		},
 		"hitPoints" : 30,
 		"speed" : 6,
 		"growth" : 4,
 		"aiValue" : 750,
 		"fightValue" : 500,
-		"cost" : {"gold" : 500},
-		"advMapAmount" : {"min" : 10, "max" : 16},
-		"upgrades" : ["core:archMage"],
+		"cost" : {
+			"gold" : 500
+		},
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 16
+		},
+		"upgrades" : [
+			"core:archMage"
+		],
 		"doubleWide" : false,
 		"abilities" : {
 			"shooter" : {
@@ -25,7 +38,7 @@
 			},
 			"reduceSpellCost" : {
 				"type" : "CHANGES_SPELL_COST_FOR_ALLY",
-				"val" :  2
+				"val" : 2
 			},
 			"casts" : {
 				"type" : "CASTS",
@@ -58,12 +71,15 @@
 				"val" : 2,
 				"description" : "{Spellcaster}\nHas a 25% chance to cast Advanced Lightning Bolt (30% Power)",
 				"icon" : "zvs/Lib1.res/spellsSOD/lightningbolt2.png"
-			},
+			}
 		},
 		"graphics" : {
 			"animation" : "creatures/tower/battle/lvl4Alt.json",
 			"map" : "creatures/tower/map/lvl4Alt.json",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"iconSmall" : "creatures/tower/iconsSmall/lvl4Alt.png",
 			"iconLarge" : "creatures/tower/iconsBig/lvl4Alt.png",
 			"timeBetweenFidgets" : 1,
@@ -74,18 +90,99 @@
 			},
 			"missile" : {
 				"attackClimaxFrame" : 5,
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0 ],
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				],
 				"ray" : [
-					{ "start" : [ 160, 192,   0, 255 ], "end" : [ 160, 192,   0,  64 ] },
-					{ "start" : [ 128, 224, 128, 255 ], "end" : [ 128, 224, 128, 128 ] },
-					{ "start" : [  32, 176,  32, 255 ], "end" : [  32, 176,  32, 255 ] },
-					{ "start" : [ 128, 224, 128, 255 ], "end" : [ 128, 224, 128, 128 ] },
-					{ "start" : [ 160, 192,   0, 255 ], "end" : [ 160, 192,   0,  64 ] }
+					{
+						"start" : [
+							160,
+							192,
+							0,
+							255
+						],
+						"end" : [
+							160,
+							192,
+							0,
+							64
+						]
+					},
+					{
+						"start" : [
+							128,
+							224,
+							128,
+							255
+						],
+						"end" : [
+							128,
+							224,
+							128,
+							128
+						]
+					},
+					{
+						"start" : [
+							32,
+							176,
+							32,
+							255
+						],
+						"end" : [
+							32,
+							176,
+							32,
+							255
+						]
+					},
+					{
+						"start" : [
+							128,
+							224,
+							128,
+							255
+						],
+						"end" : [
+							128,
+							224,
+							128,
+							128
+						]
+					},
+					{
+						"start" : [
+							160,
+							192,
+							0,
+							255
+						],
+						"end" : [
+							160,
+							192,
+							0,
+							64
+						]
+					}
 				],
 				"offset" : {
-					"lowerX" : 24,	"lowerY" : -52,
-					"middleX" : 52,	"middleY" : -53,
-					"upperX" : 49,	"upperY" : -54
+					"lowerX" : 24,
+					"lowerY" : -52,
+					"middleX" : 52,
+					"middleY" : -53,
+					"upperX" : 49,
+					"upperY" : -54
 				}
 			}
 		},

@@ -1,20 +1,33 @@
 {
-	"frostElementalAU": {
-		"name" : {"singular" : "Frost Elemental", "plural" : "Frost Elementals"},
+	"frostElementalAU" : {
+		"name" : {
+			"singular" : "Frost Elemental",
+			"plural" : "Frost Elementals"
+		},
 		"faction" : "conflux",
 		"level" : 3,
 		"attack" : 10,
 		"defense" : 10,
 		"shots" : 24,
-		"damage" : {"min" : 3, "max" : 7},
+		"damage" : {
+			"min" : 3,
+			"max" : 7
+		},
 		"hitPoints" : 25,
 		"speed" : 7,
 		"growth" : 6,
 		"aiValue" : 400,
 		"fightValue" : 400,
-		"cost" : {"gold" : 350},
-		"advMapAmount" : {"min" : 12, "max" : 20},
-		"upgrades" : ["core:iceElemental"],
+		"cost" : {
+			"gold" : 350
+		},
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 20
+		},
+		"upgrades" : [
+			"core:iceElemental"
+		],
 		"doubleWide" : true,
 		"abilities#override" : {
 			"nonLiving" : {
@@ -94,7 +107,20 @@
 			"missile" : {
 				"projectile" : "PICEE.DEF",
 				"attackClimaxFrame" : 4,
-				"frameAngles" : [90,72,45,27,0,-27,-45,-72,-90,0,0,0],
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				],
 				"offset" : {
 					"lowerX" : 18,
 					"lowerY" : -92,
@@ -102,9 +128,9 @@
 					"middleY" : -99,
 					"upperX" : 28,
 					"upperY" : -107
-				},
+				}
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "ICELATTK.wav",

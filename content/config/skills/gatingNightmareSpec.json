@@ -17,38 +17,40 @@
 				"gateImpGain" : {
 					"type" : "SPELL",
 					"subtype" : "spell.gate01Imp",
-					"val": 0
+					"val" : 0
 				},
 				"gateGogGain" : {
 					"type" : "SPELL",
 					"subtype" : "spell.gate02Gog",
-					"val": 0
+					"val" : 0
 				},
 				"gateHellHoundGain" : {
 					"type" : "SPELL",
 					"subtype" : "spell.gate03HellHound",
-					"val": 0
+					"val" : 0
 				}
 			}
 		},
 		"basic" : {
 			"description" : "{Basic Gating}\n\nGrants the ability to gate Imps, Gogs, and Hell Hounds.",
 			"effects" : {
-				"gatingSchool" : { "val" : 1 },
+				"gatingSchool" : {
+					"val" : 1
+				},
 				"gateImpGain" : {
 					"type" : "SPELL",
 					"subtype" : "spell.gate01Imp",
-					"val": 0
+					"val" : 0
 				},
 				"gateGogGain" : {
 					"type" : "SPELL",
 					"subtype" : "spell.gate02Gog",
-					"val": 0
+					"val" : 0
 				},
 				"gateHellHoundGain" : {
 					"type" : "SPELL",
 					"subtype" : "spell.gate03HellHound",
-					"val": 0
+					"val" : 0
 				}
 			},
 			"images" : {
@@ -61,18 +63,20 @@
 		"advanced" : {
 			"description" : "{Advanced Gating}\n\nGrants the ability to gate Demons, Succubi, and Pit Fiends.",
 			"effects" : {
-				"gatingSchool" : { "val" : 2 },
+				"gatingSchool" : {
+					"val" : 2
+				},
 				"gateDemonGain" : {
 					"type" : "SPELL",
 					"subtype" : "spell.gate04Demon",
-					"val": 0
+					"val" : 0
 				},
 				"gatePitFiendGain" : {
 					"type" : "SPELL",
 					"subtype" : "spell.gate05PitFiend",
-					"val": 0
+					"val" : 0
 				}
-			},				
+			},
 			"images" : {
 				"small" : "skills/gatingSmall/2",
 				"medium" : "skills/gatingMedium/2",
@@ -83,36 +87,38 @@
 		"expert" : {
 			"description" : "{Expert Gating}\n\nGrants the ability to gate Efreet, Hell Steeds, and Devils.",
 			"effects" : {
-				"gatingSchool" : { "val" : 3 },
+				"gatingSchool" : {
+					"val" : 3
+				},
 				"gateDemonGain" : {
 					"type" : "SPELL",
 					"subtype" : "spell.gate04Demon",
-					"val": 0
+					"val" : 0
 				},
 				"gatePitFiendGain" : {
 					"type" : "SPELL",
 					"subtype" : "spell.gate05PitFiend",
-					"val": 0
+					"val" : 0
 				},
 				"gateEfreetiGain" : {
 					"type" : "SPELL",
 					"subtype" : "spell.gate06Efreeti",
-					"val": 0
+					"val" : 0
 				},
 				"gateHellSteedGain" : {
 					"type" : "SPELL",
 					"subtype" : "spell.gate07HellSteed",
-					"val": 0
+					"val" : 0
 				},
 				"gateNightmareGain" : {
 					"type" : "SPELL",
 					"subtype" : "spell.gate08Nightmare",
-					"val": 0
+					"val" : 0
 				},
 				"gateDevilGain" : {
 					"type" : "SPELL",
 					"subtype" : "spell.gate09Devil",
-					"val": 0
+					"val" : 0
 				}
 			},
 			"images" : {

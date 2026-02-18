@@ -1,44 +1,80 @@
 {
 	"core:gremlin" : {
-		"upgrades": ["core:masterGremlin", "gremlinMechanicAU"]
+		"upgrades" : [
+			"core:masterGremlin",
+			"gremlinMechanicAU"
+		]
 	},
 	"core:masterGremlin" : {
-		"upgrades": ["gremlinMechanicAU"]
+		"upgrades" : [
+			"gremlinMechanicAU"
+		]
 	},
 	"core:stoneGargoyle" : {
-		"upgrades": ["core:obsidianGargoyle", "elementalGargoyleAU"]
+		"upgrades" : [
+			"core:obsidianGargoyle",
+			"elementalGargoyleAU"
+		]
 	},
 	"core:obsidianGargoyle" : {
-		"upgrades": ["elementalGargoyleAU"]
+		"upgrades" : [
+			"elementalGargoyleAU"
+		]
 	},
 	"core:ironGolem" : {
-		"upgrades": ["core:stoneGolem", "magneticGolemAU"]
+		"upgrades" : [
+			"core:stoneGolem",
+			"magneticGolemAU"
+		]
 	},
-	"core:stoneGolem" : { //Correct ID is ironGolem, unchangeable due to HOTRAITS.TXT
-		"upgrades": ["magneticGolemAU"]
+	"core:stoneGolem" : {
+		//Correct ID is ironGolem, unchangeable due to HOTRAITS.TXT
+		"upgrades" : [
+			"magneticGolemAU"
+		]
 	},
 	"core:mage" : {
-		"upgrades": ["core:archMage", "battleMageAU"]
+		"upgrades" : [
+			"core:archMage",
+			"battleMageAU"
+		]
 	},
 	"core:archMage" : {
-		"upgrades": ["battleMageAU"]
+		"upgrades" : [
+			"battleMageAU"
+		]
 	},
 	"core:genie" : {
-		"upgrades": ["core:masterGenie", "genieVizierAU"]
+		"upgrades" : [
+			"core:masterGenie",
+			"genieVizierAU"
+		]
 	},
 	"core:masterGenie" : {
-		"upgrades": ["genieVizierAU"]
+		"upgrades" : [
+			"genieVizierAU"
+		]
 	},
 	"core:naga" : {
-		"upgrades": ["core:nagaQueen", "nagaRaniAU"]
+		"upgrades" : [
+			"core:nagaQueen",
+			"nagaRaniAU"
+		]
 	},
 	"core:nagaQueen" : {
-		"upgrades": ["nagaRaniAU"]
+		"upgrades" : [
+			"nagaRaniAU"
+		]
 	},
 	"core:giant" : {
-		"upgrades": ["core:titan", "colossusAU"]
+		"upgrades" : [
+			"core:titan",
+			"colossusAU"
+		]
 	},
 	"core:titan" : {
-		"upgrades": ["colossusAU"]
+		"upgrades" : [
+			"colossusAU"
+		]
 	}
 }

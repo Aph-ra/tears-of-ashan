@@ -9,7 +9,7 @@
 			"specialty" : {
 				"name" : "Centaurs",
 				"tooltip" : "Creature Bonus: Centaurs",
-				"description" : "Increases the Speed of allied Centaurs, Centaur Captains, and Centaur Rangers by 1 and their Attack and Defense skills by 20% for every level (rounded up)."				
+				"description" : "Increases the Speed of allied Centaurs, Centaur Captains, and Centaur Rangers by 1 and their Attack and Defense skills by 20% for every level (rounded up)."
 			}
 		},
 
@@ -21,28 +21,37 @@
 		},
 
 		"skills" : [
-			{"skill" : "archery", "level": "basic"},
-			{"skill" : "leadership", "level": "basic"}
+			{
+				"skill" : "archery",
+				"level" : "basic"
+			},
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			}
 		],
-    
+
 		"specialty" : {
 			"creature" : "centaur",
 			"creatureLevel" : 1,
 			"stepSize" : 20
 		},
-	
+
 		"army" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24,
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24,
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24,
+				"min" : 12,
+				"max" : 24
 			}
 		]
 	}

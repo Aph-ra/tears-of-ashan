@@ -1,18 +1,21 @@
 {
-//CASTLE
+	//CASTLE
 	"core:orrin" : {
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -46,15 +49,18 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -62,15 +68,18 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -78,15 +87,18 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -95,15 +107,18 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -123,15 +138,18 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "swordsman",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			},
 			{
 				"creature" : "swordsman",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -151,15 +169,18 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "ballista",
-				"min" : 1, "max" : 1
+				"min" : 1,
+				"max" : 1
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -179,15 +200,18 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "cavalier",
-				"min" : 1, "max" : 1
+				"min" : 1,
+				"max" : 1
 			}
 		],
 		"images" : {
@@ -217,15 +241,18 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		],
 		"images" : {
@@ -256,20 +283,29 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		],
-		"skills#override": [
-			{ "skill" : "leadership", "level": "basic" },
-			{ "skill" : "tactics", "level": "basic" }
+		"skills#override" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
 		],
 		"images" : {
 			"small" : "HPS009SH.PCX",
@@ -282,15 +318,18 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -305,15 +344,18 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -321,15 +363,18 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -337,15 +382,18 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -365,15 +413,18 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "monk",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -381,15 +432,18 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -397,15 +451,18 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -413,15 +470,18 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -429,32 +489,38 @@
 		"army#override" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
-//RAMPART
+	//RAMPART
 	"core:mephala" : {
 		"army#override" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -476,15 +542,18 @@
 		"army#override" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -504,15 +573,18 @@
 		"army#override" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "dendroidGuard",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -520,15 +592,18 @@
 		"army#override" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -536,15 +611,18 @@
 		"army#override" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -564,15 +642,18 @@
 		"army#override" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "woodElf",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "woodElf",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -592,15 +673,18 @@
 		"army#override" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "unicorn",
-				"min" : 1, "max" : 1
+				"min" : 1,
+				"max" : 1
 			}
 		]
 	},
@@ -608,15 +692,18 @@
 		"army#override" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -636,15 +723,18 @@
 		"army#override" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "sharpshooter",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			},
 			{
 				"creature" : "sharpshooter",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -652,15 +742,18 @@
 		"army#override" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -668,15 +761,18 @@
 		"army#override" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -684,15 +780,18 @@
 		"army#override" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -700,15 +799,18 @@
 		"army#override" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -716,15 +818,18 @@
 		"army#override" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -732,15 +837,18 @@
 		"army#override" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -748,15 +856,18 @@
 		"army#override" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -776,19 +887,22 @@
 		"army#override" : [
 			{
 				"creature" : "centaur",
-				"min" : 12, "max" : 24
+				"min" : 12,
+				"max" : 24
 			},
 			{
 				"creature" : "pegasus",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			},
 			{
 				"creature" : "pegasus",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
-//TOWER
+	//TOWER
 	"core:piquedram" : {
 		"texts" : {
 			"specialty" : {
@@ -800,15 +914,18 @@
 		"army#override" : [
 			{
 				"creature" : "stoneGargoyle",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			}
 		]
 	},
@@ -832,15 +949,18 @@
 		"army#override" : [
 			{
 				"creature" : "gremlin",
-				"min" : 30, "max" : 40
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "ironGolem",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		],
 		"images" : {
@@ -866,15 +986,18 @@
 		"army#override" : [
 			{
 				"creature" : "gremlin",
-				"min" : 30, "max" : 40
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "ironGolem",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			},
 			{
 				"creature" : "ironGolem",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -882,15 +1005,18 @@
 		"army#override" : [
 			{
 				"creature" : "gremlin",
-				"min" : 30, "max" : 40
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "ironGolem",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -910,20 +1036,29 @@
 		"army#override" : [
 			{
 				"creature" : "gremlin",
-				"min" : 30, "max" : 40
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "ballista",
-				"min" : 1, "max" : 1
+				"min" : 1,
+				"max" : 1
 			},
 			{
 				"creature" : "ironGolem",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		],
-		"skills#override": [
-			{ "skill" : "artillery", "level": "basic" },
-			{ "skill" : "tactics", "level": "basic" }
+		"skills#override" : [
+			{
+				"skill" : "artillery",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
 		]
 	},
 	"core:fafner" : {
@@ -942,15 +1077,18 @@
 		"army#override" : [
 			{
 				"creature" : "gremlin",
-				"min" : 30, "max" : 40
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "naga",
-				"min" : 1, "max" : 1
+				"min" : 1,
+				"max" : 1
 			}
 		]
 	},
@@ -958,15 +1096,18 @@
 		"army#override" : [
 			{
 				"creature" : "gremlin",
-				"min" : 30, "max" : 40
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "ironGolem",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -986,15 +1127,18 @@
 		"army#override" : [
 			{
 				"creature" : "gremlin",
-				"min" : 30, "max" : 40
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "genie",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -1002,15 +1146,18 @@
 		"army#override" : [
 			{
 				"creature" : "gremlin",
-				"min" : 30, "max" : 40
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "ironGolem",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -1018,15 +1165,18 @@
 		"army#override" : [
 			{
 				"creature" : "gremlin",
-				"min" : 30, "max" : 40
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "ironGolem",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -1034,15 +1184,18 @@
 		"army#override" : [
 			{
 				"creature" : "gremlin",
-				"min" : 30, "max" : 40
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "ironGolem",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		],
 		"images" : {
@@ -1056,15 +1209,18 @@
 		"army#override" : [
 			{
 				"creature" : "gremlin",
-				"min" : 30, "max" : 40
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "ironGolem",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -1084,15 +1240,18 @@
 		"army#override" : [
 			{
 				"creature" : "gremlin",
-				"min" : 30, "max" : 40
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "mage",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			},
 			{
 				"creature" : "mage",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -1100,15 +1259,18 @@
 		"army#override" : [
 			{
 				"creature" : "gremlin",
-				"min" : 30, "max" : 40
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "ironGolem",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -1116,15 +1278,18 @@
 		"army#override" : [
 			{
 				"creature" : "gremlin",
-				"min" : 30, "max" : 40
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "ironGolem",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -1132,15 +1297,18 @@
 		"army#override" : [
 			{
 				"creature" : "gremlin",
-				"min" : 30, "max" : 40
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "ironGolem",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -1160,19 +1328,22 @@
 		"army#override" : [
 			{
 				"creature" : "gremlin",
-				"min" : 30, "max" : 40
+				"min" : 30,
+				"max" : 40
 			},
 			{
 				"creature" : "stoneGargoyle",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "enchanter",
-				"min" : 1, "max" : 1
+				"min" : 1,
+				"max" : 1
 			}
 		]
 	},
-//INFERNO
+	//INFERNO
 	"core:fiona" : {
 		"texts" : {
 			"specialty" : {
@@ -1189,15 +1360,18 @@
 		"army#override" : [
 			{
 				"creature" : "imp",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -1217,15 +1391,18 @@
 		"army#override" : [
 			{
 				"creature" : "imp",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			},
 			{
 				"creature" : "efreet",
-				"min" : 1, "max" : 1
+				"min" : 1,
+				"max" : 1
 			}
 		]
 	},
@@ -1245,15 +1422,18 @@
 		"army#override" : [
 			{
 				"creature" : "imp",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "demon",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			},
 			{
 				"creature" : "demon",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -1273,15 +1453,18 @@
 		"army#override" : [
 			{
 				"creature" : "imp",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "imp",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "imp",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			}
 		]
 	},
@@ -1289,15 +1472,18 @@
 		"army#override" : [
 			{
 				"creature" : "imp",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "gog",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -1317,15 +1503,18 @@
 		"army#override" : [
 			{
 				"creature" : "gog",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "gog",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "gog",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			}
 		]
 	},
@@ -1345,15 +1534,18 @@
 		"army#override" : [
 			{
 				"creature" : "imp",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "ballista",
-				"min" : 1, "max" : 1
+				"min" : 1,
+				"max" : 1
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -1373,15 +1565,18 @@
 		"army#override" : [
 			{
 				"creature" : "imp",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "gog",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "pitFiend",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -1402,15 +1597,18 @@
 		"army#override" : [
 			{
 				"creature" : "imp",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "gog",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -1418,15 +1616,18 @@
 		"army#override" : [
 			{
 				"creature" : "imp",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "gog",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -1434,15 +1635,18 @@
 		"army#override" : [
 			{
 				"creature" : "imp",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "gog",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -1450,15 +1654,18 @@
 		"army#override" : [
 			{
 				"creature" : "imp",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "gog",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -1466,15 +1673,18 @@
 		"army#override" : [
 			{
 				"creature" : "imp",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "gog",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -1482,15 +1692,18 @@
 		"army#override" : [
 			{
 				"creature" : "imp",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "gog",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -1498,15 +1711,18 @@
 		"army#override" : [
 			{
 				"creature" : "imp",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "gog",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -1514,15 +1730,18 @@
 		"army#override" : [
 			{
 				"creature" : "imp",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "gog",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -1530,19 +1749,22 @@
 		"army#override" : [
 			{
 				"creature" : "imp",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "gog",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
-//NECROPOLIS
+	//NECROPOLIS
 	"core:straker" : {
 		"texts" : {
 			"specialty" : {
@@ -1559,15 +1781,18 @@
 		"army#override" : [
 			{
 				"creature" : "walkingDead",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "walkingDead",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "walkingDead",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			}
 		]
 	},
@@ -1587,15 +1812,18 @@
 		"army#override" : [
 			{
 				"creature" : "skeleton",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "vampire",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			},
 			{
 				"creature" : "vampire",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -1615,15 +1843,18 @@
 		"army#override" : [
 			{
 				"creature" : "skeleton",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "walkingDead",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "lich",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -1657,15 +1888,18 @@
 		"army#override" : [
 			{
 				"creature" : "skeleton",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "walkingDead",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "blackKnight",
-				"min" : 1, "max" : 1
+				"min" : 1,
+				"max" : 1
 			}
 		]
 	},
@@ -1673,15 +1907,18 @@
 		"army#override" : [
 			{
 				"creature" : "skeleton",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "walkingDead",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "wight",
-				"min" : 4, "max" : 6
+				"min" : 4,
+				"max" : 6
 			}
 		]
 	},
@@ -1692,7 +1929,7 @@
 			"specialtySmall" : "heroes/specialtySmall/Estates.png",
 			"specialtyLarge" : "heroes/specialtyLarge/Estates.png"
 		}
-	},	
+	},
 	"core:galthran" : {
 		"texts" : {
 			"specialty" : {
@@ -1723,15 +1960,18 @@
 		"army#override" : [
 			{
 				"creature" : "skeleton",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "ballista",
-				"min" : 1, "max" : 1
+				"min" : 1,
+				"max" : 1
 			},
 			{
 				"creature" : "wight",
-				"min" : 4, "max" : 6
+				"min" : 4,
+				"max" : 6
 			}
 		]
 	},
@@ -1750,20 +1990,29 @@
 		"army#override" : [
 			{
 				"creature" : "skeleton",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "walkingDead",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "wight",
-				"min" : 4, "max" : 6
+				"min" : 4,
+				"max" : 6
 			}
 		],
-		"skills#override": [
-			{ "skill" : "necromancy", "level": "basic" },
-			{ "skill" : "estates", "level": "basic" }
+		"skills#override" : [
+			{
+				"skill" : "necromancy",
+				"level" : "basic"
+			},
+			{
+				"skill" : "estates",
+				"level" : "basic"
+			}
 		],
 		"images" : {
 			"small" : "HPS006SH.PCX",
@@ -1776,15 +2025,18 @@
 		"army#override" : [
 			{
 				"creature" : "skeleton",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "walkingDead",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "wight",
-				"min" : 4, "max" : 6
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		"images" : {
@@ -1798,15 +2050,18 @@
 		"army#override" : [
 			{
 				"creature" : "skeleton",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "walkingDead",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "wight",
-				"min" : 4, "max" : 6
+				"min" : 4,
+				"max" : 6
 			}
 		]
 	},
@@ -1814,15 +2069,18 @@
 		"army#override" : [
 			{
 				"creature" : "skeleton",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "walkingDead",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "wight",
-				"min" : 4, "max" : 6
+				"min" : 4,
+				"max" : 6
 			}
 		]
 	},
@@ -1830,15 +2088,18 @@
 		"army#override" : [
 			{
 				"creature" : "skeleton",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "walkingDead",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "wight",
-				"min" : 4, "max" : 6
+				"min" : 4,
+				"max" : 6
 			}
 		]
 	},
@@ -1846,15 +2107,18 @@
 		"army#override" : [
 			{
 				"creature" : "skeleton",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "walkingDead",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "wight",
-				"min" : 4, "max" : 6
+				"min" : 4,
+				"max" : 6
 			}
 		]
 	},
@@ -1862,15 +2126,18 @@
 		"army#override" : [
 			{
 				"creature" : "skeleton",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "walkingDead",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "wight",
-				"min" : 4, "max" : 6
+				"min" : 4,
+				"max" : 6
 			}
 		]
 	},
@@ -1878,15 +2145,18 @@
 		"army#override" : [
 			{
 				"creature" : "skeleton",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "walkingDead",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "wight",
-				"min" : 4, "max" : 6
+				"min" : 4,
+				"max" : 6
 			}
 		]
 	},
@@ -1894,19 +2164,22 @@
 		"army#override" : [
 			{
 				"creature" : "skeleton",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "walkingDead",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "wight",
-				"min" : 4, "max" : 6
+				"min" : 4,
+				"max" : 6
 			}
 		]
 	},
-//DUNGEON
+	//DUNGEON
 	"core:lorelei" : {
 		"texts" : {
 			"specialty" : {
@@ -1923,15 +2196,18 @@
 		"army#override" : [
 			{
 				"creature" : "harpy",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "harpy",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "harpy",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			}
 		]
 	},
@@ -1951,15 +2227,18 @@
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "ballista",
-				"min" : 1, "max" : 1
+				"min" : 1,
+				"max" : 1
 			},
 			{
 				"creature" : "beholder",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -1979,15 +2258,18 @@
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "harpy",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "minotaur",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -2007,15 +2289,18 @@
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "beholder",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "beholder",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -2023,15 +2308,18 @@
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "harpy",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "beholder",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -2039,15 +2327,18 @@
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "harpy",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "beholder",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -2067,20 +2358,29 @@
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "harpy",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "manticore",
-				"min" : 1, "max" : 1
+				"min" : 1,
+				"max" : 1
 			}
 		],
-		"skills#override": [
-			{ "skill" : "leadership", "level": "basic" },
-			{ "skill" : "armorer", "level": "basic" }
+		"skills#override" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			}
 		]
 	},
 	"core:shakti" : {
@@ -2099,15 +2399,18 @@
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			}
 		]
 	},
@@ -2117,7 +2420,7 @@
 			"specialty" : {
 				"name" : "Red Dragons",
 				"tooltip" : "Creature Bonus: Red Dragons",
-				"description" : "Increases the Speed of allied Red Dragons, Black Dragons, and Shadow Dragons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."				
+				"description" : "Increases the Speed of allied Red Dragons, Black Dragons, and Shadow Dragons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
 			}
 		},
 		"specialty#override" : {
@@ -2128,33 +2431,42 @@
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "harpy",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "beholder",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
 	"core:mutareDrake" : {
-		"spellbook": [ "dragonStrength" ],
+		"spellbook" : [
+			"dragonStrength"
+		],
 		"texts" : {
 			"specialty" : {
 				"name" : "Dragon Master",
 				"tooltip" : "Creature Bonus: Dragons",
-				"description" : "Increases the Speed of allied Dragons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."				
+				"description" : "Increases the Speed of allied Dragons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
 			}
 		},
 		"specialty#override" : {
 			"base" : {
-				"limiters" : [ {
-					"parameters" : [ "DRAGON_NATURE" ],
-					"type" : "HAS_ANOTHER_BONUS_LIMITER"
-				} ]
+				"limiters" : [
+					{
+						"parameters" : [
+							"DRAGON_NATURE"
+						],
+						"type" : "HAS_ANOTHER_BONUS_LIMITER"
+					}
+				]
 			},
 			"bonuses" : {
 				"attackBonus" : {
@@ -2186,20 +2498,29 @@
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "harpy",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "beholder",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		],
-		"skills#override": [
-			{ "skill" : "wisdom", "level": "basic" },
-			{ "skill" : "tactics", "level": "basic" }
+		"skills#override" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
 		],
 		"images" : {
 			"small" : "HPS008SH.PCX",
@@ -2222,20 +2543,29 @@
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "harpy",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "beholder",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		],
-		"skills#override": [
-			{ "skill" : "intelligence", "level": "basic" },
-			{ "skill" : "scholar", "level": "basic" }
+		"skills#override" : [
+			{
+				"skill" : "intelligence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "scholar",
+				"level" : "basic"
+			}
 		],
 		"images" : {
 			"small" : "HPS088WL.PCX",
@@ -2248,15 +2578,18 @@
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "harpy",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "beholder",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -2264,15 +2597,18 @@
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "harpy",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "beholder",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -2280,15 +2616,18 @@
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "harpy",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "beholder",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -2296,15 +2635,18 @@
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "harpy",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "beholder",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -2312,15 +2654,18 @@
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "harpy",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "beholder",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -2328,15 +2673,18 @@
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "harpy",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "beholder",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -2344,19 +2692,22 @@
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "harpy",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "beholder",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
-//STRONGHOLD
+	//STRONGHOLD
 	"core:yog" : {
 		"texts" : {
 			"specialty" : {
@@ -2373,15 +2724,18 @@
 		"army#override" : [
 			{
 				"creature" : "goblin",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "cyclop",
-				"min" : 1, "max" : 1
+				"min" : 1,
+				"max" : 1
 			}
 		]
 	},
@@ -2401,15 +2755,18 @@
 		"army#override" : [
 			{
 				"creature" : "goblin",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "ballista",
-				"min" : 1, "max" : 1
+				"min" : 1,
+				"max" : 1
 			},
 			{
 				"creature" : "orc",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			}
 		]
 	},
@@ -2429,15 +2786,18 @@
 		"army#override" : [
 			{
 				"creature" : "orc",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			}
 		]
 	},
@@ -2457,15 +2817,18 @@
 		"army#override" : [
 			{
 				"creature" : "goblin",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "roc",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"images" : {
@@ -2491,15 +2854,18 @@
 		"army#override" : [
 			{
 				"creature" : "goblin",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "goblin",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "goblin",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			}
 		]
 	},
@@ -2519,15 +2885,18 @@
 		"army#override" : [
 			{
 				"creature" : "goblin",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "ogre",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			},
 			{
 				"creature" : "ogre",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -2535,15 +2904,18 @@
 		"army#override" : [
 			{
 				"creature" : "goblin",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			}
 		]
 	},
@@ -2582,15 +2954,18 @@
 		"army#override" : [
 			{
 				"creature" : "goblin",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			}
 		],
 		"images" : {
@@ -2617,43 +2992,53 @@
 		"army#override" : [
 			{
 				"creature" : "goblin",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			}
 		],
 		"images" : {
 			"small" : "HPS005SH.PCX",
 			"large" : "HPL005SH.PCX",
 			"specialtySmall" : "heroes/specialtySmall/Behemoths (Alternate).png",
-			"specialtyLarge" : "heroes/specialtyLarge/Behemoths (Alternate).png",
+			"specialtyLarge" : "heroes/specialtyLarge/Behemoths (Alternate).png"
 		}
 	},
 	"core:gird" : {
-		"spellbook#override" : [ "magicArrow" ],
+		"spellbook#override" : [
+			"magicArrow"
+		],
 		"army#override" : [
 			{
 				"creature" : "goblin",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			}
 		]
 	},
 	"core:vey" : {
-		"spellbook#override": [ "bloodlust" ],
+		"spellbook#override" : [
+			"bloodlust"
+		],
 		"texts" : {
 			"specialty" : {
 				"description" : "Casts Bloodlust with effect increased by 10 for level 1–2 creatures, by 8 for level 3–4 creatures, by 6 for level 5–6 creatures, and by 4 for level 7 creatures.",
@@ -2673,15 +3058,18 @@
 		"army#override" : [
 			{
 				"creature" : "goblin",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			}
 		],
 		"images" : {
@@ -2695,15 +3083,18 @@
 		"army#override" : [
 			{
 				"creature" : "goblin",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			}
 		]
 	},
@@ -2711,15 +3102,18 @@
 		"army#override" : [
 			{
 				"creature" : "goblin",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			}
 		]
 	},
@@ -2727,15 +3121,18 @@
 		"army#override" : [
 			{
 				"creature" : "goblin",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			}
 		]
 	},
@@ -2743,15 +3140,18 @@
 		"army#override" : [
 			{
 				"creature" : "goblin",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			}
 		]
 	},
@@ -2759,15 +3159,18 @@
 		"army#override" : [
 			{
 				"creature" : "goblin",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			}
 		]
 	},
@@ -2775,19 +3178,22 @@
 		"army#override" : [
 			{
 				"creature" : "goblin",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "goblinWolfRider",
-				"min" : 5, "max" : 7
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "orc",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			}
 		]
 	},
-//FORTRESS
+	//FORTRESS
 	"core:bron" : {
 		"texts" : {
 			"specialty" : {
@@ -2804,15 +3210,18 @@
 		"army#override" : [
 			{
 				"creature" : "gnoll",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "basilisk",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			},
 			{
 				"creature" : "basilisk",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -2832,15 +3241,18 @@
 		"army#override" : [
 			{
 				"creature" : "gnoll",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "gnoll",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "gnoll",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			}
 		]
 	},
@@ -2862,15 +3274,18 @@
 		"army#override" : [
 			{
 				"creature" : "gnoll",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "lizardman",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -2890,15 +3305,18 @@
 		"army#override" : [
 			{
 				"creature" : "gnoll",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "lizardman",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "gorgon",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -2918,15 +3336,18 @@
 		"army#override" : [
 			{
 				"creature" : "gnoll",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "serpentFly",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "serpentFly",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -2946,15 +3367,18 @@
 		"army#override" : [
 			{
 				"creature" : "gnoll",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "ballista",
-				"min" : 1, "max" : 1
+				"min" : 1,
+				"max" : 1
 			},
 			{
 				"creature" : "serpentFly",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -2974,15 +3398,18 @@
 		"army#override" : [
 			{
 				"creature" : "gnoll",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "lizardman",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "wyvern",
-				"min" : 1, "max" : 1
+				"min" : 1,
+				"max" : 1
 			}
 		]
 	},
@@ -2990,15 +3417,18 @@
 		"army#override" : [
 			{
 				"creature" : "gnoll",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "lizardman",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -3006,15 +3436,18 @@
 		"army#override" : [
 			{
 				"creature" : "gnoll",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "lizardman",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -3022,15 +3455,18 @@
 		"army#override" : [
 			{
 				"creature" : "gnoll",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "lizardman",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -3038,15 +3474,18 @@
 		"army#override" : [
 			{
 				"creature" : "gnoll",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "lizardman",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -3054,15 +3493,18 @@
 		"army#override" : [
 			{
 				"creature" : "gnoll",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "lizardman",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -3070,15 +3512,18 @@
 		"army#override" : [
 			{
 				"creature" : "gnoll",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "lizardman",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -3086,15 +3531,18 @@
 		"army#override" : [
 			{
 				"creature" : "gnoll",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "lizardman",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -3102,15 +3550,18 @@
 		"army#override" : [
 			{
 				"creature" : "gnoll",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "lizardman",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -3118,15 +3569,18 @@
 		"army#override" : [
 			{
 				"creature" : "gnoll",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "lizardman",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -3136,7 +3590,7 @@
 			"specialty" : {
 				"name" : "Fire Magic",
 				"tooltip" : "Secondary Skill Bonus: Fire Magic",
-				"description" : "Increases the Damage of Fire Magic spells by 50%. Starts with Expert Fire Magic."				
+				"description" : "Increases the Damage of Fire Magic spells by 50%. Starts with Expert Fire Magic."
 			}
 		},
 		"specialty#override" : {
@@ -3152,19 +3606,22 @@
 		"army#override" : [
 			{
 				"creature" : "gnoll",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "lizardman",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "serpentFly",
-				"min" : 3, "max" : 5
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
-//CONFLUX
+	//CONFLUX
 	"core:pasis" : {
 		"texts" : {
 			"specialty#override" : {
@@ -3181,20 +3638,29 @@
 		"army#override" : [
 			{
 				"creature" : "pixie",
-				"min" : 15, "max" : 25,
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElemental",
-				"min" : 4, "max" : 6,
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "psychicElemental",
-				"min" : 1, "max" : 1,
+				"min" : 1,
+				"max" : 1
 			}
 		],
-		"skills#override": [
-			{ "skill" : "offence", "level": "basic" },
-			{ "skill" : "intelligence", "level": "basic" }
+		"skills#override" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "intelligence",
+				"level" : "basic"
+			}
 		]
 	},
 	"core:thunar" : {
@@ -3214,20 +3680,29 @@
 		"army#override" : [
 			{
 				"creature" : "pixie",
-				"min" : 15, "max" : 25,
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElemental",
-				"min" : 4, "max" : 6,
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "earthElemental",
-				"min" : 2, "max" : 3,
+				"min" : 2,
+				"max" : 3
 			}
 		],
-		"skills#override": [
-			{ "skill" : "tactics", "level": "basic" },
-			{ "skill" : "armorer", "level": "basic" }
+		"skills#override" : [
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			},
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			}
 		]
 	},
 	"core:ignissa" : {
@@ -3246,20 +3721,29 @@
 		"army#override" : [
 			{
 				"creature" : "pixie",
-				"min" : 15, "max" : 25,
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "fireElemental",
-				"min" : 2, "max" : 3,
+				"min" : 2,
+				"max" : 3
 			},
 			{
 				"creature" : "fireElemental",
-				"min" : 2, "max" : 3,
+				"min" : 2,
+				"max" : 3
 			}
 		],
-		"skills#override": [
-			{ "skill" : "offence", "level": "basic" },
-			{ "skill" : "fireMagic", "level": "basic" }
+		"skills#override" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "fireMagic",
+				"level" : "basic"
+			}
 		]
 	},
 	"core:lacus" : {
@@ -3278,20 +3762,29 @@
 		"army#override" : [
 			{
 				"creature" : "pixie",
-				"min" : 15, "max" : 25,
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "waterElemental",
-				"min" : 3, "max" : 5,
+				"min" : 3,
+				"max" : 5
 			},
 			{
 				"creature" : "waterElemental",
-				"min" : 3, "max" : 5,
+				"min" : 3,
+				"max" : 5
 			}
 		],
-		"skills#override": [
-			{ "skill" : "tactics", "level": "basic" },
-			{ "skill" : "archery", "level": "basic" }
+		"skills#override" : [
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			},
+			{
+				"skill" : "archery",
+				"level" : "basic"
+			}
 		]
 	},
 	"core:monere" : {
@@ -3308,15 +3801,18 @@
 		"army#override" : [
 			{
 				"creature" : "pixie",
-				"min" : 15, "max" : 25,
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElemental",
-				"min" : 4, "max" : 6,
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "waterElemental",
-				"min" : 3, "max" : 5,
+				"min" : 3,
+				"max" : 5
 			}
 		],
 		"images" : {
@@ -3340,15 +3836,18 @@
 		"army#override" : [
 			{
 				"creature" : "pixie",
-				"min" : 15, "max" : 25,
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElemental",
-				"min" : 4, "max" : 6,
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "waterElemental",
-				"min" : 3, "max" : 5,
+				"min" : 3,
+				"max" : 5
 			}
 		],
 		"images" : {
@@ -3372,15 +3871,18 @@
 		"army#override" : [
 			{
 				"creature" : "pixie",
-				"min" : 15, "max" : 25,
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElemental",
-				"min" : 4, "max" : 6,
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "waterElemental",
-				"min" : 3, "max" : 5,
+				"min" : 3,
+				"max" : 5
 			}
 		],
 		"images" : {
@@ -3404,15 +3906,18 @@
 		"army#override" : [
 			{
 				"creature" : "pixie",
-				"min" : 15, "max" : 25,
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElemental",
-				"min" : 4, "max" : 6,
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "waterElemental",
-				"min" : 3, "max" : 5,
+				"min" : 3,
+				"max" : 5
 			}
 		],
 		"images" : {
@@ -3426,15 +3931,18 @@
 		"army#override" : [
 			{
 				"creature" : "pixie",
-				"min" : 15, "max" : 25,
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElemental",
-				"min" : 4, "max" : 6,
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "waterElemental",
-				"min" : 3, "max" : 5,
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -3442,15 +3950,18 @@
 		"army#override" : [
 			{
 				"creature" : "pixie",
-				"min" : 15, "max" : 25,
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElemental",
-				"min" : 4, "max" : 6,
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "waterElemental",
-				"min" : 3, "max" : 5,
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -3458,15 +3969,18 @@
 		"army#override" : [
 			{
 				"creature" : "pixie",
-				"min" : 15, "max" : 25,
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElemental",
-				"min" : 4, "max" : 6,
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "waterElemental",
-				"min" : 3, "max" : 5,
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -3474,15 +3988,18 @@
 		"army#override" : [
 			{
 				"creature" : "pixie",
-				"min" : 15, "max" : 25,
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElemental",
-				"min" : 4, "max" : 6,
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "waterElemental",
-				"min" : 3, "max" : 5,
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -3490,15 +4007,18 @@
 		"army#override" : [
 			{
 				"creature" : "pixie",
-				"min" : 15, "max" : 25,
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElemental",
-				"min" : 4, "max" : 6,
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "waterElemental",
-				"min" : 3, "max" : 5,
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -3506,15 +4026,18 @@
 		"army#override" : [
 			{
 				"creature" : "pixie",
-				"min" : 15, "max" : 25,
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElemental",
-				"min" : 4, "max" : 6,
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "waterElemental",
-				"min" : 3, "max" : 5,
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -3522,15 +4045,18 @@
 		"army#override" : [
 			{
 				"creature" : "pixie",
-				"min" : 15, "max" : 25,
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElemental",
-				"min" : 4, "max" : 6,
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "waterElemental",
-				"min" : 3, "max" : 5,
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
@@ -3538,19 +4064,22 @@
 		"army#override" : [
 			{
 				"creature" : "pixie",
-				"min" : 15, "max" : 25,
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "airElemental",
-				"min" : 4, "max" : 6,
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "waterElemental",
-				"min" : 3, "max" : 5,
+				"min" : 3,
+				"max" : 5
 			}
 		]
 	},
-//COVE
+	//COVE
 	"hota.cove:02jeremy" : {
 		"texts" : {
 			"specialty" : {
@@ -3581,15 +4110,18 @@
 		"army#override" : [
 			{
 				"creature" : "nymph",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "stormbird",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			},
 			{
 				"creature" : "stormbird",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -3652,15 +4184,18 @@
 		"army#override" : [
 			{
 				"creature" : "nymph",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "crewmate",
-				"min" : 6, "max" : 9
+				"min" : 6,
+				"max" : 9
 			},
 			{
 				"creature" : "nix",
-				"min" : 1, "max" : 1
+				"min" : 1,
+				"max" : 1
 			}
 		]
 	},
@@ -3680,19 +4215,22 @@
 		"army#override" : [
 			{
 				"creature" : "nymph",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "crewmate",
-				"min" : 6, "max" : 9
+				"min" : 6,
+				"max" : 9
 			},
 			{
 				"creature" : "seaWitch",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
-//FACTORY
+	//FACTORY
 	"hota.factory:01henrietta" : {
 		"texts" : {
 			"specialty" : {
@@ -3737,15 +4275,18 @@
 		"army#override" : [
 			{
 				"creature" : "halfling",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "hotaMechanic",
-				"min" : 7, "max" : 9
+				"min" : 7,
+				"max" : 9
 			},
 			{
 				"creature" : "gunslinger",
-				"min" : 1, "max" : 1
+				"min" : 1,
+				"max" : 1
 			}
 		]
 	},
@@ -3793,15 +4334,18 @@
 		"army#override" : [
 			{
 				"creature" : "halfling",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "automaton",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			},
 			{
 				"creature" : "automaton",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -3821,32 +4365,38 @@
 		"army#override" : [
 			{
 				"creature" : "halfling",
-				"min" : 15, "max" : 25
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "hotaMechanic",
-				"min" : 7, "max" : 9
+				"min" : 7,
+				"max" : 9
 			},
 			{
 				"creature" : "sandworm",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
-//BULWARK
+	//BULWARK
 	"hota.bulwark:05creyle" : {
 		"army#override" : [
 			{
 				"creature" : "kobold",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "mountainRam",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "mammoth",
-				"min" : 1, "max" : 1
+				"min" : 1,
+				"max" : 1
 			}
 		]
 	},
@@ -3854,15 +4404,18 @@
 		"army#override" : [
 			{
 				"creature" : "kobold",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "yeti",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			},
 			{
 				"creature" : "yeti",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -3870,15 +4423,18 @@
 		"army#override" : [
 			{
 				"creature" : "kobold",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "mountainRam",
-				"min" : 6, "max" : 8
+				"min" : 6,
+				"max" : 8
 			},
 			{
 				"creature" : "shaman",
-				"min" : 2, "max" : 3
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	}

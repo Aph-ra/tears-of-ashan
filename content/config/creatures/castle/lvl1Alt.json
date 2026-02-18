@@ -1,19 +1,32 @@
 {
-	"glaivierAU": {
-		"name" : {"singular" : "Glaivier", "plural" : "Glaiviers"},
+	"glaivierAU" : {
+		"name" : {
+			"singular" : "Glaivier",
+			"plural" : "Glaiviers"
+		},
 		"faction" : "castle",
 		"level" : 1,
 		"attack" : 4,
 		"defense" : 7,
-		"damage" : {"min" : 1, "max" : 3},
+		"damage" : {
+			"min" : 1,
+			"max" : 3
+		},
 		"hitPoints" : 12,
 		"speed" : 4,
 		"growth" : 14,
 		"aiValue" : 115,
 		"fightValue" : 115,
-		"cost" : {"gold" : 75},
-		"advMapAmount" : {"min" : 20, "max" : 30},
-		"upgrades" : ["core:halberdier"],
+		"cost" : {
+			"gold" : 75
+		},
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 30
+		},
+		"upgrades" : [
+			"core:halberdier"
+		],
 		"doubleWide" : false,
 		"abilities" : {
 			"cavalryChargeImmunity" : {
@@ -27,17 +40,17 @@
 			"iconLarge" : "creatures/castle/iconsBig/lvl1Alt.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"sound" : {
-			"attack": "HALBATTK.wav",
-			"defend": "HALBDFND.wav",
-			"killed": "HALBKILL.wav",
-			"move": "HALBMOVE.wav",
-			"wince": "HALBWNCE.wav"
+			"attack" : "HALBATTK.wav",
+			"defend" : "HALBDFND.wav",
+			"killed" : "HALBKILL.wav",
+			"move" : "HALBMOVE.wav",
+			"wince" : "HALBWNCE.wav"
 		}
-	}	
+	}
 }

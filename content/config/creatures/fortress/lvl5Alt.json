@@ -1,19 +1,32 @@
 {
-	"corrosiveGorgonAU": {
-		"name" : {"singular" : "Corrosive Gorgon", "plural" : "Corrosive Gorgons"},
+	"corrosiveGorgonAU" : {
+		"name" : {
+			"singular" : "Corrosive Gorgon",
+			"plural" : "Corrosive Gorgons"
+		},
 		"faction" : "fortress",
 		"level" : 5,
 		"attack" : 14,
 		"defense" : 14,
-		"damage" : {"min" : 12, "max" : 16},
+		"damage" : {
+			"min" : 12,
+			"max" : 16
+		},
 		"hitPoints" : 70,
 		"speed" : 7,
 		"growth" : 3,
 		"aiValue" : 1040,
 		"fightValue" : 1040,
-		"cost" : {"gold" : 600},
-		"advMapAmount" : {"min" : 8, "max" : 12},
-		"upgrades" : ["core:mightyGorgon"],
+		"cost" : {
+			"gold" : 600
+		},
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 12
+		},
+		"upgrades" : [
+			"core:mightyGorgon"
+		],
 		"doubleWide" : true,
 		"abilities" : {
 			"breathAttack" : {
@@ -34,23 +47,25 @@
 		"graphics" : {
 			"animation" : "creatures/fortress/battle/lvl5Alt.json",
 			"map" : "creatures/fortress/map/lvl5Alt.json",
-			"mapMask" : ["VVV","VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"iconSmall" : "creatures/fortress/iconsSmall/lvl5Alt.png",
 			"iconLarge" : "creatures/fortress/iconsBig/lvl5Alt.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
-		"sound" :
-		{
-			"attack": "BGORATTK.wav",
-			"defend": "BGORDFND.wav",
-			"killed": "BGORKILL.wav",
-			"move": "BGORMOVE.wav",
-			"wince": "BGORWNCE.wav"
+		"sound" : {
+			"attack" : "BGORATTK.wav",
+			"defend" : "BGORDFND.wav",
+			"killed" : "BGORKILL.wav",
+			"move" : "BGORMOVE.wav",
+			"wince" : "BGORWNCE.wav"
 		}
 	}
-}	
+}

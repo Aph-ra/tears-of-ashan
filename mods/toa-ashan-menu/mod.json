@@ -5,7 +5,7 @@
 	"description" : "",
 	"version" : "1.0.0",
 	"modType" : "Interface",
-	
+
 	"conflicts" : [
 		"h3-themes",
 		"hota.mainmenu",

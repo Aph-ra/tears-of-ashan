@@ -3,7 +3,9 @@
 		"class" : "inquisitor",
 		"female" : false,
 		"special" : false,
-		"spellbook" : [ "inferno" ],
+		"spellbook" : [
+			"inferno"
+		],
 		"texts" : {
 			"name" : "Wilhelm",
 			"biography" : "Wilhelm's zealotry made him the ideal candidate to lead the new Inquisition formed to fight the growing threat of the Necromancers of Heresh. Few know his subsequent experiences during the War of the Broken Staff sparked a secret interest for Dark Magic. While he remains a loyal servant of the Dragon of Light, Wilhelm now realizes you cannot hop to defeat what you don't understand. Of course, if they knew, the rest of the clergy would question Wilhelm's sanity.",
@@ -22,10 +24,16 @@
 		},
 
 		"skills" : [
-			{ "skill" : "fireMagic", "level": "basic" },
-			{ "skill" : "lightMagic", "level": "basic" }
+			{
+				"skill" : "fireMagic",
+				"level" : "basic"
+			},
+			{
+				"skill" : "lightMagic",
+				"level" : "basic"
+			}
 		],
-    
+
 		"specialty" : {
 			"bonuses" : {
 				"fireMagicDamage" : {
@@ -36,19 +44,22 @@
 				}
 			}
 		},
-	
+
 		"army" : [
 			{
 				"creature" : "pikeman",
-				"min" : 10, "max" : 20
+				"min" : 10,
+				"max" : 20
 			},
 			{
 				"creature" : "archer",
-				"min" : 4, "max" : 7
+				"min" : 4,
+				"max" : 7
 			},
 			{
 				"creature" : "griffin",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	}

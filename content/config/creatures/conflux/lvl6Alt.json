@@ -1,19 +1,32 @@
 {
-	"astralElementalAU": {
-		"name" : {"singular" : "Astral Elemental", "plural" : "Astral Elementals"},
+	"astralElementalAU" : {
+		"name" : {
+			"singular" : "Astral Elemental",
+			"plural" : "Astral Elementals"
+		},
 		"faction" : "conflux",
 		"level" : 6,
 		"attack" : 16,
 		"defense" : 16,
-		"damage" : {"min" : 10, "max" : 30},
+		"damage" : {
+			"min" : 10,
+			"max" : 30
+		},
 		"hitPoints" : 75,
 		"speed" : 8,
 		"growth" : 2,
 		"aiValue" : 2250,
 		"fightValue" : 1850,
-		"cost" : {"gold" : 1450},
-		"advMapAmount" : {"min" : 5, "max" : 10},
-		"upgrades" : ["core:magicElemental"],
+		"cost" : {
+			"gold" : 1450
+		},
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 10
+		},
+		"upgrades" : [
+			"core:magicElemental"
+		],
 		"doubleWide" : false,
 		"abilities" : {
 			"nonLiving" : {
@@ -34,12 +47,15 @@
 			},
 			"magicBuff" : {
 				"type" : "RECEPTIVE"
-			},
+			}
 		},
 		"graphics" : {
 			"animation" : "creatures/conflux/battle/lvl6Alt.json",
 			"map" : "creatures/conflux/map/lvl6Alt.json",
-			"mapMask" : ["VVV","VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"iconSmall" : "creatures/conflux/iconsSmall/lvl6Alt.png",
 			"iconLarge" : "creatures/conflux/iconsBig/lvl6Alt.png",
 			"timeBetweenFidgets" : 1,

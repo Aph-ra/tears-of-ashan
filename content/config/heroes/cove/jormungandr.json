@@ -21,29 +21,38 @@
 			"specialtyLarge" : "heroes/specialtyLarge/Sea Serpents.png"
 		},
 
-		"skills": [
-			{ "skill" : "offence", "level": "basic" },
-			{ "skill" : "leadership", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "seaserpent",
 			"creatureLevel" : 7,
 			"stepSize" : 20
 		},
-		
+
 		"army" : [
 			{
 				"creature" : "nymph",
-				"min" : 15, "max" : 25,
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "crewmate",
-				"min" : 6, "max" : 9,
+				"min" : 6,
+				"max" : 9
 			},
 			{
 				"creature" : "pirate",
-				"min" : 4, "max" : 7,
+				"min" : 4,
+				"max" : 7
 			}
 		]
 	}

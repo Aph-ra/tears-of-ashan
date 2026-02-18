@@ -1,12 +1,12 @@
 {
-//CASTLE
+	//CASTLE
 	"core:pikeman" : {
 		"sound" : {
 			"attack" : "creatures/peasantConscriptBrute/Peasant_attack",
 			"defend" : "creatures/peasantConscriptBrute/Peasant_hit",
 			"killed" : "creatures/peasantConscriptBrute/Peasant_death",
-			"move"   : "creatures/peasantConscriptBrute/Peasant_move",
-			"wince"  : "creatures/peasantConscriptBrute/Peasant_hit"
+			"move" : "creatures/peasantConscriptBrute/Peasant_move",
+			"wince" : "creatures/peasantConscriptBrute/Peasant_hit"
 		}
 	},
 	"core:halberdier" : {
@@ -14,8 +14,8 @@
 			"attack" : "creatures/peasantConscriptBrute/Militiamen_attack",
 			"defend" : "creatures/peasantConscriptBrute/Peasant_hit",
 			"killed" : "creatures/peasantConscriptBrute/Peasant_death",
-			"move"   : "creatures/peasantConscriptBrute/Militiamen_move",
-			"wince"  : "creatures/peasantConscriptBrute/Peasant_hit"
+			"move" : "creatures/peasantConscriptBrute/Militiamen_move",
+			"wince" : "creatures/peasantConscriptBrute/Peasant_hit"
 		}
 	},
 	"tears-of-ashan:glaivierAU" : {
@@ -23,8 +23,8 @@
 			"attack" : "creatures/peasantConscriptBrute/Militiamen_attack",
 			"defend" : "creatures/peasantConscriptBrute/Peasant_hit",
 			"killed" : "creatures/peasantConscriptBrute/Peasant_death",
-			"move"   : "creatures/peasantConscriptBrute/Militiamen_move",
-			"wince"  : "creatures/peasantConscriptBrute/Peasant_hit"
+			"move" : "creatures/peasantConscriptBrute/Militiamen_move",
+			"wince" : "creatures/peasantConscriptBrute/Peasant_hit"
 		}
 	},
 	"core:archer" : {
@@ -32,8 +32,8 @@
 			"attack" : "creatures/archer/Archer_attack",
 			"defend" : "creatures/archer/Archer_hit",
 			"killed" : "creatures/archer/Archer_death",
-			"move"   : "creatures/archer/Archer_move",
-			"wince"  : "creatures/archer/Archer_hit",
+			"move" : "creatures/archer/Archer_move",
+			"wince" : "creatures/archer/Archer_hit",
 			"shoot" : "creatures/archer/Archer_ranged_short"
 		}
 	},
@@ -42,8 +42,8 @@
 			"attack" : "creatures/marksmanCrossbowman/Marksman_attack",
 			"defend" : "creatures/marksmanCrossbowman/Marksman_hit",
 			"killed" : "creatures/marksmanCrossbowman/Marksman_death",
-			"move"   : "creatures/marksmanCrossbowman/Marksman_move",
-			"wince"  : "creatures/marksmanCrossbowman/Marksman_hit",
+			"move" : "creatures/marksmanCrossbowman/Marksman_move",
+			"wince" : "creatures/marksmanCrossbowman/Marksman_hit",
 			"shoot" : "creatures/marksmanCrossbowman/Marksman_ranged_short"
 		}
 	},
@@ -52,8 +52,8 @@
 			"attack" : "creatures/marksmanCrossbowman/Marksman_attack",
 			"defend" : "creatures/marksmanCrossbowman/Marksman_hit",
 			"killed" : "creatures/marksmanCrossbowman/Marksman_death",
-			"move"   : "creatures/marksmanCrossbowman/Marksman_move",
-			"wince"  : "creatures/marksmanCrossbowman/Marksman_hit",
+			"move" : "creatures/marksmanCrossbowman/Marksman_move",
+			"wince" : "creatures/marksmanCrossbowman/Marksman_hit",
 			"shoot" : "creatures/marksmanCrossbowman/Marksman_ranged_short"
 		}
 	},
@@ -62,8 +62,8 @@
 			"attack" : "creatures/griffin/Griffin_attack",
 			"defend" : "creatures/griffin/Griffin_hit",
 			"killed" : "creatures/griffin/Griffin_death",
-			"move"   : "creatures/griffin/Griffin_move",
-			"wince"  : "creatures/griffin/Griffin_hit"
+			"move" : "creatures/griffin/Griffin_move",
+			"wince" : "creatures/griffin/Griffin_hit"
 		}
 	},
 	"core:royalGriffin" : {
@@ -71,8 +71,8 @@
 			"attack" : "creatures/royalGriffin/RoyalGriffin_attack",
 			"defend" : "creatures/royalGriffin/RoyalGriffin_hit",
 			"killed" : "creatures/royalGriffin/RoyalGriffin_death",
-			"move"   : "creatures/royalGriffin/RoyalGriffin_move",
-			"wince"  : "creatures/royalGriffin/RoyalGriffin_hit"
+			"move" : "creatures/royalGriffin/RoyalGriffin_move",
+			"wince" : "creatures/royalGriffin/RoyalGriffin_hit"
 		}
 	},
 	"tears-of-ashan:battleGriffinAU" : {
@@ -80,8 +80,8 @@
 			"attack" : "creatures/battleGriffin/BattleGriffin_attack",
 			"defend" : "creatures/battleGriffin/BattleGriffin_hit",
 			"killed" : "creatures/battleGriffin/BattleGriffin_death",
-			"move"   : "creatures/battleGriffin/BattleGriffin_move",
-			"wince"  : "creatures/battleGriffin/BattleGriffin_hit"
+			"move" : "creatures/battleGriffin/BattleGriffin_move",
+			"wince" : "creatures/battleGriffin/BattleGriffin_hit"
 		}
 	},
 	"core:swordsman" : {
@@ -89,8 +89,8 @@
 			"attack" : "creatures/footman/Footman_attack",
 			"defend" : "creatures/footman/Footman_hit",
 			"killed" : "creatures/footman/Footman_death",
-			"move"   : "creatures/footman/Footman_move",
-			"wince"  : "creatures/footman/Footman_hit"
+			"move" : "creatures/footman/Footman_move",
+			"wince" : "creatures/footman/Footman_hit"
 		}
 	},
 	"core:crusader" : {
@@ -98,8 +98,8 @@
 			"attack" : "creatures/vindicator/Vindicator_attack",
 			"defend" : "creatures/vindicator/Vindicator_hit",
 			"killed" : "creatures/vindicator/Vindicator_death",
-			"move"   : "creatures/vindicator/Vindicator_move",
-			"wince"  : "creatures/vindicator/Vindicator_hit"
+			"move" : "creatures/vindicator/Vindicator_move",
+			"wince" : "creatures/vindicator/Vindicator_hit"
 		}
 	},
 	"tears-of-ashan:guardsmanAU" : {
@@ -107,8 +107,8 @@
 			"attack" : "creatures/squire/Swordsman_upgrade_attack",
 			"defend" : "creatures/squire/Swordsman_upgrade_hit",
 			"killed" : "creatures/squire/Swordsman_death",
-			"move"   : "creatures/squire/Swordsman_move",
-			"wince"  : "creatures/squire/Swordsman_upgrade_hit"
+			"move" : "creatures/squire/Swordsman_move",
+			"wince" : "creatures/squire/Swordsman_upgrade_hit"
 		}
 	},
 	"core:monk" : {
@@ -116,8 +116,8 @@
 			"attack" : "creatures/priest/Priest_cast",
 			"defend" : "creatures/priest/Priest_hit",
 			"killed" : "creatures/priest/Priest_death",
-			"move"   : "creatures/priest/Priest_move",
-			"wince"  : "creatures/priest/Priest_hit",
+			"move" : "creatures/priest/Priest_move",
+			"wince" : "creatures/priest/Priest_hit",
 			"shoot" : "creatures/priest/Priest_ranged"
 		}
 	},
@@ -126,8 +126,8 @@
 			"attack" : "creatures/inquisitorZealot/Cleric_cast",
 			"defend" : "creatures/inquisitorZealot/Cleric_hit",
 			"killed" : "creatures/inquisitorZealot/Cleric_death",
-			"move"   : "creatures/inquisitorZealot/Cleric_move",
-			"wince"  : "creatures/inquisitorZealot/Cleric_hit",
+			"move" : "creatures/inquisitorZealot/Cleric_move",
+			"wince" : "creatures/inquisitorZealot/Cleric_hit",
 			"shoot" : "creatures/inquisitorZealot/Cleric_ranged"
 		}
 	},
@@ -136,8 +136,8 @@
 			"attack" : "creatures/inquisitorZealot/Cleric_cast",
 			"defend" : "creatures/inquisitorZealot/Cleric_hit",
 			"killed" : "creatures/inquisitorZealot/Cleric_death",
-			"move"   : "creatures/inquisitorZealot/Cleric_move",
-			"wince"  : "creatures/inquisitorZealot/Cleric_hit",
+			"move" : "creatures/inquisitorZealot/Cleric_move",
+			"wince" : "creatures/inquisitorZealot/Cleric_hit",
 			"shoot" : "creatures/inquisitorZealot/Cleric_ranged"
 		}
 	},
@@ -146,8 +146,8 @@
 			"attack" : "creatures/champion/Champion_attack2",
 			"defend" : "creatures/champion/Champion_hit",
 			"killed" : "creatures/champion/Champion_death",
-			"move"   : "creatures/champion/Champion_move_short",
-			"wince"  : "creatures/champion/Champion_hit"
+			"move" : "creatures/champion/Champion_move_short",
+			"wince" : "creatures/champion/Champion_hit"
 		}
 	},
 	"core:champion" : {
@@ -155,8 +155,8 @@
 			"attack" : "creatures/champion/Champion_attack2",
 			"defend" : "creatures/champion/Champion_hit",
 			"killed" : "creatures/champion/Champion_death",
-			"move"   : "creatures/champion/Champion_move_short",
-			"wince"  : "creatures/champion/Champion_hit"
+			"move" : "creatures/champion/Champion_move_short",
+			"wince" : "creatures/champion/Champion_hit"
 		}
 	},
 	"tears-of-ashan:justiciarAU" : {
@@ -164,8 +164,8 @@
 			"attack" : "creatures/champion/Champion_attack2",
 			"defend" : "creatures/champion/Champion_hit",
 			"killed" : "creatures/champion/Champion_death",
-			"move"   : "creatures/champion/Champion_move_short",
-			"wince"  : "creatures/champion/Champion_hit"
+			"move" : "creatures/champion/Champion_move_short",
+			"wince" : "creatures/champion/Champion_hit"
 		}
 	},
 	"core:angel" : {
@@ -173,8 +173,8 @@
 			"attack" : "creatures/angel/Angel_attack_short",
 			"defend" : "creatures/angel/Angel_hit",
 			"killed" : "creatures/angel/Angel_death",
-			"move"   : "creatures/angel/Angel_move",
-			"wince"  : "creatures/angel/Angel_hit"
+			"move" : "creatures/angel/Angel_move",
+			"wince" : "creatures/angel/Angel_hit"
 		}
 	},
 	"core:archangel" : {
@@ -182,8 +182,8 @@
 			"attack" : "creatures/archangelSeraph/Archangel_attack_short",
 			"defend" : "creatures/archangelSeraph/Archangel_hit",
 			"killed" : "creatures/archangelSeraph/Archangel_death",
-			"move"   : "creatures/archangelSeraph/Archangel_move",
-			"wince"  : "creatures/archangelSeraph/Archangel_hit"
+			"move" : "creatures/archangelSeraph/Archangel_move",
+			"wince" : "creatures/archangelSeraph/Archangel_hit"
 		}
 	},
 	"tears-of-ashan:seraphAU" : {
@@ -191,18 +191,18 @@
 			"attack" : "creatures/archangelSeraph/Archangel_attack1_short",
 			"defend" : "creatures/archangelSeraph/Archangel_hit",
 			"killed" : "creatures/archangelSeraph/Archangel_death",
-			"move"   : "creatures/archangelSeraph/Archangel_move",
-			"wince"  : "creatures/archangelSeraph/Archangel_hit"
+			"move" : "creatures/archangelSeraph/Archangel_move",
+			"wince" : "creatures/archangelSeraph/Archangel_hit"
 		}
 	},
-// RAMPART
+	// RAMPART
 	"core:centaur" : {
 		"sound" : {
 			"attack" : "creatures/centaur/Centaur_attack",
 			"defend" : "creatures/centaur/Centaur_hit",
 			"killed" : "creatures/centaur/Centaur_death",
-			"move"   : "creatures/centaur/Centaur_move",
-			"wince"  : "creatures/centaur/Centaur_hit"
+			"move" : "creatures/centaur/Centaur_move",
+			"wince" : "creatures/centaur/Centaur_hit"
 		}
 	},
 	"core:centaurCaptain" : {
@@ -210,8 +210,8 @@
 			"attack" : "creatures/centaurMarauder/CentaurMarauder_attack",
 			"defend" : "creatures/centaurMarauder/CentaurMarauder_hit",
 			"killed" : "creatures/centaurMarauder/CentaurMarauder_death",
-			"move"   : "creatures/centaurMarauder/CentaurMarauder_move",
-			"wince"  : "creatures/centaurMarauder/CentaurMarauder_hit"
+			"move" : "creatures/centaurMarauder/CentaurMarauder_move",
+			"wince" : "creatures/centaurMarauder/CentaurMarauder_hit"
 		}
 	},
 	"tears-of-ashan:centaurRangerAU" : {
@@ -219,8 +219,8 @@
 			"attack" : "creatures/centaurNomad/CentaurNomad_attack",
 			"defend" : "creatures/centaurNomad/CentaurNomad_hit",
 			"killed" : "creatures/centaurNomad/CentaurNomad_death",
-			"move"   : "creatures/centaurNomad/CentaurNomad_move",
-			"wince"  : "creatures/centaurNomad/CentaurNomad_hit",
+			"move" : "creatures/centaurNomad/CentaurNomad_move",
+			"wince" : "creatures/centaurNomad/CentaurNomad_hit",
 			"shoot" : "creatures/centaurNomad/CentaurNomad_ranged_short"
 		}
 	},
@@ -229,8 +229,8 @@
 			"attack" : "creatures/defender/Defender_attack_short",
 			"defend" : "creatures/defender/Defender_hit",
 			"killed" : "creatures/defender/Defender_death",
-			"move"   : "creatures/defender/Defender_move",
-			"wince"  : "creatures/defender/Defender_hit"
+			"move" : "creatures/defender/Defender_move",
+			"wince" : "creatures/defender/Defender_hit"
 		}
 	},
 	"core:battleDwarf" : {
@@ -238,8 +238,8 @@
 			"attack" : "creatures/shieldguard/StoutDefender_attack_short",
 			"defend" : "creatures/shieldguard/StoutDefender_hit",
 			"killed" : "creatures/shieldguard/StoutDefender_death",
-			"move"   : "creatures/shieldguard/StoutDefender_move",
-			"wince"  : "creatures/shieldguard/StoutDefender_hit"
+			"move" : "creatures/shieldguard/StoutDefender_move",
+			"wince" : "creatures/shieldguard/StoutDefender_hit"
 		}
 	},
 	"tears-of-ashan:dwarfBattleragerAU" : {
@@ -247,8 +247,8 @@
 			"attack" : "creatures/shieldguard/StoutDefender_attack_short",
 			"defend" : "creatures/mountainGuard/StoneDefender_hit",
 			"killed" : "creatures/mountainGuard/StoneDefender_death",
-			"move"   : "creatures/mountainGuard/StoneDefender_move",
-			"wince"  : "creatures/mountainGuard/StoneDefender_hit"
+			"move" : "creatures/mountainGuard/StoneDefender_move",
+			"wince" : "creatures/mountainGuard/StoneDefender_hit"
 		}
 	},
 	"core:woodElf" : {
@@ -256,8 +256,8 @@
 			"attack" : "creatures/hunter/WoodElf_attack",
 			"defend" : "creatures/hunter/WoodElf_hit",
 			"killed" : "creatures/hunter/WoodElf_death",
-			"move"   : "creatures/hunter/WoodElf_move",
-			"wince"  : "creatures/hunter/WoodElf_hit",
+			"move" : "creatures/hunter/WoodElf_move",
+			"wince" : "creatures/hunter/WoodElf_hit",
 			"shoot" : "creatures/hunter/WoodElf_ranged_short"
 		}
 	},
@@ -266,8 +266,8 @@
 			"attack" : "creatures/masterHunter/HighElf_attack",
 			"defend" : "creatures/masterHunter/HighElf_hit",
 			"killed" : "creatures/masterHunter/HighElf_death",
-			"move"   : "creatures/masterHunter/HighElf_move",
-			"wince"  : "creatures/masterHunter/HighElf_hit",
+			"move" : "creatures/masterHunter/HighElf_move",
+			"wince" : "creatures/masterHunter/HighElf_hit",
 			"shoot" : "creatures/masterHunter/HighElf_ranged_short"
 		}
 	},
@@ -276,8 +276,8 @@
 			"attack" : "creatures/warDancer/WarDancer_attack_short",
 			"defend" : "creatures/warDancer/WarDancer_hit",
 			"killed" : "creatures/warDancer/WarDancer_death",
-			"move"   : "creatures/warDancer/WarDancer_move_short",
-			"wince"  : "creatures/warDancer/WarDancer_hit"
+			"move" : "creatures/warDancer/WarDancer_move_short",
+			"wince" : "creatures/warDancer/WarDancer_hit"
 		}
 	},
 	"core:dendroidGuard" : {
@@ -285,8 +285,8 @@
 			"attack" : "creatures/treant/Dendroid_attack_short",
 			"defend" : "creatures/treant/Dendroid_hit",
 			"killed" : "creatures/treant/Dendroid_death",
-			"move"   : "creatures/treant/Dendroid_move_short",
-			"wince"  : "creatures/treant/Dendroid_hit"
+			"move" : "creatures/treant/Dendroid_move_short",
+			"wince" : "creatures/treant/Dendroid_hit"
 		}
 	},
 	"core:dendroidSoldier" : {
@@ -294,8 +294,8 @@
 			"attack" : "creatures/savageTreant/AngerTreant_attack",
 			"defend" : "creatures/savageTreant/AngerTreant_hit",
 			"killed" : "creatures/savageTreant/AngerTreant_death",
-			"move"   : "creatures/savageTreant/AngerTreant_move",
-			"wince"  : "creatures/savageTreant/AngerTreant_hit"
+			"move" : "creatures/savageTreant/AngerTreant_move",
+			"wince" : "creatures/savageTreant/AngerTreant_hit"
 		}
 	},
 	"tears-of-ashan:dendroidShamanAU" : {
@@ -303,8 +303,8 @@
 			"attack" : "creatures/ancientTreant/TreantSoldier_attack_short",
 			"defend" : "creatures/ancientTreant/TreantSoldier_hit",
 			"killed" : "creatures/ancientTreant/TreantSoldier_death",
-			"move"   : "creatures/ancientTreant/TreantSoldier_move",
-			"wince"  : "creatures/ancientTreant/TreantSoldier_hit"
+			"move" : "creatures/ancientTreant/TreantSoldier_move",
+			"wince" : "creatures/ancientTreant/TreantSoldier_hit"
 		}
 	},
 	"core:unicorn" : {
@@ -312,8 +312,8 @@
 			"attack" : "creatures/unicorn/Unicorn_attack",
 			"defend" : "creatures/unicorn/Unicorn_hit",
 			"killed" : "creatures/unicorn/Unicorn_death",
-			"move"   : "creatures/unicorn/Unicorn_move",
-			"wince"  : "creatures/unicorn/Unicorn_hit"
+			"move" : "creatures/unicorn/Unicorn_move",
+			"wince" : "creatures/unicorn/Unicorn_hit"
 		}
 	},
 	"core:warUnicorn" : {
@@ -321,8 +321,8 @@
 			"attack" : "creatures/warUnicorn/WarUnicorn_attack",
 			"defend" : "creatures/warUnicorn/WarUnicorn_hit",
 			"killed" : "creatures/warUnicorn/WarUnicorn_death",
-			"move"   : "creatures/warUnicorn/WarUnicorn_move",
-			"wince"  : "creatures/warUnicorn/WarUnicorn_hit"
+			"move" : "creatures/warUnicorn/WarUnicorn_move",
+			"wince" : "creatures/warUnicorn/WarUnicorn_hit"
 		}
 	},
 	"tears-of-ashan:pristineUnicornAU" : {
@@ -330,8 +330,8 @@
 			"attack" : "creatures/pristineUnicorn/WhiteUnicorn_attack",
 			"defend" : "creatures/pristineUnicorn/WhiteUnicorn_hit",
 			"killed" : "creatures/pristineUnicorn/WhiteUnicorn_death",
-			"move"   : "creatures/pristineUnicorn/WhiteUnicorn_move",
-			"wince"  : "creatures/pristineUnicorn/WhiteUnicorn_hit"
+			"move" : "creatures/pristineUnicorn/WhiteUnicorn_move",
+			"wince" : "creatures/pristineUnicorn/WhiteUnicorn_hit"
 		}
 	},
 	"core:greenDragon" : {
@@ -339,8 +339,8 @@
 			"attack" : "creatures/greenDragon/GreenDragon_attack",
 			"defend" : "creatures/greenDragon/GreenDragon_hit",
 			"killed" : "creatures/greenDragon/GreenDragon_death",
-			"move"   : "creatures/greenDragon/GreenDragon_move",
-			"wince"  : "creatures/greenDragon/GreenDragon_hit"
+			"move" : "creatures/greenDragon/GreenDragon_move",
+			"wince" : "creatures/greenDragon/GreenDragon_hit"
 		}
 	},
 	"core:goldDragon" : {
@@ -348,8 +348,8 @@
 			"attack" : "creatures/emeraldDragon/EmeraldDragon_attack",
 			"defend" : "creatures/emeraldDragon/EmeraldDragon_hit",
 			"killed" : "creatures/emeraldDragon/EmeraldDragon_death",
-			"move"   : "creatures/emeraldDragon/EmeraldDragon_move",
-			"wince"  : "creatures/emeraldDragon/EmeraldDragon_hit"
+			"move" : "creatures/emeraldDragon/EmeraldDragon_move",
+			"wince" : "creatures/emeraldDragon/EmeraldDragon_hit"
 		}
 	},
 	"tears-of-ashan:diamondDragonAU" : {
@@ -357,18 +357,18 @@
 			"attack" : "creatures/crystalDragon/HameleonDragon_attack",
 			"defend" : "creatures/crystalDragon/HameleonDragon_hit",
 			"killed" : "creatures/crystalDragon/HameleonDragon_death",
-			"move"   : "creatures/crystalDragon/HameleonDragon_move",
-			"wince"  : "creatures/crystalDragon/HameleonDragon_hit"
+			"move" : "creatures/crystalDragon/HameleonDragon_move",
+			"wince" : "creatures/crystalDragon/HameleonDragon_hit"
 		}
 	},
-//TOWER
+	//TOWER
 	"core:gremlin" : {
 		"sound" : {
 			"attack" : "creatures/gremlin/Gremlin_attack",
 			"defend" : "creatures/gremlin/Gremlin_hit",
 			"killed" : "creatures/gremlin/Gremlin_death",
-			"move"   : "creatures/gremlin/Gremlin_move",
-			"wince"  : "creatures/gremlin/Gremlin_hit"
+			"move" : "creatures/gremlin/Gremlin_move",
+			"wince" : "creatures/gremlin/Gremlin_hit"
 		}
 	},
 	"core:masterGremlin" : {
@@ -376,8 +376,8 @@
 			"attack" : "creatures/masterGremlin/MasterGremlin_attack",
 			"defend" : "creatures/masterGremlin/MasterGremlin_hit",
 			"killed" : "creatures/masterGremlin/MasterGremlin_death",
-			"move"   : "creatures/masterGremlin/MasterGremlin_move",
-			"wince"  : "creatures/masterGremlin/MasterGremlin_hit",
+			"move" : "creatures/masterGremlin/MasterGremlin_move",
+			"wince" : "creatures/masterGremlin/MasterGremlin_hit",
 			"shoot" : "creatures/masterGremlin/MasterGremlin_ranged_short"
 		}
 	},
@@ -386,8 +386,8 @@
 			"attack" : "creatures/gremlinSaboteur/Saboteur_attack",
 			"defend" : "creatures/gremlinSaboteur/Saboteur_hit",
 			"killed" : "creatures/gremlinSaboteur/Saboteur_death",
-			"move"   : "creatures/gremlinSaboteur/Saboteur_move",
-			"wince"  : "creatures/gremlinSaboteur/Saboteur_hit"
+			"move" : "creatures/gremlinSaboteur/Saboteur_move",
+			"wince" : "creatures/gremlinSaboteur/Saboteur_hit"
 		}
 	},
 	"core:stoneGargoyle" : {
@@ -395,8 +395,8 @@
 			"attack" : "creatures/stoneGargoyle/Gorgule_attack_short",
 			"defend" : "creatures/stoneGargoyle/Gorgule_hit",
 			"killed" : "creatures/stoneGargoyle/Gorgule_death",
-			"move"   : "creatures/stoneGargoyle/Gorgule_move",
-			"wince"  : "creatures/stoneGargoyle/Gorgule_hit"
+			"move" : "creatures/stoneGargoyle/Gorgule_move",
+			"wince" : "creatures/stoneGargoyle/Gorgule_hit"
 		}
 	},
 	"core:obsidianGargoyle" : {
@@ -404,8 +404,8 @@
 			"attack" : "creatures/stoneGargoyle/Gorgule_attack_short",
 			"defend" : "creatures/stoneGargoyle/Gorgule_hit",
 			"killed" : "creatures/stoneGargoyle/Gorgule_death",
-			"move"   : "creatures/stoneGargoyle/Gorgule_move",
-			"wince"  : "creatures/stoneGargoyle/Gorgule_hit"
+			"move" : "creatures/stoneGargoyle/Gorgule_move",
+			"wince" : "creatures/stoneGargoyle/Gorgule_hit"
 		}
 	},
 	"tears-of-ashan:elementalGargoyleAU" : {
@@ -413,61 +413,61 @@
 			"attack" : "creatures/marbleGargoyle/Marble_attack_short",
 			"defend" : "creatures/marbleGargoyle/Marble_hit",
 			"killed" : "creatures/marbleGargoyle/Marble_death",
-			"move"   : "creatures/marbleGargoyle/Marble_move",
-			"wince"  : "creatures/marbleGargoyle/Marble_hit"
+			"move" : "creatures/marbleGargoyle/Marble_move",
+			"wince" : "creatures/marbleGargoyle/Marble_hit"
 		}
 	},
 	"core:ironGolem" : {
 		"sound" : {
 			"defend" : "creatures/ironGolem/IronGolem_hit",
 			"killed" : "creatures/ironGolem/IronGolem_death",
-			"move"   : "creatures/ironGolem/IronGolem_move",
-			"wince"  : "creatures/ironGolem/IronGolem_hit"
+			"move" : "creatures/ironGolem/IronGolem_move",
+			"wince" : "creatures/ironGolem/IronGolem_hit"
 		}
 	},
 	"core:stoneGolem" : {
 		"sound" : {
 			"defend" : "creatures/steelGolem/SteelGolem_hit",
 			"killed" : "creatures/steelGolem/SteelGolem_death",
-			"move"   : "creatures/steelGolem/SteelGolem_move",
-			"wince"  : "creatures/steelGolem/SteelGolem_hit"
+			"move" : "creatures/steelGolem/SteelGolem_move",
+			"wince" : "creatures/steelGolem/SteelGolem_hit"
 		}
 	},
 	"tears-of-ashan:magneticGolemAU" : {
 		"sound" : {
 			"defend" : "creatures/magneticGolem/Obsidian_hit",
 			"killed" : "creatures/magneticGolem/Obsidian_death",
-			"move"   : "creatures/magneticGolem/Obsidian_move",
-			"wince"  : "creatures/magneticGolem/Obsidian_hit"
+			"move" : "creatures/magneticGolem/Obsidian_move",
+			"wince" : "creatures/magneticGolem/Obsidian_hit"
 		}
 	},
 	"hota.neutralcreatures:steelGolem" : {
 		"sound" : {
 			"defend" : "creatures/steelGolem/SteelGolem_hit",
 			"killed" : "creatures/steelGolem/SteelGolem_death",
-			"move"   : "creatures/steelGolem/SteelGolem_move",
-			"wince"  : "creatures/steelGolem/SteelGolem_hit"
+			"move" : "creatures/steelGolem/SteelGolem_move",
+			"wince" : "creatures/steelGolem/SteelGolem_hit"
 		}
 	},
 	"core:mage" : {
 		"sound" : {
 			"defend" : "creatures/mage/Magi_hit",
-			"move"   : "creatures/mage/Magi_move",
-			"wince"  : "creatures/mage/Magi_hit"
+			"move" : "creatures/mage/Magi_move",
+			"wince" : "creatures/mage/Magi_hit"
 		}
 	},
 	"core:archMage" : {
 		"sound" : {
 			"defend" : "creatures/archMage/ArchMagi_hit",
-			"move"   : "creatures/archMage/ArchMagi_move",
-			"wince"  : "creatures/archMage/ArchMagi_hit"
+			"move" : "creatures/archMage/ArchMagi_move",
+			"wince" : "creatures/archMage/ArchMagi_hit"
 		}
 	},
 	"tears-of-ashan:battleMageAU" : {
 		"sound" : {
 			"defend" : "creatures/battleMage/BattleMagi_hit",
-			"move"   : "creatures/battleMage/BattleMagi_move",
-			"wince"  : "creatures/battleMage/BattleMagi_hit"
+			"move" : "creatures/battleMage/BattleMagi_move",
+			"wince" : "creatures/battleMage/BattleMagi_hit"
 		}
 	},
 	"core:genie" : {
@@ -475,8 +475,8 @@
 			"attack" : "creatures/djinn/Genie_cast_short",
 			"defend" : "creatures/djinn/Genie_hit",
 			"killed" : "creatures/djinn/Genie_death",
-			"move"   : "creatures/djinn/Genie_move",
-			"wince"  : "creatures/djinn/Genie_hit"
+			"move" : "creatures/djinn/Genie_move",
+			"wince" : "creatures/djinn/Genie_hit"
 		}
 	},
 	"core:masterGenie" : {
@@ -484,8 +484,8 @@
 			"attack" : "creatures/djinnSultan/MasterGenie_cast_short",
 			"defend" : "creatures/djinnSultan/MasterGenie_hit",
 			"killed" : "creatures/djinnSultan/MasterGenie_death",
-			"move"   : "creatures/djinnSultan/MasterGenie_move",
-			"wince"  : "creatures/djinnSultan/MasterGenie_hit"
+			"move" : "creatures/djinnSultan/MasterGenie_move",
+			"wince" : "creatures/djinnSultan/MasterGenie_hit"
 		}
 	},
 	"tears-of-ashan:genieVizierAU" : {
@@ -493,8 +493,8 @@
 			"attack" : "creatures/djinnVizier/Vizier_cast_short",
 			"defend" : "creatures/djinnVizier/Vizier_hit",
 			"killed" : "creatures/djinnVizier/Vizier_death",
-			"move"   : "creatures/djinnVizier/Vizier_move",
-			"wince"  : "creatures/djinnVizier/Vizier_hit"
+			"move" : "creatures/djinnVizier/Vizier_move",
+			"wince" : "creatures/djinnVizier/Vizier_hit"
 		}
 	},
 	"core:giant" : {
@@ -502,8 +502,8 @@
 			"attack" : "creatures/colossus/Giant_attack_short",
 			"defend" : "creatures/colossus/Giant_hit",
 			"killed" : "creatures/colossus/Giant_death",
-			"move"   : "creatures/colossus/Giant_move_short",
-			"wince"  : "creatures/colossus/Giant_hit"
+			"move" : "creatures/colossus/Giant_move_short",
+			"wince" : "creatures/colossus/Giant_hit"
 		}
 	},
 	"core:titan" : {
@@ -511,8 +511,8 @@
 			"attack" : "creatures/titan/Titan_attack_short",
 			"defend" : "creatures/titan/Titan_hit",
 			"killed" : "creatures/titan/Titan_death",
-			"move"   : "creatures/colossus/Giant_move_short",
-			"wince"  : "creatures/titan/Titan_hit",
+			"move" : "creatures/colossus/Giant_move_short",
+			"wince" : "creatures/titan/Titan_hit",
 			"shoot" : "creatures/titan/Titan_ranged_short"
 		}
 	},
@@ -521,18 +521,18 @@
 			"attack" : "creatures/stormTitan/Stormtitan_attack_short",
 			"defend" : "creatures/stormTitan/Stormtitan_hit",
 			"killed" : "creatures/stormTitan/Stormtitan_death",
-			"move"   : "creatures/stormTitan/Stormtitan_move_short",
-			"wince"  : "creatures/stormTitan/Stormtitan_hit"
+			"move" : "creatures/stormTitan/Stormtitan_move_short",
+			"wince" : "creatures/stormTitan/Stormtitan_hit"
 		}
 	},
-//INFERNO
+	//INFERNO
 	"core:imp" : {
 		"sound" : {
 			"attack" : "creatures/imp/imp_attack",
 			"defend" : "creatures/imp/imp_hit",
 			"killed" : "creatures/imp/imp_death",
-			"move"   : "creatures/imp/imp_move",
-			"wince"  : "creatures/imp/imp_hit"
+			"move" : "creatures/imp/imp_move",
+			"wince" : "creatures/imp/imp_hit"
 		}
 	},
 	"core:familiar" : {
@@ -540,8 +540,8 @@
 			"attack" : "creatures/familiar/familiar_attack",
 			"defend" : "creatures/familiar/familiar_hit",
 			"killed" : "creatures/familiar/familiar_death",
-			"move"   : "creatures/familiar/familiar_move",
-			"wince"  : "creatures/familiar/familiar_hit"
+			"move" : "creatures/familiar/familiar_move",
+			"wince" : "creatures/familiar/familiar_hit"
 		}
 	},
 	"tears-of-ashan:verminAU" : {
@@ -549,8 +549,8 @@
 			"attack" : "creatures/vermin/vermin_attack",
 			"defend" : "creatures/vermin/vermin_hit",
 			"killed" : "creatures/vermin/vermin_death",
-			"move"   : "creatures/vermin/vermin_move_short",
-			"wince"  : "creatures/vermin/vermin_hit"
+			"move" : "creatures/vermin/vermin_move_short",
+			"wince" : "creatures/vermin/vermin_hit"
 		}
 	},
 	"core:hellHound" : {
@@ -558,8 +558,8 @@
 			"attack" : "creatures/hellHound/HellHound_attack",
 			"defend" : "creatures/hellHound/HellHound_hit",
 			"killed" : "creatures/hellHound/HellHound_death",
-			"move"   : "creatures/hellHound/HellHound_move",
-			"wince"  : "creatures/hellHound/HellHound_hit"
+			"move" : "creatures/hellHound/HellHound_move",
+			"wince" : "creatures/hellHound/HellHound_hit"
 		}
 	},
 	"core:cerberus" : {
@@ -567,8 +567,8 @@
 			"attack" : "creatures/cerberus/Cerberus_attack",
 			"defend" : "creatures/cerberus/Cerberus_hit",
 			"killed" : "creatures/cerberus/Cerberus_death",
-			"move"   : "creatures/cerberus/Cerberus_move",
-			"wince"  : "creatures/cerberus/Cerberus_hit"
+			"move" : "creatures/cerberus/Cerberus_move",
+			"wince" : "creatures/cerberus/Cerberus_hit"
 		}
 	},
 	"tears-of-ashan:fireHoundAU" : {
@@ -576,8 +576,8 @@
 			"attack" : "creatures/firehound/Firehound_attack",
 			"defend" : "creatures/firehound/Firehound_hit",
 			"killed" : "creatures/firehound/Firehound_death",
-			"move"   : "creatures/firehound/Firehound_move",
-			"wince"  : "creatures/firehound/Firehound_hit"
+			"move" : "creatures/firehound/Firehound_move",
+			"wince" : "creatures/firehound/Firehound_hit"
 		}
 	},
 	"core:demon" : {
@@ -585,8 +585,8 @@
 			"attack" : "creatures/hornedDemon/HornedDemon_attack",
 			"defend" : "creatures/hornedDemon/HornedDemon_hit",
 			"killed" : "creatures/hornedDemon/HornedDemon_death",
-			"move"   : "creatures/hornedDemon/HornedDemon_move",
-			"wince"  : "creatures/hornedDemon/HornedDemon_hit"
+			"move" : "creatures/hornedDemon/HornedDemon_move",
+			"wince" : "creatures/hornedDemon/HornedDemon_hit"
 		}
 	},
 	"core:hornedDemon" : {
@@ -594,8 +594,8 @@
 			"attack" : "creatures/hornedOverseer/Overseer_attack",
 			"defend" : "creatures/hornedOverseer/Overseer_hit",
 			"killed" : "creatures/hornedOverseer/Overseer_death",
-			"move"   : "creatures/hornedOverseer/Overseer_move",
-			"wince"  : "creatures/hornedOverseer/Overseer_hit"
+			"move" : "creatures/hornedOverseer/Overseer_move",
+			"wince" : "creatures/hornedOverseer/Overseer_hit"
 		}
 	},
 	"core:pitFiend" : {
@@ -603,8 +603,8 @@
 			"attack" : "creatures/pitFiend/PitFiend_attack",
 			"defend" : "creatures/pitFiend/PitFiend_hit",
 			"killed" : "creatures/pitFiend/PitFiend_death",
-			"move"   : "creatures/pitFiend/PitFiend_move",
-			"wince"  : "creatures/pitFiend/PitFiend_hit"
+			"move" : "creatures/pitFiend/PitFiend_move",
+			"wince" : "creatures/pitFiend/PitFiend_hit"
 		}
 	},
 	"core:pitLord" : {
@@ -612,8 +612,8 @@
 			"attack" : "creatures/pitLord/Balor_attack",
 			"defend" : "creatures/pitLord/Balor_hit",
 			"killed" : "creatures/pitLord/Balor_death",
-			"move"   : "creatures/pitFiend/PitFiend_move",
-			"wince"  : "creatures/pitLord/Balor_hit"
+			"move" : "creatures/pitFiend/PitFiend_move",
+			"wince" : "creatures/pitLord/Balor_hit"
 		}
 	},
 	"tears-of-ashan:pitSpawnAU" : {
@@ -621,8 +621,8 @@
 			"attack" : "creatures/pitSpawn/Pitspawn_attack",
 			"defend" : "creatures/pitSpawn/Pitspawn_hit",
 			"killed" : "creatures/pitSpawn/Pitspawn_death",
-			"move"   : "creatures/pitSpawn/Pitspawn_move",
-			"wince"  : "creatures/pitSpawn/Pitspawn_hit"
+			"move" : "creatures/pitSpawn/Pitspawn_move",
+			"wince" : "creatures/pitSpawn/Pitspawn_hit"
 		}
 	},
 	"tears-of-ashan:goreDemonAU" : {
@@ -630,8 +630,8 @@
 			"attack" : "creatures/hornedGrunt/Demon_attack",
 			"defend" : "creatures/hornedGrunt/Demon_hit",
 			"killed" : "creatures/hornedGrunt/Demon_death",
-			"move"   : "creatures/hornedGrunt/Demon_move",
-			"wince"  : "creatures/hornedGrunt/Demon_hit"
+			"move" : "creatures/hornedGrunt/Demon_move",
+			"wince" : "creatures/hornedGrunt/Demon_hit"
 		}
 	},
 	"core:devil" : {
@@ -639,8 +639,8 @@
 			"attack" : "creatures/devil/Devil_attack",
 			"defend" : "creatures/devil/Devil_hit",
 			"killed" : "creatures/devil/Devil_death",
-			"move"   : "creatures/devil/Devil_move",
-			"wince"  : "creatures/devil/Devil_hit",
+			"move" : "creatures/devil/Devil_move",
+			"wince" : "creatures/devil/Devil_hit",
 			"startMoving" : "creatures/devil/Devil_teleport_start",
 			"endMoving" : "creatures/devil/Devil_teleport_end"
 		}
@@ -650,8 +650,8 @@
 			"attack" : "creatures/archDevil/ArchDevil_attack",
 			"defend" : "creatures/archDevil/ArchDevil_hit",
 			"killed" : "creatures/archDevil/ArchDevil_death",
-			"move"   : "creatures/archDevil/ArchDevil_move",
-			"wince"  : "creatures/archDevil/ArchDevil_hit",
+			"move" : "creatures/archDevil/ArchDevil_move",
+			"wince" : "creatures/archDevil/ArchDevil_hit",
 			"startMoving" : "creatures/archDevil/ArchDevil_teleport_start",
 			"endMoving" : "creatures/archDevil/ArchDevil_teleport_end"
 		}
@@ -661,20 +661,20 @@
 			"attack" : "creatures/archDemon/ArchDemon_attack",
 			"defend" : "creatures/archDemon/ArchDemon_hit",
 			"killed" : "creatures/archDemon/ArchDemon_death",
-			"move"   : "creatures/archDemon/ArchDemon_move",
-			"wince"  : "creatures/archDemon/ArchDemon_hit",
+			"move" : "creatures/archDemon/ArchDemon_move",
+			"wince" : "creatures/archDemon/ArchDemon_hit",
 			"startMoving" : "creatures/archDemon/ArchDemon_teleport_start",
 			"endMoving" : "creatures/archDemon/ArchDemon_teleport_end"
 		}
 	},
-//NECROPOLIS
+	//NECROPOLIS
 	"core:skeleton" : {
 		"sound" : {
 			"attack" : "creatures/skeleton/SkeletonGuard_attack_short",
 			"defend" : "creatures/skeleton/SkeletonGuard_hit",
 			"killed" : "creatures/skeleton/SkeletonGuard_death",
-			"move"   : "creatures/skeleton/SkeletonGuard_move_short",
-			"wince"  : "creatures/skeleton/SkeletonGuard_hit"
+			"move" : "creatures/skeleton/SkeletonGuard_move_short",
+			"wince" : "creatures/skeleton/SkeletonGuard_hit"
 		}
 	},
 	"core:skeletonWarrior" : {
@@ -682,8 +682,8 @@
 			"attack" : "creatures/skeletonWarrior/SkeletonWarrior_attack_short",
 			"defend" : "creatures/skeletonWarrior/SkeletonWarrior_hit",
 			"killed" : "creatures/skeletonWarrior/SkeletonWarrior_death",
-			"move"   : "creatures/skeletonWarrior/SkeletonWarrior_move",
-			"wince"  : "creatures/skeletonWarrior/SkeletonWarrior_hit"
+			"move" : "creatures/skeletonWarrior/SkeletonWarrior_move",
+			"wince" : "creatures/skeletonWarrior/SkeletonWarrior_hit"
 		}
 	},
 	"tears-of-ashan:skeletonArcherAU" : {
@@ -691,8 +691,8 @@
 			"attack" : "creatures/skeletonArcher/SkeletonArcher_attack_short",
 			"defend" : "creatures/skeletonArcher/SkeletonArcher_hit",
 			"killed" : "creatures/skeletonArcher/SkeletonArcher_death",
-			"move"   : "creatures/skeletonArcher/SkeletonArcher_move",
-			"wince"  : "creatures/skeletonArcher/SkeletonArcher_hit",
+			"move" : "creatures/skeletonArcher/SkeletonArcher_move",
+			"wince" : "creatures/skeletonArcher/SkeletonArcher_hit",
 			"shoot" : "creatures/skeletonArcher/SkeletonArcher_ranged_short"
 		}
 	},
@@ -701,8 +701,8 @@
 			"attack" : "creatures/zombie/WalkingDead_attack_short",
 			"defend" : "creatures/zombie/WalkingDead_hit",
 			"killed" : "creatures/zombie/WalkingDead_death",
-			"move"   : "creatures/zombie/WalkingDead_move",
-			"wince"  : "creatures/zombie/WalkingDead_hit"
+			"move" : "creatures/zombie/WalkingDead_move",
+			"wince" : "creatures/zombie/WalkingDead_hit"
 		}
 	},
 	"core:zombieLord" : {
@@ -710,8 +710,8 @@
 			"attack" : "creatures/plagueZombie/Zombie_attack_short",
 			"defend" : "creatures/plagueZombie/Zombie_hit",
 			"killed" : "creatures/plagueZombie/Zombie_death",
-			"move"   : "creatures/plagueZombie/Zombie_move",
-			"wince"  : "creatures/plagueZombie/Zombie_hit"
+			"move" : "creatures/plagueZombie/Zombie_move",
+			"wince" : "creatures/plagueZombie/Zombie_hit"
 		}
 	},
 	"tears-of-ashan:rotZombieAU" : {
@@ -719,8 +719,8 @@
 			"attack" : "creatures/rotZombie/RottingZombie_attack_short",
 			"defend" : "creatures/rotZombie/RottingZombie_hit",
 			"killed" : "creatures/rotZombie/RottingZombie_death",
-			"move"   : "creatures/rotZombie/RottingZombie_move",
-			"wince"  : "creatures/rotZombie/RottingZombie_hit"
+			"move" : "creatures/rotZombie/RottingZombie_move",
+			"wince" : "creatures/rotZombie/RottingZombie_hit"
 		}
 	},
 	"core:mummy" : {
@@ -728,8 +728,8 @@
 			"attack" : "creatures/mummy/Mummy_attack_short",
 			"defend" : "creatures/mummy/Mummy_hit_short",
 			"killed" : "creatures/mummy/Mummy_death",
-			"move"   : "creatures/mummy/Mummy_move",
-			"wince"  : "creatures/mummy/Mummy_hit_short"
+			"move" : "creatures/mummy/Mummy_move",
+			"wince" : "creatures/mummy/Mummy_hit_short"
 		}
 	},
 	"core:wight" : {
@@ -737,8 +737,8 @@
 			"attack" : "creatures/ghost/Manes_attack_short",
 			"defend" : "creatures/ghost/Manes_hit",
 			"killed" : "creatures/ghost/Manes_death",
-			"move"   : "creatures/ghost/Manes_move",
-			"wince"  : "creatures/ghost/Manes_hit"
+			"move" : "creatures/ghost/Manes_move",
+			"wince" : "creatures/ghost/Manes_hit"
 		}
 	},
 	"core:wraith" : {
@@ -746,8 +746,8 @@
 			"attack" : "creatures/ghost/Manes_attack1_short",
 			"defend" : "creatures/spectre/Ghosts_hit",
 			"killed" : "creatures/spectre/Ghosts_death",
-			"move"   : "creatures/spectre/Ghosts_move",
-			"wince"  : "creatures/spectre/Ghosts_hit"
+			"move" : "creatures/spectre/Ghosts_move",
+			"wince" : "creatures/spectre/Ghosts_hit"
 		}
 	},
 	"tears-of-ashan:bansheeAU" : {
@@ -755,8 +755,8 @@
 			"attack" : "creatures/banshee/Banshee_attack_short",
 			"defend" : "creatures/banshee/Banshee_hit",
 			"killed" : "creatures/banshee/Banshee_death",
-			"move"   : "creatures/banshee/Banshee_move",
-			"wince"  : "creatures/banshee/Banshee_hit"
+			"move" : "creatures/banshee/Banshee_move",
+			"wince" : "creatures/banshee/Banshee_hit"
 		}
 	},
 	"core:vampire" : {
@@ -764,7 +764,7 @@
 			"attack" : "creatures/vampire/Vampire_attack1_short",
 			"defend" : "creatures/vampire/Vampire_hit",
 			"killed" : "creatures/vampire/Vampire_death",
-			"wince"  : "creatures/vampire/Vampire_hit"
+			"wince" : "creatures/vampire/Vampire_hit"
 		}
 	},
 	"core:vampireLord" : {
@@ -772,7 +772,7 @@
 			"attack" : "creatures/vampireLord/VampireLord_attack1_short",
 			"defend" : "creatures/vampireLord/VampireLord_hit",
 			"killed" : "creatures/vampireLord/VampireLord_death",
-			"wince"  : "creatures/vampireLord/VampireLord_hit"
+			"wince" : "creatures/vampireLord/VampireLord_hit"
 		}
 	},
 	"tears-of-ashan:vampirePrinceAU" : {
@@ -780,7 +780,7 @@
 			"attack" : "creatures/vampirePrince/VampirePrince_attack_short",
 			"defend" : "creatures/vampirePrince/VampirePrince_hit",
 			"killed" : "creatures/vampirePrince/VampirePrince_death",
-			"wince"  : "creatures/vampirePrince/VampirePrince_hit"
+			"wince" : "creatures/vampirePrince/VampirePrince_hit"
 		}
 	},
 	"core:lich" : {
@@ -789,7 +789,7 @@
 			"defend" : "creatures/lich/Lich_hit",
 			"killed" : "creatures/lich/Lich_death",
 			//"move"   : "creatures/archLich/ArchLich_move",
-			"wince"  : "creatures/lich/Lich_hit",
+			"wince" : "creatures/lich/Lich_hit",
 			"shoot" : "creatures/lich/Lich_ranged"
 		}
 	},
@@ -799,7 +799,7 @@
 			"defend" : "creatures/archLich/ArchLich_hit",
 			"killed" : "creatures/archLich/ArchLich_death",
 			//"move"   : "creatures/archLich/ArchLich_move",
-			"wince"  : "creatures/archLich/ArchLich_hit",
+			"wince" : "creatures/archLich/ArchLich_hit",
 			"shoot" : "creatures/archLich/ArchLich_ranged"
 		}
 	},
@@ -809,7 +809,7 @@
 			"defend" : "creatures/lichMaster/HighLich_hit",
 			"killed" : "creatures/lichMaster/HighLich_death",
 			//"move"   : "creatures/lichMaster/HighLich_move",
-			"wince"  : "creatures/lichMaster/HighLich_hit",
+			"wince" : "creatures/lichMaster/HighLich_hit",
 			"shoot" : "creatures/lichMaster/HighLich_ranged_short"
 		}
 	},
@@ -818,8 +818,8 @@
 			"attack" : "creatures/blackKnight/BlackKnight_attack_short",
 			"defend" : "creatures/blackKnight/BlackKnight_hit",
 			"killed" : "creatures/blackKnight/BlackKnight_death",
-			"move"   : "creatures/blackKnight/BlackKnight_move",
-			"wince"  : "creatures/blackKnight/BlackKnight_hit"
+			"move" : "creatures/blackKnight/BlackKnight_move",
+			"wince" : "creatures/blackKnight/BlackKnight_hit"
 		}
 	},
 	"core:dreadKnight" : {
@@ -827,8 +827,8 @@
 			"attack" : "creatures/blackKnight/BlackKnight_attack_short",
 			"defend" : "creatures/blackKnight/BlackKnight_hit",
 			"killed" : "creatures/blackKnight/BlackKnight_death",
-			"move"   : "creatures/blackKnight/BlackKnight_move",
-			"wince"  : "creatures/blackKnight/BlackKnight_hit"
+			"move" : "creatures/blackKnight/BlackKnight_move",
+			"wince" : "creatures/blackKnight/BlackKnight_hit"
 		}
 	},
 	"tears-of-ashan:dreadtaurAU" : {
@@ -836,8 +836,8 @@
 			"attack" : "creatures/centaur/Centaur_attack",
 			"defend" : "creatures/centaur/Centaur_hit",
 			"killed" : "creatures/centaurMarauder/CentaurMarauder_death",
-			"move"   : "creatures/centaur/Centaur_move",
-			"wince"  : "creatures/centaur/Centaur_hit"
+			"move" : "creatures/centaur/Centaur_move",
+			"wince" : "creatures/centaur/Centaur_hit"
 		}
 	},
 	"core:boneDragon" : {
@@ -845,8 +845,8 @@
 			"attack" : "creatures/boneDragon/BoneDragon_attack_short",
 			"defend" : "creatures/boneDragon/BoneDragon_hit",
 			"killed" : "creatures/boneDragon/BoneDragon_death_short",
-			"move"   : "creatures/boneDragon/BoneDragon_move",
-			"wince"  : "creatures/boneDragon/BoneDragon_hit"
+			"move" : "creatures/boneDragon/BoneDragon_move",
+			"wince" : "creatures/boneDragon/BoneDragon_hit"
 		}
 	},
 	"core:ghostDragon" : {
@@ -854,8 +854,8 @@
 			"attack" : "creatures/ghostDragon/GhostDragon_attack_short",
 			"defend" : "creatures/ghostDragon/GhostDragon_hit_short",
 			"killed" : "creatures/ghostDragon/GhostDragon_death",
-			"move"   : "creatures/ghostDragon/GhostDragon_move",
-			"wince"  : "creatures/ghostDragon/GhostDragon_hit_short"
+			"move" : "creatures/ghostDragon/GhostDragon_move",
+			"wince" : "creatures/ghostDragon/GhostDragon_hit_short"
 		}
 	},
 	"tears-of-ashan:spectralDragonAU" : {
@@ -863,8 +863,8 @@
 			"attack" : "creatures/ghostDragon/GhostDragon_attack_short",
 			"defend" : "creatures/ghostDragon/GhostDragon_hit_short",
 			"killed" : "creatures/ghostDragon/GhostDragon_death",
-			"move"   : "creatures/ghostDragon/GhostDragon_move",
-			"wince"  : "creatures/ghostDragon/GhostDragon_hit_short"
+			"move" : "creatures/ghostDragon/GhostDragon_move",
+			"wince" : "creatures/ghostDragon/GhostDragon_hit_short"
 		}
 	},
 	"tears-of-ashan:grimGuardAU" : {
@@ -872,8 +872,8 @@
 			"attack" : "creatures/squire/Swordsman_upgrade_attack",
 			"defend" : "creatures/squire/Swordsman_upgrade_hit",
 			"killed" : "creatures/squire/Swordsman_death",
-			"move"   : "creatures/squire/Swordsman_move",
-			"wince"  : "creatures/squire/Swordsman_upgrade_hit"
+			"move" : "creatures/squire/Swordsman_move",
+			"wince" : "creatures/squire/Swordsman_upgrade_hit"
 		}
 	},
 	"tears-of-ashan:blackGuardAU" : {
@@ -881,8 +881,8 @@
 			"attack" : "creatures/squire/Swordsman_upgrade_attack",
 			"defend" : "creatures/squire/Swordsman_upgrade_hit",
 			"killed" : "creatures/squire/Swordsman_death",
-			"move"   : "creatures/squire/Swordsman_move",
-			"wince"  : "creatures/squire/Swordsman_upgrade_hit"
+			"move" : "creatures/squire/Swordsman_move",
+			"wince" : "creatures/squire/Swordsman_upgrade_hit"
 		}
 	},
 	"tears-of-ashan:dreadGuardAU" : {
@@ -890,18 +890,18 @@
 			"attack" : "creatures/squire/Swordsman_upgrade_attack",
 			"defend" : "creatures/squire/Swordsman_upgrade_hit",
 			"killed" : "creatures/squire/Swordsman_death",
-			"move"   : "creatures/squire/Swordsman_move",
-			"wince"  : "creatures/squire/Swordsman_upgrade_hit"
+			"move" : "creatures/squire/Swordsman_move",
+			"wince" : "creatures/squire/Swordsman_upgrade_hit"
 		}
 	},
-//DUNGEON
+	//DUNGEON
 	"core:minotaur" : {
 		"sound" : {
 			"attack" : "creatures/minotaur/Minotaur_special_short",
 			"defend" : "creatures/minotaur/Minotaur_hit_short",
 			"killed" : "creatures/minotaur/Minotaur_death_short",
-			"move"   : "creatures/minotaur/Minotaur_move",
-			"wince"  : "creatures/minotaur/Minotaur_hit_short"
+			"move" : "creatures/minotaur/Minotaur_move",
+			"wince" : "creatures/minotaur/Minotaur_hit_short"
 		}
 	},
 	"core:minotaurKing" : {
@@ -909,8 +909,8 @@
 			"attack" : "creatures/minotaurBrute/Minotaur_grade_attack",
 			"defend" : "creatures/minotaurBrute/Minotaur_grade_hit_short",
 			"killed" : "creatures/minotaurBrute/Minotaur_grade_death_short",
-			"move"   : "creatures/minotaur/Minotaur_move",
-			"wince"  : "creatures/minotaurBrute/Minotaur_grade_hit_short"
+			"move" : "creatures/minotaur/Minotaur_move",
+			"wince" : "creatures/minotaurBrute/Minotaur_grade_hit_short"
 		}
 	},
 	"tears-of-ashan:minotaurTaskmasterAU" : {
@@ -918,8 +918,8 @@
 			"attack" : "creatures/mintoaurTaskmaster/Minotaur_observer_attack1_short",
 			"defend" : "creatures/mintoaurTaskmaster/Minotaur_observer_hit_short",
 			"killed" : "creatures/mintoaurTaskmaster/Minotaur_observer_death_short",
-			"move"   : "creatures/mintoaurTaskmaster/Minotaur_observer_move",
-			"wince"  : "creatures/mintoaurTaskmaster/Minotaur_observer_hit_short"
+			"move" : "creatures/mintoaurTaskmaster/Minotaur_observer_move",
+			"wince" : "creatures/mintoaurTaskmaster/Minotaur_observer_hit_short"
 		}
 	},
 	"core:manticore" : {
@@ -927,8 +927,8 @@
 			"attack" : "creatures/manticore/Mantikora_attack_short",
 			"defend" : "creatures/manticore/Mantikora_hit",
 			"killed" : "creatures/manticore/Mantikora_death_short",
-			"move"   : "creatures/manticore/Mantikora_move",
-			"wince"  : "creatures/manticore/Mantikora_hit"
+			"move" : "creatures/manticore/Mantikora_move",
+			"wince" : "creatures/manticore/Mantikora_hit"
 		}
 	},
 	"core:scorpicore" : {
@@ -936,8 +936,8 @@
 			"attack" : "creatures/manticore/Mantikora_attack_short",
 			"defend" : "creatures/manticore/Mantikora_hit",
 			"killed" : "creatures/manticore/Mantikora_death_short",
-			"move"   : "creatures/manticore/Mantikora_move",
-			"wince"  : "creatures/manticore/Mantikora_hit"
+			"move" : "creatures/manticore/Mantikora_move",
+			"wince" : "creatures/manticore/Mantikora_hit"
 		}
 	},
 	"tears-of-ashan:chimeraAU" : {
@@ -945,8 +945,8 @@
 			"attack" : "creatures/manticore/Mantikora_attack_short",
 			"defend" : "creatures/manticore/Mantikora_hit",
 			"killed" : "creatures/manticore/Mantikora_death_short",
-			"move"   : "creatures/manticore/Mantikora_move",
-			"wince"  : "creatures/manticore/Mantikora_hit"
+			"move" : "creatures/manticore/Mantikora_move",
+			"wince" : "creatures/manticore/Mantikora_hit"
 		}
 	},
 	"core:redDragon" : {
@@ -954,8 +954,8 @@
 			"attack" : "creatures/redDragon/RedDragon_attack_short",
 			"defend" : "creatures/redDragon/RedDragon_hit",
 			"killed" : "creatures/redDragon/RedDragon_death_short",
-			"move"   : "creatures/redDragon/RedDragon_move",
-			"wince"  : "creatures/redDragon/RedDragon_hit"
+			"move" : "creatures/redDragon/RedDragon_move",
+			"wince" : "creatures/redDragon/RedDragon_hit"
 		}
 	},
 	"core:blackDragon" : {
@@ -963,8 +963,8 @@
 			"attack" : "creatures/blackDragon/Blackdragon_attack_short",
 			"defend" : "creatures/blackDragon/Blackdragon_hit_short",
 			"killed" : "creatures/blackDragon/Blackdragon_death_short",
-			"move"   : "creatures/blackDragon/Blackdragon_move",
-			"wince"  : "creatures/blackDragon/Blackdragon_hit_short"
+			"move" : "creatures/blackDragon/Blackdragon_move",
+			"wince" : "creatures/blackDragon/Blackdragon_hit_short"
 		}
 	},
 	"tears-of-ashan:shadowDragonAU" : {
@@ -972,18 +972,18 @@
 			"attack" : "creatures/shadowDragon/ShadowDragon_attack_short",
 			"defend" : "creatures/shadowDragon/ShadowDragon_hit_short",
 			"killed" : "creatures/shadowDragon/ShadowDragon_death_short",
-			"move"   : "creatures/shadowDragon/ShadowDragon_move",
-			"wince"  : "creatures/shadowDragon/ShadowDragon_hit_short"
+			"move" : "creatures/shadowDragon/ShadowDragon_move",
+			"wince" : "creatures/shadowDragon/ShadowDragon_hit_short"
 		}
 	},
-//STRONGHOLD
+	//STRONGHOLD
 	"core:goblin" : {
 		"sound" : {
 			"attack" : "creatures/goblin/Goblin_attack_short",
 			"defend" : "creatures/goblin/Goblin_hit_short",
 			"killed" : "creatures/goblin/Goblin_death",
-			"move"   : "creatures/goblin/Goblin_move",
-			"wince"  : "creatures/goblin/Goblin_hit_short"
+			"move" : "creatures/goblin/Goblin_move",
+			"wince" : "creatures/goblin/Goblin_hit_short"
 		}
 	},
 	"core:hobgoblin" : {
@@ -991,8 +991,8 @@
 			"attack" : "creatures/goblinShaman/GoblinShaman_attack",
 			"defend" : "creatures/goblinShaman/GoblinShaman_hit_short",
 			"killed" : "creatures/goblinShaman/GoblinShaman_death_short",
-			"move"   : "creatures/goblinShaman/GoblinShaman_move",
-			"wince"  : "creatures/goblinShaman/GoblinShaman_hit_short"
+			"move" : "creatures/goblinShaman/GoblinShaman_move",
+			"wince" : "creatures/goblinShaman/GoblinShaman_hit_short"
 		}
 	},
 	"tears-of-ashan:goblinTrapperAU" : {
@@ -1000,8 +1000,8 @@
 			"attack" : "creatures/goblinTrapper/Trapper_attack_short",
 			"defend" : "creatures/goblinTrapper/Trapper_hit",
 			"killed" : "creatures/goblinTrapper/Trapper_death",
-			"move"   : "creatures/goblinTrapper/Trapper_move",
-			"wince"  : "creatures/goblinTrapper/Trapper_hit"
+			"move" : "creatures/goblinTrapper/Trapper_move",
+			"wince" : "creatures/goblinTrapper/Trapper_hit"
 		}
 	},
 	"core:goblinWolfRider" : {
@@ -1009,8 +1009,8 @@
 			"attack" : "creatures/wolf/Wolf_attack_short",
 			"defend" : "creatures/wolf/Wolf_hit",
 			"killed" : "creatures/wolf/Wolf_death",
-			"move"   : "creatures/wolf/Wolf_move",
-			"wince"  : "creatures/wolf/Wolf_hit"
+			"move" : "creatures/wolf/Wolf_move",
+			"wince" : "creatures/wolf/Wolf_hit"
 		}
 	},
 	"core:hobgoblinWolfRider" : {
@@ -1018,8 +1018,8 @@
 			"attack" : "creatures/wolf/Wolf_attack_short",
 			"defend" : "creatures/wolf/Wolf_hit",
 			"killed" : "creatures/wolf/Wolf_death",
-			"move"   : "creatures/wolf/Wolf_move",
-			"wince"  : "creatures/wolf/Wolf_hit"
+			"move" : "creatures/wolf/Wolf_move",
+			"wince" : "creatures/wolf/Wolf_hit"
 		}
 	},
 	"core:boar" : {
@@ -1027,8 +1027,8 @@
 			"attack" : "creatures/whiteBearRider/WhiteBearRider_attack_short",
 			"defend" : "creatures/whiteBearRider/WhiteBearRider_hit",
 			"killed" : "creatures/whiteBearRider/WhiteBearRider_death",
-			"move"   : "creatures/whiteBearRider/WhiteBearRider_move",
-			"wince"  : "creatures/whiteBearRider/WhiteBearRider_hit"
+			"move" : "creatures/whiteBearRider/WhiteBearRider_move",
+			"wince" : "creatures/whiteBearRider/WhiteBearRider_hit"
 		}
 	},
 	"core:cyclop" : {
@@ -1036,8 +1036,8 @@
 			"attack" : "creatures/cyclops/Cyclops_attack_short",
 			"defend" : "creatures/cyclops/Cyclops_hit_short",
 			"killed" : "creatures/cyclops/Cyclops_death",
-			"move"   : "creatures/cyclops/Cyclops_move",
-			"wince"  : "creatures/cyclops/Cyclops_hit_short",
+			"move" : "creatures/cyclops/Cyclops_move",
+			"wince" : "creatures/cyclops/Cyclops_hit_short",
 			"shoot" : "creatures/cyclops/Cyclops_ranged_short"
 		}
 	},
@@ -1046,8 +1046,8 @@
 			"attack" : "creatures/enragedCyclops/EnragedCyclops_attack_short",
 			"defend" : "creatures/enragedCyclops/EnragedCyclops_hit_short",
 			"killed" : "creatures/enragedCyclops/EnragedCyclops_death",
-			"move"   : "creatures/enragedCyclops/EnragedCyclops_move",
-			"wince"  : "creatures/enragedCyclops/EnragedCyclops_hit_short",
+			"move" : "creatures/enragedCyclops/EnragedCyclops_move",
+			"wince" : "creatures/enragedCyclops/EnragedCyclops_hit_short",
 			"shoot" : "creatures/enragedCyclops/EnragedCyclops_ranged_short"
 		}
 	},
@@ -1056,19 +1056,19 @@
 			"attack" : "creatures/enragedCyclops/EnragedCyclops_attack_short",
 			"defend" : "creatures/bloodEyedCyclops/BloodEyeCyclops_hit_short",
 			"killed" : "creatures/bloodEyedCyclops/BloodEyeCyclops_death",
-			"move"   : "creatures/bloodEyedCyclops/BloodEyeCyclops_move",
-			"wince"  : "creatures/bloodEyedCyclops/BloodEyeCyclops_hit_short",
+			"move" : "creatures/bloodEyedCyclops/BloodEyeCyclops_move",
+			"wince" : "creatures/bloodEyedCyclops/BloodEyeCyclops_hit_short",
 			"shoot" : "creatures/bloodEyedCyclops/BloodEyeCyclops_attacks_short"
 		}
 	},
-//FORTRESS
+	//FORTRESS
 	"core:wyvern" : {
 		"sound" : {
 			"attack" : "creatures/wyvern/Wyvern_attack",
 			"defend" : "creatures/wyvern/Wyvern_hit_short",
 			"killed" : "creatures/wyvern/Wyvern_death",
-			"move"   : "creatures/wyvern/Wyvern_move",
-			"wince"  : "creatures/wyvern/Wyvern_hit_short"
+			"move" : "creatures/wyvern/Wyvern_move",
+			"wince" : "creatures/wyvern/Wyvern_hit_short"
 		}
 	},
 	"core:wyvernMonarch" : {
@@ -1076,8 +1076,8 @@
 			"attack" : "creatures/foulWyvern/PoisonWyvern_attack",
 			"defend" : "creatures/foulWyvern/PoisonWyvern_hit_short",
 			"killed" : "creatures/foulWyvern/PoisonWyvern_death",
-			"move"   : "creatures/foulWyvern/PoisonWyvern_move",
-			"wince"  : "creatures/foulWyvern/PoisonWyvern_hit_short"
+			"move" : "creatures/foulWyvern/PoisonWyvern_move",
+			"wince" : "creatures/foulWyvern/PoisonWyvern_hit_short"
 		}
 	},
 	"tears-of-ashan:paokaiAU" : {
@@ -1085,8 +1085,8 @@
 			"attack" : "creatures/paokai/Paokai_attack",
 			"defend" : "creatures/paokai/Paokai_hit_short",
 			"killed" : "creatures/paokai/Paokai_death",
-			"move"   : "creatures/paokai/Paokai_move",
-			"wince"  : "creatures/paokai/Paokai_hit_short"
+			"move" : "creatures/paokai/Paokai_move",
+			"wince" : "creatures/paokai/Paokai_hit_short"
 		}
 	},
 	"core:hydra" : {
@@ -1094,8 +1094,8 @@
 			"attack" : "creatures/hydra/Hydra_attack_short",
 			"defend" : "creatures/hydra/Hydra_hit_short",
 			"killed" : "creatures/hydra/Hydra_death_short",
-			"move"   : "creatures/hydra/Hydra_move",
-			"wince"  : "creatures/hydra/Hydra_hit_short"
+			"move" : "creatures/hydra/Hydra_move",
+			"wince" : "creatures/hydra/Hydra_hit_short"
 		}
 	},
 	"core:chaosHydra" : {
@@ -1103,8 +1103,8 @@
 			"attack" : "creatures/deepHydra/ChaosHydra_attack_short",
 			"defend" : "creatures/deepHydra/ChaosHydra_hit_short",
 			"killed" : "creatures/deepHydra/ChaosHydra_death_short",
-			"move"   : "creatures/deepHydra/ChaosHydra_move",
-			"wince"  : "creatures/deepHydra/ChaosHydra_hit_short"
+			"move" : "creatures/deepHydra/ChaosHydra_move",
+			"wince" : "creatures/deepHydra/ChaosHydra_hit_short"
 		}
 	},
 	"tears-of-ashan:ruinousHydraAU" : {
@@ -1112,18 +1112,18 @@
 			"attack" : "creatures/foulHydra/Poisonhydra_attack_short",
 			"defend" : "creatures/foulHydra/Poisonhydra_hit_short",
 			"killed" : "creatures/foulHydra/Poisonhydra_death_short",
-			"move"   : "creatures/foulHydra/Poisonhydra_move",
-			"wince"  : "creatures/foulHydra/Poisonhydra_hit_short"
+			"move" : "creatures/foulHydra/Poisonhydra_move",
+			"wince" : "creatures/foulHydra/Poisonhydra_hit_short"
 		}
 	},
-//CONFLUX
+	//CONFLUX
 	"core:pixie" : {
 		"sound" : {
 			"attack" : "creatures/pixie/Pixie_attack_short",
 			"defend" : "creatures/pixie/Pixie_hit_short",
 			"killed" : "creatures/pixie/Pixie_death_short",
-			"move"   : "creatures/pixie/Pixie_move",
-			"wince"  : "creatures/pixie/Pixie_hit_short"
+			"move" : "creatures/pixie/Pixie_move",
+			"wince" : "creatures/pixie/Pixie_hit_short"
 		}
 	},
 	"core:sprite" : {
@@ -1131,8 +1131,8 @@
 			"attack" : "creatures/sprite/Spirit_attack_short",
 			"defend" : "creatures/sprite/Spirit_hit_short",
 			"killed" : "creatures/sprite/Spirit_death_short",
-			"move"   : "creatures/sprite/Spirit_move",
-			"wince"  : "creatures/sprite/Spirit_hit_short"
+			"move" : "creatures/sprite/Spirit_move",
+			"wince" : "creatures/sprite/Spirit_hit_short"
 		}
 	},
 	"tears-of-ashan:faerieAU" : {
@@ -1140,8 +1140,8 @@
 			"attack" : "creatures/dryad/Nymph_attack_short",
 			"defend" : "creatures/dryad/Nymph_hit_short",
 			"killed" : "creatures/dryad/Nymph_death_short",
-			"move"   : "creatures/dryad/Nymph_move",
-			"wince"  : "creatures/dryad/Nymph_hit_short"
+			"move" : "creatures/dryad/Nymph_move",
+			"wince" : "creatures/dryad/Nymph_hit_short"
 		}
 	},
 	"core:airElemental" : {
@@ -1149,8 +1149,8 @@
 			"attack" : "creatures/airElemental/AirElemental_attack_short",
 			"defend" : "creatures/airElemental/AirElemental_hit_short",
 			"killed" : "creatures/airElemental/AirElemental_death",
-			"move"   : "creatures/airElemental/AirElemental_move",
-			"wince"  : "creatures/airElemental/AirElemental_hit_short"
+			"move" : "creatures/airElemental/AirElemental_move",
+			"wince" : "creatures/airElemental/AirElemental_hit_short"
 		}
 	},
 	"core:stormElemental" : {
@@ -1158,8 +1158,8 @@
 			"attack" : "creatures/airElemental/AirElemental_attack_short",
 			"defend" : "creatures/airElemental/AirElemental_hit_short",
 			"killed" : "creatures/airElemental/AirElemental_death",
-			"move"   : "creatures/airElemental/AirElemental_move",
-			"wince"  : "creatures/airElemental/AirElemental_hit_short"
+			"move" : "creatures/airElemental/AirElemental_move",
+			"wince" : "creatures/airElemental/AirElemental_hit_short"
 		}
 	},
 	"tears-of-ashan:hurricaneElementalAU" : {
@@ -1167,8 +1167,8 @@
 			"attack" : "creatures/airElemental/AirElemental_attack_short",
 			"defend" : "creatures/airElemental/AirElemental_hit_short",
 			"killed" : "creatures/airElemental/AirElemental_death",
-			"move"   : "creatures/airElemental/AirElemental_move",
-			"wince"  : "creatures/airElemental/AirElemental_hit_short"
+			"move" : "creatures/airElemental/AirElemental_move",
+			"wince" : "creatures/airElemental/AirElemental_hit_short"
 		}
 	},
 	"core:waterElemental" : {
@@ -1176,8 +1176,8 @@
 			"attack" : "creatures/waterElemental/WaterElemental_attack_short",
 			"defend" : "creatures/waterElemental/WaterElemental_hit_short",
 			"killed" : "creatures/waterElemental/WaterElemental_death",
-			"move"   : "creatures/waterElemental/WaterElemental_move",
-			"wince"  : "creatures/waterElemental/WaterElemental_hit_short"
+			"move" : "creatures/waterElemental/WaterElemental_move",
+			"wince" : "creatures/waterElemental/WaterElemental_hit_short"
 		}
 	},
 	"core:iceElemental" : {
@@ -1185,8 +1185,8 @@
 			"attack" : "creatures/waterElemental/WaterElemental_attack_short",
 			"defend" : "creatures/waterElemental/WaterElemental_hit_short",
 			"killed" : "creatures/waterElemental/WaterElemental_death",
-			"move"   : "creatures/waterElemental/WaterElemental_move",
-			"wince"  : "creatures/waterElemental/WaterElemental_hit_short",
+			"move" : "creatures/waterElemental/WaterElemental_move",
+			"wince" : "creatures/waterElemental/WaterElemental_hit_short",
 			"shoot" : "creatures/waterElemental/WaterElemental_cast_short"
 		}
 	},
@@ -1195,8 +1195,8 @@
 			"attack" : "creatures/waterElemental/WaterElemental_attack_short",
 			"defend" : "creatures/waterElemental/WaterElemental_hit_short",
 			"killed" : "creatures/waterElemental/WaterElemental_death",
-			"move"   : "creatures/waterElemental/WaterElemental_move",
-			"wince"  : "creatures/waterElemental/WaterElemental_hit_short",
+			"move" : "creatures/waterElemental/WaterElemental_move",
+			"wince" : "creatures/waterElemental/WaterElemental_hit_short",
 			"shoot" : "creatures/waterElemental/WaterElemental_cast_short"
 		}
 	},
@@ -1205,8 +1205,8 @@
 			"attack" : "creatures/fireElemental/FireElemental_attack_short",
 			"defend" : "creatures/fireElemental/FireElemental_hit_short",
 			"killed" : "creatures/fireElemental/FireElemental_death_short",
-			"move"   : "creatures/fireElemental/FireElemental_move",
-			"wince"  : "creatures/fireElemental/FireElemental_hit_short"
+			"move" : "creatures/fireElemental/FireElemental_move",
+			"wince" : "creatures/fireElemental/FireElemental_hit_short"
 		}
 	},
 	"core:energyElemental" : {
@@ -1214,8 +1214,8 @@
 			"attack" : "creatures/fireElemental/FireElemental_attack_short",
 			"defend" : "creatures/fireElemental/FireElemental_hit_short",
 			"killed" : "creatures/fireElemental/FireElemental_death_short",
-			"move"   : "creatures/fireElemental/FireElemental_move",
-			"wince"  : "creatures/fireElemental/FireElemental_hit_short"
+			"move" : "creatures/fireElemental/FireElemental_move",
+			"wince" : "creatures/fireElemental/FireElemental_hit_short"
 		}
 	},
 	"tears-of-ashan:plasmaElementalAU" : {
@@ -1223,8 +1223,8 @@
 			"attack" : "creatures/fireElemental/FireElemental_attack_short",
 			"defend" : "creatures/fireElemental/FireElemental_hit_short",
 			"killed" : "creatures/fireElemental/FireElemental_death_short",
-			"move"   : "creatures/fireElemental/FireElemental_move",
-			"wince"  : "creatures/fireElemental/FireElemental_hit_short"
+			"move" : "creatures/fireElemental/FireElemental_move",
+			"wince" : "creatures/fireElemental/FireElemental_hit_short"
 		}
 	},
 	"core:earthElemental" : {
@@ -1232,8 +1232,8 @@
 			"attack" : "creatures/earthElemental/EarthElemental_attack_short",
 			"defend" : "creatures/earthElemental/EarthElemental_hit_short",
 			"killed" : "creatures/earthElemental/EarthElemental_death",
-			"move"   : "creatures/earthElemental/EarthElemental_move",
-			"wince"  : "creatures/earthElemental/EarthElemental_hit_short"
+			"move" : "creatures/earthElemental/EarthElemental_move",
+			"wince" : "creatures/earthElemental/EarthElemental_hit_short"
 		}
 	},
 	"core:magmaElemental" : {
@@ -1241,8 +1241,8 @@
 			"attack" : "creatures/earthElemental/EarthElemental_attack_short",
 			"defend" : "creatures/earthElemental/EarthElemental_hit_short",
 			"killed" : "creatures/earthElemental/EarthElemental_death",
-			"move"   : "creatures/earthElemental/EarthElemental_move",
-			"wince"  : "creatures/earthElemental/EarthElemental_hit_short"
+			"move" : "creatures/earthElemental/EarthElemental_move",
+			"wince" : "creatures/earthElemental/EarthElemental_hit_short"
 		}
 	},
 	"tears-of-ashan:lavaElementalAU" : {
@@ -1250,8 +1250,8 @@
 			"attack" : "creatures/earthElemental/EarthElemental_attack_short",
 			"defend" : "creatures/earthElemental/EarthElemental_hit_short",
 			"killed" : "creatures/earthElemental/EarthElemental_death",
-			"move"   : "creatures/earthElemental/EarthElemental_move",
-			"wince"  : "creatures/earthElemental/EarthElemental_hit_short"
+			"move" : "creatures/earthElemental/EarthElemental_move",
+			"wince" : "creatures/earthElemental/EarthElemental_hit_short"
 		}
 	},
 	"core:firebird" : {
@@ -1259,8 +1259,8 @@
 			"attack" : "creatures/firebird/FireBird_attack_short",
 			"defend" : "creatures/firebird/FireBird_hit",
 			"killed" : "creatures/firebird/FireBird_death_short",
-			"move"   : "creatures/firebird/FireBird_move_short",
-			"wince"  : "creatures/firebird/FireBird_hit"
+			"move" : "creatures/firebird/FireBird_move_short",
+			"wince" : "creatures/firebird/FireBird_hit"
 		}
 	},
 	"core:phoenix" : {
@@ -1268,8 +1268,8 @@
 			"attack" : "creatures/phoenix/Phoenix_attack1_short",
 			"defend" : "creatures/phoenix/Phoenix_hit",
 			"killed" : "creatures/phoenix/Phoenix_death_short",
-			"move"   : "creatures/phoenix/Phoenix_move_short",
-			"wince"  : "creatures/phoenix/Phoenix_hit"
+			"move" : "creatures/phoenix/Phoenix_move_short",
+			"wince" : "creatures/phoenix/Phoenix_hit"
 		}
 	},
 	"tears-of-ashan:sacredPhoenixAU" : {
@@ -1277,12 +1277,12 @@
 			"attack" : "creatures/phoenix/Phoenix_attack1_short",
 			"defend" : "creatures/phoenix/Phoenix_hit",
 			"killed" : "creatures/phoenix/Phoenix_death_short",
-			"move"   : "creatures/phoenix/Phoenix_move_short",
-			"wince"  : "creatures/phoenix/Phoenix_hit"
+			"move" : "creatures/phoenix/Phoenix_move_short",
+			"wince" : "creatures/phoenix/Phoenix_hit"
 		}
 	},
-//NEUTRALS
-//WAR MACHINES
+	//NEUTRALS
+	//WAR MACHINES
 	"core:ballista" : {
 		"sound" : {
 			"shoot" : "creatures/ballista/ballistaShoot"

@@ -1,19 +1,32 @@
 {
-	"genieVizierAU": {
-		"name" : {"singular" : "Genie Vizier", "plural" : "Genie Viziers"},
+	"genieVizierAU" : {
+		"name" : {
+			"singular" : "Genie Vizier",
+			"plural" : "Genie Viziers"
+		},
 		"faction" : "tower",
 		"level" : 5,
 		"attack" : 14,
 		"defense" : 12,
-		"damage" : {"min" : 13, "max" : 16},
+		"damage" : {
+			"min" : 13,
+			"max" : 16
+		},
 		"hitPoints" : 50,
 		"speed" : 10,
 		"growth" : 3,
 		"fightValue" : 1100,
 		"aiValue" : 775,
-		"cost" : {"gold" : 650},
-		"advMapAmount" : {"min" : 8, "max" : 12},
-		"upgrades" : ["core:masterGenie"],
+		"cost" : {
+			"gold" : 650
+		},
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 12
+		},
+		"upgrades" : [
+			"core:masterGenie"
+		],
 		"doubleWide" : false,
 		"abilities" : {
 			"canFly" : {
@@ -49,7 +62,10 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.misfortune",
 				"val" : 100,
-				"addInfo" : [2,0],
+				"addInfo" : [
+					2,
+					0
+				],
 				"description" : "{Cast After Attack}\nHas a 100% chance to cast Advanced Misfortune after attacking (3 Power)",
 				"icon" : "zvs/Lib1.res/spellsSOD/misfortune2.png"
 			}
@@ -61,18 +77,18 @@
 			"iconLarge" : "creatures/tower/iconsBig/lvl5Alt.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"sound" : {
-			"attack": "CALFATTK.wav",
-			"defend": "CALFDFND.wav",
-			"killed": "CALFKILL.wav",
-			"move": "CALFMOVE.wav",
-			"shoot": "CALFSHOT.wav",
-			"wince": "CALFWNCE.wav"
+			"attack" : "CALFATTK.wav",
+			"defend" : "CALFDFND.wav",
+			"killed" : "CALFKILL.wav",
+			"move" : "CALFMOVE.wav",
+			"shoot" : "CALFSHOT.wav",
+			"wince" : "CALFWNCE.wav"
 		}
 	}
 }

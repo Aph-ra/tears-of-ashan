@@ -2,90 +2,94 @@
 	"gatekeeperDevilSpec" : {
 		"name" : "Gatekeeper",
 		"faction" : "inferno",
-		"affinity" : "might",	
+		"affinity" : "might",
 		"defaultTavern" : 5,
 		"commander" : "magog",
 		"animation" : {
 			"battle" : {
 				"female" : "classes/gatekeeper/FemaleCombat.def",
-				"male"   : "classes/gatekeeper/MaleCombat.def"
+				"male" : "classes/gatekeeper/MaleCombat.def"
 			}
 		},
 		"mapObject" : {
 			"filters" : {
-				"male" : { "male" : true },
-				"female" : { "female" : true }
+				"male" : {
+					"male" : true
+				},
+				"female" : {
+					"female" : true
+				}
 			},
 			"templates" : {
 				"female" : {
 					"animation" : "classes/gatekeeper/FemaleMap.def",
-					"editorAnimation": "classes/gatekeeper/FemaleEditor.def"
+					"editorAnimation" : "classes/gatekeeper/FemaleEditor.def"
 				},
 				"male" : {
 					"animation" : "classes/gatekeeper/MaleMap.def",
-					"editorAnimation": "classes/gatekeeper/MaleEditor.def"
+					"editorAnimation" : "classes/gatekeeper/MaleEditor.def"
 				}
 			}
-		},		
+		},
 		"primarySkills" : {
-			"attack"     : 1,
-			"defence"    : 1,
+			"attack" : 1,
+			"defence" : 1,
 			"spellpower" : 2,
-			"knowledge"  : 2
+			"knowledge" : 2
 		},
 		"lowLevelChance" : {
-			"attack"     : 35,
-			"defence"    : 15,
+			"attack" : 35,
+			"defence" : 15,
 			"spellpower" : 35,
-			"knowledge"  : 15
+			"knowledge" : 15
 		},
 		"highLevelChance" : {
-			"attack"     : 30,
-			"defence"    : 20,
+			"attack" : 30,
+			"defence" : 20,
 			"spellpower" : 30,
-			"knowledge"  : 20
+			"knowledge" : 20
 		},
 		"secondarySkills" : {
-			"pathfinding"  : 4,
-			"archery"      : 1,
-			"logistics"    : 8,
-			"scouting"     : 3,
-			"diplomacy"    : 3,
-			"navigation"   : 0,
-			"leadership"   : 4,
-			"wisdom"       : 10,
-			"mysticism"    : 2,
-			"luck"         : 2,
-			"ballistics"   : 3,
-			"eagleEye"     : 1,
-			"necromancy"   : 0,
-			"estates"      : 1,
-			"fireMagic"    : 10,
-			"airMagic"     : 6,
-			"waterMagic"   : 2,
-			"earthMagic"   : 6,
-			"scholar"      : 1,
-			"tactics"      : 3,
-			"artillery"    : 6,
-			"learning"     : 1,
-			"offence"      : 9,
-			"armorer"      : 9,
+			"pathfinding" : 4,
+			"archery" : 1,
+			"logistics" : 8,
+			"scouting" : 3,
+			"diplomacy" : 3,
+			"navigation" : 0,
+			"leadership" : 4,
+			"wisdom" : 10,
+			"mysticism" : 2,
+			"luck" : 2,
+			"ballistics" : 3,
+			"eagleEye" : 1,
+			"necromancy" : 0,
+			"estates" : 1,
+			"fireMagic" : 10,
+			"airMagic" : 6,
+			"waterMagic" : 2,
+			"earthMagic" : 6,
+			"scholar" : 1,
+			"tactics" : 3,
+			"artillery" : 6,
+			"learning" : 1,
+			"offence" : 9,
+			"armorer" : 9,
 			"intelligence" : 6,
-			"sorcery"      : 7,
-			"resistance"   : 3,
-			"gating"   	   : 0,
-			"firstAid"     : 1
+			"sorcery" : 7,
+			"resistance" : 3,
+			"gating" : 0,
+			"firstAid" : 1
 		},
 		"tavern" : {
-			"castle"     : 4,
-			"rampart"    : 4,
-			"tower"      : 4,
-			"inferno"    : 10,
+			"castle" : 4,
+			"rampart" : 4,
+			"tower" : 4,
+			"inferno" : 10,
 			"necropolis" : 8,
-			"dungeon"    : 8,
+			"dungeon" : 8,
 			"stronghold" : 6,
-			"fortress"   : 6,
-			"conflux"    : 6
+			"fortress" : 6,
+			"conflux" : 6
 		}
 	}
 }

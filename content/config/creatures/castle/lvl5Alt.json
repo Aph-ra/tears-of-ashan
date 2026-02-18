@@ -1,20 +1,33 @@
 {
-	"priestAU": {
-		"name" : {"singular" : "Priest", "plural" : "Priests"},
+	"priestAU" : {
+		"name" : {
+			"singular" : "Priest",
+			"plural" : "Priests"
+		},
 		"faction" : "castle",
 		"level" : 5,
 		"attack" : 12,
 		"defense" : 12,
 		"shots" : 24,
-		"damage" : {"min" : 10, "max" : 12},
+		"damage" : {
+			"min" : 10,
+			"max" : 12
+		},
 		"hitPoints" : 40,
 		"speed" : 8,
 		"growth" : 3,
 		"aiValue" : 850,
 		"fightValue" : 600,
-		"cost" : {"gold" : 550},
-		"advMapAmount" : {"min" : 8, "max" : 12},
-		"upgrades" : ["core:zealot"],
+		"cost" : {
+			"gold" : 550
+		},
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 12
+		},
+		"upgrades" : [
+			"core:zealot"
+		],
 		"doubleWide" : false,
 		"abilities" : {
 			"canShoot" : {
@@ -46,12 +59,12 @@
 			"iconLarge" : "creatures/castle/iconsBig/lvl5Alt.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			},
 			"missile" : {
-				"projectile": "CPRZEAX.DEF",
+				"projectile" : "CPRZEAX.DEF",
 				"attackClimaxFrame" : 6,
 				"offset" : {
 					"upperX" : 37,
@@ -61,16 +74,29 @@
 					"lowerX" : 28,
 					"lowerY" : -3
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"sound" : {
-			"attack": "ZELTATTK.wav",
-			"defend": "ZELTDFND.wav",
-			"killed": "ZELTKILL.wav",
-			"move": "ZELTMOVE.wav",
-			"shoot": "ZELTSHOT.wav",
-			"wince": "ZELTWNCE.wav"
+			"attack" : "ZELTATTK.wav",
+			"defend" : "ZELTDFND.wav",
+			"killed" : "ZELTKILL.wav",
+			"move" : "ZELTMOVE.wav",
+			"shoot" : "ZELTSHOT.wav",
+			"wince" : "ZELTWNCE.wav"
 		}
-	}	
+	}
 }

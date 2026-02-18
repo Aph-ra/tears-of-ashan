@@ -1,19 +1,32 @@
 {
-	"hurricaneElementalAU": {
-		"name" : {"singular" : "Hurricane Elemental", "plural" : "Hurricane Elementals"},
+	"hurricaneElementalAU" : {
+		"name" : {
+			"singular" : "Hurricane Elemental",
+			"plural" : "Hurricane Elementals"
+		},
 		"faction" : "conflux",
 		"level" : 2,
 		"attack" : 7,
 		"defense" : 7,
-		"damage" : {"min" : 2, "max" : 8},
+		"damage" : {
+			"min" : 2,
+			"max" : 8
+		},
 		"hitPoints" : 15,
 		"speed" : 9,
 		"growth" : 8,
 		"aiValue" : 350,
 		"fightValue" : 240,
-		"cost" : {"gold" : 230},
-		"advMapAmount" : {"min" : 16, "max" : 25},
-		"upgrades" : ["core:stormElemental"],
+		"cost" : {
+			"gold" : 230
+		},
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 25
+		},
+		"upgrades" : [
+			"core:stormElemental"
+		],
 		"doubleWide" : false,
 		"abilities" : {
 			"canFly" : {
@@ -54,18 +67,18 @@
 			"iconLarge" : "creatures/conflux/iconsBig/lvl2Alt.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"sound" : {
-			"attack": "STORATTK.wav",
-			"defend": "STORDFND.wav",
-			"killed": "STORKILL.wav",
-			"move": "STORMOVE.wav",
-			"shoot": "STORSHOT.wav",
-			"wince": "STORWNCE.wav"
+			"attack" : "STORATTK.wav",
+			"defend" : "STORDFND.wav",
+			"killed" : "STORKILL.wav",
+			"move" : "STORMOVE.wav",
+			"shoot" : "STORSHOT.wav",
+			"wince" : "STORWNCE.wav"
 		}
 	}
-}	
+}

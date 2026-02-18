@@ -1,19 +1,32 @@
 {
-	"efreetSufiAU": {
-		"name" : {"singular" : "Efreet Sufi", "plural" : "Efreet Sufis"},
+	"efreetSufiAU" : {
+		"name" : {
+			"singular" : "Efreet Sufi",
+			"plural" : "Efreet Sufis"
+		},
 		"faction" : "inferno",
 		"level" : 6,
 		"attack" : 18,
 		"defense" : 12,
-		"damage" : {"min" : 16, "max" : 24},
+		"damage" : {
+			"min" : 16,
+			"max" : 24
+		},
 		"hitPoints" : 90,
 		"speed" : 14,
 		"growth" : 2,
 		"aiValue" : 2500,
 		"fightValue" : 1850,
-		"cost" : {"gold" : 1250},
-		"advMapAmount" : {"min" : 5, "max" : 10},
-		"upgrades" : ["core:efreetSultan"],
+		"cost" : {
+			"gold" : 1250
+		},
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 10
+		},
+		"upgrades" : [
+			"core:efreetSultan"
+		],
 		"doubleWide" : false,
 		"abilities" : {
 			"demonic" : {
@@ -124,18 +137,18 @@
 			"iconLarge" : "creatures/inferno/iconsBig/lvl6Alt.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"sound" : {
-			"attack": "ESULATTK.wav",
-			"defend": "ESULDFND.wav",
-			"killed": "ESULKILL.wav",
-			"move": "ESULMOVE.wav",
-			"shoot": "ESULSHOT.wav",
-			"wince": "ESULWNCE.wav"
+			"attack" : "ESULATTK.wav",
+			"defend" : "ESULDFND.wav",
+			"killed" : "ESULKILL.wav",
+			"move" : "ESULMOVE.wav",
+			"shoot" : "ESULSHOT.wav",
+			"wince" : "ESULWNCE.wav"
 		}
 	}
 }

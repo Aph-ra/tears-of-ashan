@@ -1,19 +1,32 @@
 {
-	"elfWardancerAU": {
-		"name" : {"singular" : "Elf Wardancer",	"plural" : "Elf Wardancers"},
+	"elfWardancerAU" : {
+		"name" : {
+			"singular" : "Elf Wardancer",
+			"plural" : "Elf Wardancers"
+		},
 		"faction" : "rampart",
 		"level" : 3,
 		"attack" : 9,
 		"defense" : 7,
-		"damage" : {"min" : 3, "max" : 5},
+		"damage" : {
+			"min" : 3,
+			"max" : 5
+		},
 		"hitPoints" : 20,
 		"speed" : 9,
 		"growth" : 7,
 		"aiValue" : 331,
 		"fightValue" : 195,
-		"cost" : {"gold" : 225},
-		"advMapAmount" : {"min" : 12, "max" : 20},
-		"upgrades" : ["core:grandElf"],
+		"cost" : {
+			"gold" : 225
+		},
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 20
+		},
+		"upgrades" : [
+			"core:grandElf"
+		],
 		"doubleWide" : false,
 		"abilities" : {
 			"additionalAttack" : {
@@ -28,17 +41,17 @@
 			"iconLarge" : "creatures/rampart/iconsBig/lvl3Alt.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
-				"walk" : 1.00,
-				"idle" : 10.20,
-				"attack" : 1.00
+				"walk" : 1.0,
+				"idle" : 10.2,
+				"attack" : 1.0
 			}
 		},
 		"sound" : {
-			"attack": "GELFATTK.wav",
-			"defend": "GELFDFND.wav",
-			"killed": "GELFKILL.wav",
-			"move": "GELFMOVE.wav",
-			"wince": "GELFWNCE.wav"
+			"attack" : "GELFATTK.wav",
+			"defend" : "GELFDFND.wav",
+			"killed" : "GELFKILL.wav",
+			"move" : "GELFMOVE.wav",
+			"wince" : "GELFWNCE.wav"
 		}
-	}	
+	}
 }

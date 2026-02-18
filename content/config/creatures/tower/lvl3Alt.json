@@ -1,19 +1,32 @@
 {
-	"magneticGolemAU": {
-		"name" : {"singular" : "Magnetic Golem", "plural" : "Magnetic Golems"},
+	"magneticGolemAU" : {
+		"name" : {
+			"singular" : "Magnetic Golem",
+			"plural" : "Magnetic Golems"
+		},
 		"faction" : "tower",
 		"level" : 3,
 		"attack" : 7,
 		"defense" : 12,
-		"damage" : {"min" : 4, "max" : 5},
+		"damage" : {
+			"min" : 4,
+			"max" : 5
+		},
 		"hitPoints" : 35,
 		"speed" : 5,
 		"growth" : 6,
 		"aiValue" : 412,
 		"fightValue" : 412,
-		"cost" : {"gold" : 200},
-		"advMapAmount" : {"min" : 12, "max" : 20},
-		"upgrades" : ["core:stoneGolem"],
+		"cost" : {
+			"gold" : 200
+		},
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 20
+		},
+		"upgrades" : [
+			"core:stoneGolem"
+		],
 		"doubleWide" : false,
 		"abilities" : {
 			"nonliving" : {
@@ -48,7 +61,10 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.slow",
 				"val" : 100,
-				"addInfo" : [1,0],
+				"addInfo" : [
+					1,
+					0
+				],
 				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Slow after attacking (2 Power)",
 				"icon" : "zvs/Lib1.res/spellsSOD/slow1.png"
 			},
@@ -60,7 +76,10 @@
 		"graphics" : {
 			"animation" : "creatures/tower/battle/lvl3Alt.json",
 			"map" : "creatures/tower/map/lvl3Alt.json",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"iconSmall" : "creatures/tower/iconsSmall/lvl3Alt.png",
 			"iconLarge" : "creatures/tower/iconsBig/lvl3Alt.png",
 			"timeBetweenFidgets" : 1,

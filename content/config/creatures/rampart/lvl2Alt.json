@@ -1,20 +1,33 @@
 {
 	"dwarfBattleragerAU" : {
-		"name" : {"singular" : "Dwarf Battlerager", "plural" : "Dwarf Battleragers"},
+		"name" : {
+			"singular" : "Dwarf Battlerager",
+			"plural" : "Dwarf Battleragers"
+		},
 		"faction" : "rampart",
 		"level" : 2,
 		"attack" : 6,
 		"defense" : 8,
-		"damage" : {"min" : 3, "max" : 5},
+		"damage" : {
+			"min" : 3,
+			"max" : 5
+		},
 		"hitPoints" : 20,
 		"speed" : 5,
 		"growth" : 8,
 		"horde" : 4,
 		"aiValue" : 209,
 		"fightValue" : 209,
-		"cost" : {"gold" : 150},
-		"advMapAmount" : {"min" : 16, "max" : 25},
-		"upgrades" : ["core:battleDwarf"],
+		"cost" : {
+			"gold" : 150
+		},
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 25
+		},
+		"upgrades" : [
+			"core:battleDwarf"
+		],
 		"doubleWide" : false,
 		"abilities" : {
 			"castDwarfBloodlust" : {
@@ -40,17 +53,17 @@
 			"iconLarge" : "creatures/rampart/iconsBig/lvl2Alt.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
 		"sound" : {
-			"attack": "BDRFATTK.wav",
-			"defend": "BDRFDFND.wav",
-			"killed": "BDRFKILL.wav",
-			"move": "BDRFMOVE.wav",
-			"wince": "BDRFWNCE.wav"
-		}	
+			"attack" : "BDRFATTK.wav",
+			"defend" : "BDRFDFND.wav",
+			"killed" : "BDRFKILL.wav",
+			"move" : "BDRFMOVE.wav",
+			"wince" : "BDRFWNCE.wav"
+		}
 	}
 }

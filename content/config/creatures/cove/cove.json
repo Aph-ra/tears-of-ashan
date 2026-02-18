@@ -1,38 +1,68 @@
 {
 	"hota.cove:nymph" : {
-		"upgrades": ["oceanid", "nereidAU"]
+		"upgrades" : [
+			"oceanid",
+			"nereidAU"
+		]
 	},
 	"hota.cove:oceanid" : {
-		"upgrades": ["nereidAU"]
+		"upgrades" : [
+			"nereidAU"
+		]
 	},
 	"hota.cove:crewmate" : {
-		"upgrades": ["seaman", "swashbucklerAU"]
+		"upgrades" : [
+			"seaman",
+			"swashbucklerAU"
+		]
 	},
 	"hota.cove:seaman" : {
-		"upgrades": ["swashbucklerAU"]
+		"upgrades" : [
+			"swashbucklerAU"
+		]
 	},
 	"hota.cove:stormbird" : {
-		"upgrades": ["ayssid", "halcyonAU"]
+		"upgrades" : [
+			"ayssid",
+			"halcyonAU"
+		]
 	},
 	"hota.cove:ayssid" : {
-		"upgrades": ["halcyonAU"]
+		"upgrades" : [
+			"halcyonAU"
+		]
 	},
 	"hota.cove:seaWitch" : {
-		"upgrades": ["sorceress", "tidecallerAU"]
+		"upgrades" : [
+			"sorceress",
+			"tidecallerAU"
+		]
 	},
 	"hota.cove:sorceress" : {
-		"upgrades": ["tidecallerAU"]
+		"upgrades" : [
+			"tidecallerAU"
+		]
 	},
-	"hota.cove:nix" : {	
-		"upgrades": ["nixWarrior", "nixRetiariusAU"]		
+	"hota.cove:nix" : {
+		"upgrades" : [
+			"nixWarrior",
+			"nixRetiariusAU"
+		]
 	},
-	"hota.cove:nixWarrior" : {	
-		"upgrades": ["nixRetiariusAU"]		
+	"hota.cove:nixWarrior" : {
+		"upgrades" : [
+			"nixRetiariusAU"
+		]
 	},
 	"hota.cove:seaserpent" : {
-		"upgrades": ["haspid", "deepSerpentAU"]
+		"upgrades" : [
+			"haspid",
+			"deepSerpentAU"
+		]
 	},
 	"hota.cove:haspid" : {
-		"upgrades": ["deepSerpentAU"]
+		"upgrades" : [
+			"deepSerpentAU"
+		]
 	}
 }

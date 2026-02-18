@@ -3,7 +3,9 @@
 		"class" : "necromancer",
 		"female" : false,
 		"special" : false,
-		"spellbook" : [ "curse" ],
+		"spellbook" : [
+			"curse"
+		],
 		"texts" : {
 			"name" : "Naadir",
 			"biography" : "Naadir despises the world of flesh, even more so than his fellow Necromancers. To him, perfection is only to be found in the naked spirit, cleansed from its material impurities. On the battlefield, his intimate knowledge of the spirit world allows him to \"capture\" the souls of his enemies and use them as reinforcements to his own forces.",
@@ -22,10 +24,16 @@
 		},
 
 		"skills" : [
-			{"skill" : "necromancy", "level": "basic"},
-			{"skill" : "fireMagic", "level": "basic"}
+			{
+				"skill" : "necromancy",
+				"level" : "basic"
+			},
+			{
+				"skill" : "fireMagic",
+				"level" : "basic"
+			}
 		],
-    
+
 		"specialty" : {
 			"creature" : "mummy",
 			"creatureLevel" : 3,
@@ -35,24 +43,33 @@
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
-				"walkingDead2mummy" : { "subtype" : "creature.walkingDead" },
-				"plaguezombie2mummy" : { "subtype" : "creature.zombieLord" },
-				"rotzombie2mummy" : { "subtype" : "rotZombieAU" }
+				"walkingDead2mummy" : {
+					"subtype" : "creature.walkingDead"
+				},
+				"plaguezombie2mummy" : {
+					"subtype" : "creature.zombieLord"
+				},
+				"rotzombie2mummy" : {
+					"subtype" : "rotZombieAU"
+				}
 			}
 		},
-	
+
 		"army" : [
 			{
 				"creature" : "skeleton",
-				"min" : 20, "max" : 30
+				"min" : 20,
+				"max" : 30
 			},
 			{
 				"creature" : "mummy",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			},
 			{
 				"creature" : "mummy",
-				"min" : 4, "max" : 5
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	}
