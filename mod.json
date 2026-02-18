@@ -2,11 +2,14 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "Public Beta 1.3.0",
+	"version" : "Public Beta 1.3.1",
 	"modType" : "Expansion",
 	"compatibility" : {"min" : "1.7.2"},
 	
 	"changelog" : {
+		"Public Beta 1.3.1"   : [
+			"Moved folders up a subdirectory to hopefully fix mod loading issues"
+		],
 		"Public Beta 1.3.0"   : [
 			"Added Holy Word, a 4th Level Light Magic spell",
 			"Added DEMONIC as a bonus propagator; units receive -25% damage from Fire Magic spells and +25% damage from Light Magic spells",
