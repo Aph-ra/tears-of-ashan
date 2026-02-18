@@ -39,28 +39,23 @@
 		}
 	},
 	"core:destroyUndead" : {
+		"power": 20,
 		"school" : {
 			"air" : false,
 			"01lightSchool" : true
 		},
-		"targetCondition" : {
-			"allOf" : {
-				"bonus.UNDEAD" : "absolute"
-				//"bonus.INFERNAL" : "absolute"
-			}
-		},
 		"levels" : {
 			"none" : {
-				"description" : "{Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield.\n\nEach unit takes (Spell Power x 10 + 10) damage.\n",
+				"description" : "{Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield.\n\nEach unit receives (Spell Power x 10 + 10) damage.\n",
 			},
 			"basic" : {
-				"description" : "{Basic Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield.\n\nEach unit takes (Spell Power x 10 + 10) damage.\n"
+				"description" : "{Basic Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield.\n\nEach unit receives (Spell Power x 10 + 10) damage.\n"
 			},
 			"advanced" : {
-				"description" : "{Advanced Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield.\n\nEach unit takes (Spell Power x 10 + 20) damage.\n"
+				"description" : "{Advanced Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield.\n\nEach unit receives (Spell Power x 10 + 20) damage.\n"
 			},
 			"expert" : {
-				"description" : "{Expert Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield.\n\nEach unit takes (Spell Power x 10 + 50) damage.\n"
+				"description" : "{Expert Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield.\n\nEach unit receives (Spell Power x 10 + 50) damage.\n"
 			}
 		}
 	},
@@ -107,11 +102,34 @@
 			}
 		}
 	},
+	"core:fireball" : {
+		"power": 20
+	},
 	"core:fortune" : {
 		"school" : {
 			"air" : false,
 			"01lightSchool" : true
 		}
+	},
+	"core:frostRing" : {
+		"power": 20,
+		"levels": {
+			"none": {
+				"cost": 15
+			},
+			"basic": {
+				"cost": 12
+			},
+			"advanced": {
+				"cost": 15
+			},
+			"expert": {
+				"cost": 15
+			}
+		}
+	},
+	"core:landMine" : {
+		"power": 20
 	},
 	"core:magicArrow" : {
 		"school" : {
@@ -121,6 +139,23 @@
 			"water" : true,
 			"01lightSchool" : true,
 			"02darkSchool" : true
+		}
+	},
+	"core:meteorShower" : {
+		"power": 30,
+		"levels": {
+			"none": {
+				"cost": 18
+			},
+			"basic": {
+				"cost": 15
+			},
+			"advanced": {
+				"cost": 15
+			},
+			"expert": {
+				"cost": 15
+			}
 		}
 	},
 	"core:mirth" : {
@@ -233,17 +268,17 @@
 				}
 			},
 			"none" : {
-				"description" : "{Wasp Swarm}\n\nConjures a swarm of wasps to assail the target enemy.\n\nTarget enemy troop takes (Spell Power x 10 + 10) Damage and has its Speed reduced by 20%. Does not affect undead or non-living units.\n",
+				"description" : "{Wasp Swarm}\n\nConjures a swarm of wasps to assail the target enemy.\n\nTarget enemy troop receives (Spell Power x 10 + 10) Damage and has its Speed reduced by 20%. Does not affect undead or non-living units.\n",
 				"cost" : 8,
 				"power" : 10
 			},
 			"basic" : {
-				"description" : "{Basic Wasp Swarm}\n\nConjures a swarm of wasps to assail the target enemy.\n\nTarget enemy troop takes (Spell Power x 10 + 10) Damage and has its Speed reduced by 20%. Does not affect undead or non-living units.\n",
+				"description" : "{Basic Wasp Swarm}\n\nConjures a swarm of wasps to assail the target enemy.\n\nTarget enemy troop receives (Spell Power x 10 + 10) Damage and has its Speed reduced by 20%. Does not affect undead or non-living units.\n",
 				"cost" : 6,
 				"power" : 10
 			},
 			"advanced" : {
-				"description" : "{Advanced Wasp Swarm}\n\nConjures a swarm of wasps to assail the target enemy.\n\nTarget enemy troop takes (Spell Power x 10 + 15) Damage and has its Speed reduced by 40%. Does not affect undead or non-living units.\n",
+				"description" : "{Advanced Wasp Swarm}\n\nConjures a swarm of wasps to assail the target enemy.\n\nTarget enemy troop receives (Spell Power x 10 + 15) Damage and has its Speed reduced by 40%. Does not affect undead or non-living units.\n",
 				"cost" : 6,
 				"power" : 15,
 				"battleEffects" : {
@@ -258,7 +293,7 @@
 				}
 			},
 			"expert" : {
-				"description" : "{Expert Wasp Swarm}\n\nConjures a swarm of wasps to assail the target enemy.\n\nTarget enemy troop takes (Spell Power x 10 + 20) Damage and has its Speed reduced by 60%. Does not affect undead or non-living units.\n",
+				"description" : "{Expert Wasp Swarm}\n\nConjures a swarm of wasps to assail the target enemy.\n\nTarget enemy troop receives (Spell Power x 10 + 20) Damage and has its Speed reduced by 60%. Does not affect undead or non-living units.\n",
 				"cost" : 6,
 				"power" : 20,
 				"battleEffects" : {
@@ -425,17 +460,17 @@
 				}
 			},
 			"none" : {
-				"description" : "{Deep Freeze}\n\nFreezes the target enemy troop with a wave of sheer cold for 3 turns.\n\nTarget enemy troop takes (Spell Power x 50 + 50) Damage. It receives 20% increased Damage until it is attacked or thaws out.\n",
+				"description" : "{Deep Freeze}\n\nFreezes the target enemy troop with a wave of sheer cold for 3 turns.\n\nTarget enemy troop receives (Spell Power x 50 + 50) Damage. It receives 20% increased Damage until it is attacked or thaws out.\n",
 				"cost" : 30,
 				"power" : 50
 			},
 			"basic" : {
-				"description" : "{Basic Deep Freeze}\n\nFreezes the target enemy troop with a wave of sheer cold for 3 turns.\n\nTarget enemy troop takes (Spell Power x 50 + 50) Damage. It receives 20% increased Damage until it is attacked or thaws out.\n",
+				"description" : "{Basic Deep Freeze}\n\nFreezes the target enemy troop with a wave of sheer cold for 3 turns.\n\nTarget enemy troop receives (Spell Power x 50 + 50) Damage. It receives 20% increased Damage until it is attacked or thaws out.\n",
 				"cost" : 25,
 				"power" : 50
 			},
 			"advanced" : {
-				"description" : "{Advanced Deep Freeze}\n\nFreezes the target enemy troop with a wave of sheer cold for 3 turns.\n\nTarget enemy troop takes (Spell Power x 50 + 100) Damage. It receives 35% increased Damage until it is attacked or thaws out.\n",
+				"description" : "{Advanced Deep Freeze}\n\nFreezes the target enemy troop with a wave of sheer cold for 3 turns.\n\nTarget enemy troop receives (Spell Power x 50 + 100) Damage. It receives 35% increased Damage until it is attacked or thaws out.\n",
 				"cost" : 25,
 				"power" : 100,
 				"effects" : {
@@ -445,7 +480,7 @@
 				}
 			},
 			"expert" : {
-				"description" : "{Expert Deep Freeze}\n\nFreezes the target enemy troop with a wave of sheer cold for 3 turns.\n\nTarget enemy troop takes (Spell Power x 50 + 150) Damage. It receives 50% increased Damage until it is attacked or thaws out.\n",
+				"description" : "{Expert Deep Freeze}\n\nFreezes the target enemy troop with a wave of sheer cold for 3 turns.\n\nTarget enemy troop receives (Spell Power x 50 + 150) Damage. It receives 50% increased Damage until it is attacked or thaws out.\n",
 				"cost" : 25,
 				"power" : 150,
 				"effects" : {
@@ -531,7 +566,7 @@
 		},
 		"levels" : {
 			"none" : {
-				"description" : "{Puppet Master}\n\nPuppeteers an enemy troop under your control until they take damage.\n\nThe affected troop has its Speed reduced by 50%.\n",
+				"description" : "{Puppet Master}\n\nPuppeteers an enemy troop under your control until they receive damage.\n\nThe affected troop has its Speed reduced by 50%.\n",
 				"cost" : 40,
 				"effects" : {
 					"undead" : {
@@ -549,7 +584,7 @@
 				}
 			},
 			"basic" : {
-				"description" : "{Basic Puppet Master}\n\nPuppeteers an enemy troop under your control until they take damage.\n\nThe affected troop has its Speed reduced by 50%.\n",
+				"description" : "{Basic Puppet Master}\n\nPuppeteers an enemy troop under your control until they receive damage.\n\nThe affected troop has its Speed reduced by 50%.\n",
 				"cost" : 35,
 				"effects" : {
 					"undead" : {
@@ -567,7 +602,7 @@
 				}
 			},
 			"advanced" : {
-				"description" : "{Advanced Puppet Master}\n\nPuppeteers an enemy troop under your control until they take damage.\n\nThe affected troop has its Speed reduced by 25%.\n",
+				"description" : "{Advanced Puppet Master}\n\nPuppeteers an enemy troop under your control until they receive damage.\n\nThe affected troop has its Speed reduced by 25%.\n",
 				"cost" : 35,
 				"effects" : {
 					"undead" : {
@@ -585,7 +620,7 @@
 				}
 			},
 			"expert" : {
-				"description" : "{Expert Puppet Master}\n\nPuppeteers an enemy troop under your control until they take damage.\n",
+				"description" : "{Expert Puppet Master}\n\nPuppeteers an enemy troop under your control until they receive damage.\n",
 				"cost" : 35,
 				"effects" : {
 					"undead" : {

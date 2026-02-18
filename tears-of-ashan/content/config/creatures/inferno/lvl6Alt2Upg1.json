@@ -16,6 +16,15 @@
 		"upgrades": ["hellStallionAU"],
 		"doubleWide" : true,
 		"abilities": {
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			},
 			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "fire",
@@ -26,7 +35,7 @@
 				"subtype" : "deathStareGorgon",
 				"val" : 10
 			},
-			"fearful" : {
+			"fearsome" : {
 				"type" : "FEARFUL",
 				"val" : 10,
 				"propagator": "BATTLE_WIDE",
@@ -43,6 +52,17 @@
 			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
+				"val" : 0,
+				"description" : "{Fearless}\nUnaffected by Fear",
+				"icon" : "zvs/Lib1.res/e_fearl.png"
+			},
+			"fearsomeBonus" : {
+				"type" : "NONE",
+				"description" : "{Fearsome}\nHas a 10% chance to inflict enemies with Fear",
+				"icon" : "zvs/Lib1.res/e_fear.png"
+			},
+			"fearlessBonus" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 0,
 				"description" : "{Fearless}\nUnaffected by Fear",
 				"icon" : "zvs/Lib1.res/e_fearl.png"

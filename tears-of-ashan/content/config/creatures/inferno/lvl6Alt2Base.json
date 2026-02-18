@@ -16,6 +16,15 @@
 		"upgrades": ["nightmareAU", "hellStallionAU"],
 		"doubleWide" : true,
 		"abilities": {
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			},
 			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "fire",

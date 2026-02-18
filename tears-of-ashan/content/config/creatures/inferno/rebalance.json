@@ -3,6 +3,21 @@
 		"fightValue" : 55,
 		"aiValue" : 55,
 		"abilities" : {
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 25,
+				"hidden" : true
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			},
 			"canFly" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
@@ -14,6 +29,21 @@
 		"aiValue" : 75,
 		"cost" : {"gold" : 65},
 		"abilities" : {
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 25,
+				"hidden" : true
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			},
 			"canFly" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
@@ -26,18 +56,107 @@
 	"core:gog": {
 		"hitPoints" : 15,
 		"fightValue" : 165,
-		"aiValue" : 150
+		"aiValue" : 150,
+		"abilities" : {
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 25,
+				"hidden" : true
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			}
+		}
 	},
 	"core:magog": {
 		"attack" : 8,
 		"damage" : {"min" : 3, "max" : 5},
 		"hitPoints" : 15,
 		"fightValue" : 300,
-		"aiValue" : 250
+		"aiValue" : 250,
+		"abilities" : {
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 25,
+				"hidden" : true
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			}
+		}
+	},
+	"core:hellHound": {
+		"abilities" : {
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 25,
+				"hidden" : true
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			}
+		}
 	},
 	"core:cerberus": {
 		"attack" : 12,
-		"defense" : 6
+		"defense" : 6,
+		"abilities" : {
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 25,
+				"hidden" : true
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			}
+		}
+	},
+	"core:demon": {
+		"abilities" : {
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 25,
+				"hidden" : true
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			}
+		}
 	},
 	"core:hornedDemon": {
 		"speed" : 7,
@@ -45,6 +164,21 @@
 		"fightValue" : 550,
 		"cost" : {"gold" : 350},
 		"abilities" : {
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 25,
+				"hidden" : true
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			},
 			"ignoreDefense" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 30
@@ -57,18 +191,67 @@
 		"hitPoints" : 40,
 		"aiValue" : 730,
 		"fightValue" : 730,
-		"cost" : {"gold" : 450}
+		"cost" : {"gold" : 450},
+		"abilities" : {
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 25,
+				"hidden" : true
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			}
+		}
 	},
 	"core:pitLord": {
 		"hitPoints" : 50,
 		"aiValue" : 1240,
-		"fightValue" : 1080
+		"fightValue" : 1080,
+		"abilities" : {
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 25,
+				"hidden" : true
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			}
+		}
 	},
 	"core:efreet": {
 		"aiValue" : 1750,
 		"fightValue" : 1475,
 		"cost" : {"gold" : 1000},
 		"abilities" : {
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 25,
+				"hidden" : true
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			},
 			"fireShield" : {
 				"type" : "FIRE_SHIELD",
 				"val" : 20
@@ -94,6 +277,21 @@
 		"fightValue" : 1850,
 		"cost" : {"gold" : 1250},
 		"abilities#override" : {
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 25,
+				"hidden" : true
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			},
 			"canFly" : {
 				"type" : "FLYING",
 				"icon" : "zvs/Lib1.res/e_fly3"
@@ -135,6 +333,21 @@
 		"fightValue" : 3875,
 		"cost" : {"gold" : 2750, "mercury" : 1},
 		"abilities" : {
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 25,
+				"hidden" : true
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			},
 			"hateAngels" : {
 				"hidden" : true
 			},
@@ -158,6 +371,21 @@
 		"fightValue" : 5500,
 		"cost" : {"gold" : 5000, "mercury" : 2},
 		"abilities" : {
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 25,
+				"hidden" : true
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			},
 			"hateAngels" : {
 				"hidden" : true
 			},

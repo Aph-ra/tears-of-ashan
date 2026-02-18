@@ -1,0 +1,85 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "frame1.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "frame1.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "frame2.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "frame2.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "frame3.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "frame3.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "frame4.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "frame4.png"
+        },
+		{
+            "group": 0,
+            "frame": 8,
+            "file": "frame5.png"
+        },
+        {
+            "group": 0,
+            "frame": 9,
+            "file": "frame5.png"
+        },
+        {
+            "group": 0,
+            "frame": 10,
+            "file": "frame6.png"
+        },
+        {
+            "group": 0,
+            "frame": 11,
+            "file": "frame6.png"
+        },
+        {
+            "group": 0,
+            "frame": 12,
+            "file": "frame7.png"
+        },
+        {
+            "group": 0,
+            "frame": 13,
+            "file": "frame7.png"
+        },
+        {
+            "group": 0,
+            "frame": 14,
+            "file": "frame8.png"
+        },
+        {
+            "group": 0,
+            "frame": 15,
+            "file": "frame8.png"
+        },
+    ],
+    "basepath": "spells/holyWord/animation/"
+}
