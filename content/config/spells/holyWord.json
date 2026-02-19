@@ -59,13 +59,13 @@
 				}
 			},
 			"none" : {
-				"description" : "{Holy Word}\n\nPurges the target demonic or undead with holy light. Target unit receives (Spell Power x 30 + 40) damage.\n",
+				"description" : "{Holy Word}\n\nPurges the target demonic or undead unit with holy light. Target unit receives (Spell Power x 30 + 40) damage.\n",
 				"cost" : 22,
 				"power" : 40,
 				"effects" : {}
 			},
 			"basic" : {
-				"description" : "{Basic Holy Word}\n\nPurges the target demonic or undead with holy light. Target unit receives (Spell Power x 30 + 40) damage.\n",
+				"description" : "{Basic Holy Word}\n\nPurges the target demonic or undead unit with holy light. Target unit receives (Spell Power x 30 + 40) damage.\n",
 				"cost" : 18,
 				"power" : 40,
 				"effects" : {}
