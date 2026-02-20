@@ -1,0 +1,420 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "CSWASHA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "CSWASHA001.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "CSWASHA002.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "CSWASHA003.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "CSWASHA004.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "CSWASHA005.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "CSWASHA006.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "CSWASHA007.png"
+        },
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "CSWASHB000.png"
+        },
+        {
+            "group": 1,
+            "frame": 1,
+            "file": "CSWASHB001.png"
+        },
+        {
+            "group": 1,
+            "frame": 2,
+            "file": "CSWASHB002.png"
+        },
+        {
+            "group": 1,
+            "frame": 3,
+            "file": "CSWASHB003.png"
+        },
+        {
+            "group": 1,
+            "frame": 4,
+            "file": "CSWASHB004.png"
+        },
+        {
+            "group": 1,
+            "frame": 5,
+            "file": "CSWASHB005.png"
+        },
+        {
+            "group": 1,
+            "frame": 6,
+            "file": "CSWASHB006.png"
+        },
+        {
+            "group": 1,
+            "frame": 7,
+            "file": "CSWASHB007.png"
+        },
+        {
+            "group": 1,
+            "frame": 8,
+            "file": "CSWASHB008.png"
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "CSWASHC000.png"
+        },
+        {
+            "group": 2,
+            "frame": 1,
+            "file": "CSWASHC001.png"
+        },
+        {
+            "group": 2,
+            "frame": 2,
+            "file": "CSWASHC002.png"
+        },
+        {
+            "group": 2,
+            "frame": 3,
+            "file": "CSWASHC003.png"
+        },
+        {
+            "group": 2,
+            "frame": 4,
+            "file": "CSWASHC004.png"
+        },
+        {
+            "group": 2,
+            "frame": 5,
+            "file": "CSWASHC005.png"
+        },
+        {
+            "group": 2,
+            "frame": 6,
+            "file": "CSWASHC004.png"
+        },
+        {
+            "group": 2,
+            "frame": 7,
+            "file": "CSWASHC003.png"
+        },
+        {
+            "group": 2,
+            "frame": 8,
+            "file": "CSWASHC002.png"
+        },
+        {
+            "group": 2,
+            "frame": 9,
+            "file": "CSWASHC001.png"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "CSWASHD000.png"
+        },
+        {
+            "group": 3,
+            "frame": 1,
+            "file": "CSWASHD001.png"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "CSWASHD002.png"
+        },
+        {
+            "group": 3,
+            "frame": 3,
+            "file": "CSWASHD003.png"
+        },
+        {
+            "group": 3,
+            "frame": 4,
+            "file": "CSWASHD004.png"
+        },
+        {
+            "group": 3,
+            "frame": 5,
+            "file": "CSWASHD005.png"
+        },
+        {
+            "group": 3,
+            "frame": 6,
+            "file": "CSWASHB000.png"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "CSWASHE000.png"
+        },
+        {
+            "group": 4,
+            "frame": 1,
+            "file": "CSWASHE001.png"
+        },
+        {
+            "group": 4,
+            "frame": 2,
+            "file": "CSWASHE002.png"
+        },
+        {
+            "group": 4,
+            "frame": 3,
+            "file": "CSWASHE003.png"
+        },
+        {
+            "group": 4,
+            "frame": 4,
+            "file": "CSWASHE003.png"
+        },
+        {
+            "group": 4,
+            "frame": 5,
+            "file": "CSWASHE003.png"
+        },
+        {
+            "group": 4,
+            "frame": 6,
+            "file": "CSWASHE003.png"
+        },
+        {
+            "group": 4,
+            "frame": 7,
+            "file": "CSWASHE002.png"
+        },
+        {
+            "group": 4,
+            "frame": 8,
+            "file": "CSWASHE001.png"
+        },
+        {
+            "group": 4,
+            "frame": 9,
+            "file": "CSWASHE000.png"
+        },
+        {
+            "group": 5,
+            "frame": 0,
+            "file": "CSWASHF000.png"
+        },
+        {
+            "group": 5,
+            "frame": 1,
+            "file": "CSWASHF001.png"
+        },
+        {
+            "group": 5,
+            "frame": 2,
+            "file": "CSWASHF002.png"
+        },
+        {
+            "group": 5,
+            "frame": 3,
+            "file": "CSWASHF003.png"
+        },
+        {
+            "group": 5,
+            "frame": 4,
+            "file": "CSWASHF004.png"
+        },
+        {
+            "group": 5,
+            "frame": 5,
+            "file": "CSWASHF005.png"
+        },
+        {
+            "group": 7,
+            "frame": 0,
+            "file": "CSWASHG000.png"
+        },
+        {
+            "group": 7,
+            "frame": 1,
+            "file": "CSWASHG001.png"
+        },
+        {
+            "group": 8,
+            "frame": 0,
+            "file": "CSWASHG001.png"
+        },
+        {
+            "group": 8,
+            "frame": 1,
+            "file": "CSWASHG000.png"
+        },
+        {
+            "group": 9,
+            "frame": 0,
+            "file": "CSWASHG000.png"
+        },
+        {
+            "group": 9,
+            "frame": 1,
+            "file": "CSWASHG001.png"
+        },
+        {
+            "group": 10,
+            "frame": 0,
+            "file": "CSWASHG001.png"
+        },
+        {
+            "group": 10,
+            "frame": 1,
+            "file": "CSWASHG000.png"
+        },
+        {
+            "group": 11,
+            "frame": 0,
+            "file": "CSWASHK000.png"
+        },
+        {
+            "group": 11,
+            "frame": 1,
+            "file": "CSWASHK001.png"
+        },
+        {
+            "group": 11,
+            "frame": 2,
+            "file": "CSWASHK002.png"
+        },
+        {
+            "group": 11,
+            "frame": 3,
+            "file": "CSWASHK003.png"
+        },
+        {
+            "group": 11,
+            "frame": 4,
+            "file": "CSWASHK004.png"
+        },
+        {
+            "group": 11,
+            "frame": 5,
+            "file": "CSWASHK005.png"
+        },
+        {
+            "group": 11,
+            "frame": 6,
+            "file": "CSWASHK006.png"
+        },
+        {
+            "group": 12,
+            "frame": 0,
+            "file": "CSWASHL000.png"
+        },
+        {
+            "group": 12,
+            "frame": 1,
+            "file": "CSWASHL001.png"
+        },
+        {
+            "group": 12,
+            "frame": 2,
+            "file": "CSWASHL002.png"
+        },
+        {
+            "group": 12,
+            "frame": 3,
+            "file": "CSWASHL003.png"
+        },
+        {
+            "group": 12,
+            "frame": 4,
+            "file": "CSWASHL004.png"
+        },
+        {
+            "group": 12,
+            "frame": 5,
+            "file": "CSWASHL005.png"
+        },
+        {
+            "group": 12,
+            "frame": 6,
+            "file": "CSWASHL006.png"
+        },
+        {
+            "group": 13,
+            "frame": 0,
+            "file": "CSWASHM000.png"
+        },
+        {
+            "group": 13,
+            "frame": 1,
+            "file": "CSWASHM001.png"
+        },
+        {
+            "group": 13,
+            "frame": 2,
+            "file": "CSWASHM002.png"
+        },
+        {
+            "group": 13,
+            "frame": 3,
+            "file": "CSWASHM003.png"
+        },
+        {
+            "group": 13,
+            "frame": 4,
+            "file": "CSWASHM004.png"
+        },
+        {
+            "group": 13,
+            "frame": 5,
+            "file": "CSWASHM005.png"
+        },
+        {
+            "group": 13,
+            "frame": 6,
+            "file": "CSWASHM006.png"
+        },
+        {
+            "group": 20,
+            "frame": 0,
+            "file": "CSWASHN000.png"
+        },
+        {
+            "group": 20,
+            "frame": 1,
+            "file": "CSWASHN001.png"
+        },
+        {
+            "group": 21,
+            "frame": 0,
+            "file": "CSWASHO000.png"
+        },
+        {
+            "group": 21,
+            "frame": 1,
+            "file": "CSWASHO001.png"
+        }
+    ],
+    "basepath": "creatures/cove/battle/lvl2Alt/"
+}

@@ -1,515 +1,515 @@
 {
-	"images" : [
-		{
-			"group" : 1,
-			"frame" : 0,
-			"file" : "COCEANIDA000.png"
-		},
-		{
-			"group" : 1,
-			"frame" : 1,
-			"file" : "COCEANIDA001.png"
-		},
-		{
-			"group" : 1,
-			"frame" : 2,
-			"file" : "COCEANIDA002.png"
-		},
-		{
-			"group" : 1,
-			"frame" : 3,
-			"file" : "COCEANIDA003.png"
-		},
-		{
-			"group" : 1,
-			"frame" : 4,
-			"file" : "COCEANIDA004.png"
-		},
-		{
-			"group" : 1,
-			"frame" : 5,
-			"file" : "COCEANIDA004.png"
-		},
-		{
-			"group" : 1,
-			"frame" : 6,
-			"file" : "COCEANIDA004.png"
-		},
-		{
-			"group" : 1,
-			"frame" : 7,
-			"file" : "COCEANIDA003.png"
-		},
-		{
-			"group" : 1,
-			"frame" : 8,
-			"file" : "COCEANIDA002.png"
-		},
-		{
-			"group" : 1,
-			"frame" : 9,
-			"file" : "COCEANIDA001.png"
-		},
-		{
-			"group" : 1,
-			"frame" : 10,
-			"file" : "COCEANIDA000.png"
-		},
-		{
-			"group" : 2,
-			"frame" : 0,
-			"file" : "COCEANIDB000.png"
-		},
-		{
-			"group" : 2,
-			"frame" : 1,
-			"file" : "COCEANIDB001.png"
-		},
-		{
-			"group" : 2,
-			"frame" : 2,
-			"file" : "COCEANIDB002.png"
-		},
-		{
-			"group" : 2,
-			"frame" : 3,
-			"file" : "COCEANIDB003.png"
-		},
-		{
-			"group" : 2,
-			"frame" : 4,
-			"file" : "COCEANIDB004.png"
-		},
-		{
-			"group" : 2,
-			"frame" : 5,
-			"file" : "COCEANIDB005.png"
-		},
-		{
-			"group" : 2,
-			"frame" : 6,
-			"file" : "COCEANIDB006.png"
-		},
-		{
-			"group" : 2,
-			"frame" : 7,
-			"file" : "COCEANIDB007.png"
-		},
-		{
-			"group" : 3,
-			"frame" : 0,
-			"file" : "COCEANIDC000.png"
-		},
-		{
-			"group" : 3,
-			"frame" : 1,
-			"file" : "COCEANIDC001.png"
-		},
-		{
-			"group" : 3,
-			"frame" : 2,
-			"file" : "COCEANIDC002.png"
-		},
-		{
-			"group" : 3,
-			"frame" : 3,
-			"file" : "COCEANIDC003.png"
-		},
-		{
-			"group" : 3,
-			"frame" : 4,
-			"file" : "COCEANIDC004.png"
-		},
-		{
-			"group" : 3,
-			"frame" : 5,
-			"file" : "COCEANIDC005.png"
-		},
-		{
-			"group" : 4,
-			"frame" : 0,
-			"file" : "COCEANIDD000.png"
-		},
-		{
-			"group" : 4,
-			"frame" : 1,
-			"file" : "COCEANIDD001.png"
-		},
-		{
-			"group" : 4,
-			"frame" : 2,
-			"file" : "COCEANIDD002.png"
-		},
-		{
-			"group" : 4,
-			"frame" : 3,
-			"file" : "COCEANIDD003.png"
-		},
-		{
-			"group" : 4,
-			"frame" : 4,
-			"file" : "COCEANIDD003.png"
-		},
-		{
-			"group" : 4,
-			"frame" : 5,
-			"file" : "COCEANIDD003.png"
-		},
-		{
-			"group" : 4,
-			"frame" : 6,
-			"file" : "COCEANIDD003.png"
-		},
-		{
-			"group" : 4,
-			"frame" : 7,
-			"file" : "COCEANIDD002.png"
-		},
-		{
-			"group" : 4,
-			"frame" : 8,
-			"file" : "COCEANIDD001.png"
-		},
-		{
-			"group" : 4,
-			"frame" : 9,
-			"file" : "COCEANIDD000.png"
-		},
-		{
-			"group" : 5,
-			"frame" : 0,
-			"file" : "COCEANIDE000.png"
-		},
-		{
-			"group" : 5,
-			"frame" : 1,
-			"file" : "COCEANIDE001.png"
-		},
-		{
-			"group" : 5,
-			"frame" : 2,
-			"file" : "COCEANIDE002.png"
-		},
-		{
-			"group" : 5,
-			"frame" : 3,
-			"file" : "COCEANIDE003.png"
-		},
-		{
-			"group" : 5,
-			"frame" : 4,
-			"file" : "COCEANIDE004.png"
-		},
-		{
-			"group" : 5,
-			"frame" : 5,
-			"file" : "COCEANIDE005.png"
-		},
-		{
-			"group" : 5,
-			"frame" : 6,
-			"file" : "COCEANIDE006.png"
-		},
-		{
-			"group" : 5,
-			"frame" : 7,
-			"file" : "COCEANIDE007.png"
-		},
-		{
-			"group" : 5,
-			"frame" : 8,
-			"file" : "COCEANIDE008.png"
-		},
-		{
-			"group" : 7,
-			"frame" : 0,
-			"file" : "COCEANIDF000.png"
-		},
-		{
-			"group" : 7,
-			"frame" : 1,
-			"file" : "COCEANIDF001.png"
-		},
-		{
-			"group" : 8,
-			"frame" : 0,
-			"file" : "COCEANIDF001.png"
-		},
-		{
-			"group" : 8,
-			"frame" : 1,
-			"file" : "COCEANIDF000.png"
-		},
-		{
-			"group" : 9,
-			"frame" : 0,
-			"file" : "COCEANIDF000.png"
-		},
-		{
-			"group" : 9,
-			"frame" : 1,
-			"file" : "COCEANIDF001.png"
-		},
-		{
-			"group" : 10,
-			"frame" : 0,
-			"file" : "COCEANIDF001.png"
-		},
-		{
-			"group" : 10,
-			"frame" : 1,
-			"file" : "COCEANIDF000.png"
-		},
-		{
-			"group" : 11,
-			"frame" : 0,
-			"file" : "COCEANIDJ000.png"
-		},
-		{
-			"group" : 11,
-			"frame" : 1,
-			"file" : "COCEANIDJ001.png"
-		},
-		{
-			"group" : 11,
-			"frame" : 2,
-			"file" : "COCEANIDJ002.png"
-		},
-		{
-			"group" : 11,
-			"frame" : 3,
-			"file" : "COCEANIDJ003.png"
-		},
-		{
-			"group" : 11,
-			"frame" : 4,
-			"file" : "COCEANIDJ004.png"
-		},
-		{
-			"group" : 11,
-			"frame" : 5,
-			"file" : "COCEANIDJ005.png"
-		},
-		{
-			"group" : 11,
-			"frame" : 6,
-			"file" : "COCEANIDJ006.png"
-		},
-		{
-			"group" : 11,
-			"frame" : 7,
-			"file" : "COCEANIDJ007.png"
-		},
-		{
-			"group" : 12,
-			"frame" : 0,
-			"file" : "COCEANIDK000.png"
-		},
-		{
-			"group" : 12,
-			"frame" : 1,
-			"file" : "COCEANIDK001.png"
-		},
-		{
-			"group" : 12,
-			"frame" : 2,
-			"file" : "COCEANIDK002.png"
-		},
-		{
-			"group" : 12,
-			"frame" : 3,
-			"file" : "COCEANIDK003.png"
-		},
-		{
-			"group" : 12,
-			"frame" : 4,
-			"file" : "COCEANIDK004.png"
-		},
-		{
-			"group" : 12,
-			"frame" : 5,
-			"file" : "COCEANIDK005.png"
-		},
-		{
-			"group" : 12,
-			"frame" : 6,
-			"file" : "COCEANIDK006.png"
-		},
-		{
-			"group" : 12,
-			"frame" : 7,
-			"file" : "COCEANIDK007.png"
-		},
-		{
-			"group" : 13,
-			"frame" : 0,
-			"file" : "COCEANIDL000.png"
-		},
-		{
-			"group" : 13,
-			"frame" : 1,
-			"file" : "COCEANIDL001.png"
-		},
-		{
-			"group" : 13,
-			"frame" : 2,
-			"file" : "COCEANIDL002.png"
-		},
-		{
-			"group" : 13,
-			"frame" : 3,
-			"file" : "COCEANIDL003.png"
-		},
-		{
-			"group" : 13,
-			"frame" : 4,
-			"file" : "COCEANIDL004.png"
-		},
-		{
-			"group" : 13,
-			"frame" : 5,
-			"file" : "COCEANIDL005.png"
-		},
-		{
-			"group" : 13,
-			"frame" : 6,
-			"file" : "COCEANIDL006.png"
-		},
-		{
-			"group" : 13,
-			"frame" : 7,
-			"file" : "COCEANIDL007.png"
-		},
-		{
-			"group" : 20,
-			"frame" : 0,
-			"file" : "COCEANIDM000.png"
-		},
-		{
-			"group" : 20,
-			"frame" : 1,
-			"file" : "COCEANIDM001.png"
-		},
-		{
-			"group" : 20,
-			"frame" : 2,
-			"file" : "COCEANIDM002.png"
-		},
-		{
-			"group" : 20,
-			"frame" : 3,
-			"file" : "COCEANIDM003.png"
-		},
-		{
-			"group" : 20,
-			"frame" : 4,
-			"file" : "COCEANIDM004.png"
-		},
-		{
-			"group" : 20,
-			"frame" : 5,
-			"file" : "COCEANIDM005.png"
-		},
-		{
-			"group" : 20,
-			"frame" : 6,
-			"file" : "COCEANIDM006.png"
-		},
-		{
-			"group" : 20,
-			"frame" : 7,
-			"file" : "COCEANIDM007.png"
-		},
-		{
-			"group" : 20,
-			"frame" : 8,
-			"file" : "COCEANIDM008.png"
-		},
-		{
-			"group" : 20,
-			"frame" : 9,
-			"file" : "COCEANIDM009.png"
-		},
-		{
-			"group" : 20,
-			"frame" : 10,
-			"file" : "COCEANIDM010.png"
-		},
-		{
-			"group" : 20,
-			"frame" : 11,
-			"file" : "COCEANIDM011.png"
-		},
-		{
-			"group" : 20,
-			"frame" : 12,
-			"file" : "COCEANIDM012.png"
-		},
-		{
-			"group" : 21,
-			"frame" : 0,
-			"file" : "COCEANIDM012.png"
-		},
-		{
-			"group" : 21,
-			"frame" : 1,
-			"file" : "COCEANIDM011.png"
-		},
-		{
-			"group" : 21,
-			"frame" : 2,
-			"file" : "COCEANIDM010.png"
-		},
-		{
-			"group" : 21,
-			"frame" : 3,
-			"file" : "COCEANIDM009.png"
-		},
-		{
-			"group" : 21,
-			"frame" : 4,
-			"file" : "COCEANIDM008.png"
-		},
-		{
-			"group" : 21,
-			"frame" : 5,
-			"file" : "COCEANIDM007.png"
-		},
-		{
-			"group" : 21,
-			"frame" : 6,
-			"file" : "COCEANIDM006.png"
-		},
-		{
-			"group" : 21,
-			"frame" : 7,
-			"file" : "COCEANIDM005.png"
-		},
-		{
-			"group" : 21,
-			"frame" : 8,
-			"file" : "COCEANIDM004.png"
-		},
-		{
-			"group" : 21,
-			"frame" : 9,
-			"file" : "COCEANIDM003.png"
-		},
-		{
-			"group" : 21,
-			"frame" : 10,
-			"file" : "COCEANIDM002.png"
-		},
-		{
-			"group" : 21,
-			"frame" : 11,
-			"file" : "COCEANIDM001.png"
-		},
-		{
-			"group" : 21,
-			"frame" : 12,
-			"file" : "COCEANIDM000.png"
-		}
-	],
-	"basepath" : "creatures/cove/battle/lvl1Alt/"
+    "images": [
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "COCEANIDA000.png"
+        },
+        {
+            "group": 1,
+            "frame": 1,
+            "file": "COCEANIDA001.png"
+        },
+        {
+            "group": 1,
+            "frame": 2,
+            "file": "COCEANIDA002.png"
+        },
+        {
+            "group": 1,
+            "frame": 3,
+            "file": "COCEANIDA003.png"
+        },
+        {
+            "group": 1,
+            "frame": 4,
+            "file": "COCEANIDA004.png"
+        },
+        {
+            "group": 1,
+            "frame": 5,
+            "file": "COCEANIDA004.png"
+        },
+        {
+            "group": 1,
+            "frame": 6,
+            "file": "COCEANIDA004.png"
+        },
+        {
+            "group": 1,
+            "frame": 7,
+            "file": "COCEANIDA003.png"
+        },
+        {
+            "group": 1,
+            "frame": 8,
+            "file": "COCEANIDA002.png"
+        },
+        {
+            "group": 1,
+            "frame": 9,
+            "file": "COCEANIDA001.png"
+        },
+        {
+            "group": 1,
+            "frame": 10,
+            "file": "COCEANIDA000.png"
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "COCEANIDB000.png"
+        },
+        {
+            "group": 2,
+            "frame": 1,
+            "file": "COCEANIDB001.png"
+        },
+        {
+            "group": 2,
+            "frame": 2,
+            "file": "COCEANIDB002.png"
+        },
+        {
+            "group": 2,
+            "frame": 3,
+            "file": "COCEANIDB003.png"
+        },
+        {
+            "group": 2,
+            "frame": 4,
+            "file": "COCEANIDB004.png"
+        },
+        {
+            "group": 2,
+            "frame": 5,
+            "file": "COCEANIDB005.png"
+        },
+        {
+            "group": 2,
+            "frame": 6,
+            "file": "COCEANIDB006.png"
+        },
+        {
+            "group": 2,
+            "frame": 7,
+            "file": "COCEANIDB007.png"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "COCEANIDC000.png"
+        },
+        {
+            "group": 3,
+            "frame": 1,
+            "file": "COCEANIDC001.png"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "COCEANIDC002.png"
+        },
+        {
+            "group": 3,
+            "frame": 3,
+            "file": "COCEANIDC003.png"
+        },
+        {
+            "group": 3,
+            "frame": 4,
+            "file": "COCEANIDC004.png"
+        },
+        {
+            "group": 3,
+            "frame": 5,
+            "file": "COCEANIDC005.png"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "COCEANIDD000.png"
+        },
+        {
+            "group": 4,
+            "frame": 1,
+            "file": "COCEANIDD001.png"
+        },
+        {
+            "group": 4,
+            "frame": 2,
+            "file": "COCEANIDD002.png"
+        },
+        {
+            "group": 4,
+            "frame": 3,
+            "file": "COCEANIDD003.png"
+        },
+        {
+            "group": 4,
+            "frame": 4,
+            "file": "COCEANIDD003.png"
+        },
+        {
+            "group": 4,
+            "frame": 5,
+            "file": "COCEANIDD003.png"
+        },
+        {
+            "group": 4,
+            "frame": 6,
+            "file": "COCEANIDD003.png"
+        },
+        {
+            "group": 4,
+            "frame": 7,
+            "file": "COCEANIDD002.png"
+        },
+        {
+            "group": 4,
+            "frame": 8,
+            "file": "COCEANIDD001.png"
+        },
+        {
+            "group": 4,
+            "frame": 9,
+            "file": "COCEANIDD000.png"
+        },
+        {
+            "group": 5,
+            "frame": 0,
+            "file": "COCEANIDE000.png"
+        },
+        {
+            "group": 5,
+            "frame": 1,
+            "file": "COCEANIDE001.png"
+        },
+        {
+            "group": 5,
+            "frame": 2,
+            "file": "COCEANIDE002.png"
+        },
+        {
+            "group": 5,
+            "frame": 3,
+            "file": "COCEANIDE003.png"
+        },
+        {
+            "group": 5,
+            "frame": 4,
+            "file": "COCEANIDE004.png"
+        },
+        {
+            "group": 5,
+            "frame": 5,
+            "file": "COCEANIDE005.png"
+        },
+        {
+            "group": 5,
+            "frame": 6,
+            "file": "COCEANIDE006.png"
+        },
+        {
+            "group": 5,
+            "frame": 7,
+            "file": "COCEANIDE007.png"
+        },
+        {
+            "group": 5,
+            "frame": 8,
+            "file": "COCEANIDE008.png"
+        },
+        {
+            "group": 7,
+            "frame": 0,
+            "file": "COCEANIDF000.png"
+        },
+        {
+            "group": 7,
+            "frame": 1,
+            "file": "COCEANIDF001.png"
+        },
+        {
+            "group": 8,
+            "frame": 0,
+            "file": "COCEANIDF001.png"
+        },
+        {
+            "group": 8,
+            "frame": 1,
+            "file": "COCEANIDF000.png"
+        },
+        {
+            "group": 9,
+            "frame": 0,
+            "file": "COCEANIDF000.png"
+        },
+        {
+            "group": 9,
+            "frame": 1,
+            "file": "COCEANIDF001.png"
+        },
+        {
+            "group": 10,
+            "frame": 0,
+            "file": "COCEANIDF001.png"
+        },
+        {
+            "group": 10,
+            "frame": 1,
+            "file": "COCEANIDF000.png"
+        },
+        {
+            "group": 11,
+            "frame": 0,
+            "file": "COCEANIDJ000.png"
+        },
+        {
+            "group": 11,
+            "frame": 1,
+            "file": "COCEANIDJ001.png"
+        },
+        {
+            "group": 11,
+            "frame": 2,
+            "file": "COCEANIDJ002.png"
+        },
+        {
+            "group": 11,
+            "frame": 3,
+            "file": "COCEANIDJ003.png"
+        },
+        {
+            "group": 11,
+            "frame": 4,
+            "file": "COCEANIDJ004.png"
+        },
+        {
+            "group": 11,
+            "frame": 5,
+            "file": "COCEANIDJ005.png"
+        },
+        {
+            "group": 11,
+            "frame": 6,
+            "file": "COCEANIDJ006.png"
+        },
+        {
+            "group": 11,
+            "frame": 7,
+            "file": "COCEANIDJ007.png"
+        },
+        {
+            "group": 12,
+            "frame": 0,
+            "file": "COCEANIDK000.png"
+        },
+        {
+            "group": 12,
+            "frame": 1,
+            "file": "COCEANIDK001.png"
+        },
+        {
+            "group": 12,
+            "frame": 2,
+            "file": "COCEANIDK002.png"
+        },
+        {
+            "group": 12,
+            "frame": 3,
+            "file": "COCEANIDK003.png"
+        },
+        {
+            "group": 12,
+            "frame": 4,
+            "file": "COCEANIDK004.png"
+        },
+        {
+            "group": 12,
+            "frame": 5,
+            "file": "COCEANIDK005.png"
+        },
+        {
+            "group": 12,
+            "frame": 6,
+            "file": "COCEANIDK006.png"
+        },
+        {
+            "group": 12,
+            "frame": 7,
+            "file": "COCEANIDK007.png"
+        },
+        {
+            "group": 13,
+            "frame": 0,
+            "file": "COCEANIDL000.png"
+        },
+        {
+            "group": 13,
+            "frame": 1,
+            "file": "COCEANIDL001.png"
+        },
+        {
+            "group": 13,
+            "frame": 2,
+            "file": "COCEANIDL002.png"
+        },
+        {
+            "group": 13,
+            "frame": 3,
+            "file": "COCEANIDL003.png"
+        },
+        {
+            "group": 13,
+            "frame": 4,
+            "file": "COCEANIDL004.png"
+        },
+        {
+            "group": 13,
+            "frame": 5,
+            "file": "COCEANIDL005.png"
+        },
+        {
+            "group": 13,
+            "frame": 6,
+            "file": "COCEANIDL006.png"
+        },
+        {
+            "group": 13,
+            "frame": 7,
+            "file": "COCEANIDL007.png"
+        },
+        {
+            "group": 20,
+            "frame": 0,
+            "file": "COCEANIDM000.png"
+        },
+        {
+            "group": 20,
+            "frame": 1,
+            "file": "COCEANIDM001.png"
+        },
+        {
+            "group": 20,
+            "frame": 2,
+            "file": "COCEANIDM002.png"
+        },
+        {
+            "group": 20,
+            "frame": 3,
+            "file": "COCEANIDM003.png"
+        },
+        {
+            "group": 20,
+            "frame": 4,
+            "file": "COCEANIDM004.png"
+        },
+        {
+            "group": 20,
+            "frame": 5,
+            "file": "COCEANIDM005.png"
+        },
+        {
+            "group": 20,
+            "frame": 6,
+            "file": "COCEANIDM006.png"
+        },
+        {
+            "group": 20,
+            "frame": 7,
+            "file": "COCEANIDM007.png"
+        },
+        {
+            "group": 20,
+            "frame": 8,
+            "file": "COCEANIDM008.png"
+        },
+        {
+            "group": 20,
+            "frame": 9,
+            "file": "COCEANIDM009.png"
+        },
+        {
+            "group": 20,
+            "frame": 10,
+            "file": "COCEANIDM010.png"
+        },
+        {
+            "group": 20,
+            "frame": 11,
+            "file": "COCEANIDM011.png"
+        },
+        {
+            "group": 20,
+            "frame": 12,
+            "file": "COCEANIDM012.png"
+        },
+        {
+            "group": 21,
+            "frame": 0,
+            "file": "COCEANIDM012.png"
+        },
+        {
+            "group": 21,
+            "frame": 1,
+            "file": "COCEANIDM011.png"
+        },
+        {
+            "group": 21,
+            "frame": 2,
+            "file": "COCEANIDM010.png"
+        },
+        {
+            "group": 21,
+            "frame": 3,
+            "file": "COCEANIDM009.png"
+        },
+        {
+            "group": 21,
+            "frame": 4,
+            "file": "COCEANIDM008.png"
+        },
+        {
+            "group": 21,
+            "frame": 5,
+            "file": "COCEANIDM007.png"
+        },
+        {
+            "group": 21,
+            "frame": 6,
+            "file": "COCEANIDM006.png"
+        },
+        {
+            "group": 21,
+            "frame": 7,
+            "file": "COCEANIDM005.png"
+        },
+        {
+            "group": 21,
+            "frame": 8,
+            "file": "COCEANIDM004.png"
+        },
+        {
+            "group": 21,
+            "frame": 9,
+            "file": "COCEANIDM003.png"
+        },
+        {
+            "group": 21,
+            "frame": 10,
+            "file": "COCEANIDM002.png"
+        },
+        {
+            "group": 21,
+            "frame": 11,
+            "file": "COCEANIDM001.png"
+        },
+        {
+            "group": 21,
+            "frame": 12,
+            "file": "COCEANIDM000.png"
+        }
+    ],
+    "basepath": "creatures/cove/battle/lvl1Alt/"
 }

@@ -1,32 +1,19 @@
 {
-	"nereidAU" : {
-		"name" : {
-			"singular" : "Nereid",
-			"plural" : "Nereids"
-		},
+	"nereidAU": {
+		"name" : {"singular" : "Nereid", "plural" : "Nereids"},
 		"faction" : "cove",
 		"level" : 1,
 		"attack" : 5,
 		"defense" : 3,
-		"damage" : {
-			"min" : 1,
-			"max" : 3
-		},
+		"damage" : {"min" : 1, "max" : 2},
 		"hitPoints" : 6,
 		"speed" : 7,
 		"growth" : 16,
 		"aiValue" : 75,
 		"fightValue" : 60,
-		"cost" : {
-			"gold" : 45
-		},
-		"advMapAmount" : {
-			"min" : 20,
-			"max" : 30
-		},
-		"upgrades" : [
-			"oceanid"
-		],
+		"cost" : {"gold" : 45},
+		"advMapAmount" : {"min" : 20, "max" : 30},
+		"upgrades" : ["oceanid"],
 		"doubleWide" : false,
 		"abilities" : {
 			"teleports" : {
@@ -67,17 +54,14 @@
 		"graphics" : {
 			"animation" : "creatures/cove/battle/lvl1Alt.json",
 			"map" : "creatures/cove/map/lvl1Alt.json",
-			"mapMask" : [
-				"VVV",
-				"VAV"
-			],
+			"mapMask" : ["VVV","VAV"],
 			"iconSmall" : "creatures/cove/iconsSmall/lvl1Alt.png",
 			"iconLarge" : "creatures/cove/iconsBig/lvl1Alt.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
-				"walk" : 1.0,
-				"idle" : 10.0,
-				"attack" : 1.0
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
 			}
 		},
 		"sound" : {
@@ -89,5 +73,5 @@
 			"endMoving" : "hota/cove/creatures/nymph/NIMPEXT2.wav",
 			"wince" : "hota/cove/creatures/nymph/NIMPWNCE.wav"
 		}
-	}
+	}	
 }

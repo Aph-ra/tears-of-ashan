@@ -1,5 +1,5 @@
 {
-	"core:imp" : {
+	"core:imp": {
 		"fightValue" : 55,
 		"aiValue" : 55,
 		"abilities" : {
@@ -24,12 +24,10 @@
 			}
 		}
 	},
-	"core:familiar" : {
+	"core:familiar": {
 		"fightValue" : 75,
 		"aiValue" : 75,
-		"cost" : {
-			"gold" : 65
-		},
+		"cost" : {"gold" : 65},
 		"abilities" : {
 			"demonic" : {
 				"type" : "DEMONIC"
@@ -55,7 +53,7 @@
 			}
 		}
 	},
-	"core:gog" : {
+	"core:gog": {
 		"hitPoints" : 15,
 		"fightValue" : 165,
 		"aiValue" : 150,
@@ -77,12 +75,9 @@
 			}
 		}
 	},
-	"core:magog" : {
+	"core:magog": {
 		"attack" : 8,
-		"damage" : {
-			"min" : 3,
-			"max" : 5
-		},
+		"damage" : {"min" : 3, "max" : 5},
 		"hitPoints" : 15,
 		"fightValue" : 300,
 		"aiValue" : 250,
@@ -104,7 +99,7 @@
 			}
 		}
 	},
-	"core:hellHound" : {
+	"core:hellHound": {
 		"abilities" : {
 			"demonic" : {
 				"type" : "DEMONIC"
@@ -123,7 +118,7 @@
 			}
 		}
 	},
-	"core:cerberus" : {
+	"core:cerberus": {
 		"attack" : 12,
 		"defense" : 6,
 		"abilities" : {
@@ -144,7 +139,7 @@
 			}
 		}
 	},
-	"core:demon" : {
+	"core:demon": {
 		"abilities" : {
 			"demonic" : {
 				"type" : "DEMONIC"
@@ -163,13 +158,11 @@
 			}
 		}
 	},
-	"core:hornedDemon" : {
+	"core:hornedDemon": {
 		"speed" : 7,
 		"aiValue" : 550,
 		"fightValue" : 550,
-		"cost" : {
-			"gold" : 350
-		},
+		"cost" : {"gold" : 350},
 		"abilities" : {
 			"demonic" : {
 				"type" : "DEMONIC"
@@ -192,15 +185,13 @@
 			}
 		}
 	},
-	"core:pitFiend" : {
+	"core:pitFiend": {
 		"attack" : 12,
 		"defense" : 12,
 		"hitPoints" : 40,
 		"aiValue" : 730,
 		"fightValue" : 730,
-		"cost" : {
-			"gold" : 450
-		},
+		"cost" : {"gold" : 450},
 		"abilities" : {
 			"demonic" : {
 				"type" : "DEMONIC"
@@ -219,7 +210,7 @@
 			}
 		}
 	},
-	"core:pitLord" : {
+	"core:pitLord": {
 		"hitPoints" : 50,
 		"aiValue" : 1240,
 		"fightValue" : 1080,
@@ -241,12 +232,10 @@
 			}
 		}
 	},
-	"core:efreet" : {
+	"core:efreet": {
 		"aiValue" : 1750,
 		"fightValue" : 1475,
-		"cost" : {
-			"gold" : 1000
-		},
+		"cost" : {"gold" : 950},
 		"abilities" : {
 			"demonic" : {
 				"type" : "DEMONIC"
@@ -282,13 +271,11 @@
 			}
 		}
 	},
-	"core:efreetSultan" : {
+	"core:efreetSultan": {
 		"hitPoints" : 100,
 		"aiValue" : 2500,
 		"fightValue" : 1850,
-		"cost" : {
-			"gold" : 1250
-		},
+		"cost" : {"gold" : 1200},
 		"abilities#override" : {
 			"demonic" : {
 				"type" : "DEMONIC"
@@ -338,19 +325,13 @@
 			}
 		}
 	},
-	"core:devil" : {
+	"core:devil": {
 		"attack" : 20,
 		"defense" : 20,
-		"damage" : {
-			"min" : 30,
-			"max" : 50
-		},
+		"damage" : {"min" : 30, "max" : 50},
 		"aiValue" : 5450,
 		"fightValue" : 3875,
-		"cost" : {
-			"gold" : 2750,
-			"mercury" : 1
-		},
+		"cost" : {"gold" : 2750, "mercury" : 1},
 		"abilities" : {
 			"demonic" : {
 				"type" : "DEMONIC"
@@ -382,19 +363,13 @@
 			}
 		}
 	},
-	"core:archDevil" : {
+	"core:archDevil": {
 		"attack" : 30,
 		"defense" : 25,
-		"damage" : {
-			"min" : 30,
-			"max" : 50
-		},
+		"damage" : {"min" : 30, "max" : 50},
 		"aiValue" : 7600,
 		"fightValue" : 5500,
-		"cost" : {
-			"gold" : 5000,
-			"mercury" : 2
-		},
+		"cost" : {"gold" : 5000, "mercury" : 2},
 		"abilities" : {
 			"demonic" : {
 				"type" : "DEMONIC"
