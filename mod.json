@@ -4,8 +4,10 @@
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
 	"version" : "Public Beta 1.4.0",
 	"modType" : "Expansion",
-	"compatibility" : {"min" : "1.7.2"},
-	
+	"compatibility" : {
+		"min" : "1.7.2"
+	},
+
 	"changelog" : {
 		"Public Beta 1.4.0" : [
 			"Added alternate upgrades to Cove",
@@ -39,7 +41,7 @@
 			"Gate Devils Power 1/1/2 → 1/1/1",
 			"Gate Devils (Specialty) Power 1/1/2 → 1/1/1",
 			"Gate Arch Devils (Specialty) Cost 150/135/120 → 210/180/150"
-		],		
+		],
 		"Public Beta 1.2.2" : [
 			"Moved Neutral Dragon faction changes to a submod",
 			"Rust Dragon Acid Breath Damage chance 25% → 50%",
@@ -95,8 +97,8 @@
 		"Public Beta 1.0.0" : [
 			"Initial public release"
 		]
-    },	
-	
+	},
+
 	"conflicts" : [
 		"an-expansion",
 		"medusa-mod",
@@ -111,7 +113,7 @@
 		"wake-of-gods",
 		"zefix"
 	],
-	
+
 	"depends" : [
 		"hota.bulwark",
 		"hota.cannon",
@@ -127,51 +129,50 @@
 		"new-old-spells-plus",
 		"vcmi-extras.bonusicons.bonus icons"
 	],
-	
+
 	"bonuses" : [
 		"config/bonuses/demonic.json"
 	],
-	
+
 	"skills" : [
 		"config/skills/gating.json",
 		"config/skills/gatingNightmareSpec.json",
 		"config/skills/gatingDevilSpec.json",
-		
+
 		"config/skills/darkMagic.json",
 		"config/skills/lightMagic.json",
-		
+
 		"config/skills/rebalance.json"
 	],
 
 	"spellSchools" : {
 		"01lightSchool" : {
-			"name": "Light",
+			"name" : "Light",
 			"schoolBookmark" : "bookmarks/lightSchoolBookmark.json",
 			"schoolBorders" : "frames/lightSchoolFrames.json",
 			"schoolHeader" : "headers/lightHeader.png"
-			
 		},
 		"02darkSchool" : {
-			"name": "Dark",
+			"name" : "Dark",
 			"schoolBookmark" : "bookmarks/darkSchoolBookmark.json",
 			"schoolBorders" : "frames/darkSchoolFrames.json",
 			"schoolHeader" : "headers/darkHeader.png"
 		},
 		"03gatingSchool" : {
-			"name": "Gating",
+			"name" : "Gating",
 			"schoolBookmark" : "bookmarks/gatingSchoolBookmark.json",
 			"schoolBorders" : "frames/gatingSchoolFrames.json",
 			"schoolHeader" : "headers/gatingHeader.png"
 		}
 	},
-	
+
 	"spells" : [
 		"config/spells/spellChanges.json",
-		
+
 		"config/spells/holyWord.json",
-		
+
 		"config/spells/deathCloudDark.json",
-		
+
 		"config/spells/gateImp.json",
 		"config/spells/gateGog.json",
 		"config/spells/gateHellHound.json",
@@ -183,12 +184,12 @@
 		"config/spells/gateDevil.json",
 		"config/spells/gateDevilSpec.json",
 		"config/spells/gateArchDevil.json",
-		
+
 		"config/spells/dwarfBloodlust.json",
 		"config/spells/gremlinRepair.json",
 		"config/spells/paokaiLightning.json"
 	],
-	
+
 	"heroClasses" : [
 		"config/classes/inquisitor.json",
 		"config/classes/gatekeeper.json",
@@ -197,10 +198,10 @@
 		"config/classes/plaguespreader.json",
 		"config/classes/deathKnightNew.json"
 	],
-	
+
 	"heroes" : [
 		"config/heroes/heroChanges.json",
-		
+
 		"config/heroes/castle/cordelia.json",
 		"config/heroes/castle/ellaine.json",
 		"config/heroes/castle/gwenneth.json",
@@ -209,42 +210,42 @@
 		"config/heroes/castle/salvatore.json",
 		"config/heroes/castle/wilhelm.json",
 		"config/heroes/castle/ymoril.json",
-		
+
 		"config/heroes/rampart/akaris.json",
 		"config/heroes/rampart/findan.json",
 		"config/heroes/rampart/sanctus.json",
-		
+
 		"config/heroes/tower/atlas.json",
 		"config/heroes/tower/balindar.json",
 		"config/heroes/tower/havez.json",
-		
+
 		"config/heroes/inferno/biara.json",
 		"config/heroes/inferno/grok.json",
 		"config/heroes/inferno/khabeleth.json",
 		"config/heroes/inferno/pariah.json",
-		
+
 		"config/heroes/necropolis/ariana.json",
 		"config/heroes/necropolis/kaspar.json",
 		"config/heroes/necropolis/ludmilla.json",
 		"config/heroes/necropolis/merikh.json",
 		"config/heroes/necropolis/naadir.json",
-		
+
 		"config/heroes/dungeon/euryale.json",
-		
+
 		"config/heroes/stronghold/gotai.json",
-		
+
 		"config/heroes/fortress/haggash.json",
-		
+
 		"config/heroes/conflux/kalindra.json",
 		"config/heroes/conflux/sinithala.json",
 		"config/heroes/conflux/stratus.json",
 		"config/heroes/conflux/tempest.json",
-		
+
 		"config/heroes/cove/jormungandr.json",
-		
+
 		"config/heroes/factory/ixchel.json",
 		"config/heroes/factory/kastore.json",
-		
+
 		"config/heroes/bulwark/hrimnir.json"
 	],
 
@@ -271,7 +272,7 @@
 		"config/creatures/castle/lvl6Alt",
 		"config/creatures/castle/lvl7Alt",
 		"config/creatures/castle/rebalance",
-		
+
 		"config/creatures/rampart/rampart",
 		"config/creatures/rampart/lvl1Alt",
 		"config/creatures/rampart/lvl2Alt",
@@ -281,7 +282,7 @@
 		"config/creatures/rampart/lvl6Alt",
 		"config/creatures/rampart/lvl7Alt",
 		"config/creatures/rampart/rebalance",
-		
+
 		"config/creatures/tower/tower",
 		"config/creatures/tower/lvl1Alt",
 		"config/creatures/tower/lvl2Alt",
@@ -291,7 +292,7 @@
 		"config/creatures/tower/lvl6Alt",
 		"config/creatures/tower/lvl7Alt",
 		"config/creatures/tower/rebalance",
-		
+
 		"config/creatures/inferno/inferno",
 		"config/creatures/inferno/lvl1Alt",
 		"config/creatures/inferno/lvl2Alt",
@@ -304,7 +305,7 @@
 		"config/creatures/inferno/lvl6Alt2Upg2",
 		"config/creatures/inferno/lvl7Alt",
 		"config/creatures/inferno/rebalance",
-		
+
 		"config/creatures/necropolis/necropolis",
 		"config/creatures/necropolis/lvl1Alt",
 		"config/creatures/necropolis/lvl2Alt",
@@ -319,7 +320,7 @@
 		"config/creatures/necropolis/skeletonSharpshooter",
 		"config/creatures/necropolis/dracolich",
 		"config/creatures/necropolis/rebalance",
-		
+
 		"config/creatures/dungeon/dungeon",
 		"config/creatures/dungeon/lvl1Alt",
 		"config/creatures/dungeon/lvl2Alt",
@@ -329,7 +330,7 @@
 		"config/creatures/dungeon/lvl6Alt",
 		"config/creatures/dungeon/lvl7Alt",
 		"config/creatures/dungeon/rebalance",
-		
+
 		"config/creatures/stronghold/stronghold",
 		"config/creatures/stronghold/lvl1Alt",
 		"config/creatures/stronghold/lvl2Alt",
@@ -339,7 +340,7 @@
 		"config/creatures/stronghold/lvl6Alt",
 		"config/creatures/stronghold/lvl7Alt",
 		"config/creatures/stronghold/rebalance",
-		
+
 		"config/creatures/fortress/fortress",
 		"config/creatures/fortress/lvl1Alt",
 		"config/creatures/fortress/lvl2Alt",
@@ -349,7 +350,7 @@
 		"config/creatures/fortress/lvl6Alt",
 		"config/creatures/fortress/lvl7Alt",
 		"config/creatures/fortress/rebalance",
-		
+
 		"config/creatures/conflux/conflux",
 		"config/creatures/conflux/lvl1Alt",
 		"config/creatures/conflux/lvl2Alt",
@@ -359,7 +360,7 @@
 		"config/creatures/conflux/lvl6Alt",
 		"config/creatures/conflux/lvl7Alt",
 		"config/creatures/conflux/rebalance",
-		
+
 		"config/creatures/cove/cove",
 		"config/creatures/cove/lvl1Alt",
 		"config/creatures/cove/lvl2Alt",
@@ -368,7 +369,7 @@
 		"config/creatures/cove/lvl6Alt",
 		"config/creatures/cove/lvl7Alt",
 		"config/creatures/cove/rebalance",
-		
+
 		"config/creatures/neutral/rebalance"
 	],
 
@@ -378,7 +379,7 @@
 	],
 
 	"settings" : {
-		"combat": {
+		"combat" : {
 			"badLuckChance" : [
 				2,
 				4,
@@ -390,6 +391,6 @@
 			"levelupTotalSkillsAmount" : 3
 		}
 	},
-	
+
 	"description" : "<p style='font-size:16px; color:#333333; font-style:italic;'>Explore a whole new realm in <b>Tears of Ashan</b>, a fan-made expansion for Heroes of Might and Magic III that mixes elements of Heroes of Might and Magic V with the familiar gameplay of Heroes III.</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Heroes III x V</p> <p style='font-size:16px; color:#333333;'><b>Tears of Ashan</b> expands upon the original game with a horde of features from <b>Heroes V</b>, such as <b>alternate upgrades</b> for every creature in every faction, <b>Light and Dark Magic</b>, and mechanics such as <b>Gating</b>.  The secondary skill cap has been raised from 8 to 10 to allow for these new skills. Explore new strategies and discover more ways to play as each creature upgrade now offers unique strategic advantages. Empower your troops with the power of holy light, or send your enemies to the netherworld as they suffocate in darkness!</p> <p style='font-size:22px; color:#002366; font-weight:bold;'>Alternate Upgrades</p><p style='font-size:16px; color:#333333;'>Each faction now contains <b>21 creatures</b> instead of 14, as each creature can now choose between 2 upgrade paths. These upgraded creatures can be swapped between at any point, so long as it is done so at either a Hill Fort or a town that can recruit them. Some are supportive options that buff your troops or debuff enemy troops; some are offensive brutes that aim to take your enemies down hard and fast; and others are defensive options, there to provide cover for your shooters or bulk up your army. Each faction now has a wider set of strategies to deal with any number of situations, making adaptive gameplay even more possible!</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Conflux</p><p style='font-size:16px; color:#333333;'>While every faction has received a fair share of balance changes, the Conflux has been completely redesigned from the ground up. The core 4 Elementals are no longer \"Level 3.5 units\"; they have been given appropriate stats for their level while still retaining the key features that make both them and the overall balance of Conflux unique.</p> <p style='font-size:16px; color:#333333;'>Read and discover more online: https://sites.google.com/view/tears-of-ashan</p>"
 }

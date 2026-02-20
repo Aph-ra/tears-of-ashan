@@ -1,20 +1,33 @@
 {
-	"tidecallerAU": {
-		"name" : {"singular" : "Tidecaller", "plural" : "Tidecallers"},
+	"tidecallerAU" : {
+		"name" : {
+			"singular" : "Tidecaller",
+			"plural" : "Tidecallers"
+		},
 		"faction" : "cove",
 		"level" : 5,
 		"attack" : 14,
 		"defense" : 8,
 		"shots" : 24,
-		"damage" : {"min" : 10, "max" : 14},
+		"damage" : {
+			"min" : 10,
+			"max" : 14
+		},
 		"hitPoints" : 35,
 		"speed" : 8,
 		"growth" : 3,
 		"aiValue" : 900,
 		"fightValue" : 700,
-		"cost" : {"gold" : 575},
-		"advMapAmount" : {"min" : 8, "max" : 12},
-		"upgrades" : ["sorceress"],
+		"cost" : {
+			"gold" : 575
+		},
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 12
+		},
+		"upgrades" : [
+			"sorceress"
+		],
 		"doubleWide" : false,
 		"abilities" : {
 			"canShoot" : {
@@ -24,7 +37,11 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.weakness",
 				"val" : 100,
-				"addInfo" : [1, 0, 0],
+				"addInfo" : [
+					1,
+					0,
+					0
+				],
 				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Weakness after attacking",
 				"icon" : "zvs/Lib1.res/spellsSOD/weakness1"
 			},
@@ -32,7 +49,11 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.disruptingRay",
 				"val" : 100,
-				"addInfo" : [1, 0, 1],
+				"addInfo" : [
+					1,
+					0,
+					1
+				],
 				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Disrupting Ray after attacking",
 				"icon" : "zvs/Lib1.res/spellsSOD/disruptingray1"
 			},
@@ -55,14 +76,17 @@
 		"graphics" : {
 			"animation" : "creatures/cove/battle/lvl5Alt.json",
 			"map" : "creatures/cove/map/lvl5Alt.json",
-			"mapMask" : ["VVV","VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"iconSmall" : "creatures/cove/iconsSmall/lvl5Alt.png",
 			"iconLarge" : "creatures/cove/iconsBig/lvl5Alt.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			},
 			"missile" : {
 				"projectile" : "hota/cove/creatures/battle/projectile/PSORC.def",
@@ -92,7 +116,7 @@
 			"attack" : "hota/cove/creatures/seaWitch/SORCATTK.wav",
 			"defend" : "hota/cove/creatures/seaWitch/SORCDFND.wav",
 			"killed" : "hota/cove/creatures/seaWitch/SORCKILL.wav",
-			"move"	: "hota/cove/creatures/seaWitch/SORCMOVE.wav",
+			"move" : "hota/cove/creatures/seaWitch/SORCMOVE.wav",
 			"shoot" : "hota/cove/creatures/seaWitch/SORCSHOT.wav",
 			"wince" : "hota/cove/creatures/seaWitch/SORCWNCE.wav"
 		}

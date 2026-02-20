@@ -1,44 +1,79 @@
 {
 	"core:imp" : {
-		"upgrades": ["core:familiar", "verminAU"]
+		"upgrades" : [
+			"core:familiar",
+			"verminAU"
+		]
 	},
 	"core:familiar" : {
-		"upgrades": ["verminAU"]
+		"upgrades" : [
+			"verminAU"
+		]
 	},
 	"core:gog" : {
-		"upgrades": ["core:magog", "amalekAU"]
+		"upgrades" : [
+			"core:magog",
+			"amalekAU"
+		]
 	},
 	"core:magog" : {
-		"upgrades": ["amalekAU"]
+		"upgrades" : [
+			"amalekAU"
+		]
 	},
 	"core:hellHound" : {
-		"upgrades": ["core:cerberus", "fireHoundAU"]
+		"upgrades" : [
+			"core:cerberus",
+			"fireHoundAU"
+		]
 	},
 	"core:cerberus" : {
-		"upgrades": ["fireHoundAU"]
+		"upgrades" : [
+			"fireHoundAU"
+		]
 	},
 	"core:demon" : {
-		"upgrades": ["core:hornedDemon", "goreDemonAU"]
+		"upgrades" : [
+			"core:hornedDemon",
+			"goreDemonAU"
+		]
 	},
 	"core:hornedDemon" : {
-		"upgrades": ["goreDemonAU"]
+		"upgrades" : [
+			"goreDemonAU"
+		]
 	},
 	"core:pitFiend" : {
-		"upgrades": ["core:pitLord", "pitSpawnAU"]
+		"upgrades" : [
+			"core:pitLord",
+			"pitSpawnAU"
+		]
 	},
 	"core:pitLord" : {
-		"upgrades": ["pitSpawnAU"]
+		"upgrades" : [
+			"pitSpawnAU"
+		]
 	},
 	"core:efreet" : {
-		"upgrades": ["core:efreetSultan", "efreetSufiAU"]
+		"upgrades" : [
+			"core:efreetSultan",
+			"efreetSufiAU"
+		]
 	},
 	"core:efreetSultan" : {
-		"upgrades": ["efreetSufiAU"]
+		"upgrades" : [
+			"efreetSufiAU"
+		]
 	},
 	"core:devil" : {
-		"upgrades": ["core:archDevil", "archDemonAU"]
+		"upgrades" : [
+			"core:archDevil",
+			"archDemonAU"
+		]
 	},
 	"core:archDevil" : {
-		"upgrades": ["archDemonAU"]
+		"upgrades" : [
+			"archDemonAU"
+		]
 	}
 }
