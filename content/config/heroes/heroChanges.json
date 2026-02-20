@@ -4171,7 +4171,7 @@
 		"special" : false,
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Nix, Nix Warriors, and Nix Retiarii by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+				"description" : "Increases the Speed of allied Nix, Nix Warriors, and Nix Praetorians by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
 				"name" : "Nix",
 				"tooltip" : "Creature Bonus: Nix"
 			}
