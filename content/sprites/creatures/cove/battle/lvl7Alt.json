@@ -1,0 +1,450 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "chaspidA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "chaspidA001.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "chaspidA002.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "chaspidA003.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "chaspidA004.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "chaspidA005.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "chaspidA006.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "chaspidA007.png"
+        },
+        {
+            "group": 0,
+            "frame": 8,
+            "file": "chaspidA008.png"
+        },
+        {
+            "group": 0,
+            "frame": 9,
+            "file": "chaspidA009.png"
+        },
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "chaspidB000.png"
+        },
+        {
+            "group": 1,
+            "frame": 1,
+            "file": "chaspidB001.png"
+        },
+        {
+            "group": 1,
+            "frame": 2,
+            "file": "chaspidB002.png"
+        },
+        {
+            "group": 1,
+            "frame": 3,
+            "file": "chaspidB003.png"
+        },
+        {
+            "group": 1,
+            "frame": 4,
+            "file": "chaspidB004.png"
+        },
+        {
+            "group": 1,
+            "frame": 5,
+            "file": "chaspidB005.png"
+        },
+        {
+            "group": 1,
+            "frame": 6,
+            "file": "chaspidB006.png"
+        },
+        {
+            "group": 1,
+            "frame": 7,
+            "file": "chaspidB007.png"
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "chaspidC000.png"
+        },
+        {
+            "group": 2,
+            "frame": 1,
+            "file": "chaspidC001.png"
+        },
+        {
+            "group": 2,
+            "frame": 2,
+            "file": "chaspidC002.png"
+        },
+        {
+            "group": 2,
+            "frame": 3,
+            "file": "chaspidC003.png"
+        },
+        {
+            "group": 2,
+            "frame": 4,
+            "file": "chaspidC004.png"
+        },
+        {
+            "group": 2,
+            "frame": 5,
+            "file": "chaspidC005.png"
+        },
+        {
+            "group": 2,
+            "frame": 6,
+            "file": "chaspidC004.png"
+        },
+        {
+            "group": 2,
+            "frame": 7,
+            "file": "chaspidC003.png"
+        },
+        {
+            "group": 2,
+            "frame": 8,
+            "file": "chaspidC002.png"
+        },
+        {
+            "group": 2,
+            "frame": 9,
+            "file": "chaspidC001.png"
+        },
+        {
+            "group": 2,
+            "frame": 10,
+            "file": "chaspidC000.png"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "chaspidD000.png"
+        },
+        {
+            "group": 3,
+            "frame": 1,
+            "file": "chaspidD001.png"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "chaspidD002.png"
+        },
+        {
+            "group": 3,
+            "frame": 3,
+            "file": "chaspidD003.png"
+        },
+        {
+            "group": 3,
+            "frame": 4,
+            "file": "chaspidD004.png"
+        },
+        {
+            "group": 3,
+            "frame": 5,
+            "file": "chaspidD005.png"
+        },
+        {
+            "group": 3,
+            "frame": 6,
+            "file": "chaspidD006.png"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "chaspidE000.png"
+        },
+        {
+            "group": 4,
+            "frame": 1,
+            "file": "chaspidE001.png"
+        },
+        {
+            "group": 4,
+            "frame": 2,
+            "file": "chaspidE002.png"
+        },
+        {
+            "group": 4,
+            "frame": 3,
+            "file": "chaspidE003.png"
+        },
+        {
+            "group": 4,
+            "frame": 4,
+            "file": "chaspidE003.png"
+        },
+        {
+            "group": 4,
+            "frame": 5,
+            "file": "chaspidE003.png"
+        },
+        {
+            "group": 4,
+            "frame": 6,
+            "file": "chaspidE003.png"
+        },
+        {
+            "group": 4,
+            "frame": 7,
+            "file": "chaspidE002.png"
+        },
+        {
+            "group": 4,
+            "frame": 8,
+            "file": "chaspidE001.png"
+        },
+        {
+            "group": 4,
+            "frame": 9,
+            "file": "chaspidE000.png"
+        },
+        {
+            "group": 5,
+            "frame": 0,
+            "file": "chaspidF000.png"
+        },
+        {
+            "group": 5,
+            "frame": 1,
+            "file": "chaspidF001.png"
+        },
+        {
+            "group": 5,
+            "frame": 2,
+            "file": "chaspidF002.png"
+        },
+        {
+            "group": 5,
+            "frame": 3,
+            "file": "chaspidF003.png"
+        },
+        {
+            "group": 5,
+            "frame": 4,
+            "file": "chaspidF004.png"
+        },
+        {
+            "group": 5,
+            "frame": 5,
+            "file": "chaspidF005.png"
+        },
+        {
+            "group": 5,
+            "frame": 6,
+            "file": "chaspidF006.png"
+        },
+        {
+            "group": 5,
+            "frame": 7,
+            "file": "chaspidF007.png"
+        },
+        {
+            "group": 7,
+            "frame": 0,
+            "file": "chaspidG000.png"
+        },
+        {
+            "group": 7,
+            "frame": 1,
+            "file": "chaspidG001.png"
+        },
+        {
+            "group": 8,
+            "frame": 0,
+            "file": "chaspidG001.png"
+        },
+        {
+            "group": 8,
+            "frame": 1,
+            "file": "chaspidG000.png"
+        },
+        {
+            "group": 9,
+            "frame": 0,
+            "file": "chaspidG000.png"
+        },
+        {
+            "group": 9,
+            "frame": 1,
+            "file": "chaspidG001.png"
+        },
+        {
+            "group": 10,
+            "frame": 0,
+            "file": "chaspidG001.png"
+        },
+        {
+            "group": 10,
+            "frame": 1,
+            "file": "chaspidG000.png"
+        },
+        {
+            "group": 11,
+            "frame": 0,
+            "file": "chaspidK000.png"
+        },
+        {
+            "group": 11,
+            "frame": 1,
+            "file": "chaspidK001.png"
+        },
+        {
+            "group": 11,
+            "frame": 2,
+            "file": "chaspidK002.png"
+        },
+        {
+            "group": 11,
+            "frame": 3,
+            "file": "chaspidK003.png"
+        },
+        {
+            "group": 11,
+            "frame": 4,
+            "file": "chaspidK004.png"
+        },
+        {
+            "group": 11,
+            "frame": 5,
+            "file": "chaspidK005.png"
+        },
+        {
+            "group": 11,
+            "frame": 6,
+            "file": "chaspidK006.png"
+        },
+        {
+            "group": 12,
+            "frame": 0,
+            "file": "chaspidL000.png"
+        },
+        {
+            "group": 12,
+            "frame": 1,
+            "file": "chaspidL001.png"
+        },
+        {
+            "group": 12,
+            "frame": 2,
+            "file": "chaspidL002.png"
+        },
+        {
+            "group": 12,
+            "frame": 3,
+            "file": "chaspidL003.png"
+        },
+        {
+            "group": 12,
+            "frame": 4,
+            "file": "chaspidL004.png"
+        },
+        {
+            "group": 12,
+            "frame": 5,
+            "file": "chaspidL005.png"
+        },
+        {
+            "group": 12,
+            "frame": 6,
+            "file": "chaspidL006.png"
+        },
+        {
+            "group": 13,
+            "frame": 0,
+            "file": "chaspidM000.png"
+        },
+        {
+            "group": 13,
+            "frame": 1,
+            "file": "chaspidM001.png"
+        },
+        {
+            "group": 13,
+            "frame": 2,
+            "file": "chaspidM002.png"
+        },
+        {
+            "group": 13,
+            "frame": 3,
+            "file": "chaspidM003.png"
+        },
+        {
+            "group": 13,
+            "frame": 4,
+            "file": "chaspidM004.png"
+        },
+        {
+            "group": 13,
+            "frame": 5,
+            "file": "chaspidM005.png"
+        },
+        {
+            "group": 13,
+            "frame": 6,
+            "file": "chaspidM006.png"
+        },
+        {
+            "group": 20,
+            "frame": 0,
+            "file": "chaspidN000.png"
+        },
+        {
+            "group": 20,
+            "frame": 1,
+            "file": "chaspidN001.png"
+        },
+        {
+            "group": 20,
+            "frame": 2,
+            "file": "chaspidN002.png"
+        },
+        {
+            "group": 21,
+            "frame": 0,
+            "file": "chaspidO000.png"
+        },
+        {
+            "group": 21,
+            "frame": 1,
+            "file": "chaspidO001.png"
+        },
+        {
+            "group": 21,
+            "frame": 2,
+            "file": "chaspidO002.png"
+        }
+    ],
+    "basepath": "creatures/cove/battle/lvl7Alt/"
+}
