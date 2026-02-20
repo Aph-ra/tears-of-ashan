@@ -1,34 +1,21 @@
 {
 	"nightmareAU" : {
-		"name" : {
-			"singular" : "Nightmare",
-			"plural" : "Nightmares"
-		},
-		"faction" : "inferno",
-		"level" : 6,
+		"name" : {"singular" : "Nightmare", "plural" : "Nightmares"},
+		"faction": "inferno",
+		"level": 6,
 		"attack" : 19,
 		"defense" : 15,
-		"damage" : {
-			"min" : 22,
-			"max" : 26
-		},
+		"damage" : {"min" : 22, "max" : 26},
 		"hitPoints" : 110,
 		"speed" : 9,
 		"growth" : 2,
 		"aiValue" : 2650,
 		"fightValue" : 2500,
-		"cost" : {
-			"gold" : 1500
-		},
-		"advMapAmount" : {
-			"min" : 5,
-			"max" : 10
-		},
-		"upgrades" : [
-			"hellStallionAU"
-		],
+		"cost" : {"gold" : 1500},
+		"advMapAmount" : {"min" : 5, "max" : 10},
+		"upgrades": ["hellStallionAU"],
 		"doubleWide" : true,
-		"abilities" : {
+		"abilities": {
 			"demonic" : {
 				"type" : "DEMONIC"
 			},
@@ -51,11 +38,10 @@
 			"fearsome" : {
 				"type" : "FEARFUL",
 				"val" : 10,
-				"propagator" : "BATTLE_WIDE",
+				"propagator": "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [
-					"OPPOSITE_SIDE",
-					{
+				"limiters" : [ 
+					"OPPOSITE_SIDE", {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "LIVING"
 					}
@@ -89,17 +75,17 @@
 			"iconLarge" : "creatures/inferno/iconsBig/lvl6AltUpg1.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
-				"walk" : 1.2,
-				"idle" : 10.0,
-				"attack" : 1.0
+				"walk" : 1.20,
+				"idle" : 10.00,
+				"attack" : 1.00
 			}
 		},
 		"sound" : {
-			"attack" : "BGORATTK.wav",
-			"defend" : "BGORDFND.wav",
-			"killed" : "BGORKILL.wav",
-			"move" : "BGORMOVE.wav",
-			"wince" : "BGORWNCE.wav"
+			"attack": "BGORATTK.wav",
+			"defend": "BGORDFND.wav",
+			"killed": "BGORKILL.wav",
+			"move": "BGORMOVE.wav",
+			"wince": "BGORWNCE.wav"
 		}
 	}
 }

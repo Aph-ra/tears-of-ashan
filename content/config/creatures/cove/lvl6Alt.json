@@ -1,53 +1,43 @@
 {
-	"nixRetiariusAU" : {
-		"name" : {
-			"singular" : "Nix Retiarius",
-			"plural" : "Nix Retiarii"
-		},
+	"nixPraetorianAU": {
+		"name" : {"singular" : "Nix Praetorian", "plural" : "Nix Praetorians"},
 		"faction" : "cove",
 		"level" : 6,
 		"attack" : 16,
 		"defense" : 16,
-		"damage" : {
-			"min" : 20,
-			"max" : 24
-		},
-		"hitPoints" : 80,
-		"speed" : 9,
+		"damage" : {"min" : 20, "max" : 24},
+		"hitPoints" : 100,
+		"speed" : 8,
 		"growth" : 2,
 		"aiValue" : 2150,
 		"fightValue" : 1775,
-		"cost" : {
-			"gold" : 1300
-		},
-		"advMapAmount" : {
-			"min" : 5,
-			"max" : 10
-		},
-		"upgrades" : [
-			"nixWarrior"
-		],
+		"cost" : {"gold" : 1300},
+		"advMapAmount" : {"min" : 5, "max" : 10},
+		"upgrades" : ["nixWarrior"],
 		"doubleWide" : true,
 		"abilities" : {
 			"attackReduction" : {
 				"type" : "ENEMY_ATTACK_REDUCTION",
-				"val" : 45
+				"val" : 30
+			},
+			"binds" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "bind",
+				"val" : 50,
+				"icon" : "zvs/Lib1.res/sticky.png"
 			}
 		},
 		"graphics" : {
 			"animation" : "creatures/cove/battle/lvl6Alt.def",
 			"map" : "creatures/cove/map/lvl6Alt.def",
-			"mapMask" : [
-				"VVV",
-				"VAV"
-			],
+			"mapMask" : ["VVV","VAV"],
 			"iconSmall" : "creatures/cove/iconsSmall/lvl6Alt.png",
 			"iconLarge" : "creatures/cove/iconsBig/lvl6Alt.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
-				"walk" : 1.0,
-				"idle" : 10.0,
-				"attack" : 1.0
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
 			}
 		},
 		"sound" : {

@@ -1,5 +1,5 @@
 {
-	"hota.cove:crewmate" : {
+	"hota.cove:crewmate": {
 		"abilities" : {
 			"generateGold" : {
 				"type" : "GENERATE_RESOURCE",
@@ -17,14 +17,17 @@
 			}
 		}
 	},
-
-	"hota.cove:seaman" : {
-		"hitPoints" : 18,
+	
+	"hota.cove:seaman": {
+		"speed" : 7,
+		"cost" : {"gold" : 150},
+		"aiValue" : 200,
+		"fightValue" : 200,
 		"abilities" : {
 			"generateGold" : {
 				"type" : "GENERATE_RESOURCE",
 				"subtype" : "gold",
-				"val" : 7,
+				"val" : 8,
 				"propagator" : "HERO",
 				"updater" : {
 					"type" : "TIMES_ARMY_SIZE",
@@ -37,16 +40,15 @@
 			}
 		}
 	},
-
-	"hota.cove:pirate" : {
+	
+	"hota.cove:pirate": {
 		"abilities" : {
 			"navigationBonus" : {
 				"subtype" : "heroMovementSea",
 				"type" : "MOVEMENT",
 				"val" : 300,
 				"valueType" : "ADDITIVE_VALUE",
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "CREATURE_TERRAIN_LIMITER",
 						"terrain" : "water"
 					}
@@ -57,16 +59,16 @@
 			}
 		}
 	},
-
-	"hota.cove:corsair" : {
+	
+	"hota.cove:corsair": {
+		"shots" : 8,
 		"abilities" : {
 			"navigationBonus" : {
 				"subtype" : "heroMovementSea",
 				"type" : "MOVEMENT",
 				"val" : 600,
 				"valueType" : "ADDITIVE_VALUE",
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "CREATURE_TERRAIN_LIMITER",
 						"terrain" : "water"
 					}
@@ -77,16 +79,15 @@
 			}
 		}
 	},
-
-	"hota.cove:seadog" : {
+	
+	"hota.cove:seadog": {
 		"abilities" : {
 			"navigationBonus" : {
 				"subtype" : "heroMovementSea",
 				"type" : "MOVEMENT",
 				"val" : 900,
 				"valueType" : "ADDITIVE_VALUE",
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "CREATURE_TERRAIN_LIMITER",
 						"terrain" : "water"
 					}
@@ -97,21 +98,21 @@
 			}
 		}
 	},
-
-	"hota.cove:ayssid" : {
+	
+	"hota.cove:stormbird": {
+		"damage" : {"min" : 6, "max" : 10}
+	},
+	
+	"hota.cove:ayssid": {
 		"attack" : 12,
-		"damage" : {
-			"min" : 6,
-			"max" : 12
-		},
+		"damage" : {"min" : 6, "max" : 12},
 		"aiValue" : 700,
 		"fightValue" : 500,
-		"cost" : {
-			"gold" : 350
-		}
+		"cost" : {"gold" : 350}
 	},
-
-	"hota.cove:seaWitch" : {
+	
+	"hota.cove:seaWitch": {
+		"cost" : {"gold" : 500},
 		"abilities#override" : {
 			"canShoot" : {
 				"type" : "SHOOTER"
@@ -120,11 +121,7 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.weakness",
 				"val" : 100,
-				"addInfo" : [
-					1,
-					0,
-					0
-				],
+				"addInfo" : [1, 0, 0],
 				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Weakness after attacking",
 				"icon" : "zvs/Lib1.res/spellsSOD/weakness1"
 			},
@@ -132,26 +129,21 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.disruptingRay",
 				"val" : 100,
-				"addInfo" : [
-					1,
-					0,
-					1
-				],
+				"addInfo" : [1, 0, 1],
 				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Disrupting Ray after attacking",
 				"icon" : "zvs/Lib1.res/spellsSOD/disruptingray1"
 			}
 		}
 	},
-
-	"hota.cove:sorceress" : {
+	
+	"hota.cove:sorceress": {
 		"defense" : 10,
 		"shots" : 24,
+		"damage" : {"min" : 12, "max" : 16},
 		"hitPoints" : 45,
-		"aiValue" : 900,
-		"fightValue" : 700,
-		"cost" : {
-			"gold" : 575
-		},
+		"aiValue" : 1100,
+		"fightValue" : 950,
+		"cost" : {"gold" : 650},
 		"abilities#override" : {
 			"canShoot" : {
 				"type" : "SHOOTER"
@@ -160,11 +152,7 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.weakness",
 				"val" : 100,
-				"addInfo" : [
-					2,
-					0,
-					0
-				],
+				"addInfo" : [2, 0, 0],
 				"description" : "{Cast After Attack}\nHas a 100% chance to cast Advanced Weakness after attacking",
 				"icon" : "zvs/Lib1.res/spellsSOD/weakness2"
 			},
@@ -172,26 +160,23 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.disruptingRay",
 				"val" : 100,
-				"addInfo" : [
-					2,
-					0,
-					1
-				],
+				"addInfo" : [2, 0, 1],
 				"description" : "{Cast After Attack}\nHas a 100% chance to cast Advanced Disrupting Ray after attacking",
 				"icon" : "zvs/Lib1.res/spellsSOD/disruptingray2"
 			}
 		}
 	},
-
-	"hota.cove:nixWarrior" : {
+	
+	"hota.cove:nixWarrior": {
 		"defense" : 18,
 		"aiValue" : 2150,
 		"fightValue" : 1775
 	},
-
-	"hota.cove:haspid" : {
+	
+	"hota.cove:haspid": {
 		"attack" : 30,
+		"speed" : 13,
 		"aiValue" : 7300,
 		"fightValue" : 5600
-	}
+	},
 }
