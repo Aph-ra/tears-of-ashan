@@ -1,50 +1,50 @@
 {
-	"images" : [
-		{
-			"group" : 0,
-			"frame" : 0,
-			"file" : "AVWOCEANA000.png"
-		},
-		{
-			"group" : 0,
-			"frame" : 1,
-			"file" : "AVWOCEANA001.png"
-		},
-		{
-			"group" : 0,
-			"frame" : 2,
-			"file" : "AVWOCEANA002.png"
-		},
-		{
-			"group" : 0,
-			"frame" : 3,
-			"file" : "AVWOCEANA003.png"
-		},
-		{
-			"group" : 0,
-			"frame" : 4,
-			"file" : "AVWOCEANA004.png"
-		},
-		{
-			"group" : 0,
-			"frame" : 5,
-			"file" : "AVWOCEANA005.png"
-		},
-		{
-			"group" : 0,
-			"frame" : 6,
-			"file" : "AVWOCEANA006.png"
-		},
-		{
-			"group" : 0,
-			"frame" : 7,
-			"file" : "AVWOCEANA007.png"
-		},
-		{
-			"group" : 0,
-			"frame" : 8,
-			"file" : "AVWOCEANA008.png"
-		}
-	],
-	"basepath" : "creatures/cove/map/lvl1Alt/"
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "AVWOCEANA000.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "AVWOCEANA001.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "AVWOCEANA002.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "AVWOCEANA003.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "AVWOCEANA004.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "AVWOCEANA005.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "AVWOCEANA006.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "AVWOCEANA007.png"
+        },
+        {
+            "group": 0,
+            "frame": 8,
+            "file": "AVWOCEANA008.png"
+        }
+    ],
+    "basepath": "creatures/cove/map/lvl1Alt/"
 }
