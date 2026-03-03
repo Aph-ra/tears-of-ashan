@@ -70,9 +70,9 @@
 			"gold" : 650
 		},
 		"abilities" : {
-			"extraAttack" : {
-				"type" : "ADDITIONAL_ATTACK",
-				"val" : 1
+			"reduceDefence" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 40
 			}
 		}
 	},

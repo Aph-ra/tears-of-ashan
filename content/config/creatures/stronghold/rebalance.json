@@ -1,4 +1,23 @@
 {
+	"core:goblin" : {
+		"abilities" : {
+			"battlecryBonus" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"propagator" : "HERO",
+				"updater" : {
+					"type" : "TIMES_HERO_LEVEL",
+					"stepSize" : 2
+				},
+				"limiters" : [ {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "BATTLECRY_BONUS"
+					}
+				]
+			}
+		}
+	},
 	"core:hobgoblin" : {
 		"aiValue" : 85,
 		"fightValue" : 85,
@@ -6,6 +25,21 @@
 			"gold" : 60
 		},
 		"abilities" : {
+			"battlecryBonus" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"propagator" : "HERO",
+				"updater" : {
+					"type" : "TIMES_HERO_LEVEL",
+					"stepSize" : 2
+				},
+				"limiters" : [ {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "BATTLECRY_BONUS"
+					}
+				]
+			},
 			"bloodlustAttack" : {
 				"type" : "SPELL_BEFORE_ATTACK",
 				"subtype" : "bloodlust",
@@ -23,15 +57,68 @@
 			}
 		}
 	},
+	"core:goblinWolfRider" : {
+		"abilities" : {
+			"battlecryBonus" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"propagator" : "HERO",
+				"updater" : {
+					"type" : "TIMES_HERO_LEVEL",
+					"stepSize" : 2
+				},
+				"limiters" : [ {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "BATTLECRY_BONUS"
+					}
+				]
+			}
+		}
+	},
 	"core:hobgoblinWolfRider" : {
 		"defense" : 6,
 		"aiValue" : 210,
-		"fightValue" : 180
+		"fightValue" : 180,
+		"abilities" : {
+			"battlecryBonus" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"propagator" : "HERO",
+				"updater" : {
+					"type" : "TIMES_HERO_LEVEL",
+					"stepSize" : 2
+				},
+				"limiters" : [ {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "BATTLECRY_BONUS"
+					}
+				]
+			}
+		}
 	},
 	"core:orc" : {
 		"speed" : 5,
 		"aiValue" : 200,
-		"fightValue" : 180
+		"fightValue" : 180,
+		"abilities" : {
+			"battlecryBonus" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"propagator" : "HERO",
+				"updater" : {
+					"type" : "TIMES_HERO_LEVEL",
+					"stepSize" : 2
+				},
+				"limiters" : [ {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "BATTLECRY_BONUS"
+					}
+				]
+			}
+		}
 	},
 	"core:orcChieftain" : {
 		"speed" : 6,
@@ -41,6 +128,21 @@
 			"gold" : 180
 		},
 		"abilities" : {
+			"battlecryBonus" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"propagator" : "HERO",
+				"updater" : {
+					"type" : "TIMES_HERO_LEVEL",
+					"stepSize" : 2
+				},
+				"limiters" : [ {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "BATTLECRY_BONUS"
+					}
+				]
+			},
 			"extraAttack" : {
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
@@ -49,13 +151,47 @@
 		}
 	},
 	"core:ogre" : {
-		"defense" : 8
+		"defense" : 8,
+		"abilities" : {
+			"battlecryBonus" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"propagator" : "HERO",
+				"updater" : {
+					"type" : "TIMES_HERO_LEVEL",
+					"stepSize" : 2
+				},
+				"limiters" : [ {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "BATTLECRY_BONUS"
+					}
+				]
+			}
+		}
 	},
 	"core:ogreMage" : {
 		"defense" : 10,
 		"speed" : 6,
 		"aiValue" : 700,
-		"fightValue" : 700
+		"fightValue" : 700,
+		"abilities" : {
+			"battlecryBonus" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"propagator" : "HERO",
+				"updater" : {
+					"type" : "TIMES_HERO_LEVEL",
+					"stepSize" : 2
+				},
+				"limiters" : [ {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "BATTLECRY_BONUS"
+					}
+				]
+			}
+		}
 	},
 	"core:roc" : {
 		"attack" : 14,
@@ -70,6 +206,23 @@
 		"fightValue" : 720,
 		"cost" : {
 			"gold" : 500
+		},
+		"abilities" : {
+			"battlecryBonus" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"propagator" : "HERO",
+				"updater" : {
+					"type" : "TIMES_HERO_LEVEL",
+					"stepSize" : 2
+				},
+				"limiters" : [ {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "BATTLECRY_BONUS"
+					}
+				]
+			}
 		}
 	},
 	"core:thunderbird" : {
@@ -82,6 +235,21 @@
 		"aiValue" : 1150,
 		"fightValue" : 900,
 		"abilities#override" : {
+			"battlecryBonus" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"propagator" : "HERO",
+				"updater" : {
+					"type" : "TIMES_HERO_LEVEL",
+					"stepSize" : 2
+				},
+				"limiters" : [ {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "BATTLECRY_BONUS"
+					}
+				]
+			},
 			"canFly" : {
 				"type" : "FLYING"
 			},
@@ -97,11 +265,66 @@
 			}
 		}
 	},
+	"core:cyclop" : {
+		"abilities" : {
+			"battlecryBonus" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"propagator" : "HERO",
+				"updater" : {
+					"type" : "TIMES_HERO_LEVEL",
+					"stepSize" : 2
+				},
+				"limiters" : [ {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "BATTLECRY_BONUS"
+					}
+				]
+			}
+		}
+	},
 	"core:cyclopKing" : {
 		"attack" : 18,
 		"defense" : 12,
 		"cost" : {
 			"gold" : 1000
+		},
+		"abilities" : {
+			"battlecryBonus" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"propagator" : "HERO",
+				"updater" : {
+					"type" : "TIMES_HERO_LEVEL",
+					"stepSize" : 2
+				},
+				"limiters" : [ {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "BATTLECRY_BONUS"
+					}
+				]
+			}
+		}
+	},
+	"core:behemoth" : {
+		"abilities" : {
+			"battlecryBonus" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"propagator" : "HERO",
+				"updater" : {
+					"type" : "TIMES_HERO_LEVEL",
+					"stepSize" : 2
+				},
+				"limiters" : [ {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "BATTLECRY_BONUS"
+					}
+				]
+			}
 		}
 	},
 	"core:ancientBehemoth" : {
@@ -112,6 +335,23 @@
 		"cost" : {
 			"gold" : 3000,
 			"crystal" : 2
+		},
+		"abilities" : {
+			"battlecryBonus" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"propagator" : "HERO",
+				"updater" : {
+					"type" : "TIMES_HERO_LEVEL",
+					"stepSize" : 2
+				},
+				"limiters" : [ {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "BATTLECRY_BONUS"
+					}
+				]
+			}
 		}
 	}
 }

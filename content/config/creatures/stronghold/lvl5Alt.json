@@ -29,6 +29,21 @@
 		],
 		"doubleWide" : true,
 		"abilities" : {
+			"battlecryBonus" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"propagator" : "HERO",
+				"updater" : {
+					"type" : "TIMES_HERO_LEVEL",
+					"stepSize" : 2
+				},
+				"limiters" : [ {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "BATTLECRY_BONUS"
+					}
+				]
+			},
 			"canFly" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"

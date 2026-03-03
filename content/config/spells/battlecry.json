@@ -1,0 +1,114 @@
+{
+	"battlecry" : {
+		"type" : "combat",
+		"name" : "Battlecry",
+		"school" : {
+			"04warcriesSchool" : true
+		},
+		"level" : 3,
+		"power" : 10,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"stronghold" : 0
+		},
+
+		"flags" : {
+			"positive" : true
+		},
+
+		"targetCondition" : {
+			"anyOf" : {
+				"core:creature.goblin" : "absolute",
+				"core:creature.hobgoblin" : "absolute",
+				"tearsofashan:creature.goblinTrapperAU" : "absolute",
+				"core:creature.goblinWolfRider" : "absolute",
+				"core:creature.hobgoblinWolfRider" : "absolute",
+				"core:creature.boar" : "absolute",
+				"core:creature.orc" : "absolute",
+				"core:creature.orcChieftain" : "absolute",
+				"tearsofashan:creature.orcBerserkerAU" : "absolute",
+				"core:creature.ogre" : "absolute",
+				"core:creature.ogreMage" : "absolute",
+				"tearsofashan:creature.ogreBruteAU" : "absolute",
+				"core:creature.roc" : "absolute",
+				"core:creature.thunderbird" : "absolute",
+				"tearsofashan:creature.shahrokhAU" : "absolute",
+				"core:creature.cyclop" : "absolute",
+				"core:creature.cyclopKing" : "absolute",
+				"tearsofashan:creature.bloodEyedCyclopsAU" : "absolute",
+				"core:creature.behemoth" : "absolute",
+				"core:creature.ancientBehemoth" : "absolute",
+				"tearsofashan:creature.ghostBehemothAU" : "absolute",
+			}
+		},
+
+		"graphics" : {
+			"iconBook" : "spells/battlecry/spellBook",
+			"iconScroll" : "spells/battlecry/spellScroll",
+			"iconScenarioBonus" : "spells/battlecry/spellBonus",
+			"iconEffect" : "spells/battlecry/spellEffect"
+		},
+
+		"animation" : {
+			"affect" : [
+				"C01SPF"
+			]
+		},
+
+		"sounds" : {
+			"cast" : "BERSERK"
+		},
+
+		"targetType" : "CREATURE",
+
+		"levels" : {
+			"base":{
+				"range" : "X",
+				"targetModifier" : {"smart":true},
+				"effects" : {
+					"stacksAttack" : {
+						"type" : "BATTLECRY_BONUS",
+						"duration" : "N_TURNS"
+					},
+					"stacksSpeed" : {
+						"type" : "STACKS_SPEED",
+						"val" : 1,
+						"duration" : "N_TURNS"
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Battlecry}\n\nImbues allied Stronghold units with a furious cry of war.\n\nAll troops gain (Hero Level / 2) Attack and +1 Speed.\n",
+				"cost" : 16,
+				"power" : 10,
+				"effects" : {}
+			},
+			"basic" : {
+				"description" : "{Basic Battlecry}\n\nImbues allied Stronghold units with a furious cry of war.\n\nAll troops gain (Hero Level / 2) Attack and +1 Speed.\n",
+				"cost" : 16,
+				"power" : 10,
+				"effects" : {}
+			},
+			"advanced" : {
+				"description" : "{Advanced Battlecry}\n\nImbues allied Stronghold units with a furious cry of war.\n\nAll troops gain (Hero Level / 2) Attack and +2 Speed.\n",
+				"cost" : 16,
+				"power" : 10,
+				"effects" : {
+					"stacksSpeed" : {
+						"val" : 2
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Expert Battlecry}\n\nImbues allied Stronghold units with a furious cry of war.\n\nAll troops gain (Hero Level / 2) Attack and +3 Speed.\n",
+				"cost" : 16,
+				"power" : 10,
+				"effects" : {
+					"stacksSpeed" : {
+						"val" : 3
+					}
+				}
+			}
+		}
+	}
+}

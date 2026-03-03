@@ -1,0 +1,73 @@
+{
+	"hordesAnger" : {
+		"type" : "combat",
+		"name" : "Horde's Anger",
+		"school" : {
+			"04warcriesSchool" : true
+		},
+		"power" : 1,
+		"level" : 3,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"stronghold" : 0
+		},
+
+		"flags" : {
+			"damage" : true,
+			"offensive" : true,
+			"negative" : true
+		},
+
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
+		},
+
+		"graphics" : {
+			"iconBook" : "spells/hordesAnger/spellBook",
+			"iconScroll" : "spells/hordesAnger/spellScroll",
+			"iconScenarioBonus" : "spells/hordesAnger/spellBonus",
+			"iconEffect" : "spells/hordesAnger/spellEffect"
+		},
+
+		"animation" : {
+			"affect" : [
+				"C04SPE0"
+			]
+		},
+
+		"sounds" : {
+			"cast" : "DEATHRIP"
+		},
+
+		"targetType" : "CREATURE",
+
+		"levels" : {
+			"base" : {
+				"range" : "X",
+				"targetModifier":{"smart":true}
+			},
+			"none" : {
+				"description" : "{Horde's Anger}\n\nUnleashes a bellow of tribal fury that deals damage to the target enemy troop based on the sum of allied Stronghold troops present at the start of battle.\n\nEach unit takes (allied Stronghold troop quantity + 1) damage.\n",
+				"cost" : 14,
+				"power" : 0
+			},
+			"basic" : {
+				"description" : "{Basic Horde's Anger}\n\nUnleashes a bellow of tribal fury that deals damage to the target enemy troop based on the sum of allied Stronghold troops present at the start of battle.\n\nEach unit takes (allied Stronghold troop quantity + 1) damage.\n",
+				"cost" : 14,
+				"power" : 0
+			},
+			"advanced" : {
+				"description" : "{Advanced Horde's Anger}\n\nUnleashes a bellow of tribal fury that deals damage to the target enemy troop based on the sum of allied Stronghold troops present at the start of battle.\n\nEach unit takes (allied Stronghold troop quantity + 1) damage.\n",
+				"cost" : 14,
+				"power" : 0
+			},
+			"expert" : {
+				"description" : "{Expert Horde's Anger}\n\nUnleashes a bellow of tribal fury that deals damage to the target enemy troop based on the sum of allied Stronghold troops present at the start of battle.\n\nEach unit takes (allied Stronghold troop quantity + 1) damage.\n",
+				"cost" : 14,
+				"power" : 0
+			}
+		}
+	}
+}

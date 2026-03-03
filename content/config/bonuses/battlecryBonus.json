@@ -1,0 +1,13 @@
+{
+	"BATTLECRY_BONUS" : {
+		"hidden" : true,
+
+		"creatureNature" : false,
+
+		"description" : "{Battlecry}\nUnder the effect of Battlecry",
+
+		"graphics" : {
+			"icon" : "bonuses/bonusDemonic.png"
+		}
+	}
+}
