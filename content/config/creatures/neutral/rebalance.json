@@ -23,6 +23,22 @@
 			"core:hobgoblinWolfRider"
 		],
 		"abilities" : {
+			"battlecryBonus" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 1,
+				"propagator" : "HERO",
+				"updater" : {
+					"type" : "TIMES_HERO_LEVEL",
+					"stepSize" : 2
+				},
+				"limiters" : [ {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "BATTLECRY_BONUS"
+					}
+				],
+				"stacking" : "battlecry"
+			},
 			"jousting" : {
 				"type" : "JOUSTING",
 				"val" : 3
@@ -164,7 +180,8 @@
 			},
 			"fearlessBonus" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
-				"val" : 0,
+				"val" : 1,
+				"propagator" : "HERO",
 				"description" : "{Fearless}\nUnaffected by Fear",
 				"icon" : "zvs/Lib1.res/e_fearl.png"
 			}
