@@ -39,12 +39,12 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
-				]
+				],
+				"stacking" : "battlecry"
 			},
 			"castLandMine" : {
 				"type" : "SPELLCASTER",

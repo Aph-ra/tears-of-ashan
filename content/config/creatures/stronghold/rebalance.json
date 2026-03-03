@@ -10,12 +10,12 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
-				]
+				],
+				"stacking" : "battlecry"
 			}
 		}
 	},
@@ -35,12 +35,12 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
-				]
+				],
+				"stacking" : "battlecry"
 			},
 			"bloodlustAttack" : {
 				"type" : "SPELL_BEFORE_ATTACK",
@@ -70,12 +70,12 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
-				]
+				],
+				"stacking" : "battlecry"
 			}
 		}
 	},
@@ -93,12 +93,12 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
-				]
+				],
+				"stacking" : "battlecry"
 			}
 		}
 	},
@@ -116,12 +116,12 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
-				]
+				],
+				"stacking" : "battlecry"
 			}
 		}
 	},
@@ -142,12 +142,12 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
-				]
+				],
+				"stacking" : "battlecry"
 			},
 			"extraAttack" : {
 				"type" : "ADDITIONAL_ATTACK",
@@ -168,12 +168,12 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
-				]
+				],
+				"stacking" : "battlecry"
 			}
 		}
 	},
@@ -192,12 +192,12 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
-				]
+				],
+				"stacking" : "battlecry"
 			}
 		}
 	},
@@ -225,12 +225,12 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
-				]
+				],
+				"stacking" : "battlecry"
 			}
 		}
 	},
@@ -253,12 +253,12 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
-				]
+				],
+				"stacking" : "battlecry"
 			},
 			"canFly" : {
 				"type" : "FLYING"
@@ -286,12 +286,12 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
-				]
+				],
+				"stacking" : "battlecry"
 			}
 		}
 	},
@@ -311,12 +311,12 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
-				]
+				],
+				"stacking" : "battlecry"
 			}
 		}
 	},
@@ -331,12 +331,12 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
-				]
+				],
+				"stacking" : "battlecry"
 			}
 		}
 	},
@@ -359,12 +359,12 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
-				]
+				],
+				"stacking" : "battlecry"
 			}
 		}
 	}
