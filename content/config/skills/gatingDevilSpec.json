@@ -61,7 +61,7 @@
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Gating}\n\nGrants the ability to gate Demons, Succubi, and Pit Fiends.",
+			"description" : "{Advanced Gating}\n\nGrants the ability to gate Demons, Succubi, and Pit Fiends in addition to previous creatures.",
 			"effects" : {
 				"gatingSchool" : {
 					"val" : 2
@@ -85,7 +85,7 @@
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Gating}\n\nGrants the ability to gate Efreet, Hell Steeds, and Devils.",
+			"description" : "{Expert Gating}\n\nGrants the ability to gate Efreet, Hell Steeds, Devils, and Arch Devils in addition to previous creatures.",
 			"effects" : {
 				"gatingSchool" : {
 					"val" : 3
