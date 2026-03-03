@@ -47,7 +47,7 @@
 			},
 			"king1" : {
 				"type" : "KING",
-				"val" : 1,
+				"val" : 0,
 				"propagator" : "HERO",
 				"valueType" : "ADDITIVE_VALUE"
 			},
