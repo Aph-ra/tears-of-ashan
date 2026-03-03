@@ -1,0 +1,12 @@
+{
+	"images" : [
+		{
+			"frame" : 0,
+			"file" : "bookmarks/runesBookmark02.png"
+		},
+		{
+			"frame" : 1,
+			"file" : "bookmarks/runesBookmark01.png"
+		}
+	]
+}
