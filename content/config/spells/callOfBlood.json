@@ -38,7 +38,7 @@
 				"tearsofashan:creature.bloodEyedCyclopsAU" : "absolute",
 				"core:creature.behemoth" : "absolute",
 				"core:creature.ancientBehemoth" : "absolute",
-				"tearsofashan:creature.ghostBehemothAU" : "absolute"
+				"tearsofashan:creature.ghostBehemothAU" : "absolute",
 			}
 		},
 
@@ -50,11 +50,9 @@
 		},
 
 		"animation" : {
-			"affect" : [
-				{
-					"effectName" : "bloodlust"
-				}
-			]
+			"affect" : [ {
+				"effectName" : "bloodlust"
+			} ]
 		},
 
 		"sounds" : {
@@ -64,11 +62,9 @@
 		"targetType" : "CREATURE",
 
 		"levels" : {
-			"base" : {
+			"base":{
 				"range" : "0",
-				"targetModifier" : {
-					"smart" : true
-				},
+				"targetModifier" : {"smart":true},
 				"effects" : {
 					"damageMax" : {
 						"type" : "CREATURE_DAMAGE",
@@ -80,19 +76,19 @@
 				}
 			},
 			"none" : {
-				"description" : "{Call of Blood}\n\nInstills a primal fury in the target friendly Stronghold unit.\n\nThe troop gains (1 * Creature Level) Maximum Damage.\n",
+				"description" : "{Call of Blood}\n\nInstills a primal fury in the target friendly Stronghold unit.\n\nThe unit gains (1 * Creature Level) Maximum Damage.\n",
 				"cost" : 6,
 				"power" : 10,
 				"effects" : {}
 			},
 			"basic" : {
-				"description" : "{Basic Call of Blood}\n\nInstills a primal fury in the target friendly Stronghold unit.\n\nThe troop gains (1 * Creature Level) Maximum Damage.\n",
+				"description" : "{Basic Call of Blood}\n\nInstills a primal fury in the target friendly Stronghold unit.\n\nThe unit gains (1 * Creature Level) Maximum Damage.\n",
 				"cost" : 6,
 				"power" : 10,
 				"effects" : {}
 			},
 			"advanced" : {
-				"description" : "{Advanced Call of Blood}\n\nInstills a primal fury in the target friendly Stronghold unit.\n\nThe troop gains (2 * Creature Level) Maximum Damage.\n",
+				"description" : "{Advanced Call of Blood}\n\nInstills a primal fury in the target friendly Stronghold unit.\n\nThe unit gains (2 * Creature Level) Maximum Damage.\n",
 				"cost" : 6,
 				"power" : 10,
 				"effects" : {
@@ -102,7 +98,7 @@
 				}
 			},
 			"expert" : {
-				"description" : "{Expert Call of Blood}\n\nInstills a primal fury in all friendly Stronghold units.\n\nAll troops gain (2 * Creature Level) Maximum Damage.\n",
+				"description" : "{Expert Call of Blood}\n\nInstills a primal fury in all friendly Stronghold units.\n\nAll units gain (2 * Creature Level) Maximum Damage.\n",
 				"cost" : 6,
 				"power" : 10,
 				"effects" : {
