@@ -46,7 +46,9 @@
 		"levels" : {
 			"base" : {
 				"range" : "X",
-				"targetModifier":{"smart":true}
+				"targetModifier" : {
+					"smart" : true
+				}
 			},
 			"none" : {
 				"description" : "{Horde's Anger}\n\nUnleashes a bellow of tribal fury that deals damage to the target enemy troop based on the sum of allied Stronghold troops present at the start of battle.\n\nEach unit takes (allied Stronghold troop quantity + 1) damage.\n",
