@@ -1,0 +1,12 @@
+{
+	"name" : "Heroes V Cursors",
+	"author" : "Aphra",
+	"contact" : "",
+	"description" : "",
+	"version" : "1.0.0",
+	"modType" : "Interface",
+
+	"conflicts" : [
+		"tears-of-ashan.toa-h6-cursors"
+	],
+}
