@@ -1,0 +1,128 @@
+{
+	"warcries" : {
+		"name" : "Warcries",
+		"gainChance" : {
+			"might" : 0,
+			"magic" : 0,
+			"barbarian" : 10,
+			"battlemage" : 8
+		},
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"warcriesSchool" : {
+					"subtype" : "spellSchool.04warcriesSchool",
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"warcriesRallyingCryGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.rallyingCry",
+					"val" : 0
+				},
+				"warcriesCallOfBloodGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.callOfBlood",
+					"val" : 0
+				},
+				"armyMultiplier" : {
+                    "type" : "SPECIFIC_SPELL_DAMAGE",
+                    "subtype" : "spell.hordesAnger",
+                    "val" : 100,
+                    "updater" : {
+                        "type" : "TIMES_ARMY_SIZE",
+                        "filteredFaction" : "stronghold"
+                    }
+                }
+				// The following adds 25 flat damage to Horde's Anger
+				//"flatDamageAdd" : {
+                //    "type" : "SPECIFIC_SPELL_DAMAGE",
+                //    "subtype" : "spell.hordesAnger",
+                //    "val" : 2500
+                //}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Warcries}\n\nGrants the ability to shout Rallying Cry and Call of Blood.",
+			"effects" : {
+				"warcriesSchool" : {
+					"val" : 1
+				},
+				"warcriesRallyingCryGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.rallyingCry",
+					"val" : 0
+				},
+				"warcriesCallOfBloodGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.callOfBlood",
+					"val" : 0
+				}
+			},
+			"images" : {
+				"small" : "skills/warcriesSmall/1",
+				"medium" : "skills/warcriesMedium/1",
+				"large" : "skills/warcriesLarge/1",
+				"scenarioBonus" : "skills/warcriesBonus/1"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Warcries}\n\nGrants the ability to shout Fear My Roar and Word of the Chief in addition to previous shouts.",
+			"effects" : {
+				"warcriesSchool" : {
+					"val" : 2
+				},
+				"warcriesFearMyRoarGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.fearMyRoar",
+					"val" : 0
+				},
+				"warcriesWordOfTheChiefGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.wordOfTheChief",
+					"val" : 0
+				}
+			},
+			"images" : {
+				"small" : "skills/warcriesSmall/2",
+				"medium" : "skills/warcriesMedium/2",
+				"large" : "skills/warcriesLarge/2",
+				"scenarioBonus" : "skills/warcriesBonus/2"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Warcries}\n\nGrants the ability to shout Horde's Anger and Battlecry in addition to previous shouts.",
+			"effects" : {
+				"warcriesSchool" : {
+					"val" : 3
+				},
+				"warcriesFearMyRoarGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.fearMyRoar",
+					"val" : 0
+				},
+				"warcriesWordOfTheChiefGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.wordOfTheChief",
+					"val" : 0
+				},
+				"warcriesHordesAngerGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.hordesAnger",
+					"val" : 0
+				},
+				"warcriesBattlecryGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.battlecry",
+					"val" : 0
+				}
+			},
+			"images" : {
+				"small" : "skills/warcriesSmall/3",
+				"medium" : "skills/warcriesMedium/3",
+				"large" : "skills/warcriesLarge/3",
+				"scenarioBonus" : "skills/warcriesBonus/3"
+			}
+		}
+	}
+}
