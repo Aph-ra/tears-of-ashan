@@ -2,13 +2,22 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "Public Beta 1.4.0",
+	"version" : "Public Beta 1.5.0",
 	"modType" : "Expansion",
 	"compatibility" : {
-		"min" : "1.7.2"
+		"min" : "1.7.3"
 	},
 
 	"changelog" : {
+		"Public Beta 1.5.0" : [
+			"Added Warcries, a secondary skill exclusive to Stronghold heroes",
+			"Added 6 Warcry spells from Heroes V",
+			"Gotai Basic Logistics → Basic Warcries",
+			"Minotaur King Strikes Twice → Ignore Enemy Defence (40%)",
+			"Minotaur King & Minotaur Taskmaster Cost 650 → 700",
+			"Shadow Dragon Health 240 → 270",
+			"Minor text fixes"
+		],
 		"Public Beta 1.4.0" : [
 			"Added alternate upgrades to Cove",
 			"Efreet Cost 1000 → 950",
@@ -100,13 +109,16 @@
 	},
 
 	"conflicts" : [
-		"an-expansion",
+		"andruids-expansion",
+		"lotrd-townscreens",
 		"medusa-mod",
 		"more-secondary",
 		"new-old-heroes",
 		"new-summon-spells",
 		"pvp-balance",
 		"refugee-town",
+		"the-great-expansion",
+		"the-lost-tales",
 		"third-upgrades",
 		"tides-of-war",
 		"vampires-only-gameplay-enhancements",
@@ -131,16 +143,20 @@
 	],
 
 	"bonuses" : [
+		"config/bonuses/battlecryBonus.json",
 		"config/bonuses/demonic.json"
 	],
 
 	"skills" : [
+		"config/skills/darkMagic.json",
+		
+		"config/skills/lightMagic.json",
+		
 		"config/skills/gating.json",
 		"config/skills/gatingNightmareSpec.json",
 		"config/skills/gatingDevilSpec.json",
-
-		"config/skills/darkMagic.json",
-		"config/skills/lightMagic.json",
+		
+		"config/skills/warcries.json",
 
 		"config/skills/rebalance.json"
 	],
@@ -163,6 +179,12 @@
 			"schoolBookmark" : "bookmarks/gatingSchoolBookmark.json",
 			"schoolBorders" : "frames/gatingSchoolFrames.json",
 			"schoolHeader" : "headers/gatingHeader.png"
+		},
+		"04warcriesSchool" : {
+			"name" : "Warcries",
+			"schoolBookmark" : "bookmarks/warcriesSchoolBookmark.json",
+			"schoolBorders" : "frames/warcriesSchoolFrames.json",
+			"schoolHeader" : "headers/warcriesHeader.png"
 		}
 	},
 
@@ -184,6 +206,13 @@
 		"config/spells/gateDevil.json",
 		"config/spells/gateDevilSpec.json",
 		"config/spells/gateArchDevil.json",
+		
+		"config/spells/rallyingCry.json",
+		"config/spells/callOfBlood.json",
+		"config/spells/fearMyRoar.json",
+		"config/spells/wordOfTheChief.json",
+		"config/spells/hordesAnger.json",
+		"config/spells/battlecry.json",
 
 		"config/spells/dwarfBloodlust.json",
 		"config/spells/gremlinRepair.json",
@@ -369,6 +398,8 @@
 		"config/creatures/cove/lvl6Alt",
 		"config/creatures/cove/lvl7Alt",
 		"config/creatures/cove/rebalance",
+		
+		"config/creatures/factory/rebalance",
 
 		"config/creatures/neutral/rebalance"
 	],
