@@ -1,0 +1,123 @@
+{
+	"wordOfTheChief" : {
+		"type" : "combat",
+		"name" : "Word of the Chief",
+		"school" : {
+			"04warcriesSchool" : true
+		},
+		"level" : 2,
+		"power" : 10,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"stronghold" : 0
+		},
+
+		"flags" : {
+			"positive" : true
+		},
+
+		"targetCondition" : {
+			"anyOf" : {
+				"core:creature.goblin" : "absolute",
+				"core:creature.hobgoblin" : "absolute",
+				"tearsofashan:creature.goblinTrapperAU" : "absolute",
+				"core:creature.goblinWolfRider" : "absolute",
+				"core:creature.hobgoblinWolfRider" : "absolute",
+				"core:creature.boar" : "absolute",
+				"core:creature.orc" : "absolute",
+				"core:creature.orcChieftain" : "absolute",
+				"tearsofashan:creature.orcBerserkerAU" : "absolute",
+				"core:creature.ogre" : "absolute",
+				"core:creature.ogreMage" : "absolute",
+				"tearsofashan:creature.ogreBruteAU" : "absolute",
+				"core:creature.roc" : "absolute",
+				"core:creature.thunderbird" : "absolute",
+				"tearsofashan:creature.shahrokhAU" : "absolute",
+				"core:creature.cyclop" : "absolute",
+				"core:creature.cyclopKing" : "absolute",
+				"tearsofashan:creature.bloodEyedCyclopsAU" : "absolute",
+				"core:creature.behemoth" : "absolute",
+				"core:creature.ancientBehemoth" : "absolute",
+				"tearsofashan:creature.ghostBehemothAU" : "absolute",
+			}
+		},
+
+		"graphics" : {
+			"iconBook" : "spells/wordOfTheChief/spellBook",
+			"iconScroll" : "spells/wordOfTheChief/spellScroll",
+			"iconScenarioBonus" : "spells/wordOfTheChief/spellBonus",
+			"iconEffect" : "spells/wordOfTheChief/spellEffect"
+		},
+
+		"animation" : {
+			"affect" : [
+				"C08SPF0"
+			]
+		},
+
+		"sounds" : {
+			"cast" : "FRENZY"
+		},
+
+		"targetType" : "CREATURE",
+
+		"levels" : {
+			"base":{
+				"range" : "0",
+				"targetModifier" : {"smart":true},
+				"effects" : {
+					"stacksSpeed" : {
+						"type" : "STACKS_SPEED",
+						"val" : 2,
+						"duration" : "N_TURNS"
+					},
+					"initiativeBoost" : {
+						"type" : "STACKS_SPEED",
+						"val" : 1,
+						"valueType" : "BASE_NUMBER",
+						"duration" : "STACK_GETS_TURN"
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Word of the Chief}\n\nSurges a friendly Stronghold unit forward with a commanding shout.\n\nThe unit gains +2 Speed (and +1 Initiative this turn of combat).\n",
+				"cost" : 10,
+				"power" : 10,
+				"effects" : {}
+			},
+			"basic" : {
+				"description" : "{Basic Word of the Chief}\n\nSurges a friendly Stronghold unit forward with a commanding shout.\n\nThe unit gains +2 Speed (and +1 Initiative this turn of combat).\n",
+				"cost" : 10,
+				"power" : 10,
+				"effects" : {}
+			},
+			"advanced" : {
+				"description" : "{Advanced Word of the Chief}\n\nSurges a friendly Stronghold unit forward with a commanding shout.\n\nThe unit gains +4 Speed (and +2 Initiative this turn of combat).\n",
+				"cost" : 10,
+				"power" : 10,
+				"effects" : {
+					"stacksSpeed" : {
+						"val" : 4
+					},
+					"initiativeBoost" : {
+						"val" : 2
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Expert Word of the Chief}\n\nSurges all friendly Stronghold units forward with a commanding shout.\n\nEach unit gains +4 Speed (and +3 Initiative this turn of combat).\n",
+				"cost" : 10,
+				"power" : 10,
+				"effects" : {
+					"stacksSpeed" : {
+						"val" : 4
+					},
+					"initiativeBoost" : {
+						"val" : 3
+					}
+				},
+				"range" : "X"
+			}
+		}
+	}
+}

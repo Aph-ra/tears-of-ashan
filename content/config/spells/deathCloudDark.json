@@ -61,25 +61,25 @@
 				}
 			},
 			"none" : {
-				"description" : "{Death Cloud}\n\nCauses a cloud of dark energy to engulf the selected target and any units adjacent to the target location. Each unit takes (Spell Power x 20 + 25) damage. Does not affect undead or non-living units.\n",
+				"description" : "{Death Cloud}\n\nCauses a cloud of dark energy to engulf the selected target and any units adjacent to the target location.\n\nEach unit takes (Spell Power x 20 + 25) damage. Does not affect undead or non-living units.\n",
 				"cost" : 18,
 				"power" : 25,
 				"effects" : {}
 			},
 			"basic" : {
-				"description" : "{Basic Death Cloud}\n\nCauses a cloud of dark energy to engulf the selected target and any units adjacent to the target location. Each unit takes (Spell Power x 20 + 25) damage. Does not affect undead or non-living units.\n",
+				"description" : "{Basic Death Cloud}\n\nCauses a cloud of dark energy to engulf the selected target and any units adjacent to the target location.\n\nEach unit takes (Spell Power x 20 + 25) damage. Does not affect undead or non-living units.\n",
 				"cost" : 14,
 				"power" : 25,
 				"effects" : {}
 			},
 			"advanced" : {
-				"description" : "{Advanced Death Cloud}\n\nCauses a cloud of dark energy to engulf the selected target and any units adjacent to the target location. Each unit takes (Spell Power x 20 + 50) damage. Does not affect undead or non-living units.\n",
+				"description" : "{Advanced Death Cloud}\n\nCauses a cloud of dark energy to engulf the selected target and any units adjacent to the target location.\n\nEach unit takes (Spell Power x 20 + 50) damage. Does not affect undead or non-living units.\n",
 				"cost" : 14,
 				"power" : 50,
 				"effects" : {}
 			},
 			"expert" : {
-				"description" : "{Expert Death Cloud}\n\nCauses a cloud of dark energy to engulf the selected target and any units adjacent to the target location. Each unit takes (Spell Power x 20 + 100) damage. Does not affect undead or non-living units.\n",
+				"description" : "{Expert Death Cloud}\n\nCauses a cloud of dark energy to engulf the selected target and any units adjacent to the target location.\n\nEach unit takes (Spell Power x 20 + 100) damage. Does not affect undead or non-living units.\n",
 				"cost" : 14,
 				"power" : 100,
 				"effects" : {}
