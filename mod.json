@@ -2,13 +2,17 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "1.5.1",
+	"version" : "1.5.2",
 	"modType" : "Expansion",
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
 
 	"changelog" : {
+		"Public Beta 1.5.2" : [
+			"Added Heroes VI Cursors as a submod",
+			"Renamed Ashan Cursors to Heroes V Cursors",
+		],
 		"Public Beta 1.5.1" : [
 			"Fixed Horde's Anger and Battlecry"
 		],
