@@ -22,11 +22,11 @@
 
 		"skills" : [
 			{
-				"skill" : "offence",
+				"skill" : "warcries",
 				"level" : "basic"
 			},
 			{
-				"skill" : "logistics",
+				"skill" : "offence",
 				"level" : "basic"
 			}
 		],
