@@ -149,13 +149,13 @@
 
 	"skills" : [
 		"config/skills/darkMagic.json",
-		
+
 		"config/skills/lightMagic.json",
-		
+
 		"config/skills/gating.json",
 		"config/skills/gatingNightmareSpec.json",
 		"config/skills/gatingDevilSpec.json",
-		
+
 		"config/skills/warcries.json",
 
 		"config/skills/rebalance.json"
@@ -206,7 +206,7 @@
 		"config/spells/gateDevil.json",
 		"config/spells/gateDevilSpec.json",
 		"config/spells/gateArchDevil.json",
-		
+
 		"config/spells/rallyingCry.json",
 		"config/spells/callOfBlood.json",
 		"config/spells/fearMyRoar.json",
@@ -398,7 +398,7 @@
 		"config/creatures/cove/lvl6Alt",
 		"config/creatures/cove/lvl7Alt",
 		"config/creatures/cove/rebalance",
-		
+
 		"config/creatures/factory/rebalance",
 
 		"config/creatures/neutral/rebalance"
