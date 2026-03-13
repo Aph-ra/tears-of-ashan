@@ -19,11 +19,13 @@
 			"loadbar3",
 			"loadbar4"
 		],
-		"x" : 395,
-		"y" : 548,
-		"size" : 18,
-		"amount" : 20,
-		"name" : "loadprog"
+		"loadbar" : {
+			"x" : 395,
+			"y" : 548,
+			"size" : 18,
+			"amount" : 20,
+			"name" : [ "loadprog" ]
+		}
 	},
 
 	"multiplayer" : [
