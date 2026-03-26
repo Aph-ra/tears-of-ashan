@@ -2,13 +2,21 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "1.5.4",
+	"version" : "1.5.5",
 	"modType" : "Expansion",
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
 
 	"changelog" : {
+		"Public Beta 1.5.5" : [
+			"Corrected Grim Guard adventure map quantity",
+			"Corrected Dread Guard Attack",
+			"Dread Guard Speed 7 → 8",
+			"Dread Guard Defense Reduction 30% → 40%",
+			"Black Guard Attack 10 → 12, Defense 14 → 12, Attack Reduction 30% → 25%, Defense Reduction 0% → 25%",
+			"Dread Guard and Black Guard AI Value 650 → 700, Fight Value 550 → 600"
+		],
 		"Public Beta 1.5.4" : [
 			"Made Warcry spells special (only available via the skill, not via scrolls or shrines)",
 			"Fixed loading pips"

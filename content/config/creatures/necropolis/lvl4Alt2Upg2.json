@@ -6,17 +6,17 @@
 		},
 		"faction" : "necropolis",
 		"level" : 4,
-		"attack" : 14,
-		"defense" : 10,
+		"attack" : 12,
+		"defense" : 12,
 		"damage" : {
 			"min" : 6,
 			"max" : 10
 		},
 		"hitPoints" : 40,
-		"speed" : 7,
+		"speed" : 8,
 		"growth" : 4,
-		"aiValue" : 650,
-		"fightValue" : 550,
+		"aiValue" : 700,
+		"fightValue" : 600,
 		"cost" : {
 			"gold" : 450
 		},
@@ -34,7 +34,7 @@
 			},
 			"ignoreDefense" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
-				"val" : 30
+				"val" : 40
 			},
 			"deathStrike" : {
 				"type" : "DOUBLE_DAMAGE_CHANCE",
