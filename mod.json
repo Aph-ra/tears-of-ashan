@@ -13,7 +13,8 @@
 			"Corrected Grim Guard adventure map quantity",
 			"Corrected Dread Guard Attack",
 			"Dread Guard Speed 7 → 8",
-			"Black Guard Attack 10 → 12, Defense 14 → 12, Attack Reduction 40% → 25%, Defense Reduction 0% → 25%",
+			"Dread Guard Defense Reduction 30% → 40%",
+			"Black Guard Attack 10 → 12, Defense 14 → 12, Attack Reduction 30% → 25%, Defense Reduction 0% → 25%",
 			"Dread Guard and Black Guard AI Value 650 → 700, Fight Value 550 → 600"
 		],
 		"Public Beta 1.5.4" : [
