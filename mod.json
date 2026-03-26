@@ -2,13 +2,17 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "1.5.3",
+	"version" : "1.5.4",
 	"modType" : "Expansion",
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
 
 	"changelog" : {
+		"Public Beta 1.5.4" : [
+			"Made Warcry spells special (only available via the skill, not via scrolls or shrines)",
+			"Fixed loading pips"
+		]
 		"Public Beta 1.5.3" : [
 			"Fixed Gelu and Dracon not being able to upgrade units"
 		],
