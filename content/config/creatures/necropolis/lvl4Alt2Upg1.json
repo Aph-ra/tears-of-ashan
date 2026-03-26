@@ -15,8 +15,8 @@
 		"hitPoints" : 50,
 		"speed" : 7,
 		"growth" : 4,
-		"aiValue" : 650,
-		"fightValue" : 550,
+		"aiValue" : 700,
+		"fightValue" : 600,
 		"cost" : {
 			"gold" : 450
 		},
@@ -34,7 +34,11 @@
 			},
 			"ignoreAttack" : {
 				"type" : "ENEMY_ATTACK_REDUCTION",
-				"val" : 30
+				"val" : 25
+			},
+			"ignoreDefense" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 25
 			},
 			"deathStrike" : {
 				"type" : "DOUBLE_DAMAGE_CHANCE",

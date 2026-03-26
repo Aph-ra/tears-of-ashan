@@ -22,7 +22,7 @@
 		},
 		"advMapAmount" : {
 			"min" : 10,
-			"max" : 16
+			"max" : 20
 		},
 		"upgrades" : [
 			"blackGuardAU",
