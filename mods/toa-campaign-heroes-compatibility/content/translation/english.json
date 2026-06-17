@@ -1,0 +1,15 @@
+{
+	"hero.campaign-heroes.finneasVilmar.specialty.description" : "Casts Animate Dead with effect increased by 5% for every N hero levels, where N is the level of the target creature.",
+	"hero.campaign-heroes.generalKendal.specialty.description" : "Receives a 5% per level bonus to Armorer skill percentage.",
+	"hero.campaign-heroes.generalKendal.specialty.name" : "Armorer",
+	"hero.campaign-heroes.generalKendal.specialty.tooltip" : "Secondary Skill Bonus: Armorer",
+	"hero.campaign-heroes.ordwald.specialty.description" : "Casts Slayer with effect increased by 20 for level 1–2 creatures, by 16 for level 3–4 creatures, by 12 for level 5–6 creatures, and by 8 for level 7 creatures.",
+	"hero.campaign-heroes.youngAlkin.specialty.description" : "Increases the Speed of allied Gorgons, Mighty Gorgons, and Corrosive Gorgons by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+	"hero.campaign-heroes.youngCatherine.specialty.description" : "Increases the Speed of allied Swordsmen, Crusaders, and Guardsmen by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+	"hero.campaign-heroes.youngChristian.specialty.description" : "Receives a 5% per level bonus to Logistics skill percentage.",
+	"hero.campaign-heroes.youngChristian.specialty.name" : "Logistics",
+	"hero.campaign-heroes.youngChristian.specialty.tooltip" : "Secondary Skill Bonus: Logistics",
+	"hero.campaign-heroes.youngYog.specialty.description" : "Increases Tactics placement area by 2.",
+	"hero.campaign-heroes.youngYog.specialty.name" : "Tactics",
+	"hero.campaign-heroes.youngYog.specialty.tooltip" : "Secondary Skill Bonus: Tactics"
+}
