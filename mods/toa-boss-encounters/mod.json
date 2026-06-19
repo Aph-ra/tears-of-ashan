@@ -18,11 +18,11 @@
 		"config/creatures/urielMarksman.json",
 		"config/creatures/urielPraetorian.json"
 	],
-	
+
 	"objects" : [
 		"config/banks/urielBossBank.json"
 	],
-	
+
 	"settings" : {
 		"combat" : {
 			"layouts" : {

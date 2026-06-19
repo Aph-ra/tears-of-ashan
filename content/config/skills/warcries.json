@@ -26,20 +26,20 @@
 					"val" : 0
 				},
 				"armyMultiplier" : {
-                    "type" : "SPECIFIC_SPELL_DAMAGE",
-                    "subtype" : "spell.hordesAnger",
-                    "val" : 100,
-                    "updater" : {
-                        "type" : "TIMES_ARMY_SIZE",
-                        "filteredFaction" : "stronghold"
-                    }
-                }
+					"type" : "SPECIFIC_SPELL_DAMAGE",
+					"subtype" : "spell.hordesAnger",
+					"val" : 100,
+					"updater" : {
+						"type" : "TIMES_ARMY_SIZE",
+						"filteredFaction" : "stronghold"
+					}
+				}
 				// The following adds 25 flat damage to Horde's Anger
 				//"flatDamageAdd" : {
-                //    "type" : "SPECIFIC_SPELL_DAMAGE",
-                //    "subtype" : "spell.hordesAnger",
-                //    "val" : 2500
-                //}
+				//    "type" : "SPECIFIC_SPELL_DAMAGE",
+				//    "subtype" : "spell.hordesAnger",
+				//    "val" : 2500
+				//}
 			}
 		},
 		"basic" : {
