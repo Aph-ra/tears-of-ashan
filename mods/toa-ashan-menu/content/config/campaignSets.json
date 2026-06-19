@@ -1,0 +1,28 @@
+{
+	"toa" : {
+		"text" : "vcmi.campaignSet.toa",
+		"images" : [
+			{
+				"x" : 0,
+				"y" : 0,
+				"name" : "CampaignBackground5"
+			}
+		],
+		"exitbutton" : {
+			"x" : 658,
+			"y" : 482,
+			"name" : "CMPSCAN"
+		},
+		"items" : [
+			{
+				"id" : 1,
+				"x" : 90,
+				"y" : 72,
+				"file" : "Maps/The Living Waters",
+				"image" : "campujr1",
+				"video" : "mvroger.bik",
+				"requires" : []
+			}
+		]
+	}
+}

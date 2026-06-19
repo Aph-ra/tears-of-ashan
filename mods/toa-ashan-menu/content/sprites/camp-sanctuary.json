@@ -1,0 +1,17 @@
+{
+	"basepath" : "images/",
+	"images" : [
+		{
+			"frame" : 0,
+			"file" : "sanctuary-normal"
+		},
+		{
+			"frame" : 1,
+			"file" : "sanctuary-down"
+		},
+		{
+			"frame" : 2,
+			"file" : "sanctuary-hover"
+		}
+	]
+}

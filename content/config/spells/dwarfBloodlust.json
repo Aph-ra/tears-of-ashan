@@ -21,11 +21,7 @@
 			"special" : true
 		},
 
-		"targetCondition" : {
-			"anyOf" : {
-				"tearsofashan:creature.dwarfBattleragerAU" : "absolute"
-			}
-		},
+		"targetCondition" : {},
 
 		"canCastOnSelf" : true,
 		"canCastWithoutSkip" : true,
@@ -48,11 +44,13 @@
 		},
 
 		"counters" : {
+			"spell.bloodlust" : true,
 			"spell.weakness" : true
 		},
 
 		"levels" : {
 			"base" : {
+				"description" : "Increases the selected friendly unit's attack strength for hand-to-hand attacks by 6.",
 				"cost" : 5,
 				"range" : "0",
 				"targetModifier" : {

@@ -1,0 +1,96 @@
+{
+	"lightElementalAU" : {
+		"name" : {
+			"singular" : "Light Elemental",
+			"plural" : "Light Elementals"
+		},
+		"faction" : "conflux",
+		"level" : 6,
+		"attack" : 13,
+		"defense" : 17,
+		"damage" : {
+			"min" : 20,
+			"max" : 30
+		},
+		"hitPoints" : 150,
+		"speed" : 8,
+		"growth" : 2,
+		"aiValue" : 3250,
+		"fightValue" : 2675,
+		"cost" : {
+			"gold" : 1800,
+			"sulfur" : 1
+		},
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 10
+		},
+		"upgrades" : [
+			"darkElementalAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"nonLiving" : {
+				"type" : "NON_LIVING"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"immuneToLight" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.01lightSchool",
+				"description" : "{Immune to Light Magic}\nImmune to all spells from the school of Light Magic"
+			},
+			"magicBuff" : {
+				"type" : "RECEPTIVE"
+			},
+			"noRetaliation" : {
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"strikeAndReturn" : {
+				"type" : "RETURN_AFTER_STRIKE"
+			},
+			"blindAttack" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "blind",
+				"val" : 50,
+				"icon" : "zvs/Lib1.res/blindattack.png"
+			},
+			"disintegrates" : {
+				"type" : "DISINTEGRATE"
+			},
+			//"deathCloudVulnerablity" : { POINTLESS UNTIL DARK DAMAGE SPELLS ARE MADE
+			//	"type" : "MORE_DAMAGE_FROM_SPELL",
+			//	"subtype" : "spell.deathCloud",
+			//	"val" : 50
+			//}
+		},
+		"graphics" : {
+			"animation" : "creatures/conflux/battle/lightElemental.def",
+			"map" : "creatures/conflux/map/lightElemental.def",
+			"mapMask" : [
+				"VV",
+				"VA"
+			],
+			"iconSmall" : "creatures/conflux/iconsSmall/lightElemental.png",
+			"iconLarge" : "creatures/conflux/iconsBig/lightElemental.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			}
+		},
+		"sound" : {
+			"attack" : "MGELATTK.wav",
+			"defend" : "MGELDFND.wav",
+			"killed" : "MGELKILL.wav",
+			"move" : "MGELMOVE.wav",
+			"wince" : "MGELWNCE.wav"
+		}
+	}
+}

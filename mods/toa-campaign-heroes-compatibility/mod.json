@@ -19,10 +19,5 @@
 
 	"heroes" : [
 		"config/heroChanges.json"
-	],
-
-	"czech" : {
-		"name" : "Kompatibilita s Campaign Heroes",
-		"description" : "Vrstva kompatibility pro mod Campaign Heroes. Upravuje armády a popisy specializací."
-	}
+	]
 }

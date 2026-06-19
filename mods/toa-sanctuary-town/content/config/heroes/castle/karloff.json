@@ -1,0 +1,59 @@
+{
+	"karloff" : {
+		"class" : "knight",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Karloff",
+			"biography" : "Karloff was born the son of the Baron Piotr, banished from the Griffin lands by the Duke Pavel for his peculiar sense of justice – one involving sharp stakes and barbed whips. Piotr was immediately accepted into the Wolf Duchy and tasked with the administration of the Duke’s secret slave mines. Karloff inherited the responsibility upon the mysterious death of his father, and production was doubled under him, a result of his harsh but just treatment of the slaves which contrasted against his father’s acrimonious abuse. As a result, Karloff was awarded the title of Master Engineer by a young Duke Gerhart. The only scandal which has ever concerned Karloff came after his refusal to attend Piotr’s funeral.",
+			"specialty" : {
+				"name" : "Demolitionist",
+				"tooltip" : "Creature Bonus: Demolitionist",
+				"description" : "All ranged units can target fortifications in siege combat."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/castle/karloff/portraitSmall.png",
+			"large" : "heroes/castle/karloff/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Expert Ballistics.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Expert Ballistics.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "ballistics",
+				"level" : "advanced"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"canShootWalls" : {
+					"type" : "CATAPULT",
+					"subtype" : "spell.cyclopsShot",
+					"propagator" : "HERO",
+					"limiters" : [ "SHOOTER_ONLY" ]
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	}
+}

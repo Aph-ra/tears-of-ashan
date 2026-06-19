@@ -1,0 +1,77 @@
+{
+	"urielPraetorianAU" : {
+		"name" : {
+			"singular" : "Uriel's Praetorian",
+			"plural" : "Uriel's Praetorians"
+		},
+		"faction" : "castle",
+		"level" : 10,
+		"attack" : 40,
+		"defense" : 60,
+		"damage" : {
+			"min" : 175,
+			"max" : 200
+		},
+		"hitPoints" : 7000,
+		"speed" : 11,
+		"growth" : 1,
+		"aiValue" : 250000,
+		"fightValue" : 250000,
+		"cost" : {
+			"gold" : 250000,
+			"gems" : 25
+		},
+		"advMapAmount" : {
+			"min" : 1,
+			"max" : 1
+		},
+		"special" : true,
+		"excludeFromRandomization" : true,
+		"doubleWide" : false,
+		"abilities" : {
+			"rangedReduction" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeAll",
+				"val" : 25
+			},
+			"firstStrike" : {
+				"type" : "FIRST_STRIKE",
+				"subtype" : "damageTypeMelee"
+			},
+			"retaliatesTwice" : {
+				"type" : "ADDITIONAL_RETALIATION",
+				"val" : 1
+			},
+			"fearless" : {
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"val" : 0
+			},
+			"fearlessBonus" : {
+				"type" : "NONE",
+				"val" : 0,
+				"description" : "{Fearless}\nUnaffected by Fear",
+				"icon" : "zvs/Lib1.res/e_fearl.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/battle/urielPraetorian.def",
+			"map" : "creatures/map/urielPraetorian.def",
+			"iconSmall" : "creatures/iconsSmall/urielPraetorian.png",
+			"iconLarge" : "creatures/iconsBig/urielPraetorian.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/squire/Swordsman_upgrade_attack",
+			"defend" : "creatures/squire/Swordsman_upgrade_hit",
+			"killed" : "creatures/squire/Swordsman_death",
+			"move" : "creatures/squire/Swordsman_move",
+			"wince" : "creatures/squire/Swordsman_upgrade_hit"
+		}
+	}
+}

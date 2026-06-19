@@ -6,11 +6,11 @@
 		},
 		"faction" : "necropolis",
 		"level" : 4,
-		"attack" : 12,
-		"defense" : 12,
+		"attack" : 14,
+		"defense" : 10,
 		"damage" : {
-			"min" : 6,
-			"max" : 10
+			"min" : 8,
+			"max" : 12
 		},
 		"hitPoints" : 40,
 		"speed" : 8,

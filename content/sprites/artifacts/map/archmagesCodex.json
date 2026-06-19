@@ -1,0 +1,10 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "archmagesCodex.png"
+        }
+    ],
+    "basepath": "artifacts/map/"
+}

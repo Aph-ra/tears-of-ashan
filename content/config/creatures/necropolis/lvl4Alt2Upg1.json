@@ -6,8 +6,8 @@
 		},
 		"faction" : "necropolis",
 		"level" : 4,
-		"attack" : 10,
-		"defense" : 14,
+		"attack" : 12,
+		"defense" : 12,
 		"damage" : {
 			"min" : 6,
 			"max" : 10

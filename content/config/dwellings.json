@@ -1,6 +1,30 @@
 {
 	"core:creatureGeneratorCommon" : {
 		"types" : {
+			"mdtLustChambers" : {
+				"name" : "Lust Chambers",
+				"creatures" : [
+					[
+						"succubusAU"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"dwellings/SuccLOOP"
+					]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/succubusDwelling.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "flagports/infaltdw.json"
+			},
 			"hellfireRiftAU" : {
 				"name" : "Hellfire Rift",
 				"creatures" : [
@@ -103,6 +127,34 @@
 							"VVVV",
 							"VVBB",
 							"VVAA"
+						]
+					}
+				}
+			},
+			"altarOfTwilightAU" : {
+				"name" : "Altar of Twilight",
+				"creatures" : [
+					[
+						"lightElementalAU",
+						"darkElementalAU"
+					]
+				],
+				"guards" : true,
+				"sounds" : {
+					"ambient" : [
+						"LOOPSTAR"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/twilightDwelling",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VBAV"
 						]
 					}
 				}

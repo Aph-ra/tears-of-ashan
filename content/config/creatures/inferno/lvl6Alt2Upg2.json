@@ -56,11 +56,7 @@
 				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [
-					"OPPOSITE_SIDE",
-					{
-						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType" : "LIVING"
-					}
+					"OPPOSITE_SIDE"
 				],
 				"hidden" : true
 			},
@@ -71,11 +67,7 @@
 				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [
-					"OPPOSITE_SIDE",
-					{
-						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType" : "LIVING"
-					}
+					"OPPOSITE_SIDE"
 				],
 				"hidden" : true
 			},

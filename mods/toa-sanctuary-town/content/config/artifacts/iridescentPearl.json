@@ -1,0 +1,40 @@
+{
+	"iridescentPearl" : {
+		"text" : {
+			"name" : "Iridescent Pearl",
+			"description" : "{Iridescent Pearl}\n\nWorn on a wrist, this item increases your Attack and Power skills by +5, and causes your Water spells to inflict an additional 25% damage.",
+			"event" : "Iridescent Pearl pickup text."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "RING",
+		"class" : "RELIC",
+		"value" : 12500,
+		"bonuses" : {
+			"attack" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"valueType" : "BASE_NUMBER",
+				"val" : 5
+			},
+			"power" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "spellpower",
+				"valueType" : "BASE_NUMBER",
+				"val" : 5
+			},
+			"spellDamage" : {
+				"type" : "SPELL_DAMAGE",
+				"subtype" : "spellSchool.water",
+				"val" : 25,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/iridescentPearl.png",
+			"map" : "artifacts/map/iridescentPearl.json",
+			"scenarioBonus" : "artifacts/bonus/iridescentPearl.png"
+		}
+	}
+}

@@ -2,29 +2,29 @@
 	//CASTLE
 	"core:pikeman" : {
 		"sound" : {
-			"attack" : "creatures/peasantConscriptBrute/Peasant_attack",
-			"defend" : "creatures/peasantConscriptBrute/Peasant_hit",
-			"killed" : "creatures/peasantConscriptBrute/Peasant_death",
-			"move" : "creatures/peasantConscriptBrute/Peasant_move",
-			"wince" : "creatures/peasantConscriptBrute/Peasant_hit"
+			"attack" : "creatures/sentinel/attack",
+			"defend" : "creatures/sentinel/hit",
+			"killed" : "creatures/sentinel/death",
+			"move" : "creatures/sentinel/move",
+			"wince" : "creatures/sentinel/hit"
 		}
 	},
 	"core:halberdier" : {
 		"sound" : {
-			"attack" : "creatures/peasantConscriptBrute/Militiamen_attack",
-			"defend" : "creatures/peasantConscriptBrute/Peasant_hit",
-			"killed" : "creatures/peasantConscriptBrute/Peasant_death",
-			"move" : "creatures/peasantConscriptBrute/Militiamen_move",
-			"wince" : "creatures/peasantConscriptBrute/Peasant_hit"
+			"attack" : "creatures/sentinel/attack",
+			"defend" : "creatures/sentinel/hit",
+			"killed" : "creatures/sentinel/death",
+			"move" : "creatures/sentinel/move",
+			"wince" : "creatures/sentinel/hit"
 		}
 	},
 	"tears-of-ashan:glaivierAU" : {
 		"sound" : {
-			"attack" : "creatures/peasantConscriptBrute/Militiamen_attack",
-			"defend" : "creatures/peasantConscriptBrute/Peasant_hit",
-			"killed" : "creatures/peasantConscriptBrute/Peasant_death",
-			"move" : "creatures/peasantConscriptBrute/Militiamen_move",
-			"wince" : "creatures/peasantConscriptBrute/Peasant_hit"
+			"attack" : "creatures/sentinel/attack",
+			"defend" : "creatures/sentinel/hit",
+			"killed" : "creatures/sentinel/death",
+			"move" : "creatures/sentinel/move",
+			"wince" : "creatures/sentinel/hit"
 		}
 	},
 	"core:archer" : {
@@ -1282,6 +1282,15 @@
 		}
 	},
 	//NEUTRALS
+	"core:peasant" : {
+		"sound" : {
+			"attack" : "creatures/peasantConscriptBrute/Peasant_attack",
+			"defend" : "creatures/peasantConscriptBrute/Peasant_hit",
+			"killed" : "creatures/peasantConscriptBrute/Peasant_death",
+			"move" : "creatures/peasantConscriptBrute/Peasant_move",
+			"wince" : "creatures/peasantConscriptBrute/Peasant_hit"
+		}
+	},
 	//WAR MACHINES
 	"core:ballista" : {
 		"sound" : {

@@ -59,16 +59,12 @@
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "LIVING"
 					}
-				],
-				"description" : "{Fearsome}\nHas a 10% chance to inflict enemies with Fear",
-				"icon" : "zvs/Lib1.res/e_fear.png"
+				]
 			},
 			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
-				"val" : 0,
-				"description" : "{Fearless}\nUnaffected by Fear",
-				"icon" : "zvs/Lib1.res/e_fearl.png"
+				"val" : 0
 			},
 			"fearsomeBonus" : {
 				"type" : "NONE",
@@ -76,7 +72,7 @@
 				"icon" : "zvs/Lib1.res/e_fear.png"
 			},
 			"fearlessBonus" : {
-				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"type" : "NONE",
 				"val" : 0,
 				"description" : "{Fearless}\nUnaffected by Fear",
 				"icon" : "zvs/Lib1.res/e_fearl.png"

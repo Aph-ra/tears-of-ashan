@@ -10,7 +10,7 @@
 			"water" : false
 		},
 		"level" : 5,
-		"power" : 5,
+		"power" : 1,
 		"defaultGainChance" : 0,
 		"gainChance" : {},
 		"animation" : {
