@@ -24,5 +24,12 @@
 	"czech" : {
 		"name" : "Kompatibilita s Campaign Heroes",
 		"description" : "Vrstva kompatibility pro mod Campaign Heroes. Upravuje armády a popisy specializací."
+	},
+	"polish" : {
+		"name" : "Kompatybilność z bohaterami kampanijnymi",
+		"description" : "Łatka na kompatybilność z bohaterami kampanijnymi. Zmienia opisy armii i specjalności.",
+		"translations" : [
+			"translation/polish.json"
+		]
 	}
 }
