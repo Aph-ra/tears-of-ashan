@@ -28,7 +28,7 @@
 				"type" : "SPELL_DAMAGE",
 				"subtype" : "spellSchool.water",
 				"val" : 50,
-				"valueType" : "BASE_NUMBER"
+				"valueType" : "ADDITIVE_VALUE"
 			}
 		},
 		"graphics" : {

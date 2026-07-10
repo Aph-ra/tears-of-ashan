@@ -1,0 +1,142 @@
+{
+	"core:dragonUtopia" : {
+		"types" : {
+			"dragonUtopia" : {
+				"rewards#override" : [
+					{
+						"message" : 34,
+						"mapDice" : 0,
+						"appearChance" : { "min" : 0, "max" : 20 },
+						"guards" : [
+							{ "amount" : 8, "type" : "greenDragon" },
+							{ "amount" : 5, "type" : "redDragon" },
+							{ "amount" : 2, "type" : "goldDragon" },
+							{ "amount" : 1, "type" : "blackDragon" }
+						],
+						"resources" :
+						{
+							"gold" : 20000
+						},
+						"artifacts" : [
+							{ "class" : "TREASURE" },
+							{ "class" : "TREASURE" },
+							{ "class" : "MINOR" },
+							{ "class" : "MAJOR" },
+							{ "class" : "RELIC" }
+						]
+					},
+					{
+						"message" : 34,
+						"mapDice" : 1,
+						"appearChance" : { "min" : 20, "max" : 40 },
+						"guards" : [
+							{ "amount" : 8, "type" : "greenDragon" },
+							{ "amount" : 6, "type" : "redDragon" },
+							{ "amount" : 3, "type" : "goldDragon" },
+							{ "amount" : 2, "type" : "blackDragon" }
+						],
+						"resources" :
+						{
+							"gold" : 30000
+						},
+						"artifacts" : [
+							{ "class" : "MINOR" },
+							{ "class" : "MINOR" },
+							{ "class" : "MAJOR" },
+							{ "class" : "MAJOR" },
+							{ "class" : "RELIC" }
+						]
+					},
+					{
+						"message" : 34,
+						"mapDice" : 2,
+						"appearChance" : { "min" : 40, "max" : 60 },
+						"guards" : [
+							{ "amount" : 8, "type" : "greenDragon" },
+							{ "amount" : 6, "type" : "redDragon" },
+							{ "amount" : 4, "type" : "goldDragon" },
+							{ "amount" : 3, "type" : "blackDragon" }
+						],
+						"resources" :
+						{
+							"gold" : 40000
+						},
+						"artifacts" : [
+							{ "class" : "MAJOR" },
+							{ "class" : "MAJOR" },
+							{ "class" : "MAJOR" },
+							{ "class" : "RELIC" },
+							{ "class" : "RELIC" }
+						]
+					},
+					{
+						"message" : 34,
+						"mapDice" : 3,
+						"appearChance" : { "min" : 60, "max" : 80 },
+						"guards" : [
+							{ "amount" : 8, "type" : "greenDragon" },
+							{ "amount" : 7, "type" : "redDragon" },
+							{ "amount" : 6, "type" : "goldDragon" },
+							{ "amount" : 5, "type" : "blackDragon" }
+						],
+						"resources" :
+						{
+							"gold" : 50000
+						},
+						"artifacts" : [
+							{ "class" : "MAJOR" },
+							{ "class" : "MAJOR" },
+							{ "class" : "RELIC" },
+							{ "class" : "RELIC" },
+							{ "class" : "RELIC" }
+						]
+					},
+					{
+						"message" : 34,
+						"mapDice" : 4,
+						"appearChance" : { "min" : 80, "max" : 90 },
+						"guards" : [
+							{ "amount" : 8, "type" : "greenDragon" },
+							{ "amount" : 8, "type" : "redDragon" },
+							{ "amount" : 8, "type" : "goldDragon" },
+							{ "amount" : 8, "type" : "blackDragon" }
+						],
+						"resources" :
+						{
+							"gold" : 75000
+						},
+						"artifacts" : [
+							{ "class" : "MAJOR" },
+							{ "class" : "RELIC" },
+							{ "class" : "RELIC" },
+							{ "class" : "RELIC" },
+							{ "class" : "RELIC" }
+						]
+					},
+					{
+						"message" : 34,
+						"mapDice" : 4,
+						"appearChance" : { "min" : 90, "max" : 100 },
+						"guards" : [
+							{ "amount" : 2, "type" : "azureDragon" },
+							{ "amount" : 3, "type" : "crystalDragon" },
+							{ "amount" : 4, "type" : "rustDragon" },
+							{ "amount" : 5, "type" : "fairieDragon" }
+						],
+						"resources" :
+						{
+							"gold" : 100000
+						},
+						"artifacts" : [
+							{ "class" : "RELIC" },
+							{ "class" : "RELIC" },
+							{ "class" : "RELIC" },
+							{ "class" : "RELIC" },
+							{ "class" : "RELIC" }
+						]
+					}
+				]
+			}
+		}
+	}
+}

@@ -27,7 +27,7 @@
 			"mana" : {
 				"type" : "MANA_PERCENTAGE_REGENERATION",
 				"val" : 20,
-				"valueType" : "BASE_NUMBER"
+				"valueType" : "ADDITIVE_VALUE"
 			}
 		},
 		"graphics" : {

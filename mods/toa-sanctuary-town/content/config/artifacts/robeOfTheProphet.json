@@ -10,7 +10,7 @@
 		],
 		"slot" : "TORSO",
 		"class" : "MAJOR",
-		"value" : 8500,
+		"value" : 9000,
 		"bonuses" : {
 			"defence" : {
 				"type" : "PRIMARY_SKILL",

@@ -1,0 +1,28 @@
+{
+	"coldShadowHelmet" : {
+		"text" : {
+			"name" : "Cold Shadow Helmet",
+			"description" : "{Cold Shadow Helmet}\n\nWorn on the head, this item increases your Knowledge skill by +8.",
+			"event" : "You trip over the Cold Shadow Helmet, dust it off, and stick it in your pack."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "HEAD",
+		"class" : "MAJOR",
+		"value" : 8000,
+		"bonuses" : {
+			"knowledge" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "knowledge",
+				"valueType" : "BASE_NUMBER",
+				"val" : 8
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/coldShadowHelmet.png",
+			"map" : "artifacts/map/coldShadowHelmet.json",
+			"scenarioBonus" : "artifacts/bonus/coldShadowHelmet.png"
+		}
+	}
+}

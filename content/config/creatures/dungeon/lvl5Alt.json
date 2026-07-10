@@ -41,6 +41,10 @@
 				"stacking" : "Minotaurs",
 				"description" : "{Raises Morale}\nMinotaur Taskmasters raise allied units' Morale by +1",
 				"icon" : "zvs/Lib1.res/bonusmoraleangel"
+			},
+			"reduceDefence" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
 			}
 		},
 		"graphics" : {

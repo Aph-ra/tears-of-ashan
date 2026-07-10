@@ -9,7 +9,7 @@
 			"HERO"
 		],
 		"slot" : "FEET",
-		"class" : "MINOR",
+		"class" : "MAJOR",
 		"value" : 6000,
 		"bonuses" : {
 			"movement" : {

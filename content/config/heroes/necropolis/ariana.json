@@ -4,7 +4,7 @@
 		"female" : true,
 		"special" : false,
 		"spellbook" : [
-			"sorrow"
+			"agingTOA"
 		],
 		"texts" : {
 			"name" : "Ariana",

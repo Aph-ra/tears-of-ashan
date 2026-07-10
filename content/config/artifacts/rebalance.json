@@ -1,10 +1,10 @@
 {
 	"core:armageddonsBlade" : {
 		"components" : [
-			"swordOfHellfire",
-			"shieldOfTheDamned",
-			"breastplateOfBrimstone",
-			"hellstormHelmet"
+        "swordOfHellfire",
+        "shieldOfTheDamned",
+        "breastplateOfBrimstone",
+		"hellstormHelmet"
 		]
 	}
 }

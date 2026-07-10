@@ -76,7 +76,7 @@
 		}
 	},
 	"core:dispel" : {
-		"name" : "Cleansing",
+		"name" : "Cleanse",
 		"school" : {
 			"water" : false,
 			"01lightSchool" : true
@@ -89,16 +89,16 @@
 		},
 		"levels" : {
 			"none" : {
-				"description" : "{Cleansing}\n\nRemoves all spells and effects except Disrupting Ray and Poison from a friendly unit. Ignores target creature's natural immunities to magic.\n"
+				"description" : "{Cleanse}\n\nRemoves all spells and effects except Disrupting Ray and Poison from a friendly unit. Ignores target creature's natural immunities to magic.\n"
 			},
 			"basic" : {
-				"description" : "{Basic Cleansing}\n\nRemoves all spells and effects except Disrupting Ray and Poison from a friendly unit. Ignores target creature's natural immunities to magic.\n"
+				"description" : "{Basic Cleanse}\n\nRemoves all spells and effects except Disrupting Ray and Poison from a friendly unit. Ignores target creature's natural immunities to magic.\n"
 			},
 			"advanced" : {
-				"description" : "{Advanced Cleansing}\n\nRemoves all spells and effects except Disrupting Ray and Poison from a friendly or hostile unit. Ignores target creature's natural immunities to magic.\n"
+				"description" : "{Advanced Cleanse}\n\nRemoves all spells and effects except Disrupting Ray and Poison from a friendly or hostile unit. Ignores target creature's natural immunities to magic.\n"
 			},
 			"expert" : {
-				"description" : "{Expert Cleansing}\n\nRemoves all spells and effects except Disrupting Ray and Poison from all units on the battlefield and destroys all magic obstacles. Ignores target creatures' chances to resist spells and natural immunities to magic.\n"
+				"description" : "{Expert Cleanse}\n\nRemoves all spells and effects except Disrupting Ray and Poison from all units on the battlefield and destroys all magic obstacles. Ignores target creatures' chances to resist spells and natural immunities to magic.\n"
 			}
 		}
 	},
@@ -210,7 +210,7 @@
 	},
 	"core:slow" : {
 		"counters" : {
-			"new-old-spells-plus:waspSwarm" : true
+			"new-old-spells-plus:waspSwarm": true
 		}
 	},
 	"core:sorrow" : {
@@ -253,7 +253,7 @@
 	},
 	"new-old-spells-plus:waspSwarm" : {
 		"counters" : {
-			"spell.slow" : true
+			"spell.slow": true
 		},
 		"levels" : {
 			"base" : {

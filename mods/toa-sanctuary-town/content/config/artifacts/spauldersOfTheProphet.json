@@ -10,7 +10,7 @@
 		],
 		"slot" : "SHOULDERS",
 		"class" : "MINOR",
-		"value" : 5000,
+		"value" : 4500,
 		"bonuses" : {
 			"defence" : {
 				"type" : "PRIMARY_SKILL",
@@ -27,7 +27,7 @@
 			"mana" : {
 				"type" : "MANA_PERCENTAGE_REGENERATION",
 				"val" : 10,
-				"valueType" : "BASE_NUMBER"
+				"valueType" : "ADDITIVE_VALUE"
 			}
 		},
 		"graphics" : {

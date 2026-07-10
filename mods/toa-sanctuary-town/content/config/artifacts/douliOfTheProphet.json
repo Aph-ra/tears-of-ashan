@@ -3,7 +3,7 @@
 		"text" : {
 			"name" : "Douli of the Prophet",
 			"description" : "{Douli of the Prophet}\n\nWorn on the head, this item increases your Defense and Knowledge skills by +3, and helps you recover 10% of your maximum spell points per day.",
-			"event" : "Douli of the Prophet pickup text."
+			"event" : "An old hat lays before you, sitting alone on a rocky outcropping. You can feel its arcane power from where you stand; you can sense the hat calling to you. You take the hat from where it sits, dust it off, and put it in your backpack."
 		},
 		"type" : [
 			"HERO"

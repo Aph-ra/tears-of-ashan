@@ -105,11 +105,11 @@
 			},
 			"immuneToDeathStare" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "deathStare"
+				"subtype" : "deathStare"				
 			},
 			"immuneToAccurateShot" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "accurateShot"
+				"subtype" : "accurateShot"				
 			},
 			"yetiCure" : {
 				"type" : "ENCHANTED",

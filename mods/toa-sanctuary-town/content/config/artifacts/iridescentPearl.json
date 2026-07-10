@@ -3,7 +3,7 @@
 		"text" : {
 			"name" : "Iridescent Pearl",
 			"description" : "{Iridescent Pearl}\n\nWorn on a wrist, this item increases your Attack and Power skills by +5, and causes your Water spells to inflict an additional 25% damage.",
-			"event" : "Iridescent Pearl pickup text."
+			"event" : "A glimmering sheen catches your eye from atop your horse. Upon excavating the artifact, you find a pearl-adorned gauntlet filled with mystical power and place it around your wrist."
 		},
 		"type" : [
 			"HERO"
@@ -28,7 +28,7 @@
 				"type" : "SPELL_DAMAGE",
 				"subtype" : "spellSchool.water",
 				"val" : 25,
-				"valueType" : "BASE_NUMBER"
+				"valueType" : "ADDITIVE_VALUE"
 			}
 		},
 		"graphics" : {

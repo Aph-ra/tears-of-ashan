@@ -1,0 +1,110 @@
+{
+	"diseaseTOA" : {
+		"type" : "combat",
+		"name" : "Disease",
+		"school" : {
+			"02darkSchool" : true
+		},
+		"level" : 2,
+		"power" : 10,
+		"defaultGainChance" : 10,
+		"gainChance" : {
+			"castle" : 0,
+			"rampart" : 0,
+			"tower" : 5,
+			"necropolis" : 20,
+			"stronghold" : 5,
+			"conflux" : 0
+		},
+
+		"flags" : {
+			"negative" : true
+		},
+
+		"targetCondition" : {
+			"allOf" : {},
+			"anyOf" : {},
+			"noneOf" : {
+				"core:bonus.NON_LIVING" : "normal",
+				"core:bonus.UNDEAD" : "normal",
+				"core:bonus.GARGOYLE" : "normal",
+				"core:bonus.MECHANICAL" : "normal"
+			}
+		},
+
+		"graphics" : {
+			"iconBook" : "spells/disease/spellBook",
+			"iconScroll" : "spells/disease/spellScroll",
+			"iconScenarioBonus" : "spells/disease/spellBonus",
+			"iconEffect" : "spells/disease/spellEffect"
+		},
+
+		"animation":{
+			"affect":["SP05_"]
+		},
+		
+		"sounds": {
+			"cast": "DISEASE"
+		},
+
+		"targetType" : "CREATURE",
+
+		"levels" : {
+			"base" : {
+				"range" : "0",
+				"targetModifier" : {"smart" : true},
+				"effects" : {
+					"attackReduction" : {
+						"val" : -2,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"duration" : "N_TURNS"
+					},
+					"defenseReduction" : {
+						"val" : -2,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"duration" : "N_TURNS"
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Disease}\n\nCauses an enemy creature to fall ill.\n\nThe unit has their Attack and Defense values reduced by 2. Does not affect undead or non-living units.\n",
+				"cost" : 12,
+				"power" : 10
+			},
+			"basic" : {
+				"description" : "{Disease}\n\nCauses an enemy creature to fall ill.\n\nThe unit has their Attack and Defense values reduced by 2. Does not affect undead or non-living units.\n",
+				"cost" : 10,
+				"power" : 10
+			},
+			"advanced" : {
+				"description" : "{Disease}\n\nCauses an enemy creature to fall ill.\n\nThe unit has their Attack and Defense values reduced by 4. Does not affect undead or non-living units.\n",
+				"cost" : 10,
+				"power" : 10,
+				"effects" : {
+					"attackReduction" : {
+						"val" : -4
+					},
+					"defenseReduction" : {
+						"val" : -4
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Disease}\n\nCauses all enemy creatures to fall ill.\n\nAll units have their Attack and Defense values reduced by 6. Does not affect undead or non-living units.\n",
+				"cost" : 10,
+				"power" : 10,
+				"effects" : {
+					"attackReduction" : {
+						"val" : -6
+					},
+					"defenseReduction" : {
+						"val" : -6
+					}
+				},
+				"range" : "X"
+			}
+		}
+	}
+}

@@ -46,7 +46,7 @@
 						"message" : 34,
 						"appearChance" : {
 							"min" : 0,
-							"max" : 30
+							"max" : 20
 						},
 						"mapDice" : 0,
 						"guards" : [
@@ -72,11 +72,14 @@
 							}
 						],
 						"resources" : {
-							"gold" : 50000
+							"gold" : 100000
 						},
 						"artifacts" : [
 							{
-								"class" : "MAJOR"
+								"class" : "MINOR"
+							},
+							{
+								"class" : "MINOR"
 							},
 							{
 								"class" : "MAJOR"
@@ -95,8 +98,8 @@
 					{
 						"message" : 34,
 						"appearChance" : {
-							"min" : 30,
-							"max" : 60
+							"min" : 20,
+							"max" : 40
 						},
 						"mapDice" : 1,
 						"guards" : [
@@ -122,9 +125,12 @@
 							}
 						],
 						"resources" : {
-							"gold" : 75000
+							"gold" : 125000
 						},
 						"artifacts" : [
+							{
+								"class" : "MINOR"
+							},
 							{
 								"class" : "MAJOR"
 							},
@@ -145,8 +151,8 @@
 					{
 						"message" : 34,
 						"appearChance" : {
-							"min" : 60,
-							"max" : 90
+							"min" : 40,
+							"max" : 60
 						},
 						"mapDice" : 2,
 						"guards" : [
@@ -172,9 +178,12 @@
 							}
 						],
 						"resources" : {
-							"gold" : 100000
+							"gold" : 150000
 						},
 						"artifacts" : [
+							{
+								"class" : "MAJOR"
+							},
 							{
 								"class" : "MAJOR"
 							},
@@ -195,7 +204,60 @@
 					{
 						"message" : 34,
 						"appearChance" : {
-							"min" : 90,
+							"min" : 40,
+							"max" : 60
+						},
+						"mapDice" : 2,
+						"guards" : [
+							{
+								"amount" : 4,
+								"type" : "urielMarksmanAU"
+							},
+							{
+								"amount" : 4,
+								"type" : "urielPraetorianAU"
+							},
+							{
+								"amount" : 4,
+								"type" : "urielMarksmanAU"
+							},
+							{
+								"amount" : 4,
+								"type" : "urielPraetorianAU"
+							},
+							{
+								"amount" : 1,
+								"type" : "urielAU"
+							}
+						],
+						"resources" : {
+							"gold" : 175000
+						},
+						"artifacts" : [
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							}
+						]
+					},
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 80,
 							"max" : 100
 						},
 						"mapDice" : 3,
@@ -222,9 +284,12 @@
 							}
 						],
 						"resources" : {
-							"gold" : 150000
+							"gold" : 200000
 						},
 						"artifacts" : [
+							{
+								"class" : "RELIC"
+							},
 							{
 								"class" : "RELIC"
 							},

@@ -23,13 +23,75 @@
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Artillery}\n\nExpert Artillery gives the hero control of the Ballista, Arrow Towers, and the Cannon. The Ballista shoots thrice and has a 100% chance to inflict 200% base Damage. The Cannon precisely hits fortifications at maximum Damage and inflicts 300% base Damage to creatures. The Ballista and the Cannon cannot be dealt more than 40% of their Health as Damage from any single damage source.",
+			"description" : "{Expert Artillery}\n\nExpert Artillery gives the hero control of the Ballista, Arrow Towers, and the Cannon. The Ballista shoots thrice and has a 100% chance to inflict 200% base Damage. The Cannon precisely hits fortifications at maximum Damage and inflicts 300% base Damage to creatures. The Ballista and the Cannon cannot be dealt more than 40% of their Health as Damage from any single damage source and have no range penalty.",
 			"effects" : {
 				"main" : {
 					"val" : 100
 				},
 				"val2" : {
 					"val" : 2
+				},
+				"noDistancePenaltyBallista" : {
+					"type" : "NO_DISTANCE_PENALTY",
+					"limiters": [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "ballista",
+							"includeUpgrades" : false
+						}
+					]
+				},
+				"noDistancePenaltyCannon" : {
+					"type" : "NO_DISTANCE_PENALTY",
+					"limiters": [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cannon:cannon",
+							"includeUpgrades" : false
+						}
+					]
+				}
+			}
+		}
+	},
+	
+	"core:ballistics" : {
+		"base" : {
+			"effects" : {
+				"damageCap2" : {
+					"type" : "DAMAGE_RECEIVED_CAP",
+					"propagator" : "ARMY",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "ammoCart"
+						}
+					],
+					"valueType" : "INDEPENDENT_MIN"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Artillery}\n\nBasic Ballistics gives the hero control of the Catapult. The Catapult can be aimed and has an increased chance to hit fortifications. The Catapult and the Ammo Cart cannot be dealt more than 40% of their Health as Damage from any single damage source.",
+			"effects" : {
+				"damageCap2" : {
+					"val" : 40
+				}
+			}
+		},
+		"advanced" : {
+			"description" : "{Basic Artillery}\n\nBasic Ballistics gives the hero control of the Catapult. The Catapult can be aimed and has an increased chance to hit fortifications, and shoots twice. The Catapult and the Ammo Cart cannot be dealt more than 40% of their Health as Damage from any single damage source.",
+			"effects" : {
+				"damageCap2" : {
+					"val" : 40
+				}
+			}
+		},
+		"expert" : {
+			"description" : "{Basic Artillery}\n\nBasic Ballistics gives the hero control of the Catapult. The Catapult can be aimed, always hits the intended target, and shoots twice. The Catapult and the Ammo Cart cannot be dealt more than 40% of their Health as Damage from any single damage source.",
+			"effects" : {
+				"damageCap2" : {
+					"val" : 40
 				}
 			}
 		}

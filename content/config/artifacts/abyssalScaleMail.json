@@ -1,0 +1,57 @@
+{
+	"abyssalScaleMail" : {
+		"text" : {
+			"name" : "Abyssal Scale Mail",
+			"description" : "{Abyssal Scale Mail}\n\nIn addition to its component effects, this item casts Expert Air Shield, Protection from Air, Protection from Water, and Shield on your units at the start of combat for 50 rounds.",
+			"event" : "You trip over the Abyssal Scale Mail, dust it off, and stick it in your pack."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "TORSO",
+		"class" : "RELIC",
+		"value" : 30000,
+		"components" : [
+			"crownOfTheFiveSeas",
+			"royalArmorOfNix",
+			"shieldOfNavalGlory",
+			"tridentOfDominion"
+		],
+		"fusedComponents" : false,
+		"bonuses" : {
+			"airShield" : {
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.airShield",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER",
+				"addInfo" : 3
+			},
+			"protectionFromAir" : {
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.protectAir",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER",
+				"addInfo" : 3
+			},
+			"protectionFromWater" : {
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.protectWater",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER",
+				"addInfo" : 3
+			},
+			"shield" : {
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.shield",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER",
+				"addInfo" : 3
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/abyssalScaleMail.png",
+			"map" : "artifacts/map/abyssalScaleMail.json",
+			"scenarioBonus" : "artifacts/bonus/abyssalScaleMail.png"
+		}
+	}
+}

@@ -38,14 +38,14 @@
 					"val" : 1,
 					"propagator" : "HERO",
 					"limiters" : {
-						"type" : "CREATURE_TYPE_LIMITER",
+						"type" : "CREATURE_TYPE_LIMITER", 
 						"creature" : "kenshiAU",
 						"includeUpgrades" : true
 					}
 				}
 			}
 		},
-
+		
 		"army" : [
 			{
 				"creature" : "sharkGuardAU",

@@ -1,0 +1,22 @@
+{
+	"courtyard:05raphus" : {
+		"spellbook#override" : [
+			"reconstructionTOA"
+		],
+		"specialty#override" : {
+			"creature" : "cupid",
+			"bonuses" : {
+				"reconstruction" : {
+					"type" : "SPELL",
+					"subtype" : "reconstructionTOA",
+					"val" : 3
+				},
+				"reconstruction2" : {
+					"addInfo" : 3,
+					"subtype" : "reconstruction",
+					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
+				}
+			}
+		}
+	}
+}

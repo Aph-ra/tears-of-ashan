@@ -22,19 +22,23 @@
 		"new-old-spells-plus",
 		"vcmi-extras.bonusicons.bonus icons"
 	],
-
+	
 	"bonuses" : [
 		"config/bonuses/bloodFrenzy.json",
-		"config/bonuses/sanctuary.json"
+		"config/bonuses/sanctuary.json",
 	],
-
+	
 	"spells" : [
 		"config/spells/ferociousDamage.json",
 		"config/spells/ferociousWound.json",
 		"config/spells/kappaLeap.json",
 		"config/spells/kappaLeapUp.json"
 	],
-
+	
+	"factions" : [
+		"config/town-screen/sanctuary.json"
+	],
+	
 	"heroClasses" : [
 		"config/classes/monk.json",
 		"config/classes/samurai.json"
@@ -43,9 +47,9 @@
 	"heroes" : [
 		"config/heroes/castle/karloff.json",
 		"config/heroes/castle/martina.json",
-
+		
 		"config/heroes/necropolis/haffayad.json",
-
+		
 		"config/heroes/sanctuary/akasha.json",
 		"config/heroes/sanctuary/atlas.json",
 		"config/heroes/sanctuary/changbo.json",
@@ -56,7 +60,7 @@
 		"config/heroes/sanctuary/mukao.json",
 		"config/heroes/sanctuary/toshiro.json",
 		"config/heroes/sanctuary/tsuan.json",
-
+		
 		"config/heroes/sanctuary/chiyoko.json",
 		"config/heroes/sanctuary/jun.json",
 		"config/heroes/sanctuary/kalindra.json",
@@ -66,14 +70,10 @@
 		"config/heroes/sanctuary/yugen.json",
 		"config/heroes/sanctuary/yume.json",
 		"config/heroes/sanctuary/zhaoyu.json",
-
+		
 		"config/heroes/sanctuary/irina.json"
 	],
-
-	"factions" : [
-		"config/town-screen/sanctuary/factions"
-	],
-
+	
 	"creatures" : [
 		"config/creatures/sanctuary/lvl1",
 		"config/creatures/sanctuary/lvl1Up",
@@ -92,19 +92,21 @@
 		"config/creatures/sanctuary/lvl7Alt",
 		"config/creatures/sanctuary/boss"
 	],
-
+	
 	"artifacts" : [
 		"config/artifacts/douliOfTheProphet",
 		"config/artifacts/frozenChrysanthemum",
 		"config/artifacts/iridescentPearl",
 		"config/artifacts/libramOfTheProphet",
+		"config/artifacts/raimentsOfShalassa",
 		"config/artifacts/robeOfTheProphet",
 		"config/artifacts/sandalsOfTheProphet",
 		"config/artifacts/spauldersOfTheProphet",
 		"config/artifacts/staffOfTheTides"
 	],
-
+	
 	"objects" : [
-		"config/dwellings.json"
+		"config/dwellings.json",
+		"config/objects.json"
 	]
 }

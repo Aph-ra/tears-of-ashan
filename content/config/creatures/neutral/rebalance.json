@@ -32,8 +32,7 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
@@ -99,6 +98,13 @@
 	},
 	"hota.neutralcreatures:steelGolem" : {
 		"faction" : "tower",
+		"abilities" : {
+			"petrifyImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "stoneGaze",
+				"addInfo" : 1
+			}
+		},
 		"graphics" : {
 			"iconLarge" : "creatures/neutral/iconsbig/steelGolem"
 		}
@@ -113,6 +119,13 @@
 		"upgrades" : [
 			"core:diamondGolem"
 		],
+		"abilities" : {
+			"petrifyImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "stoneGaze",
+				"addInfo" : 1
+			}
+		},
 		"graphics" : {
 			"iconLarge" : "creatures/neutral/iconsbig/goldGolem"
 		}
@@ -123,6 +136,13 @@
 		"growth" : 3,
 		"cost" : {
 			"gold" : 675
+		},
+		"abilities" : {
+			"petrifyImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "stoneGaze",
+				"addInfo" : 1
+			}
 		},
 		"graphics" : {
 			"iconLarge" : "creatures/neutral/iconsbig/diamondGolem"

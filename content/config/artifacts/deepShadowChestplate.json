@@ -1,0 +1,28 @@
+{
+	"deepShadowChestplate" : {
+		"text" : {
+			"name" : "Deep Shadow Chestplate",
+			"description" : "{Deep Shadow Chestplate}\n\nWorn on the torso, this item increases your Power skill by +8.",
+			"event" : "You trip over the Deep Shadow Chestplate, dust it off, and stick it in your pack."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "TORSO",
+		"class" : "MAJOR",
+		"value" : 8000,
+		"bonuses" : {
+			"spellpower" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "spellpower",
+				"valueType" : "BASE_NUMBER",
+				"val" : 8
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/deepShadowChestplate.png",
+			"map" : "artifacts/map/deepShadowChestplate.json",
+			"scenarioBonus" : "artifacts/bonus/deepShadowChestplate.png"
+		}
+	}
+}

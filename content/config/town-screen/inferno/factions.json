@@ -1,7 +1,7 @@
 {
 	"core:inferno" : {
 		"town" : {
-			"hallBackground" : "town-screen/inferno/infernoHallBg2.png",
+			"hallBackground" : "town-screen/inferno/infernoHallBg.png",
 			"buildingsIcons" : "town-screen/inferno/ALTHALLINFR",
 
 			"creatures" : [
@@ -28,10 +28,7 @@
 				[
 					"pitFiend",
 					"pitLord",
-					"pitSpawnAU",
-					"succubusAU",
-					"succubusSeducerAU",
-					"lilimAU"
+					"pitSpawnAU"
 				],
 				[
 					"efreet",
@@ -89,8 +86,7 @@
 				],
 				[
 					[
-						"dwellingLvl1",
-						"dwellingUpLvl1"
+						"special3"
 					],
 					[
 						"horde1",
@@ -99,15 +95,12 @@
 					[
 						"horde2",
 						"horde2Upgr"
-					],
-					[
-						"special3"
 					]
 				],
 				[
 					[
-						"dwellingLvl5B",
-						"dwellingUpLvl5B"
+						"dwellingLvl1",
+						"dwellingUpLvl1"
 					],
 					[
 						"dwellingLvl2",
@@ -209,22 +202,6 @@
 					"y" : 105,
 					"border" : "TOIDVL2.PCX",
 					"area" : "town-screen/cyan"
-				},
-				"dwellingLvl5B" : {
-					"animation" : "town-screen/inferno/TBSKB1.def",
-					"x" : 490,
-					"y" : 27,
-					"z" : -2,
-					"border" : "town-screen/inferno/borders/TOISKB1.bmp",
-					"area" : "town-screen/inferno/areas/TZISKB1.bmp"
-				},
-				"dwellingUpLvl5B" : {
-					"animation" : "town-screen/inferno/TBSKB2.def",
-					"x" : 490,
-					"y" : 27,
-					"z" : -2,
-					"border" : "town-screen/inferno/borders/TOISKB2.bmp",
-					"area" : "town-screen/inferno/areas/TZISKB2.bmp"
 				},
 				"dwellingLvl6B" : {
 					"animation" : "town-screen/inferno/RIFT1.def",
@@ -371,73 +348,6 @@
 						]
 					]
 				},
-				"dwellingLvl5" : {
-					"requires" : [
-						"allOf",
-						[
-							"dwellingLvl4"
-						],
-						[
-							"noneOf",
-							[
-								"dwellingLvl5B"
-							]
-						]
-					]
-				},
-				"dwellingLvl5B" : {
-					"description" : "The Lust Chambers allow you to recruit Succubi.",
-					"name" : "Lust Chambers",
-					"id" : 55,
-					"cost" : {
-						"gold" : 3000,
-						"sulfur" : 5
-					},
-					"requires" : [
-						"allOf",
-						[
-							"dwellingLvl3"
-						],
-						[
-							"dwellingLvl4"
-						],
-						[
-							"noneOf",
-							[
-								"dwellingLvl5"
-							]
-						]
-					]
-				},
-				"dwellingUpLvl5B" : {
-					"description" : "The Lust Chambers allow you to recruit Succubus Seducers and Lilims.",
-					"name" : "Upg. Lust Chambers",
-					"id" : 62,
-					"cost" : {
-						"gold" : 3000,
-						"mercury" : 5
-					},
-					"requires" : [
-						"allOf",
-						[
-							"mageGuild1"
-						]
-					],
-					"upgrades" : "dwellingLvl5B"
-				},
-				"dwellingUp2Lvl5B" : {
-					"description" : "The Lust Chambers allow you to recruit Succubus Seducers and Lilims.",
-					"name" : "Upg. Lust Chambers",
-					"id" : 69,
-					"upgrades" : "dwellingUpLvl5B",
-					"mode" : "auto",
-					"requires" : [
-						"allOf",
-						[
-							"dwellingUpLvl5B"
-						]
-					]
-				},
 				"dwellingLvl6" : {
 					"requires" : [
 						"allOf",
@@ -514,13 +424,10 @@
 					"requires" : [
 						"allOf",
 						[
+							"dwellingLvl5"
+						],
+						[
 							"anyOf",
-							[
-								"dwellingLvl5"
-							],
-							[
-								"dwellingLvl5B"
-							],
 							[
 								"dwellingLvl6"
 							],

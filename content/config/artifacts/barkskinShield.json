@@ -1,0 +1,43 @@
+{
+	"barkskinShield" : {
+		"text" : {
+			"name" : "Barkskin Shield",
+			"description" : "{Barkskin Shield}\n\nIn addition to its component effects, this item casts Expert Shield and Stone Skin on your units at the start of combat for 50 rounds.",
+			"event" : "You trip over the Barkskin Shield, dust it off, and stick it in your pack."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "LEFT_HAND",
+		"class" : "RELIC",
+		"value" : 10000,
+		"components" : [
+			"breastplateOfPetrifiedWood",
+			"centaurAxe",
+			"helmOfTheAlabasterUnicorn",
+			"shieldOfTheDwarvenLords"
+		],
+		"fusedComponents" : false,
+		"bonuses" : {
+			"shield" : {
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.shield",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER",
+				"addInfo" : 3
+			},
+			"stoneSkin" : {
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.stoneSkin",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER",
+				"addInfo" : 3
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/barkskinShield.png",
+			"map" : "artifacts/map/barkskinShield.json",
+			"scenarioBonus" : "artifacts/bonus/barkskinShield.png"
+		}
+	}
+}

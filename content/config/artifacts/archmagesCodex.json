@@ -3,7 +3,7 @@
 		"text" : {
 			"name" : "Archmage's Codex",
 			"description" : "{Archmage's Codex}\n\nThis heavy book contains all spells from all schools of magic. It must be equipped for the spells to be available.",
-			"event" : "Archmage's Codex pickup text."
+			"event" : "You trip over the Archmage's Codex, dust it off, and stick it in your pack."
 		},
 		"type" : [
 			"HERO"

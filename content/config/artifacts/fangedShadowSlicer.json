@@ -1,0 +1,28 @@
+{
+	"fangedShadowSlicer" : {
+		"text" : {
+			"name" : "Fanged Shadow Slicer",
+			"description" : "{Fanged Shadow Slicer}\n\nThis right-handed item increases your Attack skill by +8.",
+			"event" : "You trip over the Fanged Shadow Slicer, dust it off, and stick it in your pack."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "RIGHT_HAND",
+		"class" : "MAJOR",
+		"value" : 8000,
+		"bonuses" : {
+			"attack" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"valueType" : "BASE_NUMBER",
+				"val" : 8
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/fangedShadowSlicer.png",
+			"map" : "artifacts/map/fangedShadowSlicer.json",
+			"scenarioBonus" : "artifacts/bonus/fangedShadowSlicer.png"
+		}
+	}
+}

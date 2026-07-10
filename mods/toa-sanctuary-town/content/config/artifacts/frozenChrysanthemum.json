@@ -10,7 +10,7 @@
 		],
 		"slot" : "MISC",
 		"class" : "MINOR",
-		"value" : 5000,
+		"value" : 4500,
 		"bonuses" : {
 			"experience" : {
 				"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
@@ -19,7 +19,7 @@
 			"sanctuaryExperience" : {
 				"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
 				"val" : 20,
-				"limiters" : [
+				"limiters": [
 					{
 						"type" : "FACTION_LIMITER",
 						"faction" : "sanctuary"
