@@ -1,4 +1,22 @@
 {
+	"hota.cove:nymph" : {
+		"abilities" : {
+			"deepFreezeImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "deepFreeze"
+			}
+		}
+	},
+
+	"hota.cove:oceanid" : {
+		"abilities" : {
+			"deepFreezeImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "deepFreeze"
+			}
+		}
+	},
+
 	"hota.cove:crewmate" : {
 		"abilities" : {
 			"generateGold" : {

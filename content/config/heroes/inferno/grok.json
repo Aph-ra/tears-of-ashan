@@ -37,19 +37,19 @@
 		"specialty" : {
 			"bonuses" : {
 				"gateImpStart" : {
-					"subtype" : "spell.gate01Imp",
+					"subtype" : "spell.gate11Imp",
 					"type" : "OPENING_BATTLE_SPELL",
 					"val" : 10,
 					"valueType" : "BASE_NUMBER"
 				},
 				"gateGogStart" : {
-					"subtype" : "spell.gate02Gog",
+					"subtype" : "spell.gate21Gog",
 					"type" : "OPENING_BATTLE_SPELL",
 					"val" : 10,
 					"valueType" : "BASE_NUMBER"
 				},
 				"gateHellHoundStart" : {
-					"subtype" : "spell.gate03HellHound",
+					"subtype" : "spell.gate31HellHound",
 					"type" : "OPENING_BATTLE_SPELL",
 					"val" : 10,
 					"valueType" : "BASE_NUMBER"

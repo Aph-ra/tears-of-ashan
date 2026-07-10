@@ -1,6 +1,6 @@
 {
 	"khabeleth" : {
-		"class" : "gatekeeper",
+		"class" : "gatekeeperDevilSpec",
 		"female" : false,
 		"special" : false,
 		"spellbook" : [
@@ -12,7 +12,7 @@
 			"specialty" : {
 				"name" : "Devils",
 				"tooltip" : "Creature Bonus: Devils",
-				"description" : "Increases the Speed of allied Devils, Arch Devils, and Arch Demons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+				"description" : "Increases the Speed of allied Devils, Arch Devils, and Arch Demons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up). Gating Devils costs 25% less spell points. Can gate Arch Devils with Expert Gating."
 			}
 		},
 
@@ -25,7 +25,7 @@
 
 		"skills" : [
 			{
-				"skill" : "gating",
+				"skill" : "gatingDevilSpec",
 				"level" : "basic"
 			},
 			{

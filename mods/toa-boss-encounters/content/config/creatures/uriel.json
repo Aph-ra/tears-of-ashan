@@ -1,0 +1,142 @@
+{
+	"urielAU" : {
+		"name" : {
+			"singular" : "Uriel",
+			"plural" : "Uriels"
+		},
+		"faction" : "castle",
+		"level" : 10,
+		"attack" : 75,
+		"defense" : 75,
+		"damage" : {
+			"min" : 1750,
+			"max" : 1750
+		},
+		"hitPoints" : 13500,
+		"speed" : 16,
+		"growth" : 1,
+		"aiValue" : 1000000,
+		"fightValue" : 1000000,
+		"cost" : {
+			"gold" : 1000000,
+			"gems" : 100
+		},
+		"advMapAmount" : {
+			"min" : 1,
+			"max" : 1
+		},
+		"special" : true,
+		"excludeFromRandomization" : true,
+		"doubleWide" : true,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"KING_2" : {
+				"type" : "KING",
+				"val" : 2
+			},
+			"raisesMorale" : {
+				"type" : "MORALE",
+				"val" : 5,
+				"propagator" : "ARMY",
+				"description" : "{Raises Morale}\nUriel raise allied units' Morale by +5",
+				"icon" : "zvs/Lib1.res/bonusmoraleangel"
+			},
+			"minimumMorale" : {
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX",
+				"propagator" : "ARMY"
+			},
+			"castsResurrection" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.resurrection",
+				"val" : 3,
+				"description" : "{Spellcaster}\nCan cast Expert Resurrection (1000% Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/resurrect3.png"
+			},
+			"resurrectionPower" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.resurrection",
+				"val" : 1000
+			},
+			"castsPrayer" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "prayer",
+				"val" : 3,
+				"description" : "{Spellcaster}\nCan cast Expert Prayer (10 Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/prayer3.png"
+			},
+			"prayerPower" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.prayer",
+				"val" : 10
+			},
+			"castsCure" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.cure",
+				"val" : 3,
+				"description" : "{Spellcaster}\nCan cast Expert Cure (1000% Power)",
+				"icon" : "zvs/Lib1.res/spellsSOD/cure3.png"
+			},
+			"curePower" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.cure",
+				"val" : 1000
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 10
+			},
+			"fearless" : {
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"val" : 0
+			},
+			"fearlessBonus" : {
+				"type" : "NONE",
+				"val" : 0,
+				"description" : "{Fearless}\nUnaffected by Fear",
+				"icon" : "zvs/Lib1.res/e_fearl.png"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"immuneToDeathStare" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "deathStare"
+			},
+			"immuneToAccurateShot" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "accurateShot"
+			},
+			"yetiCure" : {
+				"type" : "ENCHANTED",
+				"subtype" : "yetiCure",
+				"val" : 0,
+				"icon" : "hota/bulwark/bonuses/yetiCure",
+				"description" : "{Self-dispelling}\nRecovers from negative effects in one round of combat."
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/battle/uriel.def",
+			"map" : "creatures/map/uriel.def",
+			"iconSmall" : "creatures/iconsSmall/uriel.png",
+			"iconLarge" : "creatures/iconsBig/uriel.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/archangelSeraph/Archangel_attack1_short",
+			"defend" : "creatures/archangelSeraph/Archangel_hit",
+			"killed" : "creatures/archangelSeraph/Archangel_death",
+			"move" : "creatures/archangelSeraph/Archangel_move",
+			"wince" : "creatures/archangelSeraph/Archangel_hit"
+		}
+	}
+}

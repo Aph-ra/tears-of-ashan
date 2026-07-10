@@ -49,9 +49,7 @@
 			},
 			"king1" : {
 				"type" : "KING",
-				"val" : 0,
-				"propagator" : "HERO",
-				"valueType" : "ADDITIVE_VALUE"
+				"val" : 0
 			},
 			"canFly" : {
 				"type" : "FLYING",

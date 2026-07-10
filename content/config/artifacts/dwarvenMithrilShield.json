@@ -1,0 +1,46 @@
+{
+	"dwarvenMithrilShield" : {
+		"text" : {
+			"name" : "Dwarven Mithril Shield",
+			"description" : "{Dwarven Mithril Shield}\n\nThis left-handed item increases all four primary skills by +2.",
+			"event" : "You trip over the Dwarven Mithril Hammer, dust it off, and stick it in your pack."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "LEFT_HAND",
+		"class" : "MAJOR",
+		"value" : 8000,
+		"bonuses" : {
+			"attack" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"valueType" : "BASE_NUMBER",
+				"val" : 2
+			},
+			"defence" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"valueType" : "BASE_NUMBER",
+				"val" : 2
+			},
+			"power" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "spellpower",
+				"valueType" : "BASE_NUMBER",
+				"val" : 2
+			},
+			"knowledge" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "knowledge",
+				"valueType" : "BASE_NUMBER",
+				"val" : 2
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/dwarvenMithrilShield.png",
+			"map" : "artifacts/map/dwarvenMithrilShield.json",
+			"scenarioBonus" : "artifacts/bonus/dwarvenMithrilShield.png"
+		}
+	}
+}

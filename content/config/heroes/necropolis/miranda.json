@@ -1,0 +1,66 @@
+{
+	"miranda" : {
+		"class" : "plaguespreader",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"diseaseTOA"
+		],
+		"texts" : {
+			"name" : "Miranda",
+			"biography" : "Miranda is a highborn Lady of exquisite charm and manners, a butterfly of the Seven Cities who flutters around, pleasing but harmless. At least, that's what she'd have you believe. Beneath this superficial facade, Miranda is a fully-fledged Necromancer - and not one of the lowest-ranking initiates either. Through long years of secretive study and politicking she has become part of the inner circle of Death Lords that leads the cult. Ruthless, ambitious and armed with the sweetest smile in Ashan, Miranda's singular goal is to one day become the head of this rising sect - irrespective of the price.",
+			"specialty" : {
+				"name" : "Poisoner",
+				"tooltip" : "Battle Bonus: Poisoner",
+				"description" : "Casts Poison at the start of battle."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/necropolis/miranda/portraitSmall.png",
+			"large" : "heroes/necropolis/miranda/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Poison.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Poison.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "necromancy",
+				"level" : "basic"
+			},
+			{
+				"skill" : "darkMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"poisonStart" : {
+					"subtype" : "spell.poison",
+					"type" : "OPENING_BATTLE_SPELL",
+					"val" : 10,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "wight",
+				"min" : 4,
+				"max" : 6
+			}
+		]
+	}
+}

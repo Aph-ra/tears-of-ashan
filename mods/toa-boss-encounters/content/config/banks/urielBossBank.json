@@ -1,0 +1,314 @@
+{
+	"core:creatureBank" : {
+		"types" : {
+			"urielBossBank" : {
+				"name" : "Temple of Uriel",
+				"templates" : {
+					"base" : {
+						"animation" : "banks/urielTemple/urielTemple.json",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVVVVV",
+							"VVVVVV",
+							"VVBBBV",
+							"VVBBBV",
+							"VVVAAV"
+						]
+					}
+				},
+				"sounds" : {
+					"ambient" : [
+						"LOOPSANC"
+					],
+					"visit" : [
+						"ROGUE"
+					]
+				},
+				"battleground" : "magic_clouds",
+				"blockedVisitable" : false,
+				"rmg" : {
+					"value" : 25000,
+					"rarity" : 100,
+					"mapLimit" : 1,
+					"zoneLimit" : 1
+				},
+				"onGuardedMessage" : "You stand before the gates of the Temple of Uriel. Not a single mortal before you has dared enter it. Are you bold enough to be the first one?",
+				"onVisitedMessage" : "Uriel's Temple was once full of riches. Now, it stands abandoned and empty.",
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankUriel",
+				"rewards" : [
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 0,
+							"max" : 20
+						},
+						"mapDice" : 0,
+						"guards" : [
+							{
+								"amount" : 1,
+								"type" : "urielMarksmanAU"
+							},
+							{
+								"amount" : 1,
+								"type" : "urielPraetorianAU"
+							},
+							{
+								"amount" : 1,
+								"type" : "urielMarksmanAU"
+							},
+							{
+								"amount" : 1,
+								"type" : "urielPraetorianAU"
+							},
+							{
+								"amount" : 1,
+								"type" : "urielAU"
+							}
+						],
+						"resources" : {
+							"gold" : 100000
+						},
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							},
+							{
+								"class" : "MINOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "MAJOR"
+							}
+						]
+					},
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 20,
+							"max" : 40
+						},
+						"mapDice" : 1,
+						"guards" : [
+							{
+								"amount" : 2,
+								"type" : "urielMarksmanAU"
+							},
+							{
+								"amount" : 2,
+								"type" : "urielPraetorianAU"
+							},
+							{
+								"amount" : 2,
+								"type" : "urielMarksmanAU"
+							},
+							{
+								"amount" : 2,
+								"type" : "urielPraetorianAU"
+							},
+							{
+								"amount" : 1,
+								"type" : "urielAU"
+							}
+						],
+						"resources" : {
+							"gold" : 125000
+						},
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							}
+						]
+					},
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 40,
+							"max" : 60
+						},
+						"mapDice" : 2,
+						"guards" : [
+							{
+								"amount" : 3,
+								"type" : "urielMarksmanAU"
+							},
+							{
+								"amount" : 3,
+								"type" : "urielPraetorianAU"
+							},
+							{
+								"amount" : 3,
+								"type" : "urielMarksmanAU"
+							},
+							{
+								"amount" : 3,
+								"type" : "urielPraetorianAU"
+							},
+							{
+								"amount" : 1,
+								"type" : "urielAU"
+							}
+						],
+						"resources" : {
+							"gold" : 150000
+						},
+						"artifacts" : [
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							}
+						]
+					},
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 40,
+							"max" : 60
+						},
+						"mapDice" : 2,
+						"guards" : [
+							{
+								"amount" : 4,
+								"type" : "urielMarksmanAU"
+							},
+							{
+								"amount" : 4,
+								"type" : "urielPraetorianAU"
+							},
+							{
+								"amount" : 4,
+								"type" : "urielMarksmanAU"
+							},
+							{
+								"amount" : 4,
+								"type" : "urielPraetorianAU"
+							},
+							{
+								"amount" : 1,
+								"type" : "urielAU"
+							}
+						],
+						"resources" : {
+							"gold" : 175000
+						},
+						"artifacts" : [
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							}
+						]
+					},
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 80,
+							"max" : 100
+						},
+						"mapDice" : 3,
+						"guards" : [
+							{
+								"amount" : 5,
+								"type" : "urielMarksmanAU"
+							},
+							{
+								"amount" : 5,
+								"type" : "urielPraetorianAU"
+							},
+							{
+								"amount" : 5,
+								"type" : "urielMarksmanAU"
+							},
+							{
+								"amount" : 5,
+								"type" : "urielPraetorianAU"
+							},
+							{
+								"amount" : 1,
+								"type" : "urielAU"
+							}
+						],
+						"resources" : {
+							"gold" : 200000
+						},
+						"artifacts" : [
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

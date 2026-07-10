@@ -1,0 +1,19 @@
+{
+	"tears-of-ashan:reconstructionTOA" : {
+		"gainChance#override" : {
+			"tower" : 25,
+			"conflux" : 20,
+			"factory" : 45,
+			"courtyard" : 15
+		}
+	},
+	"courtyard:reconstruction" : {
+		"defaultGainChance#override" : 0,
+		"gainChance#override" : {},
+		"flags#override" : {
+			"positive" : true,
+			"rising" : true,
+			"special" : true
+		}
+	}
+}

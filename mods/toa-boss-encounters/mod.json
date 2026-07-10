@@ -1,0 +1,62 @@
+{
+	"name" : "Boss Encounters",
+	"author" : "Aphra",
+	"contact" : "",
+	"description" : "Adds several new adventure map locations where players can fight bosses for huge rewards.",
+	"version" : "1.0.0",
+	"modType" : "Mechanics",
+
+	"depends" : [
+		"hota.bulwark",
+		"hota.cove",
+		"hota.mapobjects",
+		"vcmi-extras.bonusicons.bonus icons"
+	],
+
+	"creatures" : [
+		"config/creatures/uriel.json",
+		"config/creatures/urielMarksman.json",
+		"config/creatures/urielPraetorian.json"
+	],
+
+	"objects" : [
+		"config/banks/urielBossBank.json"
+	],
+
+	"settings" : {
+		"combat" : {
+			"layouts" : {
+				"creatureBankUriel" : {
+					"tacticsAllowed" : true,
+					"obstaclesAllowed" : false,
+					"attackerCommander" : 86,
+					"defenderCommander" : 83,
+					"attackerUnits" : [
+						57,
+						61,
+						90,
+						93,
+						96,
+						125,
+						129
+					],
+					"attackerWarMachines" : [
+						52,
+						18,
+						154,
+						120
+					],
+					"defenderUnits" : [
+						15,
+						185,
+						172,
+						2,
+						8,
+						174,
+						181
+					]
+				}
+			}
+		}
+	}
+}

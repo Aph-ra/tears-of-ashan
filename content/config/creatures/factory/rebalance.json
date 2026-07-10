@@ -1,0 +1,8 @@
+{
+	"hota.factory:hotaCouatl" : {
+		"graphics" : {
+			"iconSmall" : "creatures/factory/iconsSmall/couatl",
+			"iconLarge" : "creatures/factory/iconsBig/couatl"
+		}
+	}
+}

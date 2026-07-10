@@ -22,8 +22,8 @@
 
 		"targetCondition" : {
 			"anyOf" : {
-				"core:bonus.UNDEAD" : "normal",
-				"tearsofashan:bonus.DEMONIC" : "normal"
+				"core:bonus.UNDEAD" : "absolute",
+				"tearsofashan:bonus.DEMONIC" : "absolute"
 			}
 		},
 

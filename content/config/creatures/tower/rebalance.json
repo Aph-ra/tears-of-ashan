@@ -198,8 +198,9 @@
 	"core:nagaQueen" : {
 		"defense" : 14,
 		"hitPoints" : 120,
-		"aiValue" : 3000,
-		"fightValue" : 3000
+		"cost" : {
+			"gold" : 1450
+		}
 	},
 	"core:giant" : {
 		"attack" : 20,

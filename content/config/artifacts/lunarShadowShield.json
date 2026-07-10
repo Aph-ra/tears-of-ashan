@@ -1,0 +1,28 @@
+{
+	"lunarShadowShield" : {
+		"text" : {
+			"name" : "Lunar Shadow Shield",
+			"description" : "{Lunar Shadow Shield}\n\nThis left-handed item increases your Defense skill by +8.",
+			"event" : "You trip over the Lunar Shadow Shield, dust it off, and stick it in your pack."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "LEFT_HAND",
+		"class" : "MAJOR",
+		"value" : 8000,
+		"bonuses" : {
+			"defence" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"valueType" : "BASE_NUMBER",
+				"val" : 8
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/lunarShadowShield.png",
+			"map" : "artifacts/map/lunarShadowShield.json",
+			"scenarioBonus" : "artifacts/bonus/lunarShadowShield.png"
+		}
+	}
+}

@@ -90,12 +90,22 @@
 	},
 	"hota.neutralcreatures:fangarm" : {
 		"faction" : "cove",
+		"speed" : 7,
+		"aiValue" : 940,
+		"fightValue" : 940,
 		"graphics" : {
 			"iconLarge" : "creatures/neutral/iconsbig/fangarm"
 		}
 	},
 	"hota.neutralcreatures:steelGolem" : {
 		"faction" : "tower",
+		"abilities" : {
+			"petrifyImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "stoneGaze",
+				"addInfo" : 1
+			}
+		},
 		"graphics" : {
 			"iconLarge" : "creatures/neutral/iconsbig/steelGolem"
 		}
@@ -110,6 +120,13 @@
 		"upgrades" : [
 			"core:diamondGolem"
 		],
+		"abilities" : {
+			"petrifyImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "stoneGaze",
+				"addInfo" : 1
+			}
+		},
 		"graphics" : {
 			"iconLarge" : "creatures/neutral/iconsbig/goldGolem"
 		}
@@ -121,8 +138,23 @@
 		"cost" : {
 			"gold" : 675
 		},
+		"abilities" : {
+			"petrifyImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "stoneGaze",
+				"addInfo" : 1
+			}
+		},
 		"graphics" : {
 			"iconLarge" : "creatures/neutral/iconsbig/diamondGolem"
+		}
+	},
+	"core:enchanter" : {
+		"hitPoints" : 50,
+		"aiValue" : 1455,
+		"fightValue" : 1035,
+		"cost" : {
+			"gold" : 775
 		}
 	},
 	"core:fairieDragon" : {
@@ -133,14 +165,14 @@
 			"max" : 50
 		},
 		"cost" : {
-			"gold" : 10000,
-			"gems" : 10
+			"gold" : 5000,
+			"gems" : 5
 		}
 	},
 	"core:rustDragon" : {
 		"cost" : {
-			"gold" : 15000,
-			"sulfur" : 10
+			"gold" : 7500,
+			"sulfur" : 5
 		},
 		"abilities#override" : {
 			"dragon" : {
@@ -172,6 +204,12 @@
 			}
 		}
 	},
+	"core:crystalDragon" : {
+		"cost" : {
+			"gold" : 10000,
+			"crystal" : 10
+		}
+	},
 	"core:azureDragon" : {
 		"abilities" : {
 			"fearsomeBonus" : {
@@ -186,6 +224,10 @@
 				"description" : "{Fearless}\nUnaffected by Fear",
 				"icon" : "zvs/Lib1.res/e_fearl.png"
 			}
+		},
+		"cost" : {
+			"gold" : 15000,
+			"mercury" : 15
 		}
 	}
 }

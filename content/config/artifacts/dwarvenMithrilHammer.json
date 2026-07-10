@@ -1,0 +1,34 @@
+{
+	"dwarvenMithrilHammer" : {
+		"text" : {
+			"name" : "Dwarven Mithril Hammer",
+			"description" : "{Dwarven Mithril Hammer}\n\nThis right-handed item increases your Attack and Power skills by +6.",
+			"event" : "You trip over the Dwarven Mithril Hammer, dust it off, and stick it in your pack."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "RIGHT_HAND",
+		"class" : "RELIC",
+		"value" : 12000,
+		"bonuses" : {
+			"attack" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"valueType" : "BASE_NUMBER",
+				"val" : 6
+			},
+			"power" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "spellpower",
+				"valueType" : "BASE_NUMBER",
+				"val" : 6
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/dwarvenMithrilHammer.png",
+			"map" : "artifacts/map/dwarvenMithrilHammer.json",
+			"scenarioBonus" : "artifacts/bonus/dwarvenMithrilHammer.png"
+		}
+	}
+}

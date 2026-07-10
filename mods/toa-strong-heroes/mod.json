@@ -10,10 +10,5 @@
 
 	"heroes" : [
 		"config/enabled.json"
-	],
-
-	"czech" : {
-		"name" : "Silní hrdinové",
-		"description" : "Povoluje Sira Mullicha, Gelua, Dracona a Mutare Drake v náhodných mapách. Lord Haart zůstává vypnutý, protože koliduje se Sirem Mullichem."
-	}
+	]
 }

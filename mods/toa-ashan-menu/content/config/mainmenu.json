@@ -17,7 +17,9 @@
 			"loadbar1",
 			"loadbar2",
 			"loadbar3",
-			"loadbar4"
+			"loadbar4",
+			"loadbar5",
+			"loadbar6"
 		],
 		"loadbar" : {
 			"x" : 395,
@@ -41,40 +43,40 @@
 				"name" : "main",
 				"buttons" : [
 					{
-						"x" : -252,
-						"y" : 27,
+						"x" : -251,
+						"y" : 28,
 						"name" : "main-new",
 						"hotkey" : 110,
 						"help" : 3,
 						"command" : "to new"
 					},
 					{
-						"x" : -252,
-						"y" : 138,
+						"x" : -251,
+						"y" : 139,
 						"name" : "main-load",
 						"hotkey" : 108,
 						"help" : 4,
 						"command" : "to load"
 					},
 					{
-						"x" : -252,
-						"y" : 250,
+						"x" : -251,
+						"y" : 251,
 						"name" : "main-scores",
 						"hotkey" : 104,
 						"help" : 5,
 						"command" : "highscores"
 					},
 					{
-						"x" : -252,
-						"y" : 355,
+						"x" : -251,
+						"y" : 356,
 						"name" : "main-credits",
 						"hotkey" : 99,
 						"help" : 6,
 						"command" : "to credits"
 					},
 					{
-						"x" : -252,
-						"y" : 460,
+						"x" : -251,
+						"y" : 461,
 						"name" : "quit",
 						"hotkey" : 27,
 						"help" : 7,
@@ -86,40 +88,40 @@
 				"name" : "new",
 				"buttons" : [
 					{
-						"x" : -252,
-						"y" : 22,
+						"x" : -251,
+						"y" : 23,
 						"name" : "game-single",
 						"hotkey" : 115,
 						"help" : 10,
 						"command" : "start single"
 					},
 					{
-						"x" : -252,
-						"y" : 136,
+						"x" : -251,
+						"y" : 137,
 						"name" : "game-multi",
 						"hotkey" : 109,
 						"help" : 12,
 						"command" : "start multi"
 					},
 					{
-						"x" : -252,
-						"y" : 243,
+						"x" : -251,
+						"y" : 244,
 						"name" : "game-camp",
 						"hotkey" : 99,
 						"help" : 11,
 						"command" : "to campaign"
 					},
 					{
-						"x" : -252,
-						"y" : 358,
+						"x" : -251,
+						"y" : 359,
 						"name" : "game-tutor",
 						"hotkey" : 116,
 						"help" : 13,
 						"command" : "start tutorial"
 					},
 					{
-						"x" : -252,
-						"y" : 460,
+						"x" : -251,
+						"y" : 461,
 						"name" : "back",
 						"hotkey" : 27,
 						"help" : 14,
@@ -138,40 +140,40 @@
 				"name" : "load",
 				"buttons" : [
 					{
-						"x" : -252,
-						"y" : 22,
+						"x" : -251,
+						"y" : 23,
 						"name" : "game-single",
 						"hotkey" : 115,
 						"help" : 10,
 						"command" : "load single"
 					},
 					{
-						"x" : -252,
-						"y" : 136,
+						"x" : -251,
+						"y" : 137,
 						"name" : "game-multi",
 						"hotkey" : 109,
 						"help" : 12,
 						"command" : "load multi"
 					},
 					{
-						"x" : -252,
-						"y" : 243,
+						"x" : -251,
+						"y" : 244,
 						"name" : "game-camp",
 						"hotkey" : 99,
 						"help" : 11,
 						"command" : "load campaign"
 					},
 					{
-						"x" : -252,
-						"y" : 358,
+						"x" : -251,
+						"y" : 359,
 						"name" : "game-tutor",
 						"hotkey" : 116,
 						"help" : 13,
 						"command" : "load tutorial"
 					},
 					{
-						"x" : -252,
-						"y" : 460,
+						"x" : -251,
+						"y" : 461,
 						"name" : "back",
 						"hotkey" : 27,
 						"help" : 14,
@@ -190,39 +192,52 @@
 				"name" : "campaign",
 				"buttons" : [
 					{
-						"x" : -262,
-						"y" : 19,
+						"x" : -749,
+						"y" : 237,
 						"name" : "camp-roe",
-						"hotkey" : 114,
-						"command" : "campaigns roe"
+						"command" : "campaigns roe",
+						"shortcut" : "mainMenuCampaignRoe"
 					},
 					{
-						"x" : -273,
-						"y" : 133,
+						"x" : -503,
+						"y" : 247,
 						"name" : "camp-ab",
-						"hotkey" : 97,
-						"command" : "campaigns ab"
+						"command" : "campaigns ab",
+						"shortcut" : "mainMenuCampaignAb"
 					},
 					{
-						"x" : -230,
-						"y" : 254,
+						"x" : -231,
+						"y" : 244,
 						"name" : "camp-sod",
-						"hotkey" : 119,
-						"command" : "campaigns sod"
+						"command" : "campaigns sod",
+						"shortcut" : "mainMenuCampaignSod"
 					},
 					{
-						"x" : -222,
-						"y" : 364,
+						"x" : -739,
+						"y" : 365,
+						"name" : "camp-hota",
+						"command" : "campaigns hota",
+						"shortcut" : "mainMenuCampaignHota"
+					},
+					{
+						"x" : -463,
+						"y" : 366,
+						"name" : "camp-toa",
+						"command" : "campaigns toa"
+					},
+					{
+						"x" : -221,
+						"y" : 365,
 						"name" : "camp-custom",
-						"hotkey" : 99,
-						"command" : "start campaign"
+						"command" : "start campaign",
+						"shortcut" : "mainMenuCampaignCustom"
 					},
 					{
-						"x" : -252,
-						"y" : 460,
+						"x" : -251,
+						"y" : 461,
 						"name" : "back",
-						"hotkey" : 27,
-						"command" : "to new"
+						"command" : "to new",
+						"shortcut" : "mainMenuBack"
 					}
 				]
 			}

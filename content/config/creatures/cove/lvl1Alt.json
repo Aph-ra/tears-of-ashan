@@ -42,6 +42,10 @@
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.frostRing"
 			},
+			"deepFreezeImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "deepFreeze"
+			},
 			"immuneToFreezingShot" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.freezingShot",

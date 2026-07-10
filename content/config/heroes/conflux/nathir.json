@@ -1,0 +1,61 @@
+{
+	"nathir" : {
+		"class" : "elementalist",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"fireball"
+		],
+		"texts" : {
+			"name" : "Nathir",
+			"biography" : "During the War of the Grey Alliance, Nathir was taken prisoner by the demons. Enslaved in their sulfur mines, he was one of only three survivors of a massive prison uprising and escape. Nathir made his way across the fiery wastes of Sheogh and finally back to the Silver Cities, vowing from that day on that fire would be his servant and never again his master.",
+			"specialty" : {
+				"name" : "Firebirds",
+				"tooltip" : "Creature Bonus: Firebirds",
+				"description" : "Increases the Speed of allied Firebirds, Phoenixes, and Sacred Phoenixes by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/conflux/nathir/portraitSmall.png",
+			"large" : "heroes/conflux/nathir/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Firebirds.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Firebirds.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "fireMagic",
+				"level" : "basic"
+			},
+			{
+				"skill" : "sorcery",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "firebird",
+			"creatureLevel" : 7,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

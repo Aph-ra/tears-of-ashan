@@ -1,0 +1,112 @@
+{
+	"reconstructionTOA" : {
+		"type" : "combat",
+		"targetType" : "CREATURE",
+		"name" : "Reconstruction",
+		"school" : {
+			"earth" : true
+		},
+		"level" : 3,
+		"power" : 50,
+
+		"defaultGainChance" : 5,
+		"gainChance" : {
+			"tower" : 25,
+			"conflux" : 20,
+			"factory" : 45
+		},
+
+		"animation" : {
+			"affect" : [
+				"spells/reconstruction/spell.def"
+			]
+		},
+
+		"flags" : {
+			"positive" : true,
+			"rising" : true
+		},
+		"targetCondition" : {
+			"noneOf" : {
+				"core:bonus.UNDEAD" : "absolute"
+			},
+			"anyOf" : {
+				"core:bonus.GARGOYLE" : "absolute",
+				"core:bonus.MECHANICAL" : "absolute",
+				"core:bonus.NON_LIVING" : "absolute",
+				"core:bonus.SIEGE_WEAPON" : "absolute"
+			}
+		},
+
+		"graphics" : {
+			"iconBook" : "spells/reconstruction/spellBook",
+			"iconEffect" : "spells/reconstruction/spellEffect",
+			"iconScroll" : "spells/reconstruction/spellScroll",
+			"iconScenarioBonus" : "spells/reconstruction/spellBonus"
+		},
+
+		"sounds" : {
+			"cast" : "spells/RECONSTRUCTION.wav"
+		},
+
+		"levels" : {
+			"base" : {
+				"range" : "0",
+				"battleEffects" : {
+					"heal" : {
+						"type" : "core:heal",
+						"healLevel" : "resurrect",
+						"healPower" : "oneBattle",
+						"minFullUnits" : 1
+					},
+					"cure" : {
+						"type" : "core:dispel",
+						"indirect" : true,
+						"optional" : true,
+						"dispelNegative" : true,
+						"dispelNeutral" : false,
+						"dispelPositive" : false
+					}
+				},
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"description" : "{Reconstruction}\n\nTarget allied unliving (not undead) troop or siege weapon with destroyed creatures has (30 + (power x 50)) health worth of creatures restored to life for the duration of the current battle.",
+				"cost" : 18,
+				"power" : 40
+			},
+			"basic" : {
+				"description" : "{Basic Reconstruction}\n\nTarget allied unliving (not undead) troop or siege weapon with destroyed creatures has (40 + (power x 50)) health worth of creatures restored to life for the duration of the current battle.",
+				"cost" : 14,
+				"power" : 40,
+				"battleEffects" : {
+					"heal" : {
+						"healPower" : "permanent"
+					}
+				}
+			},
+			"advanced" : {
+				"description" : "{Advanced Reconstruction}\n\nTarget allied unliving (not undead) troop or siege weapon with destroyed creatures has (40 + (power x 50)) health worth of creatures restored to life for the duration of the current battle.",
+				"power" : 80,
+				"cost" : 14,
+				"battleEffects" : {
+					"heal" : {
+						"healPower" : "permanent"
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Expert Reconstruction}\n\nTarget allied unliving (not undead) troop or siege weapon with destroyed creatures has (160 + (power x 50)) health worth of creatures restored to life for the duration of the current battle.",
+				"power" : 160,
+				"cost" : 14,
+				"battleEffects" : {
+					"heal" : {
+						"healPower" : "permanent"
+					}
+				}
+			}
+		}
+	}
+}

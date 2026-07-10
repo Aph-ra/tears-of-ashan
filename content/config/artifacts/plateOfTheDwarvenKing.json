@@ -1,0 +1,52 @@
+{
+	"plateOfTheDwarvenKing" : {
+		"text" : {
+			"name" : "Plate of the Dwarven King",
+			"description" : "{Plate of the Dwarven King}\n\nIn addition to its component effects, this item renders your units immune to Blind, Berserk, Implosion, and Slow, and increases Fire Magic Damage dealt by +50%.",
+			"event" : "You trip over the Plate of the Dwarven King, dust it off, and stick it in your pack."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "TORSO",
+		"class" : "RELIC",
+		"value" : 55000,
+		"components" : [
+			"dwarvenMithrilCuirass",
+			"dwarvenMithrilGreaves",
+			"dwarvenMithrilHammer",
+			"dwarvenMithrilHelmet",
+			"dwarvenMithrilShield"
+		],
+		"fusedComponents" : false,
+		"bonuses" : {
+			"blindImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "blind"
+			},
+			"berserkImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "berserk"
+			},
+			"implosionImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "implosion"
+			},
+			"slowImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "slow"
+			},
+			"spellDamage" : {
+				"type" : "SPELL_DAMAGE",
+				"subtype" : "spellSchool.fire",
+				"val" : 50,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/plateOfTheDwarvenKing.png",
+			"map" : "artifacts/map/plateOfTheDwarvenKing.json",
+			"scenarioBonus" : "artifacts/bonus/plateOfTheDwarvenKing.png"
+		}
+	}
+}

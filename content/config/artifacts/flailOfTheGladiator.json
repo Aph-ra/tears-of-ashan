@@ -1,0 +1,50 @@
+{
+	"flailOfTheGladiator" : {
+		"text" : {
+			"name" : "Flail of the Gladiator",
+			"description" : "{Flail of the Gladiator}\n\nIn addition to its component effects, this item casts Expert Bloodlust, Protection from Earth, and Shield on your units at the start of combat for 50 rounds.",
+			"event" : "You trip over the Flail of the Gladiator, dust it off, and stick it in your pack."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "RIGHT_HAND",
+		"class" : "RELIC",
+		"value" : 18000,
+		"components" : [
+			"bucklerOfTheGnollKing",
+			"greaterGnollsFlail",
+			"helmOfChaos",
+			"scalesOfTheGreaterBasilisk"
+		],
+		"fusedComponents" : false,
+		"bonuses" : {
+			"bloodlust" : {
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.bloodlust",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER",
+				"addInfo" : 3
+			},
+			"protectionFromEarth" : {
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.protectEarth",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER",
+				"addInfo" : 3
+			},
+			"shield" : {
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.shield",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER",
+				"addInfo" : 3
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/flailOfTheGladiator.png",
+			"map" : "artifacts/map/flailOfTheGladiator.json",
+			"scenarioBonus" : "artifacts/bonus/flailOfTheGladiator.png"
+		}
+	}
+}

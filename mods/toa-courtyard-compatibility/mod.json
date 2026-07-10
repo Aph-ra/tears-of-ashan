@@ -1,0 +1,28 @@
+{
+	"name" : "Courtyard Compatibility",
+	"author" : "Aphra",
+	"contact" : "",
+	"description" : "Compatibility layer for Courtyard mod. Changes all instances of Reconstruction the the TOA version.",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "",
+	"modType" : "Compatibility",
+	"version" : "1.0.0",
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+
+	"depends" : [
+		"courtyard",
+		"hota.factory"
+	],
+
+	"heroes" : [
+		"config/heroChanges.json"
+	],
+
+	"spells" : [
+		"config/spellChanges.json"
+	]
+}

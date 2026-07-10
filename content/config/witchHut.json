@@ -1,0 +1,20 @@
+{
+	"core:witchHut" : {
+		"types" : {
+			"witchHut" : {
+				"variables" : {
+					"secondarySkill" : {
+						"gainedSkill" : {
+							"noneOf" : [
+								"gating",
+								"gatingDevilSpec",
+								"gatingNightmareSpec",
+								"warcries"
+							]
+						}
+					}
+				}
+			}
+		}
+	}
+}

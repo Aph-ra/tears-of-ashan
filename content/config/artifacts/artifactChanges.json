@@ -1,0 +1,333 @@
+{
+	//RIGHT HAND
+	"core:blackshardOfTheDeadKnight" : {
+		"class" : "TREASURE"
+	},
+	"core:ogresClubOfHavoc" : {
+		"class" : "MINOR"
+	},
+	"core:swordOfHellfire" : {
+		"class" : "MINOR"
+	},
+	"core:titansGladius" : {
+		"text" : {
+			"description" : "{Titan's Gladius}\n\nThis right-handed item increases your Attack skill by +9."
+		},
+		"bonuses#override" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 9,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"class" : "MAJOR",
+		"value" : 9000
+	},
+	"core:armageddonsBlade" : {
+		"text" : {
+			"description" : "{Armageddon's Blade}\n\nIn addition to its component effects, this item grants you Expert Armageddon and renders your units immune to Armageddon."
+		},
+		"bonuses#override" : {
+			"armageddon" : {
+				"subtype" : "spell.armageddon",
+				"type" : "SPELL",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+			"armageddonImmunity" : {
+				"subtype" : "spell.armageddon",
+				"type" : "SPELL_IMMUNITY",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"components" : [
+			"swordOfHellfire",
+			"shieldOfTheDamned",
+			"breastplateOfBrimstone",
+			"hellstormHelmet"
+		],
+		"value" : 34000
+	},
+
+	//LEFT HAND
+	"core:shieldOfTheYawningDead" : {
+		"class" : "TREASURE"
+	},
+	"core:targOfTheRampagingOgre" : {
+		"class" : "MINOR"
+	},
+	"core:shieldOfTheDamned" : {
+		"class" : "MINOR"
+	},
+	"core:dragonScaleShield" : {
+		"class" : "MINOR"
+	},
+	"core:sentinelsShield" : {
+		"text" : {
+			"description" : "{Sentinel's Shield}\n\nThis left-handed item increases your Defense skill by +9."
+		},
+		"bonuses#override" : {
+			"defence" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 9
+			}
+		},
+		"class" : "MAJOR",
+		"value" : 9000
+	},
+
+	//HELMET
+	"core:helmOfTheAlabasterUnicorn" : {
+		"text" : {
+			"description" : "{Helm of the Alabaster Unicorn}\n\nWorn on the head, this item increases your Knowledge skill by +2."
+		},
+		"bonuses" : {
+			"knowledge" : {
+				"val" : 2
+			}
+		},
+		"value" : 2000
+	},
+	"core:skullHelmet" : {
+		"bonuses" : {
+			"knowledge" : {
+				"val" : 3
+			}
+		},
+		"class" : "TREASURE"
+	},
+	"core:helmOfChaos" : {
+		"bonuses" : {
+			"knowledge" : {
+				"val" : 4
+			}
+		},
+		"class" : "MINOR"
+	},
+	"core:crownOfTheSupremeMagi" : {
+		"bonuses" : {
+			"knowledge" : {
+				"val" : 5
+			}
+		},
+		"class" : "MINOR"
+	},
+	"core:hellstormHelmet" : {
+		"bonuses" : {
+			"knowledge" : {
+				"val" : 6
+			}
+		},
+		"class" : "MINOR"
+	},
+	"hota.artifacts:crownOfTheFiveSeas" : {
+		"bonuses" : {
+			"skill" : {
+				"val" : 7
+			}
+		}
+	},
+	"core:thunderHelmet" : {
+		"text" : {
+			"description" : "{Thunder Helm}\n\nWorn on the head, this item increases your Knowledge skill by +9."
+		},
+		"bonuses#override" : {
+			"knowledge" : {
+				"subtype" : "primarySkill.knowledge",
+				"type" : "PRIMARY_SKILL",
+				"val" : 9
+			}
+		},
+		"class" : "MAJOR",
+		"value" : 9000
+	},
+	"core:crownOfDragontooth" : {
+		"class" : "MAJOR"
+	},
+
+	//TORSO
+	"core:breastplateOfPetrifiedWood" : {
+		"text" : {
+			"description" : "{Breastplate of Petrified Wood}\n\nWorn on the torso, this item increases your Power skill by +2."
+		},
+		"bonuses" : {
+			"spellpower" : {
+				"val" : 2
+			}
+		},
+		"value" : 2000
+	},
+	"core:ribCage" : {
+		"bonuses" : {
+			"spellpower" : {
+				"val" : 3
+			}
+		},
+		"class" : "TREASURE"
+	},
+	"core:scalesOfTheGreaterBasilisk" : {
+		"bonuses" : {
+			"spellpower" : {
+				"val" : 4
+			}
+		},
+		"class" : "MINOR"
+	},
+	"core:tunicOfTheCyclopsKing" : {
+		"bonuses" : {
+			"spellpower" : {
+				"val" : 5
+			}
+		},
+		"class" : "MINOR"
+	},
+	"core:breastplateOfBrimstone" : {
+		"bonuses" : {
+			"spellpower" : {
+				"val" : 6
+			}
+		},
+		"class" : "MINOR"
+	},
+	"hota.artifacts:royalArmorOfNix" : {
+		"bonuses" : {
+			"skill" : {
+				"val" : 7
+			}
+		}
+	},
+	"core:titansCuirass" : {
+		"text" : {
+			"description" : "{Titan's Cuirass}\n\nWorn on the torso, this item increases your Power skill by +9."
+		},
+		"bonuses#override" : {
+			"spellpower" : {
+				"subtype" : "primarySkill.spellpower",
+				"type" : "PRIMARY_SKILL",
+				"val" : 9
+			}
+		},
+		"class" : "MAJOR",
+		"value" : 9000
+	},
+	"core:dragonScaleArmor" : {
+		"class" : "MAJOR"
+	},
+
+	//NECK
+	"core:necklaceOfDragonteeth" : {
+		"class" : "MINOR"
+	},
+	"core:garnitureOfInterference" : {
+		"class" : "TREASURE"
+	},
+	"core:necklaceOfSwiftness" : {
+		"class" : "MAJOR"
+	},
+	"core:necklaceOfOceanGuidance" : {
+		"value" : 9000
+	},
+	"core:pendantOfDeath" : {
+		"value" : 2000
+	},
+	"core:pendantOfLife" : {
+		"value" : 2000
+	},
+	"core:pendantOfTotalRecall" : {
+		"value" : 2000
+	},
+
+	//HANDS
+	"core:equestriansGloves" : {
+		"value" : 3500
+	},
+	"hota.artifacts:ringOfSuppression" : {
+		"class" : "MINOR"
+	},
+	"core:ringOfLife" : {
+		"value" : 4000
+	},
+	"core:ringOfVitality" : {
+		"class" : "MINOR",
+		"value" : 4000
+	},
+	"hota.artifacts:sealOfSunset" : {
+		"class" : "MAJOR"
+	},
+
+	//FEET
+	"core:sandalsOfTheSaint" : {
+		"class" : "MAJOR"
+	},
+	"core:bootsOfSpeed" : {
+		"class" : "MINOR"
+	},
+	"core:bootsOfPolarity" : {
+		"class" : "MINOR"
+	},
+	"core:deadMansBoots" : {
+		"class" : "MINOR"
+	},
+
+	//CAPE
+	"core:capeOfVelocity" : {
+		"value" : 9000
+	},
+	"core:surcoatOfCounterpoise" : {
+		"class" : "MINOR"
+	},
+
+	//MISCELLANEOUS
+	"core:angelFeatherArrows" : {
+		"value" : 7000
+	},
+	"core:armsOfLegion" : {
+		"value" : 7000
+	},
+	"core:emblemOfCognizance" : {
+		"class" : "TREASURE"
+	},
+	"core:endlessPurseOfGold" : {
+		"class" : "MINOR"
+	},
+	"core:everpouringVialOfMercury" : {
+		"class" : "MINOR"
+	},
+	"core:headOfLegion" : {
+		"value" : 8000
+	},
+	"core:inexhaustibleCartOfLumber" : {
+		"value" : 4000
+	},
+	"core:inexhaustibleCartOfOre" : {
+		"value" : 4000
+	},
+	"core:legsOfLegion" : {
+		"class" : "MINOR",
+		"value" : 4000
+	},
+	"core:orbOfDrivingRain" : {
+		"value" : 8000
+	},
+	"core:orbOfSilt" : {
+		"value" : 8000
+	},
+	"core:orbOfTheFirmament" : {
+		"value" : 8000
+	},
+	"core:orbOfTempestuousFire" : {
+		"value" : 8000
+	},
+	"core:shacklesOfWar" : {
+		"value" : 8000
+	},
+	"core:torsoOfLegion" : {
+		"value" : 6000
+	},
+	"core:vialOfLifeblood" : {
+		"value" : 9000
+	}
+}

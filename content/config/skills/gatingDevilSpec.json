@@ -1,6 +1,7 @@
 {
 	"gatingDevilSpec" : {
 		"name" : "Gating",
+		"special" : true,
 		"gainChance" : {
 			"might" : 0,
 			"magic" : 0,
@@ -16,17 +17,17 @@
 				},
 				"gateImpGain" : {
 					"type" : "SPELL",
-					"subtype" : "spell.gate01Imp",
+					"subtype" : "spell.gate11Imp",
 					"val" : 0
 				},
 				"gateGogGain" : {
 					"type" : "SPELL",
-					"subtype" : "spell.gate02Gog",
+					"subtype" : "spell.gate21Gog",
 					"val" : 0
 				},
 				"gateHellHoundGain" : {
 					"type" : "SPELL",
-					"subtype" : "spell.gate03HellHound",
+					"subtype" : "spell.gate31HellHound",
 					"val" : 0
 				}
 			}
@@ -39,17 +40,17 @@
 				},
 				"gateImpGain" : {
 					"type" : "SPELL",
-					"subtype" : "spell.gate01Imp",
+					"subtype" : "spell.gate11Imp",
 					"val" : 0
 				},
 				"gateGogGain" : {
 					"type" : "SPELL",
-					"subtype" : "spell.gate02Gog",
+					"subtype" : "spell.gate21Gog",
 					"val" : 0
 				},
 				"gateHellHoundGain" : {
 					"type" : "SPELL",
-					"subtype" : "spell.gate03HellHound",
+					"subtype" : "spell.gate31HellHound",
 					"val" : 0
 				}
 			},
@@ -61,19 +62,24 @@
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Gating}\n\nGrants the ability to gate Demons, Succubi, and Pit Fiends in addition to previous creatures.",
+			"description" : "{Advanced Gating}\n\nGrants the ability to gate Demons, Pit Fiends, and Succubi in addition to previous creatures.",
 			"effects" : {
 				"gatingSchool" : {
 					"val" : 2
 				},
 				"gateDemonGain" : {
 					"type" : "SPELL",
-					"subtype" : "spell.gate04Demon",
+					"subtype" : "spell.gate41Demon",
 					"val" : 0
 				},
 				"gatePitFiendGain" : {
 					"type" : "SPELL",
-					"subtype" : "spell.gate05PitFiend",
+					"subtype" : "spell.gate51PitFiend",
+					"val" : 0
+				},
+				"gateSuccubusGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate54Succubus",
 					"val" : 0
 				}
 			},
@@ -92,32 +98,37 @@
 				},
 				"gateDemonGain" : {
 					"type" : "SPELL",
-					"subtype" : "spell.gate04Demon",
+					"subtype" : "spell.gate41Demon",
 					"val" : 0
 				},
 				"gatePitFiendGain" : {
 					"type" : "SPELL",
-					"subtype" : "spell.gate05PitFiend",
+					"subtype" : "spell.gate51PitFiend",
+					"val" : 0
+				},
+				"gateSuccubusGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate54Succubus",
 					"val" : 0
 				},
 				"gateEfreetiGain" : {
 					"type" : "SPELL",
-					"subtype" : "spell.gate06Efreeti",
+					"subtype" : "spell.gate61Efreeti",
 					"val" : 0
 				},
 				"gateHellSteedGain" : {
 					"type" : "SPELL",
-					"subtype" : "spell.gate07HellSteed",
+					"subtype" : "spell.gate64HellSteed",
 					"val" : 0
 				},
-				"gateDevilSpecGain" : {
+				"gateDevilGain" : {
 					"type" : "SPELL",
-					"subtype" : "spell.gate09DevilSpec",
+					"subtype" : "spell.gate74DevilSpec",
 					"val" : 0
 				},
 				"gateArchDevilGain" : {
 					"type" : "SPELL",
-					"subtype" : "spell.gate10ArchDevil",
+					"subtype" : "spell.gate72ArchDevil",
 					"val" : 0
 				}
 			},

@@ -10,7 +10,7 @@
 			"name" : "Biara",
 			"biography" : "Arguably the most dangerous weapon in the Demon Sovereign's arsenal, Biara is a succubus of legendary skills. With ample natural gifts enhanced by almost masochistic self-discipline, her talents for seduction, assassination, and infiltration are unequalled in all of Sheogh. When the going gets tough, Kha-Beleth gleefully turns to Biara.",
 			"specialty" : {
-				"description" : "Increases the Speed of allied Hell Steeds and Nightmares by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up). Can gate Nightmares with Expert Gating.",
+				"description" : "Increases the Speed of allied Hell Steeds, Hell Stallions, and Nightmares by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up). Can gate Nightmares with Expert Gating.",
 				"tooltip" : "Creature Bonus: Hell Steeds",
 				"name" : "Hell Steeds"
 			}

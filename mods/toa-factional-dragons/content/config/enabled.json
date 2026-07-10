@@ -1,6 +1,6 @@
 {
 	"core:fairieDragon" : {
-		"faction" : "conflux",
+		"faction" : "rampart",
 		"graphics" : {
 			"iconLarge" : "creatures/neutral/iconsbig/faerieDragon"
 		}
@@ -12,7 +12,7 @@
 		}
 	},
 	"core:rustDragon" : {
-		"faction" : "dungeon",
+		"faction" : "fortress",
 		"graphics" : {
 			"iconLarge" : "creatures/neutral/iconsbig/rustDragon"
 		}

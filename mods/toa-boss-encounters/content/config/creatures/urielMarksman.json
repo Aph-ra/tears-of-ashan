@@ -1,0 +1,112 @@
+{
+	"urielMarksmanAU" : {
+		"name" : {
+			"singular" : "Uriel's Marksman",
+			"plural" : "Uriel's Marksmen"
+		},
+		"faction" : "castle",
+		"level" : 10,
+		"attack" : 60,
+		"defense" : 40,
+		"shots" : 32,
+		"damage" : {
+			"min" : 200,
+			"max" : 225
+		},
+		"hitPoints" : 3000,
+		"speed" : 11,
+		"growth" : 1,
+		"aiValue" : 250000,
+		"fightValue" : 250000,
+		"cost" : {
+			"gold" : 250000,
+			"gems" : 25
+		},
+		"advMapAmount" : {
+			"min" : 1,
+			"max" : 1
+		},
+		"special" : true,
+		"excludeFromRandomization" : true,
+		"doubleWide" : false,
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"noDistancePenalty" : {
+				"type" : "NO_DISTANCE_PENALTY"
+			},
+			"noWallPenalty" : {
+				"type" : "NO_WALL_PENALTY"
+			},
+			"reduceDefence" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 50
+			},
+			"shootAdjacent" : {
+				"type" : "FREE_SHOOTING"
+			},
+			"fearless" : {
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"val" : 0
+			},
+			"fearlessBonus" : {
+				"type" : "NONE",
+				"val" : 0,
+				"description" : "{Fearless}\nUnaffected by Fear",
+				"icon" : "zvs/Lib1.res/e_fearl.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/castle/battle/lvl2Alt.def",
+			"map" : "creatures/castle/map/lvl2Alt.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "creatures/castle/iconsSmall/lvl2Alt.png",
+			"iconLarge" : "creatures/castle/iconsBig/lvl2Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			},
+			"missile" : {
+				"projectile" : "PLCBOWX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" : {
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/marksmanCrossbowman/Marksman_attack",
+			"defend" : "creatures/marksmanCrossbowman/Marksman_hit",
+			"killed" : "creatures/marksmanCrossbowman/Marksman_death",
+			"move" : "creatures/marksmanCrossbowman/Marksman_move",
+			"wince" : "creatures/marksmanCrossbowman/Marksman_hit",
+			"shoot" : "creatures/marksmanCrossbowman/Marksman_ranged_short"
+		}
+	}
+}

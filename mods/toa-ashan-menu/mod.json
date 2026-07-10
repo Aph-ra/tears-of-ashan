@@ -9,14 +9,8 @@
 	"conflicts" : [
 		"h3-themes",
 		"hota.mainmenu",
-		"wake-of-gods.wogscreen",
 		"wake-of-gods.mainmenu",
 		"tides-of-war.tow-main-menu",
 		"hi-rez-menu"
-	],
-
-	"czech" : {
-		"name" : "Motiv menu Ashanu",
-		"description" : "Nahrazuje hlavní menu motivem inspirovaným Ashanem."
-	}
+	]
 }

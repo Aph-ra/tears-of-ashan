@@ -46,7 +46,7 @@
 			},
 			"lightningPower" : {
 				"type" : "CREATURE_SPELL_POWER",
-				"val" : 100
+				"val" : 500
 			},
 			"lightningImmunity" : {
 				"type" : "SPELL_IMMUNITY",

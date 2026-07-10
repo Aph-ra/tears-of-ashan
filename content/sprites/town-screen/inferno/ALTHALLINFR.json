@@ -38,12 +38,24 @@
 			"file" : "TPIDvl2.bmp"
 		},
 		{
+			"frame" : 55,
+			"file" : "TINF5.png"
+		},
+		{
 			"frame" : 56,
 			"file" : "TINF6.png"
 		},
 		{
+			"frame" : 62,
+			"file" : "TINF5UP.png"
+		},
+		{
 			"frame" : 63,
 			"file" : "TINF6UP.png"
+		},
+		{
+			"frame" : 69,
+			"file" : "TINF5UP.png"
 		},
 		{
 			"frame" : 70,

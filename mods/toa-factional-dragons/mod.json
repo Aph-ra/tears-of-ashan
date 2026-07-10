@@ -2,7 +2,7 @@
 	"name" : "Factional Neutral Dragons",
 	"author" : "Aphra",
 	"contact" : "",
-	"description" : "Moves Azure Dragons to Bulwark, Crystal Dragons to Tower, Rust Dragons to Dungeon, and Faerie Dragons to Conflux.",
+	"description" : "Moves Azure Dragons to Bulwark, Crystal Dragons to Tower, Rust Dragons to Fortress, and Faerie Dragons to Rampart.",
 	"version" : "1.0.0",
 	"modType" : "Creatures",
 
@@ -14,10 +14,5 @@
 
 	"creatures" : [
 		"config/enabled.json"
-	],
-
-	"czech" : {
-		"name" : "Frakční neutrální draci",
-		"description" : "Přesouvá azurové draky k Baště, krystalové draky k Věži, rezavé draky ke Kobce a pohádkové draky k Soutoku."
-	}
+	]
 }

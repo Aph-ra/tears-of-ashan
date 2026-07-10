@@ -1,0 +1,148 @@
+{
+	"gatingSuccubusSpec" : {
+		"name" : "Gating",
+		"special" : true,
+		"gainChance" : {
+			"might" : 0,
+			"magic" : 0,
+			"gatekeeperSuccubusSpec" : 10
+		},
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"gatingSchool" : {
+					"subtype" : "spellSchool.03gatingSchool",
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"gateImpGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate11Imp",
+					"val" : 0
+				},
+				"gateGogGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate21Gog",
+					"val" : 0
+				},
+				"gateHellHoundGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate31HellHound",
+					"val" : 0
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Gating}\n\nGrants the ability to gate Imps, Gogs, and Hell Hounds.",
+			"effects" : {
+				"gatingSchool" : {
+					"val" : 1
+				},
+				"gateImpGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate11Imp",
+					"val" : 0
+				},
+				"gateGogGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate21Gog",
+					"val" : 0
+				},
+				"gateHellHoundGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate31HellHound",
+					"val" : 0
+				}
+			},
+			"images" : {
+				"small" : "skills/gatingSmall/1",
+				"medium" : "skills/gatingMedium/1",
+				"large" : "skills/gatingLarge/1",
+				"scenarioBonus" : "skills/gatingBonus/1"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Gating}\n\nGrants the ability to gate Demons, Pit Fiends, Succubi, and Succubus Seducers in addition to previous creatures.",
+			"effects" : {
+				"gatingSchool" : {
+					"val" : 2
+				},
+				"gateDemonGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate41Demon",
+					"val" : 0
+				},
+				"gatePitFiendGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate51PitFiend",
+					"val" : 0
+				},
+				"gateSuccubusGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate54Succubus",
+					"val" : 0
+				},
+				"gateSuccubusSeducerGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate55SuccubusSeducer",
+					"val" : 0
+				}
+			},
+			"images" : {
+				"small" : "skills/gatingSmall/2",
+				"medium" : "skills/gatingMedium/2",
+				"large" : "skills/gatingLarge/2",
+				"scenarioBonus" : "skills/gatingBonus/2"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Gating}\n\nGrants the ability to gate Efreet, Hell Steeds, and Devils in addition to previous creatures.",
+			"effects" : {
+				"gatingSchool" : {
+					"val" : 3
+				},
+				"gateDemonGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate41Demon",
+					"val" : 0
+				},
+				"gatePitFiendGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate51PitFiend",
+					"val" : 0
+				},
+				"gateSuccubusGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate54Succubus",
+					"val" : 0
+				},
+				"gateSuccubusSeducerGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate55SuccubusSeducer",
+					"val" : 0
+				},
+				"gateEfreetiGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate61Efreeti",
+					"val" : 0
+				},
+				"gateHellSteedGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate64HellSteed",
+					"val" : 0
+				},
+				"gateDevilGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.gate71Devil",
+					"val" : 0
+				}
+			},
+			"images" : {
+				"small" : "skills/gatingSmall/3",
+				"medium" : "skills/gatingMedium/3",
+				"large" : "skills/gatingLarge/3",
+				"scenarioBonus" : "skills/gatingBonus/3"
+			}
+		}
+	}
+}

@@ -467,6 +467,19 @@
 		]
 	},
 	"core:caitlin" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "+500 Gold",
+				"description" : "Increases kingdom's income by 500 gold per day."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"val" : 500
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "pikeman",
@@ -486,6 +499,33 @@
 		]
 	},
 	"core:rion" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "First Aid",
+				"tooltip" : "Secondary Skill Bonus: First Aid",
+				"description" : "Creatures receive a 1% per level bonus to their Health while equipped with a First Aid Tent."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"bonusHealth" : {
+					"val" : 1,
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE",
+					"propagator" : "ARMY",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "FIRST_AID_AVAILABLE"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 1
+					}
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "pikeman",
@@ -539,6 +579,19 @@
 		}
 	},
 	"core:jenova" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "+500 Gold",
+				"description" : "Increases kingdom's income by 500 gold per day."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"val" : 500
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "centaur",
@@ -820,6 +873,33 @@
 		]
 	},
 	"core:gem" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "First Aid",
+				"tooltip" : "Secondary Skill Bonus: First Aid",
+				"description" : "Creatures receive a 1% per level bonus to their Health while equipped with a First Aid Tent."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"bonusHealth" : {
+					"val" : 1,
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE",
+					"propagator" : "ARMY",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "FIRST_AID_AVAILABLE"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 1
+					}
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "centaur",
@@ -1117,6 +1197,23 @@
 		]
 	},
 	"core:rissa" : {
+		"texts" : {
+			"biography" : "Rissa was the first Alchemist to perfect the art of converting useless rocks into gems. Though now commanding her own army, she spends much of her idle time experimenting with other materials.",
+			"specialty" : {
+				"name" : "+1 Gems",
+				"tooltip" : "Resource Bonus: +1 Gems",
+				"description" : "Increases kingdom's gem production by 1 per day."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"gems" : {
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gems",
+					"val" : 1
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "gremlin",
@@ -1133,7 +1230,13 @@
 				"min" : 4,
 				"max" : 5
 			}
-		]
+		],
+		"images" : {
+			"small" : "HPS038AL.PCX",
+			"large" : "HPL038AL.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Gems.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Gems.png"
+		}
 	},
 	"core:iona" : {
 		"texts" : {
@@ -1318,6 +1421,19 @@
 		]
 	},
 	"core:aine" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "+500 Gold",
+				"description" : "Increases kingdom's income by 500 gold per day."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"val" : 500
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "gremlin",
@@ -1517,6 +1633,19 @@
 		]
 	},
 	"core:octavia" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "+500 Gold",
+				"description" : "Increases kingdom's income by 500 gold per day."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"val" : 500
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "imp",
@@ -1737,6 +1866,23 @@
 		]
 	},
 	"core:calid" : {
+		"texts" : {
+			"biography" : "Calid possesses an unusual (though useful) ability to sniff out hidden sulfur and mercury deposits. The Dungeon Overlords have used her on several occasions when collecting sulfur for their fearsome dragons.",
+			"specialty" : {
+				"name" : "+1 Mercury",
+				"tooltip" : "Resource Bonus: +1 Mercury",
+				"description" : "Increases kingdom's mercury production by 1 per day."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"gems" : {
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.mercury",
+					"val" : 1
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "imp",
@@ -1753,7 +1899,13 @@
 				"min" : 4,
 				"max" : 5
 			}
-		]
+		],
+		"images" : {
+			"small" : "HPS060DM.PCX",
+			"large" : "HPL060DM.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Mercury.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Mercury.png"
+		}
 	},
 	"core:ash" : {
 		"army#override" : [
@@ -1971,14 +2123,28 @@
 		]
 	},
 	"core:clavius" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "+500 Gold",
+				"description" : "Increases kingdom's income by 500 gold per day."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"val" : 500
+				}
+			}
+		},
 		"images" : {
 			"small" : "heroes/necropolis/clavius/portraitSmall.png",
 			"large" : "HPL070DK.PCX",
-			"specialtySmall" : "heroes/specialtySmall/Estates.png",
-			"specialtyLarge" : "heroes/specialtyLarge/Estates.png"
+			"specialtySmall" : "heroes/specialtySmall/Gold.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Gold.png"
 		}
 	},
 	"core:galthran" : {
+		"special" : false,
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of allied Skeletons, Skeleton Warriors, and Skeleton Archers by 1 and their Attack and Defense skills by 20% for every level (rounded up).",
@@ -2209,6 +2375,16 @@
 		]
 	},
 	"core:nagash" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Intelligence skill percentage.",
+				"name" : "Intelligence",
+				"tooltip" : "Secondary Skill Bonus: Intelligence"
+			}
+		},
+		"specialty#override" : {
+			"secondary" : "intelligence"
+		},
 		"army#override" : [
 			{
 				"creature" : "skeleton",
@@ -2225,7 +2401,13 @@
 				"min" : 4,
 				"max" : 6
 			}
-		]
+		],
+		"images" : {
+			"small" : "HPS079NC.PCX",
+			"large" : "HPL079NC.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Intelligence.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Intelligence.png"
+		}
 	},
 	//DUNGEON
 	"core:lorelei" : {
@@ -2353,6 +2535,19 @@
 		]
 	},
 	"core:damacon" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "+500 Gold",
+				"description" : "Increases kingdom's income by 500 gold per day."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"val" : 500
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
@@ -2718,6 +2913,22 @@
 		]
 	},
 	"core:sephinroth" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "+1 Sulfur",
+				"tooltip" : "Resource Bonus: +1 Sulfur",
+				"description" : "Increases kingdom's sulfur production by 1 per day."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"gems" : {
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.sulfur",
+					"val" : 1
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
@@ -2734,7 +2945,13 @@
 				"min" : 3,
 				"max" : 5
 			}
-		]
+		],
+		"images" : {
+			"small" : "HPS094WL.png",
+			"large" : "HPL094WL.png",
+			"specialtySmall" : "heroes/specialtySmall/Sulfur.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Sulfur.png"
+		}
 	},
 	"core:darkstorn" : {
 		"army#override" : [
@@ -3223,6 +3440,22 @@
 		]
 	},
 	"core:saurug" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "+1 Crystal",
+				"tooltip" : "Resource Bonus: +1 Crystal",
+				"description" : "Increases kingdom's crystal production by 1 per day."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"gems" : {
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.crystal",
+					"val" : 1
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "goblin",
@@ -3239,7 +3472,13 @@
 				"min" : 4,
 				"max" : 7
 			}
-		]
+		],
+		"images" : {
+			"small" : "HPS111BM.png",
+			"large" : "HPL111BM.png",
+			"specialtySmall" : "heroes/specialtySmall/Crystal.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Crystal.png"
+		}
 	},
 	//FORTRESS
 	"core:bron" : {
@@ -3538,6 +3777,33 @@
 		]
 	},
 	"core:verdish" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "First Aid",
+				"tooltip" : "Secondary Skill Bonus: First Aid",
+				"description" : "Creatures receive a 1% per level bonus to their Health while equipped with a First Aid Tent."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"bonusHealth" : {
+					"val" : 1,
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE",
+					"propagator" : "ARMY",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "FIRST_AID_AVAILABLE"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 1
+					}
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "gnoll",
@@ -4014,6 +4280,11 @@
 		]
 	},
 	"core:ciele" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the damage of Magic Arrow by 50%."
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "pixie",
@@ -4090,6 +4361,19 @@
 		]
 	},
 	"core:gelare" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "+500 Gold",
+				"description" : "Increases kingdom's income by 500 gold per day."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"val" : 500
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "pixie",
@@ -4109,6 +4393,19 @@
 		]
 	},
 	"core:grindan" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "+500 Gold",
+				"description" : "Increases kingdom's income by 500 gold per day."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"val" : 500
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "pixie",
@@ -4185,6 +4482,21 @@
 			"creature" : "hota.cove:crewmate",
 			"creatureLevel" : 2,
 			"stepSize" : 20
+		}
+	},
+	"hota.cove:06leena" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "+500 Gold",
+				"description" : "Increases kingdom's income by 500 gold per day."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"val" : 500
+				}
+			}
 		}
 	},
 	"hota.cove:07anabel" : {
@@ -4278,6 +4590,31 @@
 			}
 		]
 	},
+	"hota.cove:15andal" : {
+		"texts" : {
+			"biography" : "While being an experienced pirate, Andal did not always consider himself as a mage or a rogue. He was an ordinary merchant until bankrupting and getting too many debts one day. He started searching for a way to get fast and easy money. After leaving his home, he shortly returned as a known smuggler. He usually trades gems, mountain crystals, and bags of sulfur. It is a mystery where he gets them from, however.",
+			"specialty" : {
+				"name" : "+1 Sulfur",
+				"tooltip" : "Resource Bonus: +1 Sulfur",
+				"description" : "Increases kingdom's sulfur production by 1 per day."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"gems" : {
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.sulfur",
+					"val" : 1
+				}
+			}
+		},
+		"images" : {
+			"small" : "hota/cove/heroes/andal/icons/portraitSmall.png",
+			"large" : "hota/cove/heroes/andal/icons/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Sulfur.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Sulfur.png"
+		}
+	},
 	//FACTORY
 	"hota.factory:01henrietta" : {
 		"texts" : {
@@ -4337,6 +4674,35 @@
 				"max" : 1
 			}
 		]
+	},
+	"hota.factory:05floribert" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "First Aid",
+				"tooltip" : "Secondary Skill Bonus: First Aid",
+				"description" : "Creatures receive a 1% per level bonus to their Health while equipped with a First Aid Tent."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"bonusHealth" : {
+					"val" : 1,
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE",
+					"propagator" : "ARMY",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "FIRST_AID_AVAILABLE"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 1
+					}
+				}
+			}
+		}
 	},
 	"hota.factory:08morton" : {
 		"texts" : {
@@ -4428,6 +4794,21 @@
 			}
 		]
 	},
+	"hota.factory:14bertram" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "+500 Gold",
+				"description" : "Increases kingdom's income by 500 gold per day."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"val" : 500
+				}
+			}
+		}
+	},
 	//BULWARK
 	"hota.bulwark:05creyle" : {
 		"army#override" : [
@@ -4485,5 +4866,49 @@
 				"max" : 3
 			}
 		]
+	},
+	"hota.bulwark:13biarma" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "First Aid",
+				"tooltip" : "Secondary Skill Bonus: First Aid",
+				"description" : "Creatures receive a 1% per level bonus to their Health while equipped with a First Aid Tent."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"bonusHealth" : {
+					"val" : 1,
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE",
+					"propagator" : "ARMY",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "FIRST_AID_AVAILABLE"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 1
+					}
+				}
+			}
+		}
+	},
+	"hota.bulwark:16vehr" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "+500 Gold",
+				"description" : "Increases kingdom's income by 500 gold per day."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"val" : 500
+				}
+			}
+		}
 	}
 }

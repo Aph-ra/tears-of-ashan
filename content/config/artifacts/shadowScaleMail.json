@@ -1,0 +1,59 @@
+{
+	"shadowScaleMail" : {
+		"text" : {
+			"name" : "Shadow Scale Mail",
+			"description" : "{Shadow Scale Mail}\n\nIn addition to its component effects, this item grants you Expert Fear and Puppet Master, renders your units immune to Blind, Fear, and Puppet Master, and increases Dark Magic Damage dealt by +50%.",
+			"event" : "You trip over the Shadow Scale Mail, dust it off, and stick it in your pack."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "TORSO",
+		"class" : "RELIC",
+		"value" : 36000,
+		"components" : [
+			"coldShadowHelmet",
+			"deepShadowChestplate",
+			"fangedShadowSlicer",
+			"lunarShadowShield"
+		],
+		"fusedComponents" : false,
+		"bonuses" : {
+			"fear" : {
+				"subtype" : "spell.oh3Fear",
+				"type" : "SPELL",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+			"puppetMaster" : {
+				"subtype" : "spell.puppetMaster",
+				"type" : "SPELL",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+			"blindImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "blind"
+			},
+			"fearImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "oh3Fear"
+			},
+			"puppetMasterImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "puppetMaster"
+			},
+			"spellDamage" : {
+				"type" : "SPELL_DAMAGE",
+				"subtype" : "spellSchool.02darkSchool",
+				"val" : 50,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/shadowScaleMail.png",
+			"map" : "artifacts/map/shadowScaleMail.json",
+			"scenarioBonus" : "artifacts/bonus/shadowScaleMail.png"
+		}
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"haffayad" : {
+		"class" : "deathknight",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"deathCloudDark"
+		],
+		"texts" : {
+			"name" : "Haffayad",
+			"biography" : "A Wizard of the Seven Cities seduced by the twisted beauty of the Spider Goddess, Haffayad became a Necromancer while under the tutelage of Aguirre. Despite holding a small grudge against the Griffin family (having been passed up in favor of Sveltana for the task of accompanying Aguirre on his odyssey to find the Mother Namtaru), Haffayad remains civil to his rivals. He dreams of performing heroic feats in the name of Asha, and hopes to be rewarded with personal fame for his unwavering belief.",
+			"specialty" : {
+				"name" : "Offense",
+				"tooltip" : "Secondary Skill Bonus: Offense",
+				"description" : "Receives a 5% per level bonus to Offense skill percentage."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/necropolis/haffayad/portraitSmall.png",
+			"large" : "heroes/necropolis/haffayad/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Offense.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Offense.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "necromancy",
+				"level" : "basic"
+			},
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"secondary" : "offence"
+		},
+
+		"army" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "wight",
+				"min" : 4,
+				"max" : 6
+			}
+		]
+	}
+}

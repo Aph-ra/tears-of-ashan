@@ -1,0 +1,61 @@
+{
+	"jezebeth" : {
+		"class" : "gatekeeperSuccubusSpec",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"puppetMaster"
+		],
+		"texts" : {
+			"name" : "Jezebeth",
+			"biography" : "Jezebeth is rightfully proud that she has achieved her high standing in the Demon ranks thanks to her temptress' talents. Worshipping her as a shining example, Jezebeth's Succubus followers strive to equal her ability to seduce and murder for the glory of their Sovereign.",
+			"specialty" : {
+				"description" : "Increases the Speed of allied Succubi, Succubus Seducers, and Lilims by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up). Can gate Succubus Seducers with Advanced Gating.",
+				"tooltip" : "Creature Bonus: Succubi",
+				"name" : "Succubi"
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/inferno/jezebeth/portraitSmall.png",
+			"large" : "heroes/inferno/jezebeth/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Succubi (ToW).png",
+			"specialtyLarge" : "heroes/specialtyLarge/Succubi (ToW).png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "gating",
+				"level" : "basic"
+			},
+			{
+				"skill" : "diplomacy",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "succubusAU",
+			"creatureLevel" : 5,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "imp",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "gog",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "succubusAU",
+				"min" : 2,
+				"max" : 3
+			}
+		]
+	}
+}

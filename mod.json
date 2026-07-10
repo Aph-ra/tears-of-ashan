@@ -1,13 +1,101 @@
 {
 	"name" : "Tears of Ashan",
-	"author" : "Aphra",
+	"author" : "Aphra; see website for full list of credits!",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "1.5.6",
+	"version" : "1.6.10",
 	"modType" : "Expansion",
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
+
 	"changelog" : {
+		"Public Beta 1.6.10" : [
+			"Galthran is no longer special by default",
+			"Added new combination artifacts: Abyssal Scale Mail (Cove set); Barkskin Shield (Rampart set); Flail of the Gladiator (Fortress set); Shadow Scale Mail (Dungeon set); Plate of the Dwarven King (Dwarven set)",
+			"Added new sets of artifacts: Dungeon set; Dwarven set",
+			"Reworked the Tower set of artifacts to grant +9 primary skill points per artifact; Cost reduced to 9000; Class reduced to Major",
+			"Made the primary stat point boosts provided by artifacts within a set uniform (e.g. Rampart set artifacts all grant +2 primary skill points)",
+			"Reworked the Class and Cost of all artifacts (all Combination artifacts will remain Relics regardless of their cost): 0–3499 = Treasure; 3500–6999 = Minor; 7000–9999 = Major; 10000+ = Relic",
+			"Changed the Cost of some artifacts to better represent their value",
+			"Replaced the Elemental Ring with the Book of Power (functionally the same but is a Miscellaneous artifact)",
+			"Increased the Gold and Artifact rewards from Uriel's Temple",
+			"Increased the Artifact rewards from Dragon Utopias",
+			"Added 2 new tiers to Dragon Utopias",
+			"Uriel's Marksman Health 2500 → 3000",
+			"Uriel's Praetorian Health 4500 → 5000",
+			"Minor text and image fixes"
+		],
+		"Public Beta 1.6.9" : [
+			"Changed all First Aid specialists to grant creatures a 1% per level bonus to their Health while equipped with a First Aid Tent (since the standard HOTA bonus does not yet work in VCMI)",
+			"All resource specialists now grant resources respective of their town's primary resource",
+			"Added a compatibility layer for Courtyard, ensuring only the TOA version of Reconstruction is present"
+		],
+		"Public Beta 1.6.8" : [
+			"Added Miranda (Plaguespreader, Poison specialist)",
+			"Added new spells: Aging, Disease, Reconstruction",
+			"Added a new combination artifact: Raiments of Shalassa (Sanctuary set)",
+			"Added lilypad decorations from WOG Graphic Fix to the Sanctuary submod",
+			"Orc Berserker Damage 2–5 → 3–6; Health 20 → 25",
+			"Uriel's Marksman Health 5000 → 2500",
+			"Uriel's Praetorian Health 7000 → 4500",
+			"Salvatore's specialty now also increases the Speed of Monks by 1",
+			"Ariana starting spell Sorrow → Aging",
+			"Kaspar has been reworked into a Necromancer with a First Aid specialty",
+			"Nagash specialty +350 Gold → Intelligence",
+			"Gold specialists grant +350 → +500 Gold per day",
+			"Expert Artillery grants the Ballista and Cannon no range penalty",
+			"Ballistics grants the Ammo Cart the same Health protection as the Catapult",
+			"War Machines are now present in Uriel's Temple",
+			"Fixed area and border of Sanctuary's Grail building"
+		],
+		"Public Beta 1.6.7" : [
+			"Added The Blood-Dimmed Tide, the third Sanctuary campaign map, as a single scenario",
+			"Added Haffayad (Death Knight, Offense specialist)",
+			"Changed Uriel's Temple graphics to that of the H4 Angel dwelling; changed its battlefield to Magic Clouds",
+			"Updated the menu theme's button positioning and a new button for Tears of Ashan campaigns",
+			"KNOWN ISSUE: The Sanctuary campaign crashes after completing the first map - this is being looked into"
+		],
+		"Public Beta 1.6.6" : [
+			"Added two new fused combination artifacts: Archmage's Codex and Elemental Ring",
+			"Added a new artifact: Frozen Chrysanthemum",
+			"Added heroes to the single scenario version of The Winding Stair (oops)",
+			"Added icons for Sanctuary's siege tower"
+		],
+		"Public Beta 1.6.5" : [
+			"Added Jezebeth (Gatekeeper, Succubus specialist)",
+			"Fixed Succubus line's portraits",
+			"Altered the build path for Succubi to require Hell Hounds and Demons",
+			"Potentially fixed multiple appearances of Gating (special forms) appearing after levelling up",
+			"Armageddon's Blade can now be combined with the Sword of Hellfire, Shield of the Damned, Breastplate of Brimstone, and Hellstorm Helmet"
+		],
+		"Public Beta 1.6.4" : [
+			"Added the Succubus line of creatures as alternatives to Pit Fiends",
+			"Added The Winding Stair, the second Sanctuary campaign map, as a single scenario"
+		],
+		"Public Beta 1.6.3" : [
+			"Added 4 new heroes: Kenta, Toshiro, Karloff, and Martina",
+			"Replaced heroes in The Fury and the Mire; Karloff and Martina now have patrol radii",
+			"Changed Sanctuary hero identifiers to allow for easier class organising in hero selection",
+			"Tweaked the positions of Kenage and Tsuan's portraits"
+		],
+		"Public Beta 1.6.2" : [
+			"Removed some redundant mod dependencies for The Fury and the Mire",
+			"Added the Prophet set of artifacts",
+			"Added Light and Dark Elementals, able to be recruited from the Altar of Twilight",
+			"Replaced artifacts and creatures in The Fury and the Mire; Red now starts with all northern mines flagged and a Gem Pond in place of a Griffin Bastion"
+		],
+		"Public Beta 1.6.1" : [
+			"Added The Fury and the Mire, the first Sanctuary campaign map, as a single scenario"
+		],
+		"Public Beta 1.6.0" : [
+			"Added the Sanctuary faction",
+			"Added Boss Encounters as a submod",
+			"Move Dirael to Rampart; specialty Firebirds → Wasp Swarm",
+			"Added Nathir to Conflux (Firebirds specialist)",
+			"Fangarm Speed 6 → 7",
+			"Enchanter Health 30 → 50; Cost 750 → 775",
+			"Reduced neutral dragon costs (Gold halved, resources reduced)"
+		],
 		"Public Beta 1.5.6" : [
 			"Czech translation by George King"
 		],
@@ -15,8 +103,7 @@
 			"Corrected Grim Guard adventure map quantity",
 			"Corrected Dread Guard Attack",
 			"Dread Guard Speed 7 → 8",
-			"Dread Guard Defense Reduction 30% → 40%",
-			"Black Guard Attack 10 → 12, Defense 14 → 12, Attack Reduction 30% → 25%, Defense Reduction 0% → 25%",
+			"Black Guard Attack 10 → 12, Defense 14 → 12, Attack Reduction 40% → 25%, Defense Reduction 0% → 25%",
 			"Dread Guard and Black Guard AI Value 650 → 700, Fight Value 550 → 600"
 		],
 		"Public Beta 1.5.4" : [
@@ -151,16 +238,20 @@
 	],
 
 	"depends" : [
+		"hota.artifacts",
 		"hota.bulwark",
 		"hota.cannon",
+		"hota.confluxvaultofashes",
 		"hota.cove",
 		"hota.factory",
+		"hota.gamebalance.heroes",
+		"hota.gamebalance.skills.firstaid",
+		"hota.heroes3datapatch",
+		"hota.highlandsterrain",
 		"hota.interference",
 		"hota.mapsupport",
 		"hota.neutralCreatures",
 		"hota.newgraphics",
-		"hota.confluxvaultofashes",
-		"hota.heroes3datapatch",
 		"market-of-time",
 		"new-old-spells-plus",
 		"vcmi-extras.bonusicons.bonus icons"
@@ -177,8 +268,9 @@
 		"config/skills/lightMagic.json",
 
 		"config/skills/gating.json",
-		"config/skills/gatingNightmareSpec.json",
 		"config/skills/gatingDevilSpec.json",
+		"config/skills/gatingNightmareSpec.json",
+		"config/skills/gatingSuccubusSpec.json",
 
 		"config/skills/warcries.json",
 
@@ -217,13 +309,19 @@
 
 		"config/spells/holyWord.json",
 
+		"config/spells/aging.json",
 		"config/spells/deathCloudDark.json",
+		"config/spells/disease.json",
+
+		"config/spells/reconstruction.json",
 
 		"config/spells/gateImp.json",
 		"config/spells/gateGog.json",
 		"config/spells/gateHellHound.json",
 		"config/spells/gateDemon.json",
 		"config/spells/gatePitFiend.json",
+		"config/spells/gateSuccubus.json",
+		"config/spells/gateSuccubusSeducer.json",
 		"config/spells/gateEfreeti.json",
 		"config/spells/gateHellSteed.json",
 		"config/spells/gateNightmare.json",
@@ -240,7 +338,21 @@
 
 		"config/spells/dwarfBloodlust.json",
 		"config/spells/gremlinRepair.json",
+		"config/spells/hatespike.json",
 		"config/spells/paokaiLightning.json"
+	],
+
+	"factions" : [
+		"config/town-screen/castle.json",
+		"config/town-screen/tower.json",
+		"config/town-screen/rampart.json",
+		"config/town-screen/inferno.json",
+		"config/town-screen/necropolis.json",
+		"config/town-screen/dungeon.json",
+		"config/town-screen/stronghold.json",
+		"config/town-screen/fortress.json",
+		"config/town-screen/conflux.json",
+		"config/town-screen/cove.json"
 	],
 
 	"heroClasses" : [
@@ -248,6 +360,7 @@
 		"config/classes/gatekeeper.json",
 		"config/classes/gatekeeperDevilSpec.json",
 		"config/classes/gatekeeperNightmareSpec.json",
+		"config/classes/gatekeeperSuccubusSpec.json",
 		"config/classes/plaguespreader.json",
 		"config/classes/deathKnightNew.json"
 	],
@@ -265,6 +378,7 @@
 		"config/heroes/castle/ymoril.json",
 
 		"config/heroes/rampart/akaris.json",
+		"config/heroes/rampart/dirael.json",
 		"config/heroes/rampart/findan.json",
 		"config/heroes/rampart/sanctus.json",
 
@@ -274,6 +388,7 @@
 
 		"config/heroes/inferno/biara.json",
 		"config/heroes/inferno/grok.json",
+		"config/heroes/inferno/jezebeth.json",
 		"config/heroes/inferno/khabeleth.json",
 		"config/heroes/inferno/pariah.json",
 
@@ -281,6 +396,7 @@
 		"config/heroes/necropolis/kaspar.json",
 		"config/heroes/necropolis/ludmilla.json",
 		"config/heroes/necropolis/merikh.json",
+		"config/heroes/necropolis/miranda.json",
 		"config/heroes/necropolis/naadir.json",
 
 		"config/heroes/dungeon/euryale.json",
@@ -289,7 +405,7 @@
 
 		"config/heroes/fortress/haggash.json",
 
-		"config/heroes/conflux/dirael.json",
+		"config/heroes/conflux/nathir.json",
 		"config/heroes/conflux/sinithala.json",
 		"config/heroes/conflux/stratus.json",
 		"config/heroes/conflux/tempest.json",
@@ -300,19 +416,6 @@
 		"config/heroes/factory/kastore.json",
 
 		"config/heroes/bulwark/hrimnir.json"
-	],
-
-	"factions" : [
-		"config/town-screen/castle/factions",
-		"config/town-screen/tower/factions",
-		"config/town-screen/rampart/factions",
-		"config/town-screen/inferno/factions",
-		"config/town-screen/necropolis/factions",
-		"config/town-screen/dungeon/factions",
-		"config/town-screen/stronghold/factions",
-		"config/town-screen/fortress/factions",
-		"config/town-screen/conflux/factions",
-		"config/town-screen/cove/factions"
 	],
 
 	"creatures" : [
@@ -352,6 +455,9 @@
 		"config/creatures/inferno/lvl3Alt",
 		"config/creatures/inferno/lvl4Alt",
 		"config/creatures/inferno/lvl5Alt",
+		"config/creatures/inferno/lvl5Alt2Base",
+		"config/creatures/inferno/lvl5Alt2Upg1",
+		"config/creatures/inferno/lvl5Alt2Upg2",
 		"config/creatures/inferno/lvl6Alt",
 		"config/creatures/inferno/lvl6Alt2Base",
 		"config/creatures/inferno/lvl6Alt2Upg1",
@@ -412,6 +518,8 @@
 		"config/creatures/conflux/lvl5Alt",
 		"config/creatures/conflux/lvl6Alt",
 		"config/creatures/conflux/lvl7Alt",
+		"config/creatures/conflux/lightElemental",
+		"config/creatures/conflux/darkElemental",
 		"config/creatures/conflux/rebalance",
 
 		"config/creatures/cove/cove",
@@ -428,9 +536,34 @@
 		"config/creatures/neutral/rebalance"
 	],
 
+	"artifacts" : [
+		"config/artifacts/artifactChanges.json",
+
+		"config/artifacts/abyssalScaleMail.json",
+		"config/artifacts/archmagesCodex.json",
+		"config/artifacts/barkskinShield.json",
+		"config/artifacts/bookOfPower.json",
+		"config/artifacts/flailOfTheGladiator.json",
+
+		"config/artifacts/coldShadowHelmet.json",
+		"config/artifacts/deepShadowChestplate.json",
+		"config/artifacts/fangedShadowSlicer.json",
+		"config/artifacts/lunarShadowShield.json",
+		"config/artifacts/shadowScaleMail.json",
+
+		"config/artifacts/dwarvenMithrilCuirass.json",
+		"config/artifacts/dwarvenMithrilGreaves.json",
+		"config/artifacts/dwarvenMithrilHammer.json",
+		"config/artifacts/dwarvenMithrilHelmet.json",
+		"config/artifacts/dwarvenMithrilShield.json",
+		"config/artifacts/plateOfTheDwarvenKing.json"
+	],
+
 	"objects" : [
 		"config/dwellings.json",
-		"config/marketOfTime.json"
+		"config/mapObjects.json",
+		"config/marketOfTime.json",
+		"config/witchHut.json"
 	],
 
 	"settings" : {
@@ -447,7 +580,7 @@
 		}
 	},
 
-	"description" : "<p style='font-size:16px; color:#333333; font-style:italic;'>Explore a whole new realm in <b>Tears of Ashan</b>, a fan-made expansion for Heroes of Might and Magic III that mixes elements of Heroes of Might and Magic V with the familiar gameplay of Heroes III.</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Heroes III x V</p> <p style='font-size:16px; color:#333333;'><b>Tears of Ashan</b> expands upon the original game with a horde of features from <b>Heroes V</b>, such as <b>alternate upgrades</b> for every creature in every faction, <b>Light and Dark Magic</b>, and mechanics such as <b>Gating</b>.  The secondary skill cap has been raised from 8 to 10 to allow for these new skills. Explore new strategies and discover more ways to play as each creature upgrade now offers unique strategic advantages. Empower your troops with the power of holy light, or send your enemies to the netherworld as they suffocate in darkness!</p> <p style='font-size:22px; color:#002366; font-weight:bold;'>Alternate Upgrades</p><p style='font-size:16px; color:#333333;'>Each faction now contains <b>21 creatures</b> instead of 14, as each creature can now choose between 2 upgrade paths. These upgraded creatures can be swapped between at any point, so long as it is done so at either a Hill Fort or a town that can recruit them. Some are supportive options that buff your troops or debuff enemy troops; some are offensive brutes that aim to take your enemies down hard and fast; and others are defensive options, there to provide cover for your shooters or bulk up your army. Each faction now has a wider set of strategies to deal with any number of situations, making adaptive gameplay even more possible!</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Conflux</p><p style='font-size:16px; color:#333333;'>While every faction has received a fair share of balance changes, the Conflux has been completely redesigned from the ground up. The core 4 Elementals are no longer \"Level 3.5 units\"; they have been given appropriate stats for their level while still retaining the key features that make both them and the overall balance of Conflux unique.</p> <p style='font-size:16px; color:#333333;'>Read and discover more online: https://sites.google.com/view/tears-of-ashan</p>",
+	"description" : "<p style='font-size:16px; color:#333333; font-style:italic;'>Explore a whole new realm in <b>Tears of Ashan</b>, a fan-made expansion for Heroes of Might and Magic III that mixes elements of Heroes of Might and Magic V with the familiar gameplay of Heroes III.</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Heroes III x V</p> <p style='font-size:16px; color:#333333;'><b>Tears of Ashan</b> expands upon the original game with a horde of features from <b>Heroes V</b>, such as <b>alternate upgrades</b> for every creature in every faction, <b>Light and Dark Magic</b>, and mechanics such as <b>Gating</b>.  The secondary skill cap has been raised from 8 to 10 to allow for these new skills. Explore new strategies and discover more ways to play as each creature upgrade now offers unique strategic advantages. Empower your troops with the power of holy light, or send your enemies to the netherworld as they suffocate in darkness!</p> <p style='font-size:22px; color:#002366; font-weight:bold;'>Alternate Upgrades</p><p style='font-size:16px; color:#333333;'>Each faction now contains <b>21 creatures</b> instead of 14, as each creature can now choose between 2 upgrade paths. These upgraded creatures can be swapped between at any point, so long as it is done so at either a Hill Fort or a town that can recruit them. Some are supportive options that buff your troops or debuff enemy troops; some are offensive brutes that aim to take your enemies down hard and fast; and others are defensive options, there to provide cover for your shooters or bulk up your army. Each faction now has a wider set of strategies to deal with any number of situations, making adaptive gameplay even more possible!</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Conflux</p><p style='font-size:16px; color:#333333;'>While every faction has received a fair share of balance changes, the Conflux has been completely redesigned from the ground up. The core 4 Elementals are no longer \"Level 3.5 units\"; they have been given appropriate stats for their level while still retaining the key features that make both them and the overall balance of Conflux unique.</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Sanctuary</p><p style='font-size:16px; color:#333333;'>The Sanctuary from Heroes VI makes a return in Tears of Ashan. Lead this powerful army of Ashan Nagas into battle and discover a myriad of strategies with all-new Samurai and Monk heroes, including all those featured in the Sanctuary campaign... which is also included in this very mod! The Sanctuary campaign has been lovingly ported to Heroes III and plays (almost) as well as it does in Heroes VI, featuring a brand new set of artifacts to boot!</p> <p style='font-size:16px; color:#333333;'>Read and discover more online: https://sites.google.com/view/tears-of-ashan</p> <p style='font-size:16px; color:#333333; font-style:italic'>I do not approve of any changes made to this mod without my consent. I only approve of translations being made so that the mod is accessible to everyone.</p>",
 
 	"czech" : {
 		"name" : "Tears of Ashan",

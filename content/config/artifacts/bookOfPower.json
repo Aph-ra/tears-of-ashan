@@ -1,0 +1,65 @@
+{
+	"bookOfPower" : {
+		"text" : {
+			"name" : "Book Of Power",
+			"description" : "{Book Of Power}\n\nThis heavy book causes all your spells to inflict an additional 100% damage.",
+			"event" : "You trip over the Book Of Power, dust it off, and stick it in your pack."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "MISC",
+		"class" : "RELIC",
+		"value" : 96000,
+		"components" : [
+			"orbOfTheFirmament",
+			"orbOfSilt",
+			"orbOfTempestuousFire",
+			"orbOfDrivingRain"
+		],
+		"fusedComponents" : true,
+		"bonuses" : {
+			"airSchool" : {
+				"type" : "SPELL_DAMAGE",
+				"subtype" : "spellSchool.air",
+				"val" : 100,
+				"valueType" : "BASE_NUMBER"
+			},
+			"earthSchool" : {
+				"type" : "SPELL_DAMAGE",
+				"subtype" : "spellSchool.earth",
+				"val" : 100,
+				"valueType" : "BASE_NUMBER"
+			},
+			"fireSchool" : {
+				"type" : "SPELL_DAMAGE",
+				"subtype" : "spellSchool.fire",
+				"val" : 100,
+				"valueType" : "BASE_NUMBER"
+			},
+			"waterSchool" : {
+				"type" : "SPELL_DAMAGE",
+				"subtype" : "spellSchool.water",
+				"val" : 100,
+				"valueType" : "BASE_NUMBER"
+			},
+			"lightSchool" : {
+				"type" : "SPELL_DAMAGE",
+				"subtype" : "spellSchool.01lightSchool",
+				"val" : 100,
+				"valueType" : "BASE_NUMBER"
+			},
+			"darkSchool" : {
+				"type" : "SPELL_DAMAGE",
+				"subtype" : "spellSchool.02darkSchool",
+				"val" : 100,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/bookOfPower.png",
+			"map" : "artifacts/map/bookOfPower.json",
+			"scenarioBonus" : "artifacts/bonus/bookOfPower.png"
+		}
+	}
+}

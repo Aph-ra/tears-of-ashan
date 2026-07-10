@@ -97,7 +97,7 @@
 			},
 			"gatingDemons" : {
 				"type" : "SPELLCASTER",
-				"subtype" : "gate04Demon",
+				"subtype" : "gate41Demon",
 				"val" : 2,
 				"description" : "{Spellcaster}\nCan cast Advanced Gate Demons (200% Power)",
 				"icon" : "zvs/Lib1.res/E_SUMMON.png"

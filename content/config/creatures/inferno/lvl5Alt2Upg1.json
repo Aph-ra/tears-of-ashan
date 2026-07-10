@@ -1,0 +1,123 @@
+{
+	"succubusSeducerAU" : {
+		"name" : {
+			"singular" : "Succubus Secuder",
+			"plural" : "Succubus Secuders"
+		},
+		"faction" : "inferno",
+		"level" : 5,
+		"attack" : 13,
+		"defense" : 12,
+		"shots" : 24,
+		"damage" : {
+			"min" : 12,
+			"max" : 16
+		},
+		"hitPoints" : 45,
+		"speed" : 9,
+		"growth" : 3,
+		"aiValue" : 1125,
+		"fightValue" : 945,
+		"cost" : {
+			"gold" : 625
+		},
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 12
+		},
+		"upgrades" : [
+			"lilimAU"
+		],
+		"abilities" : {
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 25,
+				"hidden" : true
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			},
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"spellLikeAttack" : {
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "mdtHateSpike",
+				"val" : 1
+			},
+			"castsPuppetMaster" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "puppetMaster",
+				"val" : 3,
+				"description" : "{Spellcaster}\nCan cast Expert Puppet Master (3 Power)"
+			},
+			"puppetPower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 3
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 2
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/inferno/iconsBig/lvl5AltUpg1.png",
+			"iconSmall" : "creatures/inferno/iconsSmall/lvl5AltUpg1.png",
+			"map" : "creatures/inferno/map/lvl5AltUpg1.def",
+			"animation" : "creatures/inferno/battle/lvl5AltUpg1.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 0.8
+			},
+			"timeBetweenFidgets" : 1,
+			"missile" : {
+				"projectile" : "creatures/inferno/battle/projectile/null.def",
+				"attackClimaxFrame" : 8,
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/inferno/sukkub/SUCCATTACK.wav",
+			"defend" : "creatures/inferno/sukkub/SUCCDFND.wav",
+			"killed" : "creatures/inferno/sukkub/SUCCDEAD.wav",
+			"move" : "creatures/inferno/sukkub/SUCCMOVE.wav",
+			"wince" : "creatures/inferno/sukkub/SUCCHIT.wav",
+			"shoot" : "creatures/inferno/sukkub/SUCCSHOT.wav"
+		}
+	}
+}

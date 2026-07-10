@@ -1,0 +1,65 @@
+{
+	"archmagesCodex" : {
+		"text" : {
+			"name" : "Archmage's Codex",
+			"description" : "{Archmage's Codex}\n\nThis heavy book contains all spells from all schools of magic. It must be equipped for the spells to be available.",
+			"event" : "You trip over the Archmage's Codex, dust it off, and stick it in your pack."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "MISC",
+		"class" : "RELIC",
+		"value" : 120000,
+		"components" : [
+			"tomeOfAirMagic",
+			"tomeOfEarthMagic",
+			"tomeOfFireMagic",
+			"tomeOfWaterMagic"
+		],
+		"fusedComponents" : true,
+		"bonuses" : {
+			"airSchool" : {
+				"type" : "SPELLS_OF_SCHOOL",
+				"subtype" : "air",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+			"earthSchool" : {
+				"type" : "SPELLS_OF_SCHOOL",
+				"subtype" : "earth",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+			"fireSchool" : {
+				"type" : "SPELLS_OF_SCHOOL",
+				"subtype" : "fire",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+			"waterSchool" : {
+				"type" : "SPELLS_OF_SCHOOL",
+				"subtype" : "water",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+			"lightSchool" : {
+				"type" : "SPELLS_OF_SCHOOL",
+				"subtype" : "01lightSchool",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+			"darkSchool" : {
+				"type" : "SPELLS_OF_SCHOOL",
+				"subtype" : "02darkSchool",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/archmagesCodex.png",
+			"map" : "artifacts/map/archmagesCodex.json",
+			"scenarioBonus" : "artifacts/bonus/archmagesCodex.png"
+		}
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"dwarvenMithrilGreaves" : {
+		"text" : {
+			"name" : "Dwarven Mithril Greaves",
+			"description" : "{Dwarven Mithril Greaves}\n\nWorn on the feet, this item increases your Defense and Knowledge skills by +4.",
+			"event" : "You trip over the Dwarven Mithril Cuirass, dust it off, and stick it in your pack."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "FEET",
+		"class" : "MAJOR",
+		"value" : 8000,
+		"bonuses" : {
+			"defence" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"valueType" : "BASE_NUMBER",
+				"val" : 4
+			},
+			"knowledge" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "knowledge",
+				"valueType" : "BASE_NUMBER",
+				"val" : 4
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/dwarvenMithrilGreaves.png",
+			"map" : "artifacts/map/dwarvenMithrilGreaves.json",
+			"scenarioBonus" : "artifacts/bonus/dwarvenMithrilGreaves.png"
+		}
+	}
+}

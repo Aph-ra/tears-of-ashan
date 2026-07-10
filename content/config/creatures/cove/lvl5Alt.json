@@ -39,7 +39,7 @@
 				"val" : 100,
 				"addInfo" : [
 					1,
-					0,
+					1,
 					0
 				],
 				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Weakness after attacking",
@@ -51,7 +51,7 @@
 				"val" : 100,
 				"addInfo" : [
 					1,
-					0,
+					1,
 					1
 				],
 				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Disrupting Ray after attacking",

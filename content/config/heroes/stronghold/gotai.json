@@ -3,6 +3,7 @@
 		"class" : "barbarian",
 		"female" : false,
 		"special" : false,
+		"spellbook" : [],
 		"texts" : {
 			"name" : "Gotai",
 			"biography" : "A promising young war chief, Gotai's grim intensity separates him from other Orcs. While he shared their sense of clan loyalty, he was extremely - almost irrationally - loyal to Quroq, the warchief who adopted him when his own parents were killed by Yetis. With Quroq's passing, however, Gotai must find his own place in the world. Given his skills, that place is likely to be a lofty one.",

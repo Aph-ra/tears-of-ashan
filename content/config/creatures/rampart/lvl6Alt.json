@@ -33,7 +33,7 @@
 				"type" : "SPELL_RESISTANCE_AURA",
 				"val" : 50
 			},
-			"spellAfterBlind" : {
+			"blindAttack" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "blind",
 				"val" : 20,
