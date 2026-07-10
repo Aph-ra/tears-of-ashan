@@ -111,11 +111,11 @@
 			"Fixed loading pips"
 		],
 		"Public Beta 1.5.3" : [
-			"Fixed Gelu and Dracon not being able to upgrade units",
+			"Fixed Gelu and Dracon not being able to upgrade units"
 		],
 		"Public Beta 1.5.2" : [
 			"Added Heroes VI Cursors as a submod",
-			"Renamed Ashan Cursors to Heroes V Cursors",
+			"Renamed Ashan Cursors to Heroes V Cursors"
 		],
 		"Public Beta 1.5.1" : [
 			"Fixed Horde's Anger and Battlecry"
@@ -264,14 +264,14 @@
 
 	"skills" : [
 		"config/skills/darkMagic.json",
-		
+
 		"config/skills/lightMagic.json",
-		
+
 		"config/skills/gating.json",
 		"config/skills/gatingDevilSpec.json",
 		"config/skills/gatingNightmareSpec.json",
 		"config/skills/gatingSuccubusSpec.json",
-		
+
 		"config/skills/warcries.json",
 
 		"config/skills/rebalance.json"
@@ -312,7 +312,7 @@
 		"config/spells/aging.json",
 		"config/spells/deathCloudDark.json",
 		"config/spells/disease.json",
-		
+
 		"config/spells/reconstruction.json",
 
 		"config/spells/gateImp.json",
@@ -328,7 +328,7 @@
 		"config/spells/gateDevil.json",
 		"config/spells/gateDevilSpec.json",
 		"config/spells/gateArchDevil.json",
-		
+
 		"config/spells/rallyingCry.json",
 		"config/spells/callOfBlood.json",
 		"config/spells/fearMyRoar.json",
@@ -530,7 +530,7 @@
 		"config/creatures/cove/lvl6Alt",
 		"config/creatures/cove/lvl7Alt",
 		"config/creatures/cove/rebalance",
-		
+
 		"config/creatures/factory/rebalance",
 
 		"config/creatures/neutral/rebalance"
@@ -538,25 +538,25 @@
 
 	"artifacts" : [
 		"config/artifacts/artifactChanges.json",
-		
+
 		"config/artifacts/abyssalScaleMail.json",
 		"config/artifacts/archmagesCodex.json",
 		"config/artifacts/barkskinShield.json",
 		"config/artifacts/bookOfPower.json",
 		"config/artifacts/flailOfTheGladiator.json",
-		
+
 		"config/artifacts/coldShadowHelmet.json",
 		"config/artifacts/deepShadowChestplate.json",
 		"config/artifacts/fangedShadowSlicer.json",
 		"config/artifacts/lunarShadowShield.json",
 		"config/artifacts/shadowScaleMail.json",
-		
+
 		"config/artifacts/dwarvenMithrilCuirass.json",
 		"config/artifacts/dwarvenMithrilGreaves.json",
 		"config/artifacts/dwarvenMithrilHammer.json",
 		"config/artifacts/dwarvenMithrilHelmet.json",
 		"config/artifacts/dwarvenMithrilShield.json",
-		"config/artifacts/plateOfTheDwarvenKing.json"		
+		"config/artifacts/plateOfTheDwarvenKing.json"
 	],
 
 	"objects" : [

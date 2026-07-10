@@ -21,7 +21,7 @@
 	"heroes" : [
 		"config/heroChanges.json"
 	],
-	
+
 	"spells" : [
 		"config/spellChanges.json"
 	]

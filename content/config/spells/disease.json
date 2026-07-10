@@ -39,12 +39,14 @@
 			"iconEffect" : "spells/disease/spellEffect"
 		},
 
-		"animation":{
-			"affect":["SP05_"]
+		"animation" : {
+			"affect" : [
+				"SP05_"
+			]
 		},
-		
-		"sounds": {
-			"cast": "DISEASE"
+
+		"sounds" : {
+			"cast" : "DISEASE"
 		},
 
 		"targetType" : "CREATURE",
@@ -52,7 +54,9 @@
 		"levels" : {
 			"base" : {
 				"range" : "0",
-				"targetModifier" : {"smart" : true},
+				"targetModifier" : {
+					"smart" : true
+				},
 				"effects" : {
 					"attackReduction" : {
 						"val" : -2,

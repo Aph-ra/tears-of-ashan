@@ -39,12 +39,14 @@
 			"iconEffect" : "spells/aging/spellEffect"
 		},
 
-		"animation":{
-			"affect":["SP01_"]
+		"animation" : {
+			"affect" : [
+				"SP01_"
+			]
 		},
-		
-		"sounds": {
-			"cast": "AGE"
+
+		"sounds" : {
+			"cast" : "AGE"
 		},
 
 		"targetType" : "CREATURE",
@@ -52,7 +54,9 @@
 		"levels" : {
 			"base" : {
 				"range" : "0",
-				"targetModifier" : {"smart" : true},
+				"targetModifier" : {
+					"smart" : true
+				},
 				"effects" : {
 					"stackHealth" : {
 						"val" : -20,
