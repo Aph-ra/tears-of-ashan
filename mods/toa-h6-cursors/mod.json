@@ -10,5 +10,10 @@
 
 	"conflicts" : [
 		"tears-of-ashan.toa-h5-cursors"
-	]
+	],
+
+	"czech" : {
+		"name" : "Kurzory Heroes VI",
+		"description" : "Sada kurzorů ve stylu Heroes of Might and Magic VI."
+	}
 }

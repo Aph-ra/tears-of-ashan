@@ -108,5 +108,13 @@
 	"objects" : [
 		"config/dwellings.json",
 		"config/objects.json"
-	]
+	],
+
+	"czech" : {
+		"name" : "Svatyně",
+		"description" : "Frakce Svatyně z Heroes VI, jak ji znáš a máš rád.",
+		"translations" : [
+			"translation/czech.json"
+		]
+	}
 }

@@ -13,7 +13,7 @@
 		"gainChance" : {
 			"tower" : 25,
 			"conflux" : 20,
-			"factory" : 45
+			"factory" : 45,
 		},
 
 		"animation" : {
@@ -75,7 +75,7 @@
 			"none" : {
 				"description" : "{Reconstruction}\n\nTarget allied unliving (not undead) troop or siege weapon with destroyed creatures has (30 + (power x 50)) health worth of creatures restored to life for the duration of the current battle.",
 				"cost" : 18,
-				"power" : 40
+				"power" : 40,
 			},
 			"basic" : {
 				"description" : "{Basic Reconstruction}\n\nTarget allied unliving (not undead) troop or siege weapon with destroyed creatures has (40 + (power x 50)) health worth of creatures restored to life for the duration of the current battle.",

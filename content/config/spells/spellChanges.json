@@ -210,7 +210,7 @@
 	},
 	"core:slow" : {
 		"counters" : {
-			"new-old-spells-plus:waspSwarm" : true
+			"new-old-spells-plus:waspSwarm": true
 		}
 	},
 	"core:sorrow" : {
@@ -253,7 +253,7 @@
 	},
 	"new-old-spells-plus:waspSwarm" : {
 		"counters" : {
-			"spell.slow" : true
+			"spell.slow": true
 		},
 		"levels" : {
 			"base" : {

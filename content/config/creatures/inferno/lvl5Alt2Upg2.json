@@ -11,7 +11,7 @@
 		"shots" : 24,
 		"damage" : {
 			"min" : 14,
-			"max" : 18
+			"max" : 18			
 		},
 		"hitPoints" : 40,
 		"speed" : 11,
@@ -29,7 +29,7 @@
 			"succubusSeducerAU"
 		],
 		"abilities" : {
-			"demonic" : {
+						"demonic" : {
 				"type" : "DEMONIC"
 			},
 			"fireReduction" : {
