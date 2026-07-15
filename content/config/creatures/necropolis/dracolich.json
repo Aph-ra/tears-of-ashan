@@ -8,7 +8,7 @@
 		"level" : 10,
 		"attack" : 45,
 		"defense" : 45,
-		"shots" : 8,
+		"shots" : 24,
 		"damage" : {
 			"min" : 50,
 			"max" : 75

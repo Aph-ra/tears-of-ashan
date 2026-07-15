@@ -206,8 +206,21 @@
 						]
 					]
 				},
+				"dwellingLvl7" : {
+					"cost" : {
+						"gold" : 10000,
+						"wood" : 10,
+						"ore" : 10,
+						"sulfur" : 10,
+					}
+				},
 				"dwellingUpLvl7" : {
-					"description" : "The Dragon Cave allows you to recruit Black Dragons and Shadow Dragons."
+					"description" : "The Dragon Cave allows you to recruit Black Dragons and Shadow Dragons.",
+					"cost" : {
+						"gold" : 15000,
+						"ore" : 15,
+						"sulfur" : 15
+					}
 				},
 				"dwellingUp2Lvl7" : {
 					"name" : "Upg. Dragon Cave",

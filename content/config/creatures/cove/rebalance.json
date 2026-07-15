@@ -7,7 +7,7 @@
 			}
 		}
 	},
-
+	
 	"hota.cove:oceanid" : {
 		"abilities" : {
 			"deepFreezeImmunity" : {
@@ -16,7 +16,7 @@
 			}
 		}
 	},
-
+	
 	"hota.cove:crewmate" : {
 		"abilities" : {
 			"generateGold" : {

@@ -23,7 +23,10 @@
 
 	"czech" : {
 		"name" : "Kompatibilita s Campaign Heroes",
-		"description" : "Vrstva kompatibility pro mod Campaign Heroes. Upravuje armády a popisy specializací."
+		"description" : "Vrstva kompatibility pro modifikaci Hrdinové kampaně. Upravuje armády a popisy specializací.",
+		"translations" : [
+			"translation/czech.json"
+		]
 	},
 	"polish" : {
 		"name" : "Kompatybilność z bohaterami kampanijnymi",

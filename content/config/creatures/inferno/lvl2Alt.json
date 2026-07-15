@@ -52,13 +52,13 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "inferno",
 				"val" : 1,
-				"description" : "{Spellcaster}\nCan cast Basic Inferno (30% Power)",
+				"description" : "{Spellcaster}\nCan cast Basic Inferno (20% Power)",
 				"icon" : "zvs/Lib1.res/spellsSOD/inferno1.png"
 			},
 			"infernoPower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"subtype" : "inferno",
-				"val" : 30
+				"val" : 20
 			},
 			"spellpoints" : {
 				"type" : "CASTS",

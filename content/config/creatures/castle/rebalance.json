@@ -8,9 +8,10 @@
 		"attack" : 14,
 		"defense" : 10,
 		"damage" : {
-			"min" : 10,
+			"min" : 12,
 			"max" : 14
 		},
+		"hitPoints" : 35,
 		"aiValue" : 850,
 		"fightValue" : 600,
 		"cost" : {

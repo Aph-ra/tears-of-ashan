@@ -292,62 +292,6 @@
 						]
 					]
 				},
-				"dwellingUpLvl4" : {
-					"description" : "The Estate allows you to recruit Vampire Lords and Vampire Princes."
-				},
-				"dwellingUp2Lvl4" : {
-					"name" : "Upg. Estate",
-					"description" : "The Estate allows you to recruit Vampire Lords and Vampire Princes.",
-					"mode" : "auto",
-					"requires" : [
-						"allOf",
-						[
-							"dwellingUpLvl4"
-						]
-					]
-				},
-				"dwellingUpLvl5" : {
-					"description" : "The Mausoleum allows you to recruit Power Liches and Lich Masters."
-				},
-				"dwellingUp2Lvl5" : {
-					"name" : "Upg. Mausoleum",
-					"description" : "The Mausoleum allows you to recruit Power Liches and Lich Masters.",
-					"mode" : "auto",
-					"requires" : [
-						"allOf",
-						[
-							"dwellingUpLvl5"
-						]
-					]
-				},
-				"dwellingUpLvl6" : {
-					"description" : "The Hall of Darkness allows you to recruit Dread Knights and Dreadtaurs."
-				},
-				"dwellingUp2Lvl6" : {
-					"name" : "Upg. Hall of Darkness",
-					"description" : "The Hall of Darkness allows you to recruit Dread Knights and Dreadtaurs.",
-					"mode" : "auto",
-					"requires" : [
-						"allOf",
-						[
-							"dwellingUpLvl6"
-						]
-					]
-				},
-				"dwellingUpLvl7" : {
-					"description" : "The Dragon Vault allows you to recruit Ghost Dragons and Spectral Dragons."
-				},
-				"dwellingUp2Lvl7" : {
-					"name" : "Upg. Dragon Vault",
-					"description" : "The Dragon Vault allows you to recruit Ghost Dragons and Spectral Dragons.",
-					"mode" : "auto",
-					"requires" : [
-						"allOf",
-						[
-							"dwellingUpLvl7"
-						]
-					]
-				},
 				"dwellingLvl4" : {
 					"requires" : [
 						"allOf",
@@ -362,20 +306,17 @@
 						]
 					]
 				},
-				"dwellingLvl6" : {
+				"dwellingUpLvl4" : {
+					"description" : "The Estate allows you to recruit Vampire Lords and Vampire Princes."
+				},
+				"dwellingUp2Lvl4" : {
+					"name" : "Upg. Estate",
+					"description" : "The Estate allows you to recruit Vampire Lords and Vampire Princes.",
+					"mode" : "auto",
 					"requires" : [
 						"allOf",
 						[
-							"dwellingLvl5"
-						],
-						[
-							"anyOf",
-							[
-								"dwellingLvl4"
-							],
-							[
-								"dwellingLvl4B"
-							]
+							"dwellingUpLvl4"
 						]
 					]
 				},
@@ -431,6 +372,76 @@
 						"allOf",
 						[
 							"dwellingUpLvl4B"
+						]
+					]
+				},
+				"dwellingUpLvl5" : {
+					"description" : "The Mausoleum allows you to recruit Power Liches and Lich Masters."
+				},
+				"dwellingUp2Lvl5" : {
+					"name" : "Upg. Mausoleum",
+					"description" : "The Mausoleum allows you to recruit Power Liches and Lich Masters.",
+					"mode" : "auto",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingUpLvl5"
+						]
+					]
+				},
+				"dwellingLvl6" : {
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl5"
+						],
+						[
+							"anyOf",
+							[
+								"dwellingLvl4"
+							],
+							[
+								"dwellingLvl4B"
+							]
+						]
+					]
+				},
+				"dwellingUpLvl6" : {
+					"description" : "The Hall of Darkness allows you to recruit Dread Knights and Dreadtaurs."
+				},
+				"dwellingUp2Lvl6" : {
+					"name" : "Upg. Hall of Darkness",
+					"description" : "The Hall of Darkness allows you to recruit Dread Knights and Dreadtaurs.",
+					"mode" : "auto",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingUpLvl6"
+						]
+					]
+				},
+				"dwellingLvl7" : {
+					"cost" : {
+						"gold" : 10000,
+						"wood" : 5,
+						"ore" : 5,
+						"mercury" : 5,
+						"sulfur" : 5,
+						"crystal" : 5,
+						"gems" : 5
+					}
+				},
+				"dwellingUpLvl7" : {
+					"description" : "The Dragon Vault allows you to recruit Ghost Dragons and Spectral Dragons."
+				},
+				"dwellingUp2Lvl7" : {
+					"name" : "Upg. Dragon Vault",
+					"description" : "The Dragon Vault allows you to recruit Ghost Dragons and Spectral Dragons.",
+					"mode" : "auto",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingUpLvl7"
 						]
 					]
 				}

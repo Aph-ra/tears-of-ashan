@@ -329,48 +329,6 @@
 						]
 					]
 				},
-				"dwellingUpLvl5" : {
-					"description" : "The Hell Hole allows you to recruit Pit Lords and Pit Spawn."
-				},
-				"dwellingUp2Lvl5" : {
-					"name" : "Upg. Hell Hole",
-					"description" : "The Hell Hole allows you to recruit Pit Lords and Pit Spawn.",
-					"mode" : "auto",
-					"requires" : [
-						"allOf",
-						[
-							"dwellingUpLvl5"
-						]
-					]
-				},
-				"dwellingUpLvl6" : {
-					"description" : "The Fire Lake allows you to recruit Efreet Sultans and Efreet Sufis."
-				},
-				"dwellingUp2Lvl6" : {
-					"name" : "Upg. Fire Lake",
-					"description" : "The Fire Lake allows you to recruit Efreet Sultans and Efreet Sufis.",
-					"mode" : "auto",
-					"requires" : [
-						"allOf",
-						[
-							"dwellingUpLvl6"
-						]
-					]
-				},
-				"dwellingUpLvl7" : {
-					"description" : "The Forsaken Palace allows you to recruit Arch Devils and Arch Demons."
-				},
-				"dwellingUp2Lvl7" : {
-					"name" : "Upg. Forsaken Palace",
-					"description" : "The Forsaken Palace allows you to recruit Arch Devils and Arch Demons.",
-					"mode" : "auto",
-					"requires" : [
-						"allOf",
-						[
-							"dwellingUpLvl7"
-						]
-					]
-				},
 				"dwellingLvl5" : {
 					"requires" : [
 						"allOf",
@@ -385,7 +343,21 @@
 						]
 					]
 				},
-				"dwellingLvl5B" : {
+				"dwellingUpLvl5" : {
+					"description" : "The Hell Hole allows you to recruit Pit Lords and Pit Spawn."
+				},
+				"dwellingUp2Lvl5" : {
+					"name" : "Upg. Hell Hole",
+					"description" : "The Hell Hole allows you to recruit Pit Lords and Pit Spawn.",
+					"mode" : "auto",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingUpLvl5"
+						]
+					]
+				},
+								"dwellingLvl5B" : {
 					"description" : "The Lust Chambers allow you to recruit Succubi.",
 					"name" : "Lust Chambers",
 					"id" : 55,
@@ -455,6 +427,20 @@
 						]
 					]
 				},
+				"dwellingUpLvl6" : {
+					"description" : "The Fire Lake allows you to recruit Efreet Sultans and Efreet Sufis."
+				},
+				"dwellingUp2Lvl6" : {
+					"name" : "Upg. Fire Lake",
+					"description" : "The Fire Lake allows you to recruit Efreet Sultans and Efreet Sufis.",
+					"mode" : "auto",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingUpLvl6"
+						]
+					]
+				},
 				"dwellingLvl6B" : {
 					"description" : "The Hellfire Rift allows you to recruit Hell Steeds.",
 					"name" : "Hellfire Rift",
@@ -511,6 +497,12 @@
 					]
 				},
 				"dwellingLvl7" : {
+					"cost" : {
+						"gold" : 10000,
+						"wood" : 10,
+						"ore" : 10,
+						"mercury" : 10
+					},
 					"requires" : [
 						"allOf",
 						[
@@ -527,6 +519,26 @@
 							[
 								"dwellingLvl6B"
 							]
+						]
+					]
+				},
+				"dwellingUpLvl7" : {
+					"description" : "The Forsaken Palace allows you to recruit Arch Devils and Arch Demons.",
+					"cost" : {
+						"gold" : 15000,
+						"wood" : 5,
+						"ore" : 5,
+						"mercury" : 20
+					},
+				},
+				"dwellingUp2Lvl7" : {
+					"name" : "Upg. Forsaken Palace",
+					"description" : "The Forsaken Palace allows you to recruit Arch Devils and Arch Demons.",
+					"mode" : "auto",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingUpLvl7"
 						]
 					]
 				}

@@ -15,7 +15,8 @@
 			"tomeOfAirMagic",
 			"tomeOfEarthMagic",
 			"tomeOfFireMagic",
-			"tomeOfWaterMagic"
+			"tomeOfWaterMagic",
+			"tomeOfTwilightMagic"
 		],
 		"fusedComponents" : true,
 		"bonuses" : {

@@ -2,13 +2,52 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra; see website for full list of credits!",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "1.6.10",
+	"version" : "1.6.13",
 	"modType" : "Expansion",
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
 
 	"changelog" : {
+		"Public Beta 1.6.13" : [
+			"Added a disclaimer in the Sanctuary submod that it is WIP",
+			"Added a new artifact: Tome of Twilight Magic",
+			"The Book of Power combination artifact now also requires the Tome of Twilight Magic",
+			"Ice/Frost Elemental 3x Ice Bolt/Frost Ring (50%) → 2x Ice Bolt/Frost Ring (30%)",
+			"Astral Elemental Health 75 → 90; Speed 8 → 9"
+		],
+		"Public Beta 1.6.12" : [
+			"Zealot Damage 10–14 → 12–14; Health 30 → 35",
+			"Naga Queen Speed 7 → 8",
+			"Naga Rani Speed 8 → 7",
+			"Dendroid Shaman Health 65 → 55; Expert Resurrection (30%) → Advanced Resurrection (25%)",
+			"War Unicorn Basic Blind (20%) → Advanced Blind (30%)",
+			"Portal of Glory Cost 20000/10M/10S/10C/10G → 10000/5W/5O/5M/5S/5C/5G",
+			"Dragon Cliffs Cost 10000/30O/20C → 10000/20O/10C",
+			"Upg. Dragon Cliffs Cost 20000/30O/20C → 15000/15O/15C",
+			"Upg. Cloud Temple Cost 20000/5W/5O/30G → 15000/5W/5O/20G",
+			"Forsaken Palace Cost 15000/10W/10O/20M → 10000/10W/10O/10M",
+			"Upg. Forsaken Palace Cost 20000/5W/5O/20M → 15000/5W/5O/20M",
+			"Dragon Vault Cost 10000/5W/5O/5M/5S/5C → 10000/5W/5O/5M/5S/5C/5G",
+			"Dragon Cave Cost 15000/15W/15O/20S → 10000/10W/10O/10S",
+			"Upg. Dragon Cave Cost 15000/15W/15O/20S → 15000/0W/15O/15S",
+			"Upg. Behemoth Lair Cost 15000/10W/10O/20C → 15000/0W/10O/20C",
+			"Upg. Hydra Pond Cost 15000/10W/10O/20S → 15000/0W/10O/20S",
+			"Pyre Cost 15000/10W/10O/20M → 10000/10W/10O/10M",
+			"Upg. Pyre Cost 15000/10W/10O/20M → 15000/10W/10O/10M",
+			"Maelstrom Cost 15000/15W/15O/10S → 10000/10W/10O/10S",
+			"Upg. Maelstrom Cost 15000/15W/15O/20S → 15000/5W/10O/15S"
+		],
+		"Public Beta 1.6.11" : [
+			"Added Czech translation by George King",
+			"Moved Karloff, Martina, and Haffayad from the Sanctuary submod to the main mod",
+			"Toshiro's specialty now also increases the Speed of Kenshis by 1",
+			"Amalek Inferno scaling 30% → 20%",
+			"Succubus Seducer Puppet Master casts 2 → 1",
+			"Pit Spawn Meteor Shower scaling 75% → 50%",
+			"Arch Devil Health 250 → 225",
+			"Fixed Minotaur Taskmaster Cost"
+		],
 		"Public Beta 1.6.10" : [
 			"Galthran is no longer special by default",
 			"Added new combination artifacts: Abyssal Scale Mail (Cove set); Barkskin Shield (Rampart set); Flail of the Gladiator (Fortress set); Shadow Scale Mail (Dungeon set); Plate of the Dwarven King (Dwarven set)",
@@ -96,9 +135,6 @@
 			"Enchanter Health 30 → 50; Cost 750 → 775",
 			"Reduced neutral dragon costs (Gold halved, resources reduced)"
 		],
-		"Public Beta 1.5.6" : [
-			"Czech translation by George King"
-		],
 		"Public Beta 1.5.5" : [
 			"Corrected Grim Guard adventure map quantity",
 			"Corrected Dread Guard Attack",
@@ -111,11 +147,11 @@
 			"Fixed loading pips"
 		],
 		"Public Beta 1.5.3" : [
-			"Fixed Gelu and Dracon not being able to upgrade units"
+			"Fixed Gelu and Dracon not being able to upgrade units",
 		],
 		"Public Beta 1.5.2" : [
 			"Added Heroes VI Cursors as a submod",
-			"Renamed Ashan Cursors to Heroes V Cursors"
+			"Renamed Ashan Cursors to Heroes V Cursors",
 		],
 		"Public Beta 1.5.1" : [
 			"Fixed Horde's Anger and Battlecry"
@@ -264,14 +300,14 @@
 
 	"skills" : [
 		"config/skills/darkMagic.json",
-
+		
 		"config/skills/lightMagic.json",
-
+		
 		"config/skills/gating.json",
 		"config/skills/gatingDevilSpec.json",
 		"config/skills/gatingNightmareSpec.json",
 		"config/skills/gatingSuccubusSpec.json",
-
+		
 		"config/skills/warcries.json",
 
 		"config/skills/rebalance.json"
@@ -312,7 +348,7 @@
 		"config/spells/aging.json",
 		"config/spells/deathCloudDark.json",
 		"config/spells/disease.json",
-
+		
 		"config/spells/reconstruction.json",
 
 		"config/spells/gateImp.json",
@@ -328,7 +364,7 @@
 		"config/spells/gateDevil.json",
 		"config/spells/gateDevilSpec.json",
 		"config/spells/gateArchDevil.json",
-
+		
 		"config/spells/rallyingCry.json",
 		"config/spells/callOfBlood.json",
 		"config/spells/fearMyRoar.json",
@@ -371,7 +407,9 @@
 		"config/heroes/castle/cordelia.json",
 		"config/heroes/castle/ellaine.json",
 		"config/heroes/castle/gwenneth.json",
+		"config/heroes/castle/karloff.json",
 		"config/heroes/castle/laurielle.json",
+		"config/heroes/castle/martina.json",
 		"config/heroes/castle/maeve.json",
 		"config/heroes/castle/salvatore.json",
 		"config/heroes/castle/wilhelm.json",
@@ -393,6 +431,7 @@
 		"config/heroes/inferno/pariah.json",
 
 		"config/heroes/necropolis/ariana.json",
+		"config/heroes/necropolis/haffayad.json",
 		"config/heroes/necropolis/kaspar.json",
 		"config/heroes/necropolis/ludmilla.json",
 		"config/heroes/necropolis/merikh.json",
@@ -530,7 +569,7 @@
 		"config/creatures/cove/lvl6Alt",
 		"config/creatures/cove/lvl7Alt",
 		"config/creatures/cove/rebalance",
-
+		
 		"config/creatures/factory/rebalance",
 
 		"config/creatures/neutral/rebalance"
@@ -538,25 +577,26 @@
 
 	"artifacts" : [
 		"config/artifacts/artifactChanges.json",
-
+		
 		"config/artifacts/abyssalScaleMail.json",
 		"config/artifacts/archmagesCodex.json",
 		"config/artifacts/barkskinShield.json",
 		"config/artifacts/bookOfPower.json",
 		"config/artifacts/flailOfTheGladiator.json",
-
+		"config/artifacts/tomeOfTwilightMagic.json",
+		
 		"config/artifacts/coldShadowHelmet.json",
 		"config/artifacts/deepShadowChestplate.json",
 		"config/artifacts/fangedShadowSlicer.json",
 		"config/artifacts/lunarShadowShield.json",
 		"config/artifacts/shadowScaleMail.json",
-
+		
 		"config/artifacts/dwarvenMithrilCuirass.json",
 		"config/artifacts/dwarvenMithrilGreaves.json",
 		"config/artifacts/dwarvenMithrilHammer.json",
 		"config/artifacts/dwarvenMithrilHelmet.json",
 		"config/artifacts/dwarvenMithrilShield.json",
-		"config/artifacts/plateOfTheDwarvenKing.json"
+		"config/artifacts/plateOfTheDwarvenKing.json"		
 	],
 
 	"objects" : [
@@ -584,7 +624,7 @@
 
 	"czech" : {
 		"name" : "Tears of Ashan",
-		"description" : "<p style='font-size:16px; color:#333333; font-style:italic;'>Prozkoumej zcela novou říši v <b>Slzách Ashanu</b>, fanouškovském rozšíření pro Heroes of Might and Magic III, které propojuje prvky Heroes of Might and Magic V se známou hratelností třetích Hrdinů.</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Heroes III x V</p> <p style='font-size:16px; color:#333333;'><b>Slzy Ashanu</b> rozšiřují původní hru o řadu prvků z <b>Heroes V</b>, například o <b>alternativní vylepšení</b> pro každého bojovníka v každé frakci, <b>Magii světla a temnoty</b> a mechaniky jako <b>Brána</b>. Limit druhotných dovedností byl zvýšen z 8 na 10, aby se pro tyto nové dovednosti našlo místo. Objevuj nové strategie a další možnosti hry, protože každé vylepšení jednotky nyní nabízí vlastní taktickou výhodu. Posil své jednotky mocí svatého světla, nebo pošli nepřátele do podsvětí, kde se udusí v temnotě!</p> <p style='font-size:22px; color:#002366; font-weight:bold;'>Alternativní vylepšení</p><p style='font-size:16px; color:#333333;'>Každá frakce nyní obsahuje <b>21 bojovníků</b> místo 14, protože každá jednotka si může vybrat mezi 2 cestami vylepšení. Tyto vylepšené jednotky lze mezi sebou kdykoli vyměnit, pokud se tak děje v Pevnosti na kopci nebo ve městě, které je může najímat. Některé slouží jako podpora, posilují tvé jednotky nebo oslabují nepřátele; jiné jsou útoční rváči, kteří mají nepřátele tvrdě a rychle srazit; další jsou obrannou volbou, chrání střelce nebo zpevňují armádu. Každá frakce tak získává širší škálu strategií pro nejrůznější situace a přizpůsobivá hra je ještě dostupnější!</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Conflux</p><p style='font-size:16px; color:#333333;'>Zatímco každá frakce prošla řadou úprav vyvážení, Conflux byl kompletně přepracován od základů. Čtyři základní elementálové už nejsou „jednotky úrovně 3,5“; získali odpovídající statistiky pro svou úroveň, ale zachovali si klíčové vlastnosti, díky nimž jsou oni i celkové vyvážení Confluxu jedineční.</p> <p style='font-size:16px; color:#333333;'>Více se dozvíš online: https://sites.google.com/view/tears-of-ashan</p>",
+		"description" : "<p style='font-size:16px; color:#333333; font-style:italic;'>Prozkoumej zcela novou říši v <b>Slzách Ashanu</b>, fanouškovském rozšíření pro Heroes of Might and Magic III, které propojuje prvky Heroes of Might and Magic V se známou hratelností třetích Hrdinů.</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Heroes III x V</p> <p style='font-size:16px; color:#333333;'><b>Slzy Ashanu</b> rozšiřují původní hru o řadu prvků z <b>Heroes V</b>, například o <b>alternativní vylepšení</b> pro každého bojovníka v každé frakci, <b>Magii světla a temnoty</b> a mechaniky jako <b>Brána</b>. Limit druhotných dovedností byl zvýšen z 8 na 10, aby se pro tyto nové dovednosti našlo místo. Objevuj nové strategie a další možnosti hry, protože každé vylepšení jednotky nyní nabízí vlastní taktickou výhodu. Posil své jednotky mocí svatého světla, nebo pošli nepřátele do podsvětí, kde se udusí v temnotě!</p> <p style='font-size:22px; color:#002366; font-weight:bold;'>Alternativní vylepšení</p><p style='font-size:16px; color:#333333;'>Každá frakce nyní obsahuje <b>21 bojovníků</b> místo 14, protože každá jednotka si může vybrat mezi 2 cestami vylepšení. Tyto vylepšené jednotky lze mezi sebou kdykoli vyměnit, pokud se tak děje v Pevnosti na kopci nebo ve městě, které je může najímat. Některé slouží jako podpora, posilují tvé jednotky nebo oslabují nepřátele; jiné jsou útoční rváči, kteří mají nepřátele tvrdě a rychle srazit; další jsou obrannou volbou, chrání střelce nebo zpevňují armádu. Každá frakce tak získává širší škálu strategií pro nejrůznější situace a přizpůsobivá hra je ještě dostupnější!</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Conflux</p><p style='font-size:16px; color:#333333;'>Zatímco každá frakce prošla řadou úprav vyvážení, Conflux byl kompletně přepracován od základů. Čtyři základní elementálové už nejsou „jednotky úrovně 3,5“; získali odpovídající statistiky pro svou úroveň, ale zachovali si klíčové vlastnosti, díky nimž jsou oni i celkové vyvážení Confluxu jedineční.</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Svatyně</p><p style='font-size:16px; color:#333333;'>Svatyně z Heroes VI se vrací do Tears of Ashan. Veď mocné vojsko nag z Ashanu do boje a objev nové strategie se samuraji a mnichy, včetně hrdinů z kampaně Svatyně, která je součástí této modifikace.</p> <p style='font-size:16px; color:#333333;'>Více se dozvíš online: https://sites.google.com/view/tears-of-ashan</p>",
 		"translations" : [
 			"translation/czech.json"
 		]

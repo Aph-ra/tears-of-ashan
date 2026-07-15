@@ -39,7 +39,7 @@
 				"tearsofashan:creature.bloodEyedCyclopsAU" : "absolute",
 				"core:creature.behemoth" : "absolute",
 				"core:creature.ancientBehemoth" : "absolute",
-				"tearsofashan:creature.ghostBehemothAU" : "absolute"
+				"tearsofashan:creature.ghostBehemothAU" : "absolute",
 			}
 		},
 
@@ -63,11 +63,9 @@
 		"targetType" : "CREATURE",
 
 		"levels" : {
-			"base" : {
+			"base":{
 				"range" : "X",
-				"targetModifier" : {
-					"smart" : true
-				},
+				"targetModifier" : {"smart":true},
 				"effects" : {
 					"stacksAttack" : {
 						"type" : "BATTLECRY_BONUS",

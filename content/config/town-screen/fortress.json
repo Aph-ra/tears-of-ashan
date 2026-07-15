@@ -205,7 +205,12 @@
 					]
 				},
 				"dwellingUpLvl7" : {
-					"description" : "The Hydra Pond allows you to recruit Chaos Hydras and Ruinous Hydras."
+					"description" : "The Hydra Pond allows you to recruit Chaos Hydras and Ruinous Hydras.",
+					"cost" : {
+						"gold" : 15000,
+						"ore" : 10,
+						"sulfur" : 20
+					}
 				},
 				"dwellingUp2Lvl7" : {
 					"name" : "Upg. Hydra Pond",

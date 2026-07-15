@@ -48,11 +48,9 @@
 		"targetType" : "CREATURE",
 
 		"levels" : {
-			"base" : {
+			"base":{
 				"range" : "0",
-				"targetModifier" : {
-					"smart" : true
-				},
+				"targetModifier" : {"smart":true},
 				"effects" : {
 					"fearful" : {
 						"type" : "FEARFUL",

@@ -24,5 +24,10 @@
 
 	"spells" : [
 		"config/spellChanges.json"
-	]
+	],
+
+	"czech" : {
+		"name" : "Kompatibilita s Nádvořím",
+		"description" : "Vrstva kompatibility pro modifikaci Nádvoří. Mění všechny výskyty Rekonstrukce na verzi z Tears of Ashan."
+	}
 }
