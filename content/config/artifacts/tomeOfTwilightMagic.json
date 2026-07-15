@@ -1,0 +1,34 @@
+{
+	"tomeOfTwilightMagic" : {
+		"text" : {
+			"name" : "Tome of Twilight Magic",
+			"description" : "{Tome of Twilight Magic}\n\nThis heavy book contains all spells in the schools of Light and Dark Magic. It must be equipped for the spells to be available.",
+			"event" : "You come across a conjurer who begs to accompany you and your army awhile for safety. You agree, and he offers as payment a copy of a book of the elements."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "MISC",
+		"class" : "RELIC",
+		"value" : 30000,
+		"bonuses" : {
+			"lightSchool" : {
+				"type" : "SPELLS_OF_SCHOOL",
+				"subtype" : "01lightSchool",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+			"darkSchool" : {
+				"type" : "SPELLS_OF_SCHOOL",
+				"subtype" : "02darkSchool",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/tomeOfTwilightMagic.png",
+			"map" : "artifacts/map/tomeOfTwilightMagic.json",
+			"scenarioBonus" : "artifacts/bonus/tomeOfTwilightMagic.png"
+		}
+	}
+}

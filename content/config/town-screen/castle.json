@@ -203,6 +203,17 @@
 						]
 					]
 				},
+				"dwellingLvl7" : {
+					"cost" : {
+						"gold" : 10000,
+						"wood" : 5,
+						"ore" : 5,
+						"mercury" : 5,
+						"sulfur" : 5,
+						"crystal" : 5,
+						"gems" : 5
+					}
+				},
 				"dwellingUpLvl7" : {
 					"description" : "The Portal of Glory allows you to recruit Archangels and Seraphim."
 				},

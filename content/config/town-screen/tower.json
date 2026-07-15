@@ -208,7 +208,13 @@
 					]
 				},
 				"dwellingUpLvl7" : {
-					"description" : "The Cloud Temple allows you to recruit Titans and Colossi."
+					"description" : "The Cloud Temple allows you to recruit Titans and Colossi.",
+					"cost" : {
+						"gold" : 15000,
+						"wood" : 5,
+						"ore" : 5,
+						"gems" : 20
+					}
 				},
 				"dwellingUp2Lvl7" : {
 					"name" : "Upg. Cloud Temple",

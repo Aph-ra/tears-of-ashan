@@ -1,0 +1,52 @@
+{
+	"martina" : {
+		"class" : "knight",
+		"female" : true,
+		"special" : false,
+		"texts" : {
+			"name" : "Martina",
+			"biography" : "One of Gerhart’s most loyal servants, Martina is a well-decorated Knight from the Wolf Duchy who seems more than happy to be part of any conflict that places the House of Wolf in opposition to the House of Griffin. Rumor has it that this personal animosity stems from an incident in her childhood when her father was reputedly forced to dance in pig swill for the amusement of a high-ranking Griffin.",
+			"specialty" : {
+				"name" : "Offense",
+				"tooltip" : "Secondary Skill Bonus: Offense",
+				"description" : "Receives a 5% per level bonus to Offense skill percentage."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/castle/martina/portraitSmall.png",
+			"large" : "heroes/castle/martina/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Offense.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Offense.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "advanced"
+			}
+		],
+
+		"specialty" : {
+			"secondary" : "offence"
+		},
+
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	}
+}

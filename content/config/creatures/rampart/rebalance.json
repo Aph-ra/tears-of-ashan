@@ -31,6 +31,11 @@
 		"fightValue" : 2250,
 		"cost" : {
 			"gold" : 1050
+		},
+		"abilities" : {
+			"blinds" : {
+				"val" : 30
+			}
 		}
 	},
 	"core:goldDragon" : {

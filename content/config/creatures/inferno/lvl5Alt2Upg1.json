@@ -70,7 +70,7 @@
 			},
 			"spellpoints" : {
 				"type" : "CASTS",
-				"val" : 2
+				"val" : 1
 			}
 		},
 		"graphics" : {

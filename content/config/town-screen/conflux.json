@@ -249,10 +249,22 @@
 					]
 				},
 				"dwellingLvl7" : {
-					"description" : "The Pyre allows you to recruit Firebirds."
+					"description" : "The Pyre allows you to recruit Firebirds.",
+					"cost" : {
+						"gold" : 10000,
+						"wood" : 10,
+						"ore" : 10,
+						"mercury" : 10
+					}
 				},
 				"dwellingUpLvl7" : {
-					"description" : "The Pyre allows you to recruit Phoenixes and Sacred Phoenixes."
+					"description" : "The Pyre allows you to recruit Phoenixes and Sacred Phoenixes.",
+					"cost" : {
+						"gold" : 15000,
+						"wood" : 10,
+						"ore" : 10,
+						"mercury" : 10
+					}
 				},
 				"dwellingUp2Lvl7" : {
 					"name" : "Upg. Pyre",

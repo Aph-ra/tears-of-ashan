@@ -207,8 +207,22 @@
 						]
 					]
 				},
+				"dwellingLvl7" : {
+					"cost" : {
+						"gold" : 10000,
+						"wood" : 10,
+						"ore" : 10,
+						"sulfur" : 10
+					}
+				},
 				"dwellingUpLvl7" : {
-					"description" : "The Maelstrom allows you to recruit Haspids and Deep Serpents."
+					"description" : "The Maelstrom allows you to recruit Haspids and Deep Serpents.",
+					"cost" : {
+						"gold" : 15000,
+						"wood" : 5,
+						"ore" : 10,
+						"sulfur" : 15
+					}
 				},
 				"dwellingUp2Lvl7" : {
 					"name" : "Upg. Maelstrom",

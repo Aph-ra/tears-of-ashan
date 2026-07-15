@@ -12,7 +12,7 @@
 			"min" : 10,
 			"max" : 14
 		},
-		"hitPoints" : 65,
+		"hitPoints" : 55,
 		"speed" : 4,
 		"growth" : 3,
 		"horde" : 2,
@@ -39,20 +39,20 @@
 			"resurrects" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.resurrection",
-				"val" : 3,
+				"val" : 2,
 				"limiters" : [
 					{
 						"type" : "FACTION_LIMITER",
 						"faction" : "rampart"
 					}
 				],
-				"description" : "{Spellcaster}\nCan cast Expert Resurrection on Rampart units (30% Power)",
+				"description" : "{Spellcaster}\nCan cast Advanced Resurrection on Rampart units (25% Power)",
 				"icon" : "zvs/Lib1.res/spellsSOD/resurrect3.png"
 			},
 			"resurrectionPower" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "spell.resurrection",
-				"val" : 30
+				"val" : 25
 			},
 			"spellpoints" : {
 				"type" : "CASTS",

@@ -234,8 +234,20 @@
 						]
 					]
 				},
+				"dwellingLvl7" : {
+					"cost" : {
+						"gold" : 10000,
+						"ore" : 20,
+						"crystal" : 10,
+					}
+				},
 				"dwellingUpLvl7" : {
-					"description" : "The Dragon Cliffs allow you to recruit Gold Dragons and Diamond Dragons."
+					"description" : "The Dragon Cliffs allow you to recruit Gold Dragons and Diamond Dragons.",
+					"cost" : {
+						"gold" : 15000,
+						"ore" : 20,
+						"crystal" : 15
+					}
 				},
 				"dwellingUp2Lvl7" : {
 					"name" : "Upg. Dragon Cliffs",
