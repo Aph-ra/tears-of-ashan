@@ -33,7 +33,7 @@
 				},
 				"noDistancePenaltyBallista" : {
 					"type" : "NO_DISTANCE_PENALTY",
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "ballista",
@@ -43,7 +43,7 @@
 				},
 				"noDistancePenaltyCannon" : {
 					"type" : "NO_DISTANCE_PENALTY",
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "hota.cannon:cannon",
@@ -54,7 +54,7 @@
 			}
 		}
 	},
-	
+
 	"core:ballistics" : {
 		"base" : {
 			"effects" : {

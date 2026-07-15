@@ -238,7 +238,7 @@
 					"cost" : {
 						"gold" : 10000,
 						"ore" : 20,
-						"crystal" : 10,
+						"crystal" : 10
 					}
 				},
 				"dwellingUpLvl7" : {

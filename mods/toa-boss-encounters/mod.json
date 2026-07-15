@@ -18,11 +18,11 @@
 		"config/creatures/urielMarksman.json",
 		"config/creatures/urielPraetorian.json"
 	],
-	
+
 	"objects" : [
 		"config/banks/urielBossBank.json"
 	],
-	
+
 	"settings" : {
 		"combat" : {
 			"layouts" : {
@@ -42,7 +42,7 @@
 					],
 					"attackerWarMachines" : [
 						52,
-						18, 
+						18,
 						154,
 						120
 					],
@@ -59,7 +59,7 @@
 			}
 		}
 	},
-	
+
 	"czech" : {
 		"name" : "Střetnutí s bossy",
 		"description" : "Přidává několik nových lokací na mapě dobrodružství, kde se hráči mohou utkat s bossy o velké odměny."
