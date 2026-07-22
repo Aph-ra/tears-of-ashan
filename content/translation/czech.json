@@ -1415,5 +1415,9 @@
 	"mod.toa-h5-cursors.name": "Kurzory Heroes V",
 	"mod.toa-h6-cursors.name": "Kurzory Heroes VI",
 	"mod.toa-strong-heroes.name": "Silní hrdinové",
-	"mod.toa-strong-heroes.description": "Povoluje sira Mullicha, Gelua, Dracona a Mutare Drake v náhodných mapách. Zakazuje lorda Haarta kvůli konfliktu se sirem Mullichem."
+	"mod.toa-strong-heroes.description": "Povoluje sira Mullicha, Gelua, Dracona a Mutare Drake v náhodných mapách. Zakazuje lorda Haarta kvůli konfliktu se sirem Mullichem.",
+	"mod.toa-ashan-menu.description": "Motiv hlavního menu inspirovaný světem Ashanu.",
+	"mod.toa-ashan-sounds.description": "Zvukové efekty inspirované Ashanem pro jednotky a rozhraní.",
+	"mod.toa-h5-cursors.description": "Sada kurzorů ve stylu Heroes of Might and Magic V.",
+	"mod.toa-h6-cursors.description": "Sada kurzorů ve stylu Heroes of Might and Magic VI."
 }
