@@ -1,1 +1,27 @@
-{}
+{
+	"artifact.core.armageddonsBlade.description": "{Armageddon-Klinge}\n\nZusätzlich zu den Effekten ihrer Bestandteile trägt 'Armageddon-Klinge' den Zauberspruch 'Armageddon' auf Expertenstufe in Ihr Zauberbuch ein. Alle verbündeten Kreaturen werden immun gegen 'Armageddon'.",
+	"artifact.core.breastplateOfPetrifiedWood.description": "{Brustpanzer vom Steinwald}\n\nAm Oberkörper getragen, erhöht dieser Gegenstand Zauberkraft um +2.",
+	"artifact.core.helmOfTheAlabasterUnicorn.description": "{Helm des Alabastereinhorns}\n\nAuf dem Kopf getragen, erhöht dieser Gegenstand Wissen um +2.",
+	"artifact.core.sentinelsShield.description": "{Schild der Wache}\n\nMit der linken Hand gehalten, erhöht diese Reliquie Verteidigung um +9.",
+	"artifact.core.thunderHelmet.description": "{Donnerhelm}\n\nAuf dem Kopf getragen erhöht diese Reliquie das Wissen um +9.",
+	"artifact.core.titansCuirass.description": "{Titanenharnisch}\n\nAm Oberkörper getragen erhöht diese Reliquie die Zauberkraft um +9.",
+	"artifact.core.titansGladius.description": "{Titanengladius}\n\nMit der rechten Hand gehalten, erhöht diese riesige Reliquie Angriff um +9.",
+	"artifact.tears-of-ashan.abyssalScaleMail.description": "{Schuppenrüstung des Abgrunds}\n\nZusätzlich zu den Effekten ihrer Bestandteile wirkt diese Rüstung zu Beginn des Kampfes für 50 Runden die Zauber 'Luftschild Meisterhaft', 'Schutz Luftmagie Meisterhaft', 'Schutz Wassermagie Meisterhaft' und 'Schild Meisterheit' auf die Truppen des Helden.",
+	"artifact.tears-of-ashan.abyssalScaleMail.event": "Ihr stolpert über das Artefakt Schuppenrüstung des Abgrunds, staubt es ab und steckt es in Euren Rucksack.",
+	"artifact.tears-of-ashan.abyssalScaleMail.name": "Schuppenrüstung des Abgrunds",
+	"artifact.tears-of-ashan.archmagesCodex.description": "{Kodex des Erzmagiers}\n\nDieses schwere Buch enthält alle Zaubersprüche aller Magieschulen. Es muss ausgerüstet sein, damit die Zaubersprüche verfügbar sind.",
+	"artifact.tears-of-ashan.archmagesCodex.event": "Ihr stolpert über das Artefakt Kodex des Erzmagiers, staubt es ab und steckt es in Euren Rucksack.",
+	"artifact.tears-of-ashan.archmagesCodex.name": "Kodex des Erzmagiers",
+	"artifact.tears-of-ashan.barkskinShield.description": "{Schild aus Rindenhaut}\n\nZusätzlich zu Effekten seiner Bestandteile wirkt dieses Schild zu Beginn des Kampfes für 50 Runden die Zauber 'Schild Meisterhaft' und 'Steinhaut Meisterhaft' auf die Truppen des Helden.",
+	"artifact.tears-of-ashan.barkskinShield.event": "Ihr stolpert über das Artefakt Schild aus Rindenhaut, staubt es ab und steckt es in Euren Rucksack.",
+	"artifact.tears-of-ashan.barkskinShield.name": "Schild aus Rindenhaut",
+	"artifact.tears-of-ashan.bookOfPower.description": "{Buch der Macht}\n\nDieses schwere Buch bewirkt, dass alle Zaubersprüche 100% zusätzlichen Schaden verursachen.",
+	"artifact.tears-of-ashan.bookOfPower.event": "Ihr stolpert über das Artefakt Buch der Macht, staubt es ab und steckt es in Euren Rucksack.",
+	"artifact.tears-of-ashan.bookOfPower.name": "Buch der Macht",
+	"artifact.tears-of-ashan.coldShadowHelmet.description": "{Kaltschattenhelm}\n\nAuf dem Kopf getragen und erhöht dieser Gegenstand das Wissen um +8.",
+	"artifact.tears-of-ashan.coldShadowHelmet.event": "Ihr stolpert über das Artefakt Kaltschattenhelm, staubt es ab und steckt es in Euren Rucksack.",
+	"artifact.tears-of-ashan.coldShadowHelmet.name": "Kaltschattenhelm",
+	"artifact.tears-of-ashan.deepShadowChestplate.description": "{Tiefschatten-Brustpanzer}\n\nAm Oberkörper getragen erhöht dieser Brustpanzer die Zauberkraft um +8.",
+	"artifact.tears-of-ashan.deepShadowChestplate.event": "Ihr stolpert über das Artefakt Tiefschatten-Brustpanzer, staubt es ab und steckt es in Euren Rucksack.",
+	"artifact.tears-of-ashan.deepShadowChestplate.name": "Tiefschatten-Brustpanzer"
+}
