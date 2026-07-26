@@ -12,15 +12,12 @@
 			"Initial release"
 		]
 	},
-
 	"depends" : [
 		"campaign-heroes"
 	],
-
 	"heroes" : [
 		"config/heroChanges.json"
 	],
-
 	"czech" : {
 		"name" : "Kompatibilita s Campaign Heroes",
 		"description" : "Vrstva kompatibility pro modifikaci Hrdinové kampaně. Upravuje armády a popisy specializací.",
@@ -33,6 +30,11 @@
 		"description" : "Łatka na kompatybilność z bohaterami kampanijnymi. Zmienia opisy armii i specjalności.",
 		"translations" : [
 			"translation/polish.json"
+		]
+	},
+	"german" : {
+		"translations" : [
+			"translation/german.json"
 		]
 	}
 }
