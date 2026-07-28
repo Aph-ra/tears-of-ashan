@@ -1,1 +1,15 @@
-{}
+{
+    "hero.campaign-heroes.finneasVilmar.specialty.description": "Zaubert 'Tote beleben' mit um 5% erhöhtem Effekt für je N Heldenstufen, wobei N die Stufe der Zielkreatur ist.",
+    "hero.campaign-heroes.generalKendal.specialty.description": "Erhält 5% Bonus pro Stufe auf die Fähigkeit Schmied.",
+    "hero.campaign-heroes.generalKendal.specialty.name": "Schmied",
+    "hero.campaign-heroes.generalKendal.specialty.tooltip": "Sekundärfähigkeits-Bonus: Schmied",
+    "hero.campaign-heroes.youngChristian.specialty.tooltip": "Sekundärfähigkeits-Bonus: Logistik",
+    "hero.campaign-heroes.youngYog.specialty.tooltip": "Sekundärfähigkeits-Bonus: Taktik",
+    "hero.campaign-heroes.youngChristian.specialty.description": "Erhält 5% Bonus pro Stufe auf die Fähigkeit Logistik.",
+    "hero.campaign-heroes.ordwald.specialty.description": "Zaubert 'Drachentöter' mit Effekt erhöht um 20 für Stufe 1–2 Kreaturen, um 16 für Stufe 3–4 Kreaturen, um 12 für Stufe 5–6 Kreaturen und um 8 für Stufe 7 Kreaturen.",
+    "hero.campaign-heroes.youngChristian.specialty.name": "Logistik",
+    "hero.campaign-heroes.youngYog.specialty.description": "Erhöht den Positionsradius von Taktik um 2.",
+    "hero.campaign-heroes.youngYog.specialty.name": "Taktik",
+    "hero.campaign-heroes.youngAlkin.specialty.description": "Erhöht die Geschwindigkeit verbündeter Gorgonen, Riesengorgonen und Ätzender Gorgonen um 1, sowie deren Angriff und Verteidigung um 20% für je 5 Stufen (aufgerundet).",
+    "hero.campaign-heroes.youngCatherine.specialty.description": "Erhöht die Geschwindigkeit verbündeter Schwertkämpfer, Kreuzritter und Wachmänner um 1, sowie deren Angriff und Verteidigung um 20% für je 4 Stufen (aufgerundet)."
+}
