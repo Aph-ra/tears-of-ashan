@@ -587,5 +587,10 @@
 		"translations" : [
 			"translation/german.json"
 		]
+	},
+	"russian" : {
+		"translations" : [
+			"translation/russian.json"
+		]
 	}
 }
