@@ -1,15 +1,15 @@
 {
-	"hero.campaign-heroes.finneasVilmar.specialty.description" : "Casts Animate Dead with effect increased by 5% for every N hero levels, where N is the level of the target creature.",
-	"hero.campaign-heroes.generalKendal.specialty.description" : "Receives a 5% per level bonus to Armorer skill percentage.",
-	"hero.campaign-heroes.generalKendal.specialty.name" : "Armorer",
-	"hero.campaign-heroes.generalKendal.specialty.tooltip" : "Secondary Skill Bonus: Armorer",
-	"hero.campaign-heroes.ordwald.specialty.description" : "Casts Slayer with effect increased by 20 for level 1–2 creatures, by 16 for level 3–4 creatures, by 12 for level 5–6 creatures, and by 8 for level 7 creatures.",
-	"hero.campaign-heroes.youngAlkin.specialty.description" : "Increases the Speed of allied Gorgons, Mighty Gorgons, and Corrosive Gorgons by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
-	"hero.campaign-heroes.youngCatherine.specialty.description" : "Increases the Speed of allied Swordsmen, Crusaders, and Guardsmen by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
-	"hero.campaign-heroes.youngChristian.specialty.description" : "Receives a 5% per level bonus to Logistics skill percentage.",
-	"hero.campaign-heroes.youngChristian.specialty.name" : "Logistics",
-	"hero.campaign-heroes.youngChristian.specialty.tooltip" : "Secondary Skill Bonus: Logistics",
-	"hero.campaign-heroes.youngYog.specialty.description" : "Increases Tactics placement area by 2.",
-	"hero.campaign-heroes.youngYog.specialty.name" : "Tactics",
-	"hero.campaign-heroes.youngYog.specialty.tooltip" : "Secondary Skill Bonus: Tactics"
+    "hero.campaign-heroes.finneasVilmar.specialty.description": "Rzuca zaklęcie Ożywienie z efektem zwiększonym o 5% za każde N poziomów bohatera, gdzie N odpowiada poziomowi jednostki będącej celem.",
+    "hero.campaign-heroes.generalKendal.specialty.description": "Otrzymuje premię 5% za każdy poziom do procentowej wartości Płatnerstwa.",
+    "hero.campaign-heroes.generalKendal.specialty.name": "Płatnerstwo",
+    "hero.campaign-heroes.generalKendal.specialty.tooltip": "Premia dla zdolności: Płatnerstwo",
+    "hero.campaign-heroes.ordwald.specialty.description": "Rzuca zaklęcie Pogromca z efektem zwiększonym o 20 dla jednostek poziomów 1–2, o 16 dla jednostek poziomów 3–4, o 12 dla jednostek poziomów 5–6 oraz o 8 dla jednostek poziomu 7.",
+    "hero.campaign-heroes.youngAlkin.specialty.description": "Zwiększa szybkość sprzymierzonych gorgon, wielkich gorgon i żrących gorgon o 1 oraz ich atak i obronę o 20% za każde 5 poziomów bohatera (zaokrąglając w górę).",
+    "hero.campaign-heroes.youngCatherine.specialty.description": "Zwiększa szybkość sprzymierzonych zbrojnych, krzyżowców i gwardzistów o 1 oraz ich atak i obronę o 20% za każde 4 poziomy bohatera (zaokrąglając w górę).",
+    "hero.campaign-heroes.youngChristian.specialty.description": "Otrzymuje premię 5% za każdy poziom do procentowej wartości Logistyki.",
+    "hero.campaign-heroes.youngChristian.specialty.name": "Logistyka",
+    "hero.campaign-heroes.youngChristian.specialty.tooltip": "Premia dla zdolności: Logistyka",
+    "hero.campaign-heroes.youngYog.specialty.description": "Zwiększa obszar rozmieszczenia jednostek zapewniany przez Taktykę o 2 pola.",
+    "hero.campaign-heroes.youngYog.specialty.name": "Taktyka",
+    "hero.campaign-heroes.youngYog.specialty.tooltip": "Premia dla zdolności: Taktyka"
 }
