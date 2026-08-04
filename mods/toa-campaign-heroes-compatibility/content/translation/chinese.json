@@ -1,1 +1,15 @@
-{}
+{
+    "hero.campaign-heroes.finneasVilmar.specialty.description": "使聚灵奇术的效果每N级英雄额外提升5%，其中N为目标生物等级。",
+    "hero.campaign-heroes.generalKendal.specialty.description": "在防御术上每级得到5%的额外奖励。",
+    "hero.campaign-heroes.generalKendal.specialty.name": "防御术",
+    "hero.campaign-heroes.generalKendal.specialty.tooltip": "辅助技能奖励：防御术",
+    "hero.campaign-heroes.ordwald.specialty.description": "使用孤注一掷时效果提升：对1-2级生物额外增加20点，对3-4级生物额外增加16点，对5-6级生物额外增加12点，对7级生物额外增加8点。",
+    "hero.campaign-heroes.youngAlkin.specialty.description": "使友方蛮牛、蛮牛王和蚀牛的速度+1，并且它们的攻击力和防御力每5级增加20%（向上取整）。",
+    "hero.campaign-heroes.youngCatherine.specialty.description": "使友方剑士、十字军和禁卫的速度+1，并且它们的攻击力和防御力每4级增加20%（向上取整）。",
+    "hero.campaign-heroes.youngChristian.specialty.description": "在后勤学上每级得到5%的额外奖励。",
+    "hero.campaign-heroes.youngChristian.specialty.name": "后勤学",
+    "hero.campaign-heroes.youngChristian.specialty.tooltip": "辅助技能奖励：后勤学",
+    "hero.campaign-heroes.youngYog.specialty.description": "增加战术布阵区域2格。",
+    "hero.campaign-heroes.youngYog.specialty.name": "战术",
+    "hero.campaign-heroes.youngYog.specialty.tooltip": "辅助技能奖励：战术"
+}
