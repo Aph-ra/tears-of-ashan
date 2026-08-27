@@ -40,14 +40,8 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.resurrection",
 				"val" : 2,
-				"limiters" : [
-					{
-						"type" : "FACTION_LIMITER",
-						"faction" : "rampart"
-					}
-				],
-				"description" : "{Spellcaster}\nCan cast Advanced Resurrection on Rampart units (25% Power)",
-				"icon" : "zvs/Lib1.res/spellsSOD/resurrect3.png"
+				"description" : "{Spellcaster}\nCan cast Advanced Resurrection (25% Power).",
+				"icon" : "zvs/Lib1.res/spellsSOD/resurrect2.png"
 			},
 			"resurrectionPower" : {
 				"type" : "SPECIFIC_SPELL_POWER",

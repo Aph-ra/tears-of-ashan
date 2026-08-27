@@ -1,0 +1,36 @@
+{
+	"hota.mapobjects:seafaringAcademy" : {
+		"types" : {
+			"seafaringAcademy" : {
+				"offer" : {
+					"modify@2" : {
+						"noneOf" : {
+							"appendItems" : [
+								"gating",
+								"gatingDevilSpec",
+								"gatingNightmareSpec",
+								"gatingSuccubusSpec",
+								"bloodRage",
+								"warcries",
+								"occultism"
+							]
+						}
+					},
+					"modify@3" : {
+						"noneOf" : {
+							"appendItems" : [
+								"gating",
+								"gatingDevilSpec",
+								"gatingNightmareSpec",
+								"gatingSuccubusSpec",
+								"bloodRage",
+								"warcries",
+								"occultism"
+							]
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,5 +1,5 @@
 {
-	"ludmilla" : {
+	"52ludmilla" : {
 		"class" : "necromancer",
 		"female" : true,
 		"special" : false,
@@ -29,7 +29,7 @@
 				"level" : "basic"
 			},
 			{
-				"skill" : "darkMagic",
+				"skill" : "logistics",
 				"level" : "basic"
 			}
 		],

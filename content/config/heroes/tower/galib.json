@@ -1,0 +1,65 @@
+{
+	"54galib" : {
+		"class" : "wizard",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"protectAir"
+		],
+		"texts" : {
+			"name" : "Galib",
+			"biography" : "Galib is a Djinn, a spiritual being, lord among the many elemental spirits that roam the plane of magic, invisible to the untrained eye. Galib is not a servant, but a friend and ally to the Mages of the Silver Cities, and he sits as one of the Circle in the Wizards' ruling council to defend the interests of his. Many of his human counterparts have learnt to randomly deflect enemy spells, but Galib's inherent magical nature permits him a measure of control over where the deflected spell goes. Enemies avoid using magic against him, knowing that Galib could cause their spells to bounce back and strike their own troops.",
+			"specialty" : {
+				"name" : "Spell Twister",
+				"tooltip" : "Creature Bonus: Magic Mirror",
+				"description" : "Allied units are permanently enchanted with Advanced Magic Mirror."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/tower/galib/portraitSmall.png",
+			"large" : "heroes/tower/galib/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Spell Twister.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Spell Twister.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "luck",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"magicMirror" : {
+					"type" : "ENCHANTED",
+					"subtype" : "magicMirror",
+					"val" : 2
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	}
+}

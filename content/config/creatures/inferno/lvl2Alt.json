@@ -52,7 +52,7 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "inferno",
 				"val" : 1,
-				"description" : "{Spellcaster}\nCan cast Basic Inferno (20% Power)",
+				"description" : "{Spellcaster}\nCan cast Basic Inferno (20% Power).",
 				"icon" : "zvs/Lib1.res/spellsSOD/inferno1.png"
 			},
 			"infernoPower" : {

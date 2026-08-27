@@ -43,7 +43,7 @@
 			"immuneToDark" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "spellSchool.02darkSchool",
-				"description" : "{Immune to Dark Magic}\nImmune to all spells from the school of Dark Magic"
+				"description" : "{Immune to Dark Magic}\nImmune to all spells from the school of Dark Magic."
 			},
 			"magicBuff" : {
 				"type" : "RECEPTIVE"
@@ -72,7 +72,7 @@
 				],
 				"description" : "{Cast After Attack}\nHas a 50% chance to cast Advanced Weakness after attacking",
 				"icon" : "zvs/Lib1.res/spellsSOD/weakness2"
-			}
+			},
 			//"holyWordVulnerablity" : { POINTLESS UNTIL LIGHT DAMAGE SPELLS ARE MADE
 			//	"type" : "MORE_DAMAGE_FROM_SPELL",
 			//	"subtype" : "spell.holyWord",

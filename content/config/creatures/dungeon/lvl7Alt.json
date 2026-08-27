@@ -77,7 +77,7 @@
 				"type" : "HATE",
 				"subtype" : "colossusAU",
 				"val" : 50,
-				"description" : "{Hates Giants}\nDoes 50% more Damage to Giants, Titans, and Colossi",
+				"description" : "{Hates Giants}\nDoes 50% more Damage to Giants, Titans, and Colossi.",
 				"icon" : "zvs/Lib1.res/hateblackdragons.png"
 			},
 			"dragonSkeleton" : {

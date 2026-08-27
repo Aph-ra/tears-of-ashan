@@ -39,7 +39,7 @@
 					2
 				],
 				"icon" : "zvs/Lib1.res/poison",
-				"description" : "{Cast After Attack}\nHas a 30% chance to cast Poison after attacking"
+				"description" : "{Cast After Attack}\nHas a 30% chance to cast Poison after attacking."
 			},
 			"cursing" : {
 				"type" : "SPELL_AFTER_ATTACK",
@@ -50,7 +50,7 @@
 					2
 				],
 				"icon" : "zvs/Lib1.res/spellsSOD/curse2",
-				"description" : "{Cast After Attack}\nHas a 30% chance to cast Advanced Curse after attacking"
+				"description" : "{Cast After Attack}\nHas a 30% chance to cast Advanced Curse after attacking."
 			},
 			"fearsome" : {
 				"type" : "FEARFUL",
@@ -64,7 +64,7 @@
 						"bonusType" : "LIVING"
 					}
 				],
-				"description" : "{Fearsome}\nHas a 10% chance to inflict enemies with Fear",
+				"description" : "{Fearsome}\nHas a 10% chance to inflict enemies with Fear.",
 				"icon" : "zvs/Lib1.res/e_fear.png"
 			},
 			"fearless" : {
@@ -76,7 +76,7 @@
 			},
 			"fearsomeBonus" : {
 				"type" : "NONE",
-				"description" : "{Fearsome}\nHas a 10% chance to inflict enemies with Fear",
+				"description" : "{Fearsome}\nHas a 10% chance to inflict enemies with Fear.",
 				"icon" : "zvs/Lib1.res/e_fear.png"
 			},
 			"fearlessBonus" : {

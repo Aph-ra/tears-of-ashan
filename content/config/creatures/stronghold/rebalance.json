@@ -10,8 +10,7 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
@@ -36,8 +35,7 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
@@ -47,12 +45,12 @@
 			"bloodlustAttack" : {
 				"type" : "SPELL_BEFORE_ATTACK",
 				"subtype" : "bloodlust",
-				"val" : 30,
+				"val" : 50,
 				"addInfo" : [
 					2,
 					0
 				],
-				"description" : "{Cast Before Attack}\nHas a 30% chance to cast Advanced Bloodlust before attacking (1 Power)",
+				"description" : "{Cast Before Attack}\nHas a 50% chance to cast Advanced Bloodlust before attacking (1 Power).",
 				"icon" : "zvs/Lib1.res/spellsSOD/bloodlust2.png"
 			},
 			"spellPower" : {
@@ -72,8 +70,7 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
@@ -96,8 +93,7 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
@@ -120,8 +116,7 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
@@ -147,8 +142,7 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
@@ -174,8 +168,7 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
@@ -199,8 +192,7 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
@@ -233,8 +225,7 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
@@ -262,8 +253,7 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
@@ -296,8 +286,7 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
@@ -322,8 +311,7 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
@@ -343,8 +331,7 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}
@@ -372,8 +359,7 @@
 					"type" : "TIMES_HERO_LEVEL",
 					"stepSize" : 2
 				},
-				"limiters" : [
-					{
+				"limiters" : [ {
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "BATTLECRY_BONUS"
 					}

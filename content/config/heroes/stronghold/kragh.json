@@ -1,0 +1,66 @@
+{
+	"51kragh" : {
+		"class" : "battlemage",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"lightningBolt"
+		],
+		"texts" : {
+			"name" : "Kragh",
+			"biography" : "Kragh has been compared to \"dry lightning\"; thunderbolts that appear out of nowhere when the sky seems clear. He first received this nickname when an enemy he was dueling with was knocked weaponless outside the ring even before he had finished yelling his ritual challenge. Impetuous and aggressive even by Orc standards, his speed and intensity drive him to attack even before his own troops are ready.",
+			"specialty" : {
+				"name" : "Lightning Bolt",
+				"tooltip" : "Spell Bonus: Lightning Bolt",
+				"description" : "Casts Lightning Bolt with damage increased by 10% for every N hero levels, where N is the level of the target creature."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/stronghold/kragh/portraitSmall.png",
+			"large" : "heroes/stronghold/kragh/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Lightning Bolt.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Lightning Bolt.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "warcries",
+				"level" : "basic"
+			},
+			{
+				"skill" : "airMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"lightningBolt" : {
+					"subtype" : "spell.lightningBolt",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 10
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 4,
+				"max" : 7
+			}
+		]
+	}
+}

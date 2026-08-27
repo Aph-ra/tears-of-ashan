@@ -34,7 +34,7 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "dwarfBloodlust",
 				"val" : 2,
-				"description" : "{Spellcaster}\nCan cast Advanced Bloodlust (3 Power) on self without skipping a turn",
+				"description" : "{Spellcaster}\nCan cast Advanced Bloodlust (3 Power) on self without skipping a turn.",
 				"icon" : "zvs/Lib1.res/spellsSOD/bloodlust2.png"
 			},
 			"dwarfBloodlustPower" : {

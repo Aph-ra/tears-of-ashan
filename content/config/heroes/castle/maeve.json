@@ -1,5 +1,5 @@
 {
-	"maeve" : {
+	"04maeve" : {
 		"class" : "knight",
 		"female" : true,
 		"special" : false,
@@ -12,7 +12,7 @@
 			"specialty" : {
 				"name" : "Haste",
 				"tooltip" : "Spell Bonus: Haste",
-				"description" : "Casts Haste with effect increased by 3 for level 1–2 creatures, by 2 for level 3–4 creatures, and by 1 for level 5–6 creatures."
+				"description" : "Casts Haste with effect increased by 1 for every 7 hero levels."
 			}
 		},
 
@@ -37,9 +37,22 @@
 		"specialty" : {
 			"bonuses" : {
 				"haste" : {
-					"addInfo" : 0,
-					"subtype" : "spell.haste",
-					"type" : "SPECIAL_PECULIAR_ENCHANT"
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.haste"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 7
+					}
 				}
 			}
 		},

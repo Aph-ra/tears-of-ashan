@@ -1,18 +1,18 @@
 {
-	"balindar" : {
+	"51balindar" : {
 		"class" : "wizard",
 		"female" : false,
 		"special" : false,
 		"spellbook" : [
-			"shield"
+			"reconstructionTOA"
 		],
 		"texts" : {
 			"name" : "Balindar",
 			"biography" : "Balindar was the first in Bracada to test the Enrothean technology of using the best steel armor to create statues slated for animation, rather than regular rock, ore, or even precious metals. The rigid-minded golem-building academicians did not welcome this innovation, so Balindar's works, although far superior to their prototypes, still bear the experimental status.",
 			"specialty" : {
-				"description" : "Increases the Speed of allied Steel Golems by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up). Can upgrade Stone Golems, Iron Golems, and Magnetic Golems to Steel Golems.",
+				"name" : "Steel Golems",
 				"tooltip" : "Creature Bonus: Steel Golems",
-				"name" : "Steel Golems"
+				"description" : "Increases the Speed of allied Steel Golems by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up). Can upgrade Stone Golems, Iron Golems, and Magnetic Golems to Steel Golems."
 			}
 		},
 

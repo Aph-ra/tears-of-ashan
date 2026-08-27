@@ -1,7 +1,17 @@
 {
+	"core:pegasus" : {
+		"damage" : {
+			"min" : 6,
+			"max" : 10
+		}
+	},
 	"core:silverPegasus" : {
 		"attack" : 10,
 		"defense" : 10,
+		"damage" : {
+			"min" : 6,
+			"max" : 10
+		},
 		"hitPoints" : 40,
 		"aiValue" : 580,
 		"fightValue" : 460,
@@ -38,9 +48,29 @@
 			}
 		}
 	},
+	"core:greenDragon" : {
+		"abilities" : {
+			"raisesLuck" : {
+				"type" : "LUCK",
+				"val" : 1,
+				"propagator" : "ARMY",
+				"description" : "Green Dragons and Gold Dragons raise allied units' Luck by 1.",
+				"stacking" : "Dragons"
+			}
+		}
+	},
 	"core:goldDragon" : {
 		"hitPoints" : 275,
 		"aiValue" : 8700,
-		"fightValue" : 6350
+		"fightValue" : 6350,
+		"abilities" : {
+			"raisesLuck" : {
+				"type" : "LUCK",
+				"val" : 1,
+				"propagator" : "ARMY",
+				"description" : "Green Dragons and Gold Dragons raise allied units' Luck by 1.",
+				"stacking" : "Dragons"
+			}
+		}
 	}
 }

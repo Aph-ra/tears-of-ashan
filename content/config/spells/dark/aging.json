@@ -1,0 +1,97 @@
+{
+	"agingTOA" : {
+		"type" : "combat",
+		"name" : "Aging",
+		"school" : {
+			"02darkSchool" : true
+		},
+		"level" : 5,
+		"power" : 10,
+		"defaultGainChance" : 10,
+		"gainChance" : {
+			"castle" : 0,
+			"rampart" : 0,
+			"tower" : 5,
+			"necropolis" : 40,
+			"stronghold" : 5,
+			"conflux" : 0
+		},
+
+		"flags" : {
+			"negative" : true
+		},
+
+		"targetCondition" : {
+			"allOf" : {},
+			"anyOf" : {},
+			"noneOf" : {
+				"core:bonus.NON_LIVING" : "normal",
+				"core:bonus.UNDEAD" : "normal",
+				"core:bonus.GARGOYLE" : "normal",
+				"core:bonus.MECHANICAL" : "normal"
+			}
+		},
+
+		"graphics" : {
+			"iconBook" : "spells/aging/spellBook",
+			"iconScroll" : "spells/aging/spellScroll",
+			"iconScenarioBonus" : "spells/aging/spellBonus",
+			"iconEffect" : "spells/aging/spellEffect"
+		},
+
+		"animation":{
+			"affect":["SP01_"]
+		},
+		
+		"sounds": {
+			"cast": "AGE"
+		},
+
+		"targetType" : "CREATURE",
+
+		"levels" : {
+			"base" : {
+				"range" : "0",
+				"targetModifier" : {"smart" : true},
+				"effects" : {
+					"stackHealth" : {
+						"val" : -20,
+						"type" : "STACK_HEALTH",
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Aging}\n\nCauses an enemy creature to age rapidly.\n\nThe unit has their Health reduced by 20%. Does not affect undead or non-living units.\n",
+				"cost" : 30,
+				"power" : 10
+			},
+			"basic" : {
+				"description" : "{Aging}\n\nCauses an enemy creature to age rapidly.\n\nThe unit has their Health reduced by 20%. Does not affect undead or non-living units.\n",
+				"cost" : 25,
+				"power" : 10
+			},
+			"advanced" : {
+				"description" : "{Aging}\n\nCauses an enemy creature to age rapidly.\n\nThe unit has their Health reduced by 35%. Does not affect undead or non-living units.\n",
+				"cost" : 25,
+				"power" : 10,
+				"effects" : {
+					"stackHealth" : {
+						"val" : -35
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Aging}\n\nCauses an enemy creature to age rapidly.\n\nThe unit has their Health reduced by 50%. Does not affect undead or non-living units.\n",
+				"cost" : 25,
+				"power" : 10,
+				"effects" : {
+					"stackHealth" : {
+						"val" : -50
+					}
+				}
+			}
+		}
+	}
+}

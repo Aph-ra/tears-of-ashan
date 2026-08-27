@@ -1,0 +1,61 @@
+{
+	"87marbas" : {
+		"class" : "gatekeeperNightmareSpec",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"magicMirror"
+		],
+		"texts" : {
+			"name" : "Marbas",
+			"biography" : "Marbas has been the iron-fisted leader of the demon cult in the Silver Cities for many years. Hated by the renegade Mages he dominates, Marbas studied deeply in their arts out of both curiosity and self-preservation - should his underlings turn against him, Marbas wanted to be able to defend himself. He is second only to the Demon Sovereign in his ability to withstand the use of magics.",
+			"specialty" : {
+				"name" : "Hell Steeds",
+				"tooltip" : "Creature Bonus: Hell Steeds",
+				"description" : "Increases the Speed of allied Hell Steeds, Hell Stallions, and Nightmares by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up). Can gate Nightmares with Expert Gating."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/inferno/marbas/portraitSmall.png",
+			"large" : "heroes/inferno/marbas/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Hell Steeds.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Hell Steeds.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "gatingNightmareSpec",
+				"level" : "basic"
+			},
+			{
+				"skill" : "interference",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "hellSteedAU",
+			"creatureLevel" : 6,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "imp",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "gog",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "hellSteedAU",
+				"min" : 1,
+				"max" : 1
+			}
+		]
+	}
+}

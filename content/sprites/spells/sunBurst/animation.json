@@ -1,0 +1,55 @@
+{
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "sunBurst01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "sunBurst02.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "sunBurst03.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "sunBurst04.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "sunBurst05.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "sunBurst06.png"
+		},
+				{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "sunBurst07.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "sunBurst08.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "sunBurst09.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 9,
+			"file" : "sunBurst10.png"
+		}
+	],
+	"basepath" : "spells/sunBurst/animation/"
+}

@@ -92,7 +92,7 @@
 					2,
 					1
 				],
-				"description" : "{Cast After Attack}\nHas a 40% chance to cast Advanced Magic Arrow after attacking (60% Power)",
+				"description" : "{Cast After Attack}\nHas a 40% chance to cast Advanced Magic Arrow after attacking (60% Power).",
 				"icon" : "zvs/Lib1.res/spellsSOD/magicarrow2.png"
 			},
 			"spellPower" : {
@@ -125,7 +125,7 @@
 				"type" : "HATE",
 				"subtype" : "efreetSufiAU",
 				"val" : 50,
-				"description" : "{Hates Efreet}\nHates Efreet, Efreet Sultans, and Efreet Sufis",
+				"description" : "{Hates Efreet}\nHates Efreet, Efreet Sultans, and Efreet Sufis.",
 				"icon" : "zvs/Lib1.res/hatemastergenies.png"
 			},
 			"airResistance" : {
@@ -138,10 +138,10 @@
 	"core:masterGenie" : {
 		"attack" : 13,
 		"defense" : 13,
-		"aiValue" : 1100,
+		"aiValue" : 1050,
 		"fightValue" : 775,
 		"cost" : {
-			"gold" : 650
+			"gold" : 625
 		},
 		"abilities#override" : {
 			"canFly" : {
@@ -176,7 +176,7 @@
 				"type" : "HATE",
 				"subtype" : "efreetSufiAU",
 				"val" : 50,
-				"description" : "{Hates Efreet}\nHates Efreet, Efreet Sultans, and Efreet Sufis",
+				"description" : "{Hates Efreet}\nHates Efreet, Efreet Sultans, and Efreet Sufis.",
 				"icon" : "zvs/Lib1.res/hatemastergenies.png"
 			},
 			"airResistance" : {
@@ -198,6 +198,7 @@
 	"core:nagaQueen" : {
 		"defense" : 14,
 		"hitPoints" : 120,
+		"speed" : 8,
 		"cost" : {
 			"gold" : 1450
 		}
@@ -223,7 +224,7 @@
 				"type" : "HATE",
 				"subtype" : "shadowDragonAU",
 				"val" : 50,
-				"description" : "{Hates Dungeon Dragons}\nHates Red Dragons, Black Dragons, and Shadow Dragons",
+				"description" : "{Hates Dungeon Dragons}\nHates Red Dragons, Black Dragons, and Shadow Dragons.",
 				"icon" : "zvs/Lib1.res/hatetitan2.png"
 			}
 		}
@@ -243,7 +244,7 @@
 				"type" : "HATE",
 				"subtype" : "shadowDragonAU",
 				"val" : 50,
-				"description" : "{Hates Dungeon Dragons}\nHates Red Dragons, Black Dragons, and Shadow Dragons",
+				"description" : "{Hates Dungeon Dragons}\nHates Red Dragons, Black Dragons, and Shadow Dragons.",
 				"icon" : "zvs/Lib1.res/hatetitan2.png"
 			}
 		}

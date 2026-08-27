@@ -1,0 +1,13 @@
+{
+	"MARKED" : {
+		"hidden" : false,
+
+		"creatureNature" : false,
+
+		"description" : "{Marked for Death}\nReceives additional damage as an enemy of Sylanna.",
+
+		"graphics" : {
+			"icon" : "bonuses/markedForDeath.png"
+		}
+	}
+}

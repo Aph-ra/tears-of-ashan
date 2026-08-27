@@ -1,6 +1,6 @@
 {
-	"biara" : {
-		"class" : "gatekeeperNightmareSpec",
+	"82biara" : {
+		"class" : "gatekeeper",
 		"female" : true,
 		"special" : false,
 		"spellbook" : [
@@ -10,22 +10,22 @@
 			"name" : "Biara",
 			"biography" : "Arguably the most dangerous weapon in the Demon Sovereign's arsenal, Biara is a succubus of legendary skills. With ample natural gifts enhanced by almost masochistic self-discipline, her talents for seduction, assassination, and infiltration are unequalled in all of Sheogh. When the going gets tough, Kha-Beleth gleefully turns to Biara.",
 			"specialty" : {
-				"description" : "Increases the Speed of allied Hell Steeds, Hell Stallions, and Nightmares by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up). Can gate Nightmares with Expert Gating.",
-				"tooltip" : "Creature Bonus: Hell Steeds",
-				"name" : "Hell Steeds"
+				"name" : "Diplomacy",
+				"tooltip" : "Secondary Skill Bonus: Diplomacy",
+				"description" : "Decreases the disposition of wandering creatures by 1 for every 7 hero levels."
 			}
 		},
 
 		"images" : {
 			"small" : "heroes/inferno/biara/portraitSmall.png",
 			"large" : "heroes/inferno/biara/portraitLarge.png",
-			"specialtySmall" : "heroes/specialtySmall/Hell Steeds.png",
-			"specialtyLarge" : "heroes/specialtyLarge/Hell Steeds.png"
+			"specialtySmall" : "heroes/specialtySmall/Diplomacy.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Diplomacy.png"
 		},
 
 		"skills" : [
 			{
-				"skill" : "gatingNightmareSpec",
+				"skill" : "gating",
 				"level" : "basic"
 			},
 			{
@@ -35,9 +35,17 @@
 		],
 
 		"specialty" : {
-			"creature" : "hellSteedAU",
-			"creatureLevel" : 6,
-			"stepSize" : 20
+			"bonuses" : {
+				"diplomacy" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "WANDERING_CREATURES_JOIN_BONUS",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 7
+					}
+				}
+			}
 		},
 
 		"army" : [
@@ -52,9 +60,9 @@
 				"max" : 7
 			},
 			{
-				"creature" : "hellSteedAU",
-				"min" : 1,
-				"max" : 1
+				"creature" : "hellHound",
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	}

@@ -3,11 +3,10 @@
 		"name" : "Dark Magic",
 		"gainChance" : {
 			"might" : 3,
-			"magic" : 7,
+			"magic" : 5,
 
 			"knight" : 1,
 			"cleric" : 3,
-			"inquisitor" : 6,
 
 			"ranger" : 2,
 			"druid" : 2,
@@ -42,7 +41,11 @@
 			"navigator" : 5,
 
 			"mercenary" : 2,
-			"artificer" : 4
+			"artificer" : 4,
+			
+			"chieftain" : 3,
+			"elder" : 6,
+			"runemage" : 5
 		},
 		"specialty" : [],
 		"base" : {
@@ -62,10 +65,10 @@
 				}
 			},
 			"images" : {
-				"small" : "skills/darkSmall/1",
-				"medium" : "skills/darkMedium/1",
-				"large" : "skills/darkLarge/1",
-				"scenarioBonus" : "skills/darkBonus/1"
+				"small" : "skills/darkMagic/darkMagicSmall/1",
+				"medium" : "skills/darkMagic/darkMagicMedium/1",
+				"large" : "skills/darkMagic/darkMagicLarge/1",
+				"scenarioBonus" : "skills/darkMagic/darkMagicBonus/1"
 			}
 		},
 		"advanced" : {
@@ -76,10 +79,10 @@
 				}
 			},
 			"images" : {
-				"small" : "skills/darkSmall/2",
-				"medium" : "skills/darkMedium/2",
-				"large" : "skills/darkLarge/2",
-				"scenarioBonus" : "skills/darkBonus/2"
+				"small" : "skills/darkMagic/darkMagicSmall/2",
+				"medium" : "skills/darkMagic/darkMagicMedium/2",
+				"large" : "skills/darkMagic/darkMagicLarge/2",
+				"scenarioBonus" : "skills/darkMagic/darkMagicBonus/2"
 			}
 		},
 		"expert" : {
@@ -90,10 +93,10 @@
 				}
 			},
 			"images" : {
-				"small" : "skills/darkSmall/3",
-				"medium" : "skills/darkMedium/3",
-				"large" : "skills/darkLarge/3",
-				"scenarioBonus" : "skills/darkBonus/3"
+				"small" : "skills/darkMagic/darkMagicSmall/3",
+				"medium" : "skills/darkMagic/darkMagicMedium/3",
+				"large" : "skills/darkMagic/darkMagicLarge/3",
+				"scenarioBonus" : "skills/darkMagic/darkMagicBonus/3"
 			}
 		}
 	}

@@ -1,5 +1,5 @@
 {
-	"ariana" : {
+	"82ariana" : {
 		"class" : "plaguespreader",
 		"female" : true,
 		"special" : false,
@@ -12,7 +12,7 @@
 			"specialty" : {
 				"name" : "Aging",
 				"tooltip" : "Creature Bonus: Aging",
-				"description" : "Allied undead units have a 10% chance to age enemies (Ghost Dragons gain +10% chance on top of their base 20% chance)."
+				"description" : "Allied undead units gain a 10% chance to age enemies (Ghost Dragons now have a 30% chance to age enemies)."
 			}
 		},
 

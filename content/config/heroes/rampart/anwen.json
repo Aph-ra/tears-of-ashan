@@ -1,0 +1,78 @@
+{
+	"04anwen" : {
+		"class" : "ranger",
+		"female" : true,
+		"special" : false,
+		"texts" : {
+			"name" : "Anwen",
+			"biography" : "Anwen defends the woods and their flora and fauna with a zeal remarkable even by Elven standards. Self-exiled in the trackless forests of Irollan, she cares deeply for them and has become their recognized protector. Woe be to the foe who would damage the forest or those who protect it; when Anwen is summoned to war, the Goddess Sylanna fights by her side, and her wrath falls like a storm upon those who would injure that which she loves.",
+			"specialty" : {
+				"name" : "Sylanna's Sword",
+				"tooltip" : "Creature Bonus: Sylanna's Sword",
+				"description" : "Allied creatures deal 2% more damage per hero level to evil-aligned enemy creatures."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/rampart/anwen/portraitSmall.png",
+			"large" : "heroes/rampart/anwen/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Sword of Sylanna.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Sword of Sylanna.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"markEnemy" : {
+					"type" : "MARKED",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"allOf",
+						"OPPOSITE_SIDE",
+						{
+							"type" : "CREATURE_ALIGNMENT_LIMITER",
+							"alignment" : "evil"
+						}
+					]
+				},
+				"damageIncrease" : {
+					"type" : "HATES_TRAIT",
+					"subtype" : "MARKED",
+					"val" : 2,
+					"updater" : "TIMES_HERO_LEVEL",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER"	
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "centaur",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

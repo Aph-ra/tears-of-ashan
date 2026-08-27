@@ -1,4 +1,38 @@
 {
+	"core:creatureGeneratorSpecial" : {
+		"types" : {
+			"altarOfTwilightAU" : {
+				"name" : "Altar of Twilight",
+				"creatures" : [
+					[ "lightElementalAU" ],
+					[ "darkElementalAU" ]
+				],
+				"guards" : [
+					{ "amount" : 3, "type" : "lightElementalAU" },
+					{ "amount" : 3, "type" : "darkElementalAU" }
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPSTAR"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/twilightDwelling",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VBAV"
+						]
+					}
+				}
+			}
+		}
+	},
+	
 	"core:creatureGeneratorCommon" : {
 		"types" : {
 			"mdtLustChambers" : {
@@ -94,6 +128,11 @@
 					]
 				],
 				"guards" : false,
+				"sounds" : {
+					"ambient" : [
+						"LOOPSKEL"
+					]
+				},
 				"visit" : [
 					"MILITARY"
 				],
@@ -116,6 +155,11 @@
 					]
 				],
 				"guards" : true,
+				"sounds" : {
+					"ambient" : [
+						"LOOPDEAD"
+					]
+				},
 				"visit" : [
 					"MILITARY"
 				],
@@ -127,34 +171,6 @@
 							"VVVV",
 							"VVBB",
 							"VVAA"
-						]
-					}
-				}
-			},
-			"altarOfTwilightAU" : {
-				"name" : "Altar of Twilight",
-				"creatures" : [
-					[
-						"lightElementalAU",
-						"darkElementalAU"
-					]
-				],
-				"guards" : true,
-				"sounds" : {
-					"ambient" : [
-						"LOOPSTAR"
-					]
-				},
-				"visit" : [
-					"MILITARY"
-				],
-				"templates" : {
-					"default" : {
-						"animation" : "dwellings/twilightDwelling",
-						"mask" : [
-							"VVVV",
-							"VBBV",
-							"VBAV"
 						]
 					}
 				}

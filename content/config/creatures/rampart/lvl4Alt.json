@@ -9,11 +9,11 @@
 		"attack" : 12,
 		"defense" : 8,
 		"damage" : {
-			"min" : 5,
-			"max" : 9
+			"min" : 6,
+			"max" : 10
 		},
 		"hitPoints" : 30,
-		"speed" : 12,
+		"speed" : 11,
 		"growth" : 5,
 		"aiValue" : 580,
 		"fightValue" : 460,

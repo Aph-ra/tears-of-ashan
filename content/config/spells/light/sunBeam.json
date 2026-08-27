@@ -1,0 +1,114 @@
+{
+	"sunBeam" : {
+		"name" : "Sun Beam",
+		"type" : "combat",
+		"school" : {
+			"01lightSchool" : true
+		},
+		"level" : 2,
+		"power" : 20,
+		"defaultGainChance" : 10,
+		"gainChance" : {
+			"castle" : 20,
+			"rampart" : 15,
+			"inferno" : 5,
+			"necropolis" : 0
+		},
+
+		"flags" : {
+			"damage" : true,
+			"negative" : true
+		},
+
+		"targetCondition" : {
+		},
+
+		"graphics" : {
+			"iconBook" : "spells/sunBeam/spellBook",
+			"iconScroll" : "spells/sunBeam/spellScroll",
+			"iconScenarioBonus" : "spells/sunBeam/spellBonus",
+			"iconEffect" : "spells/sunBeam/spellEffect"
+		},
+
+		"animation" : {
+			"projectile": [
+				{"minimumAngle": 0 ,"defName":"spells/sunBeam/projectile.json"},
+			],
+			"hit":[ {"defName" : "spells/sunBeam/hit.json", "transparency" : 0.5 }]
+		},
+
+		"sounds" : {
+			"cast" : "spells/sunBeam.wav"
+		},
+
+		"targetType" : "CREATURE",
+
+		"levels" : {
+			"base" : {
+				"range" : "0",
+				"battleEffects" : {
+					"directdamage" : {
+						"type" : "core:damage"
+					},
+					"effect01" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"defenseDown" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.defence",
+								"val" : -10,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : [
+									"N_TURNS"
+								],
+								"turns" : 3
+							}
+						}
+					}
+				},
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"description" : "{Sun Beam}\n\nFires a radiant ball of pure sunlight.\n\nTarget unit receives (Spell Power x 20 + 10) damage and has its Defense reduced by 10% for 3 turns.\n",
+				"cost" : 10,
+				"power" : 10
+			},
+			"basic" : {
+				"description" : "{Basic Sun Beam}\n\nFires a radiant ball of pure sunlight.\n\nTarget unit receives (Spell Power x 20 + 10) damage and has its Defense reduced by 10% for 3 turns.\n",
+				"cost" : 8,
+				"power" : 10
+			},
+			"advanced" : {
+				"description" : "{Advanced Sun Beam}\n\nFires a radiant ball of pure sunlight.\n\nTarget unit receives (Spell Power x 20 + 20) damage and has its Defense reduced by 15% for 3 turns.\n",
+				"cost" : 8,
+				"power" : 20,
+				"battleEffects" : {
+					"effect01" : {
+						"bonus" : {
+							"defenseDown" : {
+								"val" : -15
+							}
+						}
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Expert Sun Beam}\n\nFires a radiant ball of pure sunlight.\n\nTarget unit receives (Spell Power x 20 + 50) damage and has its Defense reduced by 20% for 3 turns.\n",
+				"cost" : 8,
+				"power" : 50,
+				"battleEffects" : {
+					"effect01" : {
+						"bonus" : {
+							"defenseDown" : {
+								"val" : -20
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

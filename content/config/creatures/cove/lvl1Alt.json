@@ -64,7 +64,7 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.mirth",
 				"val" : 2,
-				"description" : "{Spellcaster}\nCan cast Advanced Mirth (6 Power)",
+				"description" : "{Spellcaster}\nCan cast Advanced Mirth (6 Power).",
 				"icon" : "zvs/Lib1.res/spellsSOD/mirth2.png"
 			}
 		},

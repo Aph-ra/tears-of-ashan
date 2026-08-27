@@ -11,7 +11,7 @@
 		"shots" : 24,
 		"damage" : {
 			"min" : 12,
-			"max" : 16
+			"max" : 16			
 		},
 		"hitPoints" : 45,
 		"speed" : 9,
@@ -62,7 +62,7 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "puppetMaster",
 				"val" : 3,
-				"description" : "{Spellcaster}\nCan cast Expert Puppet Master (3 Power)"
+				"description" : "{Spellcaster}\nCan cast Expert Puppet Master (3 Power)."
 			},
 			"puppetPower" : {
 				"type" : "CREATURE_ENCHANT_POWER",

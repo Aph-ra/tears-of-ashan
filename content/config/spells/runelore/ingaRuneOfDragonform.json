@@ -1,0 +1,192 @@
+{
+	"ingaRuneOfDragonform" : {
+		"type" : "combat",
+		"name" : "Rune of Dragons",
+		"school" : {
+			"05runeloreSchool" : true
+		},
+		"level" : 5,
+		"power" : 0,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"bulwark" : 0
+		},
+
+		"flags" : {
+			"positive" : true,
+			"special" : true
+		},
+
+		"targetCondition" : {
+		},
+
+		"graphics" : {
+			"iconBook" : "spells/runelore/runeOfDragonform/spellBook",
+			"iconScroll" : "spells/runelore/runeOfDragonform/spellScroll",
+			"iconScenarioBonus" : "spells/runelore/runeOfDragonform/spellBonus",
+			"iconEffect" : "spells/runelore/runeOfDragonform/spellEffect"
+		},
+
+		"animation" : {
+			"affect" : [
+				"C01SPF"
+			]
+		},
+
+		"sounds" : {
+			"cast" : "BERSERK"
+		},
+
+		"targetType" : "CREATURE",
+
+		"levels" : {
+			"base":{
+				"range" : "0",
+				"targetModifier" : {"smart":true},
+				"battleEffects" : {
+					"dragonBonus" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"ignoreImmunity" : true,
+						"bonus" : {
+							"dragonBonus01" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "attack",
+								"val" : 15,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "N_TURNS",
+								"turns" : 5
+							},
+							"dragonBonus02" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "attack",
+								"val" : 15,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "N_TURNS",
+								"turns" : 5
+							},
+							"dragonBonus03" : {
+								"type" : "STACK_HEALTH",
+								"val" : 15,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "N_TURNS",
+								"turns" : 5
+							},
+							"immunityBonus01" : {
+								"type" : "SPELL_SCHOOL_IMMUNITY",
+								"subtype" : "spellSchool.air",
+								"duration" : "N_TURNS",
+								"turns" : 2
+							},
+							"immunityBonus02" : {
+								"type" : "SPELL_SCHOOL_IMMUNITY",
+								"subtype" : "spellSchool.earth",
+								"duration" : "N_TURNS",
+								"turns" : 2
+							},
+							"immunityBonus03" : {
+								"type" : "SPELL_SCHOOL_IMMUNITY",
+								"subtype" : "spellSchool.fire",
+								"duration" : "N_TURNS",
+								"turns" : 5
+							},
+							"immunityBonus04" : {
+								"type" : "SPELL_SCHOOL_IMMUNITY",
+								"subtype" : "spellSchool.water",
+								"duration" : "N_TURNS",
+								"turns" : 5
+							},
+							"immunityBonus05" : {
+								"type" : "SPELL_SCHOOL_IMMUNITY",
+								"subtype" : "spellSchool.01lightSchool",
+								"duration" : "N_TURNS",
+								"turns" : 5,
+								"description" : "{Immune to Light Magic}\nImmune to all spells from the school of Light Magic."
+							},
+							"immunityBonus06" : {
+								"type" : "SPELL_SCHOOL_IMMUNITY",
+								"subtype" : "spellSchool.02darkSchool",
+								"duration" : "N_TURNS",
+								"turns" : 5,
+								"description" : "{Immune to Dark Magic}\nImmune to all spells from the school of Dark Magic."
+							}
+						}
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Rune of Dragons}\n\nPlaces the Rune of Dragons upon an allied unit, granting them +15% Attack/Defense/Health and rendering them immune to spells from the 6 elemental schools for 5 turns. Ignores immunity to magic.",
+				"cost" : 30,
+				"power" : 1
+			},
+			"basic" : {
+				"description" : "{Basic Rune of Dragons}\n\nPlaces the Rune of Dragons upon an allied unit, granting them +15% Attack/Defense/Health and rendering them immune to spells from the 6 elemental schools for 5 turns. Ignores immunity to magic.",
+				"cost" : 30,
+				"power" : 1
+			},
+			"advanced" : {
+				"description" : "{Advanced Rune of Dragons}\n\nPlaces the Rune of Dragons upon an allied unit and any allied units adjacent to the target, granting them +20% Attack/Defense/Health and rendering them immune to spells from the 6 elemental schools for 5 turns. Ignores immunity to magic.",
+				"cost" : 25,
+				"power" : 1,
+				"range" : "0,1",
+				"battleEffects" : {
+					"dragonBonus" : {
+						"bonus" : {
+							"dragonBonus01" : {
+								"val" : 20
+							},
+							"dragonBonus02" : {
+								"val" : 20
+							},
+							"dragonBonus03" : {
+								"val" : 20
+							}
+						}
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Expert Rune of Dragons}\n\nPlaces the Rune of Dragons upon an allied unit and any allied units within 2 hexes of the target, granting them +25% Attack/Defense/Health and rendering them immune to spells from the 6 elemental schools for 6 turns. Ignores immunity to magic.",
+				"cost" : 25,
+				"power" : 1,
+				"range" : "0,1,2",
+				"battleEffects" : {
+					"dragonBonus" : {
+						"bonus" : {
+							"dragonBonus01" : {
+								"val" : 25,
+								"turns" : 6
+							},
+							"dragonBonus02" : {
+								"val" : 25,
+								"turns" : 6
+							},
+							"dragonBonus03" : {
+								"val" : 25,
+								"turns" : 6
+							},
+							"immunityBonus01" : {
+								"turns" : 6
+							},
+							"immunityBonus02" : {
+								"turns" : 6
+							},
+							"immunityBonus03" : {
+								"turns" : 6
+							},
+							"immunityBonus04" : {
+								"turns" : 6
+							},
+							"immunityBonus05" : {
+								"turns" : 6
+							},
+							"immunityBonus06" : {
+								"turns" : 6
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

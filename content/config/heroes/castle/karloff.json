@@ -1,5 +1,5 @@
 {
-	"karloff" : {
+	"03karloff" : {
 		"class" : "knight",
 		"female" : false,
 		"special" : false,
@@ -9,7 +9,7 @@
 			"specialty" : {
 				"name" : "Demolitionist",
 				"tooltip" : "Creature Bonus: Demolitionist",
-				"description" : "All ranged units can target fortifications in siege combat."
+				"description" : "Allied ranged units can target fortifications in siege combat."
 			}
 		},
 
@@ -33,9 +33,7 @@
 					"type" : "CATAPULT",
 					"subtype" : "spell.cyclopsShot",
 					"propagator" : "HERO",
-					"limiters" : [
-						"SHOOTER_ONLY"
-					]
+					"limiters" : [ "SHOOTER_ONLY" ]
 				}
 			}
 		},

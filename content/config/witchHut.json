@@ -5,12 +5,17 @@
 				"variables" : {
 					"secondarySkill" : {
 						"gainedSkill" : {
-							"noneOf" : [
-								"gating",
-								"gatingDevilSpec",
-								"gatingNightmareSpec",
-								"warcries"
-							]
+							"noneOf" : {
+								"appendItems" : [
+									"gating",
+									"gatingDevilSpec",
+									"gatingNightmareSpec",
+									"gatingSuccubusSpec",
+									"bloodRage",
+									"warcries",
+									"occultism"
+								]
+							}
 						}
 					}
 				}

@@ -1,0 +1,59 @@
+{
+	"52vinrael" : {
+		"class" : "druid",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"sunBeam"
+		],
+		"texts" : {
+			"name" : "Vinrael",
+			"biography" : "Vinrael has two attributes that make him valuable to the Elves - he is unusually observant, and he has seen more hours of battle than any other Sylvan warrior. His keen eyes, and those of his falcons, rove constantly before, during, and after a battle, studying all the elements of troops, tactics, and terrain. Analyzing both his own and the enemy's actions, he learns enormously from both sides' successes and errors.",
+			"specialty" : {
+				"name" : "Learning",
+				"tooltip" : "Secondary Skill Bonus: Learning",
+				"description" : "Receives a 5% per level bonus to Learning skill percentage."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/rampart/vinrael/portraitSmall.png",
+			"large" : "heroes/rampart/vinrael/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Learning.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Learning.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "learning",
+				"level" : "basic"
+			},
+			{
+				"skill" : "intelligence",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"secondary" : "learning"
+		},
+
+		"army" : [
+			{
+				"creature" : "centaur",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

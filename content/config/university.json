@@ -1,0 +1,62 @@
+{
+	"core:university" : {
+		"types" : {
+			"object" : {
+				"offer" : {
+					"modify@1" : {
+						"noneOf" : {
+							"appendItems" : [
+								"gating",
+								"gatingDevilSpec",
+								"gatingNightmareSpec",
+								"gatingSuccubusSpec",
+								"bloodRage",
+								"warcries",
+								"occultism"
+							]
+						}
+					},
+					"modify@2" : {
+						"noneOf" : {
+							"appendItems" : [
+								"gating",
+								"gatingDevilSpec",
+								"gatingNightmareSpec",
+								"gatingSuccubusSpec",
+								"bloodRage",
+								"warcries",
+								"occultism"
+							]
+						}
+					},
+					"modify@3" : {
+						"noneOf" : {
+							"appendItems" : [
+								"gating",
+								"gatingDevilSpec",
+								"gatingNightmareSpec",
+								"gatingSuccubusSpec",
+								"bloodRage",
+								"warcries",
+								"occultism"
+							]
+						}
+					},
+					"modify@4" : {
+						"noneOf" : {
+							"appendItems" : [
+								"gating",
+								"gatingDevilSpec",
+								"gatingNightmareSpec",
+								"gatingSuccubusSpec",
+								"bloodRage",
+								"warcries",
+								"occultism"
+							]
+						}
+					}
+				}
+			}
+		}
+	}
+}

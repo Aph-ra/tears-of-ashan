@@ -114,7 +114,7 @@
 						"bonusType" : "LIVING"
 					}
 				],
-				"description" : "{Aura of Fire Vulnerability}\nCauses all enemy units to suffer 25% more Damage from Fire Magic spells",
+				"description" : "{Aura of Fire Vulnerability}\nCauses all enemy units to suffer 25% more Damage from Fire Magic spells.",
 				"icon" : "zvs/Lib1.res/vulnerabilityOffensiveSpells.png"
 			}
 		},

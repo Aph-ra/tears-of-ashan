@@ -1,5 +1,5 @@
 {
-	"dirael" : {
+	"51dirael" : {
 		"class" : "druid",
 		"female" : true,
 		"special" : false,
@@ -10,9 +10,9 @@
 			"name" : "Dirael",
 			"biography" : "Hovering wasps, circling hornets, busy honeybees – from childhood, Dirael found these tiny flying creatures beautiful and fascinating, like precious buzzing jewels. She was so enamored that she became a Druid, to better delve into their lore and understand their mysteries. Eventually she responded to the call of the Harmony and went to war, and now she serves Sylanna by summoning hordes of her favorite creatures to sting and harass the enemy.",
 			"specialty" : {
-				"description" : "Casts Wasp Swarm with damage increased by 10% for every N hero levels, where N is the level of the target creature.",
+				"name" : "Wasp Swarm",
 				"tooltip" : "Spell Bonus: Wasp Swarm",
-				"name" : "Wasp Swarm"
+				"description" : "Casts Wasp Swarm with damage increased by 10% for every N hero levels, where N is the level of the target creature."
 			}
 		},
 

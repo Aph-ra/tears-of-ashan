@@ -1,5 +1,5 @@
 {
-	"havez" : {
+	"01havez" : {
 		"class" : "alchemist",
 		"female" : false,
 		"special" : false,
@@ -10,9 +10,9 @@
 			"name" : "Havez",
 			"biography" : "Havez has an eye for anything that is quirky or odd. His personal effects are an unusual mix of items from all over Ashan - shadow silk cloths from Ygg-Chall, leatherwork from Irollan, jewels from the Dwarven mines, etc. His interest in the quaint and curious extends to his troops as well, he has for many decades studied the Gremlins and specializes in the upbringing and training of these lizard-like humanoids.",
 			"specialty" : {
-				"description" : "Increases the Speed of allied Gremlins, Master Gremlins, and Gremlin Mechanics by 1 and their Attack and Defense skills by 20% for every level (rounded up).",
+				"name" : "Gremlins",
 				"tooltip" : "Creature Bonus: Gremlins",
-				"name" : "Gremlins"
+				"description" : "Increases the Speed of allied Gremlins, Master Gremlins, and Gremlin Mechanics by 1 and their Attack and Defense skills by 20% for every level (rounded up)."
 			}
 		},
 

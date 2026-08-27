@@ -7,7 +7,7 @@
 			}
 		}
 	},
-
+	
 	"hota.cove:oceanid" : {
 		"abilities" : {
 			"deepFreezeImmunity" : {
@@ -16,7 +16,7 @@
 			}
 		}
 	},
-
+	
 	"hota.cove:crewmate" : {
 		"abilities" : {
 			"generateGold" : {
@@ -29,9 +29,9 @@
 					"stepSize" : 1,
 					"filteredCreature" : "hota.cove:crewmate"
 				},
-				"stacking" : "base",
+				"stacking" : "crewmate",
 				"icon" : "zvs/Lib1.res/gold.png",
-				"description" : "{Generates Gold}\nCrew Mates produce 5 Gold per unit per day while in a hero's army"
+				"description" : "{Generates Gold}\nCrew Mates produce 5 Gold per unit per day while in a hero's army."
 			}
 		}
 	},
@@ -54,9 +54,9 @@
 					"stepSize" : 1,
 					"filteredCreature" : "hota.cove:seaman"
 				},
-				"stacking" : "base",
+				"stacking" : "seaman",
 				"icon" : "zvs/Lib1.res/gold2.png",
-				"description" : "{Generates Gold}\nSeamen produce 7 Gold per unit per day while in a hero's army"
+				"description" : "{Generates Gold}\nSeamen produce 7 Gold per unit per day while in a hero's army."
 			}
 		}
 	},
@@ -75,7 +75,8 @@
 					}
 				],
 				"propagator" : "HERO",
-				"description" : "{Novice Navigator}\nGrants a bonus of 300 extra movement points at sea",
+				"stacking" : "seafarer",
+				"description" : "{Novice Navigator}\nGrants a bonus of 300 extra movement points at sea.",
 				"icon" : "zvs/Lib1.res/terrainbonuswater0.png"
 			}
 		}
@@ -96,7 +97,8 @@
 					}
 				],
 				"propagator" : "HERO",
-				"description" : "{Proficient Navigator}\nGrants a bonus of 600 extra movement points at sea",
+				"stacking" : "seafarer",
+				"description" : "{Proficient Navigator}\nGrants a bonus of 600 extra movement points at sea.",
 				"icon" : "zvs/Lib1.res/terrainbonuswater0.png"
 			}
 		}
@@ -116,7 +118,8 @@
 					}
 				],
 				"propagator" : "HERO",
-				"description" : "{Seasoned Navigator}\nGrants a bonus of 900 extra movement points at sea",
+				"stacking" : "seafarer",
+				"description" : "{Seasoned Navigator}\nGrants a bonus of 900 extra movement points at sea.",
 				"icon" : "zvs/Lib1.res/terrainbonuswater0.png"
 			}
 		}
@@ -138,13 +141,14 @@
 		"aiValue" : 700,
 		"fightValue" : 500,
 		"cost" : {
-			"gold" : 350
+			"gold" : 375
 		}
 	},
 
 	"hota.cove:seaWitch" : {
+		"defense" : 9,
 		"cost" : {
-			"gold" : 500
+			"gold" : 525
 		},
 		"abilities#override" : {
 			"canShoot" : {
@@ -159,7 +163,7 @@
 					0,
 					0
 				],
-				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Weakness after attacking",
+				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Weakness after attacking.",
 				"icon" : "zvs/Lib1.res/spellsSOD/weakness1"
 			},
 			"castsDisruptingRay" : {
@@ -171,13 +175,14 @@
 					0,
 					1
 				],
-				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Disrupting Ray after attacking",
+				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Disrupting Ray after attacking.",
 				"icon" : "zvs/Lib1.res/spellsSOD/disruptingray1"
 			}
 		}
 	},
 
 	"hota.cove:sorceress" : {
+		"attack" : 16,
 		"defense" : 10,
 		"shots" : 24,
 		"damage" : {
@@ -188,7 +193,7 @@
 		"aiValue" : 1100,
 		"fightValue" : 950,
 		"cost" : {
-			"gold" : 650
+			"gold" : 625
 		},
 		"abilities#override" : {
 			"canShoot" : {
@@ -203,7 +208,7 @@
 					0,
 					0
 				],
-				"description" : "{Cast After Attack}\nHas a 100% chance to cast Advanced Weakness after attacking",
+				"description" : "{Cast After Attack}\nHas a 100% chance to cast Advanced Weakness after attacking.",
 				"icon" : "zvs/Lib1.res/spellsSOD/weakness2"
 			},
 			"castsDisruptingRay" : {
@@ -215,7 +220,7 @@
 					0,
 					1
 				],
-				"description" : "{Cast After Attack}\nHas a 100% chance to cast Advanced Disrupting Ray after attacking",
+				"description" : "{Cast After Attack}\nHas a 100% chance to cast Advanced Disrupting Ray after attacking.",
 				"icon" : "zvs/Lib1.res/spellsSOD/disruptingray2"
 			}
 		}

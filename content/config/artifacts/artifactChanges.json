@@ -1,12 +1,12 @@
 {
 	//RIGHT HAND
-	"core:blackshardOfTheDeadKnight" : {
+	"core:blackshardOfTheDeadKnight": {
 		"class" : "TREASURE"
 	},
-	"core:ogresClubOfHavoc" : {
+	"core:ogresClubOfHavoc": {
 		"class" : "MINOR"
 	},
-	"core:swordOfHellfire" : {
+	"core:swordOfHellfire": {
 		"class" : "MINOR"
 	},
 	"core:titansGladius" : {
@@ -26,7 +26,7 @@
 	},
 	"core:armageddonsBlade" : {
 		"text" : {
-			"description" : "{Armageddon's Blade}\n\nIn addition to its component effects, this item grants you Expert Armageddon and renders your units immune to Armageddon."
+			"description" : "{Armageddon's Blade}\n\nIn addition to its component effects, this item grants you Expert Armageddon and renders your units immune to Armageddon.",
 		},
 		"bonuses#override" : {
 			"armageddon" : {
@@ -50,18 +50,33 @@
 		],
 		"value" : 34000
 	},
-
+	"core:titansThunder" : {
+		"text" : {
+			"description" : "{Titan's Thunder}\n\nIn addition to its component effects, this item grants you Titan's Lightning Bolt, a permanent Spell Book, and increases Air Magic Damage dealt by +50%.",
+		},
+		"bonuses" : {
+			"spellDamage" : {
+				"type" : "SPELL_DAMAGE",
+				"subtype" : "spellSchool.air",
+				"val" : 50,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"class" : "MAJOR",
+		"value" : 45000
+	},
+	
 	//LEFT HAND
-	"core:shieldOfTheYawningDead" : {
+	"core:shieldOfTheYawningDead": {
 		"class" : "TREASURE"
 	},
-	"core:targOfTheRampagingOgre" : {
+	"core:targOfTheRampagingOgre": {
 		"class" : "MINOR"
 	},
-	"core:shieldOfTheDamned" : {
+	"core:shieldOfTheDamned": {
 		"class" : "MINOR"
 	},
-	"core:dragonScaleShield" : {
+	"core:dragonScaleShield": {
 		"class" : "MINOR"
 	},
 	"core:sentinelsShield" : {
@@ -78,55 +93,58 @@
 		"class" : "MAJOR",
 		"value" : 9000
 	},
-
+	
 	//HELMET
-	"core:helmOfTheAlabasterUnicorn" : {
+	"core:helmOfTheAlabasterUnicorn": {
 		"text" : {
 			"description" : "{Helm of the Alabaster Unicorn}\n\nWorn on the head, this item increases your Knowledge skill by +2."
 		},
 		"bonuses" : {
 			"knowledge" : {
-				"val" : 2
+				"val" : 2,
 			}
 		},
 		"value" : 2000
 	},
-	"core:skullHelmet" : {
+	"core:skullHelmet": {
 		"bonuses" : {
 			"knowledge" : {
-				"val" : 3
+				"val" : 3,
 			}
 		},
 		"class" : "TREASURE"
 	},
-	"core:helmOfChaos" : {
+	"core:helmOfChaos": {
 		"bonuses" : {
 			"knowledge" : {
-				"val" : 4
+				"val" : 4,
 			}
 		},
 		"class" : "MINOR"
 	},
-	"core:crownOfTheSupremeMagi" : {
+	"core:crownOfTheSupremeMagi": {
 		"bonuses" : {
 			"knowledge" : {
-				"val" : 5
+				"val" : 5,
 			}
 		},
 		"class" : "MINOR"
 	},
-	"core:hellstormHelmet" : {
+	"core:hellstormHelmet": {
 		"bonuses" : {
 			"knowledge" : {
-				"val" : 6
+				"val" : 6,
 			}
 		},
 		"class" : "MINOR"
 	},
-	"hota.artifacts:crownOfTheFiveSeas" : {
+	"hota.artifacts:crownOfTheFiveSeas": {
+		"text" : {
+			"description" : "{Crown of the Five Seas}\n\nWorn on the head, this item increases your Knowledge skill by +7."
+		},
 		"bonuses" : {
 			"skill" : {
-				"val" : 7
+				"val" : 7,
 			}
 		}
 	},
@@ -144,64 +162,67 @@
 		"class" : "MAJOR",
 		"value" : 9000
 	},
-	"core:crownOfDragontooth" : {
+	"core:crownOfDragontooth": {
 		"class" : "MAJOR"
 	},
-
+	
 	//TORSO
-	"core:breastplateOfPetrifiedWood" : {
+	"core:breastplateOfPetrifiedWood": {
 		"text" : {
-			"description" : "{Breastplate of Petrified Wood}\n\nWorn on the torso, this item increases your Power skill by +2."
+			"description" : "{Breastplate of Petrified Wood}\n\nWorn on the torso, this item increases your Power skill by +2.",
 		},
 		"bonuses" : {
 			"spellpower" : {
-				"val" : 2
+				"val" : 2,
 			}
 		},
 		"value" : 2000
 	},
-	"core:ribCage" : {
+	"core:ribCage": {
 		"bonuses" : {
 			"spellpower" : {
-				"val" : 3
+				"val" : 3,
 			}
 		},
 		"class" : "TREASURE"
 	},
-	"core:scalesOfTheGreaterBasilisk" : {
+	"core:scalesOfTheGreaterBasilisk": {
 		"bonuses" : {
 			"spellpower" : {
-				"val" : 4
+				"val" : 4,
 			}
 		},
 		"class" : "MINOR"
 	},
-	"core:tunicOfTheCyclopsKing" : {
+	"core:tunicOfTheCyclopsKing": {
 		"bonuses" : {
 			"spellpower" : {
-				"val" : 5
+				"val" : 5,
 			}
 		},
 		"class" : "MINOR"
 	},
-	"core:breastplateOfBrimstone" : {
+	"core:breastplateOfBrimstone": {
 		"bonuses" : {
 			"spellpower" : {
-				"val" : 6
+				"val" : 6,
 			}
 		},
 		"class" : "MINOR"
 	},
-	"hota.artifacts:royalArmorOfNix" : {
+	"hota.artifacts:royalArmorOfNix": {
+		"text" : {
+			"description" : "{Royal Armor of Nix}\n\nWorn on the torso, this item increases your Power skill by +7.",
+		},
 		"bonuses" : {
 			"skill" : {
-				"val" : 7
+				"val" : 7,
 			}
 		}
 	},
 	"core:titansCuirass" : {
 		"text" : {
-			"description" : "{Titan's Cuirass}\n\nWorn on the torso, this item increases your Power skill by +9."
+			"description" : "{Titan's Cuirass}\n\nWorn on the torso, this item increases your Power skill by +9.",
 		},
 		"bonuses#override" : {
 			"spellpower" : {
@@ -213,10 +234,10 @@
 		"class" : "MAJOR",
 		"value" : 9000
 	},
-	"core:dragonScaleArmor" : {
+	"core:dragonScaleArmor": {
 		"class" : "MAJOR"
 	},
-
+	
 	//NECK
 	"core:necklaceOfDragonteeth" : {
 		"class" : "MINOR"
@@ -227,7 +248,7 @@
 	"core:necklaceOfSwiftness" : {
 		"class" : "MAJOR"
 	},
-	"core:necklaceOfOceanGuidance" : {
+	"core:necklaceOfOceanGuidance": {
 		"value" : 9000
 	},
 	"core:pendantOfDeath" : {
@@ -239,7 +260,7 @@
 	"core:pendantOfTotalRecall" : {
 		"value" : 2000
 	},
-
+	
 	//HANDS
 	"core:equestriansGloves" : {
 		"value" : 3500
@@ -257,9 +278,9 @@
 	"hota.artifacts:sealOfSunset" : {
 		"class" : "MAJOR"
 	},
-
+	
 	//FEET
-	"core:sandalsOfTheSaint" : {
+	"core:sandalsOfTheSaint": {
 		"class" : "MAJOR"
 	},
 	"core:bootsOfSpeed" : {
@@ -271,15 +292,15 @@
 	"core:deadMansBoots" : {
 		"class" : "MINOR"
 	},
-
+	
 	//CAPE
-	"core:capeOfVelocity" : {
+	"core:capeOfVelocity": {
 		"value" : 9000
 	},
 	"core:surcoatOfCounterpoise" : {
 		"class" : "MINOR"
-	},
-
+	},	
+	
 	//MISCELLANEOUS
 	"core:angelFeatherArrows" : {
 		"value" : 7000
@@ -327,7 +348,7 @@
 	"core:torsoOfLegion" : {
 		"value" : 6000
 	},
-	"core:vialOfLifeblood" : {
+	"core:vialOfLifeblood": {
 		"value" : 9000
 	}
 }

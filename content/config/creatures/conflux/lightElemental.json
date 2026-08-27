@@ -43,7 +43,7 @@
 			"immuneToLight" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "spellSchool.01lightSchool",
-				"description" : "{Immune to Light Magic}\nImmune to all spells from the school of Light Magic"
+				"description" : "{Immune to Light Magic}\nImmune to all spells from the school of Light Magic."
 			},
 			"magicBuff" : {
 				"type" : "RECEPTIVE"
@@ -62,7 +62,7 @@
 			},
 			"disintegrates" : {
 				"type" : "DISINTEGRATE"
-			}
+			},
 			//"deathCloudVulnerablity" : { POINTLESS UNTIL DARK DAMAGE SPELLS ARE MADE
 			//	"type" : "MORE_DAMAGE_FROM_SPELL",
 			//	"subtype" : "spell.deathCloud",

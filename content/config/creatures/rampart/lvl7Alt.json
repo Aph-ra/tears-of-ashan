@@ -35,6 +35,13 @@
 				"val" : 0,
 				"valueType" : "ADDITIVE_VALUE"
 			},
+			"raisesLuck" : {
+				"type" : "LUCK",
+				"val" : 2,
+				"propagator" : "ARMY",
+				"description" : "Diamond Dragons raise allied units' Luck by 2.",
+				"stacking" : "Dragons"
+			},
 			"dragon" : {
 				"type" : "DRAGON_NATURE"
 			},

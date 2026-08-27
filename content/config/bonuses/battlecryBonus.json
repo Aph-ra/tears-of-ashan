@@ -4,7 +4,7 @@
 
 		"creatureNature" : false,
 
-		"description" : "{Battlecry}\nUnder the effect of Battlecry",
+		"description" : "{Battlecry}\nUnder the effect of Battlecry.",
 
 		"graphics" : {
 			"icon" : "bonuses/bonusDemonic.png"

@@ -1,0 +1,290 @@
+{
+	"hota.bulwark:kobold" : {
+		"speed" : 4,
+		"aiValue" : 74,
+		"fightValue" : 64,
+		"abilities#override" : {
+			"generateGold" : {
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "gold",
+				"val" : 2,
+				"propagator" : "ARMY",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"stepSize" : 1,
+					"filteredCreature" : "kobold"
+				},
+				"stacking" : "kobold",
+				"icon" : "hota/bulwark/bonuses/goldMining.png",
+				"description" : "{Generates Gold}\nKobolds mine 2 Gold per unit per day."
+			}
+		}
+	},
+	"hota.bulwark:koboldForeman" : {
+		"abilities#override" : {
+			"generateGold" : {
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "gold",
+				"val" : 4,
+				"propagator" : "ARMY",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"stepSize" : 1,
+					"filteredCreature" : "koboldForeman"
+				},
+				"stacking" : "koboldForeman",
+				"icon" : "hota/bulwark/bonuses/goldMining.png",
+				"description" : "{Generates Gold}\nKobold Formen mine 4 Gold per unit per day."
+			}
+		}
+	},
+	"hota.bulwark:mountainRam" : {
+		"aiValue" : 235,
+		"fightValue" : 200,
+		"abilities" : {
+			"spellDamageIncreaseAura" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"val" : -15,
+				"limiters" : [
+					"allOf",
+					"OPPOSITE_SIDE",
+					{
+						"type" : "UNIT_ADJACENT",
+						"creature" : "mountainRam"
+					}
+				],
+				"icon" : "hota/bulwark/bonuses/spellDamageAura",
+				"description" : "{Spell Damage Aura}\nAdjacent enemies receive +15% spell damage."
+			}
+		}
+	},
+	"hota.bulwark:argali" : {
+		"aiValue" : 275,
+		"fightValue" : 225,
+		"cost" : {
+			"gold" : 175
+		},
+		"abilities" : {
+			"spellDamageIncreaseAura" : {
+				"val" : -30,
+				"description" : "{Spell Damage Aura}\nAdjacent enemies receive +30% spell damage."
+			}
+		}
+	},
+	"hota.bulwark:snowElf" : {
+		"shots" : 16,
+		"hitPoints" : 25
+	},
+	"hota.bulwark:steelElf" : {
+		"shots" : 8,
+		"hitPoints" : 20,
+		"aiValue" : 530,
+		"fightValue" : 325
+	},
+	"hota.bulwark:yeti" : {
+		"aiValue" : 275,
+		"fightValue" : 225,
+		"cost" : {
+			"gold" : 350
+		},
+		"abilities" : {
+			"castRuneOfCharge" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "runeOfCharge",
+				"val" : 2,
+				"description" : "{Spellcaster}\nCan cast Advanced Rune of Charge (6 Power).",
+				"icon" : "skills/runelore/runeloreEffect/runeOfCharge.png"
+			},
+			"runePower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 1
+			}
+		}
+	},
+	"hota.bulwark:yetiRunemaster" : {
+		"attack" : 12,
+		"defense" : 10,
+		"aiValue" : 780,
+		"fightValue" : 650,
+		"cost" : {
+			"gold" : 425
+		},
+		"abilities#override" : {
+			"yetiCure" : {
+				"type" : "ENCHANTED",
+				"subtype" : "yetiCure",
+				"val" : 0,
+				"icon" : "hota/bulwark/bonuses/yetiCure",
+				"description" : "{Self-dispelling}\nRecovers from negative effects in one round of combat."
+			},
+			"castRuneOfCharge" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "runeOfCharge",
+				"val" : 2,
+				"description" : "{Spellcaster}\nCan cast Advanced Rune of Charge (6 Power).",
+				"icon" : "skills/runelore/runeloreEffect/runeOfCharge.png"
+			},
+			"castRuneOfExorcism" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "runeOfExorcism",
+				"val" : 2,
+				"description" : "{Spellcaster}\nCan cast Advanced Rune of Exorcism (6 Power).",
+				"icon" : "skills/runelore/runeloreEffect/runeOfExorcism.png"
+			},
+			"runePower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 2
+			}
+		}
+	},
+	"hota.bulwark:shaman" : {
+		"attack" : 12,
+		"damage" : {
+			"min" : 10,
+			"max" : 13
+		},
+		"hitPoints" : 30,
+		"aiValue" : 730,
+		"fightValue" : 610,
+		"abilities#override" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"freezingShot" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "freezingShot",
+				"val" : 20,
+				"addInfo" : [
+					0,
+					1
+				],
+				"description" : "{Freezing Shot}\nHas a 20% chance to freeze enemies after shooting.",
+				"icon" : "hota/bulwark/bonuses/freezingShot.png"
+			},
+			"castRuneOfControl" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "runeOfMagicControl",
+				"val" : 2,
+				"description" : "{Spellcaster}\nCan cast Advanced Rune of Control (6 Power).",
+				"icon" : "skills/runelore/runeloreEffect/runeOfMagicControl.png"
+			},
+			"runePower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 2
+			}
+		}
+	},
+	"hota.bulwark:greatShaman" : {
+		"attack" : 13,
+		"defense" : 10,
+		"damage" : {
+			"min" : 10,
+			"max" : 13
+		},
+		"hitPoints" : 40,
+		"speed" : 7,
+		"aiValue" : 945,
+		"fightValue" : 795,
+		"abilities#override" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"freezingShot" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "freezingShot",
+				"val" : 30,
+				"addInfo" : [
+					0,
+					1
+				],
+				"description" : "{Freezing Shot}\nHas a 30% chance to freeze enemies after shooting.",
+				"icon" : "hota/bulwark/bonuses/freezingShot.png"
+			},
+			"castRuneOfControl" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "runeOfMagicControl",
+				"val" : 2,
+				"description" : "{Spellcaster}\nCan cast Advanced Rune of Control (6 Power).",
+				"icon" : "skills/runelore/runeloreEffect/runeOfMagicControl.png"
+			},
+			"castRuneOfThunderclap" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "runeOfThunderclap",
+				"val" : 2,
+				"description" : "{Spellcaster}\nCan cast Advanced Rune of Thunder (6 Power).",
+				"icon" : "skills/runelore/runeloreEffect/runeOfThunderclap.png"
+			},
+			"runePower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 3
+			}
+		}
+	},
+	"hota.bulwark:mammoth" : {
+		"aiValue" : 1405,
+		"fightValue" : 1405,
+		"abilities" : {
+			"defenseBonusWhileDefending" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"val" : 50,
+				"valueType" : "PERCENT_TO_ALL",
+				"limiters" : [
+					"UNIT_DEFENDING"
+				]
+			},
+			"showTheIcon" : {
+				"type" : "NONE",
+				"icon" : "hota/bulwark/bonuses/defensiveStance",
+				"description" : "{Defense Bonus}\nReceives +50% Defense while defending in combat."
+			}
+		}
+	},
+	"hota.bulwark:warMammoth" : {
+		"aiValue" : 1655,
+		"fightValue" : 1655,
+		"cost" : {
+			"gold" : 1100
+		},
+		"abilities" : {
+			"defenseBonusWhileDefending" : {
+				"val" : 100
+			}
+		}
+	},
+	"hota.bulwark:jotunn" : {
+		"hitPoints" : 185,
+		"aiValue" : 4280,
+		"fightValue" : 3550
+	},
+	"hota.bulwark:jotunnWarlord" : {
+		"attack" : 22,
+		"defense" : 24,
+		"speed" : 11,
+		"cost" : {
+			"gold" : 3500,
+			"gems" : 2
+		},
+		"aiValue" : 6865,
+		"fightValue" : 5525
+	}
+}

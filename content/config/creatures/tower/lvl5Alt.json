@@ -15,10 +15,10 @@
 		"hitPoints" : 50,
 		"speed" : 10,
 		"growth" : 3,
-		"fightValue" : 1100,
+		"fightValue" : 1050,
 		"aiValue" : 775,
 		"cost" : {
-			"gold" : 650
+			"gold" : 625
 		},
 		"advMapAmount" : {
 			"min" : 8,
@@ -50,7 +50,7 @@
 				"type" : "HATE",
 				"subtype" : "efreetSufiAU",
 				"val" : 50,
-				"description" : "{Hates Efreet}\nHates Efreet, Efreet Sultans, and Efreet Sufis",
+				"description" : "{Hates Efreet}\nHates Efreet, Efreet Sultans, and Efreet Sufis.",
 				"icon" : "zvs/Lib1.res/hatemastergenies.png"
 			},
 			"airResistance" : {
@@ -66,7 +66,7 @@
 					2,
 					0
 				],
-				"description" : "{Cast After Attack}\nHas a 100% chance to cast Advanced Misfortune after attacking (3 Power)",
+				"description" : "{Cast After Attack}\nHas a 100% chance to cast Advanced Misfortune after attacking (3 Power).",
 				"icon" : "zvs/Lib1.res/spellsSOD/misfortune2.png"
 			}
 		},

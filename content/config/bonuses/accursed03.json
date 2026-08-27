@@ -1,0 +1,13 @@
+{
+	"ACCURSED03" : {
+		"hidden" : false,
+
+		"creatureNature" : false,
+
+		"description" : "{Accursed}\nEffects of debuffing spells on this creature are increased by 100% (Expert).",
+
+		"graphics" : {
+			"icon" : "bonuses/accursed03.png"
+		}
+	}
+}

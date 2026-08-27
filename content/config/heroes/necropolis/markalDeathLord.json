@@ -1,0 +1,71 @@
+{
+	"54markal" : {
+		"class" : "necromancer",
+		"female" : false,
+		"special" : true,
+		"spellbook" : [
+			"animateDead"
+		],
+		"texts" : {
+			"name" : "Markal",
+			"biography" : "A devoted student of all that Necromancy can offer, Markal has risen to the highest heights that one can achieve among the Necromancers while still being alive. Formerly the court astrologer and favorite counselor of the Griffin Queen Fiona, Markal established a strong (but secret) base of Death cultists within the Holy Empire. The religious leaders of the Church of the Light became suspicious of his nefarious activities, however, and when Fiona passed away her advisor was exiled.Realizing that he will no longer circulate freely among the other kingdoms of Ashan once he receives the Kiss of the Spider Goddess, Markal furthers the goals of Heresh through diplomacy and, of course, skullduggery.",
+			"specialty" : {
+				"name" : "Death Lord",
+				"tooltip" : "Secondary Skill Bonus: Death Lord",
+				"description" : "All neutral Necropolis creatures will join the hero's army."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/necropolis/markal/portraitSmall.png",
+			"large" : "heroes/necropolis/markal/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Death Lord.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Death Lord.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "necromancy",
+				"level" : "basic"
+			},
+			{
+				"skill" : "diplomacy",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {//does not work because limiter is for army, not hero
+			"bonuses" : {
+				"diplomacy" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "WANDERING_CREATURES_JOIN_BONUS",
+					"val" : 10,
+					"limiters": [
+						{
+							"type" : "FACTION_LIMITER",
+							"faction" : "necropolis"
+						}
+					]
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "skeleton",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "wight",
+				"min" : 4,
+				"max" : 6
+			}
+		]
+	}
+}

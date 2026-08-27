@@ -1,0 +1,395 @@
+{
+	"occultism" : {
+		"name" : "Occultism",
+		"gainChance" : {
+			"might" : 0,
+			"magic" : 0,
+			"beastmaster" : 8,
+			"witch" : 10
+		},
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"accursed" : {
+					"type" : "ACCURSED01",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"OPPOSITE_SIDE"
+					]
+				},
+				
+				"agingBuff" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.agingTOA",
+					"addInfo" : -10
+				},
+				"agingDuration" : {
+					"type" : "SPELL_DURATION",
+					"subtype" : "spell.agingTOA",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 3
+					}
+				},
+				"curseBuff" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.curse",
+					"addInfo" : 0
+				},
+				"curseDuration" : {
+					"type" : "SPELL_DURATION",
+					"subtype" : "spell.curse",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 3
+					}
+				},
+				"diseaseBuff" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.diseaseTOA",
+					"addInfo" : -1
+				},
+				"diseaseDuration" : {
+					"type" : "SPELL_DURATION",
+					"subtype" : "spell.diseaseTOA",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 3
+					}
+				},
+				"disruptingRayBuff" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.disruptingRay",
+					"addInfo" : -1
+				},
+				"disruptingRayDuration" : {
+					"type" : "SPELL_DURATION",
+					"subtype" : "spell.disruptingRay",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 3
+					}
+				},
+				"forgetfulnessBuff" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.forgetfulness",
+					"addInfo" : 0
+				},
+				"forgetfulnessDuration" : {
+					"type" : "SPELL_DURATION",
+					"subtype" : "spell.forgetfulness",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 3
+					}
+				},
+				"misfortuneBuff" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.misfortune",
+					"addInfo" : 0
+				},
+				"misfortuneDuration" : {
+					"type" : "SPELL_DURATION",
+					"subtype" : "spell.misfortune",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 3
+					}
+				},
+				"slowBuff" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.slow",
+					"addInfo" : -1
+				},
+				"slowDuration" : {
+					"type" : "SPELL_DURATION",
+					"subtype" : "spell.slow",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 3
+					}
+				},
+				"sorrowBuff" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.sorrow",
+					"addInfo" : 0
+				},
+				"sorrowDuration" : {
+					"type" : "SPELL_DURATION",
+					"subtype" : "spell.sorrow",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 3
+					}
+				},
+				"weaknessBuff" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.weakness",
+					"addInfo" : -1
+				},
+				"weaknessDuration" : {
+					"type" : "SPELL_DURATION",
+					"subtype" : "spell.weakness",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 3
+					}
+				},
+				
+				"blindDuration" : {
+					"type" : "SPELL_DURATION",
+					"subtype" : "spell.blind",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 3
+					}
+				},
+				"confusionDuration" : {
+					"type" : "SPELL_DURATION",
+					"subtype" : "spell.confusion",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 3
+					}
+				},
+				"hypnotiseDuration" : {
+					"type" : "SPELL_DURATION",
+					"subtype" : "spell.hypnotize",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 3
+					}
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Occultism}\n\nIncreases the effect of {Curse}, {Disease}, {Disrupting Ray}, {Forgetfulness}, {Misfortune}, {Sorrow}, and {Weakness} by 50% (rounded up) based on their Basic effects and their duration by (Hero Level / 3).\n\nIncreases the effects of {Aging} by 10%, {Slow} by 1, and both spells' duration by (Hero Level / 3).\n\nIncreases the duration of {Blind}, {Confusion}, and {Hypnotise} by (Hero Level / 3).",
+			"images" : {
+				"small" : "skills/occultism/occultismSmall/1",
+				"medium" : "skills/occultism/occultismMedium/1",
+				"large" : "skills/occultism/occultismLarge/1",
+				"scenarioBonus" : "skills/occultism/occultismBonus/1"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Occultism}\n\nIncreases the effect of {Curse}, {Disease}, {Disrupting Ray}, {Forgetfulness}, {Misfortune}, {Sorrow}, and {Weakness} by 50% (rounded up) based on their Advanced effects and their duration by (Hero Level / 2).\n\nIncreases the effects of {Aging} by 10%, {Slow} by 1, and both spells' duration by (Hero Level / 2).\n\nIncreases the duration of {Blind}, {Confusion}, and {Hypnotise} by (Hero Level / 2).",
+			"images" : {
+				"small" : "skills/occultism/occultismSmall/2",
+				"medium" : "skills/occultism/occultismMedium/2",
+				"large" : "skills/occultism/occultismLarge/2",
+				"scenarioBonus" : "skills/occultism/occultismBonus/2"
+			},
+			"effects" : {
+				"accursed" : {
+					"type" : "ACCURSED02"
+				},
+				
+				"curseDuration" : {
+					"updater" : {
+						"stepSize" : 2
+					}
+				},
+				"diseaseBuff" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.diseaseTOA",
+					"addInfo" : -2
+				},
+				"diseaseDuration" : {
+					"updater" : {
+						"stepSize" : 2
+					}
+				},
+				"disruptingRayBuff" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.disruptingRay",
+					"addInfo" : -2
+				},
+				"disruptingRayDuration" : {
+					"updater" : {
+						"stepSize" : 2
+					}
+				},
+				"forgetfulnessBuff" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.forgetfulness",
+					"addInfo" : 1
+				},
+				"forgetfulnessDuration" : {
+					"updater" : {
+						"stepSize" : 2
+					}
+				},
+				"misfortuneBuff" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.misfortune",
+					"addInfo" : -1
+				},
+				"misfortuneDuration" : {
+					"updater" : {
+						"stepSize" : 2
+					}
+				},
+				"sorrowBuff" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.sorrow",
+					"addInfo" : -1
+				},
+				"sorrowDuration" : {
+					"updater" : {
+						"stepSize" : 2
+					}
+				},
+				"weaknessBuff" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.weakness",
+					"addInfo" : -3
+				},
+				"weaknessDuration" : {
+					"updater" : {
+						"stepSize" : 2
+					}
+				},
+				
+				"agingDuration" : {
+					"updater" : {
+						"stepSize" : 2
+					}
+				},
+				"blindDuration" : {
+					"updater" : {
+						"stepSize" : 2
+					}
+				},
+				"confusionDuration" : {
+					"updater" : {
+						"stepSize" : 2
+					}
+				},
+				"hypnotiseDuration" : {
+					"updater" : {
+						"stepSize" : 2
+					}
+				},
+				"slowDuration" : {
+					"updater" : {
+						"stepSize" : 2
+					}
+				}
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Occultism}\n\nIncreases the effect of {Curse}, {Disease}, {Disrupting Ray}, {Forgetfulness}, {Misfortune}, {Sorrow}, and {Weakness} by 100% based on their Expert effects and their duration by (Hero Level).\n\nIncreases the effects of {Aging} by 10%, {Slow} by 1, and both spells' duration by (Hero Level).\n\nIncreases the duration of {Blind}, {Confusion}, and {Hypnotise} by (Hero Level).",
+			"images" : {
+				"small" : "skills/occultism/occultismSmall/3",
+				"medium" : "skills/occultism/occultismMedium/3",
+				"large" : "skills/occultism/occultismLarge/3",
+				"scenarioBonus" : "skills/occultism/occultismBonus/3"
+			},
+			"effects" : {
+				"accursed" : {
+					"type" : "ACCURSED03"
+				},
+				
+				"curseBuff" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.curse",
+					"addInfo" : 1
+				},
+				"curseDuration" : {
+					"updater" : {
+						"stepSize" : 1
+					}
+				},
+				"diseaseBuff" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.diseaseTOA",
+					"addInfo" : -6
+				},
+				"diseaseDuration" : {
+					"updater" : {
+						"stepSize" : 1
+					}
+				},
+				"disruptingRayBuff" : {
+					"addInfo" : -6
+				},
+				"disruptingRayDuration" : {
+					"updater" : {
+						"stepSize" : 1
+					}
+				},
+				"forgetfulnessBuff" : {
+					"addInfo" : 3
+				},
+				"forgetfulnessDuration" : {
+					"updater" : {
+						"stepSize" : 1
+					}
+				},
+				"misfortuneBuff" : {
+					"addInfo" : -3
+				},
+				"misfortuneDuration" : {
+					"updater" : {
+						"stepSize" : 1
+					}
+				},
+				"sorrowBuff" : {
+					"addInfo" : -3
+				},
+				"sorrowDuration" : {
+					"updater" : {
+						"stepSize" : 1
+					}
+				},
+				"weaknessBuff" : {
+					"addInfo" : -6
+				},
+				"weaknessDuration" : {
+					"updater" : {
+						"stepSize" : 1
+					}
+				},
+				
+				"agingDuration" : {
+					"updater" : {
+						"stepSize" : 1
+					}
+				},
+				"blindDuration" : {
+					"updater" : {
+						"stepSize" : 1
+					}
+				},
+				"confusionDuration" : {
+					"updater" : {
+						"stepSize" : 1
+					}
+				},
+				"hypnotiseDuration" : {
+					"updater" : {
+						"stepSize" : 1
+					}
+				},
+				"slowDuration" : {
+					"updater" : {
+						"stepSize" : 1
+					}
+				}
+			}
+		}
+	}
+}

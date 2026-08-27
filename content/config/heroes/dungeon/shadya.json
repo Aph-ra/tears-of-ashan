@@ -1,0 +1,66 @@
+{
+	"03shadya" : {
+		"class" : "overlord",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"shield"
+		],
+		"texts" : {
+			"name" : "Shadya",
+			"biography" : "Shadya's family was killed off early in the succession wars of the Soulscar clan. As the sole survivor, she has dedicated her entire life to revenge. Training herself in every art that could further her vendetta she disappears for months at a time, resurfacing only to cross another enemy off her list. One against hundreds, Shadya has mastered all there is to know about infiltration, evasion, assassination, and subtlety.",
+			"specialty" : {
+				"name" : "Shadow Dancer",
+				"tooltip" : "Creature Bonus: Shadow Dancer",
+				"description" : "Reduces ranged damage taken by 2.5% per hero level."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/dungeon/shadya/portraitSmall.png",
+			"large" : "heroes/dungeon/shadya/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Shadow Dancer.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Shadow Dancer.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			},
+			{
+				"skill" : "sorcery",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"damageReduction" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeRanged",
+					"val" : 2.5,
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

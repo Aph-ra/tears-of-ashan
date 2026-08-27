@@ -1,0 +1,66 @@
+{
+	"53alesia" : {
+		"class" : "cleric",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"resurrection"
+		],
+		"texts" : {
+			"name" : "Alesia",
+			"biography" : "A member of the Order of Vesta, Alesia was born and raised in the cosmopolitan city of Seahaven, in the Agyn Peninsula. A true Vestal, Alesia would rather use the powers of the Light that Elrath bestowed her to heal and bring peace, although she understands that, unfortunately, fighting can not always be avoided.",
+			"specialty" : {
+				"name" : "Resurrection",
+				"tooltip" : "Spell Bonus: Resurrection",
+				"description" : "Casts Resurrection with effect increased by 5% for every N hero levels, where N is the level of the target creature."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/castle/alesia/portraitSmall.png",
+			"large" : "heroes/castle/alesia/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Resurrection.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Resurrection.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "intelligence",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"resurrection" : {
+					"subtype" : "spell.resurrection",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	}
+}

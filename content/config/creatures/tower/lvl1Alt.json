@@ -33,7 +33,7 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "gremlinRepair",
 				"val" : 2,
-				"description" : "{Spellcaster}\nCan cast Advanced Repair (10% Power)"
+				"description" : "{Spellcaster}\nCan cast Advanced Repair (10% Power)."
 			},
 			"repairStrength" : {
 				"type" : "SPECIFIC_SPELL_POWER",
