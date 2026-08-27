@@ -1,5 +1,7 @@
 {
 	"core:crusader" : {
+		"hitPoints" : 40,
+		"speed" : 7,
 		"graphics" : {
 			"iconLarge" : "creatures/castle/iconsbig/lvl4Upg"
 		}
@@ -30,11 +32,11 @@
 				"type" : "HATE",
 				"subtype" : "archDemonAU",
 				"val" : 50,
-				"description" : "{Hates Devils}\nDoes 50% more Damage to Devils, Arch Devils, and Arch Demons",
+				"description" : "{Hates Devils}\nDoes 50% more Damage to Devils, Arch Devils, and Arch Demons.",
 				"icon" : "zvs/Lib1.res/hatearchangels.png"
 			},
 			"raisesMorale" : {
-				"description" : "{Raises Morale}\nAngels, Archangels, and Seraphim raise allied units' Morale by +1"
+				"description" : "{Raises Morale}\nAngels, Archangels, and Seraphim raise allied units' Morale by 1."
 			}
 		}
 	},
@@ -50,11 +52,11 @@
 				"type" : "HATE",
 				"subtype" : "archDemonAU",
 				"val" : 50,
-				"description" : "{Hates Devils}\nDoes 50% more Damage to Devils, Arch Devils, and Arch Demons",
+				"description" : "{Hates Devils}\nDoes 50% more Damage to Devils, Arch Devils, and Arch Demons.",
 				"icon" : "zvs/Lib1.res/hatearchangels.png"
 			},
 			"raisesMorale" : {
-				"description" : "{Raises Morale}\nAngels, Archangels, and Seraphim raise allied units' Morale by +1"
+				"description" : "{Raises Morale}\nAngels, Archangels, and Seraphim raise allied units' Morale by 1."
 			},
 			"resurrects" : {
 				"description" : "{Spellcaster}\nCan cast Resurrection (100 Health per Archangel)"

@@ -54,7 +54,7 @@
 					1,
 					0
 				],
-				"description" : "{Cast After Attack}\nHas a 20% chance to cast Basic Berserk after attacking (3 Power)",
+				"description" : "{Cast After Attack}\nHas a 20% chance to cast Basic Berserk after attacking (3 Power).",
 				"icon" : "zvs/Lib1.res/spellsSOD/berserk1.png"
 			},
 			"strikeReturn" : {

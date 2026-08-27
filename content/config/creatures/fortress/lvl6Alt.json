@@ -18,7 +18,7 @@
 		"aiValue" : 1950,
 		"fightValue" : 1950,
 		"cost" : {
-			"gold" : 1300
+			"gold" : 1250
 		},
 		"advMapAmount" : {
 			"min" : 5,
@@ -41,7 +41,7 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.paokaiLightning",
 				"val" : 100,
-				"description" : "{Lightning Breath}\nStrikes up to 3 enemy targets with Lightning Breath after attacking",
+				"description" : "{Lightning Breath}\nStrikes up to 3 enemy targets with Lightning Breath after attacking.",
 				"icon" : "zvs/Lib1.res/PrismBreath.png"
 			},
 			"lightningPower" : {

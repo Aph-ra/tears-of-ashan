@@ -1,0 +1,66 @@
+{
+	"02raelag" : {
+		"class" : "overlord",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"haste"
+		],
+		"texts" : {
+			"name" : "Raelag",
+			"biography" : "Nothing is known of Raelag's past, and though he is direct and ruthless in battle, his plans and tactics are kept as secret as his personal history. Because he often outthinks, outflanks, and outmanoeuvres his opponents, they move with a great deal of hesitation when facing him in battle. When up against this wily and intimidating warrior, his enemies often find themselves second-guessing their own plans.",
+			"specialty" : {
+				"name" : "Speed",
+				"tooltip" : "Creature Bonus: Speed",
+				"description" : "Increases the Speed of allied creatures by 1% per hero level."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/dungeon/raelag/portraitSmall.png",
+			"large" : "heroes/dungeon/raelag/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Speed.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Speed.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "logistics",
+				"level" : "basic"
+			},
+			{
+				"skill" : "sorcery",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"damageReduction" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

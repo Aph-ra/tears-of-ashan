@@ -40,7 +40,7 @@
 					2,
 					2
 				],
-				"description" : "{Cast After Attack}\nHas a 20% chance to cast Advanced Disrupting Ray after attacking (3 Power)",
+				"description" : "{Cast After Attack}\nHas a 20% chance to cast Advanced Disrupting Ray after attacking (3 Power).",
 				"icon" : "zvs/Lib1.res/spellsSOD/disruptingray2.png"
 			},
 			"spellPower" : {

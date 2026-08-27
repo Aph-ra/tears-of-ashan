@@ -53,7 +53,7 @@
 				"subtype" : "spell.magicArrow",
 				"addInfo" : 40,
 				"val" : 2,
-				"description" : "{Spellcaster}\nHas a 40% chance to cast Advanced Magic Arrow (40% Power)",
+				"description" : "{Spellcaster}\nHas a 40% chance to cast Advanced Magic Arrow (40% Power).",
 				"icon" : "zvs/Lib1.res/spellsSOD/magicarrow2.png"
 			},
 			"castsIceBolt" : {
@@ -61,7 +61,7 @@
 				"subtype" : "spell.iceBolt",
 				"addInfo" : 35,
 				"val" : 2,
-				"description" : "{Spellcaster}\nHas a 35% chance to cast Advanced Ice Bolt (40% Power)",
+				"description" : "{Spellcaster}\nHas a 35% chance to cast Advanced Ice Bolt (40% Power).",
 				"icon" : "zvs/Lib1.res/spellsSOD/icebolt2.png"
 			},
 			"castsLightningBolt" : {
@@ -69,7 +69,7 @@
 				"subtype" : "spell.lightningBolt",
 				"addInfo" : 25,
 				"val" : 2,
-				"description" : "{Spellcaster}\nHas a 25% chance to cast Advanced Lightning Bolt (30% Power)",
+				"description" : "{Spellcaster}\nHas a 25% chance to cast Advanced Lightning Bolt (30% Power).",
 				"icon" : "zvs/Lib1.res/spellsSOD/lightningbolt2.png"
 			}
 		},

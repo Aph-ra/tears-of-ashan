@@ -43,7 +43,7 @@
 			"immuneToDark" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "spellSchool.02darkSchool",
-				"description" : "{Immune to Dark Magic}\nImmune to all spells from the school of Dark Magic"
+				"description" : "{Immune to Dark Magic}\nImmune to all spells from the school of Dark Magic."
 			},
 			"magicBuff" : {
 				"type" : "RECEPTIVE"

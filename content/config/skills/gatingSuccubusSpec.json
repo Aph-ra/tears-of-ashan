@@ -55,10 +55,10 @@
 				}
 			},
 			"images" : {
-				"small" : "skills/gatingSmall/1",
-				"medium" : "skills/gatingMedium/1",
-				"large" : "skills/gatingLarge/1",
-				"scenarioBonus" : "skills/gatingBonus/1"
+				"small" : "skills/gating/gatingSmall/1",
+				"medium" : "skills/gating/gatingMedium/1",
+				"large" : "skills/gating/gatingLarge/1",
+				"scenarioBonus" : "skills/gating/gatingBonus/1"
 			}
 		},
 		"advanced" : {
@@ -89,10 +89,10 @@
 				}
 			},
 			"images" : {
-				"small" : "skills/gatingSmall/2",
-				"medium" : "skills/gatingMedium/2",
-				"large" : "skills/gatingLarge/2",
-				"scenarioBonus" : "skills/gatingBonus/2"
+				"small" : "skills/gating/gatingSmall/2",
+				"medium" : "skills/gating/gatingMedium/2",
+				"large" : "skills/gating/gatingLarge/2",
+				"scenarioBonus" : "skills/gating/gatingBonus/2"
 			}
 		},
 		"expert" : {
@@ -138,10 +138,10 @@
 				}
 			},
 			"images" : {
-				"small" : "skills/gatingSmall/3",
-				"medium" : "skills/gatingMedium/3",
-				"large" : "skills/gatingLarge/3",
-				"scenarioBonus" : "skills/gatingBonus/3"
+				"small" : "skills/gating/gatingSmall/3",
+				"medium" : "skills/gating/gatingMedium/3",
+				"large" : "skills/gating/gatingLarge/3",
+				"scenarioBonus" : "skills/gating/gatingBonus/3"
 			}
 		}
 	}

@@ -1,0 +1,20 @@
+{
+	"images" : [
+		{
+			"frame" : 0,
+			"file" : "frames/runeloreSpell01.png"
+		},
+		{
+			"frame" : 1,
+			"file" : "frames/runeloreSpell02.png"
+		},
+		{
+			"frame" : 2,
+			"file" : "frames/runeloreSpell03.png"
+		},
+		{
+			"frame" : 3,
+			"file" : "frames/runeloreSpell04.png"
+		}
+	]
+}

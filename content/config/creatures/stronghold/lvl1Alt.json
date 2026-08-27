@@ -51,7 +51,7 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "landMine",
 				"val" : 1,
-				"description" : "{Spellcaster}\nCan cast Basic Land Mine (5% Power)",
+				"description" : "{Spellcaster}\nCan cast Basic Land Mine (5% Power).",
 				"icon" : "zvs/Lib1.res/spellsSOD/landmine1.png"
 			},
 			"landMinePower" : {

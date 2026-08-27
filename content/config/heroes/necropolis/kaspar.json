@@ -1,5 +1,5 @@
 {
-	"kaspar" : {
+	"51kaspar" : {
 		"class" : "necromancer",
 		"female" : false,
 		"special" : false,
@@ -13,7 +13,6 @@
 				"name" : "First Aid",
 				"tooltip" : "Secondary Skill Bonus: First Aid",
 				"description" : "Creatures receive a 1% per level bonus to their Health while equipped with a First Aid Tent."
-				//"description" : "Receives a 5% per level bonus to bonus Health provided by the First Aid Tent."
 			}
 		},
 

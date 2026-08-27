@@ -1,0 +1,63 @@
+{
+	"03wyngaal" : {
+		"class" : "ranger",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Wyngaal",
+			"biography" : "Wyngaal started his life as a scout and hunter, but anger against those who would upset the Sylvan Harmony turned him into a warrior. He relies heavily on the knowledge of his early years, however, and is ever pondering pitfalls, traps, and surprises. Any enemy troops that face Wyngaal and his forces are unlikely to get the upper hand, as Wyngaal's alertness and experience give him a definitive edge.",
+			"specialty" : {
+				"name" : "Speed",
+				"tooltip" : "Creature Bonus: Speed",
+				"description" : "Increases the Speed of allied creatures by 1% per hero level."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/rampart/wyngaal/portraitSmall.png",
+			"large" : "heroes/rampart/wyngaal/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Speed.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Speed.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "archery",
+				"level" : "basic"
+			},
+			{
+				"skill" : "scouting",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"damageReduction" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "centaur",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

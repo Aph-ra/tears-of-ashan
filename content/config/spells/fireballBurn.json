@@ -1,0 +1,62 @@
+{
+	"fireballBurn" : {
+		"name" : "Burning",
+		"type" : "combat",
+		"targetType" : "CREATURE",
+		"level" : 1,
+		"power" : 10,
+
+		"school" : {
+			"fire" : true
+		},
+
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+
+		"flags" : {
+			"damage" : true,
+			"negative" : true,
+			"nonMagical" : true,
+			"special" : true
+		},
+
+		"targetCondition" : {},
+
+		"graphics" : {
+			"iconEffect" : "SpellInt.def:0:22"
+		},
+
+		"animation" : {
+			"affect" : [
+				"poof"
+			]
+		},
+
+		"sounds" : {
+			"cast" : "spells/burning.wav"
+		},
+
+		"levels" : {
+			"base" : {
+				"description" : "{Burning} Burns the unit for (Spell Power x 5) damage every turn.",
+				"range" : "0",
+				"cost" : 0,
+				"power" : 10,
+				"battleEffects" : {
+					"directdamage" : {
+						"type" : "core:damage"
+					}
+				}
+			},
+			"basic" : {
+				"power" : 10
+			},
+			"advanced" : {
+				"power" : 10
+			},
+			"expert" : {
+				"power" : 10
+			}
+		}
+	}
+}

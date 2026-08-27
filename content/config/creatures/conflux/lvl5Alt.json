@@ -61,7 +61,7 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.titanBolt",
 				"val" : 50,
-				"description" : "{Vulnerable to Air}\nTakes 50% more Damage from Air Magic spells",
+				"description" : "{Vulnerable to Air}\nTakes 50% more Damage from Air Magic spells.",
 				"icon" : "zvs/Lib1.res/vulnerabilityair.png"
 			},
 			"iceBoltVulnerablity" : {
@@ -80,7 +80,7 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "deepFreeze",
 				"val" : 50,
-				"description" : "{Vulnerable to Water}\nTakes 50% more Damage from Water Magic spells",
+				"description" : "{Vulnerable to Water}\nTakes 50% more Damage from Water Magic spells.",
 				"icon" : "zvs/Lib1.res/vulnerabilitywater.png"
 			},
 			"ignoreAttack" : {

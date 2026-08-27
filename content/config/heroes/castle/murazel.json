@@ -1,0 +1,61 @@
+{
+	"52murazel" : {
+		"class" : "cleric",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"prayer"
+		],
+		"texts" : {
+			"name" : "Murazel",
+			"biography" : "Murazel has lived for millennia – she fought in the Elder Wars alongside the likes of Archangels Michael and Sandalphon, and has acted as witness and judge of many battles and events. Always serious, even dire, talking as is everything in life was of the utmost importance, she is obsessed by the truth and accuracy of the events she relates. Known among her kind for her impartiality and her friendliness to ''lesser races'', she blames her people for the disappearance of the Shantiris, a “collateral damage” of the war against the Faceless. After the Twilight Covenant sealed a truce between the children of Light and Darkness in blood and magic, Murazel was one of the first Angels to leave the sky-born cities of her brethren to go live among the Humans. Still passionate about the Shantiris and their lost civilization, Murazel soon moved to the city of Hammer Fall, which had been erected over ancient Shantiri ruins, far in the East.",
+			"specialty" : {
+				"name" : "Angels",
+				"tooltip" : "Creature Bonus: Angels",
+				"description" : "Increases the Speed of allied Angels, Archangels, and Seraphim by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/castle/murazel/portraitSmall.png",
+			"large" : "heroes/castle/murazel/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Angels.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Angels.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "lightMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "angel",
+			"creatureLevel" : 7,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	}
+}

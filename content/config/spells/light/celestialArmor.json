@@ -1,0 +1,118 @@
+{
+	"celestialArmor" : {
+		"name" : "Celestial Armor",
+		"type" : "combat",
+		"school" : {
+			"01lightSchool" : true
+		},
+		"level" : 5,
+		"power" : 10,
+		"defaultGainChance" : 10,
+		"gainChance" : {
+			"castle" : 20,
+			"rampart" : 15,
+			"inferno" : 5,
+			"necropolis" : 0
+		},
+
+		"flags" : {
+			"positive" : true
+		},
+
+		"targetCondition" : {},
+
+		"graphics" : {
+			"iconBook" : "spells/celestialArmor/spellBook",
+			"iconScroll" : "spells/celestialArmor/spellScroll",
+			"iconScenarioBonus" : "spells/celestialArmor/spellBonus",
+			"iconEffect" : "spells/celestialArmor/spellEffect"
+		},
+
+		"animation" : {
+			"affect" : [
+				"C13SPE0",
+				{
+					"effectName" : "celestialArmor",
+					"transparency" : 0.5
+				}
+			]
+		},
+
+		"sounds" : {
+			"cast" : "PRAYER"
+		},
+
+		"targetType" : "CREATURE",
+
+		"levels" : {
+			"base" : {
+				"range" : "0",
+				"battleEffects" : {
+					"protection" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"spellReduction" : {
+								"type" : "SPELL_DAMAGE_REDUCTION",
+								"subtype" : "spellSchool.any",
+								"val" : 25
+							},
+							"damageReduction" : {
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"subtype" : "damageTypeAll",
+								"val" : 25
+							}
+						}
+					}
+				},
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"description" : "{Celestial Armor}\n\nConstructs a suit of magical armor that protects an allied creature.\n\nTarget unit receives -25% damage from all sources.\n",
+				"cost" : 30,
+				"power" : 10
+			},
+			"basic" : {
+				"description" : "{Basic Celestial Armor}\n\nConstructs a suit of magical armor that protects an allied creature.\n\nTarget unit receives -25% damage from all sources.\n",
+				"cost" : 25,
+				"power" : 10
+			},
+			"advanced" : {
+				"description" : "{Advanced Celestial Armor}\n\nConstructs a suit of magical armor that protects an allied creature.\n\nTarget unit receives -50% damage from all sources.\n",
+				"cost" : 25,
+				"power" : 20,
+				"battleEffects" : {
+					"protection" : {
+						"bonus" : {
+							"spellReduction" : {
+								"val" : 50
+							},
+							"damageReduction" : {
+								"val" : 50
+							}
+						}
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Expert Celestial Armor}\n\nConstructs a suit of magical armor that protects an allied creature.\n\nTarget unit receives -75% damage from all sources.\n",
+				"cost" : 25,
+				"power" : 20,
+				"battleEffects" : {
+					"protection" : {
+						"bonus" : {
+							"spellReduction" : {
+								"val" : 75
+							},
+							"damageReduction" : {
+								"val" : 75
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

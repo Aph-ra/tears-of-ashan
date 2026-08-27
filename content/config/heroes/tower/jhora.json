@@ -1,0 +1,66 @@
+{
+	"52jhora" : {
+		"class" : "wizard",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"magicArrow"
+		],
+		"texts" : {
+			"name" : "Jhora",
+			"biography" : "Jhora's swift mind gives her the ability to launch magical attacks at a pace unmatched by any of her fellow mages. The first beings to discover this were bandits, who made the mistake of attempting a surprise attack on a caravan in which Jhora, still a child at the time, was riding. The sudden flurry of Magic Arrows that fell upon the attackers sent them running for the hills.",
+			"specialty" : {
+				"name" : "Magic Arrow",
+				"tooltip" : "Spell Bonus: Magic Arrow",
+				"description" : "Casts Magic Arrow with damage increased by 20% for every N hero levels, where N is the level of the target creature."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/tower/jhora/portraitSmall.png",
+			"large" : "heroes/tower/jhora/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Magic Arrow.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Magic Arrow.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "sorcery",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"magicArrow" : {
+					"subtype" : "spell.magicArrow",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 20
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	}
+}

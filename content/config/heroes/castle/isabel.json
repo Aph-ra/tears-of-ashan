@@ -1,0 +1,62 @@
+{
+	"04isabel" : {
+		"class" : "knight",
+		"female" : true,
+		"special" : false,
+		"texts" : {
+			"name" : "Isabel",
+			"biography" : "Queen of the Griffin Empire, Isabel was the unwitting victim of the centuries-old plans of the Demon Sovereign. Luckily, she was saved by troops of Rangers, Wizards, Warlocks and Knights from Sheogh itself in the final moments of the war that bears her name. Though she has literally been through hell, her faith has remained steady and her troops benefit from her holy blessings.",
+			"specialty" : {
+				"name" : "Dragonblessed",
+				"tooltip" : "Creature Bonus: Dragonblessed",
+				"description" : "Allied units are permanently enchanted with Expert Bless."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/castle/isabel/portraitSmall.png",
+			"large" : "heroes/castle/isabel/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Dragonblessed.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Dragonblessed.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"bless" : {
+					"type" : "ENCHANTED",
+					"subtype" : "bless",
+					"val" : 3
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	}
+}

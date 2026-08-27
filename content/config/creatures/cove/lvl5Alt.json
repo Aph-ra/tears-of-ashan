@@ -7,7 +7,7 @@
 		"faction" : "cove",
 		"level" : 5,
 		"attack" : 14,
-		"defense" : 8,
+		"defense" : 12,
 		"shots" : 24,
 		"damage" : {
 			"min" : 10,
@@ -19,7 +19,7 @@
 		"aiValue" : 900,
 		"fightValue" : 700,
 		"cost" : {
-			"gold" : 575
+			"gold" : 625
 		},
 		"advMapAmount" : {
 			"min" : 8,
@@ -42,7 +42,7 @@
 					1,
 					0
 				],
-				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Weakness after attacking",
+				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Weakness after attacking.",
 				"icon" : "zvs/Lib1.res/spellsSOD/weakness1"
 			},
 			"castsDisruptingRay" : {
@@ -54,14 +54,14 @@
 					1,
 					1
 				],
-				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Disrupting Ray after attacking",
+				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Disrupting Ray after attacking.",
 				"icon" : "zvs/Lib1.res/spellsSOD/disruptingray1"
 			},
 			"castHornSpell" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "hornSpell",
 				"val" : 2,
-				"description" : "{Spellcaster}\nCan cast Summon Fangarms (50% Power)"
+				"description" : "{Spellcaster}\nCan cast Summon Fangarms (50% Power)."
 			},
 			"hornSpellPower" : {
 				"type" : "CREATURE_SPELL_POWER",

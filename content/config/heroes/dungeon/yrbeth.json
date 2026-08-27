@@ -1,0 +1,59 @@
+{
+	"51yrbeth" : {
+		"class" : "warlock",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"fireball"
+		],
+		"texts" : {
+			"name" : "Yrbeth",
+			"biography" : "Yrbeth was a child gifted with powers of focus and concentration beyond her years. Training in the eldritch arts like many of her kin, Yrbeth's ability to focus her powers - famously displayed during an earthquake - permits her to accumulate more magical energies than is normally possible. The night before an important battle Yrbeth often goes sleepless, spending hours in meditation to prepare herself.",
+			"specialty" : {
+				"name" : "Mysticism",
+				"tooltip" : "Secondary Skill Bonus: Mysticism",
+				"description" : "Receives a 5% per level bonus to Mysticism skill."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/dungeon/yrbeth/portraitSmall.png",
+			"large" : "heroes/dungeon/yrbeth/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Mysticism.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Mysticism.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "mysticism",
+				"level" : "basic"
+			},
+			{
+				"skill" : "fireMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"secondary" : "mysticism"
+		},
+
+		"army" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

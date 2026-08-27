@@ -74,7 +74,7 @@
 		"aiValue" : 1450,
 		"fightValue" : 1150,
 		"cost" : {
-			"gold" : 850
+			"gold" : 775
 		},
 		"abilities" : {
 			"regenerates" : {
@@ -92,7 +92,7 @@
 		"aiValue" : 1950,
 		"fightValue" : 1950,
 		"cost" : {
-			"gold" : 1300
+			"gold" : 1250
 		},
 		"abilities" : {
 			"regenerates" : {

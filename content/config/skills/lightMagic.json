@@ -3,11 +3,10 @@
 		"name" : "Light Magic",
 		"gainChance" : {
 			"might" : 3,
-			"magic" : 7,
+			"magic" : 5,
 
 			"knight" : 8,
 			"cleric" : 10,
-			"inquisitor" : 9,
 
 			"ranger" : 3,
 			"druid" : 6,
@@ -42,7 +41,11 @@
 			"navigator" : 5,
 
 			"mercenary" : 3,
-			"artificer" : 5
+			"artificer" : 5,
+
+			"chieftain" : 2,
+			"elder" : 5,
+			"runemage" : 7
 		},
 		"specialty" : [],
 		"base" : {
@@ -62,10 +65,10 @@
 				}
 			},
 			"images" : {
-				"small" : "skills/lightSmall/1",
-				"medium" : "skills/lightMedium/1",
-				"large" : "skills/lightLarge/1",
-				"scenarioBonus" : "skills/lightBonus/1"
+				"small" : "skills/lightMagic/lightMagicSmall/1",
+				"medium" : "skills/lightMagic/lightMagicMedium/1",
+				"large" : "skills/lightMagic/lightMagicLarge/1",
+				"scenarioBonus" : "skills/lightMagic/lightMagicBonus/1"
 			}
 		},
 		"advanced" : {
@@ -76,10 +79,10 @@
 				}
 			},
 			"images" : {
-				"small" : "skills/lightSmall/2",
-				"medium" : "skills/lightMedium/2",
-				"large" : "skills/lightLarge/2",
-				"scenarioBonus" : "skills/lightBonus/2"
+				"small" : "skills/lightMagic/lightMagicSmall/2",
+				"medium" : "skills/lightMagic/lightMagicMedium/2",
+				"large" : "skills/lightMagic/lightMagicLarge/2",
+				"scenarioBonus" : "skills/lightMagic/lightMagicBonus/2"
 			}
 		},
 		"expert" : {
@@ -90,10 +93,10 @@
 				}
 			},
 			"images" : {
-				"small" : "skills/lightSmall/3",
-				"medium" : "skills/lightMedium/3",
-				"large" : "skills/lightLarge/3",
-				"scenarioBonus" : "skills/lightBonus/3"
+				"small" : "skills/lightMagic/lightMagicSmall/3",
+				"medium" : "skills/lightMagic/lightMagicMedium/3",
+				"large" : "skills/lightMagic/lightMagicLarge/3",
+				"scenarioBonus" : "skills/lightMagic/lightMagicBonus/3"
 			}
 		}
 	}

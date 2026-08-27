@@ -1,0 +1,85 @@
+{
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "sunBeamHit01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "sunBeamHit02.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "sunBeamHit03.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "sunBeamHit04.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "sunBeamHit05.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "sunBeamHit06.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "sunBeamHit07.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "sunBeamHit08.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "sunBeamHit09.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 9,
+			"file" : "sunBeamHit10.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 10,
+			"file" : "sunBeamHit11.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 11,
+			"file" : "sunBeamHit12.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 12,
+			"file" : "sunBeamHit13.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 13,
+			"file" : "sunBeamHit14.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 14,
+			"file" : "sunBeamHit15.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 15,
+			"file" : "sunBeamHit16.png"
+		}
+	],
+	"basepath" : "spells/sunBeam/hit/"
+}

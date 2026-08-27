@@ -1,0 +1,65 @@
+{
+	"53faiz" : {
+		"class" : "wizard",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"disruptingRay"
+		],
+		"texts" : {
+			"name" : "Faiz",
+			"biography" : "Faiz is notorious in the Silver Cities for his gruesome countenance, which he usually covers with a scarf. His scars are the result of an encounter with Desert Orcs, and from that day the once light-hearted Mage turned himself to thoughts of devastation and ruin. Mastering these arts, Faiz has gained the ability to inflict intensive arcane destruction upon his enemies.",
+			"specialty" : {
+				"name" : "Disrupting Ray",
+				"tooltip" : "Spell Bonus: Disrupting Ray",
+				"description" : "Casts Disrupting Ray with effect increased by 10."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/tower/faiz/portraitSmall.png",
+			"large" : "heroes/tower/faiz/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Disrupting Ray.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Disrupting Ray.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "airMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"disruptingRay" : {
+					"addInfo" : -10,
+					"subtype" : "spell.disruptingRay",
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	}
+}

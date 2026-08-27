@@ -1,0 +1,89 @@
+{
+	"deathCloudDark" : {
+		"name" : "Death Cloud",
+		"type" : "combat",
+		"school" : {
+			"02darkSchool" : true
+		},
+		"level" : 3,
+		"power" : 20,
+		"defaultGainChance" : 10,
+		"gainChance" : {
+			"castle" : 0,
+			"rampart" : 0,
+			"tower" : 5,
+			"necropolis" : 20,
+			"stronghold" : 0,
+			"conflux" : 0
+		},
+
+		"flags" : {
+			"damage" : true,
+			"offensive" : true,
+			"negative" : true
+		},
+
+		"targetCondition" : {
+			"allOf" : {},
+			"anyOf" : {},
+			"noneOf" : {
+				"core:bonus.NON_LIVING" : "normal",
+				"core:bonus.UNDEAD" : "normal",
+				"core:bonus.GARGOYLE" : "normal",
+				"core:bonus.MECHANICAL" : "normal"
+			}
+		},
+
+		"graphics" : {
+			"iconBook" : "spells/deathCloudDark/spellBook",
+			"iconScroll" : "spells/deathCloudDark/spellScroll",
+			"iconScenarioBonus" : "spells/deathCloudDark/spellBonus",
+			"iconEffect" : "spells/deathCloudDark/spellEffect"
+		},
+
+		"animation" : {
+			"hit" : [
+				"Sp04_"
+			]
+		},
+
+		"sounds" : {
+			"cast" : "DEATHCLD"
+		},
+
+		"targetType" : "LOCATION",
+
+		"levels" : {
+			"base" : {
+				"range" : "0,1",
+				"targetModifier" : {
+					"smart" : false
+				}
+			},
+			"none" : {
+				"description" : "{Death Cloud}\n\nCauses a cloud of dark energy to engulf the selected target and any units adjacent to the target location.\n\nEach unit receives (Spell Power x 20 + 20) damage. Does not affect undead or non-living units.\n",
+				"cost" : 16,
+				"power" : 20,
+				"effects" : {}
+			},
+			"basic" : {
+				"description" : "{Basic Death Cloud}\n\nCauses a cloud of dark energy to engulf the selected target and any units adjacent to the target location.\n\nEach unit receives (Spell Power x 20 + 20) damage. Does not affect undead or non-living units.\n",
+				"cost" : 12,
+				"power" : 20,
+				"effects" : {}
+			},
+			"advanced" : {
+				"description" : "{Advanced Death Cloud}\n\nCauses a cloud of dark energy to engulf the selected target and any units adjacent to the target location.\n\nEach unit receives (Spell Power x 20 + 40) damage. Does not affect undead or non-living units.\n",
+				"cost" : 12,
+				"power" : 40,
+				"effects" : {}
+			},
+			"expert" : {
+				"description" : "{Expert Death Cloud}\n\nCauses a cloud of dark energy to engulf the selected target and any units adjacent to the target location.\n\nEach unit receives (Spell Power x 20 + 80) damage. Does not affect undead or non-living units.\n",
+				"cost" : 12,
+				"power" : 80,
+				"effects" : {}
+			}
+		}
+	}
+}

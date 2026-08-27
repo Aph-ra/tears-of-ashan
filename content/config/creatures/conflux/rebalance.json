@@ -49,7 +49,7 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "cure",
 				"val" : 1,
-				"description" : "{Spellcaster}\nCan cast Basic Cure (5% Power)",
+				"description" : "{Spellcaster}\nCan cast Basic Cure (5% Power).",
 				"icon" : "zvs/Lib1.res/spellsSOD/cure1.png"
 			},
 			"curePower" : {
@@ -108,7 +108,7 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.implosion",
 				"val" : 50,
-				"description" : "{Vulnerable to Earth}\nReceives 50% more Damage from Earth Magic spells",
+				"description" : "{Vulnerable to Earth}\nReceives 50% more Damage from Earth Magic spells.",
 				"icon" : "zvs/Lib1.res/vulnerabilityearth.png"
 			}
 		}
@@ -160,7 +160,7 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.implosion",
 				"val" : 50,
-				"description" : "{Vulnerable to Earth}\nReceives 50% more Damage from Earth Magic spells",
+				"description" : "{Vulnerable to Earth}\nReceives 50% more Damage from Earth Magic spells.",
 				"icon" : "zvs/Lib1.res/vulnerabilityearth.png"
 			}
 		}
@@ -212,7 +212,7 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.fireWallTrigger",
 				"val" : 50,
-				"description" : "{Vulnerable to Fire}\nReceives 50% more Damage from Fire Magic spells",
+				"description" : "{Vulnerable to Fire}\nReceives 50% more Damage from Fire Magic spells.",
 				"icon" : "zvs/Lib1.res/vulnerabilityfire.png"
 			}
 		}
@@ -220,6 +220,10 @@
 	"core:iceElemental" : {
 		"attack" : 12,
 		"defense" : 8,
+		"damage" : {
+			"min" : 4,
+			"max" : 8
+		},
 		"hitPoints" : 25,
 		"speed" : 7,
 		"aiValue" : 400,
@@ -270,24 +274,19 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.fireWallTrigger",
 				"val" : 50,
-				"description" : "{Vulnerable to Fire}\nReceives 50% more Damage from Fire Magic spells",
+				"description" : "{Vulnerable to Fire}\nReceives 50% more Damage from Fire Magic spells.",
 				"icon" : "zvs/Lib1.res/vulnerabilityfire.png"
 			},
-			"castIceBolt" : {
-				"type" : "SPELLCASTER",
-				"subtype" : "iceBolt",
-				"val" : 1,
-				"description" : "{Spellcaster}\nCan cast Basic Ice Bolt (50% Power)",
-				"icon" : "zvs/Lib1.res/spellsSOD/icebolt1.png"
-			},
-			"iceBoltPower" : {
-				"type" : "CREATURE_SPELL_POWER",
-				"subtype" : "iceBolt",
-				"val" : 30
-			},
-			"spellpoints" : {
-				"type" : "CASTS",
-				"val" : 2
+			"freezingShot" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "freezingShot",
+				"val" : 20,
+				"addInfo" : [
+					0,
+					1
+				],
+				"description" : "{Freezing Shot}\nHas a 20% chance to freeze enemies after shooting.",
+				"icon" : "hota/bulwark/bonuses/freezingShot.png"
 			}
 		}
 	},
@@ -332,7 +331,7 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "deepFreeze",
 				"val" : 50,
-				"description" : "{Vulnerable to Water}\nReceives 50% more Damage from Water Magic spells",
+				"description" : "{Vulnerable to Water}\nReceives 50% more Damage from Water Magic spells.",
 				"icon" : "zvs/Lib1.res/vulnerabilitywater.png"
 			},
 			"fireShield" : {
@@ -384,7 +383,7 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "deepFreeze",
 				"val" : 50,
-				"description" : "{Vulnerable to Water}\nReceives 50% more Damage from Water Magic spells",
+				"description" : "{Vulnerable to Water}\nReceives 50% more Damage from Water Magic spells.",
 				"icon" : "zvs/Lib1.res/vulnerabilitywater.png"
 			},
 			"fireShield" : {
@@ -395,7 +394,7 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "fireShield",
 				"val" : 1,
-				"description" : "{Spellcaster}\nCan cast Basic Fire Shield (6 Power)",
+				"description" : "{Spellcaster}\nCan cast Basic Fire Shield (6 Power).",
 				"icon" : "zvs/Lib1.res/spellsSOD/fireshield1.png"
 			},
 			"fireShieldPower" : {
@@ -453,7 +452,7 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.titanBolt",
 				"val" : 50,
-				"description" : "{Vulnerable to Air}\nReceives 50% more Damage from Air Magic spells",
+				"description" : "{Vulnerable to Air}\nReceives 50% more Damage from Air Magic spells.",
 				"icon" : "zvs/Lib1.res/vulnerabilityair.png"
 			},
 			"ignoreAttack" : {
@@ -512,7 +511,7 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.titanBolt",
 				"val" : 50,
-				"description" : "{Vulnerable to Air}\nReceives 50% more Damage from Air Magic spells",
+				"description" : "{Vulnerable to Air}\nReceives 50% more Damage from Air Magic spells.",
 				"icon" : "zvs/Lib1.res/vulnerabilityair.png"
 			},
 			"iceBoltVulnerablity" : {
@@ -531,7 +530,7 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "deepFreeze",
 				"val" : 50,
-				"description" : "{Vulnerable to Water}\nReceives 50% more Damage from Water Magic spells",
+				"description" : "{Vulnerable to Water}\nReceives 50% more Damage from Water Magic spells.",
 				"icon" : "zvs/Lib1.res/vulnerabilitywater.png"
 			},
 			"ignoreAttack" : {

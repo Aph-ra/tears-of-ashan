@@ -1,0 +1,138 @@
+{
+	"rallyingCry" : {
+		"type" : "combat",
+		"name" : "Rallying Cry",
+		"school" : {
+			"04warcriesSchool" : true
+		},
+		"level" : 1,
+		"power" : 10,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"stronghold" : 0
+		},
+
+		"flags" : {
+			"positive" : true,
+			"special" : true,
+			"nonMagical" : true
+		},
+
+		"targetCondition" : {
+			"anyOf" : {
+				"core:creature.goblin" : "absolute",
+				"core:creature.hobgoblin" : "absolute",
+				"tearsofashan:creature.goblinTrapperAU" : "absolute",
+				"core:creature.goblinWolfRider" : "absolute",
+				"core:creature.hobgoblinWolfRider" : "absolute",
+				"core:creature.boar" : "absolute",
+				"core:creature.orc" : "absolute",
+				"core:creature.orcChieftain" : "absolute",
+				"tearsofashan:creature.orcBerserkerAU" : "absolute",
+				"core:creature.ogre" : "absolute",
+				"core:creature.ogreMage" : "absolute",
+				"tearsofashan:creature.ogreBruteAU" : "absolute",
+				"core:creature.roc" : "absolute",
+				"core:creature.thunderbird" : "absolute",
+				"tearsofashan:creature.shahrokhAU" : "absolute",
+				"core:creature.cyclop" : "absolute",
+				"core:creature.cyclopKing" : "absolute",
+				"tearsofashan:creature.bloodEyedCyclopsAU" : "absolute",
+				"core:creature.behemoth" : "absolute",
+				"core:creature.ancientBehemoth" : "absolute",
+				"tearsofashan:creature.ghostBehemothAU" : "absolute"
+			}
+		},
+
+		"graphics" : {
+			"iconBook" : "spells/rallyingCry/spellBook",
+			"iconScroll" : "spells/rallyingCry/spellScroll",
+			"iconScenarioBonus" : "spells/rallyingCry/spellBonus",
+			"iconEffect" : "spells/rallyingCry/spellEffect"
+		},
+
+		"animation" : {
+			"affect" : [
+				"C04SPA0"
+			]
+		},
+
+		"sounds" : {
+			"cast" : "CNTRSTRK"
+		},
+
+		"targetType" : "CREATURE",
+
+		"levels" : {
+			"base" : {
+				"range" : "X",
+				"targetModifier" : {
+					"smart" : true
+				},
+				"effects" : {
+					"morale" : {
+						"type" : "MORALE",
+						"val" : 1,
+						"duration" : "N_TURNS"
+					},
+					"luck" : {
+						"type" : "LUCK",
+						"val" : 1,
+						"duration" : "N_TURNS"
+					},
+					"combatAttackRageLevels" : {
+						"type" : "RAGE_LEVEL_COUNTER",
+						"val" : 3,
+						"duration" : "ONE_BATTLE",
+						"propagator" : "BATTLE_WIDE",
+						"propagationUpdater" : "BONUS_OWNER_UPDATER",
+						"limiters" : [
+							{
+								"type" : "HAS_ANOTHER_BONUS_LIMITER",
+								"bonusType" : "RAGE_LEVEL_COUNTER"
+							}
+						]
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Rallying Cry}\n\nRallies all friendly Stronghold units with an awe-inspiring warcry.\n\nEach unit gains +1 Morale and +1 Luck.\n\n{Buffing Warcries grant allied Stronghold units +3 Rage Levels.}\n",
+				"cost" : 8,
+				"power" : 10,
+				"effects" : {}
+			},
+			"basic" : {
+				"description" : "{Basic Rallying Cry}\n\nRallies all friendly Stronghold units with an awe-inspiring warcry.\n\nEach unit gains +1 Morale and +1 Luck.\n\n{Buffing Warcries grant allied Stronghold units +3 Rage Levels.}\n",
+				"cost" : 8,
+				"power" : 10,
+				"effects" : {}
+			},
+			"advanced" : {
+				"description" : "{Advanced Rallying Cry}\n\nRallies all friendly Stronghold units with an awe-inspiring warcry.\n\nEach unit gains +2 Morale and +2 Luck.\n\n{Buffing Warcries grant allied Stronghold units +3 Rage Levels.}\n",
+				"cost" : 8,
+				"power" : 10,
+				"effects" : {
+					"morale" : {
+						"val" : 2
+					},
+					"luck" : {
+						"val" : 2
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Expert Rallying Cry}\n\nRallies all friendly Stronghold units with an awe-inspiring warcry.\n\nEach unit gains +3 Morale and +3 Luck.\n\n{Buffing Warcries grant allied Stronghold units +3 Rage Levels.}\n",
+				"cost" : 8,
+				"power" : 10,
+				"effects" : {
+					"morale" : {
+						"val" : 3
+					},
+					"luck" : {
+						"val" : 3
+					}
+				}
+			}
+		}
+	}
+}

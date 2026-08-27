@@ -51,12 +51,12 @@
 					1,
 					2
 				],
-				"description" : "{Cast Before Attack}\nCasts Basic Death Ripple before attacking (20% Power)",
+				"description" : "{Cast Before Attack}\nCasts Basic Death Ripple before attacking (10% Power).",
 				"icon" : "zvs/Lib1.res/spellsSOD/deathripple1.png"
 			},
 			"spellPower" : {
 				"type" : "CREATURE_SPELL_POWER",
-				"val" : 20
+				"val" : 10
 			}
 		},
 		"graphics" : {

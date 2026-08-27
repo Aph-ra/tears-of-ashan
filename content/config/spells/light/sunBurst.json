@@ -1,0 +1,112 @@
+{
+	"sunBurst" : {
+		"name" : "Sun Burst",
+		"type" : "combat",
+		"school" : {
+			"01lightSchool" : true
+		},
+		"level" : 4,
+		"power" : 20,
+		"defaultGainChance" : 10,
+		"gainChance" : {
+			"castle" : 20,
+			"rampart" : 15,
+			"inferno" : 5,
+			"necropolis" : 0
+		},
+
+		"flags" : {
+			"damage" : true,
+			"negative" : true
+		},
+
+		"targetCondition" : {},
+
+		"graphics" : {
+			"iconBook" : "spells/sunBurst/spellBook",
+			"iconScroll" : "spells/sunBurst/spellScroll",
+			"iconScenarioBonus" : "spells/sunBurst/spellBonus",
+			"iconEffect" : "spells/sunBurst/spellEffect"
+		},
+
+		"animation" : {
+			"hit" : [
+				"spells/sunBurst/animation.json"
+			]
+		},
+
+		"sounds" : {
+			"cast" : "spells/sunBurst.wav"
+		},
+
+		"targetType" : "LOCATION",
+
+		"levels" : {
+			"base" : {
+				"range" : "1",
+				"battleEffects" : {
+					"directdamage" : {
+						"type" : "core:damage"
+					},
+					"effect01" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"defenseDown" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.defence",
+								"val" : -20,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : [
+									"N_TURNS"
+								],
+								"turns" : 3
+							}
+						}
+					}
+				},
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"description" : "{Sun Burst}\n\nSummons a shimmering pulse of pure sunlight.\n\nEach unit receives (Spell Power x 20 + 40) damage and has their Defense reduced by 20% for 3 turns.\n",
+				"cost" : 22,
+				"power" : 40
+			},
+			"basic" : {
+				"description" : "{Basic Sun Burst}\n\nSummons a shimmering pulse of pure sunlight.\n\nEach unit receives (Spell Power x 20 + 40) damage and has their Defense reduced by 20% for 3 turns.\n",
+				"cost" : 18,
+				"power" : 40
+			},
+			"advanced" : {
+				"description" : "{Advanced Sun Burst}\n\nSummons a shimmering pulse of pure sunlight.\n\nEach unit receives (Spell Power x 20 + 80) damage and has their Defense reduced by 30% for 3 turns.\n",
+				"cost" : 18,
+				"power" : 80,
+				"battleEffects" : {
+					"effect01" : {
+						"bonus" : {
+							"defenseDown" : {
+								"val" : -30
+							}
+						}
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Expert Sun Burst}\n\nSummons a shimmering pulse of pure sunlight.\n\nEach unit receives (Spell Power x 20 + 120) damage and has their Defense reduced by 40% for 3 turns.\n",
+				"cost" : 18,
+				"power" : 120,
+				"battleEffects" : {
+					"effect01" : {
+						"bonus" : {
+							"defenseDown" : {
+								"val" : -40
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

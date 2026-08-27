@@ -50,6 +50,21 @@
 		],
 		"value" : 34000
 	},
+	"core:titansThunder" : {
+		"text" : {
+			"description" : "{Titan's Thunder}\n\nIn addition to its component effects, this item grants you Titan's Lightning Bolt, a permanent Spell Book, and increases Air Magic Damage dealt by +50%."
+		},
+		"bonuses" : {
+			"spellDamage" : {
+				"type" : "SPELL_DAMAGE",
+				"subtype" : "spellSchool.air",
+				"val" : 50,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"class" : "MAJOR",
+		"value" : 45000
+	},
 
 	//LEFT HAND
 	"core:shieldOfTheYawningDead" : {
@@ -124,6 +139,9 @@
 		"class" : "MINOR"
 	},
 	"hota.artifacts:crownOfTheFiveSeas" : {
+		"text" : {
+			"description" : "{Crown of the Five Seas}\n\nWorn on the head, this item increases your Knowledge skill by +7."
+		},
 		"bonuses" : {
 			"skill" : {
 				"val" : 7
@@ -193,6 +211,9 @@
 		"class" : "MINOR"
 	},
 	"hota.artifacts:royalArmorOfNix" : {
+		"text" : {
+			"description" : "{Royal Armor of Nix}\n\nWorn on the torso, this item increases your Power skill by +7."
+		},
 		"bonuses" : {
 			"skill" : {
 				"val" : 7

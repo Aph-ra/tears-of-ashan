@@ -13,12 +13,12 @@
 			"max" : 20
 		},
 		"hitPoints" : 65,
-		"speed" : 9,
+		"speed" : 8,
 		"growth" : 3,
 		"aiValue" : 1200,
 		"fightValue" : 975,
 		"cost" : {
-			"gold" : 650
+			"gold" : 700
 		},
 		"advMapAmount" : {
 			"min" : 8,
@@ -39,7 +39,7 @@
 				"val" : 1,
 				"propagator" : "HERO",
 				"stacking" : "Minotaurs",
-				"description" : "{Raises Morale}\nMinotaur Taskmasters raise allied units' Morale by +1",
+				"description" : "{Raises Morale}\nMinotaur Taskmasters raise allied units' Morale by +1.",
 				"icon" : "zvs/Lib1.res/bonusmoraleangel"
 			},
 			"reduceDefence" : {

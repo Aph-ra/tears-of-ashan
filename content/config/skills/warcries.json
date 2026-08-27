@@ -43,7 +43,7 @@
 			}
 		},
 		"basic" : {
-			"description" : "{Basic Warcries}\n\nGrants the ability to shout Rallying Cry and Call of Blood.",
+			"description" : "{Basic Warcries}\n\nGrants the ability to shout Rallying Cry and Call of Blood.\n\n{Warcries are non-magical, meaning they are unaffected by Sorcery or any form of magic resistance.}",
 			"effects" : {
 				"warcriesSchool" : {
 					"val" : 1
@@ -60,14 +60,14 @@
 				}
 			},
 			"images" : {
-				"small" : "skills/warcriesSmall/1",
-				"medium" : "skills/warcriesMedium/1",
-				"large" : "skills/warcriesLarge/1",
-				"scenarioBonus" : "skills/warcriesBonus/1"
+				"small" : "skills/warcries/warcriesSmall/1",
+				"medium" : "skills/warcries/warcriesMedium/1",
+				"large" : "skills/warcries/warcriesLarge/1",
+				"scenarioBonus" : "skills/warcries/warcriesBonus/1"
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Warcries}\n\nGrants the ability to shout Fear My Roar and Word of the Chief in addition to previous shouts.",
+			"description" : "{Advanced Warcries}\n\nGrants the ability to shout Fear My Roar and Word of the Chief in addition to previous shouts.\n\n{Warcries are non-magical, meaning they are unaffected by Sorcery or any form of magic resistance.}",
 			"effects" : {
 				"warcriesSchool" : {
 					"val" : 2
@@ -84,14 +84,14 @@
 				}
 			},
 			"images" : {
-				"small" : "skills/warcriesSmall/2",
-				"medium" : "skills/warcriesMedium/2",
-				"large" : "skills/warcriesLarge/2",
-				"scenarioBonus" : "skills/warcriesBonus/2"
+				"small" : "skills/warcries/warcriesSmall/2",
+				"medium" : "skills/warcries/warcriesMedium/2",
+				"large" : "skills/warcries/warcriesLarge/2",
+				"scenarioBonus" : "skills/warcries/warcriesBonus/2"
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Warcries}\n\nGrants the ability to shout Horde's Anger and Battlecry in addition to previous shouts.",
+			"description" : "{Expert Warcries}\n\nGrants the ability to shout Horde's Anger and Battlecry in addition to previous shouts.\n\n{Warcries are non-magical, meaning they are unaffected by Sorcery or any form of magic resistance.}",
 			"effects" : {
 				"warcriesSchool" : {
 					"val" : 3
@@ -118,10 +118,10 @@
 				}
 			},
 			"images" : {
-				"small" : "skills/warcriesSmall/3",
-				"medium" : "skills/warcriesMedium/3",
-				"large" : "skills/warcriesLarge/3",
-				"scenarioBonus" : "skills/warcriesBonus/3"
+				"small" : "skills/warcries/warcriesSmall/3",
+				"medium" : "skills/warcries/warcriesMedium/3",
+				"large" : "skills/warcries/warcriesLarge/3",
+				"scenarioBonus" : "skills/warcries/warcriesBonus/3"
 			}
 		}
 	}

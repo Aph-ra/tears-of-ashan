@@ -1,5 +1,5 @@
 {
-	"grok" : {
+	"85grok" : {
 		"class" : "gatekeeper",
 		"female" : false,
 		"special" : false,
@@ -10,9 +10,9 @@
 			"name" : "Grok",
 			"biography" : "Grok's promotion as the Sovereign's \"go-fer\" was due to two things: his innate indefatigability and the Sovereign's love for massacre. He is his master's bloody entertainments manager, driving all manner of game and beings before Kha-Beleth to be slaughtered. The Sovereign knows that if there is a matter that must be handled quickly, there is no better fiend for it than the slavishly obedient and mindlessly brutal Grok.",
 			"specialty" : {
-				"description" : "Gates a stack of Imps, Gogs, and Hell Hounds at the start of battle.",
+				"name" : "Gate Master",
 				"tooltip" : "Secondary Skill Bonus: Gating",
-				"name" : "Gate Master"
+				"description" : "Gates a stack of Imps, Gogs, and Hell Hounds at the start of battle."
 			}
 		},
 

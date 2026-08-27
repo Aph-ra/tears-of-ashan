@@ -53,20 +53,20 @@
 			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"descreaseLuck" : {
+			"KING_2" : {
+				"type" : "KING",
+				"val" : 2
+			},
+			"decreaseLuck" : {
 				"type" : "LUCK",
 				"val" : -1,
 				"stacking" : "Devils",
 				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"description" : "@creatures.core.devil.bonus.decreaseLuck",
+				"description" : "{Decreases Luck}\nDevils and Arch Demons decrease enemy units' Luck by -1.",
 				"limiters" : [
 					"OPPOSITE_SIDE"
 				]
-			},
-			"KING_2" : {
-				"type" : "KING",
-				"val" : 2
 			},
 			"hateAngels" : {
 				"type" : "HATE",
@@ -84,7 +84,7 @@
 				"type" : "HATE",
 				"subtype" : "seraphAU",
 				"val" : 50,
-				"description" : "{Hates Angels}\nDoes 50% more Damage to Angels, Archangels, and Seraphim",
+				"description" : "{Hates Angels}\nDoes 50% more Damage to Angels, Archangels, and Seraphim.",
 				"icon" : "zvs/Lib1.res/hatearchdevils.png"
 			},
 			"casts" : {
@@ -99,14 +99,13 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "gate41Demon",
 				"val" : 2,
-				"description" : "{Spellcaster}\nCan cast Advanced Gate Demons (200% Power)",
+				"description" : "{Spellcaster}\nCan cast Advanced Gate Demons (200% Power).",
 				"icon" : "zvs/Lib1.res/E_SUMMON.png"
 			}
 		},
 		"graphics" : {
 			"animation" : "creatures/inferno/battle/lvl7Alt.def",
 			"map" : "creatures/inferno/map/lvl7Alt.def",
-			//"mapMask" : ["VVV","VAV"],
 			"iconSmall" : "creatures/inferno/iconsSmall/lvl7Alt.png",
 			"iconLarge" : "creatures/inferno/iconsBig/lvl7Alt.png",
 			"timeBetweenFidgets" : 1,

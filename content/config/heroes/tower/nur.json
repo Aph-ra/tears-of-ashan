@@ -1,0 +1,59 @@
+{
+	"55nur" : {
+		"class" : "wizard",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"sunBurst"
+		],
+		"texts" : {
+			"name" : "Nur",
+			"biography" : "Nur is one of those beings that not only wields magic, but is inherently magical. A Djinn master of meditation and mental focus, Nur's battles with Chaos magic across many planes has led her to develop exceptional magic affinity. Nur was believed lost for centuries after a mad Wizard tried to absorb her powers, but her brother, Solmyr, was eventually able to restore her.",
+			"specialty" : {
+				"name" : "Sorcery",
+				"tooltip" : "Secondary Skill Bonus: Sorcery",
+				"description" : "Receives a 5% per level bonus to Sorcery skill percentage."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/tower/nur/portraitSmall.png",
+			"large" : "heroes/tower/nur/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Sorcery.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Sorcery.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "sorcery",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"secondary" : "sorcery"
+		},
+
+		"army" : [
+			{
+				"creature" : "gremlin",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	}
+}

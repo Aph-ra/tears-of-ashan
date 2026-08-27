@@ -65,7 +65,7 @@
 					1,
 					0
 				],
-				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Slow after attacking (2 Power)",
+				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Slow after attacking (2 Power).",
 				"icon" : "zvs/Lib1.res/spellsSOD/slow1.png"
 			},
 			"slowPower" : {

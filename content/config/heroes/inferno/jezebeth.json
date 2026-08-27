@@ -1,5 +1,5 @@
 {
-	"jezebeth" : {
+	"84jezebeth" : {
 		"class" : "gatekeeperSuccubusSpec",
 		"female" : true,
 		"special" : false,
@@ -10,9 +10,9 @@
 			"name" : "Jezebeth",
 			"biography" : "Jezebeth is rightfully proud that she has achieved her high standing in the Demon ranks thanks to her temptress' talents. Worshipping her as a shining example, Jezebeth's Succubus followers strive to equal her ability to seduce and murder for the glory of their Sovereign.",
 			"specialty" : {
-				"description" : "Increases the Speed of allied Succubi, Succubus Seducers, and Lilims by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up). Can gate Succubus Seducers with Advanced Gating.",
+				"name" : "Succubi",
 				"tooltip" : "Creature Bonus: Succubi",
-				"name" : "Succubi"
+				"description" : "Increases the Speed of allied Succubi, Succubus Seducers, and Lilims by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up). Can gate Succubus Seducers with Advanced Gating."
 			}
 		},
 

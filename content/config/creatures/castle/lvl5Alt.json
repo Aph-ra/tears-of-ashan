@@ -40,7 +40,7 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "bless",
 				"val" : 2,
-				"description" : "{Spellcaster}\nCan cast Advanced Bless (6 Power)",
+				"description" : "{Spellcaster}\nCan cast Advanced Bless (6 Power).",
 				"icon" : "zvs/Lib1.res/spellsSOD/bless2.png"
 			},
 			"blessPower" : {

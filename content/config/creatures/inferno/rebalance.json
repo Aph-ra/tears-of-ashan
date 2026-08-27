@@ -277,7 +277,7 @@
 				"type" : "HATE",
 				"subtype" : "genieVizierAU",
 				"val" : 50,
-				"description" : "{Hates Genies}\nDoes 50% more Damage to Genies, Master Genies, and Genie Viziers",
+				"description" : "{Hates Genies}\nDoes 50% more Damage to Genies, Master Genies, and Genie Viziers.",
 				"icon" : "zvs/Lib1.res/hatesultans1.png"
 			}
 		}
@@ -333,7 +333,7 @@
 				"type" : "HATE",
 				"subtype" : "genieVizierAU",
 				"val" : 50,
-				"description" : "{Hates Genies}\nDoes 50% more Damage to Genies, Master Genies, and Genie Viziers",
+				"description" : "{Hates Genies}\nDoes 50% more Damage to Genies, Master Genies, and Genie Viziers.",
 				"icon" : "zvs/Lib1.res/hatesultans1.png"
 			}
 		}
@@ -367,6 +367,9 @@
 				"val" : 25,
 				"hidden" : true
 			},
+			"decreaseLuck" : {
+				"description" : "{Decreases Luck}\nDevils and Arch Demons decrease enemy units' Luck by -1."
+			},
 			"hateAngels" : {
 				"hidden" : true
 			},
@@ -377,7 +380,7 @@
 				"type" : "HATE",
 				"subtype" : "seraphAU",
 				"val" : 50,
-				"description" : "{Hates Angels}\nDoes 50% more Damage to Angels, Archangels, and Seraphim",
+				"description" : "{Hates Angels}\nDoes 50% more Damage to Angels, Archangels, and Seraphim.",
 				"icon" : "zvs/Lib1.res/hatearchdevils.png"
 			}
 		}
@@ -411,6 +414,9 @@
 				"val" : 25,
 				"hidden" : true
 			},
+			"decreaseLuck" : {
+				"description" : "{Decreases Luck}\nArch Devils decrease enemy units' Luck by -2."
+			},
 			"hateAngels" : {
 				"hidden" : true
 			},
@@ -421,7 +427,7 @@
 				"type" : "HATE",
 				"subtype" : "seraphAU",
 				"val" : 50,
-				"description" : "{Hates Angels}\nDoes 50% more Damage to Angels, Archangels, and Seraphim",
+				"description" : "{Hates Angels}\nDoes 50% more Damage to Angels, Archangels, and Seraphim.",
 				"icon" : "zvs/Lib1.res/hatearchdevils.png"
 			}
 		}

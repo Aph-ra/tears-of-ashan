@@ -22,9 +22,9 @@
 	"core:valeska" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Archers, Marksmen, and Crossbowmen by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
 				"name" : "Archers",
-				"tooltip" : "Creature Bonus: Archers"
+				"tooltip" : "Creature Bonus: Archers",
+				"description" : "Increases the Speed of allied Archers, Marksmen, and Crossbowmen by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
 			}
 		},
 		"specialty#override" : {
@@ -36,9 +36,9 @@
 	"core:edric" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Griffins, Royal Griffins, and Battle Griffins by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
 				"name" : "Griffins",
-				"tooltip" : "Creature Bonus: Griffins"
+				"tooltip" : "Creature Bonus: Griffins",
+				"description" : "Increases the Speed of allied Griffins, Royal Griffins, and Battle Griffins by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."
 			}
 		},
 		"specialty#override" : {
@@ -65,6 +65,13 @@
 		]
 	},
 	"core:sylvia" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "Navigation",
+				"tooltip" : "Secondary Skill Bonus: Navigation",
+				"description" : "Receives a bonus of 75 extra movement points at sea per level."
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "pikeman",
@@ -125,9 +132,9 @@
 	"core:sorsha" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Swordsmen, Crusaders, and Guardsmen by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
 				"name" : "Swordsmen",
-				"tooltip" : "Creature Bonus: Swordsmen"
+				"tooltip" : "Creature Bonus: Swordsmen",
+				"description" : "Increases the Speed of allied Swordsmen, Crusaders, and Guardsmen by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
 			}
 		},
 		"specialty#override" : {
@@ -225,9 +232,9 @@
 		"special" : false,
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Morale of allied creatures by 1.",
 				"name" : "Leadership",
-				"tooltip" : "Creature Bonus: Leadership"
+				"tooltip" : "Creature Bonus: Leadership",
+				"description" : "Increases the Morale of allied creatures by 1."
 			}
 		},
 		"specialty#override" : {
@@ -315,6 +322,11 @@
 		}
 	},
 	"core:sirMullich" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied creatures by 2."
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "pikeman",
@@ -336,9 +348,9 @@
 	"core:adela" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Damage of units affected by Divine Strength by 10% for every N hero levels, where N is the level of the target creature.",
 				"name" : "Divine Strength",
-				"tooltip" : "Spell Bonus: Divine Strength"
+				"tooltip" : "Spell Bonus: Divine Strength",
+				"description" : "Increases the Damage of units affected by Divine Strength by 10% for every N hero levels, where N is the level of the target creature."
 			}
 		},
 		"army#override" : [
@@ -448,6 +460,71 @@
 		]
 	},
 	"core:loynis" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Prayer with effect increased by 1 for every 7 hero levels."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"attackBonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack",
+					"val" : 1,
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.prayer"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 7
+					}
+				},
+				"defenceBonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"val" : 1,
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.prayer"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 7
+					}
+				},
+				"speedBonus" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.prayer"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 7
+					}
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "pikeman",
@@ -938,6 +1015,21 @@
 		]
 	},
 	"core:melodia" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "Luck",
+				"tooltip" : "Creature Bonus: Luck",
+				"description" : "Increases the Luck of allied creatures by 1."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"morale" : {
+					"type" : "LUCK",
+					"val" : 1
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "centaur",
@@ -954,7 +1046,13 @@
 				"min" : 3,
 				"max" : 5
 			}
-		]
+		],
+		"images" : {
+			"small" : "HPS029DR.png",
+			"large" : "HPL029DR.png",
+			"specialtySmall" : "heroes/specialtySmall/Expert Luck.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Expert Luck.png"
+		}
 	},
 	"core:alagar" : {
 		"army#override" : [
@@ -1333,6 +1431,21 @@
 		}
 	},
 	"core:daremyth" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "Luck",
+				"tooltip" : "Creature Bonus: Luck",
+				"description" : "Increases the Luck of allied creatures by 1."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"morale" : {
+					"type" : "LUCK",
+					"val" : 1
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "gremlin",
@@ -1349,7 +1462,13 @@
 				"min" : 4,
 				"max" : 5
 			}
-		]
+		],
+		"images" : {
+			"small" : "HPS043WZ.PCX",
+			"large" : "HPL043WZ.PCX",
+			"specialtySmall" : "heroes/specialtySmall/Expert Luck.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Expert Luck.png"
+		}
 	},
 	"core:theodorus" : {
 		"texts" : {
@@ -1402,6 +1521,33 @@
 		]
 	},
 	"core:cyra" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Haste with effect increased by 1 for every 7 hero levels."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"haste" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.haste"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 7
+					}
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "gremlin",
@@ -1908,6 +2054,34 @@
 		}
 	},
 	"core:ash" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Bloodlust with effect increased by 2 for every 5 hero levels."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"bloodlust" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack",
+					"val" : 2,
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.bloodlust"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 5
+					}
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "imp",
@@ -2337,6 +2511,34 @@
 		]
 	},
 	"core:xsi" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Stone Skin with effect increased by 2 for every 5 hero levels."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"stoneSkin" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"val" : 2,
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.stoneSkin"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 5
+					}
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "skeleton",
@@ -2954,6 +3156,34 @@
 		}
 	},
 	"core:darkstorn" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Stone Skin with effect increased by 2 for every 5 hero levels."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"stoneSkin" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"val" : 2,
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.stoneSkin"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 5
+					}
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "troglodyte",
@@ -3233,6 +3463,16 @@
 				"max" : 7
 			}
 		],
+		"skills#override" : [
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			},
+			{
+				"skill" : "bloodRage",
+				"level" : "basic"
+			}
+		],
 		"images" : {
 			"small" : "HPS001SH.PCX",
 			"large" : "HPL001SH.PCX",
@@ -3271,6 +3511,16 @@
 				"max" : 7
 			}
 		],
+		"skills#override" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "bloodRage",
+				"level" : "basic"
+			}
+		],
 		"images" : {
 			"small" : "HPS005SH.PCX",
 			"large" : "HPL005SH.PCX",
@@ -3306,17 +3556,31 @@
 		],
 		"texts" : {
 			"specialty" : {
-				"description" : "Casts Bloodlust with effect increased by 10 for level 1–2 creatures, by 8 for level 3–4 creatures, by 6 for level 5–6 creatures, and by 4 for level 7 creatures.",
 				"name" : "Bloodlust",
-				"tooltip" : "Spell Bonus: Bloodlust"
+				"tooltip" : "Spell Bonus: Bloodlust",
+				"description" : "Casts Bloodlust with effect increased by 2 for every 5 hero levels."
 			}
 		},
 		"specialty#override" : {
 			"bonuses" : {
 				"bloodlust" : {
-					"addInfo" : 0,
-					"subtype" : "spell.bloodlust",
-					"type" : "SPECIAL_PECULIAR_ENCHANT"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack",
+					"val" : 2,
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.bloodlust"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 5
+					}
 				}
 			}
 		},
@@ -3335,6 +3599,16 @@
 				"creature" : "orc",
 				"min" : 4,
 				"max" : 7
+			}
+		],
+		"skills#override" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "fireMagic",
+				"level" : "basic"
 			}
 		],
 		"images" : {
@@ -3364,6 +3638,33 @@
 		]
 	},
 	"core:terek" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Haste with effect increased by 1 for every 7 hero levels."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"haste" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.haste"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 7
+					}
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "goblin",
@@ -3383,6 +3684,35 @@
 		]
 	},
 	"core:zubin" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Precision with effect increased by 2 for every 5 hero levels."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"precision" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack",
+					"val" : 2,
+					"valueType" : "ADDITIVE_VALUE",
+					"effectRange" : "ONLY_DISTANCE_FIGHT",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.precision"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 5
+					}
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "goblin",
@@ -3398,6 +3728,16 @@
 				"creature" : "orc",
 				"min" : 4,
 				"max" : 7
+			}
+		],
+		"skills#override" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "airMagic",
+				"level" : "basic"
 			}
 		]
 	},
@@ -3471,6 +3811,16 @@
 				"creature" : "orc",
 				"min" : 4,
 				"max" : 7
+			}
+		],
+		"skills#override" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "warcries",
+				"level" : "basic"
 			}
 		],
 		"images" : {
@@ -3717,6 +4067,16 @@
 				"min" : 3,
 				"max" : 5
 			}
+		],
+		"skills#override" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "occultism",
+				"level" : "basic"
+			}
 		]
 	},
 	"core:rosic" : {
@@ -3739,6 +4099,13 @@
 		]
 	},
 	"core:voy" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "Navigation",
+				"tooltip" : "Secondary Skill Bonus: Navigation",
+				"description" : "Receives a bonus of 75 extra movement points at sea per level."
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "gnoll",
@@ -3823,6 +4190,34 @@
 		]
 	},
 	"core:merist" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Stone Skin with effect increased by 2 for every 5 hero levels."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"stoneSkin" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"val" : 2,
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.stoneSkin"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 5
+					}
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "gnoll",
@@ -3857,6 +4252,16 @@
 				"creature" : "serpentFly",
 				"min" : 3,
 				"max" : 5
+			}
+		],
+		"skills#override" : [
+			{
+				"skill" : "occultism",
+				"level" : "basic"
+			},
+			{
+				"skill" : "sorcery",
+				"level" : "basic"
 			}
 		]
 	},
@@ -4261,6 +4666,33 @@
 		]
 	},
 	"core:brissa" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Haste with effect increased by 1 for every 7 hero levels."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"haste" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.haste"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 7
+					}
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "pixie",
@@ -4282,7 +4714,17 @@
 	"core:ciele" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the damage of Magic Arrow by 50%."
+				"description" : "Casts Magic Arrow with damage increased by 20% for every N hero levels, where N is the level of the target creature."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"magicArrow" : {
+					"subtype" : "spell.magicArrow",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 20
+				}
 			}
 		},
 		"army#override" : [
@@ -4304,6 +4746,34 @@
 		]
 	},
 	"core:labetha" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Stone Skin with effect increased by 2 for every 5 hero levels."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"stoneSkin" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"val" : 2,
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.stoneSkin"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 5
+					}
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "pixie",
@@ -4323,6 +4793,34 @@
 		]
 	},
 	"core:inteus" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Bloodlust with effect increased by 2 for every 5 hero levels."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"bloodlust" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack",
+					"val" : 2,
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.bloodlust"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 5
+					}
+				}
+			}
+		},
 		"army#override" : [
 			{
 				"creature" : "pixie",
@@ -4428,9 +4926,9 @@
 	"hota.cove:02jeremy" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Cannon's Attack and Defense skills by 20% for every 6 levels (rounded up).",
 				"name" : "Cannon",
-				"tooltip" : "Creature Bonus: Cannon"
+				"tooltip" : "Creature Bonus: Cannon",
+				"description" : "Increases the Cannon's Attack and Defense skills by 20% for every 6 levels (rounded up)."
 			}
 		},
 		"specialty#override" : {
@@ -4442,9 +4940,9 @@
 	"hota.cove:03illor" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Stormbirds, Ayssids, and Halcyons by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
 				"name" : "Stormbirds",
-				"tooltip" : "Creature Bonus: Stormbirds"
+				"tooltip" : "Creature Bonus: Stormbirds",
+				"description" : "Increases the Speed of allied Stormbirds, Ayssids, and Halcyons by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
 			}
 		},
 		"specialty#override" : {
@@ -4469,6 +4967,15 @@
 				"max" : 3
 			}
 		]
+	},
+	"hota.cove:04elmore" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "Navigation",
+				"tooltip" : "Secondary Skill Bonus: Navigation",
+				"description" : "Receives a bonus of 75 extra movement points at sea per level."
+			}
+		}
 	},
 	"hota.cove:05derek" : {
 		"texts" : {
@@ -4502,9 +5009,9 @@
 	"hota.cove:07anabel" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Pirates, Corsairs, and Sea Dogs by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
 				"name" : "Pirates",
-				"tooltip" : "Creature Bonus: Pirates"
+				"tooltip" : "Creature Bonus: Pirates",
+				"description" : "Increases the Speed of allied Pirates, Corsairs, and Sea Dogs by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."
 			}
 		},
 		"specialty#override" : {
@@ -4516,9 +5023,9 @@
 	"hota.cove:08cassiopeia" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Nymphs, Oceanids, and Nereids by 1 and their Attack and Defense skills by 10% for every level (rounded up).",
 				"name" : "Nymphs",
-				"tooltip" : "Creature Bonus: Nymphs"
+				"tooltip" : "Creature Bonus: Nymphs",
+				"description" : "Increases the Speed of allied Nymphs, Oceanids, and Nereids by 1 and their Attack and Defense skills by 10% for every level (rounded up)."
 			}
 		},
 		"specialty#override" : {
@@ -4531,9 +5038,9 @@
 		"special" : false,
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Nix, Nix Warriors, and Nix Praetorians by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
 				"name" : "Nix",
-				"tooltip" : "Creature Bonus: Nix"
+				"tooltip" : "Creature Bonus: Nix",
+				"description" : "Increases the Speed of allied Nix, Nix Warriors, and Nix Praetorians by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up)."
 			}
 		},
 		"specialty#override" : {
@@ -4562,9 +5069,9 @@
 	"hota.cove:12casmetra" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Sea Witches, Sorceresses, and Tidecallers by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
 				"name" : "Sea Witches",
-				"tooltip" : "Creature Bonus: Sea Witches"
+				"tooltip" : "Creature Bonus: Sea Witches",
+				"description" : "Increases the Speed of allied Sea Witches, Sorceresses, and Tidecallers by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up)."
 			}
 		},
 		"specialty#override" : {
@@ -4619,9 +5126,9 @@
 	"hota.factory:01henrietta" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Halflings and Halfling Grenadiers by 1 and their Attack and Defense skills by 10% for every level (rounded up).",
 				"name" : "Halflings",
-				"tooltip" : "Creature Bonus: Halflings"
+				"tooltip" : "Creature Bonus: Halflings",
+				"description" : "Increases the Speed of allied Halflings and Halfling Grenadiers by 1 and their Attack and Defense skills by 10% for every level (rounded up)."
 			}
 		},
 		"specialty#override" : {
@@ -4633,9 +5140,9 @@
 	"hota.factory:02sam" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Mechanics and Engineers by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
 				"name" : "Mechanics",
-				"tooltip" : "Creature Bonus: Mechanics"
+				"tooltip" : "Creature Bonus: Mechanics",
+				"description" : "Increases the Speed of allied Mechanics and Engineers by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
 			}
 		},
 		"specialty#override" : {
@@ -4647,9 +5154,9 @@
 	"hota.factory:03tancred" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Gunslingers and Bounty Hunters by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
 				"name" : "Gunslingers",
-				"tooltip" : "Creature Bonus: Gunslingers"
+				"tooltip" : "Creature Bonus: Gunslingers",
+				"description" : "Increases the Speed of allied Gunslingers and Bounty Hunters by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up)."
 			}
 		},
 		"specialty#override" : {
@@ -4674,6 +5181,29 @@
 				"max" : 1
 			}
 		]
+	},
+	"hota.factory:04melchior" : {
+		"special" : true,
+		"texts" : {
+			"specialty" : {
+				"name" : "Diplomacy",
+				"tooltip" : "Secondary Skill Bonus: Diplomacy",
+				"description" : "Decreases the disposition of wandering creatures by 1 for every 7 hero levels."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"diplomacy" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "WANDERING_CREATURES_JOIN_BONUS",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 7
+					}
+				}
+			}
+		}
 	},
 	"hota.factory:05floribert" : {
 		"texts" : {
@@ -4707,9 +5237,9 @@
 	"hota.factory:08morton" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Ballista's Attack and Defense skills by 30% for every 5 levels (rounded up).",
 				"name" : "Ballista",
-				"tooltip" : "Creature Bonus: Ballista"
+				"tooltip" : "Creature Bonus: Ballista",
+				"description" : "Increases the Ballista's Attack and Defense skills by 30% for every 5 levels (rounded up)."
 			}
 		},
 		"specialty#override" : {
@@ -4721,9 +5251,9 @@
 	"hota.factory:11celestine" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Armadillos and Bellwether Armadillos by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
 				"name" : "Armadillos",
-				"tooltip" : "Creature Bonus: Armadillos"
+				"tooltip" : "Creature Bonus: Armadillos",
+				"description" : "Increases the Speed of allied Armadillos and Bellwether Armadillos by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."
 			}
 		},
 		"specialty#override" : {
@@ -4735,9 +5265,9 @@
 	"hota.factory:12todd" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Automatons and Sentinel Automatons by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
 				"name" : "Automatons",
-				"tooltip" : "Creature Bonus: Automatons"
+				"tooltip" : "Creature Bonus: Automatons",
+				"description" : "Increases the Speed of allied Automatons and Sentinel Automatons by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
 			}
 		},
 		"specialty#override" : {
@@ -4766,9 +5296,9 @@
 	"hota.factory:13agar" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Sandworms and Olgoi-Khorkhoi by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
 				"name" : "Sandworms",
-				"tooltip" : "Creature Bonus: Sandworms"
+				"tooltip" : "Creature Bonus: Sandworms",
+				"description" : "Increases the Speed of allied Sandworms and Olgoi-Khorkhoi by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up)."
 			}
 		},
 		"specialty#override" : {
@@ -4810,6 +5340,29 @@
 		}
 	},
 	//BULWARK
+	"hota.bulwark:02oidana" : {
+		"special" : true,
+		"texts" : {
+			"specialty" : {
+				"name" : "Diplomacy",
+				"tooltip" : "Secondary Skill Bonus: Diplomacy",
+				"description" : "Decreases the disposition of wandering creatures by 1 for every 7 hero levels."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"diplomacy" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "WANDERING_CREATURES_JOIN_BONUS",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 7
+					}
+				}
+			}
+		}
+	},
 	"hota.bulwark:05creyle" : {
 		"army#override" : [
 			{
@@ -4896,6 +5449,36 @@
 			}
 		}
 	},
+	"hota.bulwark:14akka" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Bloodlust with effect increased by 2 for every 5 hero levels."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"bloodlust" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack",
+					"val" : 2,
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.bloodlust"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 5
+					}
+				}
+			}
+		}
+	},
 	"hota.bulwark:15vehr" : {
 		"texts" : {
 			"specialty" : {
@@ -4910,5 +5493,17 @@
 				}
 			}
 		}
+	},
+	"hota.bulwark:17haugir" : {
+		"texts" : {
+			"specialty" : {
+				"name" : "Navigation",
+				"tooltip" : "Secondary Skill Bonus: Navigation",
+				"description" : "Receives a bonus of 75 extra movement points at sea per level."
+			}
+		},
+		"spellbook#override" : [
+			"summonBoat"
+		]
 	}
 }

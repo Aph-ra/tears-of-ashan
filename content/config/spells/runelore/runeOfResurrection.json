@@ -1,0 +1,88 @@
+{
+	"runeOfResurrection" : {
+		"type" : "combat",
+		"name" : "Rune of Resurrection",
+		"school" : {
+			"05runeloreSchool" : true
+		},
+		"level" : 5,
+		"power" : 100,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"bulwark" : 0
+		},
+
+		"flags" : {
+			"positive" : true,
+			"rising" : true,
+			"special" : true
+		},
+
+		"graphics" : {
+			"iconBook" : "spells/runelore/runeOfResurrection/spellBook",
+			"iconScroll" : "spells/runelore/runeOfResurrection/spellScroll",
+			"iconScenarioBonus" : "spells/runelore/runeOfResurrection/spellBonus",
+			"iconEffect" : "spells/runelore/runeOfResurrection/spellEffect"
+		},
+
+		"animation" : {
+			"affect" : [
+				{
+					"defName" : "C01SPE0",
+					"transparency" : 0.5
+				}
+			]
+		},
+
+		"sounds" : {
+			"cast" : "RESURECT"
+		},
+
+		"targetType" : "CREATURE",
+
+		"levels" : {
+			"base" : {
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				},
+				"battleEffects" : {
+					"resurrectBonus" : {
+						"type" : "core:heal",
+						"minFullUnits" : 1,
+						"healLevel" : "resurrect",
+						"healPower" : "permanent"
+					},
+					"dispelBonus" : {
+						"type" : "core:dispel",
+						"indirect" : true,
+						"optional" : true,
+						"dispelNegative" : true,
+						"dispelNeutral" : false,
+						"dispelPositive" : false
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Rune of Resurrection}\n\nPlaces the Rune of Resurrection upon an allied unit, permanently reanimating any killed units.\n\nReanimates 100 + (Power x 100) Health worth of creatures.",
+				"cost" : 35,
+				"power" : 100
+			},
+			"basic" : {
+				"description" : "{Basic Rune of Resurrection}\n\nPlaces the Rune of Resurrection upon an allied unit, permanently reanimating any killed units.\n\nReanimates 100 + (Power x 100) Health worth of creatures.",
+				"cost" : 35,
+				"power" : 100
+			},
+			"advanced" : {
+				"description" : "{Advanced Rune of Resurrection}\n\nPlaces the Rune of Resurrection upon an allied unit, permanently reanimating any killed units.\n\nReanimates 200 + (Power x 100) Health worth of creatures.",
+				"cost" : 30,
+				"power" : 200
+			},
+			"expert" : {
+				"description" : "{Expert Rune of Resurrection}\n\nPlaces the Rune of Resurrection upon an allied unit, permanently reanimating any killed units.\n\nReanimates 400 + (Power x 100) Health worth of creatures.",
+				"cost" : 30,
+				"power" : 400
+			}
+		}
+	}
+}

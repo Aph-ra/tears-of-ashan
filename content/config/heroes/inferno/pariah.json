@@ -1,5 +1,5 @@
 {
-	"pariah" : {
+	"83pariah" : {
 		"class" : "gatekeeper",
 		"female" : false,
 		"special" : false,
@@ -10,7 +10,7 @@
 		],
 		"texts" : {
 			"name" : "Pariah",
-			"biography" : "A demon from the depths of Ashan, Pariah is far more powerful than any and all Kreegan Pit Lords. He prefers the company of Devils more than any lesser demon. Most frighteningly, he possesses surreal magical capabilities that rival most seasoned mages and warlocks.",
+			"biography" : "A demon from the depths of Ashan, Pariah is far more powerful than any Kreegan Pit Lord. He prefers the company of Devils more than any lesser demon. Most frighteningly, he possesses surreal magical capabilities that rival most seasoned mages and warlocks.",
 			"specialty" : {
 				"name" : "Sorcery",
 				"tooltip" : "Secondary Skill Bonus: Sorcery",

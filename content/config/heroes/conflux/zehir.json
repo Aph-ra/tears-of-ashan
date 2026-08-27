@@ -1,0 +1,93 @@
+{
+	"53zehir" : {
+		"class" : "elementalist",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [],
+		"texts" : {
+			"name" : "Zehir",
+			"biography" : "Excitable, headstrong, and energetic are the sorts of words the older Mages use to describe Zehir. He chose to master elemental magic, figuring (correctly) that if he could control beings as fickle and powerful as elementals he would be well prepared for any magical struggle.Though the title First of the Circle was granted to the young Mage in the hopes of staving off political infighting during a crisis, the other wizards of the Circle quickly realized that it was only a matter of time before Zehir's skills surpassed theirs - time that is more likely to be measured in months than in years.",
+			"specialty" : {
+				"name" : "Elemental Master",
+				"tooltip" : "Spell Bonus: Elemental Master",
+				"description" : "Always casts Summon Elemental spells at Expert level. Starts with all Summon Elemental spells."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/conflux/zehir/portraitSmall.png",
+			"large" : "heroes/conflux/zehir/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Master of Elements.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Master of Elements.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "intelligence",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"airElemental" : {
+					"type" : "SPELL",
+					"subtype" : "airElemental",
+					"val" : 3
+				},
+				"waterElemental" : {
+					"type" : "SPELL",
+					"subtype" : "waterElemental",
+					"val" : 3
+				},
+				"fireElemental" : {
+					"type" : "SPELL",
+					"subtype" : "fireElemental",
+					"val" : 3
+				},
+				"earthElemental" : {
+					"type" : "SPELL",
+					"subtype" : "earthElemental",
+					"val" : 3
+				},
+				"psychicElemental" : {
+					"type" : "SPELL",
+					"subtype" : "psychicElemental",
+					"val" : 3
+				},
+				"lightElemental" : {
+					"type" : "SPELL",
+					"subtype" : "lightElemental",
+					"val" : 3
+				},
+				"darkElemental" : {
+					"type" : "SPELL",
+					"subtype" : "darkElemental",
+					"val" : 3
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

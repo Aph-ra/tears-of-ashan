@@ -1,0 +1,35 @@
+{
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "sunBeamProj01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "sunBeamProj02.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "sunBeamProj03.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "sunBeamProj04.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "sunBeamProj05.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "sunBeamProj06.png"
+		}
+	],
+	"basepath" : "spells/sunBeam/projectile/"
+}

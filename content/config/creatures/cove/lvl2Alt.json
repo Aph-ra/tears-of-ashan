@@ -42,7 +42,7 @@
 				},
 				"stacking" : "base",
 				"icon" : "zvs/Lib1.res/gold3.png",
-				"description" : "{Generates Gold}\nSwashbucklers produce 15 Gold per unit per day while in a hero's army"
+				"description" : "{Generates Gold}\nSwashbucklers plunder 15 Gold per unit per day while in a hero's army."
 			}
 		},
 		"graphics" : {

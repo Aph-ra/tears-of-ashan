@@ -1,0 +1,73 @@
+{
+	"lightElemental" : {
+		"name" : "Light Elemental",
+		"type" : "combat",
+		"school" : {
+			"01lightSchool" : true
+		},
+		"level" : 5,
+		"power" : 1,
+		"defaultGainChance" : 10,
+		"gainChance" : {
+			"rampart" : 15,
+			"inferno" : 5,
+			"necropolis" : 0,
+			"conflux" : 25
+		},
+
+		"flags" : {
+			"indifferent" : true
+		},
+
+		"targetCondition" : {},
+
+		"graphics" : {
+			"iconBook" : "spells/summonLight/spellBook",
+			"iconScroll" : "spells/summonLight/spellScroll",
+			"iconScenarioBonus" : "spells/summonLight/spellBonus",
+			"iconEffect" : "spells/summonLight/spellEffect"
+		},
+
+		"animation" : {},
+
+		"sounds" : {
+			"cast" : "SUMNELM"
+		},
+
+		"targetType" : "NO_TARGET",
+
+		"levels" : {
+			"base" : {
+				"range" : "X",
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : false,
+						"id" : "lightElementalAU",
+						"permanent" : false,
+						"type" : "core:summon"
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Light Elemental}\n\nSummons a stack of (Spell Power x 1) Light Elementals to aid you in combat.\n\nOnce summoned, other types of Elementals may also be summoned.\n",
+				"cost" : 100,
+				"power" : 1
+			},
+			"basic" : {
+				"description" : "{Basic Light Elemental}\n\nSummons a stack of (Spell Power x 1) Light Elementals to aid you in combat.\n\nOnce summoned, other types of Elementals may also be summoned.\n",
+				"cost" : 90,
+				"power" : 1
+			},
+			"advanced" : {
+				"description" : "{Advanced Light Elemental}\n\nSummons a stack of (Spell Power x 2) Light Elementals to aid you in combat.\n\nOnce summoned, other types of Elementals may also be summoned.\n",
+				"cost" : 90,
+				"power" : 2
+			},
+			"expert" : {
+				"description" : "{Expert Light Elemental}\n\nSummons a stack of (Spell Power x 2) Light Elementals to aid you in combat.\n\nOnce summoned, other types of Elementals may also be summoned.\n",
+				"cost" : 80,
+				"power" : 2
+			}
+		}
+	}
+}

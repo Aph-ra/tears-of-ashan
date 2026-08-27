@@ -1,0 +1,13 @@
+{
+	"ACCURSED02" : {
+		"hidden" : false,
+
+		"creatureNature" : false,
+
+		"description" : "{Accursed}\nEffects of debuffing spells on this creature are increased by 50% (Advanced).",
+
+		"graphics" : {
+			"icon" : "bonuses/accursed02.png"
+		}
+	}
+}

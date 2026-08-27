@@ -1,0 +1,87 @@
+{
+	"86deleb" : {
+		"class" : "gatekeeper",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"precision"
+		],
+		"texts" : {
+			"name" : "Deleb",
+			"biography" : "One of the generals charged to refit Kha-Beleth's prison to better suit his own needs, the demoness Deleb developed an intricate knowledge of machines. Nicknamed \"Meat Grinder\" by her detractors, Deleb puts unquestioning faith in her own engines of war rather than trusting to fickle Demon troops, whose loyalty is a constant balance between terror of their masters and terror for their lives.",
+			"specialty" : {
+				"name" : "Iron Maiden",
+				"tooltip" : "Creature Bonus: Iron Maiden",
+				"description" : "The Ballista fires incendiary bolts that create a fiery burst on impact. Basic Fireball is cast with Power equal to the hero's level after every shot."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/inferno/deleb/portraitSmall.png",
+			"large" : "heroes/inferno/deleb/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Iron Maiden.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Iron Maiden.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "gating",
+				"level" : "basic"
+			},
+			{
+				"skill" : "artillery",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"castFireball" : {
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "fireball",
+					"val" : 100,
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "ballista",
+							"includeUpgrades" : true
+						}
+					],
+					"description" : "{Spellcaster}\nCasts Basic Fireball after attacking (Hero Level Power).",
+					"icon" : "zvs/Lib1.res/spellsSOD/fireball1.png"
+				},
+				"fireballPower" : {
+					"type" : "CREATURE_SPELL_POWER",
+					"subtype" : "fireball",
+					"val" : 100,
+					"updater" : "TIMES_HERO_LEVEL",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "ballista",
+							"includeUpgrades" : true
+						}
+					]
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "imp",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "ballista",
+				"min" : 1,
+				"max" : 1
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	}
+}

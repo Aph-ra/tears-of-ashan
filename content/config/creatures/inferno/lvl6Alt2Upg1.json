@@ -68,13 +68,13 @@
 			},
 			"fearsomeBonus" : {
 				"type" : "NONE",
-				"description" : "{Fearsome}\nHas a 10% chance to inflict enemies with Fear",
+				"description" : "{Fearsome}\nHas a 10% chance to inflict enemies with Fear.",
 				"icon" : "zvs/Lib1.res/e_fear.png"
 			},
 			"fearlessBonus" : {
 				"type" : "NONE",
 				"val" : 0,
-				"description" : "{Fearless}\nUnaffected by Fear",
+				"description" : "{Fearless}\nUnaffected by Fear.",
 				"icon" : "zvs/Lib1.res/e_fearl.png"
 			}
 		},

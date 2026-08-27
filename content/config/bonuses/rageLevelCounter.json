@@ -1,0 +1,49 @@
+{
+	"RAGE_LEVEL_COUNTER" : {
+		"hidden" : false,
+
+		"creatureNature" : false,
+
+		"description" : "Under the effect of Blood Rage.",
+
+		"graphics" : {
+			"valueIcons" : {
+				"0" : "skills/bloodRage/bloodRageLevels/bloodRage00",
+				"1" : "skills/bloodRage/bloodRageLevels/bloodRage01",
+				"2" : "skills/bloodRage/bloodRageLevels/bloodRage02",
+				"3" : "skills/bloodRage/bloodRageLevels/bloodRage03",
+				"4" : "skills/bloodRage/bloodRageLevels/bloodRage04",
+				"5" : "skills/bloodRage/bloodRageLevels/bloodRage05",
+				"6" : "skills/bloodRage/bloodRageLevels/bloodRage06",
+				"7" : "skills/bloodRage/bloodRageLevels/bloodRage07",
+				"8" : "skills/bloodRage/bloodRageLevels/bloodRage08",
+				"9" : "skills/bloodRage/bloodRageLevels/bloodRage09",
+				"10" : "skills/bloodRage/bloodRageLevels/bloodRage10",
+				"11" : "skills/bloodRage/bloodRageLevels/bloodRage11",
+				"12" : "skills/bloodRage/bloodRageLevels/bloodRage12",
+				"13" : "skills/bloodRage/bloodRageLevels/bloodRage13",
+				"14" : "skills/bloodRage/bloodRageLevels/bloodRage14",
+				"15" : "skills/bloodRage/bloodRageLevels/bloodRage15"
+			}
+		},
+
+		"valueDescriptions" : {
+			"0" : "This unit gains Rage levels during combat.",
+			"1" : "Rage Level 1:\n+1 Damage",
+			"2" : "Rage Level 2:\n+1 Damage, +1 Attack",
+			"3" : "Rage Level 3:\n+1 Damage, +1 Attack\n+1 Health",
+			"4" : "Rage Level 4:\n+1 Damage, +1 Attack\n+1 Health, +1 Defense",
+			"5" : "Rage Level 5:\n+1 Damage, +1 Attack\n+1 Health, +1 Defense\n+1 Speed",
+			"6" : "Rage Level 6:\n+3 Damage, +1 Attack\n+1 Health, +1 Defense\n+1 Speed",
+			"7" : "Rage Level 7:\n+3 Damage, +3 Attack\n+1 Health, +1 Defense\n+1 Speed",
+			"8" : "Rage Level 8:\n+3 Damage, +3 Attack\n+3 Health, +1 Defense\n+1 Speed",
+			"9" : "Rage Level 9:\n+3 Damage, +3 Attack\n+3 Health, +3 Defense\n+1 Speed",
+			"10" : "Rage Level 10:\n+3 Damage, +3 Attack\n+3 Health, +3 Defense\n+3 Speed",
+			"11" : "Rage Level 11:\n+6 Damage, +3 Attack\n+3 Health, +3 Defense\n+3 Speed",
+			"12" : "Rage Level 12:\n+6 Damage, +6 Attack\n+3 Health, +3 Defense\n+3 Speed",
+			"13" : "Rage Level 13:\n+6 Damage, +6 Attack\n+6 Health, +3 Defense\n+3 Speed",
+			"14" : "Rage Level 14:\n+6 Damage, +6 Attack\n+6 Health, +6 Defense\n+3 Speed",
+			"15" : "Rage Level 15:\n+6 Damage, +6 Attack\n+6 Health, +6 Defense\n+3 Speed, No Enemy Retaliation"
+		}
+	}
+}

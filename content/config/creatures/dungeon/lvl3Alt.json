@@ -61,7 +61,7 @@
 				"val" : 1,
 				"valueType" : "INDEPENDENT_MAX",
 				"propagator" : "HERO",
-				"description" : "{Visions}\nHero can see information about wandering monsters",
+				"description" : "{Visions}\nHero can see information about wandering monsters.",
 				"icon" : "zvs/Lib1.res/visions2rogue.png"
 			}
 		},

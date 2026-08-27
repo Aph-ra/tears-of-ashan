@@ -1,5 +1,5 @@
 {
-	"atlas" : {
+	"02atlas" : {
 		"class" : "alchemist",
 		"female" : false,
 		"special" : false,
@@ -10,9 +10,9 @@
 			"name" : "Atlas",
 			"biography" : "Atlas has ever been used to playing a large supportive role in the lives of the humans and other species. This stalwart defender has existed long before Bracaduun fell and was part of the cohort that helped to reform Bracada. He has become a symbol of stability among the wizards and a hulking rallying flag for his kin.",
 			"specialty" : {
-				"description" : "Increases the Speed of allied Giants, Titans, and Colossi by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
+				"name" : "Giants",
 				"tooltip" : "Creature Bonus: Giants",
-				"name" : "Giants"
+				"description" : "Increases the Speed of allied Giants, Titans, and Colossi by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
 			}
 		},
 

@@ -88,6 +88,74 @@
 								"gold" : -5000
 							},
 							"message" : "{Market of Time}\n\nYou step into the Market of Time, where the keeper of time greets you solemnly.\n\n\"Only one memory remains... I can help you let go of this last skill—if you so choose.\""
+						},
+						{
+							"limiter" : {
+								"secondary" : {
+									"gatingSuccubusSpec" : 1
+								},
+								"resources" : {
+									"gold" : 5000
+								}
+							},
+							"secondary" : {
+								"gatingSuccubusSpec" : -3
+							},
+							"resources" : {
+								"gold" : -5000
+							},
+							"message" : "{Market of Time}\n\nYou step into the Market of Time, where the keeper of time greets you solemnly.\n\n\"Only one memory remains... I can help you let go of this last skill—if you so choose.\""
+						},
+						{
+							"limiter" : {
+								"secondary" : {
+									"bloodRage" : 1
+								},
+								"resources" : {
+									"gold" : 5000
+								}
+							},
+							"secondary" : {
+								"bloodRage" : -3
+							},
+							"resources" : {
+								"gold" : -5000
+							},
+							"message" : "{Market of Time}\n\nYou step into the Market of Time, where the keeper of time greets you solemnly.\n\n\"Only one memory remains... I can help you let go of this last skill—if you so choose.\""
+						},
+						{
+							"limiter" : {
+								"secondary" : {
+									"warcries" : 1
+								},
+								"resources" : {
+									"gold" : 5000
+								}
+							},
+							"secondary" : {
+								"warcries" : -3
+							},
+							"resources" : {
+								"gold" : -5000
+							},
+							"message" : "{Market of Time}\n\nYou step into the Market of Time, where the keeper of time greets you solemnly.\n\n\"Only one memory remains... I can help you let go of this last skill—if you so choose.\""
+						},
+						{
+							"limiter" : {
+								"secondary" : {
+									"occultism" : 1
+								},
+								"resources" : {
+									"gold" : 5000
+								}
+							},
+							"secondary" : {
+								"occultism" : -3
+							},
+							"resources" : {
+								"gold" : -5000
+							},
+							"message" : "{Market of Time}\n\nYou step into the Market of Time, where the keeper of time greets you solemnly.\n\n\"Only one memory remains... I can help you let go of this last skill—if you so choose.\""
 						}
 					]
 				}

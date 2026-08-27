@@ -1,0 +1,98 @@
+{
+	"core:cleric" : {
+		"primarySkills" : {
+			"attack" : 1,
+			"defence" : 1,
+			"spellpower" : 2,
+			"knowledge" : 2
+		}
+	},
+	"core:druid" : {
+		"primarySkills" : {
+			"attack" : 1,
+			"defence" : 2,
+			"spellpower" : 1,
+			"knowledge" : 2
+		}
+	},
+	"core:wizard" : {
+		"primarySkills" : {
+			"attack" : 0,
+			"defence" : 0,
+			"spellpower" : 3,
+			"knowledge" : 3
+		}
+	},
+	"core:heretic" : {
+		"primarySkills" : {
+			"attack" : 1,
+			"defence" : 1,
+			"spellpower" : 2,
+			"knowledge" : 2
+		}
+	},
+	"core:necromancer" : {
+		"primarySkills" : {
+			"attack" : 1,
+			"defence" : 0,
+			"spellpower" : 2,
+			"knowledge" : 3
+		}
+	},
+	"core:warlock" : {
+		"primarySkills" : {
+			"attack" : 0,
+			"defence" : 0,
+			"spellpower" : 3,
+			"knowledge" : 3
+		}
+	},
+	"core:battlemage" : {
+		"primarySkills" : {
+			"attack" : 2,
+			"defence" : 1,
+			"spellpower" : 2,
+			"knowledge" : 1
+		}
+	},
+	"core:witch" : {
+		"primarySkills" : {
+			"attack" : 0,
+			"defence" : 2,
+			"spellpower" : 2,
+			"knowledge" : 2
+		}
+	},
+	"core:elementalist" : {
+		"primarySkills" : {
+			"attack" : 0,
+			"defence" : 0,
+			"spellpower" : 3,
+			"knowledge" : 3
+		}
+	},
+	"hota.cove:navigator" : {
+		"primarySkills" : {
+			"attack" : 2,
+			"defence" : 0,
+			"spellpower" : 2,
+			"knowledge" : 2
+		}
+	},
+	"hota.factory:artificer" : {
+		"primarySkills" : {
+			"attack" : 0,
+			"defence" : 1,
+			"spellpower" : 3,
+			"knowledge" : 2
+		}
+	},
+	"hota.bulwark:elder" : {
+		"primarySkills" : {
+			"attack" : 0,
+			"defence" : 1,
+			"spellpower" : 2,
+			"knowledge" : 3
+		}
+	}
+}

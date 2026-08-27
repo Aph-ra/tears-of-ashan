@@ -43,7 +43,7 @@
 				"subtype" : "spell.curse",
 				"val" : 2,
 				"addInfo" : 50,
-				"description" : "{Spellcaster}\n50% chance to cast Advanced Curse (6 Power)",
+				"description" : "{Spellcaster}\n50% chance to cast Advanced Curse (6 Power).",
 				"icon" : "zvs/Lib1.res/spellsSOD/curse2.png"
 			},
 			"castWeakness" : {
@@ -51,7 +51,7 @@
 				"subtype" : "spell.weakness",
 				"val" : 2,
 				"addInfo" : 50,
-				"description" : "{Spellcaster}\n50% chance to cast Advanced Weakness (6 Power)",
+				"description" : "{Spellcaster}\n50% chance to cast Advanced Weakness (6 Power).",
 				"icon" : "zvs/Lib1.res/spellsSOD/weakness2.png"
 			}
 		},

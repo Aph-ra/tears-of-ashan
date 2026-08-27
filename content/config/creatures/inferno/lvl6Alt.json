@@ -67,13 +67,13 @@
 				"type" : "HATE",
 				"subtype" : "genieVizierAU",
 				"val" : 50,
-				"description" : "{Hates Genies}\nDoes 50% more Damage to Genies, Master Genies, and Genie Viziers",
+				"description" : "{Hates Genies}\nDoes 50% more Damage to Genies, Master Genies, and Genie Viziers.",
 				"icon" : "zvs/Lib1.res/hatesultans1.png"
 			},
 			"casts" : {
 				"type" : "CASTS",
 				"val" : 3,
-				"description" : "{Random Negative Spell}\nCan cast a random Advanced negative spell on an enemy unit",
+				"description" : "{Random Negative Spell}\nCan cast a random Advanced negative spell on an enemy unit.",
 				"icon" : "zvs/Lib1.res/RandomBoost.png"
 			},
 			"spellPower" : {

@@ -1,0 +1,323 @@
+{
+	"bloodRage" : {
+		"name" : "Blood Rage",
+		"gainChance" : {
+			"might" : 0,
+			"magic" : 0,
+			"barbarian" : 10,
+			"battlemage" : 8
+		},
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"rageCap" : {
+					"type" : "RAGE_LEVEL_COUNTER",
+					"valueType" : "INDEPENDENT_MIN",
+					"limiters" : [
+						"CREATURES_ONLY",
+						{
+							"type" : "FACTION_LIMITER",
+							"faction" : "stronghold"
+						}
+					]
+				},
+				"rageBase" : {
+					"type" : "RAGE_LEVEL_COUNTER",
+					"val" : 0,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						"CREATURES_ONLY",
+						{
+							"type" : "FACTION_LIMITER",
+							"faction" : "stronghold"
+						}
+					]
+				},
+				//LEVEL 01
+				"rageBonus01" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageBoth",
+					"val" : 1,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RAGE_LEVEL_COUNTER",
+						"bonusMinValue" : 1,
+						"bonusMaxValue" : 5
+					}
+				},
+				//LEVEL 02
+				"rageBonus02" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack",
+					"val" : 1,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RAGE_LEVEL_COUNTER",
+						"bonusMinValue" : 2,
+						"bonusMaxValue" : 6
+					}
+				},
+				//LEVEL 03
+				"rageBonus03" : {
+					"type" : "STACK_HEALTH",
+					"val" : 1,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RAGE_LEVEL_COUNTER",
+						"bonusMinValue" : 3,
+						"bonusMaxValue" : 7
+					}
+				},
+				//LEVEL 04
+				"rageBonus04" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence",
+					"val" : 1,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RAGE_LEVEL_COUNTER",
+						"bonusMinValue" : 4,
+						"bonusMaxValue" : 8
+					}
+				},
+				//LEVEL 05
+				"rageBonus05" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RAGE_LEVEL_COUNTER",
+						"bonusMinValue" : 5,
+						"bonusMaxValue" : 9
+					}
+				},
+				//LEVEL 06
+				"rageBonus06" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageBoth",
+					"val" : 3,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RAGE_LEVEL_COUNTER",
+						"bonusMinValue" : 6,
+						"bonusMaxValue" : 10
+					}
+				},
+				//LEVEL 07
+				"rageBonus07" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack",
+					"val" : 3,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RAGE_LEVEL_COUNTER",
+						"bonusMinValue" : 7,
+						"bonusMaxValue" : 11
+					}
+				},
+				//LEVEL 08
+				"rageBonus08" : {
+					"type" : "STACK_HEALTH",
+					"val" : 3,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RAGE_LEVEL_COUNTER",
+						"bonusMinValue" : 8,
+						"bonusMaxValue" : 12
+					}
+				},
+				//LEVEL 09
+				"rageBonus09" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence",
+					"val" : 3,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RAGE_LEVEL_COUNTER",
+						"bonusMinValue" : 9,
+						"bonusMaxValue" : 13
+					}
+				},
+				//LEVEL 10
+				"rageBonus10" : {
+					"type" : "STACKS_SPEED",
+					"val" : 3,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RAGE_LEVEL_COUNTER",
+						"bonusMinValue" : 10,
+						"bonusMaxValue" : 15
+					}
+				},
+				//LEVEL 11
+				"rageBonus11" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageBoth",
+					"val" : 6,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RAGE_LEVEL_COUNTER",
+						"bonusMinValue" : 11,
+						"bonusMaxValue" : 15
+					}
+				},
+				//LEVEL 12
+				"rageBonus12" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack",
+					"val" : 6,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RAGE_LEVEL_COUNTER",
+						"bonusMinValue" : 12,
+						"bonusMaxValue" : 15
+					}
+				},
+				//LEVEL 13
+				"rageBonus13" : {
+					"type" : "STACK_HEALTH",
+					"val" : 6,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RAGE_LEVEL_COUNTER",
+						"bonusMinValue" : 13,
+						"bonusMaxValue" : 15
+					}
+				},
+				//LEVEL 14
+				"rageBonus14" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence",
+					"val" : 6,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RAGE_LEVEL_COUNTER",
+						"bonusMinValue" : 14,
+						"bonusMaxValue" : 15
+					}
+				},
+				//LEVEL 15
+				"rageBonus15" : {
+					"type" : "BLOCKS_RETALIATION",
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RAGE_LEVEL_COUNTER",
+						"bonusMinValue" : 15,
+						"bonusMaxValue" : 15
+					}
+				},
+				//RAGE EVENTS
+				"combatAttackRageLevels" : {
+					"type" : "ON_COMBAT_EVENT",
+					"subtype" : "combatEventBeforeAttack",
+					"addInfo" : {
+						"effect" : [
+							{
+								"action" : "bonus",
+								"targetEnemy" : false,
+								"bonus" : {
+									"type" : "RAGE_LEVEL_COUNTER",
+									"val" : 2,
+									"duration" : "ONE_BATTLE"
+								}
+							}
+						]
+					}
+				},
+				"combatAttackedRageLevels" : {
+					"type" : "ON_COMBAT_EVENT",
+					"subtype" : "combatEventAfterAttacked",
+					"addInfo" : {
+						"effect" : [
+							{
+								"action" : "bonus",
+								"targetEnemy" : false,
+								"bonus" : {
+									"type" : "RAGE_LEVEL_COUNTER",
+									"val" : 1,
+									"duration" : "ONE_BATTLE"
+								}
+							}
+						]
+					}
+				},
+				"combatMoveRageLevels" : {
+					"type" : "ON_COMBAT_EVENT",
+					"subtype" : "combatEventAfterMove",
+					"addInfo" : {
+						"effect" : [
+							{
+								"action" : "bonus",
+								"targetEnemy" : false,
+								"bonus" : {
+									"type" : "RAGE_LEVEL_COUNTER",
+									"val" : -1,
+									"duration" : "ONE_BATTLE"
+								}
+							}
+						]
+					}
+				},
+				"combatDefendRageLevels" : {
+					"type" : "ON_COMBAT_EVENT",
+					"subtype" : "combatEventDefend",
+					"addInfo" : {
+						"effect" : [
+							{
+								"action" : "bonus",
+								"targetEnemy" : false,
+								"bonus" : {
+									"type" : "RAGE_LEVEL_COUNTER",
+									"val" : -2,
+									"duration" : "ONE_BATTLE"
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Blood Rage}\n\nBasic Blood Rage allows the hero's units to accumulate up to 5 Rage Levels in combat. Each Rage Level gives bonuses to the creature stats:\n\n{1}: +1 Damage, {2}: +1 Attack, {3}: +1 Health, {4}: +1 Defense, {5}: +1 Speed\n\nThe bonuses of all achieved Rage Levels are cumulative. Units gain +3 Rage Levels when a buffing Warcry is cast; +2 Rage Levels when they attack; +1 Rage Levels when they take damage; -1 Rage levels when they move, and -2 Rage Levels when they take a defensive stance.",
+			"effects" : {
+				"rageCap" : {
+					"val" : 5
+				}
+			},
+			"images" : {
+				"small" : "skills/bloodRage/bloodRageSmall/1",
+				"medium" : "skills/bloodRage/bloodRageMedium/1",
+				"large" : "skills/bloodRage/bloodRageLarge/1",
+				"scenarioBonus" : "skills/bloodRage/bloodRageBonus/1"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Blood Rage}\n\nAdvanced Blood Rage allows the hero's units to accumulate up to 10 Rage Levels in combat. Each Rage Level gives bonuses to the creature stats:\n\n{1}: +1 Damage, {2}: +1 Attack, {3}: +1 Health, {4}: +1 Defense, {5}: +1 Speed\n\n{6}: +2 Damage, {7}: +2 Attack, {8}: +2 Health, {9}: +2 Defense, {10}: +2 Speed\n\nThe bonuses of all achieved Rage Levels are cumulative. Units gain +3 Rage Levels when a buffing Warcry is cast; +2 Rage Levels when they attack; +1 Rage Levels when they take damage; -1 Rage levels when they move, and -2 Rage Levels when they take a defensive stance.",
+			"effects" : {
+				"rageCap" : {
+					"val" : 10
+				}
+			},
+			"images" : {
+				"small" : "skills/bloodRage/bloodRageSmall/2",
+				"medium" : "skills/bloodRage/bloodRageMedium/2",
+				"large" : "skills/bloodRage/bloodRageLarge/2",
+				"scenarioBonus" : "skills/bloodRage/bloodRageBonus/2"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Blood Rage}\n\nExpert Blood Rage allows the hero's units to accumulate up to 15 Rage Levels in combat. Each Rage Level gives bonuses to the creature stats:\n\n{1}: +1 Damage, {2}: +1 Attack, {3}: +1 Health, {4}: +1 Defense, {5}: +1 Speed\n\n{6}: +2 Damage, {7}: +2 Attack, {8}: +2 Health, {9}: +2 Defense, {10}: +2 Speed\n\n{11}: +3 Damage, {12}: +3 Attack, {13}: +3 Health, {14}: +3 Defense, {15}: No enemy retaliation\n\nThe bonuses of all achieved Rage Levels are cumulative. Units gain +3 Rage Levels when a buffing Warcry is cast; +2 Rage Levels when they attack; +1 Rage Levels when they take damage; -1 Rage levels when they move, and -2 Rage Levels when they take a defensive stance.",
+			"effects" : {
+				"rageCap" : {
+					"val" : 15
+				}
+			},
+			"images" : {
+				"small" : "skills/bloodRage/bloodRageSmall/3",
+				"medium" : "skills/bloodRage/bloodRageMedium/3",
+				"large" : "skills/bloodRage/bloodRageLarge/3",
+				"scenarioBonus" : "skills/bloodRage/bloodRageBonus/3"
+			}
+		}
+	}
+}

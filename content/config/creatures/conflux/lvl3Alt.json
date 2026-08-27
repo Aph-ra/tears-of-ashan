@@ -74,14 +74,14 @@
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"subtype" : "spell.fireWallTrigger",
 				"val" : 50,
-				"description" : "{Vulnerable to Fire}\nTakes 50% more Damage from Fire Magic spells",
+				"description" : "{Vulnerable to Fire}\nTakes 50% more Damage from Fire Magic spells.",
 				"icon" : "zvs/Lib1.res/vulnerabilityfire.png"
 			},
 			"castFrostRing" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "frostRing",
 				"val" : 1,
-				"description" : "{Spellcaster}\nCan cast Basic Frost Ring (50% Power)",
+				"description" : "{Spellcaster}\nCan cast Basic Frost Ring (50% Power).",
 				"icon" : "zvs/Lib1.res/spellsSOD/frostring1.png"
 			},
 			"frostRingPower" : {
