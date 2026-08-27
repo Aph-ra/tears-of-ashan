@@ -19,8 +19,7 @@
 			"positive" : true
 		},
 
-		"targetCondition" : {
-		},
+		"targetCondition" : {},
 
 		"graphics" : {
 			"iconBook" : "spells/celestialArmor/spellBook",
@@ -29,8 +28,8 @@
 			"iconEffect" : "spells/celestialArmor/spellEffect"
 		},
 
-		"animation":{
-			"affect":[
+		"animation" : {
+			"affect" : [
 				"C13SPE0",
 				{
 					"effectName" : "celestialArmor",

@@ -61,10 +61,12 @@
 				"type" : "LUCK",
 				"val" : -1,
 				"stacking" : "Devils",
-				"propagator": "BATTLE_WIDE",
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"description" : "{Decreases Luck}\nDevils and Arch Demons decrease enemy units' Luck by -1.",
-				"limiters" : [ "OPPOSITE_SIDE" ]
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				]
 			},
 			"hateAngels" : {
 				"type" : "HATE",

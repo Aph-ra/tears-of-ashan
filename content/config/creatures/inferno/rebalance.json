@@ -368,7 +368,7 @@
 				"hidden" : true
 			},
 			"decreaseLuck" : {
-				"description" : "{Decreases Luck}\nDevils and Arch Demons decrease enemy units' Luck by -1.",
+				"description" : "{Decreases Luck}\nDevils and Arch Demons decrease enemy units' Luck by -1."
 			},
 			"hateAngels" : {
 				"hidden" : true
@@ -415,7 +415,7 @@
 				"hidden" : true
 			},
 			"decreaseLuck" : {
-				"description" : "{Decreases Luck}\nArch Devils decrease enemy units' Luck by -2.",
+				"description" : "{Decreases Luck}\nArch Devils decrease enemy units' Luck by -2."
 			},
 			"hateAngels" : {
 				"hidden" : true

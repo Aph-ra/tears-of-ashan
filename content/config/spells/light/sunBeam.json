@@ -20,8 +20,7 @@
 			"negative" : true
 		},
 
-		"targetCondition" : {
-		},
+		"targetCondition" : {},
 
 		"graphics" : {
 			"iconBook" : "spells/sunBeam/spellBook",
@@ -31,10 +30,18 @@
 		},
 
 		"animation" : {
-			"projectile": [
-				{"minimumAngle": 0 ,"defName":"spells/sunBeam/projectile.json"},
+			"projectile" : [
+				{
+					"minimumAngle" : 0,
+					"defName" : "spells/sunBeam/projectile.json"
+				}
 			],
-			"hit":[ {"defName" : "spells/sunBeam/hit.json", "transparency" : 0.5 }]
+			"hit" : [
+				{
+					"defName" : "spells/sunBeam/hit.json",
+					"transparency" : 0.5
+				}
+			]
 		},
 
 		"sounds" : {

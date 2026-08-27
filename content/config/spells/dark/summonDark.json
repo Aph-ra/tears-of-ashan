@@ -12,15 +12,14 @@
 			"rampart" : 0,
 			"inferno" : 15,
 			"necropolis" : 20,
-			"conflux" : 25,
+			"conflux" : 25
 		},
 
 		"flags" : {
 			"indifferent" : true
 		},
 
-		"targetCondition" : {
-		},
+		"targetCondition" : {},
 
 		"graphics" : {
 			"iconBook" : "spells/summonDark/spellBook",
@@ -29,8 +28,7 @@
 			"iconEffect" : "spells/summonDark/spellEffect"
 		},
 
-		"animation":{
-		},
+		"animation" : {},
 
 		"sounds" : {
 			"cast" : "SUMNELM"
@@ -39,7 +37,7 @@
 		"targetType" : "NO_TARGET",
 
 		"levels" : {
-			"base":{
+			"base" : {
 				"range" : "X",
 				"battleEffects" : {
 					"summon" : {

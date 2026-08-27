@@ -4,168 +4,168 @@
 			"hermitsShack" : {
 				"rewards" : {
 					"appendItems" : [
-					{
-						"limiter" : {
-							"noneOf" : [
-								{
-									"secondary" : {
-										"lightMagic" : 3
+						{
+							"limiter" : {
+								"noneOf" : [
+									{
+										"secondary" : {
+											"lightMagic" : 3
+										}
 									}
+								],
+								"secondary" : {
+									"lightMagic" : 1
 								}
-							],
+							},
 							"secondary" : {
 								"lightMagic" : 1
-							}
+							},
+							"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
 						},
-						"secondary" : {
-							"lightMagic" : 1
-						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
-					},
-					{
-						"limiter" : {
-							"noneOf" : [
-								{
-									"secondary" : {
-										"darkMagic" : 3
+						{
+							"limiter" : {
+								"noneOf" : [
+									{
+										"secondary" : {
+											"darkMagic" : 3
+										}
 									}
+								],
+								"secondary" : {
+									"darkMagic" : 1
 								}
-							],
+							},
 							"secondary" : {
 								"darkMagic" : 1
-							}
+							},
+							"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
 						},
-						"secondary" : {
-							"darkMagic" : 1
-						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
-					},
-					{
-						"limiter" : {
-							"noneOf" : [
-								{
-									"secondary" : {
-										"gating" : 3
+						{
+							"limiter" : {
+								"noneOf" : [
+									{
+										"secondary" : {
+											"gating" : 3
+										}
 									}
+								],
+								"secondary" : {
+									"gating" : 1
 								}
-							],
+							},
 							"secondary" : {
 								"gating" : 1
-							}
+							},
+							"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
 						},
-						"secondary" : {
-							"gating" : 1
-						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
-					},
-					{
-						"limiter" : {
-							"noneOf" : [
-								{
-									"secondary" : {
-										"gatingDevilSpec" : 3
+						{
+							"limiter" : {
+								"noneOf" : [
+									{
+										"secondary" : {
+											"gatingDevilSpec" : 3
+										}
 									}
+								],
+								"secondary" : {
+									"gatingDevilSpec" : 1
 								}
-							],
+							},
 							"secondary" : {
 								"gatingDevilSpec" : 1
-							}
+							},
+							"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
 						},
-						"secondary" : {
-							"gatingDevilSpec" : 1
-						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
-					},
-					{
-						"limiter" : {
-							"noneOf" : [
-								{
-									"secondary" : {
-										"gatingNightmareSpec" : 3
+						{
+							"limiter" : {
+								"noneOf" : [
+									{
+										"secondary" : {
+											"gatingNightmareSpec" : 3
+										}
 									}
+								],
+								"secondary" : {
+									"gatingNightmareSpec" : 1
 								}
-							],
+							},
 							"secondary" : {
 								"gatingNightmareSpec" : 1
-							}
+							},
+							"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
 						},
-						"secondary" : {
-							"gatingNightmareSpec" : 1
-						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
-					},
-					{
-						"limiter" : {
-							"noneOf" : [
-								{
-									"secondary" : {
-										"gatingSuccubusSpec" : 3
+						{
+							"limiter" : {
+								"noneOf" : [
+									{
+										"secondary" : {
+											"gatingSuccubusSpec" : 3
+										}
 									}
+								],
+								"secondary" : {
+									"gatingSuccubusSpec" : 1
 								}
-							],
+							},
 							"secondary" : {
 								"gatingSuccubusSpec" : 1
-							}
+							},
+							"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
 						},
-						"secondary" : {
-							"gatingSuccubusSpec" : 1
-						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
-					},
-					{
-						"limiter" : {
-							"noneOf" : [
-								{
-									"secondary" : {
-										"bloodRage" : 3
+						{
+							"limiter" : {
+								"noneOf" : [
+									{
+										"secondary" : {
+											"bloodRage" : 3
+										}
 									}
+								],
+								"secondary" : {
+									"bloodRage" : 1
 								}
-							],
+							},
 							"secondary" : {
 								"bloodRage" : 1
-							}
+							},
+							"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
 						},
-						"secondary" : {
-							"bloodRage" : 1
-						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
-					},
-					{
-						"limiter" : {
-							"noneOf" : [
-								{
-									"secondary" : {
-										"warcries" : 3
+						{
+							"limiter" : {
+								"noneOf" : [
+									{
+										"secondary" : {
+											"warcries" : 3
+										}
 									}
+								],
+								"secondary" : {
+									"warcries" : 1
 								}
-							],
+							},
 							"secondary" : {
 								"warcries" : 1
-							}
+							},
+							"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
 						},
-						"secondary" : {
-							"warcries" : 1
-						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
-					},
-					{
-						"limiter" : {
-							"noneOf" : [
-								{
-									"secondary" : {
-										"occultism" : 3
+						{
+							"limiter" : {
+								"noneOf" : [
+									{
+										"secondary" : {
+											"occultism" : 3
+										}
 									}
+								],
+								"secondary" : {
+									"occultism" : 1
 								}
-							],
+							},
 							"secondary" : {
 								"occultism" : 1
-							}
-						},
-						"secondary" : {
-							"occultism" : 1
-						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
-					}
+							},
+							"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						}
 					]
 				}
 			}

@@ -357,7 +357,7 @@
 						]
 					]
 				},
-								"dwellingLvl5B" : {
+				"dwellingLvl5B" : {
 					"description" : "The Lust Chambers allow you to recruit Succubi.",
 					"name" : "Lust Chambers",
 					"id" : 55,
@@ -529,7 +529,7 @@
 						"wood" : 5,
 						"ore" : 5,
 						"mercury" : 20
-					},
+					}
 				},
 				"dwellingUp2Lvl7" : {
 					"name" : "Upg. Forsaken Palace",

@@ -18,7 +18,7 @@
 						"OPPOSITE_SIDE"
 					]
 				},
-				
+
 				"agingBuff" : {
 					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
 					"subtype" : "spell.agingTOA",
@@ -145,7 +145,7 @@
 						"stepSize" : 3
 					}
 				},
-				
+
 				"blindDuration" : {
 					"type" : "SPELL_DURATION",
 					"subtype" : "spell.blind",
@@ -196,7 +196,7 @@
 				"accursed" : {
 					"type" : "ACCURSED02"
 				},
-				
+
 				"curseDuration" : {
 					"updater" : {
 						"stepSize" : 2
@@ -262,7 +262,7 @@
 						"stepSize" : 2
 					}
 				},
-				
+
 				"agingDuration" : {
 					"updater" : {
 						"stepSize" : 2
@@ -302,7 +302,7 @@
 				"accursed" : {
 					"type" : "ACCURSED03"
 				},
-				
+
 				"curseBuff" : {
 					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
 					"subtype" : "spell.curse",
@@ -363,7 +363,7 @@
 						"stepSize" : 1
 					}
 				},
-				
+
 				"agingDuration" : {
 					"updater" : {
 						"stepSize" : 1

@@ -4,12 +4,22 @@
 			"altarOfTwilightAU" : {
 				"name" : "Altar of Twilight",
 				"creatures" : [
-					[ "lightElementalAU" ],
-					[ "darkElementalAU" ]
+					[
+						"lightElementalAU"
+					],
+					[
+						"darkElementalAU"
+					]
 				],
 				"guards" : [
-					{ "amount" : 3, "type" : "lightElementalAU" },
-					{ "amount" : 3, "type" : "darkElementalAU" }
+					{
+						"amount" : 3,
+						"type" : "lightElementalAU"
+					},
+					{
+						"amount" : 3,
+						"type" : "darkElementalAU"
+					}
 				],
 				"sounds" : {
 					"ambient" : [
@@ -32,7 +42,7 @@
 			}
 		}
 	},
-	
+
 	"core:creatureGeneratorCommon" : {
 		"types" : {
 			"mdtLustChambers" : {

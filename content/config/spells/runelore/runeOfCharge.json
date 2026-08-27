@@ -17,12 +17,11 @@
 			"special" : true
 		},
 
-		"targetCondition" : {
-		},
+		"targetCondition" : {},
 
 		"counters" : {
-			"core:slow": true,
-			"new-old-spells-plus:waspSwarm": true
+			"core:slow" : true,
+			"new-old-spells-plus:waspSwarm" : true
 		},
 
 		"graphics" : {
@@ -45,9 +44,11 @@
 		"targetType" : "CREATURE",
 
 		"levels" : {
-			"base":{
+			"base" : {
 				"range" : "0",
-				"targetModifier" : {"smart":true},
+				"targetModifier" : {
+					"smart" : true
+				},
 				"battleEffects" : {
 					"speedBonus" : {
 						"type" : "core:timed",

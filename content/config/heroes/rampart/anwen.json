@@ -52,7 +52,7 @@
 					"val" : 2,
 					"updater" : "TIMES_HERO_LEVEL",
 					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER"	
+					"propagationUpdater" : "BONUS_OWNER_UPDATER"
 				}
 			}
 		},

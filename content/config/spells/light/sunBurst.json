@@ -20,8 +20,7 @@
 			"negative" : true
 		},
 
-		"targetCondition" : {
-		},
+		"targetCondition" : {},
 
 		"graphics" : {
 			"iconBook" : "spells/sunBurst/spellBook",
@@ -40,7 +39,7 @@
 			"cast" : "spells/sunBurst.wav"
 		},
 
-	"targetType" : "LOCATION",
+		"targetType" : "LOCATION",
 
 		"levels" : {
 			"base" : {

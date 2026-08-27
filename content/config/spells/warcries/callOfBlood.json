@@ -40,7 +40,7 @@
 				"tearsofashan:creature.bloodEyedCyclopsAU" : "absolute",
 				"core:creature.behemoth" : "absolute",
 				"core:creature.ancientBehemoth" : "absolute",
-				"tearsofashan:creature.ghostBehemothAU" : "absolute",
+				"tearsofashan:creature.ghostBehemothAU" : "absolute"
 			}
 		},
 
@@ -52,9 +52,11 @@
 		},
 
 		"animation" : {
-			"affect" : [ {
-				"effectName" : "bloodlust"
-			} ]
+			"affect" : [
+				{
+					"effectName" : "bloodlust"
+				}
+			]
 		},
 
 		"sounds" : {
@@ -64,9 +66,11 @@
 		"targetType" : "CREATURE",
 
 		"levels" : {
-			"base":{
+			"base" : {
 				"range" : "0",
-				"targetModifier" : {"smart":true},
+				"targetModifier" : {
+					"smart" : true
+				},
 				"effects" : {
 					"damageMax" : {
 						"type" : "CREATURE_DAMAGE",

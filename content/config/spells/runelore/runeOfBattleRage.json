@@ -17,8 +17,7 @@
 			"special" : true
 		},
 
-		"targetCondition" : {
-		},
+		"targetCondition" : {},
 
 		"graphics" : {
 			"iconBook" : "spells/runelore/runeOfBattleRage/spellBook",
@@ -40,9 +39,11 @@
 		"targetType" : "CREATURE",
 
 		"levels" : {
-			"base":{
+			"base" : {
 				"range" : "0",
-				"targetModifier" : {"smart":true},
+				"targetModifier" : {
+					"smart" : true
+				},
 				"battleEffects" : {
 					"attackBonus" : {
 						"type" : "core:timed",

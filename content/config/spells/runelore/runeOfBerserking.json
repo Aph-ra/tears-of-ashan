@@ -17,8 +17,7 @@
 			"special" : true
 		},
 
-		"targetCondition" : {
-		},
+		"targetCondition" : {},
 
 		"graphics" : {
 			"iconBook" : "spells/runelore/runeOfBerserking/spellBook",
@@ -40,9 +39,11 @@
 		"targetType" : "CREATURE",
 
 		"levels" : {
-			"base":{
+			"base" : {
 				"range" : "0",
-				"targetModifier" : {"smart":true},
+				"targetModifier" : {
+					"smart" : true
+				},
 				"battleEffects" : {
 					"attackBonus" : {
 						"type" : "core:timed",
@@ -52,7 +53,7 @@
 								"type" : "ADDITIONAL_ATTACK",
 								"val" : 1,
 								"duration" : "UNTIL_AFTER_ATTACK_SEQUENCE",
-								"effectRange": "ONLY_MELEE_FIGHT",
+								"effectRange" : "ONLY_MELEE_FIGHT",
 								"limiters" : [
 									"noneOf",
 									"SHOOTER_ONLY"
@@ -62,7 +63,7 @@
 								"type" : "ADDITIONAL_ATTACK",
 								"val" : 1,
 								"duration" : "UNTIL_AFTER_ATTACK_SEQUENCE",
-								"effectRange": "ONLY_DISTANCE_FIGHT",
+								"effectRange" : "ONLY_DISTANCE_FIGHT",
 								"limiters" : [
 									"SHOOTER_ONLY"
 								]

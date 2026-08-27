@@ -37,15 +37,17 @@
 		"targetType" : "CREATURE",
 
 		"levels" : {
-			"base":{
+			"base" : {
 				"range" : "0",
-				"targetModifier" : {"smart":true},
+				"targetModifier" : {
+					"smart" : true
+				},
 				"battleEffects" : {
 					"dispelBonus" : {
-						"type":"core:dispel",
+						"type" : "core:dispel",
 						"ignoreImmunity" : true,
-						"dispelNegative":true,
-						"dispelNeutral":true
+						"dispelNegative" : true,
+						"dispelNeutral" : true
 					},
 					"immunityBonus" : {
 						"type" : "core:timed",

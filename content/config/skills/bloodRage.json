@@ -16,8 +16,8 @@
 					"limiters" : [
 						"CREATURES_ONLY",
 						{
-						"type": "FACTION_LIMITER",
-						"faction": "stronghold"
+							"type" : "FACTION_LIMITER",
+							"faction" : "stronghold"
 						}
 					]
 				},
@@ -28,8 +28,8 @@
 					"limiters" : [
 						"CREATURES_ONLY",
 						{
-						"type": "FACTION_LIMITER",
-						"faction": "stronghold"
+							"type" : "FACTION_LIMITER",
+							"faction" : "stronghold"
 						}
 					]
 				},

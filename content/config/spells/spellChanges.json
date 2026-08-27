@@ -1,5 +1,5 @@
 {
-// ORIGINAL SPELLS
+	// ORIGINAL SPELLS
 	"core:armageddon" : {
 		"levels" : {
 			"none" : {
@@ -217,13 +217,13 @@
 		},
 		"levels" : {
 			"none" : {
-				"description" : "{Fortune}\n\nBestows great luck upon allied troops.\n\nIncreases the Luck of the target allied unit by 1.",
+				"description" : "{Fortune}\n\nBestows great luck upon allied troops.\n\nIncreases the Luck of the target allied unit by 1."
 			},
 			"basic" : {
-				"description" : "{Basic Fortune}\n\nBestows great luck upon allied troops.\n\nIncreases the Luck of the target allied unit by 1.",
+				"description" : "{Basic Fortune}\n\nBestows great luck upon allied troops.\n\nIncreases the Luck of the target allied unit by 1."
 			},
 			"advanced" : {
-				"description" : "{Advanced Fortune}\n\nBestows great luck upon allied troops.\n\nIncreases the Luck of the target allied unit by 2.",
+				"description" : "{Advanced Fortune}\n\nBestows great luck upon allied troops.\n\nIncreases the Luck of the target allied unit by 2."
 			},
 			"expert" : {
 				"description" : "{Expert Fortune}\n\nBestows great luck upon allied troops.\n\nIncreases the Luck of all allied units by 3.",
@@ -395,13 +395,13 @@
 		},
 		"levels" : {
 			"none" : {
-				"description" : "{Mirth}\n\nRallies allied troops.\n\nIncreases the Morale of the target allied unit by 1.",
+				"description" : "{Mirth}\n\nRallies allied troops.\n\nIncreases the Morale of the target allied unit by 1."
 			},
 			"basic" : {
-				"description" : "{Basic Mirth}\n\nRallies allied troops.\n\nIncreases the Morale of the target allied unit by 1.",
+				"description" : "{Basic Mirth}\n\nRallies allied troops.\n\nIncreases the Morale of the target allied unit by 1."
 			},
 			"advanced" : {
-				"description" : "{Advanced Mirth}\n\nRallies allied troops.\n\nIncreases the Morale of the target allied unit by 2.",
+				"description" : "{Advanced Mirth}\n\nRallies allied troops.\n\nIncreases the Morale of the target allied unit by 2."
 			},
 			"expert" : {
 				"description" : "{Expert Mirth}\n\nRallies allied troops.\n\nIncreases the Morale of all allied units by 3.",
@@ -426,13 +426,13 @@
 		},
 		"levels" : {
 			"none" : {
-				"description" : "{Misfortune}\n\nBestows bad luck upon enemy troops.\n\nDecreases the Luck of the target enemy unit by 1.",
+				"description" : "{Misfortune}\n\nBestows bad luck upon enemy troops.\n\nDecreases the Luck of the target enemy unit by 1."
 			},
 			"basic" : {
-				"description" : "{Basic Misfortune}\n\nBestows bad luck upon enemy troops.\n\nDecreases the Luck of the target enemy unit by 1.",
+				"description" : "{Basic Misfortune}\n\nBestows bad luck upon enemy troops.\n\nDecreases the Luck of the target enemy unit by 1."
 			},
 			"advanced" : {
-				"description" : "{Advanced Misfortune}\n\nBestows bad luck upon enemy troops.\n\nDecreases the Luck of the target enemy unit by 2.",
+				"description" : "{Advanced Misfortune}\n\nBestows bad luck upon enemy troops.\n\nDecreases the Luck of the target enemy unit by 2."
 			},
 			"expert" : {
 				"description" : "{Expert Misfortune}\n\nBestows bad luck upon enemy troops.\n\nDecreases the Luck of all enemy units by 3.",
@@ -472,7 +472,7 @@
 	},
 	"core:slow" : {
 		"counters" : {
-			"new-old-spells-plus:waspSwarm": true
+			"new-old-spells-plus:waspSwarm" : true
 		}
 	},
 	"core:sorrow" : {
@@ -488,13 +488,13 @@
 		},
 		"levels" : {
 			"none" : {
-				"description" : "{Sorrow}\n\nDemoralises enemy troops.\n\nDecreases the Morale of the target enemy unit by 1.",
+				"description" : "{Sorrow}\n\nDemoralises enemy troops.\n\nDecreases the Morale of the target enemy unit by 1."
 			},
 			"basic" : {
-				"description" : "{Basic Sorrow}\n\nDemoralises enemy troops.\n\nDecreases the Morale of the target enemy unit by 1.",
+				"description" : "{Basic Sorrow}\n\nDemoralises enemy troops.\n\nDecreases the Morale of the target enemy unit by 1."
 			},
 			"advanced" : {
-				"description" : "{Advanced Sorrow}\n\nDemoralises enemy troops.\n\nDecreases the Morale of the target enemy unit by 2.",
+				"description" : "{Advanced Sorrow}\n\nDemoralises enemy troops.\n\nDecreases the Morale of the target enemy unit by 2."
 			},
 			"expert" : {
 				"description" : "{Expert Sorrow}\n\nDemoralises enemy troops.\n\nDecreases the Morale of all enemy units by 3.",
@@ -532,7 +532,7 @@
 			"02darkSchool" : true
 		}
 	},
-// SUMMON ELEMENTAL SPELLS
+	// SUMMON ELEMENTAL SPELLS
 	"core:airElemental" : {
 		"levels" : {
 			"none" : {
@@ -629,7 +629,7 @@
 			}
 		}
 	},
-// NEW OLD SPELLS
+	// NEW OLD SPELLS
 	"new-old-spells-plus:confusion" : {
 		"levels" : {
 			"none" : {
@@ -982,7 +982,7 @@
 	},
 	"new-old-spells-plus:waspSwarm" : {
 		"counters" : {
-			"spell.slow": true
+			"spell.slow" : true
 		},
 		"levels" : {
 			"base" : {
@@ -998,7 +998,7 @@
 								"type" : "STACKS_SPEED",
 								"valueType" : "PERCENT_TO_ALL",
 								"duration" : [
-									"N_TURNS" 
+									"N_TURNS"
 								],
 								"val" : -20
 							}
