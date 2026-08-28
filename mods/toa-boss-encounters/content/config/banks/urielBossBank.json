@@ -207,7 +207,7 @@
 							"min" : 40,
 							"max" : 60
 						},
-						"mapDice" : 2,
+						"mapDice" : 3,
 						"guards" : [
 							{
 								"amount" : 4,
@@ -260,7 +260,7 @@
 							"min" : 80,
 							"max" : 100
 						},
-						"mapDice" : 3,
+						"mapDice" : 4,
 						"guards" : [
 							{
 								"amount" : 5,
