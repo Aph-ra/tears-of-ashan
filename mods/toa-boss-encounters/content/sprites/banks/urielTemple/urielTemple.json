@@ -1,35 +1,35 @@
 {
-	"images" : [
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "urielTemple01.png"
+        },
 		{
-			"group" : 0,
-			"frame" : 0,
-			"file" : "urielTemple01.png"
-		},
+            "group": 0,
+            "frame": 1,
+            "file": "urielTemple02.png"
+        },
 		{
-			"group" : 0,
-			"frame" : 1,
-			"file" : "urielTemple02.png"
-		},
+            "group": 0,
+            "frame": 2,
+            "file": "urielTemple03.png"
+        },
 		{
-			"group" : 0,
-			"frame" : 2,
-			"file" : "urielTemple03.png"
-		},
+            "group": 0,
+            "frame": 3,
+            "file": "urielTemple04.png"
+        },
 		{
-			"group" : 0,
-			"frame" : 3,
-			"file" : "urielTemple04.png"
-		},
+            "group": 0,
+            "frame": 4,
+            "file": "urielTemple05.png"
+        },
 		{
-			"group" : 0,
-			"frame" : 4,
-			"file" : "urielTemple05.png"
-		},
-		{
-			"group" : 0,
-			"frame" : 5,
-			"file" : "urielTemple06.png"
-		}
-	],
-	"basepath" : "banks/urielTemple/"
+            "group": 0,
+            "frame": 5,
+            "file": "urielTemple06.png"
+        }
+    ],
+    "basepath": "banks/urielTemple/"
 }
