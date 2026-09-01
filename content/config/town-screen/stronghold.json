@@ -189,8 +189,21 @@
 						]
 					]
 				},
+				"dwellingLvl6" : {
+					"cost" : {
+						"gold" : 3500,
+						"ore" : 10,
+						"crystal" : 5
+					}
+				},
 				"dwellingUpLvl6" : {
-					"description" : "The Cyclops Cave allows you to recruit Cyclops Kings and Blood-Eyed Cyclopes."
+					"description" : "The Cyclops Cave allows you to recruit Cyclops Kings and Blood-Eyed Cyclopes.",
+					"cost" : {
+						"gold" : 3500,
+						"wood" : 5,
+						"ore" : 10,
+						"crystal" : 5
+					}
 				},
 				"dwellingUp2Lvl6" : {
 					"name" : "Upg. Cyclops Cave",
@@ -207,8 +220,9 @@
 					"description" : "The Behemoth Lair allows you to recruit Ancient Behemoths and Ghost Behemoths.",
 					"cost" : {
 						"gold" : 15000,
+						"wood" : 5,
 						"ore" : 10,
-						"crystal" : 20
+						"crystal" : 15
 					}
 				},
 				"dwellingUp2Lvl7" : {
