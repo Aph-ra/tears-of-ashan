@@ -2,7 +2,7 @@
 	"82biara" : {
 		"class" : "gatekeeper",
 		"female" : true,
-		"special" : false,
+		"special" : true,
 		"spellbook" : [
 			"blind"
 		],

@@ -1,0 +1,12 @@
+{
+	"name" : "Enable Diplomacy Specialists",
+	"author" : "Aphra",
+	"contact" : "",
+	"description" : "Enables Biara, Markal, Melchior, and Oidana. Also enables Diane if Cathedral is installed and Jun if Sanctuary is installed.",
+	"version" : "1.0.0",
+	"modType" : "Heroes",
+
+	"heroes" : [
+		"config/enabled.json"
+	]
+}
