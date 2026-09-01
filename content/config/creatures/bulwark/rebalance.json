@@ -75,12 +75,12 @@
 		}
 	},
 	"hota.bulwark:snowElf" : {
-		"shots" : 16,
-		"hitPoints" : 25
+		"shots" : 8,
+		"hitPoints" : 20
 	},
 	"hota.bulwark:steelElf" : {
-		"shots" : 8,
-		"hitPoints" : 20,
+		"shots" : 16,
+		"hitPoints" : 24,
 		"aiValue" : 530,
 		"fightValue" : 325
 	},

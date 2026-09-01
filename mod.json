@@ -2,12 +2,22 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra; see website for full list of credits!",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "1.7.00",
+	"version" : "1.7.01",
 	"modType" : "Expansion",
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
+
 	"changelog" : {
+		"Public Beta 1.7.01" : [
+			"Cyclops Cave Cost 3500/20O → 3500/10O/5C",
+			"Upg Cyclops Cave Cost 3000/5W/5O/10C → 3500/5W/10O/5C",
+			"Upg. Behemoth Lair Cost fixed (15000/5W/10O/15C)",
+			"Snow Elf/Steel Elf stats fixed",
+			"Updated various adventure map objects to be compatible with Runelore",
+			"Minor def fixes",
+			"Minor text fixes"
+		],
 		"Public Beta 1.7.00" : [
 			"Fully separated Sanctuary into a submod available via Discord",
 			"Rebalanced Bulwark's creatures (see website)",
@@ -56,7 +66,7 @@
 			"Stopped faction-specifc skills from being offered at adventure map locations",
 			"Allowed faction-specifc skills to be upgraded at adventure map locations",
 			"Fixed Uriel's Temple spawning as \"visited\" due to overlapping map dice parameters",
-			"Minor portrait adjustments and improvements"
+			"Minor portrait adjustments and improvements",
 		],
 		"Public Beta 1.6.17" : [
 			"Ice Elemental Damage 3–7 → 4–8; Cast Ice Bolt → Freezing Shot (20%)",
@@ -68,7 +78,7 @@
 			"Added All Magic spell (Summon Psychic Elemental)",
 			"Reworked the summon ratios and costs of Summon Elemental spells (see website)",
 			"Titan's Thunder increases Air Magic damage by 50%; Cost 40000 → 45000",
-			"Added Sanctuary campaign bonus images"
+			"Added Sanctuary campaign bonus images",
 		],
 		"Public Beta 1.6.16" : [
 			"Crusader Speed 6 → 7",
@@ -93,7 +103,7 @@
 			"Minor portrait adjustments and improvements",
 			"Major damaging magic rebalance (check the website for all the changes)",
 			"Added Light Magic spells (Celestial Armor, Holy Word, Summon Light Elemental, Sun Beam, Sun Burst)",
-			"Added Dark Magic spell (Summon Dark Elemental)"
+			"Added Dark Magic spell (Summon Dark Elemental)",
 		],
 		"Public Beta 1.6.15" : [
 			"Master Genie & Genie Vizier Cost 650 → 625; AI Value 1100 → 1050",
@@ -253,11 +263,11 @@
 			"Fixed loading pips"
 		],
 		"Public Beta 1.5.30" : [
-			"Fixed Gelu and Dracon not being able to upgrade units"
+			"Fixed Gelu and Dracon not being able to upgrade units",
 		],
 		"Public Beta 1.5.20" : [
 			"Added Heroes VI Cursors as a submod",
-			"Renamed Ashan Cursors to Heroes V Cursors"
+			"Renamed Ashan Cursors to Heroes V Cursors",
 		],
 		"Public Beta 1.5.1" : [
 			"Fixed Horde's Anger and Battlecry"
@@ -360,6 +370,7 @@
 			"Initial public release"
 		]
 	},
+
 	"conflicts" : [
 		"andruids-expansion",
 		"lotrd-townscreens",
@@ -377,6 +388,7 @@
 		"wake-of-gods",
 		"zefix"
 	],
+
 	"depends" : [
 		"hota.artifacts",
 		"hota.bulwark",
@@ -396,6 +408,7 @@
 		"new-old-spells-plus",
 		"vcmi-extras.bonusicons.bonus icons"
 	],
+
 	"bonuses" : [
 		"config/bonuses/accursed01.json",
 		"config/bonuses/accursed02.json",
@@ -405,20 +418,27 @@
 		"config/bonuses/markedForDeath.json",
 		"config/bonuses/rageLevelCounter.json"
 	],
+
 	"skills" : [
 		"config/skills/darkMagic.json",
 		"config/skills/lightMagic.json",
+		
 		"config/skills/gating.json",
 		"config/skills/gatingDevilSpec.json",
 		"config/skills/gatingNightmareSpec.json",
 		"config/skills/gatingSuccubusSpec.json",
+		
 		"config/skills/bloodRage.json",
 		"config/skills/warcries.json",
+		
 		"config/skills/occultism.json",
+		
 		"config/skills/runelore.json",
 		"config/skills/runeloreIngaSpec.json",
+
 		"config/skills/rebalance.json"
 	],
+
 	"spellSchools" : {
 		"01lightSchool" : {
 			"name" : "Light",
@@ -451,19 +471,25 @@
 			"schoolHeader" : "headers/runeloreHeader.png"
 		}
 	},
+
 	"spells" : [
 		"config/spells/spellChanges.json",
+
 		"config/spells/all/summonPsychic.json",
+
 		"config/spells/earth/reconstruction.json",
+
 		"config/spells/light/celestialArmor.json",
 		"config/spells/light/holyWord.json",
 		"config/spells/light/summonLight.json",
 		"config/spells/light/sunBeam.json",
 		"config/spells/light/sunBurst.json",
+
 		"config/spells/dark/aging.json",
 		"config/spells/dark/deathCloudDark.json",
 		"config/spells/dark/disease.json",
 		"config/spells/dark/summonDark.json",
+
 		"config/spells/gating/gateImp.json",
 		"config/spells/gating/gateGog.json",
 		"config/spells/gating/gateHellHound.json",
@@ -477,12 +503,14 @@
 		"config/spells/gating/gateDevil.json",
 		"config/spells/gating/gateDevilSpec.json",
 		"config/spells/gating/gateArchDevil.json",
+		
 		"config/spells/warcries/rallyingCry.json",
 		"config/spells/warcries/callOfBlood.json",
 		"config/spells/warcries/fearMyRoar.json",
 		"config/spells/warcries/wordOfTheChief.json",
 		"config/spells/warcries/hordesAnger.json",
 		"config/spells/warcries/battlecry.json",
+
 		"config/spells/runelore/runeOfBerserking.json",
 		"config/spells/runelore/runeOfCharge.json",
 		"config/spells/runelore/runeOfExorcism.json",
@@ -497,11 +525,13 @@
 		"config/spells/runelore/ingaRuneOfElementalImmunity.json",
 		"config/spells/runelore/ingaRuneOfEtherealness.json",
 		"config/spells/runelore/ingaRuneOfExorcism.json",
+		
 		"config/spells/abilities/dwarfBloodlust.json",
 		"config/spells/abilities/gremlinRepair.json",
 		"config/spells/abilities/hatespike.json",
 		"config/spells/abilities/paokaiLightning.json"
 	],
+
 	"factions" : [
 		"config/town-screen/castle.json",
 		"config/town-screen/tower.json",
@@ -515,8 +545,10 @@
 		"config/town-screen/cove.json",
 		"config/town-screen/bulwark.json"
 	],
+
 	"heroClasses" : [
 		"config/classes/classChanges.json",
+		
 		"config/classes/gatekeeper.json",
 		"config/classes/gatekeeperDevilSpec.json",
 		"config/classes/gatekeeperNightmareSpec.json",
@@ -526,8 +558,11 @@
 		"config/classes/runemage.json",
 		"config/classes/runemageIngaSpec.json"
 	],
+
 	"heroes" : [
 		"config/heroes/heroChanges.json",
+		//"config/heroes/testHero.json",
+
 		"config/heroes/castle/alesia.json",
 		"config/heroes/castle/ellaine.json",
 		"config/heroes/castle/gwenneth.json",
@@ -536,6 +571,7 @@
 		"config/heroes/castle/martina.json",
 		"config/heroes/castle/maeve.json",
 		"config/heroes/castle/murazel.json",
+
 		"config/heroes/rampart/akaris.json",
 		"config/heroes/rampart/anwen.json",
 		"config/heroes/rampart/dirael.json",
@@ -543,6 +579,7 @@
 		"config/heroes/rampart/sanctus.json",
 		"config/heroes/rampart/vinrael.json",
 		"config/heroes/rampart/wyngaal.json",
+
 		"config/heroes/tower/atlas.json",
 		"config/heroes/tower/balindar.json",
 		"config/heroes/tower/faiz.json",
@@ -550,6 +587,7 @@
 		"config/heroes/tower/havez.json",
 		"config/heroes/tower/jhora.json",
 		"config/heroes/tower/nur.json",
+
 		"config/heroes/inferno/biara.json",
 		"config/heroes/inferno/deleb.json",
 		"config/heroes/inferno/grok.json",
@@ -557,6 +595,7 @@
 		"config/heroes/inferno/khabeleth.json",
 		"config/heroes/inferno/marbas.json",
 		"config/heroes/inferno/pariah.json",
+		
 		"config/heroes/necropolis/ariana.json",
 		"config/heroes/necropolis/haffayad.json",
 		"config/heroes/necropolis/kaspar.json",
@@ -565,22 +604,29 @@
 		"config/heroes/necropolis/merikh.json",
 		"config/heroes/necropolis/miranda.json",
 		"config/heroes/necropolis/naadir.json",
+
 		"config/heroes/dungeon/euryale.json",
 		"config/heroes/dungeon/raelag.json",
 		"config/heroes/dungeon/shadya.json",
 		"config/heroes/dungeon/yrbeth.json",
+
 		"config/heroes/stronghold/gotai.json",
 		"config/heroes/stronghold/kragh.json",
 		"config/heroes/stronghold/urghat.json",
+
 		"config/heroes/fortress/haggash.json",
+
 		"config/heroes/conflux/nathir.json",
 		"config/heroes/conflux/sinithala.json",
 		"config/heroes/conflux/stratus.json",
 		"config/heroes/conflux/tempest.json",
 		"config/heroes/conflux/zehir.json",
+
 		"config/heroes/cove/jormungandr.json",
+
 		"config/heroes/factory/ixchel.json",
 		"config/heroes/factory/kastore.json",
+
 		"config/heroes/bulwark/ebba.json",
 		"config/heroes/bulwark/helmar.json",
 		"config/heroes/bulwark/hrimnir.json",
@@ -589,6 +635,7 @@
 		"config/heroes/bulwark/svea.json",
 		"config/heroes/bulwark/tolghar.json"
 	],
+
 	"creatures" : [
 		"config/creatures/castle/castle",
 		"config/creatures/castle/lvl1Alt",
@@ -599,6 +646,7 @@
 		"config/creatures/castle/lvl6Alt",
 		"config/creatures/castle/lvl7Alt",
 		"config/creatures/castle/rebalance",
+
 		"config/creatures/rampart/rampart",
 		"config/creatures/rampart/lvl1Alt",
 		"config/creatures/rampart/lvl2Alt",
@@ -608,6 +656,7 @@
 		"config/creatures/rampart/lvl6Alt",
 		"config/creatures/rampart/lvl7Alt",
 		"config/creatures/rampart/rebalance",
+
 		"config/creatures/tower/tower",
 		"config/creatures/tower/lvl1Alt",
 		"config/creatures/tower/lvl2Alt",
@@ -617,6 +666,7 @@
 		"config/creatures/tower/lvl6Alt",
 		"config/creatures/tower/lvl7Alt",
 		"config/creatures/tower/rebalance",
+
 		"config/creatures/inferno/inferno",
 		"config/creatures/inferno/lvl1Alt",
 		"config/creatures/inferno/lvl2Alt",
@@ -632,6 +682,7 @@
 		"config/creatures/inferno/lvl6Alt2Upg2",
 		"config/creatures/inferno/lvl7Alt",
 		"config/creatures/inferno/rebalance",
+
 		"config/creatures/necropolis/necropolis",
 		"config/creatures/necropolis/lvl1Alt",
 		"config/creatures/necropolis/lvl2Alt",
@@ -646,6 +697,7 @@
 		"config/creatures/necropolis/skeletonSharpshooter",
 		"config/creatures/necropolis/dracolich",
 		"config/creatures/necropolis/rebalance",
+
 		"config/creatures/dungeon/dungeon",
 		"config/creatures/dungeon/lvl1Alt",
 		"config/creatures/dungeon/lvl2Alt",
@@ -655,6 +707,7 @@
 		"config/creatures/dungeon/lvl6Alt",
 		"config/creatures/dungeon/lvl7Alt",
 		"config/creatures/dungeon/rebalance",
+
 		"config/creatures/stronghold/stronghold",
 		"config/creatures/stronghold/lvl1Alt",
 		"config/creatures/stronghold/lvl2Alt",
@@ -664,6 +717,7 @@
 		"config/creatures/stronghold/lvl6Alt",
 		"config/creatures/stronghold/lvl7Alt",
 		"config/creatures/stronghold/rebalance",
+
 		"config/creatures/fortress/fortress",
 		"config/creatures/fortress/lvl1Alt",
 		"config/creatures/fortress/lvl2Alt",
@@ -673,6 +727,7 @@
 		"config/creatures/fortress/lvl6Alt",
 		"config/creatures/fortress/lvl7Alt",
 		"config/creatures/fortress/rebalance",
+
 		"config/creatures/conflux/conflux",
 		"config/creatures/conflux/lvl1Alt",
 		"config/creatures/conflux/lvl2Alt",
@@ -684,6 +739,7 @@
 		"config/creatures/conflux/lightElemental",
 		"config/creatures/conflux/darkElemental",
 		"config/creatures/conflux/rebalance",
+
 		"config/creatures/cove/cove",
 		"config/creatures/cove/lvl1Alt",
 		"config/creatures/cove/lvl2Alt",
@@ -692,39 +748,49 @@
 		"config/creatures/cove/lvl6Alt",
 		"config/creatures/cove/lvl7Alt",
 		"config/creatures/cove/rebalance",
+		
 		"config/creatures/factory/rebalance",
+		
 		"config/creatures/bulwark/rebalance",
+
 		"config/creatures/neutral/rebalance"
 	],
+
 	"artifacts" : [
 		"config/artifacts/artifactChanges.json",
+		
 		"config/artifacts/abyssalScaleMail.json",
 		"config/artifacts/archmagesCodex.json",
 		"config/artifacts/barkskinShield.json",
 		"config/artifacts/bookOfPower.json",
 		"config/artifacts/flailOfTheGladiator.json",
 		"config/artifacts/tomeOfTwilightMagic.json",
+		
 		"config/artifacts/coldShadowHelmet.json",
 		"config/artifacts/deepShadowChestplate.json",
 		"config/artifacts/fangedShadowSlicer.json",
 		"config/artifacts/lunarShadowShield.json",
 		"config/artifacts/shadowScaleMail.json",
+		
 		"config/artifacts/dwarvenMithrilCuirass.json",
 		"config/artifacts/dwarvenMithrilGreaves.json",
 		"config/artifacts/dwarvenMithrilHammer.json",
 		"config/artifacts/dwarvenMithrilHelmet.json",
 		"config/artifacts/dwarvenMithrilShield.json",
-		"config/artifacts/plateOfTheDwarvenKing.json"
+		"config/artifacts/plateOfTheDwarvenKing.json"		
 	],
+
 	"objects" : [
 		"config/dwellings.json",
 		"config/mapObjects.json",
+		
 		"config/hermitsShack.json",
 		"config/marketOfTime.json",
 		"config/seafaringAcademy.json",
 		"config/university.json",
 		"config/witchHut.json"
 	],
+
 	"settings" : {
 		"combat" : {
 			"badLuckChance" : [
@@ -738,7 +804,11 @@
 			"levelupTotalSkillsAmount" : 3
 		}
 	},
+
 	"description" : "<p style='font-size:16px; color:#333333; font-style:italic;'>Explore a whole new realm in <b>Tears of Ashan</b>, a fan-made expansion for Heroes of Might and Magic III that mixes elements of Heroes of Might and Magic V with the familiar gameplay of Heroes III.</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Heroes III x V</p> <p style='font-size:16px; color:#333333;'><b>Tears of Ashan</b> expands upon the original game with a horde of features from <b>Heroes V</b>, such as <b>alternate upgrades</b> for every creature in every faction, <b>Light and Dark Magic</b>, and mechanics such as <b>Gating</b>.  The secondary skill cap has been raised from 8 to 10 to allow for these new skills. Explore new strategies and discover more ways to play as each creature upgrade now offers unique strategic advantages. Empower your troops with the power of holy light, or send your enemies to the netherworld as they suffocate in darkness!</p> <p style='font-size:22px; color:#002366; font-weight:bold;'>Alternate Upgrades</p><p style='font-size:16px; color:#333333;'>Each faction now contains <b>21 creatures</b> instead of 14, as each creature can now choose between 2 upgrade paths. These upgraded creatures can be swapped between at any point, so long as it is done so at either a Hill Fort or a town that can recruit them. Some are supportive options that buff your troops or debuff enemy troops; some are offensive brutes that aim to take your enemies down hard and fast; and others are defensive options, there to provide cover for your shooters or bulk up your army. Each faction now has a wider set of strategies to deal with any number of situations, making adaptive gameplay even more possible!</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Conflux</p><p style='font-size:16px; color:#333333;'>While every faction has received a fair share of balance changes, the Conflux has been completely redesigned from the ground up. The core 4 Elementals are no longer \"Level 3.5 units\"; they have been given appropriate stats for their level while still retaining the key features that make both them and the overall balance of Conflux unique.</p> <p style='font-size:16px; color:#333333;'>Read and discover more online: https://sites.google.com/view/tears-of-ashan</p> <p style='font-size:16px; color:#333333; font-style:italic'>I do not approve of any changes made to this mod without my consent. I only approve of translations being made so that the mod is accessible to everyone.</p>",
+
+	//<p style='font-size:22px; color:#002366; font-weight:bold;'>Sanctuary</p><p style='font-size:16px; color:#333333;'>The Sanctuary from Heroes VI makes a return in Tears of Ashan. Lead this powerful army of Ashan Nagas into battle and discover a myriad of strategies with all-new Samurai and Monk heroes, including all those featured in the Sanctuary campaign... which is also included in this very mod! The Sanctuary campaign has been lovingly ported to Heroes III and plays (almost) as well as it does in Heroes VI, featuring a brand new set of artifacts to boot!</p>
+
 	"czech" : {
 		"name" : "Tears of Ashan",
 		"description" : "<p style='font-size:16px; color:#333333; font-style:italic;'>Prozkoumej zcela novou říši v <b>Slzách Ashanu</b>, fanouškovském rozšíření pro Heroes of Might and Magic III, které propojuje prvky Heroes of Might and Magic V se známou hratelností třetích Hrdinů.</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Heroes III x V</p> <p style='font-size:16px; color:#333333;'><b>Slzy Ashanu</b> rozšiřují původní hru o řadu prvků z <b>Heroes V</b>, například o <b>alternativní vylepšení</b> pro každého bojovníka v každé frakci, <b>Magii světla a temnoty</b> a mechaniky jako <b>Brána</b>. Limit druhotných dovedností byl zvýšen z 8 na 10, aby se pro tyto nové dovednosti našlo místo. Objevuj nové strategie a další možnosti hry, protože každé vylepšení jednotky nyní nabízí vlastní taktickou výhodu. Posil své jednotky mocí svatého světla, nebo pošli nepřátele do podsvětí, kde se udusí v temnotě!</p> <p style='font-size:22px; color:#002366; font-weight:bold;'>Alternativní vylepšení</p><p style='font-size:16px; color:#333333;'>Každá frakce nyní obsahuje <b>21 bojovníků</b> místo 14, protože každá jednotka si může vybrat mezi 2 cestami vylepšení. Tyto vylepšené jednotky lze mezi sebou kdykoli vyměnit, pokud se tak děje v Pevnosti na kopci nebo ve městě, které je může najímat. Některé slouží jako podpora, posilují tvé jednotky nebo oslabují nepřátele; jiné jsou útoční rváči, kteří mají nepřátele tvrdě a rychle srazit; další jsou obrannou volbou, chrání střelce nebo zpevňují armádu. Každá frakce tak získává širší škálu strategií pro nejrůznější situace a přizpůsobivá hra je ještě dostupnější!</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Conflux</p><p style='font-size:16px; color:#333333;'>Zatímco každá frakce prošla řadou úprav vyvážení, Conflux byl kompletně přepracován od základů. Čtyři základní elementálové už nejsou „jednotky úrovně 3,5“; získali odpovídající statistiky pro svou úroveň, ale zachovali si klíčové vlastnosti, díky nimž jsou oni i celkové vyvážení Confluxu jedineční.</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Svatyně</p><p style='font-size:16px; color:#333333;'>Svatyně z Heroes VI se vrací do Tears of Ashan. Veď mocné vojsko nag z Ashanu do boje a objev nové strategie se samuraji a mnichy, včetně hrdinů z kampaně Svatyně, která je součástí této modifikace.</p> <p style='font-size:16px; color:#333333;'>Více se dozvíš online: https://sites.google.com/view/tears-of-ashan</p>",
@@ -750,21 +820,6 @@
 		"description" : "<p style='font-size:16px; color:#333333; font-style:italic;'>Explore a whole new realm in <b>Tears of Ashan</b>, a fan-made expansion for Heroes of Might and Magic III that mixes elements of Heroes of Might and Magic V with the familiar gameplay of Heroes III.</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Heroes III x V</p> <p style='font-size:16px; color:#333333;'><b>Tears of Ashan</b> expands upon the original game with a horde of features from <b>Heroes V</b>, such as <b>alternate upgrades</b> for every creature in every faction, <b>Light and Dark Magic</b>, and mechanics such as <b>Gating</b>.  The secondary skill cap has been raised from 8 to 10 to allow for these new skills. Explore new strategies and discover more ways to play as each creature upgrade now offers unique strategic advantages. Empower your troops with the power of holy light, or send your enemies to the netherworld as they suffocate in darkness!</p> <p style='font-size:22px; color:#002366; font-weight:bold;'>Alternate Upgrades</p><p style='font-size:16px; color:#333333;'>Each faction now contains <b>21 creatures</b> instead of 14, as each creature can now choose between 2 upgrade paths. These upgraded creatures can be swapped between at any point, so long as it is done so at either a Hill Fort or a town that can recruit them. Some are supportive options that buff your troops or debuff enemy troops; some are offensive brutes that aim to take your enemies down hard and fast; and others are defensive options, there to provide cover for your shooters or bulk up your army. Each faction now has a wider set of strategies to deal with any number of situations, making adaptive gameplay even more possible!</p><p style='font-size:22px; color:#002366; font-weight:bold;'>Conflux</p><p style='font-size:16px; color:#333333;'>While every faction has received a fair share of balance changes, the Conflux has been completely redesigned from the ground up. The core 4 Elementals are no longer \"Level 3.5 units\"; they have been given appropriate stats for their level while still retaining the key features that make both them and the overall balance of Conflux unique.</p> <p style='font-size:16px; color:#333333;'>Read and discover more online: https://sites.google.com/view/tears-of-ashan</p>",
 		"translations" : [
 			"translation/polish.json"
-		]
-	},
-	"chinese" : {
-		"translations" : [
-			"translation/chinese.json"
-		]
-	},
-	"german" : {
-		"translations" : [
-			"translation/german.json"
-		]
-	},
-	"russian" : {
-		"translations" : [
-			"translation/russian.json"
 		]
 	}
 }
