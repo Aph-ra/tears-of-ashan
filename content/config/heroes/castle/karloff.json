@@ -33,9 +33,7 @@
 					"type" : "CATAPULT",
 					"subtype" : "spell.cyclopsShot",
 					"propagator" : "HERO",
-					"limiters" : [
-						"SHOOTER_ONLY"
-					]
+					"limiters" : [ "SHOOTER_ONLY" ]
 				}
 			}
 		},

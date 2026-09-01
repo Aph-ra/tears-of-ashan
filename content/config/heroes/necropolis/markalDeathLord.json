@@ -34,14 +34,13 @@
 			}
 		],
 
-		"specialty" : {
-			//does not work because limiter is for army, not hero
+		"specialty" : {//does not work because limiter is for army, not hero
 			"bonuses" : {
 				"diplomacy" : {
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "WANDERING_CREATURES_JOIN_BONUS",
 					"val" : 10,
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "FACTION_LIMITER",
 							"faction" : "necropolis"

@@ -24,7 +24,7 @@
 			"specialty" : {
 				"name" : "Archers",
 				"tooltip" : "Creature Bonus: Archers",
-				"description" : "Increases the Speed of allied Archers, Marksmen, and Crossbowmen by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
+				"description" : "Increases the Speed of allied Archers, Marksmen, and Crossbowmen by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."				
 			}
 		},
 		"specialty#override" : {
@@ -38,7 +38,7 @@
 			"specialty" : {
 				"name" : "Griffins",
 				"tooltip" : "Creature Bonus: Griffins",
-				"description" : "Increases the Speed of allied Griffins, Royal Griffins, and Battle Griffins by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."
+				"description" : "Increases the Speed of allied Griffins, Royal Griffins, and Battle Griffins by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
 			}
 		},
 		"specialty#override" : {
@@ -854,24 +854,12 @@
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
-				"archer2sharpshooter" : {
-					"subtype" : "creature.archer"
-				},
-				"marksman2sharpshooter" : {
-					"subtype" : "creature.marksman"
-				},
-				"crossbowman2sharpshooter" : {
-					"subtype" : "creature.crossbowmanAU"
-				},
-				"woodElf2sharpshooter" : {
-					"subtype" : "creature.woodElf"
-				},
-				"grandElf2sharpshooter" : {
-					"subtype" : "creature.grandElf"
-				},
-				"wardancer2sharpshooter" : {
-					"subtype" : "creature.elfWardancerAU"
-				}
+				"archer2sharpshooter" : { "subtype" : "creature.archer" },
+				"marksman2sharpshooter" : { "subtype" : "creature.marksman" },
+				"crossbowman2sharpshooter" : { "subtype" : "creature.crossbowmanAU" },
+				"woodElf2sharpshooter" : { "subtype" : "creature.woodElf" },
+				"grandElf2sharpshooter" : { "subtype" : "creature.grandElf" },
+				"wardancer2sharpshooter" : { "subtype" : "creature.elfWardancerAU" }
 			}
 		},
 		"army#override" : [
@@ -1615,24 +1603,12 @@
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
-				"monk2enchanter" : {
-					"subtype" : "creature.monk"
-				},
-				"zealot2enchanter" : {
-					"subtype" : "creature.zealot"
-				},
-				"priest2enchanter" : {
-					"subtype" : "creature.priestAU"
-				},
-				"mage2enchanter" : {
-					"subtype" : "creature.mage"
-				},
-				"archMage2enchanter" : {
-					"subtype" : "creature.archMage"
-				},
-				"battleMage2enchanter" : {
-					"subtype" : "creature.battleMageAU"
-				}
+				"monk2enchanter" : { "subtype" : "creature.monk" },
+				"zealot2enchanter" : { "subtype" : "creature.zealot" },
+				"priest2enchanter" : { "subtype" : "creature.priestAU" },
+				"mage2enchanter" : { "subtype" : "creature.mage" },
+				"archMage2enchanter" : { "subtype" : "creature.archMage" },
+				"battleMage2enchanter" : { "subtype" : "creature.battleMageAU" }
 			}
 		},
 		"army#override" : [
@@ -5267,7 +5243,7 @@
 			"specialty" : {
 				"name" : "Automatons",
 				"tooltip" : "Creature Bonus: Automatons",
-				"description" : "Increases the Speed of allied Automatons and Sentinel Automatons by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
+				"description" : "Increases the Speed of allied Automatons and Sentinel Automatons by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."				
 			}
 		},
 		"specialty#override" : {

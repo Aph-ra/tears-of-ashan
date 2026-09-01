@@ -40,7 +40,7 @@
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "lightningBolt",
 					"val" : 100,
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "ballista",
@@ -55,7 +55,7 @@
 					"subtype" : "lightningBolt",
 					"val" : 100,
 					"updater" : "TIMES_HERO_LEVEL",
-					"limiters" : [
+					"limiters": [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "ballista",
@@ -65,7 +65,7 @@
 				}
 			}
 		},
-
+		
 		"army" : [
 			{
 				"creature" : "kobold",

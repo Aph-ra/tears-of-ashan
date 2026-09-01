@@ -3,7 +3,8 @@
 		"class" : "elementalist",
 		"female" : false,
 		"special" : false,
-		"spellbook" : [],
+		"spellbook" : [
+		],
 		"texts" : {
 			"name" : "Zehir",
 			"biography" : "Excitable, headstrong, and energetic are the sorts of words the older Mages use to describe Zehir. He chose to master elemental magic, figuring (correctly) that if he could control beings as fickle and powerful as elementals he would be well prepared for any magical struggle.Though the title First of the Circle was granted to the young Mage in the hopes of staving off political infighting during a crisis, the other wizards of the Circle quickly realized that it was only a matter of time before Zehir's skills surpassed theirs - time that is more likely to be measured in months than in years.",
