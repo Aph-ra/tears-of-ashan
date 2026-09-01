@@ -1804,6 +1804,8 @@
 	"mod.toa-campaign-heroes-compatibility.description" : "Compatibility layer for Campaign Heroes mod. Changes armies and specialty descriptions.",
 	"mod.toa-courtyard-compatibility.name" : "Courtyard Compatibility",
 	"mod.toa-courtyard-compatibility.description" : "Compatibility layer for Courtyard mod. Changes all instances of Reconstruction the the TOA version.",
+	"mod.toa-diplomacy-heroes.name" : "Enable Diplomacy Specialists",
+	"mod.toa-diplomacy-heroes.description" : "Enables Biara, Markal, Melchior, and Oidana. Also enables Diane if Cathedral is installed and Jun if Sanctuary is installed.",
 	"mod.toa-factional-dragons.name" : "Factional Neutral Dragons",
 	"mod.toa-factional-dragons.description" : "Moves Azure Dragons to Bulwark, Crystal Dragons to Tower, Rust Dragons to Fortress, and Faerie Dragons to Rampart.",
 	"mod.toa-h5-cursors.name" : "Heroes V Cursors",
