@@ -1807,5 +1807,9 @@
 	"spell.tears-of-ashan.sunBurst.description.expert": "{Rozbłysk słońca — poziom mistrzowski}\n\nPrzywołuje migoczący impuls czystego światła słonecznego.\n\nKażda jednostka otrzymuje (Moc zaklęć x 20 + 120) obrażeń, a jej obrona zostaje zmniejszona o 40% na 3 tury.\n",
 	"spell.tears-of-ashan.sunBurst.description.none": "{Rozbłysk słońca}\n\nPrzywołuje migoczący impuls czystego światła słonecznego.\n\nKażda jednostka otrzymuje (Moc zaklęć x 20 + 40) obrażeń, a jej obrona zostaje zmniejszona o 20% na 3 tury.\n",
 	"spell.tears-of-ashan.sunBurst.name": "Rozbłysk słońca",
-	"spellSchool.tears-of-ashan.05runeloreSchool.name": "Znajomość runów"
+	"spellSchool.tears-of-ashan.05runeloreSchool.name": "Znajomość runów",
+	"mapObject.hota.highlandsterrain.hermitsShack.hermitsShack.rewards.39": "{Chata pustelnika}\n\nPo wejściu do chaty nie zastajesz nikogo, lecz jej ściany są wyłożone stronami z uczonych ksiąg. Kopiujesz kilka przydatnych informacji z kartki leżącej przy kominku.",
+	"mapObject.market-of-time.marketOfTime.marketOfTime.rewards.38": "{Targ Czasu}\n\nWkraczasz na Targ Czasu, gdzie jego strażnik wita cię z powagą.\n\n„Pozostało już tylko jedno wspomnienie… Jeśli zechcesz, pomogę ci porzucić tę ostatnią zdolność.”",
+	"mod.toa-diplomacy-heroes.name": "Włącz specjalistów w Dyplomacji",
+	"mod.toa-diplomacy-heroes.description": "Włącz bohaterów: Biarę, Markala, Melchiora i Oidana. Włącz także Dianę jeśli grasz z włączoną Katedrą oraz Jun jeśli włączyłeś Sanktuarium."
 }
