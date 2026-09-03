@@ -71,7 +71,7 @@
 			"Stopped faction-specifc skills from being offered at adventure map locations",
 			"Allowed faction-specifc skills to be upgraded at adventure map locations",
 			"Fixed Uriel's Temple spawning as \"visited\" due to overlapping map dice parameters",
-			"Minor portrait adjustments and improvements",
+			"Minor portrait adjustments and improvements"
 		],
 		"Public Beta 1.6.17" : [
 			"Ice Elemental Damage 3–7 → 4–8; Cast Ice Bolt → Freezing Shot (20%)",
@@ -83,7 +83,7 @@
 			"Added All Magic spell (Summon Psychic Elemental)",
 			"Reworked the summon ratios and costs of Summon Elemental spells (see website)",
 			"Titan's Thunder increases Air Magic damage by 50%; Cost 40000 → 45000",
-			"Added Sanctuary campaign bonus images",
+			"Added Sanctuary campaign bonus images"
 		],
 		"Public Beta 1.6.16" : [
 			"Crusader Speed 6 → 7",
@@ -108,7 +108,7 @@
 			"Minor portrait adjustments and improvements",
 			"Major damaging magic rebalance (check the website for all the changes)",
 			"Added Light Magic spells (Celestial Armor, Holy Word, Summon Light Elemental, Sun Beam, Sun Burst)",
-			"Added Dark Magic spell (Summon Dark Elemental)",
+			"Added Dark Magic spell (Summon Dark Elemental)"
 		],
 		"Public Beta 1.6.15" : [
 			"Master Genie & Genie Vizier Cost 650 → 625; AI Value 1100 → 1050",
