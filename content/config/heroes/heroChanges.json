@@ -1298,9 +1298,9 @@
 		"texts" : {
 			"biography" : "Rissa was the first Alchemist to perfect the art of converting useless rocks into gems. Though now commanding her own army, she spends much of her idle time experimenting with other materials.",
 			"specialty" : {
-				"name" : "+1 Gems",
-				"tooltip" : "Resource Bonus: +1 Gems",
-				"description" : "Increases kingdom's gem production by 1 per day."
+				"name" : "Gems",
+				"tooltip" : "Resource Bonus: Gems",
+				"description" : "Increases kingdom's gem production by 1 for every 5 levels per day."
 			}
 		},
 		"specialty#override" : {
@@ -1308,7 +1308,11 @@
 				"gems" : {
 					"type" : "GENERATE_RESOURCE",
 					"subtype" : "resource.gems",
-					"val" : 1
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 5
+					}
 				}
 			}
 		},
@@ -2015,9 +2019,9 @@
 		"texts" : {
 			"biography" : "Calid possesses an unusual (though useful) ability to sniff out hidden sulfur and mercury deposits. The Dungeon Overlords have used her on several occasions when collecting sulfur for their fearsome dragons.",
 			"specialty" : {
-				"name" : "+1 Mercury",
-				"tooltip" : "Resource Bonus: +1 Mercury",
-				"description" : "Increases kingdom's mercury production by 1 per day."
+				"name" : "Mercury",
+				"tooltip" : "Resource Bonus: Mercury",
+				"description" : "Increases kingdom's mercury production by 1 for every 5 levels per day."
 			}
 		},
 		"specialty#override" : {
@@ -2025,7 +2029,11 @@
 				"gems" : {
 					"type" : "GENERATE_RESOURCE",
 					"subtype" : "resource.mercury",
-					"val" : 1
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 5
+					}
 				}
 			}
 		},
@@ -3117,9 +3125,9 @@
 	"core:sephinroth" : {
 		"texts" : {
 			"specialty" : {
-				"name" : "+1 Sulfur",
-				"tooltip" : "Resource Bonus: +1 Sulfur",
-				"description" : "Increases kingdom's sulfur production by 1 per day."
+				"name" : "Sulfur",
+				"tooltip" : "Resource Bonus: Sulfur",
+				"description" : "Increases kingdom's sulfur production by 1 for every 5 levels per day."
 			}
 		},
 		"specialty#override" : {
@@ -3127,7 +3135,11 @@
 				"gems" : {
 					"type" : "GENERATE_RESOURCE",
 					"subtype" : "resource.sulfur",
-					"val" : 1
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 5
+					}
 				}
 			}
 		},
@@ -3782,9 +3794,9 @@
 	"core:saurug" : {
 		"texts" : {
 			"specialty" : {
-				"name" : "+1 Crystal",
-				"tooltip" : "Resource Bonus: +1 Crystal",
-				"description" : "Increases kingdom's crystal production by 1 per day."
+				"name" : "Crystal",
+				"tooltip" : "Resource Bonus: Crystal",
+				"description" : "Increases kingdom's crystal production by 1 for every 5 levels per day."
 			}
 		},
 		"specialty#override" : {
@@ -3792,7 +3804,11 @@
 				"gems" : {
 					"type" : "GENERATE_RESOURCE",
 					"subtype" : "resource.crystal",
-					"val" : 1
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 5
+					}
 				}
 			}
 		},
@@ -4861,14 +4877,21 @@
 	"core:gelare" : {
 		"texts" : {
 			"specialty" : {
-				"name" : "+500 Gold",
-				"description" : "Increases kingdom's income by 500 gold per day."
+				"name" : "Mercury",
+				"tooltip" : "Resource Bonus: Mercury",
+				"description" : "Increases kingdom's mercury production by 1 for every 5 levels per day."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"bonuses" : {
-				"gold" : {
-					"val" : 500
+				"gems" : {
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.mercury",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 5
+					}
 				}
 			}
 		},
@@ -5101,9 +5124,9 @@
 		"texts" : {
 			"biography" : "While being an experienced pirate, Andal did not always consider himself as a mage or a rogue. He was an ordinary merchant until bankrupting and getting too many debts one day. He started searching for a way to get fast and easy money. After leaving his home, he shortly returned as a known smuggler. He usually trades gems, mountain crystals, and bags of sulfur. It is a mystery where he gets them from, however.",
 			"specialty" : {
-				"name" : "+1 Sulfur",
-				"tooltip" : "Resource Bonus: +1 Sulfur",
-				"description" : "Increases kingdom's sulfur production by 1 per day."
+				"name" : "Sulfur",
+				"tooltip" : "Resource Bonus: Sulfur",
+				"description" : "Increases kingdom's sulfur production by 1 for every 5 levels per day."
 			}
 		},
 		"specialty#override" : {
@@ -5111,7 +5134,11 @@
 				"gems" : {
 					"type" : "GENERATE_RESOURCE",
 					"subtype" : "resource.sulfur",
-					"val" : 1
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 5
+					}
 				}
 			}
 		},

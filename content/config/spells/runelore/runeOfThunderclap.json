@@ -53,94 +53,184 @@
 								"type" : "SPELL_AFTER_ATTACK",
 								"subtype" : "thunderbolt",
 								"val" : 25,
-								"duration" : "N_TURNS"
+								"duration" : "N_TURNS",
+								"limiters" : [
+									"noneOf",
+									{
+										"type" : "HAS_ANOTHER_BONUS_LIMITER",
+										"bonusType" : "SIEGE_WEAPON"
+									}
+								]
 							},
 							"thunderStrength01" : {
 								"type" : "SPECIFIC_SPELL_POWER",
 								"subtype" : "thunderbolt",
 								"val" : 2,
-								"limiters" : {
-									"type" : "CREATURE_LEVEL_LIMITER",
-									"minLevel" : 1,
-									"maxlevel" : 2
-								}
+								"limiters" : [
+									{
+										"type" : "CREATURE_LEVEL_LIMITER",
+										"minLevel" : 1,
+										"maxlevel" : 2
+									},
+									[
+										"noneOf",
+										{
+											"type" : "HAS_ANOTHER_BONUS_LIMITER",
+											"bonusType" : "SIEGE_WEAPON"
+										}
+									]
+								]
 							},
 							"thunderStrength02" : {
 								"type" : "SPECIFIC_SPELL_POWER",
 								"subtype" : "thunderbolt",
 								"val" : 3,
-								"limiters" : {
-									"type" : "CREATURE_LEVEL_LIMITER",
-									"minLevel" : 2,
-									"maxlevel" : 3
-								}
+								"limiters" : [
+									{
+										"type" : "CREATURE_LEVEL_LIMITER",
+										"minLevel" : 2,
+										"maxlevel" : 3
+									},
+									[
+										"noneOf",
+										{
+											"type" : "HAS_ANOTHER_BONUS_LIMITER",
+											"bonusType" : "SIEGE_WEAPON"
+										}
+									]
+								]
 							},
 							"thunderStrength03" : {
 								"type" : "SPECIFIC_SPELL_POWER",
 								"subtype" : "thunderbolt",
 								"val" : 4,
-								"limiters" : {
-									"type" : "CREATURE_LEVEL_LIMITER",
-									"minLevel" : 3,
-									"maxlevel" : 4
-								}
+								"limiters" : [
+									{
+										"type" : "CREATURE_LEVEL_LIMITER",
+										"minLevel" : 3,
+										"maxlevel" : 4
+									},
+									[
+										"noneOf",
+										{
+											"type" : "HAS_ANOTHER_BONUS_LIMITER",
+											"bonusType" : "SIEGE_WEAPON"
+										}
+									]
+								]
 							},
 							"thunderStrength04" : {
 								"type" : "SPECIFIC_SPELL_POWER",
 								"subtype" : "thunderbolt",
 								"val" : 5,
-								"limiters" : {
-									"type" : "CREATURE_LEVEL_LIMITER",
-									"minLevel" : 4,
-									"maxlevel" : 5
-								}
+								"limiters" : [
+									{
+										"type" : "CREATURE_LEVEL_LIMITER",
+										"minLevel" : 4,
+										"maxlevel" : 5
+									},
+									[
+										"noneOf",
+										{
+											"type" : "HAS_ANOTHER_BONUS_LIMITER",
+											"bonusType" : "SIEGE_WEAPON"
+										}
+									]
+								]
 							},
 							"thunderStrength05" : {
 								"type" : "SPECIFIC_SPELL_POWER",
 								"subtype" : "thunderbolt",
 								"val" : 10,
-								"limiters" : {
-									"type" : "CREATURE_LEVEL_LIMITER",
-									"minLevel" : 5,
-									"maxlevel" : 6
-								}
+								"limiters" : [
+									{
+										"type" : "CREATURE_LEVEL_LIMITER",
+										"minLevel" : 5,
+										"maxlevel" : 6
+									},
+									[
+										"noneOf",
+										{
+											"type" : "HAS_ANOTHER_BONUS_LIMITER",
+											"bonusType" : "SIEGE_WEAPON"
+										}
+									]
+								]
 							},
 							"thunderStrength06" : {
 								"type" : "SPECIFIC_SPELL_POWER",
 								"subtype" : "thunderbolt",
 								"val" : 15,
-								"limiters" : {
-									"type" : "CREATURE_LEVEL_LIMITER",
-									"minLevel" : 6,
-									"maxlevel" : 7
-								}
+								"limiters" : [
+									{
+										"type" : "CREATURE_LEVEL_LIMITER",
+										"minLevel" : 6,
+										"maxlevel" : 7
+									},
+									[
+										"noneOf",
+										{
+											"type" : "HAS_ANOTHER_BONUS_LIMITER",
+											"bonusType" : "SIEGE_WEAPON"
+										}
+									]
+								]
 							},
 							"thunderStrength07" : {
 								"type" : "SPECIFIC_SPELL_POWER",
 								"subtype" : "thunderbolt",
 								"val" : 25,
-								"limiters" : {
-									"type" : "CREATURE_LEVEL_LIMITER",
-									"minLevel" : 7,
-									"maxlevel" : 11
-								}
+								"limiters" : [
+									{
+										"type" : "CREATURE_LEVEL_LIMITER",
+										"minLevel" : 7,
+										"maxlevel" : 11
+									},
+									[
+										"noneOf",
+										{
+											"type" : "HAS_ANOTHER_BONUS_LIMITER",
+											"bonusType" : "SIEGE_WEAPON"
+										}
+									]
+								]
+							},
+							"warMachineBonus01" : {
+								"type" : "BONUS_DAMAGE_CHANCE",
+								"subtype" : "ballista",
+								"val" : 100
+							},
+							"warMachineBonus02" : {
+								"type" : "BONUS_DAMAGE_CHANCE",
+								"subtype" : "cannon",
+								"val" : 100
+							},
+							"warMachineStrength01" : {
+								"type" : "BONUS_DAMAGE_PERCENTAGE",
+								"subtype" : "ballista",
+								"val" : 100
+							},
+							"warMachineStrength02" : {
+								"type" : "BONUS_DAMAGE_PERCENTAGE",
+								"subtype" : "cannon",
+								"val" : 100
 							}
 						}
 					}
 				}
 			},
 			"none" : {
-				"description" : "{Rune of Thunder}\n\nPlaces the Rune of Thunder upon an allied unit, granting them a 25% chance to cast Thunderbolt after attacking, with damage dependent on unit level:\n\n{1}: 2 Damage per unit, {2}: 3 Damage per unit, {3}: 4 Damage per unit\n{4}: 5 Damage per unit, {5}: 10 Damage per unit, {6}: 15 Damage per unit\n{7+}: 25 Damage per unit",
+				"description" : "{Rune of Thunder}\n\nPlaces the Rune of Thunder upon an allied unit, granting them a 25% chance to cast Thunderbolt after attacking, with damage dependent on unit level:\n\n{1}: 2 Damage per unit, {2}: 3 Damage per unit, {3}: 4 Damage per unit\n{4}: 5 Damage per unit, {5}: 10 Damage per unit, {6}: 15 Damage per unit\n{7+}: 25 Damage per unit\n{Ballista}: 12 Damage per hero level\n\nThe {Ballista} and {Cannon} instead deal double base damage (triple, with Artillery).",
 				"cost" : 24,
 				"power" : 1
 			},
 			"basic" : {
-				"description" : "{Basic Rune of Thunder}\n\nPlaces the Rune of Thunder upon an allied unit, granting them a 25% chance to cast Thunderbolt after attacking, with damage dependent on unit level:\n\n{1}: 2 Damage per unit, {2}: 3 Damage per unit, {3}: 4 Damage per unit\n{4}: 5 Damage per unit, {5}: 10 Damage per unit, {6}: 15 Damage per unit\n{7+}: 25 Damage per unit",
+				"description" : "{Basic Rune of Thunder}\n\nPlaces the Rune of Thunder upon an allied unit, granting them a 25% chance to cast Thunderbolt after attacking, with damage dependent on unit level:\n\n{1}: 2 Damage per unit, {2}: 3 Damage per unit, {3}: 4 Damage per unit\n{4}: 5 Damage per unit, {5}: 10 Damage per unit, {6}: 15 Damage per unit\n{7+}: 25 Damage per unit\n{Ballista}: 12 Damage per hero level\n\nThe {Ballista} and {Cannon} instead deal double base damage (triple, with Artillery).",
 				"cost" : 24,
 				"power" : 1
 			},
 			"advanced" : {
-				"description" : "{Advanced Rune of Thunder}\n\nPlaces the Rune of Thunder upon an allied unit and any allied units adjacent to the target, granting them a 30% chance to cast Thunderbolt after attacking, with damage dependent on unit level:\n\n{1}: 2 Damage per unit, {2}: 3 Damage per unit, {3}: 4 Damage per unit\n{4}: 5 Damage per unit, {5}: 10 Damage per unit, {6}: 15 Damage per unit\n{7+}: 25 Damage per unit",
+				"description" : "{Advanced Rune of Thunder}\n\nPlaces the Rune of Thunder upon an allied unit and any allied units adjacent to the target, granting them a 30% chance to cast Thunderbolt after attacking, with damage dependent on unit level:\n\n{1}: 2 Damage per unit, {2}: 3 Damage per unit, {3}: 4 Damage per unit\n{4}: 5 Damage per unit, {5}: 10 Damage per unit, {6}: 15 Damage per unit\n{7+}: 25 Damage per unit\n\nThe {Ballista} and {Cannon} instead deal double base damage (triple, with Artillery).",
 				"cost" : 20,
 				"power" : 1,
 				"range" : "0,1",
@@ -155,7 +245,7 @@
 				}
 			},
 			"expert" : {
-				"description" : "{Expert Rune of Thunder}\n\nPlaces the Rune of Thunder upon an allied unit and any allied units within 2 hexes of the target, granting them a 35% chance to cast Thunderbolt after attacking, with damage dependent on unit level:\n\n{1}: 2 Damage per unit, {2}: 3 Damage per unit, {3}: 4 Damage per unit\n{4}: 5 Damage per unit, {5}: 10 Damage per unit, {6}: 15 Damage per unit\n{7+}: 25 Damage per unit",
+				"description" : "{Expert Rune of Thunder}\n\nPlaces the Rune of Thunder upon an allied unit and any allied units within 2 hexes of the target, granting them a 35% chance to cast Thunderbolt after attacking, with damage dependent on unit level:\n\n{1}: 2 Damage per unit, {2}: 3 Damage per unit, {3}: 4 Damage per unit\n{4}: 5 Damage per unit, {5}: 10 Damage per unit, {6}: 15 Damage per unit\n{7+}: 25 Damage per unit\n\nThe {Ballista} and {Cannon} instead deal double base damage (triple, with Artillery).",
 				"cost" : 20,
 				"power" : 1,
 				"range" : "0,1,2",

@@ -2,13 +2,21 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra; see website for full list of credits!",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "1.7.02",
+	"version" : "1.7.03",
 	"modType" : "Expansion",
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
 
 	"changelog" : {
+		"Public Beta 1.7.03" : [
+			"Dread Knight Death Blow 20% → 30%",
+			"Resource specialists now grant +1 resource for every 5 levels per day",
+			"Gelare specialty Gold → Mercury",
+			"Added soft dependencies to remove all the console warnings about conflicting balance changes",
+			"Updated Rune of Thunder; the Ballista and Cannon now inflict double base damage (triple, with Artillery) instead of potentially striking with Thunderbolt",
+			"Fixed Hell Steed battle def"
+		],
 		"Public Beta 1.7.02" : [
 			"Added Hirki Plus Patch as a conflict",
 			"Fixed Inga being able to gain Runelore twice",
@@ -414,6 +422,12 @@
 		"new-old-spells-plus",
 		"vcmi-extras.bonusicons.bonus icons"
 	],
+	
+	"softDepends" : [
+		"hota.gamebalance.creatures",
+		"hota.gamebalance.startingsarmies"
+	],
+
 
 	"bonuses" : [
 		"config/bonuses/accursed01.json",
