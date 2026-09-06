@@ -79,6 +79,13 @@
 		"aiValue" : 1100,
 		"fightValue" : 900
 	},
+	"core:dreadKnight" : {
+		"abilities" : {
+			"deathStrike" : {
+				"val" : 30
+			}
+		}
+	},
 	"core:boneDragon" : {
 		"attack" : 18,
 		"defense" : 16,
