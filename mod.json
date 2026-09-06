@@ -422,12 +422,11 @@
 		"new-old-spells-plus",
 		"vcmi-extras.bonusicons.bonus icons"
 	],
-	
+
 	"softDepends" : [
 		"hota.gamebalance.creatures",
 		"hota.gamebalance.startingsarmies"
 	],
-
 
 	"bonuses" : [
 		"config/bonuses/accursed01.json",
