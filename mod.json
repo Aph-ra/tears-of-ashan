@@ -2,13 +2,21 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra; see website for full list of credits!",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "1.7.03",
+	"version" : "1.7.04",
 	"modType" : "Expansion",
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
 
 	"changelog" : {
+		"Public Beta 1.7.04" : [
+			"Priest 3x Advanced Bless → 2x Expert Bless & Expert Cure",
+			"Dread Knight Death Blow 30% → 25%",
+			"Added Avenger, a secondary skill exclusive to Rampart heroes",
+			"Added Tieru (Druid, Speed specialist)",
+			"Anwen Basic Leadership & Basic Offense → Basic Avenger & Basic Leadership",
+			"Wygaal specialty Speed → Scouting"
+		],
 		"Public Beta 1.7.03" : [
 			"Dread Knight Death Blow 20% → 30%",
 			"Resource specialists now grant +1 resource for every 5 levels per day",
@@ -432,6 +440,9 @@
 		"config/bonuses/accursed01.json",
 		"config/bonuses/accursed02.json",
 		"config/bonuses/accursed03.json",
+		"config/bonuses/avenger01.json",
+		"config/bonuses/avenger02.json",
+		"config/bonuses/avenger03.json",
 		"config/bonuses/battlecryBonus.json",
 		"config/bonuses/demonic.json",
 		"config/bonuses/markedForDeath.json",
@@ -441,20 +452,16 @@
 	"skills" : [
 		"config/skills/darkMagic.json",
 		"config/skills/lightMagic.json",
-
+		"config/skills/avenger.json",
 		"config/skills/gating.json",
 		"config/skills/gatingDevilSpec.json",
 		"config/skills/gatingNightmareSpec.json",
 		"config/skills/gatingSuccubusSpec.json",
-
 		"config/skills/bloodRage.json",
 		"config/skills/warcries.json",
-
 		"config/skills/occultism.json",
-
 		"config/skills/runelore.json",
 		"config/skills/runeloreIngaSpec.json",
-
 		"config/skills/rebalance.json"
 	],
 
@@ -596,6 +603,7 @@
 		"config/heroes/rampart/dirael.json",
 		"config/heroes/rampart/findan.json",
 		"config/heroes/rampart/sanctus.json",
+		"config/heroes/rampart/tieru.json",
 		"config/heroes/rampart/vinrael.json",
 		"config/heroes/rampart/wyngaal.json",
 

@@ -7,37 +7,41 @@
 			"name" : "Wyngaal",
 			"biography" : "Wyngaal started his life as a scout and hunter, but anger against those who would upset the Sylvan Harmony turned him into a warrior. He relies heavily on the knowledge of his early years, however, and is ever pondering pitfalls, traps, and surprises. Any enemy troops that face Wyngaal and his forces are unlikely to get the upper hand, as Wyngaal's alertness and experience give him a definitive edge.",
 			"specialty" : {
-				"name" : "Speed",
-				"tooltip" : "Creature Bonus: Speed",
-				"description" : "Increases the Speed of allied creatures by 1% per hero level."
+				"name" : "Scouting",
+				"tooltip" : "Secondary Skill Bonus: Scouting",
+				"description" : "Increases the scouting range by 1 for every 6 levels."
 			}
 		},
 
 		"images" : {
 			"small" : "heroes/rampart/wyngaal/portraitSmall.png",
 			"large" : "heroes/rampart/wyngaal/portraitLarge.png",
-			"specialtySmall" : "heroes/specialtySmall/Speed.png",
-			"specialtyLarge" : "heroes/specialtyLarge/Speed.png"
+			"specialtySmall" : "heroes/specialtySmall/Scouting.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Scouting.png"
 		},
 
 		"skills" : [
 			{
-				"skill" : "archery",
+				"skill" : "scouting",
 				"level" : "basic"
 			},
 			{
-				"skill" : "scouting",
+				"skill" : "archery",
 				"level" : "basic"
 			}
 		],
 
 		"specialty" : {
 			"bonuses" : {
-				"damageReduction" : {
-					"type" : "STACKS_SPEED",
-					"val" : 1,
-					"valueType" : "PERCENT_TO_BASE",
-					"updater" : "TIMES_HERO_LEVEL"
+				"sight" : {
+					"type" : "SIGHT_RADIUS",
+					"val" : 0,
+					"valueType" : "BASE_NUMBER",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 20,
+						"stepSize" : 6
+					}
 				}
 			}
 		},

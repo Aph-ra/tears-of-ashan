@@ -1,0 +1,13 @@
+{
+	"AVENGER02" : {
+		"hidden" : false,
+
+		"creatureNature" : false,
+
+		"description" : "{Avenger}\nCreature suffers 15% more damage from the mark of the Avenger.",
+
+		"graphics" : {
+			"icon" : "bonuses/avenger02.png"
+		}
+	}
+}

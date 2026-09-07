@@ -39,17 +39,29 @@
 			"castBless" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "bless",
-				"val" : 2,
-				"description" : "{Spellcaster}\nCan cast Advanced Bless (6 Power).",
-				"icon" : "zvs/Lib1.res/spellsSOD/bless2.png"
+				"val" : 3,
+				"description" : "{Spellcaster}\nCan cast Expert Bless (6 Power).",
+				"icon" : "zvs/Lib1.res/spellsSOD/bless3.png"
 			},
 			"blessPower" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 6
 			},
+			"castCure" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "cure",
+				"val" : 3,
+				"description" : "{Spellcaster}\nCan cast Expert Cure (100% Power).",
+				"icon" : "zvs/Lib1.res/spellsSOD/cure3.png"
+			},
+			"curePower" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "cure",
+				"val" : 100
+			},
 			"spellpoints" : {
 				"type" : "CASTS",
-				"val" : 3
+				"val" : 2
 			}
 		},
 		"graphics" : {

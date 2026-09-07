@@ -22,11 +22,11 @@
 
 		"skills" : [
 			{
-				"skill" : "leadership",
+				"skill" : "avenger",
 				"level" : "basic"
 			},
 			{
-				"skill" : "offence",
+				"skill" : "leadership",
 				"level" : "basic"
 			}
 		],
