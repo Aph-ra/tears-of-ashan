@@ -1,0 +1,66 @@
+{
+	"54tieru" : {
+		"class" : "druid",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"shield"
+		],
+		"texts" : {
+			"name" : "Tieru",
+			"biography" : "A serious Druid who believes unquestioningly in the good of his people, Tieru is appreciated for his loyalty and dedication. He believes firmly in doing what is right, and trusts that Sylanna will give him warning should he stray from the true path. Atypically for the Elves, Tieru has been known to view the wider world, and not merely the forests of his homeland, as worthy of protection.",
+			"specialty" : {
+				"name" : "Speed",
+				"tooltip" : "Creature Bonus: Speed",
+				"description" : "Increases the Speed of allied creatures by 1% per hero level."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/rampart/tieru/portraitSmall.png",
+			"large" : "heroes/rampart/tieru/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Speed.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Speed.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "avenger",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"damageReduction" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "centaur",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

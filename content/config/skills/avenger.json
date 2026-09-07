@@ -1,0 +1,81 @@
+{
+	"avenger" : {
+		"name" : "Avenger",
+		"gainChance" : {
+			"might" : 0,
+			"magic" : 0,
+			"ranger" : 10,
+			"druid" : 6
+		},
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"avengerEnemy" : {
+					"type" : "AVENGER01",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"allOf",
+						"OPPOSITE_SIDE",
+						{
+							"type" : "CREATURE_ALIGNMENT_LIMITER",
+							"alignment" : "evil"
+						}
+					]
+				},
+				"hateTrait" : {
+					"type" : "HATES_TRAIT",
+					"subtype" : "AVENGER01",
+					"val" : 10,
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Avenger}\n\nBasic Avenger makes allied creatures deal 10% more damage to evil-aligned enemy creatures.",
+			"images" : {
+				"small" : "skills/avenger/avengerSmall/1",
+				"medium" : "skills/avenger/avengerMedium/1",
+				"large" : "skills/avenger/avengerLarge/1",
+				"scenarioBonus" : "skills/avenger/avengerBonus/1"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Avenger}\n\nAdvanced Avenger makes allied creatures deal 15% more damage to evil-aligned enemy creatures.",
+			"effects" : {
+				"avengerEnemy" : {
+					"type" : "AVENGER02"
+				},
+				"hateTrait" : {
+					"subtype" : "AVENGER02",
+					"val" : 15
+				}
+			},
+			"images" : {
+				"small" : "skills/avenger/avengerSmall/2",
+				"medium" : "skills/avenger/avengerMedium/2",
+				"large" : "skills/avenger/avengerLarge/2",
+				"scenarioBonus" : "skills/avenger/avengerBonus/2"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Avenger}\n\nExpert Avenger makes allied creatures deal 20% more damage to evil-aligned enemy creatures.",
+			"effects" : {
+				"avengerEnemy" : {
+					"type" : "AVENGER03"
+				},
+				"hateTrait" : {
+					"subtype" : "AVENGER03",
+					"val" : 20
+				}
+			},
+			"images" : {
+				"small" : "skills/avenger/avengerSmall/3",
+				"medium" : "skills/avenger/avengerMedium/3",
+				"large" : "skills/avenger/avengerLarge/3",
+				"scenarioBonus" : "skills/avenger/avengerBonus/3"
+			}
+		}
+	}
+}

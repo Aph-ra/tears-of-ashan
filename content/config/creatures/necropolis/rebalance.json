@@ -82,7 +82,7 @@
 	"core:dreadKnight" : {
 		"abilities" : {
 			"deathStrike" : {
-				"val" : 30
+				"val" : 25
 			}
 		}
 	},
