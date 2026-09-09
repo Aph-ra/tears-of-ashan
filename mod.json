@@ -2,13 +2,20 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra; see website for full list of credits!",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "1.7.04",
+	"version" : "1.7.05",
 	"modType" : "Expansion",
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
 
 	"changelog" : {
+		"Public Beta 1.7.05" : [
+			"Avenger scaling 10/15/20% → 10/20/30%",
+			"Added Fahada (Elementalist, Light Elemental specialist)",
+			"Added Khalida (Elementalist, Light Paragon specialist)",
+			"Added Hedwig (Runemage, Reinforced Runes specialist)",
+			"Fixed Gelare's specialty image"
+		],
 		"Public Beta 1.7.04" : [
 			"Priest 3x Advanced Bless → 2x Expert Bless & Expert Cure",
 			"Dread Knight Death Blow 30% → 25%",
@@ -643,6 +650,8 @@
 
 		"config/heroes/fortress/haggash.json",
 
+		"config/heroes/conflux/fahada.json",
+		"config/heroes/conflux/khalida.json",
 		"config/heroes/conflux/nathir.json",
 		"config/heroes/conflux/sinithala.json",
 		"config/heroes/conflux/stratus.json",
@@ -655,6 +664,7 @@
 		"config/heroes/factory/kastore.json",
 
 		"config/heroes/bulwark/ebba.json",
+		"config/heroes/bulwark/hedwig.json",
 		"config/heroes/bulwark/helmar.json",
 		"config/heroes/bulwark/hrimnir.json",
 		"config/heroes/bulwark/inga.json",
