@@ -1,0 +1,66 @@
+{
+	"54khalida" : {
+		"class" : "elementalist",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"sunBurst"
+		],
+		"texts" : {
+			"name" : "Khalida",
+			"biography" : "Summoned from the depths of the Plane of Magic, Khalida is a beautiful Djinn whose pairing with Fahada has led them both to power and fame. Their relationship developed from comrades, to friends, to lovers. This unusual romance was tolerated by the other Wizards until the Orc Rebellion, when the Circle of Nine became suspicious of any 'mixed' relationship. The two never cared for the petty squabbling when there were far more pressing matters to attend to; thus, they set about their own adventures hand-in-hand.",
+			"specialty" : {
+				"name" : "Light Paragon",
+				"tooltip" : "Secondary Skill Bonus: Light Magic",
+				"description" : "Increases the damage of Light Magic spells by 15 per level."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/conflux/khalida/portraitSmall.png",
+			"large" : "heroes/conflux/khalida/portraitLarge.png",
+			"specialtySmall" : "skills/lightMagic/lightMagicSmall/3.png",
+			"specialtyLarge" : "skills/lightMagic/lightMagicMedium/3.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "lightMagic",
+				"level" : "basic"
+			},
+			{
+				"skill" : "sorcery",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"fireMagicDamage" : {
+					"type" : "SPELL_DAMAGE",
+					"subtype" : "01lightSchool",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 15
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

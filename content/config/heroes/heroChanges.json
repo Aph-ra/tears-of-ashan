@@ -4911,7 +4911,13 @@
 				"min" : 3,
 				"max" : 5
 			}
-		]
+		],
+		"images" : {
+			"small" : "HPS006EL.png",
+			"large" : "HPL006EL.png",
+			"specialtySmall" : "heroes/specialtySmall/Mercury.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Mercury.png"
+		}
 	},
 	"core:grindan" : {
 		"texts" : {

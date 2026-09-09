@@ -42,14 +42,14 @@
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Avenger}\n\nAdvanced Avenger makes allied creatures deal 15% more damage to evil-aligned enemy creatures.",
+			"description" : "{Advanced Avenger}\n\nAdvanced Avenger makes allied creatures deal 20% more damage to evil-aligned enemy creatures.",
 			"effects" : {
 				"avengerEnemy" : {
 					"type" : "AVENGER02"
 				},
 				"hateTrait" : {
 					"subtype" : "AVENGER02",
-					"val" : 15
+					"val" : 20
 				}
 			},
 			"images" : {
@@ -60,14 +60,14 @@
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Avenger}\n\nExpert Avenger makes allied creatures deal 20% more damage to evil-aligned enemy creatures.",
+			"description" : "{Expert Avenger}\n\nExpert Avenger makes allied creatures deal 30% more damage to evil-aligned enemy creatures.",
 			"effects" : {
 				"avengerEnemy" : {
 					"type" : "AVENGER03"
 				},
 				"hateTrait" : {
 					"subtype" : "AVENGER03",
-					"val" : 20
+					"val" : 30
 				}
 			},
 			"images" : {
