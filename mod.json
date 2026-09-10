@@ -2,13 +2,24 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra; see website for full list of credits!",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "1.7.05",
+	"version" : "1.7.06",
 	"modType" : "Expansion",
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
 
 	"changelog" : {
+		"Public Beta 1.7.06" : [
+			"Elf Wardancer Damage 3–5 → 4–6",
+			"Switched Akaris for Reem (Ranger, Centaur specialist)",
+			"Added Anga (Battle Mage, PLACEHOLDER specialist)",
+			"Added Ishi (Battle Mage, PLACEHOLDER specialist)",
+			"Added Minasli (Elementalist, Dark Elemental specialist)",
+			"Fahada can now also purify Dark Elementals into Light Elementals",
+			"Fixed Dark Cloud spell cost",
+			"Fixed Summon Fire & Earth Elemental spell scaling",
+			"Fixed bit depth of multiple hero portraits"
+		],
 		"Public Beta 1.7.05" : [
 			"Avenger scaling 10/15/20% → 10/20/30%",
 			"Added Fahada (Elementalist, Light Elemental specialist)",
@@ -440,6 +451,7 @@
 
 	"softDepends" : [
 		"hota.gamebalance.creatures",
+		"hota.gamebalance.spells",
 		"hota.gamebalance.startingsarmies"
 	],
 
@@ -605,10 +617,10 @@
 		"config/heroes/castle/maeve.json",
 		"config/heroes/castle/murazel.json",
 
-		"config/heroes/rampart/akaris.json",
 		"config/heroes/rampart/anwen.json",
 		"config/heroes/rampart/dirael.json",
 		"config/heroes/rampart/findan.json",
+		"config/heroes/rampart/reem.json",
 		"config/heroes/rampart/sanctus.json",
 		"config/heroes/rampart/tieru.json",
 		"config/heroes/rampart/vinrael.json",
@@ -644,7 +656,9 @@
 		"config/heroes/dungeon/shadya.json",
 		"config/heroes/dungeon/yrbeth.json",
 
+		"config/heroes/stronghold/anga.json",
 		"config/heroes/stronghold/gotai.json",
+		"config/heroes/stronghold/ishi.json",
 		"config/heroes/stronghold/kragh.json",
 		"config/heroes/stronghold/urghat.json",
 
@@ -652,6 +666,7 @@
 
 		"config/heroes/conflux/fahada.json",
 		"config/heroes/conflux/khalida.json",
+		"config/heroes/conflux/minasli.json",
 		"config/heroes/conflux/nathir.json",
 		"config/heroes/conflux/sinithala.json",
 		"config/heroes/conflux/stratus.json",

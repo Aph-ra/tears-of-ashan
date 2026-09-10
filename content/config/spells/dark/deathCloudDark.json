@@ -62,7 +62,7 @@
 			},
 			"none" : {
 				"description" : "{Death Cloud}\n\nCauses a cloud of dark energy to engulf the selected target and any units adjacent to the target location.\n\nEach unit receives (Spell Power x 20 + 20) damage. Does not affect undead or non-living units.\n",
-				"cost" : 16,
+				"cost" : 15,
 				"power" : 20,
 				"effects" : {}
 			},

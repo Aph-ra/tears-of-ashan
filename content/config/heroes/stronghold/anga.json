@@ -1,0 +1,66 @@
+{
+	"52anga" : {
+		"class" : "battlemage",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"chainLightning"
+		],
+		"texts" : {
+			"name" : "Anga",
+			"biography" : "The twins Anga and Ishi share similar features but very different characters. Anga is the most feisty and outspoken of the two, and is as quick to anger as she is quick to forget past offenses... her own included. Since she has started walking the path of the Shaman, she found a strong affinity for Father Sky, one of the guardian spirits of the Orcs. As a result, she is sometimes known as the \"Sky Daughter\" among her tribe.",
+			"specialty" : {
+				"name" : "Chain Lightning",
+				"tooltip" : "Spell Bonus: Chain Lightning",
+				"description" : "Casts Chain Lightning with damage increased by 5% for every N hero levels, where N is the level of the target creature."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/stronghold/anga/portraitSmall.png",
+			"large" : "heroes/stronghold/anga/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Chain Lightning.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Chain Lightning.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "airMagic",
+				"level" : "basic"
+			},
+			{
+				"skill" : "warcries",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"lightningBolt" : {
+					"subtype" : "spell.lightningBolt",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 10
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 4,
+				"max" : 7
+			}
+		]
+	}
+}

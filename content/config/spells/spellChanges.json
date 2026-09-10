@@ -92,20 +92,16 @@
 				}
 			},
 			"none" : {
-				"description" : "{Destroy Undead}\n\nCasts a divine light that attempts to destroy all enemy undead units on the battlefield.\n\nEach unit receives (Spell Power x 20 + 10) damage.",
-				"cost" : 14
+				"description" : "{Destroy Undead}\n\nCasts a divine light that attempts to destroy all enemy undead units on the battlefield.\n\nEach unit receives (Spell Power x 20 + 10) damage."
 			},
 			"basic" : {
-				"description" : "{Basic Destroy Undead}\n\nCasts a divine light that attempts to destroy all enemy undead units on the battlefield.\n\nEach unit receives (Spell Power x 20 + 10) damage.",
-				"cost" : 12
+				"description" : "{Basic Destroy Undead}\n\nCasts a divine light that attempts to destroy all enemy undead units on the battlefield.\n\nEach unit receives (Spell Power x 20 + 10) damage."
 			},
 			"advanced" : {
-				"description" : "{Advanced Destroy Undead}\n\nCasts a divine light that attempts to destroy all enemy undead units on the battlefield.\n\nEach unit receives (Spell Power x 20 + 20) damage.",
-				"cost" : 12
+				"description" : "{Advanced Destroy Undead}\n\nCasts a divine light that attempts to destroy all enemy undead units on the battlefield.\n\nEach unit receives (Spell Power x 20 + 20) damage."
 			},
 			"expert" : {
-				"description" : "{Expert Destroy Undead}\n\nCasts a divine light that attempts to destroy all enemy undead units on the battlefield.\n\nEach unit receives (Spell Power x 20 + 50) damage.",
-				"cost" : 12
+				"description" : "{Expert Destroy Undead}\n\nCasts a divine light that attempts to destroy all enemy undead units on the battlefield.\n\nEach unit receives (Spell Power x 20 + 50) damage."
 			}
 		}
 	},
@@ -583,6 +579,13 @@
 	},
 	"core:fireElemental" : {
 		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"summon" : {
+						"summonByHealth" : false
+					}
+				}
+			},
 			"none" : {
 				"description" : "{Fire Elemental}\n\nSummons a stack of (Spell Power x 1) Fire Elementals to aid you in combat.\n\nOnce summoned, other types of Elementals may also be summoned.",
 				"cost" : 40,
@@ -607,6 +610,13 @@
 	},
 	"core:earthElemental" : {
 		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"summon" : {
+						"summonByHealth" : false
+					}
+				}
+			},
 			"none" : {
 				"description" : "{Earth Elemental}\n\nSummons a stack of (Spell Power x 1) Earth Elementals to aid you in combat.\n\nOnce summoned, other types of Elementals may also be summoned.",
 				"cost" : 50,

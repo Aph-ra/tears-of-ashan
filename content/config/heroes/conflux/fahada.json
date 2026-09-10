@@ -12,7 +12,7 @@
 			"specialty" : {
 				"name" : "Light Elem.",
 				"tooltip" : "Creature Bonus: Light Elementals",
-				"description" : "Increases the Speed of allied Light Elementals by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up). Can upgrade Psychic Elementals, Magic Elementals, and Astral Elementals to Light Elementals."
+				"description" : "Increases the Speed of allied Light Elementals by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up). Can upgrade Psychic, Magic, Astral, and Dark Elementals to Light Elementals."
 			}
 		},
 
@@ -51,6 +51,9 @@
 				},
 				"astral2light" : {
 					"subtype" : "astralElementalAU"
+				},
+				"dark2light" : {
+					"subtype" : "darkElementalAU"
 				}
 			}
 		},
