@@ -1,0 +1,79 @@
+{
+	"56minasli" : {
+		"class" : "elementalist",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"deathCloudDark"
+		],
+		"texts" : {
+			"name" : "Minasli",
+			"biography" : "Minasli was the type of child who takes things apart to find out how they work. Studying magic was a slow process for her because she was more interested in deconstructing spells than learning new ones, much to her tutors' annoyance. Her natural curiosity and thoroughness served her well in the end, though: impressed by the knowledge she has acquired, Headmaster Theodorus has recently asked Minasli to become the new teacher of Magical theory.",
+			"specialty" : {
+				"name" : "Dark Elem.",
+				"tooltip" : "Creature Bonus: Dark Elementals",
+				"description" : "Increases the Speed of allied Dark Elementals by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up). Can upgrade Psychic, Magic, Astral, and Light Elementals to Dark Elementals."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/conflux/minasli/portraitSmall.png",
+			"large" : "heroes/conflux/minasli/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Dark Elementals.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Dark Elementals.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "darkMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "darkElementalAU",
+			"creatureLevel" : 6,
+			"stepSize" : 20,
+			"base" : {
+				"addInfo" : "creature.darkElementalAU",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			"bonuses" : {
+				"psychic2dark" : {
+					"subtype" : "creature.psychicElemental"
+				},
+				"magic2dark" : {
+					"subtype" : "creature.magicElemental"
+				},
+				"astral2dark" : {
+					"subtype" : "astralElementalAU"
+				},
+				"light2dark" : {
+					"subtype" : "lightElementalAU"
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "darkElementalAU",
+				"min" : 1,
+				"max" : 1
+			}
+		]
+	}
+}

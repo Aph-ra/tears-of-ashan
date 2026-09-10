@@ -1,11 +1,11 @@
 {
-	"02akaris" : {
+	"02reem" : {
 		"class" : "ranger",
 		"female" : true,
 		"special" : false,
 		"texts" : {
-			"name" : "Akaris",
-			"biography" : "",
+			"name" : "Reem",
+			"biography" : "Reem is a Centaur, one of the many species created by the Wizards of the Seven Cities. Half-human and half-horse, Centaurs served their masters honourably as scouts as mobile archery in their armies. But once there was no more wars to fight, the Centaurs were given less and less noble tasks, and ended up no better than slaves, carrying messages and pulling carts. Once a soldier in the Wizard army, Reem herself didn't escape this fate. Despite the strictness of her military training, she has kept her free will and reserves her loyalty for the one who will free her people from servitude.",
 			"specialty" : {
 				"name" : "Centaurs",
 				"tooltip" : "Creature Bonus: Centaurs",
@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"small" : "heroes/rampart/akaris/portraitSmall.png",
-			"large" : "heroes/rampart/akaris/portraitLarge.png",
+			"small" : "heroes/rampart/reem/portraitSmall.png",
+			"large" : "heroes/rampart/reem/portraitLarge.png",
 			"specialtySmall" : "heroes/specialtySmall/Centaurs.png",
 			"specialtyLarge" : "heroes/specialtyLarge/Centaurs.png"
 		},

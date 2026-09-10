@@ -1,0 +1,79 @@
+{
+	"53ishi" : {
+		"class" : "battlemage",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"stoneSkin"
+		],
+		"texts" : {
+			"name" : "Ishi",
+			"biography" : "The twins Anga and Ishi share similar features but very different characters, Ishi being the wisest and most reserved of the two. She never acts on impulse and tries to act as a mediator to solve the conflicts regularly arising within the tribe. Since she has started walking the path of the Shaman, Ishi has developed a strong bond with Mother Earth, one of the guardian spirits of the Orcs. Because of it, she is sometimes known as the \"Earth Daughter\".",
+			"specialty" : {
+				"name" : "Stone Skin",
+				"tooltip" : "Spell Bonus: Stone Skin",
+				"description" : "Casts Stone Skin with effect increased by 2 for every 5 hero levels."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/stronghold/ishi/portraitSmall.png",
+			"large" : "heroes/stronghold/ishi/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Stone Skin.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Stone Skin.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "earthMagic",
+				"level" : "basic"
+			},
+			{
+				"skill" : "diplomacy",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"stoneSkin" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"val" : 2,
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.stoneSkin"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 5
+					}
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 4,
+				"max" : 7
+			}
+		]
+	}
+}

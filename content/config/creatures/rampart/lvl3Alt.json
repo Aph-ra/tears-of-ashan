@@ -9,8 +9,8 @@
 		"attack" : 9,
 		"defense" : 7,
 		"damage" : {
-			"min" : 3,
-			"max" : 5
+			"min" : 4,
+			"max" : 6
 		},
 		"hitPoints" : 20,
 		"speed" : 9,
