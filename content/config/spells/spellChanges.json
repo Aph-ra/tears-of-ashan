@@ -1,5 +1,5 @@
 {
-// ORIGINAL SPELLS
+	// ORIGINAL SPELLS
 	"core:armageddon" : {
 		"levels" : {
 			"none" : {
@@ -528,7 +528,7 @@
 			"02darkSchool" : true
 		}
 	},
-// SUMMON ELEMENTAL SPELLS
+	// SUMMON ELEMENTAL SPELLS
 	"core:airElemental" : {
 		"levels" : {
 			"none" : {
@@ -639,7 +639,7 @@
 			}
 		}
 	},
-// NEW OLD SPELLS
+	// NEW OLD SPELLS
 	"new-old-spells-plus:confusion" : {
 		"levels" : {
 			"none" : {
