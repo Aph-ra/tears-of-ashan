@@ -195,6 +195,36 @@
 			"wince" : "creatures/archangelSeraph/Archangel_hit"
 		}
 	},
+	"tears-of-ashan:landsknechtAU" : {
+		"sound" : {
+			"attack" : "creatures/landsknecht/attack",
+			"defend" : "creatures/landsknecht/defend",
+			"killed" : "creatures/landsknecht/death",
+			"move" : "creatures/landsknecht/move",
+			"wince" : "creatures/landsknecht/hit",
+			"shoot" : "creatures/landsknecht/cleave"
+		}
+	},
+	"tears-of-ashan:swordMasterAU" : {
+		"sound" : {
+			"attack" : "creatures/landsknecht/attack",
+			"defend" : "creatures/landsknecht/defend",
+			"killed" : "creatures/landsknecht/death",
+			"move" : "creatures/landsknecht/move",
+			"wince" : "creatures/landsknecht/hit",
+			"shoot" : "creatures/landsknecht/cleave"
+		}
+	},
+	"tears-of-ashan:doppelsoldnerAU" : {
+		"sound" : {
+			"attack" : "creatures/landsknecht/attack",
+			"defend" : "creatures/landsknecht/defend",
+			"killed" : "creatures/landsknecht/death",
+			"move" : "creatures/landsknecht/move",
+			"wince" : "creatures/landsknecht/hit",
+			"shoot" : "creatures/landsknecht/cleave"
+		}
+	},
 	// RAMPART
 	"core:centaur" : {
 		"sound" : {

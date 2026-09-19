@@ -1,0 +1,66 @@
+{
+	"52menan" : {
+		"class" : "warlock",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"magicArrow"
+		],
+		"texts" : {
+			"name" : "Menan",
+			"biography" : "Menan inherited the title of Lord of the Clans when his predecessor mysteriously disappeared. Under his leadership, Ygg-Chall has been at peace, and the balance between the various clans has been maintained. Menan dreams of returning his people on the surface, and someday make peace with the Sylvan Elves. He definitely knows it is impossible for the Dark Elves to turn away from Malassa, but truly hopes they might return to the Forests of Irollan he knew as a small child.",
+			"specialty" : {
+				"name" : "Earth Paragon",
+				"tooltip" : "Secondary Skill Bonus: Earth Magic",
+				"description" : "Increases the damage of Earth Magic spells by 15 per level."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/dungeon/menan/portraitSmall.png",
+			"large" : "heroes/dungeon/menan/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Expert Earth Magic.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Expert Earth Magic.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "earthMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"fireMagicDamage" : {
+					"type" : "SPELL_DAMAGE",
+					"subtype" : "earth",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 15
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}
