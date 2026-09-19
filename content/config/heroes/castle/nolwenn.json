@@ -1,0 +1,58 @@
+{
+	"06nolwenn" : {
+		"class" : "knight",
+		"female" : true,
+		"special" : false,
+		"texts" : {
+			"name" : "Nolwenn",
+			"biography" : "Nolwenn na Feidh is a kind and caring woman. Though she once sought to appease her father, Seamus, his erratic and violent behaviour caused her to flee and take refuge in Talonguard. Now allied with Ivan, the young Duke of Griffin, she seeks to avenge the man her father once was and bring the now-maddened Duke of Stag to justice.",
+			"specialty" : {
+				"name" : "Landsknechts",
+				"tooltip" : "Creature Bonus: Landsknechts",
+				"description" : "Increases the Speed of allied Landsknechts, Sword Masters, and Doppelsoldner by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/castle/nolwenn/portraitSmall.png",
+			"large" : "heroes/castle/nolwenn/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Landsknechts.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Landsknechts.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "landsknechtAU",
+			"creatureLevel" : 7,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	}
+}

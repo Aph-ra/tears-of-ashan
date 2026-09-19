@@ -165,8 +165,28 @@
 						]
 					]
 				},
+				"dwellingLvl4" : {
+					"cost" : {
+						"gold" : 2000,
+						"wood" : 5,
+						"ore" : 5,
+						"mercury" : 2,
+						"sulfur" : 2,
+						"crystal" : 2,
+						"gems" : 2
+					}
+				},
 				"dwellingUpLvl4" : {
-					"description" : "The Mage Tower allows you to recruit Arch Magi and Battle Magi."
+					"description" : "The Mage Tower allows you to recruit Arch Magi and Battle Magi.",
+					"cost" : {
+						"gold" : 2000,
+						"wood" : 0,
+						"ore" : 0,
+						"mercury" : 3,
+						"sulfur" : 3,
+						"crystal" : 3,
+						"gems" : 3
+					}
 				},
 				"dwellingUp2Lvl4" : {
 					"name" : "Upg. Mage Tower",
@@ -179,8 +199,24 @@
 						]
 					]
 				},
+				"dwellingLvl5" : {
+					"cost" : {
+						"gold" : 2000,
+						"wood" : 5,
+						"ore" : 5,
+						"crystal" : 3,
+						"gems" : 3
+					}
+				},
 				"dwellingUpLvl5" : {
-					"description" : "The Altar of Wishes allows you to recruit Master Genies and Genie Viziers."
+					"description" : "The Altar of Wishes allows you to recruit Master Genies and Genie Viziers.",
+					"cost" : {
+						"gold" : 2500,
+						"wood" : 5,
+						"ore" : 5,
+						"crystal" : 3,
+						"gems" : 3
+					}
 				},
 				"dwellingUp2Lvl5" : {
 					"name" : "Upg. Altar of Wishes",
@@ -193,8 +229,26 @@
 						]
 					]
 				},
+				"dwellingLvl6" : {
+					"cost" : {
+						"gold" : 3500,
+						"wood" : 5,
+						"ore" : 5,
+						"mercury" : 5,
+						"sulfur" : 5,
+						"crystal" : 0,
+						"gems" : 0
+					}
+				},
 				"dwellingUpLvl6" : {
-					"description" : "The Golden Pavilion allows you to recruit Naga Queens and Naga Ranis."
+					"description" : "The Golden Pavilion allows you to recruit Naga Queens and Naga Ranis.",
+					"cost" : {
+						"gold" : 3500,
+						"mercury" : 0,
+						"sulfur" : 0,
+						"crystal" : 5,
+						"gems" : 5
+					}
 				},
 				"dwellingUp2Lvl6" : {
 					"name" : "Upg. Golden Pavilion",

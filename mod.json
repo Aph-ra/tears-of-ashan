@@ -2,13 +2,29 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra; see website for full list of credits!",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "1.7.07",
+	"version" : "1.7.08",
 	"modType" : "Expansion",
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
 
 	"changelog" : {
+		"Public Beta 1.7.08" : [
+			"Added Heroes VII sounds to all Landsknechts in Ashan Sounds",
+			"Enchanted Spring Cost 2000/10C → 2000/10O",
+			"Unicorn Glade Cost 4000/5W/5O/10G → 4000/5W/5O/5C",
+			"Upg. Unicorn Glade Cost 3000/5G → 3000/5O/5C",
+			"Mage Tower Cost 2000/5W/5O/5M/5S/5C/5G → 2000/5W/5O/2M/2S/2C/2G",
+			"Upg. Mage Tower Cost 2000/5W → 2000/3M/3S/3C/3G",
+			"Altar of Wishes Cost 2500/5W/5O/6C/6G → 2000/5W/5O/3C/3G",
+			"Upg. Altar of Wishes Cost 2000/5W → 2500/5W/5O/3C/3G",
+			"Golden Pavilion Cost 4000/5W/2O/2M/2S/2C/2G → 3500/5W/5O/5M/5S",
+			"Upg. Golden Pavilion Cost 3000/3M/3S/3C/3G → 3500/5C/5G",
+			"Added Nolwenn (Knight, Landsknecht specialist)",
+			"Added Menan (Warlock, Earth Paragon specialist)",
+			"Added Kengi (Barbarian, First Aid specialist)",
+			"Minor hero identifier adjustments"
+		],
 		"Public Beta 1.7.07" : [
 			"Guardsman Speed 6 → 7",
 			"Seraphim gain Aura of Purity; Prayer scaling → 6 Power",
@@ -18,10 +34,10 @@
 			"Behemoth Cost 1500 → 2000 + 1C",
 			"Ancient Behemoth & Ghost Behemoth Cost 3000 + 2C → 3500 + 2C",
 			"Hydra Cost 2500 + 1S → 2000 + 1S",
-			"Chaos Hydra & Ruinous Hydra Cost 4000 + 2S → 3500 + 2C",
+			"Chaos Hydra & Ruinous Hydra Cost 4000 + 2S → 3500 + 2S",
 			"Anga Basic Air Magic & Basic Warcries → Basic Air Magic & Basic Offense",
 			"Minor AI Value & Fight Value adjustments",
-			"Fixed Seraphim battle def"
+			"Fixed Seraph battle def"
 		],
 		"Public Beta 1.7.06" : [
 			"Elf Wardancer Damage 3–5 → 4–6",
@@ -322,7 +338,7 @@
 			"Added Heroes VI Cursors as a submod",
 			"Renamed Ashan Cursors to Heroes V Cursors"
 		],
-		"Public Beta 1.5.1" : [
+		"Public Beta 1.5.10" : [
 			"Fixed Horde's Anger and Battlecry"
 		],
 		"Public Beta 1.5.00" : [
@@ -633,6 +649,7 @@
 		"config/heroes/castle/martina.json",
 		"config/heroes/castle/maeve.json",
 		"config/heroes/castle/murazel.json",
+		"config/heroes/castle/nolwenn.json",
 
 		"config/heroes/rampart/anwen.json",
 		"config/heroes/rampart/dirael.json",
@@ -669,6 +686,7 @@
 		"config/heroes/necropolis/naadir.json",
 
 		"config/heroes/dungeon/euryale.json",
+		"config/heroes/dungeon/menan.json",
 		"config/heroes/dungeon/raelag.json",
 		"config/heroes/dungeon/shadya.json",
 		"config/heroes/dungeon/yrbeth.json",
@@ -676,6 +694,7 @@
 		"config/heroes/stronghold/anga.json",
 		"config/heroes/stronghold/gotai.json",
 		"config/heroes/stronghold/ishi.json",
+		"config/heroes/stronghold/kengi.json",
 		"config/heroes/stronghold/kragh.json",
 		"config/heroes/stronghold/urghat.json",
 

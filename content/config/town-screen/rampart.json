@@ -192,6 +192,13 @@
 						]
 					]
 				},
+				"dwellingLvl4" : {
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 10,
+						"crystal" : 0
+					}
+				},
 				"dwellingUpLvl4" : {
 					"description" : "The Enchanted Spring allows you to recruit Silver Pegasi and Gold Pegasi."
 				},
@@ -220,8 +227,23 @@
 						]
 					]
 				},
+				"dwellingLvl6" : {
+					"cost" : {
+						"gold" : 4000,
+						"wood" : 5,
+						"ore" : 5,
+						"crystal" : 5,
+						"gems" : 0
+					}
+				},
 				"dwellingUpLvl6" : {
-					"description" : "The Unicorn Glade allows you to recruit War Uniorns and Pristine Unicorns."
+					"description" : "The Unicorn Glade allows you to recruit War Uniorns and Pristine Unicorns.",
+					"cost" : {
+						"gold" : 3000,
+						"ore" : 5,
+						"crystal" : 5,
+						"gems" : 0
+					}
 				},
 				"dwellingUp2Lvl6" : {
 					"name" : "Upg. Unicorn Glade",
