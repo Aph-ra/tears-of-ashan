@@ -1898,5 +1898,14 @@
 	"hero.tears-of-ashan.54kengi.name": "Kengi",
 	"hero.tears-of-ashan.54kengi.specialty.description": "Gdy bohater ma założony namiot medyka, jego jednostki otrzymują premię 1% do punktów życia za każdy poziom bohatera.",
 	"hero.tears-of-ashan.54kengi.specialty.name": "Pierwsza pomoc",
-	"hero.tears-of-ashan.54kengi.specialty.tooltip": "Premia dla zdolności: Pierwsza pomoc"
+	"hero.tears-of-ashan.54kengi.specialty.tooltip": "Premia dla zdolności: Pierwsza pomoc",
+	"creatures.core.hobgoblin.bonus.castDwarfBloodlust": "{Czarodziej}\nMoże rzucić na siebie zaawansowaną żądzę krwi (Moc 3), nie tracąc tury.",
+	"creatures.core.magog.bonus.fireball": "{Atak Kulą ognia}\nTa jednostka atakuje kulą ognia.",
+	"creatures.core.ogreMage.bonus.castsBloodlust": "{Czarodziej}\nMoże rzucić zaawansowaną żądzę krwi (Moc 6).",
+	"creatures.tears-of-ashan.lilimAU.bonus.spellLikeAttack": "{Atak Piekielnymi kolcami}\nTa jednostka atakuje piekielnymi kolcami.",
+	"creatures.tears-of-ashan.ogreBruteAU.bonus.castOgreFrenzy": "{Czarodziej}\nMoże rzucić na siebie zaawansowany Szał (Moc 3), nie tracąc tury.",
+	"creatures.tears-of-ashan.succubusAU.bonus.spellLikeAttack": "{Atak Piekielnymi kolcami}\nTa jednostka atakuje piekielnymi kolcami.",
+	"creatures.tears-of-ashan.succubusSeducerAU.bonus.spellLikeAttack": "{Atak Piekielnymi kolcami}\nTa jednostka atakuje piekielnymi kolcami.",
+	"hero.tears-of-ashan.52zouleika.biography": "Przodkiem Zouleiki był słynny czarodziej Agar, twórca pierwszego Minotaura. Odziedziczyła po nim wpływową pozycję w rządzie Kręgu Siedmiu Miast. Jak wszyscy członkowie jej znamienitego rodu, Zouleika od urodzenia była związana z minotaurem, który chronił ją niczym cień. Gdy minotaur został niesłusznie oskarżony o degenerację i stracony, jego ostatnie słowa brzmiały: „Pani, uwolnij mój lud!”. Głęboko dotknięta utratą swego towarzysza więzi, który wiernie chronił ją przez pierwsze dwadzieścia lat jej życia, Zouleika opuściła Siedem Miast i udała się na Wyspy Pao. Z czasem stała się potężną szamanką i przysięgła, że nie spocznie, dopóki Czarodzieje nie uwolnią wszystkich swoich tworów, pozwalając im samodzielnie kształtować własny los.",
+	"hero.tears-of-ashan.52zouleika.name": "Zouleika"
 }
