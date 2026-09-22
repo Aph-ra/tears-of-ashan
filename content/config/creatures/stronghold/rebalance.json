@@ -44,19 +44,19 @@
 				],
 				"stacking" : "battlecry"
 			},
-			"bloodlustAttack" : {
-				"type" : "SPELL_BEFORE_ATTACK",
-				"subtype" : "bloodlust",
-				"val" : 50,
-				"addInfo" : [
-					2,
-					0
-				],
-				"description" : "{Cast Before Attack}\nHas a 50% chance to cast Advanced Bloodlust before attacking (1 Power).",
+			"castDwarfBloodlust" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "dwarfBloodlust",
+				"val" : 2,
+				"description" : "{Spellcaster}\nCan cast Advanced Bloodlust (3 Power) on self without skipping a turn.",
 				"icon" : "zvs/Lib1.res/spellsSOD/bloodlust2.png"
 			},
-			"spellPower" : {
+			"dwarfBloodlustPower" : {
 				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 3
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
 				"val" : 1
 			}
 		}
@@ -189,7 +189,7 @@
 		"speed" : 6,
 		"aiValue" : 700,
 		"fightValue" : 700,
-		"abilities" : {
+		"abilities#override" : {
 			"battlecryBonus" : {
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.attack",
@@ -206,6 +206,21 @@
 					}
 				],
 				"stacking" : "battlecry"
+			},
+			"castsBloodlust" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.bloodlust",
+				"val" : 2,
+				"description" : "{Spellcaster}\nCan cast Advanced Bloodlust (6 Power).",
+				"icon" : "zvs/Lib1.res/spellsSOD/bloodlust2.png"
+			},
+			"castsCount" : {
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"castLength" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
 			}
 		}
 	},

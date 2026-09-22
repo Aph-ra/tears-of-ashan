@@ -1,0 +1,120 @@
+{
+	"52zouleika" : {
+		"class" : "witch",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"curse"
+		],
+		"texts" : {
+			"name" : "Zouleika",
+			"biography" : "Zouleika's ancestor was the celebrated wizard Agar, creator of the first Minotaur, and she inherited his influential position in the ruling Circle of the Seven Cities. As with all those born to her prestigious family, Zouleika was bonded from birth to a Minotaur who protected her like a shadow. Wrongly accused of degeneration, her Minotaur guard was put down. His last words to her were, \"Mistress, set my people free!\" Deeply affected by the loss of her bond-mate, who had protected her faithfully for the first twenty years of her life, Zouleika left the Seven Cities and headed for the Pao Islands. She has since become a powerful Shaman, and sworn not to rest until the Wizards have released all of their creations to forge their own fate.",
+			"specialty" : {
+				"name" : "Curse",
+				"tooltip" : "Spell Bonus: Curse",
+				"description" : "Casts Curse with effect increased by 1 for level 3 creatures, by 2 for level 4 creatures, by 3 for level 5 creatures, by 4 for level 6 creatures, and by 8 for level 7 creatures."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/fortress/zouleika/portraitSmall.png",
+			"large" : "heroes/fortress/zouleika/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Curse.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Curse.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "occultism",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"curseLvl3" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.curse",
+					"addInfo" : 1,
+					"limiters": [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 3,
+							"maxlevel" : 4
+						}
+					]
+				},
+				"curseLvl4" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.curse",
+					"addInfo" : 2,
+					"limiters": [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 4,
+							"maxlevel" : 5
+						}
+					]
+				},
+				"curseLvl5" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.curse",
+					"addInfo" : 3,
+					"limiters": [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 5,
+							"maxlevel" : 6
+						}
+					]
+				},
+				"curseLvl6" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.curse",
+					"addInfo" : 4,
+					"limiters": [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 6,
+							"maxlevel" : 7
+						}
+					]
+				},
+				"curseLvl7" : {
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"subtype" : "spell.curse",
+					"addInfo" : 8,
+					"limiters": [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 7,
+							"maxlevel" : 11
+						}
+					]
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

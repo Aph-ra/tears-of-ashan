@@ -12,7 +12,7 @@
 			"specialty" : {
 				"name" : "Reinforced Runes",
 				"tooltip" : "Creature Bonus: Reinforced Runes",
-				"description" : "Allied creatures suffer 5% less physical Damage per Rune affecting them."
+				"description" : "Decreases the physical Damage received by allied creatures by 5% per Rune affecting them."
 			}
 		},
 

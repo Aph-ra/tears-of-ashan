@@ -86,7 +86,7 @@
 		"hitPoints" : 15,
 		"fightValue" : 300,
 		"aiValue" : 250,
-		"abilities" : {
+		"abilities#override" : {
 			"demonic" : {
 				"type" : "DEMONIC"
 			},
@@ -101,6 +101,16 @@
 				"subtype" : "holyWord",
 				"val" : 25,
 				"hidden" : true
+			},
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"fireball" : {
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.fireballAbility",
+				"val" : 1,
+				"description" : "{Fireball Attack}\nThis unit attacks with Fireball.",
+				"icon" : "zvs/Lib1.res/magogattack.png"
 			}
 		}
 	},

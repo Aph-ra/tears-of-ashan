@@ -1300,7 +1300,7 @@
 			"specialty" : {
 				"name" : "Gems",
 				"tooltip" : "Resource Bonus: Gems",
-				"description" : "Increases kingdom's gem production by 1 for every 5 levels per day."
+				"description" : "Increases kingdom's gem production by 1 for every 4 levels per day."
 			}
 		},
 		"specialty#override" : {
@@ -1311,7 +1311,7 @@
 					"val" : 1,
 					"updater" : {
 						"type" : "TIMES_HERO_LEVEL",
-						"stepSize" : 5
+						"stepSize" : 4
 					}
 				}
 			}
@@ -2021,7 +2021,7 @@
 			"specialty" : {
 				"name" : "Mercury",
 				"tooltip" : "Resource Bonus: Mercury",
-				"description" : "Increases kingdom's mercury production by 1 for every 5 levels per day."
+				"description" : "Increases kingdom's mercury production by 1 for every 4 levels per day."
 			}
 		},
 		"specialty#override" : {
@@ -2032,7 +2032,7 @@
 					"val" : 1,
 					"updater" : {
 						"type" : "TIMES_HERO_LEVEL",
-						"stepSize" : 5
+						"stepSize" : 4
 					}
 				}
 			}
@@ -3127,7 +3127,7 @@
 			"specialty" : {
 				"name" : "Sulfur",
 				"tooltip" : "Resource Bonus: Sulfur",
-				"description" : "Increases kingdom's sulfur production by 1 for every 5 levels per day."
+				"description" : "Increases kingdom's sulfur production by 1 for every 4 levels per day."
 			}
 		},
 		"specialty#override" : {
@@ -3138,7 +3138,7 @@
 					"val" : 1,
 					"updater" : {
 						"type" : "TIMES_HERO_LEVEL",
-						"stepSize" : 5
+						"stepSize" : 4
 					}
 				}
 			}
@@ -3796,7 +3796,7 @@
 			"specialty" : {
 				"name" : "Crystal",
 				"tooltip" : "Resource Bonus: Crystal",
-				"description" : "Increases kingdom's crystal production by 1 for every 5 levels per day."
+				"description" : "Increases kingdom's crystal production by 1 for every 4 levels per day."
 			}
 		},
 		"specialty#override" : {
@@ -3807,7 +3807,7 @@
 					"val" : 1,
 					"updater" : {
 						"type" : "TIMES_HERO_LEVEL",
-						"stepSize" : 5
+						"stepSize" : 4
 					}
 				}
 			}
@@ -4253,6 +4253,9 @@
 		]
 	},
 	"core:styg" : {
+		"spellbook#override" : [
+			"diseaseTOA"
+		],
 		"army#override" : [
 			{
 				"creature" : "gnoll",
@@ -4301,6 +4304,9 @@
 		]
 	},
 	"core:tiva" : {
+		"spellbook#override" : [
+			"shield"
+		],
 		"army#override" : [
 			{
 				"creature" : "gnoll",
@@ -4879,7 +4885,7 @@
 			"specialty" : {
 				"name" : "Mercury",
 				"tooltip" : "Resource Bonus: Mercury",
-				"description" : "Increases kingdom's mercury production by 1 for every 5 levels per day."
+				"description" : "Increases kingdom's mercury production by 1 for every 4 levels per day."
 			}
 		},
 		"specialty#override" : {
@@ -4890,7 +4896,7 @@
 					"val" : 1,
 					"updater" : {
 						"type" : "TIMES_HERO_LEVEL",
-						"stepSize" : 5
+						"stepSize" : 4
 					}
 				}
 			}
@@ -5132,7 +5138,7 @@
 			"specialty" : {
 				"name" : "Sulfur",
 				"tooltip" : "Resource Bonus: Sulfur",
-				"description" : "Increases kingdom's sulfur production by 1 for every 5 levels per day."
+				"description" : "Increases kingdom's sulfur production by 1 for every 4 levels per day."
 			}
 		},
 		"specialty#override" : {
@@ -5143,7 +5149,7 @@
 					"val" : 1,
 					"updater" : {
 						"type" : "TIMES_HERO_LEVEL",
-						"stepSize" : 5
+						"stepSize" : 4
 					}
 				}
 			}

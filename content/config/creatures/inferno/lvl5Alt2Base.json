@@ -58,7 +58,9 @@
 			"spellLikeAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "mdtHateSpike",
-				"val" : 1
+				"val" : 1,
+				"description" : "{Hell Spikes Attack}\nThis unit attacks with Hell Spikes.",
+				"icon" : "bonuses/hellSpikes01.png"
 			}
 		},
 		"graphics" : {

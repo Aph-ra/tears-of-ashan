@@ -2,13 +2,27 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra; see website for full list of credits!",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "1.7.08",
+	"version" : "1.7.09",
 	"modType" : "Expansion",
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
 
 	"changelog" : {
+		"Public Beta 1.7.09" : [
+			"Fixed Magogs' Fireball Attack description",
+			"Fixed Succubi's Hell Spike Attack icons and descriptions",
+			"Hobgoblins can now cast Advanced Bloodlust without skipping a turn",
+			"Ogre Brutes can now cast Advanced Frenzy without skipping a turn",
+			"Resource specialists +1 resource every 5 → 4 levels",
+			"Grok automatically Gates Expert Imps/Gogs/Hell Hounds → Advanced Imps/Gogs, Basic Hell Hounds",
+			"Added future Ashan Sounds compatibility for TOA Cathedral",
+			"Added Zouleika (Witch, Curse specialist)",
+			"Styg Shield → Disease",
+			"Tiva Stone Skin → Shield",
+			"Added Aslaug (Runemage, Gems specialist)",
+			"Added Haegeir (Runemage, Exorcist specialist)"
+		],
 		"Public Beta 1.7.08" : [
 			"Added Heroes VII sounds to all Landsknechts in Ashan Sounds",
 			"Enchanted Spring Cost 2000/10C → 2000/10O",
@@ -607,6 +621,7 @@
 		"config/spells/abilities/forbearance.json",
 		"config/spells/abilities/gremlinRepair.json",
 		"config/spells/abilities/hatespike.json",
+		"config/spells/abilities/ogreFrenzy.json",
 		"config/spells/abilities/paokaiLightning.json"
 	],
 
@@ -699,6 +714,7 @@
 		"config/heroes/stronghold/urghat.json",
 
 		"config/heroes/fortress/haggash.json",
+		"config/heroes/fortress/zouleika.json",
 
 		"config/heroes/conflux/fahada.json",
 		"config/heroes/conflux/khalida.json",
@@ -714,7 +730,9 @@
 		"config/heroes/factory/ixchel.json",
 		"config/heroes/factory/kastore.json",
 
+		"config/heroes/bulwark/aslaug.json",
 		"config/heroes/bulwark/ebba.json",
+		"config/heroes/bulwark/haegeir.json",
 		"config/heroes/bulwark/hedwig.json",
 		"config/heroes/bulwark/helmar.json",
 		"config/heroes/bulwark/hrimnir.json",

@@ -1,0 +1,27 @@
+{
+	"name" : "Cathedral Compatibility Sounds",
+	"author" : "Aphra",
+	"contact" : "",
+	"description" : "Compatibility layer for TOA Cathedral mod.",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "",
+	"modType" : "Compatibility",
+	"version" : "1.0.0",
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+
+	"conflicts" : [
+		"new-sfx-sounds"
+	],
+
+	"depends" : [
+		"toa-cathedral-town"
+	],
+
+	"creatures" : [
+		"config/creatures.json"
+	]
+}
