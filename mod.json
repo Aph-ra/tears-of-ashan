@@ -2,13 +2,24 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra; see website for full list of credits!",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "1.7.09",
+	"version" : "1.7.10",
 	"modType" : "Expansion",
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
 
 	"changelog" : {
+		"Public Beta 1.7.10" : [
+			"Fixed Magogs' Fireball Attack not working properly",
+			"Rebalanced Factory's creatures (see website)",
+			"Upg. Hydra Pond Cost fixed and altered 15000/10W/10O/20S → 15000/0W/15O/15S",
+			"Mammoth Stalls Cost 4000/15W → 4000/10W",
+			"Hay Bins Cost 2000 → 2000/5W",
+			"Upg. Frosthome Cost 15000/10W/10O/20G → 15000/10W/10O/10G",
+			"Tavin, Murdoch, and Frederick are no longer special by default",
+			"Fixed Haegeir's specialty; allied units start combat with Basic Runes of Exorcism",
+			"Updated dependencies"
+		],
 		"Public Beta 1.7.09" : [
 			"Fixed Magogs' Fireball Attack description",
 			"Fixed Succubi's Hell Spike Attack icons and descriptions",
@@ -114,7 +125,7 @@
 			"Disabled HOTA's Runes secondary skill",
 			"Siedi of Runes now grants Basic Runelore",
 			"Altar of Runes now grants heroes with Runelore temporary access to Expert Runes when defending this town in siege combat; Cost 1000/2C/2G → 3000/5C/5G",
-			"All Diplomacy specialists are SPECIAL by default and can be enabled/disabled via a new submod",
+			"All Diplomacy specialists are special by default and can be enabled/disabled via a new submod",
 			"All Fortune specialists have been changed to Luck specialists and now grant +1 Luck passively",
 			"All Haste and Prayer specialists now cast their specialist spells with effect increased by 1 for every 7 hero levels.",
 			"All Bloodlust, Precision, and Stone Skin specialists now cast their specialist spells with effect increased by 2 for every 5 hero levels.",
@@ -457,6 +468,7 @@
 	"conflicts" : [
 		"andruids-expansion",
 		"hirki-plus-patch",
+		"hota.factory.factorycampaignheroesinmaps",
 		"lotrd-townscreens",
 		"medusa-mod",
 		"more-secondary",
@@ -480,6 +492,7 @@
 		"hota.confluxvaultofashes",
 		"hota.cove",
 		"hota.factory",
+		"hota.factory.bonuses icons",
 		"hota.gamebalance.heroes",
 		"hota.gamebalance.skills.firstaid",
 		"hota.heroes3datapatch",
@@ -488,6 +501,7 @@
 		"hota.mapsupport",
 		"hota.neutralCreatures",
 		"hota.newgraphics",
+		"hota.wastelandTerrain",
 		"market-of-time",
 		"new-old-spells-plus",
 		"vcmi-extras.bonusicons.bonus icons"
@@ -495,6 +509,7 @@
 
 	"softDepends" : [
 		"hota.gamebalance.creatures",
+		"hota.gamebalance.heroes",
 		"hota.gamebalance.spells",
 		"hota.gamebalance.startingsarmies"
 	],
@@ -612,6 +627,7 @@
 		"config/spells/runelore/runeOfThunderclap.json",
 		"config/spells/runelore/runeOfDragonform.json",
 		"config/spells/runelore/runeOfResurrection.json",
+		"config/spells/runelore/haegeirRuneOfExorcism.json",
 		"config/spells/runelore/ingaRuneOfDragonform.json",
 		"config/spells/runelore/ingaRuneOfElementalImmunity.json",
 		"config/spells/runelore/ingaRuneOfEtherealness.json",

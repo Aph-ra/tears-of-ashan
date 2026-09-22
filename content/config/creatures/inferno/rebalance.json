@@ -108,7 +108,7 @@
 			"fireball" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.fireballAbility",
-				"val" : 1,
+				"val" : 0,
 				"description" : "{Fireball Attack}\nThis unit attacks with Fireball.",
 				"icon" : "zvs/Lib1.res/magogattack.png"
 			}

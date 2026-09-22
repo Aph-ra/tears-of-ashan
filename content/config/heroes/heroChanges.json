@@ -5287,6 +5287,12 @@
 			"stepSize" : 30
 		}
 	},
+	"hota.factory:09tavin" : {
+		"special" : false
+	},
+	"hota.factory:10murdoch" : {
+		"special" : false
+	},
 	"hota.factory:11celestine" : {
 		"texts" : {
 			"specialty" : {
@@ -5377,6 +5383,26 @@
 				}
 			}
 		}
+	},
+	"hota.factory:19frederick" : {
+		"special" : false,
+		"army#override" : [
+			{
+				"creature" : "halfling",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "automaton",
+				"min" : 2,
+				"max" : 3
+			},
+			{
+				"creature" : "automaton",
+				"min" : 2,
+				"max" : 3
+			}
+		]
 	},
 	//BULWARK
 	"hota.bulwark:02oidana" : {

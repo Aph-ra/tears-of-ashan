@@ -1,8 +1,156 @@
 {
+	"core:halfling" : {
+		"shots" : 12
+	},
+	"hota.factory:hotaMechanic" : {
+		"hitPoints" : 15,
+		"aiValue" : 210,
+		"fightValue" : 210
+	},
+	"hota.factory:hotaEngineer" : {
+		"hitPoints" : 15,
+		"defense" : 6,
+		"aiValue" : 210,
+		"fightValue" : 210
+	},
+	"hota.factory:armadillo" : {
+		"attack" : 6,
+		"hitPoints" : 20,
+		"aiValue" : 220,
+		"fightValue" : 205,
+		"abilities" : {
+			"attackReduction" : {
+				"type" : "ENEMY_ATTACK_REDUCTION",
+				"val" : 20
+			},
+			"wastelandMovement" : {
+				"subtype" : "heroMovementLand",
+				"type" : "MOVEMENT",
+				"val" : 200,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "CREATURE_TERRAIN_LIMITER",
+						"terrain" : "wasteland"
+					}
+				],
+				"propagator" : "HERO",
+				"description" : "{Wasteland Native}\nGrants a bonus of 200 extra movement points when traversing wasteland.",
+				"icon" : "zvs/Lib1.res/terrainbonus.png"
+			}
+		}
+	},
+	"hota.factory:bellwetherArmadillo" : {
+		"defense" : 12,
+		"aiValue" : 335,
+		"fightValue" : 310,
+		"cost" : {
+			"gold" : 240
+		},
+		"abilities" : {
+			"attackReduction" : {
+				"type" : "ENEMY_ATTACK_REDUCTION",
+				"val" : 35
+			},
+			"wastelandMovement" : {
+				"subtype" : "heroMovementLand",
+				"type" : "MOVEMENT",
+				"val" : 400,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "CREATURE_TERRAIN_LIMITER",
+						"terrain" : "wasteland"
+					}
+				],
+				"propagator" : "HERO",
+				"description" : "{Wasteland Native}\nGrants a bonus of 400 extra movement points when traversing wasteland.",
+				"icon" : "zvs/Lib1.res/terrainbonus.png"
+			}
+		}
+	},
+	"hota.factory:automaton" : {
+		"damage" : {
+			"min" : 8,
+			"max" : 8
+		},
+		"speed" : 7,
+		"aiValue" : 640,
+		"fightValue" : 430
+	},
+	"hota.factory:sentinelAutomaton" : {
+		"attack" : 14,
+		"damage" : {
+			"min" : 10,
+			"max" : 10
+		},
+		"aiValue" : 985,
+		"fightValue" : 705,
+		"cost" : {
+			"gold" : 475
+		},
+		"abilities#override" : {
+			"mechanical" : {
+				"type" : "MECHANICAL"
+			},
+			"firstStrike" : {
+				"type" : "FIRST_STRIKE",
+				"subtype" : "damageTypeMelee"
+			},
+			"castDetonation" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "detonates02",
+				"val" : 0
+			},
+			"detonationPower" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "detonates02",
+				"val" : 25
+			},
+			"castCount" : {
+				"type" : "CASTS",
+				"val" : 1
+			}
+		}
+	},
+	"hota.factory:gunslinger" : {
+		"shots" : 12,
+		"hitPoints" : 50,
+		"aiValue" : 1375,
+		"fightValue" : 1025
+	},
+	"hota.factory:bountyHunter" : {
+		"damage" : {
+			"min" : 18,
+			"max" : 24
+		},
+		"hitPoints" : 70,
+		"aiValue" : 1875,
+		"fightValue" : 1485,
+		"cost" : {
+			"gold" : 1250
+		}
+	},
 	"hota.factory:hotaCouatl" : {
+		"attack" : 18,
+		"defense" : 16,
 		"graphics" : {
 			"iconSmall" : "creatures/factory/iconsSmall/couatl",
 			"iconLarge" : "creatures/factory/iconsBig/couatl"
 		}
+	},
+	"hota.factory:crimsonCouatl" : {
+		"attack" : 24,
+		"defense" : 20,
+		"hitPoints" : 225,
+		"aiValue" : 5625,
+		"fightValue" : 4015
+	},
+	"hota.factory:hotaJuggernaut" : {
+		"attack" : 22,
+		"defense" : 26,
+		"speed" : 9,
+		"aiValue" : 6875,
+		"fightValue" : 5555
 	}
 }

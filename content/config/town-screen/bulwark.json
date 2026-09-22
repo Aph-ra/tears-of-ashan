@@ -158,6 +158,32 @@
 							"val" : 3
 						}
 					]
+				},
+				"horde1" : {
+					"cost" : {
+						"gold" : 2000,
+						"wood" : 5
+					}
+				},
+				"horde1Upgr" : {
+					"cost" : {
+						"gold" : 2000,
+						"wood" : 5
+					}
+				},
+				"dwellingLvl6" : {
+					"cost" : {
+						"gold" : 4000,
+						"wood" : 10
+					}
+				},
+				"dwellingUpLvl7" : {
+					"cost" : {
+						"gold" : 15000,
+						"wood" : 10,
+						"ore" : 10,
+						"gems" : 10
+					}
 				}
 			}
 		}
