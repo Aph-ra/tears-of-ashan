@@ -12,7 +12,7 @@
 			"specialty" : {
 				"name" : "Gate Master",
 				"tooltip" : "Secondary Skill Bonus: Gating",
-				"description" : "Gates a stack of Imps, Gogs, and Hell Hounds at the start of battle."
+				"description" : "Gates (Power x 8) Imps, (Power x 5) Gogs, and (Power x 3) Hell Hounds at the start of battle."
 			}
 		},
 
@@ -36,23 +36,26 @@
 
 		"specialty" : {
 			"bonuses" : {
-				"gateImpStart" : {
-					"subtype" : "spell.gate11Imp",
-					"type" : "OPENING_BATTLE_SPELL",
-					"val" : 10,
-					"valueType" : "BASE_NUMBER"
-				},
 				"gateGogStart" : {
 					"subtype" : "spell.gate21Gog",
 					"type" : "OPENING_BATTLE_SPELL",
 					"val" : 10,
-					"valueType" : "BASE_NUMBER"
+					"valueType" : "BASE_NUMBER",
+					"addInfo" : 2
+				},
+				"gateImpStart" : {
+					"subtype" : "spell.gate11Imp",
+					"type" : "OPENING_BATTLE_SPELL",
+					"val" : 10,
+					"valueType" : "BASE_NUMBER",
+					"addInfo" : 2
 				},
 				"gateHellHoundStart" : {
 					"subtype" : "spell.gate31HellHound",
 					"type" : "OPENING_BATTLE_SPELL",
 					"val" : 10,
-					"valueType" : "BASE_NUMBER"
+					"valueType" : "BASE_NUMBER",
+					"addInfo" : 1
 				}
 			}
 		},

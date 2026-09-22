@@ -1,0 +1,88 @@
+{
+	"ogreFrenzy" : {
+		"name" : "Frenzy",
+		"type" : "ability",
+		"targetType" : "CREATURE",
+		"level" : 4,
+		"power" : 2,
+
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : true,
+			"water" : false
+		},
+
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+
+		"flags" : {
+			"positive" : true,
+			"special" : true
+		},
+
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.MIND_IMMUNITY" : "absolute",
+				"bonus.NON_LIVING" : "absolute",
+				"bonus.MECHANICAL" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.UNDEAD" : "absolute"
+			}
+		},
+
+		"canCastOnSelf" : true,
+		"canCastWithoutSkip" : true,
+		"canCastOnlyOnSelf" : true,
+
+		"graphics" : {
+			"iconEffect" : "SpellInt.def:0:57"
+		},
+
+		"animation" : {
+			"affect" : [
+				"C08SPF0"
+			]
+		},
+
+		"sounds" : {
+			"cast" : "FRENZY"
+		},
+
+		"levels" : {
+			"base" : {
+				"description" : "Target troop's attack rating is increased by 100% of the troop's defense rating and its defense rating is reduced to zero.",
+				"cost" : 16,
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				},
+				"effects" : {
+					"inFrenzy" : {
+						"type" : "IN_FRENZY",
+						"val" : 100,
+						"duration" : "UNTIL_ATTACK"
+					}
+				}
+			},
+			"advanced" : {
+				"description" : "Target troop's attack rating is increased by 150% of the troop's defense rating and its defense rating is reduced to zero.",
+				"power" : 2,
+				"effects" : {
+					"inFrenzy" : {
+						"val" : 150
+					}
+				}
+			},
+			"expert" : {
+				"description" : "Target troop's attack rating is increased by 200% of the troop's defense rating and its defense rating is reduced to zero.",
+				"power" : 2,
+				"effects" : {
+					"inFrenzy" : {
+						"val" : 200
+					}
+				}
+			}
+		}
+	}
+}

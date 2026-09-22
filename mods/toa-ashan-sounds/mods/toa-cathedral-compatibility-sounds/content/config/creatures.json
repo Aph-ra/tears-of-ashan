@@ -1,0 +1,124 @@
+{
+	//CATHEDRAL
+	"toa-cathedral-town:conscriptAU" : {
+		"sound" : {
+			"attack" : "creatures/peasantConscriptBrute/Peasant_attack",
+			"defend" : "creatures/peasantConscriptBrute/Peasant_hit",
+			"killed" : "creatures/peasantConscriptBrute/Peasant_death",
+			"move" : "creatures/peasantConscriptBrute/Peasant_move",
+			"wince" : "creatures/peasantConscriptBrute/Peasant_hit"
+		}
+	},
+	"toa-cathedral-town:torturerAU" : {
+		"sound" : {
+			"attack" : "creatures/footman/Footman_attack",
+			"defend" : "creatures/footman/Footman_hit",
+			"killed" : "creatures/footman/Footman_death",
+			"move" : "creatures/footman/Footman_move",
+			"wince" : "creatures/footman/Footman_hit"
+		}
+	},
+	"toa-cathedral-town:executionerAU" : {
+		"sound" : {
+			"attack" : "creatures/vindicator/Vindicator_attack",
+			"defend" : "creatures/vindicator/Vindicator_hit",
+			"killed" : "creatures/vindicator/Vindicator_death",
+			"move" : "creatures/vindicator/Vindicator_move",
+			"wince" : "creatures/vindicator/Vindicator_hit"
+		}
+	},
+	"toa-cathedral-town:witchHunterAU" : {
+		"sound" : {
+			"attack" : "creatures/archer/Archer_attack",
+			"defend" : "creatures/archer/Archer_hit",
+			"killed" : "creatures/archer/Archer_death",
+			"move" : "creatures/archer/Archer_move",
+			"wince" : "creatures/archer/Archer_hit",
+			"shoot" : "creatures/archer/Archer_ranged_short"
+		}
+	},
+	"toa-cathedral-town:undeadSlayerAU" : {
+		"sound" : {
+			"attack" : "creatures/marksmanCrossbowman/Marksman_attack",
+			"defend" : "creatures/marksmanCrossbowman/Marksman_hit",
+			"killed" : "creatures/marksmanCrossbowman/Marksman_death",
+			"move" : "creatures/marksmanCrossbowman/Marksman_move",
+			"wince" : "creatures/marksmanCrossbowman/Marksman_hit",
+			"shoot" : "creatures/marksmanCrossbowman/Marksman_ranged_short"
+		}
+	},
+	"toa-cathedral-town:earthenChimeraAU" : {
+		"sound" : {
+			"attack" : "creatures/griffin/Griffin_attack",
+			"defend" : "creatures/griffin/Griffin_hit",
+			"killed" : "creatures/griffin/Griffin_death",
+			"move" : "creatures/griffin/Griffin_move",
+			"wince" : "creatures/griffin/Griffin_hit"
+		}
+	},
+	"toa-cathedral-town:fierceChimeraAU" : {
+		"sound" : {
+			"attack" : "creatures/royalGriffin/RoyalGriffin_attack",
+			"defend" : "creatures/royalGriffin/RoyalGriffin_hit",
+			"killed" : "creatures/royalGriffin/RoyalGriffin_death",
+			"move" : "creatures/royalGriffin/RoyalGriffin_move",
+			"wince" : "creatures/royalGriffin/RoyalGriffin_hit"
+		}
+	},
+	"toa-cathedral-town:acolyteAU" : {
+		"sound" : {
+			"attack" : "creatures/priest/Priest_cast",
+			"defend" : "creatures/priest/Priest_hit",
+			"killed" : "creatures/priest/Priest_death",
+			"move" : "creatures/priest/Priest_move",
+			"wince" : "creatures/priest/Priest_hit",
+			"shoot" : "creatures/priest/Priest_ranged"
+		}
+	},
+	"toa-cathedral-town:adeptAU" : {
+		"sound" : {
+			"attack" : "creatures/inquisitorZealot/Cleric_cast",
+			"defend" : "creatures/inquisitorZealot/Cleric_hit",
+			"killed" : "creatures/inquisitorZealot/Cleric_death",
+			"move" : "creatures/inquisitorZealot/Cleric_move",
+			"wince" : "creatures/inquisitorZealot/Cleric_hit",
+			"shoot" : "creatures/inquisitorZealot/Cleric_ranged"
+		}
+	},
+	"toa-cathedral-town:darkPaladinAU" : {
+		"sound" : {
+			"attack" : "creatures/vindicator/Vindicator_attack",
+			"defend" : "creatures/vindicator/Vindicator_hit",
+			"killed" : "creatures/vindicator/Vindicator_death",
+			"move" : "creatures/vindicator/Vindicator_move",
+			"wince" : "creatures/vindicator/Vindicator_hit"
+		}
+	},
+	"toa-cathedral-town:darkTemplarAU" : {
+		"sound" : {
+			"attack" : "creatures/squire/Swordsman_upgrade_attack",
+			"defend" : "creatures/squire/Swordsman_upgrade_hit",
+			"killed" : "creatures/squire/Swordsman_death",
+			"move" : "creatures/squire/Swordsman_move",
+			"wince" : "creatures/squire/Swordsman_upgrade_hit"
+		}
+	},
+	"toa-cathedral-town:avengerAU" : {
+		"sound" : {
+			"attack" : "creatures/angel/Angel_attack_short",
+			"defend" : "creatures/angel/Angel_hit",
+			"killed" : "creatures/angel/Angel_death",
+			"move" : "creatures/angel/Angel_move",
+			"wince" : "creatures/angel/Angel_hit"
+		}
+	},
+	"toa-cathedral-town:punisherAU" : {
+		"sound" : {
+			"attack" : "creatures/archangelSeraph/Archangel_attack_short",
+			"defend" : "creatures/archangelSeraph/Archangel_hit",
+			"killed" : "creatures/archangelSeraph/Archangel_death",
+			"move" : "creatures/archangelSeraph/Archangel_move",
+			"wince" : "creatures/archangelSeraph/Archangel_hit"
+		}
+	}
+}
