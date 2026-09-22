@@ -40,7 +40,7 @@
 					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
 					"subtype" : "spell.curse",
 					"addInfo" : 1,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 3,
@@ -52,7 +52,7 @@
 					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
 					"subtype" : "spell.curse",
 					"addInfo" : 2,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 4,
@@ -64,7 +64,7 @@
 					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
 					"subtype" : "spell.curse",
 					"addInfo" : 3,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 5,
@@ -76,7 +76,7 @@
 					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
 					"subtype" : "spell.curse",
 					"addInfo" : 4,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 6,
@@ -88,7 +88,7 @@
 					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
 					"subtype" : "spell.curse",
 					"addInfo" : 8,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 7,
