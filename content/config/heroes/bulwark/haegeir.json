@@ -12,7 +12,7 @@
 			"specialty" : {
 				"name" : "Exorcist",
 				"tooltip" : "Creature Bonus: Exorcist",
-				"description" : "Allied units are permanently branded with Advanced Runes of Exorcism."
+				"description" : "Allied units start combat with Basic Runes of Exorcism."
 			}
 		},
 
@@ -36,9 +36,10 @@
 
 		"specialty" : {
 			"bonuses" : {
-				"runeOfExorcism" : {
-					"type" : "ENCHANTED",
-					"subtype" : "runeOfExorcism",
+				"haegeirRuneOfExorcism" : {
+					"type" : "OPENING_BATTLE_SPELL",
+					"subtype" : "haegeirRuneOfExorcism",
+					"addInfo" : 1,
 					"val" : 2,
 					"icon" : "skills/runelore/runeloreEffect/runeOfExorcism.png"
 				}
