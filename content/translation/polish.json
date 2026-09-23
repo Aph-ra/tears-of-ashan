@@ -1913,7 +1913,7 @@
 	"hero.tears-of-ashan.52zouleika.specialty.tooltip": "Premia do zaklęcia: Klątwa",
 	"hero.tears-of-ashan.88haegeir.biography": "Haegeir Mordisson jest aktualnym wodzem klanu Grimsteel, choć jego pogodny charakter wcale na to nie wskazuje. Nie daj się jednak zwieść - przydomka „Niedźwiedzie Serce” nie nadano mu z powodu jego przytulnego usposobienia. Jego najstarszy przyjaciel i towarzysz broni, Hathor Głębokostopy, powiedziałby ci, że Haegeir to prosty człowiek, który lubi robić to, w czym jest najlepszy. W jego przypadku oznacza to jedzenie, picie, okaleczanie i zabijanie.",
 	"hero.tears-of-ashan.88haegeir.name": "Haegeir",
-	"hero.tears-of-ashan.88haegeir.specialty.description": "Sprzymierzone jednostki są na stałe naznaczone zaawansowanymi runami Egzorcyzmu.",
+	"hero.tears-of-ashan.88haegeir.specialty.description": "Sprzymierzone jednostki zaczynają walki z podstawową runą Egzorcyzmu.",
 	"hero.tears-of-ashan.88haegeir.specialty.name": "Egzorcyzm",
 	"hero.tears-of-ashan.88haegeir.specialty.tooltip": "Premia dla stworzeń: Egzorcyzm",
 	"hero.tears-of-ashan.89aslaug.biography": "Chłodna i bezlitosna Aslaug „Postrach Elfów” Hathorsdottir jest jedną z najzacieklejszych dowódczyń armii Krasnoludów. Była bardzo młoda, gdy rozpoczęła się Wojna pod Górami, a jej najwcześniejsze wspomnienia to obrazy śmierci i ognia. Owdowiały ojciec, Hathor Orlandsson, wychował ją na wojowniczkę, dzięki czemu Aslaug potrafi doskonale obronić się przed każdym wrogiem. Niestety, brutalne wychowanie sprawiło również, że nie potrafi okazywać innym uczuć ani życzliwości. Jedynym wyjątkiem jest ojciec, którego darzy gorącą miłością.",
@@ -1925,5 +1925,12 @@
 	"spell.tears-of-ashan.ogreFrenzy.description.expert": "Atak wybranego oddziału zostaje zwiększony o 200% wartości obrony, natomiast sama obrona zostaje zredukowana do zera.",
 	"spell.tears-of-ashan.ogreFrenzy.name": "Szał",
 	"mod.toa-ashan-sounds.toa-cathedral-compatibility-sounds.name": "Zgodność dźwiękowa z Katedrą",
-	"mod.toa-ashan-sounds.toa-cathedral-compatibility-sounds.description": "Łatka zapewniająca zgodność z modem Katedry TOA."
+	"mod.toa-ashan-sounds.toa-cathedral-compatibility-sounds.description": "Łatka zapewniająca zgodność z modem Katedry TOA.",
+	"creatures.hota.factory.armadillo.bonus.wastelandMovement": "{Autochton Pustkowi}\nZapewnia dodatkowe 200 punktów ruchu podczas przemierzania pustkowi.",
+	"creatures.hota.factory.bellwetherArmadillo.bonus.wastelandMovement": "{Autochton Pustkowi}\nZapewnia dodatkowe 400 punktów ruchu podczas przemierzania pustkowi.",
+	"spell.tears-of-ashan.haegeirRuneOfExorcism.description.advanced": "{Zaawansowana Runa Egzorcyzmu}\n\nNakłada runę egzorcyzmu na jednostkę oraz wszystkie sprzymierzone jednostki do niej przylegające, usuwając wszystkie negatywne efekty i zapewniając im odporność na negatywne zaklęcia poziomów 1–4 przez 2 tury.",
+	"spell.tears-of-ashan.haegeirRuneOfExorcism.description.basic": "{Podstawowa Runa Egzorcyzmu}\n\nNakłada runę egzorcyzmu na jednostkę, usuwając wszystkie negatywne efekty i zapewniając odporność na negatywne zaklęcia poziomów 1–3 przez 2 tury.",
+	"spell.tears-of-ashan.haegeirRuneOfExorcism.description.expert": "{Mistrzowska Runa Egzorcyzmu}\n\nNakłada runę egzorcyzmu na jednostkę oraz sprzymierzone jednostki do niej przylegające w promieniu dwóch heksów, usuwając wszystkie negatywne efekty i zapewniając im odporność na wszystkie negatywne zaklęcia poziomów przez 3 tury.",
+	"spell.tears-of-ashan.haegeirRuneOfExorcism.description.none": "{Runa Egzorcyzmu}\n\nNakłada runę egzorcyzmu na jednostkę, usuwając wszystkie negatywne efekty i zapewniając odporność na negatywne zaklęcia poziomów 1–3 przez 2 tury.",
+	"spell.tears-of-ashan.haegeirRuneOfExorcism.name": "Runa egzorcyzmu"
 }
