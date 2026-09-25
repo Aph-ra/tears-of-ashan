@@ -1,0 +1,10 @@
+{
+	"name" : "Mute Combat Intro",
+	"description" : "Mutes combat intro music.",
+	"version" : "1.0.0",
+	"author" : "Aphra",
+	"contact" : "",
+	"modType" : "Music",
+	
+	"keepDisabled" : true
+}

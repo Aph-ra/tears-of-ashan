@@ -1,0 +1,14 @@
+{
+	"name" : "Heroes V Devils",
+	"author" : "Aphra",
+	"contact" : "",
+	"description" : "Changes the appearance of Devils to those from Heroes V. Also makes them double wide.",
+	"version" : "1.0.0",
+	"modType" : "Creatures",
+
+	"keepDisabled" : true,
+
+	"creatures" : [
+		"config/creatures.json"
+	]
+}

@@ -2,13 +2,16 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra; see website for full list of credits!",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "1.7.10",
+	"version" : "1.7.11",
 	"modType" : "Expansion",
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
 
 	"changelog" : {
+		"Public Beta 1.7.11" : [
+			"Added Heroes V Devils and Mute Combat Intro submods"
+		],
 		"Public Beta 1.7.10" : [
 			"Fixed Magogs' Fireball Attack not working properly",
 			"Rebalanced Factory's creatures (see website)",
