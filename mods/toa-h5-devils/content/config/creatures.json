@@ -1,0 +1,41 @@
+{
+	"core:devil" : {
+		"doubleWide" : true,
+		"graphics" : {
+			"animation" : "creatures/devil01Battle.def",
+			"map" : "creatures/devil01Map.json",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "creatures/devil01Small.png",
+			"iconLarge" : "creatures/devil01Large.png"
+		}
+	},
+	"core:archDevil" : {
+		"doubleWide" : true,
+		"graphics" : {
+			"animation" : "creatures/devil02Battle.def",
+			"map" : "creatures/devil02Map.json",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "creatures/devil02Small.png",
+			"iconLarge" : "creatures/devil02Large.png"
+		}
+	},
+	"tears-of-ashan:archDemonAU" : {
+		"doubleWide" : true,
+		"graphics" : {
+			"animation" : "creatures/devil03Battle.json",
+			"map" : "creatures/devil03Map.json",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "creatures/devil03Small.png",
+			"iconLarge" : "creatures/devil03Large.png"
+		}
+	}
+}

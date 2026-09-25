@@ -1,0 +1,175 @@
+{
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 9,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 10,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 11,
+			"file" : "devil01-02.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 12,
+			"file" : "devil01-03.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 13,
+			"file" : "devil01-04.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 14,
+			"file" : "devil01-05.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 15,
+			"file" : "devil01-06.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 16,
+			"file" : "devil01-07.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 17,
+			"file" : "devil01-08.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 18,
+			"file" : "devil01-09.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 19,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 20,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 21,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 22,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 23,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 24,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 25,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 26,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 27,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 28,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 29,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 30,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 31,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 32,
+			"file" : "devil01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 33,
+			"file" : "devil01-01.png"
+		}
+	],
+	"basepath" : "creatures/devil01Map/"
+}

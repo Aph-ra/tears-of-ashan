@@ -1930,7 +1930,13 @@
 	"mod.toa-factional-dragons.name" : "Factional Neutral Dragons",
 	"mod.toa-factional-dragons.description" : "Moves Azure Dragons to Bulwark, Crystal Dragons to Tower, Rust Dragons to Fortress, and Faerie Dragons to Rampart.",
 	"mod.toa-h5-cursors.name" : "Heroes V Cursors",
+	"mod.toa-h5-cursors.description" : "Changes cursors to those from Heroes V.",
+	"mod.toa-h5-devils.name" : "Heroes V Devils",
+	"mod.toa-h5-devils.description" : "Changes the appearance of Devils to those from Heroes V. Also makes them double wide.",
 	"mod.toa-h6-cursors.name" : "Heroes VI Cursors",
+	"mod.toa-h6-cursors.description" : "Changes cursors to those from Heroes VI.",
+	"mod.toa-mute-combat-intro.name" : "Mute Combat Intro",
+	"mod.toa-mute-combat-intro.description" : "Mutes combat intro music.",
 	"mod.toa-strong-heroes.name" : "Strong Heroes",
 	"mod.toa-strong-heroes.description" : "Enables Sir Mullich, Gelu, Dracon, and Mutare Drake in random maps. Disables Lord Haart due to him conflicting with Sir Mullich."
 }
