@@ -1,510 +1,510 @@
 {
-    "images": [
-        {
-            "group": 1,
-            "frame": 0,
-            "file": "10035.hkw.png"
-        },
-        {
-            "group": 1,
-            "frame": 1,
-            "file": "10036.hkw.png"
-        },
-        {
-            "group": 1,
-            "frame": 2,
-            "file": "10037.hkw.png"
-        },
-        {
-            "group": 1,
-            "frame": 3,
-            "file": "10038.hkw.png"
-        },
-        {
-            "group": 1,
-            "frame": 4,
-            "file": "10039.hkw.png"
-        },
-        {
-            "group": 1,
-            "frame": 5,
-            "file": "10040.hkw.png"
-        },
-        {
-            "group": 1,
-            "frame": 6,
-            "file": "10041.hkw.png"
-        },
-        {
-            "group": 1,
-            "frame": 7,
-            "file": "10042.hkw.png"
-        },
-        {
-            "group": 1,
-            "frame": 8,
-            "file": "10043.hkw.png"
-        },
-        {
-            "group": 1,
-            "frame": 9,
-            "file": "10035.hkw.png"
-        },
-        {
-            "group": 2,
-            "frame": 0,
-            "file": "10000.hkw.png"
-        },
-        {
-            "group": 2,
-            "frame": 1,
-            "file": "20071.hkw.png"
-        },
-        {
-            "group": 2,
-            "frame": 2,
-            "file": "20072.hkw.png"
-        },
-        {
-            "group": 2,
-            "frame": 3,
-            "file": "20073.hkw.png"
-        },
-        {
-            "group": 2,
-            "frame": 4,
-            "file": "20074.hkw.png"
-        },
-        {
-            "group": 2,
-            "frame": 5,
-            "file": "20073.hkw.png"
-        },
-        {
-            "group": 2,
-            "frame": 6,
-            "file": "20072.hkw.png"
-        },
-        {
-            "group": 2,
-            "frame": 7,
-            "file": "20071.hkw.png"
-        },
-        {
-            "group": 2,
-            "frame": 8,
-            "file": "10000.hkw.png"
-        },
-        {
-            "group": 3,
-            "frame": 0,
-            "file": "10045.hkw.png"
-        },
-        {
-            "group": 3,
-            "frame": 1,
-            "file": "10046.hkw.png"
-        },
-        {
-            "group": 3,
-            "frame": 2,
-            "file": "10047.hkw.png"
-        },
-        {
-            "group": 3,
-            "frame": 3,
-            "file": "10048.hkw.png"
-        },
-        {
-            "group": 3,
-            "frame": 4,
-            "file": "10049.hkw.png"
-        },
-        {
-            "group": 3,
-            "frame": 5,
-            "file": "10050.hkw.png"
-        },
-        {
-            "group": 4,
-            "frame": 0,
-            "file": "10031.hkw.png"
-        },
-        {
-            "group": 4,
-            "frame": 1,
-            "file": "10032.hkw.png"
-        },
-        {
-            "group": 4,
-            "frame": 2,
-            "file": "10033.hkw.png"
-        },
-        {
-            "group": 4,
-            "frame": 3,
-            "file": "10034.hkw.png"
-        },
-        {
-            "group": 4,
-            "frame": 4,
-            "file": "10034.hkw.png"
-        },
-        {
-            "group": 4,
-            "frame": 5,
-            "file": "10034.hkw.png"
-        },
-        {
-            "group": 4,
-            "frame": 6,
-            "file": "10034.hkw.png"
-        },
-        {
-            "group": 4,
-            "frame": 7,
-            "file": "10033.hkw.png"
-        },
-        {
-            "group": 4,
-            "frame": 8,
-            "file": "10032.hkw.png"
-        },
-        {
-            "group": 4,
-            "frame": 9,
-            "file": "10031.hkw.png"
-        },
-        {
-            "group": 5,
-            "frame": 0,
-            "file": "20061.hkw.png"
-        },
-        {
-            "group": 5,
-            "frame": 1,
-            "file": "20062.hkw.png"
-        },
-        {
-            "group": 5,
-            "frame": 2,
-            "file": "20063.hkw.png"
-        },
-        {
-            "group": 5,
-            "frame": 3,
-            "file": "20064.hkw.png"
-        },
-        {
-            "group": 5,
-            "frame": 4,
-            "file": "20065.hkw.png"
-        },
-        {
-            "group": 5,
-            "frame": 5,
-            "file": "20066.hkw.png"
-        },
-        {
-            "group": 5,
-            "frame": 6,
-            "file": "20067.hkw.png"
-        },
-        {
-            "group": 5,
-            "frame": 7,
-            "file": "20068.hkw.png"
-        },
-        {
-            "group": 5,
-            "frame": 8,
-            "file": "20069.hkw.png"
-        },
-        {
-            "group": 7,
-            "frame": 0,
-            "file": "10052.hkw.png"
-        },
-        {
-            "group": 7,
-            "frame": 1,
-            "file": "10053.hkw.png"
-        },
-        {
-            "group": 8,
-            "frame": 0,
-            "file": "10053.hkw.png"
-        },
-        {
-            "group": 8,
-            "frame": 1,
-            "file": "10052.hkw.png"
-        },
-        {
-            "group": 9,
-            "frame": 0,
-            "file": "10052.hkw.png"
-        },
-        {
-            "group": 9,
-            "frame": 1,
-            "file": "10053.hkw.png"
-        },
-        {
-            "group": 10,
-            "frame": 0,
-            "file": "10053.hkw.png"
-        },
-        {
-            "group": 10,
-            "frame": 1,
-            "file": "10052.hkw.png"
-        },
-        {
-            "group": 11,
-            "frame": 0,
-            "file": "10011.hkw.png"
-        },
-        {
-            "group": 11,
-            "frame": 1,
-            "file": "10012.hkw.png"
-        },
-        {
-            "group": 11,
-            "frame": 2,
-            "file": "10013.hkw.png"
-        },
-        {
-            "group": 11,
-            "frame": 3,
-            "file": "10014.hkw.png"
-        },
-        {
-            "group": 11,
-            "frame": 4,
-            "file": "10015.hkw.png"
-        },
-        {
-            "group": 11,
-            "frame": 5,
-            "file": "10016.hkw.png"
-        },
-        {
-            "group": 11,
-            "frame": 6,
-            "file": "10017.hkw.png"
-        },
-        {
-            "group": 11,
-            "frame": 7,
-            "file": "10018.hkw.png"
-        },
-        {
-            "group": 11,
-            "frame": 8,
-            "file": "10019.hkw.png"
-        },
-        {
-            "group": 12,
-            "frame": 0,
-            "file": "10001.hkw.png"
-        },
-        {
-            "group": 12,
-            "frame": 1,
-            "file": "10002.hkw.png"
-        },
-        {
-            "group": 12,
-            "frame": 2,
-            "file": "10003.hkw.png"
-        },
-        {
-            "group": 12,
-            "frame": 3,
-            "file": "10004.hkw.png"
-        },
-        {
-            "group": 12,
-            "frame": 4,
-            "file": "10005.hkw.png"
-        },
-        {
-            "group": 12,
-            "frame": 5,
-            "file": "10006.hkw.png"
-        },
-        {
-            "group": 12,
-            "frame": 6,
-            "file": "10007.hkw.png"
-        },
-        {
-            "group": 12,
-            "frame": 7,
-            "file": "10008.hkw.png"
-        },
-        {
-            "group": 12,
-            "frame": 8,
-            "file": "10009.hkw.png"
-        },
-        {
-            "group": 13,
-            "frame": 0,
-            "file": "10021.hkw.png"
-        },
-        {
-            "group": 13,
-            "frame": 1,
-            "file": "10022.hkw.png"
-        },
-        {
-            "group": 13,
-            "frame": 2,
-            "file": "10023.hkw.png"
-        },
-        {
-            "group": 13,
-            "frame": 3,
-            "file": "10024.hkw.png"
-        },
-        {
-            "group": 13,
-            "frame": 4,
-            "file": "10025.hkw.png"
-        },
-        {
-            "group": 13,
-            "frame": 5,
-            "file": "10026.hkw.png"
-        },
-        {
-            "group": 13,
-            "frame": 6,
-            "file": "10027.hkw.png"
-        },
-        {
-            "group": 13,
-            "frame": 7,
-            "file": "10028.hkw.png"
-        },
-        {
-            "group": 13,
-            "frame": 8,
-            "file": "10029.hkw.png"
-        },
-        {
-            "group": 20,
-            "frame": 0,
-            "file": "10055.hkw.png"
-        },
-        {
-            "group": 20,
-            "frame": 1,
-            "file": "10056.hkw.png"
-        },
-        {
-            "group": 20,
-            "frame": 2,
-            "file": "10057.hkw.png"
-        },
-        {
-            "group": 20,
-            "frame": 3,
-            "file": "10058.hkw.png"
-        },
-        {
-            "group": 20,
-            "frame": 4,
-            "file": "10059.hkw.png"
-        },
-        {
-            "group": 20,
-            "frame": 5,
-            "file": "10060.hkw.png"
-        },
-        {
-            "group": 20,
-            "frame": 6,
-            "file": "10061.hkw.png"
-        },
-        {
-            "group": 20,
-            "frame": 7,
-            "file": "10062.hkw.png"
-        },
-        {
-            "group": 20,
-            "frame": 8,
-            "file": "10063.hkw.png"
-        },
-        {
-            "group": 20,
-            "frame": 9,
-            "file": "10064.hkw.png"
-        },
-        {
-            "group": 20,
-            "frame": 10,
-            "file": "10065.hkw.png"
-        },
-        {
-            "group": 21,
-            "frame": 0,
-            "file": "10057a.hkw.png"
-        },
-        {
-            "group": 21,
-            "frame": 1,
-            "file": "10058a.hkw.png"
-        },
-        {
-            "group": 21,
-            "frame": 2,
-            "file": "10059a.hkw.png"
-        },
-        {
-            "group": 21,
-            "frame": 3,
-            "file": "10060a.hkw.png"
-        },
-        {
-            "group": 21,
-            "frame": 4,
-            "file": "10061a.hkw.png"
-        },
-        {
-            "group": 21,
-            "frame": 5,
-            "file": "10062a.hkw.png"
-        },
-        {
-            "group": 21,
-            "frame": 6,
-            "file": "10063a.hkw.png"
-        },
-        {
-            "group": 21,
-            "frame": 7,
-            "file": "10064a.hkw.png"
-        },
-        {
-            "group": 21,
-            "frame": 8,
-            "file": "2.hkw.png"
-        },
-        {
-            "group": 21,
-            "frame": 9,
-            "file": "10056.hkw.png"
-        },
-        {
-            "group": 21,
-            "frame": 10,
-            "file": "10055.hkw.png"
-        }
-    ],
-    "basepath": "creatures/devil03Battle/"
+	"images" : [
+		{
+			"group" : 1,
+			"frame" : 0,
+			"file" : "10035.hkw.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 1,
+			"file" : "10036.hkw.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 2,
+			"file" : "10037.hkw.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 3,
+			"file" : "10038.hkw.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 4,
+			"file" : "10039.hkw.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 5,
+			"file" : "10040.hkw.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 6,
+			"file" : "10041.hkw.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 7,
+			"file" : "10042.hkw.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 8,
+			"file" : "10043.hkw.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 9,
+			"file" : "10035.hkw.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 0,
+			"file" : "10000.hkw.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 1,
+			"file" : "20071.hkw.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 2,
+			"file" : "20072.hkw.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 3,
+			"file" : "20073.hkw.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 4,
+			"file" : "20074.hkw.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 5,
+			"file" : "20073.hkw.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 6,
+			"file" : "20072.hkw.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 7,
+			"file" : "20071.hkw.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 8,
+			"file" : "10000.hkw.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 0,
+			"file" : "10045.hkw.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 1,
+			"file" : "10046.hkw.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 2,
+			"file" : "10047.hkw.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 3,
+			"file" : "10048.hkw.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 4,
+			"file" : "10049.hkw.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 5,
+			"file" : "10050.hkw.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 0,
+			"file" : "10031.hkw.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 1,
+			"file" : "10032.hkw.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 2,
+			"file" : "10033.hkw.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 3,
+			"file" : "10034.hkw.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 4,
+			"file" : "10034.hkw.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 5,
+			"file" : "10034.hkw.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 6,
+			"file" : "10034.hkw.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 7,
+			"file" : "10033.hkw.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 8,
+			"file" : "10032.hkw.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 9,
+			"file" : "10031.hkw.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 0,
+			"file" : "20061.hkw.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 1,
+			"file" : "20062.hkw.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 2,
+			"file" : "20063.hkw.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 3,
+			"file" : "20064.hkw.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 4,
+			"file" : "20065.hkw.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 5,
+			"file" : "20066.hkw.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 6,
+			"file" : "20067.hkw.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 7,
+			"file" : "20068.hkw.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 8,
+			"file" : "20069.hkw.png"
+		},
+		{
+			"group" : 7,
+			"frame" : 0,
+			"file" : "10052.hkw.png"
+		},
+		{
+			"group" : 7,
+			"frame" : 1,
+			"file" : "10053.hkw.png"
+		},
+		{
+			"group" : 8,
+			"frame" : 0,
+			"file" : "10053.hkw.png"
+		},
+		{
+			"group" : 8,
+			"frame" : 1,
+			"file" : "10052.hkw.png"
+		},
+		{
+			"group" : 9,
+			"frame" : 0,
+			"file" : "10052.hkw.png"
+		},
+		{
+			"group" : 9,
+			"frame" : 1,
+			"file" : "10053.hkw.png"
+		},
+		{
+			"group" : 10,
+			"frame" : 0,
+			"file" : "10053.hkw.png"
+		},
+		{
+			"group" : 10,
+			"frame" : 1,
+			"file" : "10052.hkw.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 0,
+			"file" : "10011.hkw.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 1,
+			"file" : "10012.hkw.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 2,
+			"file" : "10013.hkw.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 3,
+			"file" : "10014.hkw.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 4,
+			"file" : "10015.hkw.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 5,
+			"file" : "10016.hkw.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 6,
+			"file" : "10017.hkw.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 7,
+			"file" : "10018.hkw.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 8,
+			"file" : "10019.hkw.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 0,
+			"file" : "10001.hkw.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 1,
+			"file" : "10002.hkw.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 2,
+			"file" : "10003.hkw.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 3,
+			"file" : "10004.hkw.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 4,
+			"file" : "10005.hkw.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 5,
+			"file" : "10006.hkw.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 6,
+			"file" : "10007.hkw.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 7,
+			"file" : "10008.hkw.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 8,
+			"file" : "10009.hkw.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 0,
+			"file" : "10021.hkw.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 1,
+			"file" : "10022.hkw.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 2,
+			"file" : "10023.hkw.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 3,
+			"file" : "10024.hkw.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 4,
+			"file" : "10025.hkw.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 5,
+			"file" : "10026.hkw.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 6,
+			"file" : "10027.hkw.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 7,
+			"file" : "10028.hkw.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 8,
+			"file" : "10029.hkw.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 0,
+			"file" : "10055.hkw.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 1,
+			"file" : "10056.hkw.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 2,
+			"file" : "10057.hkw.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 3,
+			"file" : "10058.hkw.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 4,
+			"file" : "10059.hkw.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 5,
+			"file" : "10060.hkw.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 6,
+			"file" : "10061.hkw.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 7,
+			"file" : "10062.hkw.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 8,
+			"file" : "10063.hkw.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 9,
+			"file" : "10064.hkw.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 10,
+			"file" : "10065.hkw.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 0,
+			"file" : "10057a.hkw.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 1,
+			"file" : "10058a.hkw.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 2,
+			"file" : "10059a.hkw.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 3,
+			"file" : "10060a.hkw.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 4,
+			"file" : "10061a.hkw.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 5,
+			"file" : "10062a.hkw.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 6,
+			"file" : "10063a.hkw.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 7,
+			"file" : "10064a.hkw.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 8,
+			"file" : "2.hkw.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 9,
+			"file" : "10056.hkw.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 10,
+			"file" : "10055.hkw.png"
+		}
+	],
+	"basepath" : "creatures/devil03Battle/"
 }
