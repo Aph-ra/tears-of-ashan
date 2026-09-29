@@ -1932,5 +1932,11 @@
 	"spell.tears-of-ashan.haegeirRuneOfExorcism.description.basic": "{Podstawowa Runa Egzorcyzmu}\n\nNakłada runę egzorcyzmu na jednostkę, usuwając wszystkie negatywne efekty i zapewniając odporność na negatywne zaklęcia poziomów 1–3 przez 2 tury.",
 	"spell.tears-of-ashan.haegeirRuneOfExorcism.description.expert": "{Mistrzowska Runa Egzorcyzmu}\n\nNakłada runę egzorcyzmu na jednostkę oraz sprzymierzone jednostki do niej przylegające w promieniu dwóch heksów, usuwając wszystkie negatywne efekty i zapewniając im odporność na wszystkie negatywne zaklęcia poziomów przez 3 tury.",
 	"spell.tears-of-ashan.haegeirRuneOfExorcism.description.none": "{Runa Egzorcyzmu}\n\nNakłada runę egzorcyzmu na jednostkę, usuwając wszystkie negatywne efekty i zapewniając odporność na negatywne zaklęcia poziomów 1–3 przez 2 tury.",
-	"spell.tears-of-ashan.haegeirRuneOfExorcism.name": "Runa egzorcyzmu"
+	"spell.tears-of-ashan.haegeirRuneOfExorcism.name": "Runa egzorcyzmu",
+	"mod.toa-h5-cursors.description": "Zmienia kursory na kursory z Heroes V.",
+	"mod.toa-h5-devils.name": "Diabły z Heroes V",
+	"mod.toa-h5-devils.description": "Zmienia wygląd Diabłów na ten z Heroes V. Sprawia również, że zajmują dwa pola szerokości.",
+	"mod.toa-h6-cursors.description": "Zmienia kursory na kursory z Heroes VI.",
+	"mod.toa-mute-combat-intro.name": "Wycisza intro z początku walki",
+	"mod.toa-mute-combat-intro.description": "Wycisza efekt dźwiękowy z początku walki."
 }
