@@ -42,7 +42,7 @@
 				"description" : "{Cast After Attack}\nHas a 40% chance to cast Thunderbolt after attacking (25 Damage per Colossus).",
 				"icon" : "zvs/Lib1.res/thunderbird.png"
 			},
-			"thunderStrength" : {
+			"thunderPower" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "thunderbolt",
 				"val" : 25

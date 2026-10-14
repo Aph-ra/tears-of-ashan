@@ -7,18 +7,18 @@
 		"faction" : "fortress",
 		"level" : 6,
 		"attack" : 14,
-		"defense" : 14,
+		"defense" : 16,
 		"damage" : {
-			"min" : 14,
-			"max" : 18
+			"min" : 16,
+			"max" : 24
 		},
-		"hitPoints" : 80,
+		"hitPoints" : 85,
 		"speed" : 10,
 		"growth" : 2,
 		"aiValue" : 1950,
 		"fightValue" : 1950,
 		"cost" : {
-			"gold" : 1250
+			"gold" : 1200
 		},
 		"advMapAmount" : {
 			"min" : 5,
@@ -39,21 +39,14 @@
 			},
 			"lightningOnAttack" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.paokaiLightning",
+				"subtype" : "lightningBreath",
 				"val" : 100,
-				"description" : "{Lightning Breath}\nStrikes up to 3 enemy targets with Lightning Breath after attacking.",
+				"description" : "{Lightning Breath}\nStrikes up to 3 enemies with Lightning Breath after attacking (6 > 3 > 1 Damage).",
 				"icon" : "zvs/Lib1.res/PrismBreath.png"
 			},
 			"lightningPower" : {
 				"type" : "CREATURE_SPELL_POWER",
-				"val" : 500
-			},
-			"lightningImmunity" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.paokaiLightning",
-				"propagator" : "HERO",
-				"description" : "{Lightning Breath Immunity}\nTEMPORARY IMMUNITY - TO BE REMOVED",
-				"icon" : "zvs/Lib1.res/inactive.png"
+				"val" : 600
 			}
 		},
 		"graphics" : {

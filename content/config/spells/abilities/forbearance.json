@@ -41,7 +41,10 @@
 
 		"levels" : {
 			"base" : {
+				"description" : "{Forbearance}\n\nEnemy units deal -25% Damage to other allied units but +50% Damage to allied Doppelsoldner.",
 				"range" : "X",
+				"cost" : 0,
+				"power" : 0,
 				"battleEffects" : {
 					"forbearance" : {
 						"type" : "core:timed",
@@ -88,30 +91,10 @@
 					"smart" : true
 				}
 			},
-			"none" : {
-				"description" : "Enemy units deal -25% Damage to other allied units but +50% Damage to allied Doppelsoldner.",
-				"cost" : 20,
-				"power" : 1,
-				"effects" : {}
-			},
-			"basic" : {
-				"description" : "Enemy units deal -25% Damage to other allied units but +50% Damage to allied Doppelsoldner.",
-				"cost" : 20,
-				"power" : 1,
-				"effects" : {}
-			},
-			"advanced" : {
-				"description" : "Enemy units deal -25% Damage to other allied units but +50% Damage to allied Doppelsoldner.",
-				"cost" : 20,
-				"power" : 1,
-				"effects" : {}
-			},
-			"expert" : {
-				"description" : "Enemy units deal -25% Damage to other allied units but +50% Damage to allied Doppelsoldner.",
-				"cost" : 20,
-				"power" : 1,
-				"effects" : {}
-			}
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {},
+			"none" : {}
 		}
 	}
 }

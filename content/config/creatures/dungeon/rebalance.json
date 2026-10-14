@@ -64,8 +64,8 @@
 	"core:minotaurKing" : {
 		"attack" : 17,
 		"defense" : 13,
-		"aiValue" : 1200,
-		"fightValue" : 975,
+		"aiValue" : 1350,
+		"fightValue" : 1075,
 		"cost" : {
 			"gold" : 700
 		},

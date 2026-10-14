@@ -95,7 +95,7 @@
 				}
 			},
 			"expert" : {
-				"description" : "{Expert Rune of Mitigation}\n\nPlaces the Rune of Mitigation upon an allied unit and any allied units within 2 hexes of the target, granting them immunity to damaging spells for and 50% magic resistance for 3 turns.",
+				"description" : "{Expert Rune of Mitigation}\n\nPlaces the Rune of Mitigation upon an allied unit and any allied units within 2 hexes of the target, granting them immunity to damaging spells and 50% magic resistance for 3 turns.",
 				"cost" : 18,
 				"power" : 1,
 				"range" : "0,1,2",
@@ -107,7 +107,8 @@
 								"turns" : 3
 							},
 							"mitigationBonus02" : {
-								"val" : 50
+								"val" : 50,
+								"turns" : 3
 							}
 						}
 					}

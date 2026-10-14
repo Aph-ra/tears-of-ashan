@@ -107,6 +107,9 @@
 		"value" : 2000
 	},
 	"core:skullHelmet" : {
+		"text" : {
+			"description" : "{Skull Helmet}\n\nWorn on the head, this item increases your Knowledge skill by +3."
+		},
 		"bonuses" : {
 			"knowledge" : {
 				"val" : 3
@@ -115,6 +118,9 @@
 		"class" : "TREASURE"
 	},
 	"core:helmOfChaos" : {
+		"text" : {
+			"description" : "{Helm of Chaos}\n\nWorn on the head, this item increases your Knowledge skill by +4."
+		},
 		"bonuses" : {
 			"knowledge" : {
 				"val" : 4
@@ -123,6 +129,9 @@
 		"class" : "MINOR"
 	},
 	"core:crownOfTheSupremeMagi" : {
+		"text" : {
+			"description" : "{Crown of the Supreme Magi}\n\nWorn on the head, this item increases your Knowledge skill by +5."
+		},
 		"bonuses" : {
 			"knowledge" : {
 				"val" : 5
@@ -131,6 +140,9 @@
 		"class" : "MINOR"
 	},
 	"core:hellstormHelmet" : {
+		"text" : {
+			"description" : "{Hellstorm Helmet}\n\nWorn on the head, this item increases your Knowledge skill by +6."
+		},
 		"bonuses" : {
 			"knowledge" : {
 				"val" : 6
@@ -179,6 +191,9 @@
 		"value" : 2000
 	},
 	"core:ribCage" : {
+		"text" : {
+			"description" : "{Rib Cage}\n\nWorn on the torso, this item increases your Power skill by +3."
+		},
 		"bonuses" : {
 			"spellpower" : {
 				"val" : 3
@@ -187,6 +202,9 @@
 		"class" : "TREASURE"
 	},
 	"core:scalesOfTheGreaterBasilisk" : {
+		"text" : {
+			"description" : "{Scales of the Greater Basilisk}\n\nWorn on the torso, this item increases your Power skill by +4."
+		},
 		"bonuses" : {
 			"spellpower" : {
 				"val" : 4
@@ -195,6 +213,9 @@
 		"class" : "MINOR"
 	},
 	"core:tunicOfTheCyclopsKing" : {
+		"text" : {
+			"description" : "{Tunic of the Cyclops King}\n\nWorn on the torso, this item increases your Power skill by +5."
+		},
 		"bonuses" : {
 			"spellpower" : {
 				"val" : 5
@@ -203,6 +224,9 @@
 		"class" : "MINOR"
 	},
 	"core:breastplateOfBrimstone" : {
+		"text" : {
+			"description" : "{Breastplate of Brimstone}\n\nWorn on the torso, this item increases your Power skill by +6."
+		},
 		"bonuses" : {
 			"spellpower" : {
 				"val" : 6
