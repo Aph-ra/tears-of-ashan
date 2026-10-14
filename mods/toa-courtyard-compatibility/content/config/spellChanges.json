@@ -15,5 +15,17 @@
 			"rising" : true,
 			"special" : true
 		}
+	},
+	"courtyard:deathGrasp" : {
+		"school" : {
+			"fire" : false,
+			"02darkSchool" : true
+		}
+	},
+	"courtyard:pacifism" : {
+		"school" : {
+			"air" : false,
+			"01lightSchool" : true
+		}
 	}
 }

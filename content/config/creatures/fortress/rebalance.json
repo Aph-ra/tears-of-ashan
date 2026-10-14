@@ -71,8 +71,8 @@
 		"fightValue" : 1040
 	},
 	"core:wyvern" : {
-		"aiValue" : 1450,
-		"fightValue" : 1150,
+		"aiValue" : 1425,
+		"fightValue" : 1075,
 		"cost" : {
 			"gold" : 775
 		},
@@ -84,6 +84,7 @@
 		}
 	},
 	"core:wyvernMonarch" : {
+		"attack" : 16,
 		"damage" : {
 			"min" : 20,
 			"max" : 24
@@ -92,11 +93,14 @@
 		"aiValue" : 1950,
 		"fightValue" : 1950,
 		"cost" : {
-			"gold" : 1250
+			"gold" : 1200
 		},
 		"abilities" : {
 			"regenerates" : {
 				"type" : "HP_REGENERATION",
+				"val" : 50
+			},
+			"poison" : {
 				"val" : 50
 			}
 		}

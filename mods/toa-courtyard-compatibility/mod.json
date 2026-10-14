@@ -2,7 +2,7 @@
 	"name" : "Courtyard Compatibility",
 	"author" : "Aphra",
 	"contact" : "",
-	"description" : "Compatibility layer for Courtyard mod. Changes all instances of Reconstruction the the TOA version.",
+	"description" : "Compatibility layer for Courtyard mod. Changes all instances of Reconstruction the the TOA version, moves Pacifism to Light Magic, and moves Death Grasp to Dark Magic.",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "",
 	"modType" : "Compatibility",

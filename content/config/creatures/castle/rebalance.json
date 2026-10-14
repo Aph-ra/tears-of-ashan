@@ -18,6 +18,24 @@
 		"fightValue" : 600,
 		"cost" : {
 			"gold" : 550
+		},
+		"abilities" : {
+			"castHolyWord" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "holyWord",
+				"val" : 3,
+				"description" : "{Spellcaster}\nCan cast Expert Holy Word (25% Power).",
+				"icon" : "bonuses/holyWord.png"
+			},
+			"holyWordPower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"subtype" : "holyWord",
+				"val" : 25
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 1
+			}
 		}
 	},
 	"core:angel" : {

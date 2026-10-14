@@ -1,14 +1,27 @@
 {
 	"name" : "Tears of Ashan",
 	"author" : "Aphra; see website for full list of credits!",
-	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "1.7.11",
+	"contact" : "https://sites.google.com/view/tearsofashan/home",
+	"version" : "1.7.12",
 	"modType" : "Expansion",
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
 
 	"changelog" : {
+		"Public Beta 1.7.12" : [
+			"Zealots can cast Expert Holy Word (25% Power)",
+			"Wyvern Monarch Attack 14 → 16; Poison 30% → 50%",
+			"Paokai Defense 14 → 16; Damage 14–18 → 16–24; Health 80 → 85; Lightning Breath 5 > 3 > 1 → 6 > 3 > 1",
+			"Wyvern Monarch & Paokai Cost 1250 → 1200",
+			"Minor AI Value & Fight Value adjustments",
+			"Minor sound adjustments",
+			"Updated Lightning Breath to work with VCMI 1.8.0 - it will still damage your own units if playing on VCMI 1.7.5!",
+			"Added specialty images to Heroes V Devils submod",
+			"Moved Pacifism to Light Magic & Death Grasp to Dark Magic in Courtyard Compatiblity submod",
+			"Updated incorrect artifact text",
+			"Updated website link"
+		],
 		"Public Beta 1.7.11" : [
 			"Added Heroes V Devils and Mute Combat Intro submods"
 		],
@@ -640,8 +653,8 @@
 		"config/spells/abilities/forbearance.json",
 		"config/spells/abilities/gremlinRepair.json",
 		"config/spells/abilities/hatespike.json",
-		"config/spells/abilities/ogreFrenzy.json",
-		"config/spells/abilities/paokaiLightning.json"
+		"config/spells/abilities/lightningBreath.json",
+		"config/spells/abilities/ogreFrenzy.json"
 	],
 
 	"factions" : [
@@ -918,6 +931,14 @@
 		"config/university.json",
 		"config/witchHut.json"
 	],
+
+	"scripts" : {
+		"core:damage" : {
+			"patches" : {
+				"append" : "lightningBreathPatch.lua"
+			}
+		}
+	},
 
 	"settings" : {
 		"combat" : {

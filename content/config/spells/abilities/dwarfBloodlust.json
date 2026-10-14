@@ -50,8 +50,9 @@
 
 		"levels" : {
 			"base" : {
-				"description" : "Increases the selected friendly unit's attack strength for hand-to-hand attacks by 6.",
-				"cost" : 5,
+				"description" : "{Bloodlust}\n\nIncreases the selected friendly unit's attack strength for hand-to-hand attacks by 6.",
+				"cost" : 0,
+				"power" : 0,
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true
@@ -66,25 +67,10 @@
 					}
 				}
 			},
-			"advanced" : {
-				"description" : "Increases the selected friendly unit's attack strength for hand-to-hand attacks by 6.",
-				"power" : 2,
-				"effects" : {
-					"primarySkill" : {
-						"val" : 6
-					}
-				}
-			},
-			"expert" : {
-				"description" : "Increases the attack strength for hand-to-hand attacks of all friendly units by 6.",
-				"power" : 2,
-				"range" : "X",
-				"effects" : {
-					"primarySkill" : {
-						"val" : 6
-					}
-				}
-			}
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {},
+			"none" : {}
 		}
 	}
 }

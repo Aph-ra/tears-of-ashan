@@ -1,0 +1,65 @@
+{
+	"lightningBreath" : {
+		"type" : "ability",
+		"targetType" : "CREATURE",
+		"name" : "Lightning Breath",
+		"school" : {
+			"air" : true,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+		"level" : 3,
+		"power" : 1,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"animation" : {
+			"affect" : [ {"defName":"C03SPA0", "verticalPosition":"bottom"}, "C11SPA1" ],
+			"ray" : {
+				"jaggedness": 0.2,
+				"hopDelay": 100,
+				"width": 16,
+				"colors": [
+					{ "start": [ 100, 140, 255,  96 ], "end": [ 100, 140, 255,  48 ] },
+					{ "start": [ 255, 255, 255, 255 ], "end": [ 255, 255, 255, 224 ] }
+				]
+			}
+		},
+		"flags" : {
+			"damage" : true,
+			"negative" : true,
+			"nonMagical" : true,
+			"special" : true
+		},
+		"targetCondition" : {},
+
+		"graphics" : {},
+
+		"sounds" : {
+			"cast" : "CHAINLTE"
+		},
+
+		"levels" : {
+			"base" : {
+				"description" : "{Lightning Breath}\n\nDeals (Power) damage to 1–3 troops.",
+				"cost" : 0,
+				"range" : "0",
+				"power" : 0,
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage",
+						"chainFactor" : 0.5,
+						"chainLength" : 3
+					}
+				},
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {},
+			"none" : {}
+		}
+	}
+}

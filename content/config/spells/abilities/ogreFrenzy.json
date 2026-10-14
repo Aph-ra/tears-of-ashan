@@ -51,8 +51,9 @@
 
 		"levels" : {
 			"base" : {
-				"description" : "Target troop's attack rating is increased by 100% of the troop's defense rating and its defense rating is reduced to zero.",
-				"cost" : 16,
+				"description" : "{Frenzy}\n\nTarget troop's attack rating is increased by 100% of the troop's defense rating and its defense rating is reduced to zero.",
+				"cost" : 0,
+				"power" : 0,
 				"range" : "0",
 				"targetModifier" : {
 					"smart" : true
@@ -65,24 +66,10 @@
 					}
 				}
 			},
-			"advanced" : {
-				"description" : "Target troop's attack rating is increased by 150% of the troop's defense rating and its defense rating is reduced to zero.",
-				"power" : 2,
-				"effects" : {
-					"inFrenzy" : {
-						"val" : 150
-					}
-				}
-			},
-			"expert" : {
-				"description" : "Target troop's attack rating is increased by 200% of the troop's defense rating and its defense rating is reduced to zero.",
-				"power" : 2,
-				"effects" : {
-					"inFrenzy" : {
-						"val" : 200
-					}
-				}
-			}
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {},
+			"none" : {}
 		}
 	}
 }
